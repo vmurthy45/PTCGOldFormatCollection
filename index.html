@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#EE2B39">
+<title>Vig's Pokémon Old Format Collection</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23fff'/%3E%3Cpath d='M2 32a30 30 0 0 1 60 0z' fill='%23EE2B39'/%3E%3Crect x='2' y='29' width='60' height='6' fill='%233B4048'/%3E%3Ccircle cx='32' cy='32' r='9' fill='%23fff' stroke='%233B4048' stroke-width='4'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --red:#EE2B39; --red-dark:#C81E2B; --charcoal:#3B4048; --charcoal-dark:#2B2F35;
+    --ink:#2b2f35; --muted:#7a828d; --line:#e2c9cc; --bg:#f5f2f2; --card:#ffffff;
+    --band-a:#fdeced; --band-b:#f8f5f5; --cnt-bg:#fbd9dc; --steel:#5a6470;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg); color:var(--ink); -webkit-font-smoothing:antialiased;
+    padding-bottom:env(safe-area-inset-bottom);
+  }
+  header{
+    position:sticky; top:0; z-index:20; background:var(--red); color:#fff;
+    padding:0; box-shadow:0 2px 10px rgba(200,30,43,.28);
+  }
+  .head-inner{
+    max-width:820px; margin:0 auto; display:flex; align-items:center; gap:12px;
+    padding:13px 16px; padding-top:calc(13px + env(safe-area-inset-top));
+  }
+  header svg{width:40px; height:40px; flex:0 0 auto; filter:drop-shadow(0 1px 2px rgba(0,0,0,.25))}
+  header h1{font-size:18px; margin:0; font-weight:700; letter-spacing:.2px; line-height:1.15}
+  header .sub{font-size:12px; opacity:.85; margin-top:1px}
+  /* thin charcoal accent line under header, echoing pokeball seam */
+  .seam{height:4px; background:var(--charcoal); box-shadow:inset 0 1px 0 rgba(255,255,255,.12)}
+  .wrap{max-width:820px; margin:0 auto; padding:12px 12px 40px}
+  .controls{display:flex; flex-direction:column; gap:10px; margin-bottom:12px}
+  .search{
+    width:100%; padding:12px 14px; font-size:16px; border:1px solid var(--line);
+    border-radius:12px; background:#fff; color:var(--ink); outline:none;
+  }
+  .search:focus{border-color:var(--red); box-shadow:0 0 0 3px rgba(238,43,57,.15)}
+  .filters{display:flex; flex-wrap:wrap; gap:8px}
+  .chip{
+    padding:7px 13px; border-radius:999px; border:1px solid var(--line);
+    background:#fff; color:var(--red-dark); font-size:13px; font-weight:600; cursor:pointer;
+    white-space:nowrap; user-select:none; transition:background .12s,color .12s,border-color .12s;
+  }
+  .chip:hover{border-color:var(--red)}
+  .chip.active{background:var(--red); color:#fff; border-color:var(--red)}
+  .stats{font-size:13px; color:var(--muted); margin:2px 2px 12px}
+  .deck{
+    background:var(--card); border:1px solid var(--line); border-radius:14px;
+    margin-bottom:14px; overflow:hidden; box-shadow:0 1px 3px rgba(59,64,72,.07);
+  }
+  .deck-head{
+    display:flex; align-items:center; justify-content:space-between; gap:10px;
+    padding:13px 15px; cursor:pointer; background:var(--red); color:#fff;
+    border-bottom:3px solid var(--charcoal);
+  }
+  .deck-head .title{font-weight:700; font-size:15px}
+  .deck-head .meta{font-size:12px; opacity:.9; font-weight:500; display:flex; align-items:center; gap:8px}
+  .deck-head .arrow{transition:transform .2s; font-size:12px; opacity:.95}
+  .deck.collapsed .arrow{transform:rotate(-90deg)}
+  .deck.collapsed .cards{display:none}
+  .deck.collapsed .deck-head{border-bottom:none}
+  .cards{padding:4px 0}
+  .row{
+    display:grid; grid-template-columns:34px 1fr auto; gap:8px; align-items:center;
+    padding:9px 15px; border-top:1px solid var(--band-b); font-size:14px;
+  }
+  .row:first-child{border-top:none}
+  .row .cnt{
+    background:var(--cnt-bg); color:var(--red-dark); font-weight:700; text-align:center;
+    border-radius:7px; padding:3px 0; font-size:13px;
+  }
+  .row .nm{font-weight:500}
+  .row .st{color:var(--muted); font-size:12px; font-variant-numeric:tabular-nums; text-align:right}
+  mark{background:#ffe58a; color:inherit; border-radius:3px; padding:0 1px}
+  .empty{text-align:center; color:var(--muted); padding:40px 20px; font-size:15px}
+  /* guide expander */
+  .guidebar{border-top:1px solid var(--band-b); background:var(--band-a)}
+  .guide-btn{
+    width:100%; text-align:left; border:none; background:transparent; cursor:pointer;
+    padding:11px 15px; font-size:13px; font-weight:600; color:var(--red-dark);
+    font-family:inherit;
+  }
+  .guide-btn:hover{background:var(--cnt-bg)}
+  .guide-btn.active{background:var(--cnt-bg)}
+  .guide-panel{display:none; padding:2px 18px 18px; font-size:13.5px; line-height:1.55; color:var(--ink)}
+  .guide-panel.open{display:block; border-top:1px solid var(--band-b)}
+  .guide-panel h1{font-size:16px; margin:14px 0 4px; color:var(--red-dark)}
+  .guide-panel h2{font-size:14px; margin:16px 0 4px; color:var(--charcoal); border-bottom:1px solid var(--line); padding-bottom:3px}
+  .guide-panel p{margin:6px 0}
+  .guide-panel ul{margin:6px 0; padding-left:20px}
+  .guide-panel li{margin:3px 0}
+  .guide-panel code{background:#fff; border:1px solid var(--line); border-radius:4px; padding:0 3px; font-size:12px}
+  .guide-panel em{color:var(--muted)}
+  .guide-panel blockquote{margin:8px 0; padding:6px 12px; border-left:3px solid var(--red); background:#fff; color:var(--charcoal)}
+  .guide-panel hr{border:none; border-top:1px solid var(--line); margin:12px 0}
+  .guide-panel strong{color:var(--charcoal-dark)}
+  .count-badge{background:rgba(255,255,255,.24); padding:2px 8px; border-radius:999px; font-size:11px}
+  .loading{text-align:center; color:var(--muted); padding:40px 20px; font-size:15px}
+</style>
+</head>
+<body>
+<header>
+  <div class="head-inner">
+    <svg viewBox="0 0 64 64" aria-hidden="true">
+      <circle cx="32" cy="32" r="30" fill="#fff"/>
+      <path d="M2 32a30 30 0 0 1 60 0z" fill="var(--red)"/>
+      <rect x="2" y="29" width="60" height="6" fill="var(--charcoal)"/>
+      <circle cx="32" cy="32" r="9" fill="#fff" stroke="var(--charcoal)" stroke-width="4"/>
+    </svg>
+    <div>
+      <h1>Vig's Pokémon Old Format Collection</h1>
+      <div class="sub">Competitive decks 2010–2025</div>
+    </div>
+  </div>
+</header>
+<div class="seam"></div>
+
+<div class="wrap">
+  <div class="controls">
+    <input id="q" class="search" type="search" placeholder="Search cards, decks, sets…" autocomplete="off">
+    <div id="years" class="filters"></div>
+  </div>
+  <div id="stats" class="stats"></div>
+  <div id="list"><div class="loading">Loading collection…</div></div>
+</div>
+
+<script>
+let CARDS = [];
+let GUIDES = {};
+let YEARS = [];
+let activeYear = 'ALL';
+let query = '';
+
+function slug(name){
+  return name.toLowerCase().replace(/[^a-z0-9]+/g,'_').replace(/^_+|_+$/g,'');
+}
+
+const esc = s => String(s).replace(/[&<>"]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+function hl(text, q){
+  const t = esc(text);
+  if(!q) return t;
+  const i = t.toLowerCase().indexOf(q.toLowerCase());
+  if(i < 0) return t;
+  return t.slice(0,i) + '<mark>' + t.slice(i, i+q.length) + '</mark>' + t.slice(i+q.length);
+}
+
+const yearsEl = document.getElementById('years');
+function chip(label, val){
+  const b = document.createElement('div');
+  b.className = 'chip' + (val === activeYear ? ' active' : '');
+  b.textContent = label;
+  b.onclick = () => { activeYear = val; document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active')); b.classList.add('active'); render(); };
+  return b;
+}
+
+document.getElementById('q').addEventListener('input', e => { query = e.target.value.trim(); render(); });
+
+function matches(c, q){
+  if(!q) return true;
+  q = q.toLowerCase();
+  return c.name.toLowerCase().includes(q)
+      || c.deck.toLowerCase().includes(q)
+      || String(c.set).toLowerCase().includes(q);
+}
+
+function render(){
+  let rows = CARDS;
+  if(activeYear !== 'ALL') rows = rows.filter(c => c.year === activeYear);
+  if(query) rows = rows.filter(c => matches(c, query));
+
+  const groups = new Map();
+  for(const c of rows){
+    if(!groups.has(c.deck)) groups.set(c.deck, []);
+    groups.get(c.deck).push(c);
+  }
+
+  const list = document.getElementById('list');
+  const stats = document.getElementById('stats');
+  list.innerHTML = '';
+
+  if(groups.size === 0){
+    list.innerHTML = '<div class="empty">No matches. Try a different search or year.</div>';
+    stats.textContent = '';
+    return;
+  }
+
+  let totalCards = 0;
+  for(const arr of groups.values()) totalCards += arr.length;
+  stats.textContent = `${groups.size} deck${groups.size>1?'s':''} · ${totalCards} card line${totalCards>1?'s':''}`;
+
+  const collapsed = !query;
+
+  for(const [deck, arr] of groups){
+    const d = document.createElement('div');
+    d.className = 'deck' + (collapsed ? ' collapsed' : '');
+    const total = arr.reduce((s,c)=> s + (Number(c.count)||0), 0);
+    const head = document.createElement('div');
+    head.className = 'deck-head';
+    head.innerHTML = `<span class="title">${hl(deck, query)}</span>
+      <span class="meta"><span class="count-badge">${total} cards</span> <span class="arrow">▼</span></span>`;
+    head.onclick = () => d.classList.toggle('collapsed');
+    d.appendChild(head);
+
+    const guideHtml = GUIDES[slug(deck)];
+    if(guideHtml){
+      const bar = document.createElement('div');
+      bar.className = 'guidebar';
+      bar.innerHTML = `<button class="guide-btn" type="button">📖 How to pilot this deck</button>`;
+      const panel = document.createElement('div');
+      panel.className = 'guide-panel';
+      panel.innerHTML = guideHtml;
+      bar.querySelector('.guide-btn').onclick = (e) => {
+        e.stopPropagation();
+        panel.classList.toggle('open');
+        bar.querySelector('.guide-btn').classList.toggle('active');
+      };
+      d.appendChild(bar);
+      d.appendChild(panel);
+    }
+
+    const cw = document.createElement('div');
+    cw.className = 'cards';
+    for(const c of arr){
+      const r = document.createElement('div');
+      r.className = 'row';
+      r.innerHTML = `<span class="cnt">${esc(c.count)}</span>
+        <span class="nm">${hl(c.name, query)}</span>
+        <span class="st">${hl(c.set, query)}</span>`;
+      cw.appendChild(r);
+    }
+    d.appendChild(cw);
+    list.appendChild(d);
+  }
+}
+
+async function init(){
+  const list = document.getElementById('list');
+  try{
+    const [cardsRes, guidesRes] = await Promise.all([fetch('data/cards.json'), fetch('data/guides.json')]);
+    CARDS = await cardsRes.json();
+    GUIDES = await guidesRes.json();
+  }catch(err){
+    list.innerHTML = '<div class="empty">Couldn\'t load the collection data. If you opened this file directly from disk, serve it over http(s) instead (fetch() of local JSON is blocked from file://).</div>';
+    return;
+  }
+  YEARS = [...new Set(CARDS.map(c => c.year))];
+  yearsEl.appendChild(chip('All years', 'ALL'));
+  YEARS.forEach(y => yearsEl.appendChild(chip(y, y)));
+  render();
+}
+init();
+</script>
+</body>
+</html>
