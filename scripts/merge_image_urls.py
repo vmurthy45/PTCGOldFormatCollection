@@ -37,6 +37,7 @@ NAME_FIXES = {
 # with no working row at all. Verified HTTP 200 before adding.
 URL_OVERRIDES = {
     ("Air Balloon", "156/202"): "https://images.pokemontcg.io/swsh1/156_hires.png",
+    ("Crushing Hammer", "115/149"): "https://images.pokemontcg.io/sm1/115_hires.png",
     ("Lt. Surge's Strategy", "178/214"): "https://images.pokemontcg.io/sm10/178_hires.png",
     ("Bellelba & Brycen-Man", "186/236"): "https://images.pokemontcg.io/sm12/186_hires.png",
     ("Faba", "173/214"): "https://images.pokemontcg.io/sm8/173_hires.png",

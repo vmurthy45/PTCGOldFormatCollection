@@ -14418,7 +14418,8 @@
     "count": 4,
     "name": "Crushing Hammer",
     "set": "115/149",
-    "category": "Trainer"
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm1/115_hires.png"
   },
   {
     "year": "2020",
