@@ -62,6 +62,19 @@ URL_OVERRIDES = {
     ("Cynthia & Caitlin", "189/236"): "https://images.pokemontcg.io/sm12/189_hires.png",
     ("Unit Energy GRW", "137/156"): "https://images.pokemontcg.io/sm5/137_hires.png",
     ("Rapid Strike Energy", "140/163"): "https://images.pokemontcg.io/swsh5/140_hires.png",
+    # Basic Energy is recorded in cards.json with no specific print (empty
+    # set), since decklists rarely note which printing was used. These pin
+    # every basic Energy card to its XY base-set art (xy1) so there's a
+    # consistent, working image to show.
+    ("Grass Energy", ""): "https://images.pokemontcg.io/xy1/132_hires.png",
+    ("Fire Energy", ""): "https://images.pokemontcg.io/xy1/133_hires.png",
+    ("Water Energy", ""): "https://images.pokemontcg.io/xy1/134_hires.png",
+    ("Lightning Energy", ""): "https://images.pokemontcg.io/xy1/135_hires.png",
+    ("Psychic Energy", ""): "https://images.pokemontcg.io/xy1/136_hires.png",
+    ("Fighting Energy", ""): "https://images.pokemontcg.io/xy1/137_hires.png",
+    ("Darkness Energy", ""): "https://images.pokemontcg.io/xy1/138_hires.png",
+    ("Metal Energy", ""): "https://images.pokemontcg.io/xy1/139_hires.png",
+    ("Fairy Energy", ""): "https://images.pokemontcg.io/xy1/140_hires.png",
 }
 
 
