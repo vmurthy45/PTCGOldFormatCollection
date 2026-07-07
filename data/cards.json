@@ -14355,7 +14355,8 @@
     "count": 2,
     "name": "Air Balloon",
     "set": "156/202",
-    "category": "Trainer"
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/swsh1/156_hires.png"
   },
   {
     "year": "2020",
