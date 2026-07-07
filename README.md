@@ -9,9 +9,12 @@ Live site: served from `index.html` via GitHub Pages.
 ## How it's built
 
 - `index.html` — the whole app (HTML/CSS/JS, no build step, no framework). It
-  fetches its data at load time from the `data/` folder.
+  fetches its data at load time from the `data/` folder, supports a light/dark
+  theme toggle (remembered via `localStorage`), and opens a card's image in a
+  modal when you click it.
 - `data/cards.json` — every card line for every deck (year, deck name, count,
-  card name, set number).
+  card name, set number, `category` of Pokemon/Trainer/Energy, and an `image`
+  URL where one was found).
 - `data/guides.json` — piloting-guide HTML for each deck, keyed by a slug of
   the deck name (see `slug()` in `index.html`).
 - `piloting_guides_collection/` — the source markdown for every guide, one
@@ -19,6 +22,8 @@ Live site: served from `index.html` via GitHub Pages.
   change a guide's content.
 - `Old_Format_Collection_20102025.xlsx` — the source spreadsheet the card data
   was originally compiled from.
+- `card_collection_with_urls.csv` — Name/Set/Set Code/Image URL for every
+  known card print, used to attach `image` to each row in `cards.json`.
 
 ## Updating content
 
@@ -33,7 +38,13 @@ python3 -m venv .venv        # first time only
 
 To change the card data, edit `data/cards.json` directly (or regenerate it
 from a fresh spreadsheet export — see `scripts/extract_cards.py` for the
-original one-off extraction logic).
+original one-off extraction logic). If you add new cards, rerun
+`scripts/categorize_cards.py` (Pokemon/Trainer/Energy — see the
+hand-checked `ENERGY_NAMES`/`TRAINER_NAMES` lists at the top of that file;
+anything not in either list defaults to Pokemon) and
+`scripts/merge_image_urls.py` (pulls `image` URLs from
+`card_collection_with_urls.csv` by matching name + set) to fill in the new
+rows' `category` and `image` fields.
 
 Then just refresh the page (or push to GitHub — Pages redeploys automatically
 on every push to `main`).

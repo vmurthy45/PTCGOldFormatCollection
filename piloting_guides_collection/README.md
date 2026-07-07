@@ -2,7 +2,7 @@
 
 A browsable set of research-based piloting guides for historical competitive decks, one per deck, spanning the 2010–2025 Standard seasons (plus the 2017 NAIC format). Each guide covers the deck's identity, the meta it lived in, its engine and tech cards, the core gameplay loop, priorities, bad matchups, and a quick-reference sheet.
 
-**65 guides across 15 formats.** Guides are organized into year folders. All guides are research-based and reflect documented competitive consensus — they were not playtested by the author.
+**67 guides across 15 formats.** Guides are organized into year folders. All guides are research-based and reflect documented competitive consensus — they were not playtested by the author.
 
 ---
 
@@ -111,16 +111,17 @@ A browsable set of research-based piloting guides for historical competitive dec
 - **[Miraidon (2024)](2024/Miraidon_2024.md)** — The turbo consistency deck: Miraidon ex's Tandem Unit searches 2 Basic Lightning Pokémon straight to your bench (usable by every Miraidon, at any time), and Electric Generator accelerates Lightning Energy from your deck — so you flood the board and attack by turn 1–2 with a toolbox of Basic attackers (Miraidon's 220 Photon Blaster, Iron Hands' extra-prize Amp You Very Much, Bloodmoon Ursaluna's 240).
 - **[Regidrago VSTAR (2024)](2024/Regidrago_VSTAR_2024.md)** — "All of Pokémon's best dragons in one deck." Regidrago VSTAR's Apex Dragon copies the attack of any Dragon Pokémon in your discard pile — so you discard a toolbox of dragons and pick the perfect attack each turn: Dragapult ex's Phantom Dive (200 + spread), Giratina VSTAR's Lost Impact (280 nuke), Hisuian Goodra VSTAR's shield, or Kyurem's Trifrost (multi-prize).
 
-## 2025  (2 guides)
+## 2025  (4 guides)
 
 - **[Dragapult (2025)](2025/Dragapult_2025.md)** — A Ghost/Dragon spread deck: Dragapult ex's Phantom Dive does 200 to the Active + 6 damage counters spread on the opponent's bench, softening their board while you take KOs; Dusknoir's Cursed Blast then places 13 damage counters on one Pokémon (a manual KO on almost anything) to convert the spread into multi-prize turns.
 - **[Flutter Devo Gardevoir (2025)](2025/Flutter_Devo_Gardevoir_2025.md)** — A single-prize damage-counter deck: Gardevoir ex's Psychic Embrace attaches any number of basic Psychic Energy from your discard to your Psychic Pokémon (placing 2 damage counters on each Pokémon you fuel), Munkidori's Adrena-Brain moves that self-damage onto the opponent, and Scream Tail / Drifloon hit for more the more damage counters are in play.
+- **[Joltdengo (2025)](2025/Joltdengo_2025.md)** — A hybrid toolbox: a **Joltik Box** swarm of cheap single-attack Basics (Iron Hands ex, Miraidon ex, Pikachu ex) takes fast early prizes while **Gholdengo ex**'s Make It Rain (50 damage per Basic Energy discarded from hand) closes games late — Superior Energy Retrieval recycles the Energy spent early into late-game nuke fuel. Won the 2025 World Championship Seniors division.
+- **[Raging Bolt (2025)](2025/Raging_Bolt_2025.md)** — A Tera-Ancient turbo deck: Teal Mask Ogerpon ex attaches a Grass Energy and draws a card for free every turn, feeding Raging Bolt ex's Bellowing Thunder (discards all attached Energy for 70 damage each, up to 350) — a one-shot nuke you reload every single turn, backstopped by Noctowl's Trainer search.
 
 ---
 
 ## Notes
 
-- **World Championship winning decks** in this collection include: Darkrai (2013, Jason Klaczynski), Zoroark Garbodor & Banette Garbodor (2018), Perfection Mewtwo & ReshiZard Firebox & Blacephalon-GX (2019 event finishes), Ice Rider Palkia (2022, Rikuto Ohashi), Lost Box Kyogre (2023, Shao Tong Yen), Regidrago VSTAR & Iron Thorns & Miraidon & Ancient Toolbox (2024, all four Worlds divisions), and Flutter Devo Gardevoir (2025, Riley McKay) with Dragapult (2025 finalist).
+- **World Championship winning decks** in this collection include: Darkrai (2013, Jason Klaczynski), Zoroark Garbodor & Banette Garbodor (2018), Perfection Mewtwo & ReshiZard Firebox & Blacephalon-GX (2019 event finishes), Ice Rider Palkia (2022, Rikuto Ohashi), Lost Box Kyogre (2023, Shao Tong Yen), Regidrago VSTAR & Iron Thorns & Miraidon & Ancient Toolbox (2024, all four Worlds divisions), and Flutter Devo Gardevoir (2025, Riley McKay) with Dragapult (2025 finalist) and Joltdengo (2025, Gabriel Semedo, Seniors division).
 - **Best-Deck-In-Format (BDIF) decks** are flagged in their guides: LuxChomp (2010), Darkrai (2013), Night March (2016), Gardevoir-GX (2017), ADP Zacian (2020), Mew VMAX (2022), Lugia VSTAR (2023), Regidrago VSTAR (2024).
 - Years without decklists (2011, 2021) are intentionally absent.
-- **2025 is in progress:** Joltdengo and Raging Bolt guides are not yet written (2 of the 4 planned 2025 guides are included here).
