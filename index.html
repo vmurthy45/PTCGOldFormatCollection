@@ -75,6 +75,8 @@
   .deck-head .arrow{transition:transform .2s; font-size:12px; opacity:.95}
   .deck.collapsed .arrow{transform:rotate(-90deg)}
   .deck.collapsed .cards{display:none}
+  .deck.collapsed .guidebar{display:none}
+  .deck.collapsed .guide-panel{display:none}
   .deck.collapsed .deck-head{border-bottom:none}
   .deck.guide-open .cards{display:none}
   .cards{padding:4px 0}
@@ -318,7 +320,7 @@ function render(){
       const btn = document.createElement('button');
       btn.className = 'guide-btn';
       btn.type = 'button';
-      btn.textContent = '📖 See guide';
+      btn.textContent = '📖 See Guide';
       bar.appendChild(btn);
       const panel = document.createElement('div');
       panel.className = 'guide-panel';
@@ -328,7 +330,7 @@ function render(){
         const isOpen = panel.classList.toggle('open');
         d.classList.toggle('guide-open', isOpen);
         btn.classList.toggle('active', isOpen);
-        btn.textContent = isOpen ? '✕ Close Guide' : '📖 See guide';
+        btn.textContent = isOpen ? '✕ Close Guide' : '📖 See Guide';
       };
       d.appendChild(bar);
       d.appendChild(panel);

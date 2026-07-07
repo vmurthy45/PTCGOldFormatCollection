@@ -3,9 +3,13 @@ data/cards.json by (name, set), adding an "image" field to each row.
 
 The CSV has 692 unique (name, set) pairs covering all but 10 of the 701 pairs
 in cards.json. The 10 gaps are all basic Energy rows recorded with no set
-number (e.g. plain "Water Energy") plus one row with a mojibake name
-("Pok√©mon Catcher" — a UTF-8/Latin-1 mangling of "Pokémon Catcher" that
-crept into the original spreadsheet); those rows simply get no image.
+number (e.g. plain "Water Energy"); those rows simply get no image.
+
+NAME_FIXES also normalizes spelling variants that appear inconsistently in
+both cards.json and the CSV (mojibake, missing accents, doubled spaces) to
+one canonical spelling, and is applied to both sources before the (name,
+set) join so a row isn't missed just because the CSV happened to spell that
+particular print's name differently from cards.json.
 """
 import csv
 import json
@@ -15,9 +19,13 @@ ROOT = Path(__file__).resolve().parent.parent
 CARDS_JSON = ROOT / "data" / "cards.json"
 CSV_PATH = ROOT / "card_collection_with_urls.csv"
 
-# Fix the mojibake name so it lines up with the CSV's clean spelling.
 NAME_FIXES = {
-    "Pok√©mon Catcher": "Pokémon Catcher",
+    "Pok√©mon Catcher": "Pokémon Catcher",  # UTF-8/Latin-1 mojibake
+    "Pokemon Catcher": "Pokémon Catcher",
+    "Pokemon Collector": "Pokémon Collector",
+    "Pokemon  Collector": "Pokémon Collector",  # doubled space in the source spreadsheet
+    "Pokemon Communication": "Pokémon Communication",
+    "Pokemon Rescue": "Pokémon Rescue",
 }
 
 
@@ -27,7 +35,8 @@ def main():
 
     url_by_key = {}
     for r in rows:
-        url_by_key[(r["Name"], r["Set"])] = r["Image URL"]
+        name = NAME_FIXES.get(r["Name"], r["Name"])
+        url_by_key[(name, r["Set"])] = r["Image URL"]
 
     cards = json.loads(CARDS_JSON.read_text(encoding="utf-8"))
 
