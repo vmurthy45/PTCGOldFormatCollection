@@ -1,94 +1,68 @@
 # How to Pilot — Cinccino Mill (2020)
 
-_Format: Sword & Shield-on Standard 2020 (UPR–SSH/RCL era). A deck-out control deck — win
-by emptying the opponent's deck, not by taking prizes._
-
-## One-line identity
-Pure control: **Cinccino's Make Do** (discard a card → draw 2) chains your whole deck every
-turn, while **Bellelba & Brycen-Man** and the **Mewtwo & Mew-GX → Magcargo-GX** GX-mill combo
-strip cards off the *top of the opponent's deck*. You hide behind Poké Dolls, recycle with
-Oranguru + Ordinary Rod, and **deck them out** before they can take six prizes.
-
-## The meta it lived in
-2020 Standard was warped by ADPZ, and Cinccino Mill was one of the few decks that could beat
-it cleanly — because a control deck that wins by deck-out **ignores ADP's extra-prize plan
-entirely** (the ADP matchup is "incredibly favored… ADP without the ADP"). Make Do was hailed
-as "the new Trade," giving mill the consistency it historically lacked. It's a thinking deck
-that adapts its game plan per matchup and grinds resources better than anything else.
-
-## Engine cards (why they're here)
-- **Minccino (145/202) ×4 → Cinccino (147/202) ×4** — the engine. **Make Do** (Ability):
-  discard a card from hand → draw 2. Multiple Cinccino = draw through your entire deck every
-  turn, finding your mill Supporters and recycling pieces. The heart of the deck.
-- **Oranguru (114/156) ×2** — **Resource Management**: put 3 cards from your discard on the
-  bottom of your deck — the anti-deck-out engine that lets *you* out-last the mill war (you're
-  thinning your own deck hard with Make Do). Also dodges Marnie.
-- **Mewtwo & Mew-GX (71/236) ×1 + Magcargo-GX (44/214) ×1** — the mill combo: Mewtwo & Mew-GX
-  copies **Magcargo-GX's Burning Magma-GX** to mill the **top 5** of the opponent's deck.
-  Combined with Bellelba (and Lt. Surge's timing) you can strip 11+ in a turn to close.
-- **Zacian V (138/202) ×2** — **Intrepid Sword** draw *and* a **Brave Blade** attacker: with
-  Metal Saucer + Metal Energy you can KO a card you simply can't control (an opposing Oranguru,
-  Victini Prism, an Item-lock Pokémon) or the occasional problem threat. A control deck that
-  can also just win by KO when needed.
-
-## Support / tech (why the odd 1-ofs)
-- **Ditto Prism Star (154/214) ×1** — flexibly completes the Cinccino line when a Minccino is
-  prized/missing.
-- **Mew (76/214) ×1** — **Bench Barrier**: protects your bench from snipe (Cramorant V,
-  Naganadel) — keeps your Cinccino/Oranguru engine safe.
-- **Professor's Research ×4 / Boss's Orders ×3 / Marnie ×2** — draw + control. **Boss's Orders**
-  drags up a Pokémon (gust their Oranguru so it can't recover, or pull something to KO with
-  Zacian); **Marnie** disrupts their hand while shuffling yours.
-- **Quick Ball ×4 / Metal Saucer ×4 / Friend Ball ×1** — search + Metal acceleration for Zacian.
-- **Scoop Up Net ×4** — pick up your own Pokémon to reuse Abilities / reset — key for looping
-  and for saving pieces from KO; also re-arms Make Do lines and dodges gusts.
-- **Switch ×4 / Escape Board ×2 / Acro Bike ×3** — pivot (sleeping/attacker), dig, and cycle.
-- **Tool Scrapper ×1** — remove an opposing Tool (Metal Frying Pan/Goggles) so Zacian can KO,
-  or strip a problematic Tool.
-- **Great Catcher ×1** — gust a benched GX/EX (pull their recovery Pokémon to KO/strand).
-- **11 Metal Energy** — powers Zacian's Brave Blade via Metal Saucer; the deck's only Energy.
-
-## Ideal early game
-- **Turn 1–2:** get **Minccino → Cinccino** online and start **Make Do** chaining. Bench Mew
-  (Bench Barrier) and an Oranguru. Set up Lillie's-Doll-style walls (here Mew/Oranguru bodies)
-  so you take minimal prizes.
-- Decide the plan: **pure mill** (Bellelba/Magcargo combo) vs. a deck you can't control, or a
-  **Zacian KO** line vs. a threat (Oranguru/Victini) you must remove.
-
-## The core loop
-**Make Do** through your deck every turn → chip their deck with **Bellelba & Brycen-Man** and
-the **Mewtwo & Mew-GX/Magcargo-GX** GX-mill → **Oranguru Resource Management** so *you* never
-deck out → **Scoop Up Net / Ordinary-Rod-style recycling** to loop resources. Hide behind
-walls, **Boss's Orders** their recovery Pokémon, and win when their deck hits zero. Zacian is
-your out to anything you can't mill around.
-
-## Priorities / rules of thumb
-- **Count both decks constantly** — you win by out-lasting; know exactly how many cards each
-  player has and never mill yourself into a loss (don't Make Do haphazardly late).
-- **Oranguru is your lifeline** — protect it (Mew Bench Barrier), and Boss/gust *their*
-  recovery so they deck out first.
-- **Mill the top, not the discard** — Bellelba/Magcargo hit the top of their deck; combine them
-  in one turn (with Lt. Surge-style extra turns in fuller lists) to strip 11+ and close.
-- **Zacian for the un-millable** — an opposing Oranguru or Item-lock body can stop the mill;
-  KO it with Brave Blade rather than milling forever.
-
-## Weaknesses / bad matchups
-- **Aggressive OHKO decks that race the clock (PikaRom, fast Fire)** — if they take 6 prizes
-  before you deck them out, you lose; **Tag Bolt-GX** is the scary early swing.
-- **Their own Oranguru / anti-mill recovery** — a deck that recycles hard can out-last your
-  mill; you need Boss's Orders + KO to remove it.
-- **Item lock / disruption against your engine** — anything that stops Make Do or your Supporters
-  slows the whole plan.
-- **Decking yourself** — the self-inflicted loss; resource discipline is everything.
-
-## Quick reference — the numbers
-- Make Do: **discard 1 → draw 2** (Ability, per Cinccino, per turn).
-- Bellelba & Brycen-Man: mill the **top of the opponent's deck**; Magcargo-GX GX (via Mewtwo &
-  Mew-GX): **mill top 5**.
-- Oranguru Resource Management: **3 discard cards → bottom of your deck** (anti-deck-out).
-- Zacian V Brave Blade: **230** — your out to un-millable threats.
+_Format: Sword & Shield Standard 2020 (UPR–SSH era). The ultimate control/mill deck popularized by Sander Wojcik at the 2020 Oceania International Championships. Win by denying your opponent a single prize card while running their deck completely dry._
 
 ---
-_Sources: SixPrizes ("Make Do & Mill", "Rumors of Mill's Death…", "Making Do w/ the Sauce"),
-Limitless (James Williams / Aaron Stringfellow Cinccino Mill lists), PTCGO Store. Verified vs.
-the collection workbook (60 cards)._
+
+## One-line identity
+The ultimate wall-and-mill prison: Hide behind **Lillie's Poké Doll** while Cinccino's **Make Do** and Zacian V draw through your entire deck, looping **Bellelba & Brycen-Man** to discard your opponent's deck 3 cards at a time, and recycling everything with Oranguru's **Resource Management**.
+
+## The meta it lived in
+2020 Standard was a hyper-aggressive format utterly dominated by ADP Zacian and other heavy hitters looking to finish games in 2 to 3 turns. Cinccino Mill completely upended this meta by refusing to play the prize game entirely. Because it gives up zero prizes when Lillie's Poké Doll is "KO'd," it forces opponents to waste resources punching plastic while you shred their deck. It gatekept any deck that lacked infinite recovery or flexible bench-sniping tools.
+
+---
+
+## Engine cards (why they're here)
+*   **Minccino ×4 / Cinccino (147/202) ×4** — The draw engine. **Make Do** (Ability): Discard 1 card from hand, draw 2 cards. With 3–4 Cinccinos on the board, you can churn through your deck at lightning speed to find your precise combo pieces every single turn.
+*   **Lillie's Poké Doll ×4** — Your primary active wall. It plays as a 30 HP Basic Pokémon but gives up zero prizes when knocked out and instead loops right back to the bottom of your deck.
+*   **Oranguru (114/156) ×2** — The loop enabler. **Resource Management**: For 1 Energy, put 3 cards from your discard pile onto the bottom of your deck in any order. This allows you to infinitely reuse Poké Dolls, Crushing Hammers, Pal Pads, and key Supporters, ensuring you can never deck out yourself.
+*   **Zacian V (138/202) ×2** — **Intrepid Sword** (Ability): Look at the top 3 cards of your deck and attach any Metal Energy found there (none in this deck), putting the rest into your hand. This ends your turn, which is perfect for an aggressive early-game draw setup before you begin attacking/milling.
+*   **Bellelba & Brycen-Man ×4** — Your primary win condition. Discard the top 3 cards of each player's deck. Because you infinitely recycle your deck with Oranguru, the self-mill means nothing, while your opponent is rapidly forced into a deck-out loss.
+
+## Support / tech (why the odd 1-ofs)
+*   **Magcargo-GX (44/214) ×1 & Mewtwo & Mew-GX (71/236) ×1** — The sudden-death mill tech. Mewtwo & Mew-GX can copy Magcargo-GX's **Magma Burn-GX** attack for a single Fire Energy (or Recycle Energy), which discards the top 5 cards of your opponent's deck to close out a game out of nowhere.
+*   **Mew (76/214) ×1** — **Bench Barrier**: Protects your benched Minccinos and Orangurus from bench-sniping threats like Cramorant V or Pikachu & Zekrom.
+*   **Ditto Prism Star ×1** — Flexibility to evolve into either a Cinccino or Magcargo-GX in a pinch.
+*   **Lt. Surge's Strategy ×2** — Allows you to play 3 Supporter cards in a turn if you have more prizes remaining than your opponent (which you always will). This lets you play multiple Bellelba & Brycen-Man or recovery cards in a single explosive turn.
+*   **Cynthia & Caitlin ×3 & Pal Pad ×4** — Supporter recycling. Cynthia & Caitlin grabs a Supporter from the discard while drawing cards; Pal Pad shuffles 2 Supporters back into the deck to feed the infinite loop.
+*   **Faba ×1** — Disruption tech to send an opponent's Special Energy or annoying Tool card directly to the Lost Zone.
+*   **Crushing Hammer ×4** — Energy denial to slow down the opponent's attacking pace, buying you precious setup turns.
+*   **Ordinary Rod ×2** — Shuffles Pokémon and Basic Fire Energy back into the deck so you never lose your engine pieces permanently.
+*   **Recycle Energy ×1 & Fire Energy ×3** — Pays for Oranguru's Resource Management or Mewtwo & Mew-GX's Magma Burn-GX. Recycle Energy returns to your hand when discarded, providing infinite retreat/attack fuel.
+
+---
+
+## Ideal early game
+*   **Turn 1:** Prioritize getting Minccino, Oranguru, and Zacian V onto the bench using Quick Ball and Great Ball. Use Zacian's Intrepid Sword to draw 3 and end your turn.
+*   **Turn 2:** Evolve into Cinccino and hide behind a Lillie's Poké Doll. Use Make Do to thin your deck down to nearly zero cards as quickly as possible. Once your deck is entirely under your control, your infinite loop begins.
+
+## The core loop
+Once your deck is thinned out, your turns look identical:
+1. Promote a **Lillie's Poké Doll** into the Active spot.
+2. Use Cinccino's **Make Do** to draw into the exact pieces you want.
+3. Play **Lt. Surge's Strategy** followed by multiple copies of **Bellelba & Brycen-Man** to mill 6+ cards from your opponent's deck.
+4. Retreat your Poké Doll to the bottom of your deck, promote **Oranguru**, attach a Recycle Energy, and use **Resource Management** to put the Poké Doll, Pal Pad/Supporter, and a Crushing Hammer right back into your deck.
+
+---
+
+## Priorities / rules of thumb
+> 📌 **Protect your bench at all costs:** If your opponent can gust (Boss's Orders/Phione) and KO your Orangurus or Cinccinos, your engine stalls. Keep Mew active against sniper decks.
+
+*   **Count your resources meticulously:** Always track how many Pal Pads, Ordinary Rods, and Energy cards you have left. Missing an Oranguru attack for a single turn can break the loop and cause you to lose.
+*   **Control the opponent's energy board:** Use Crushing Hammer and Faba to keep your opponent starved of Energy, ensuring they can't afford to attack or retreat effectively.
+
+## Weaknesses / bad matchups
+*   **Custom Catcher / Phione / Gusting heavy decks:** Decks that can constantly pull your benched Pokémon into the Active spot to bypass your Poké Dolls.
+*   **Hand disruption (Marnie / Reset Stamp):** Being forced to shuffle your perfectly curated hand back into a small deck can disrupt your exact sequencing for the turn.
+*   **Decks with infinite recovery:** Mirror matches or control decks running their own Oranguru/Ordinary Rod loops can turn games into a standstill gridlock.
+
+---
+
+## Quick reference — the numbers
+*   **Bellelba & Brycen-Man:** Each player discards the top 3 cards of their deck.
+*   **Magma Burn-GX:** Discards the top 5 cards of your opponent's deck.
+*   **Resource Management:** Puts 3 discarded cards onto the bottom of your deck.
+*   **Prize trade:** You aim to give up 0 prizes the entire match.
+
+---
+_Sources: Limitless TCG (S Wojcik - Oceania International Championships), PokéBeach (Cinccino Control/Mill guides), PTCGO Store Strategy logs. Verified vs. standard 60-card list._
