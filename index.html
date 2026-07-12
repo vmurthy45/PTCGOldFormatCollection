@@ -86,9 +86,10 @@
   .turn1-box[hidden]{display:none}
   .t1-toggle{
     width:100%; display:flex; align-items:center; justify-content:space-between; gap:10px;
-    padding:13px 16px; cursor:pointer; color:#fff; background:var(--red); border:none;
+    padding:13px 16px; cursor:pointer; color:#fff; background:var(--pokeball-ink); border:none;
     font-family:'Poppins',sans-serif; font-size:14.5px; font-weight:600; text-align:left;
   }
+  .t1-toggle:hover{filter:brightness(1.2)}
   .t1-arrow{transition:transform .2s; font-size:12px}
   .t1-toggle.active .t1-arrow{transform:rotate(90deg)}
   .t1-panel{display:none; padding:16px}
@@ -294,9 +295,12 @@ function renderTurn1Box(){
     return;
   }
   box.hidden = false;
-  const rulesHtml = data.rules.map(r =>
-    `<div class="t1-rule">${r.allowed ? '✅' : '❌'} ${esc(r.label)}</div>`
-  ).join('');
+  const allowedLabels = data.rules.filter(r => r.allowed).map(r => r.label);
+  const deniedLabels = data.rules.filter(r => !r.allowed).map(r => r.label);
+  const rulesHtml = [
+    allowedLabels.length ? `<div class="t1-rule">✅ ${esc(allowedLabels.join('/'))}</div>` : '',
+    deniedLabels.length ? `<div class="t1-rule">❌ ${esc(deniedLabels.join('/'))}</div>` : '',
+  ].join('');
   box.innerHTML = `
     <button type="button" class="t1-toggle">
       <span>📜 Turn 1 Rules — ${esc(activeYear)}</span>

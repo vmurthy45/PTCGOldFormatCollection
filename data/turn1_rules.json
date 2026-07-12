@@ -1,79 +1,100 @@
 {
-  "_comment": "Hand-maintained. See TURN1_RULES.md for the research and sources behind these entries - update that file first if a new rule era needs adding.",
+  "_comment": "Hand-maintained. Each 'rules' entry is one atomic card-type/action - index.html groups them by allowed:true/false and joins each group's labels with '/' at render time, so don't pre-join labels here. See TURN1_RULES.md for the research and sources behind these entries - update that file first if a new rule era needs adding.",
   "2010": {
     "flip": "Winner Goes First",
     "rules": [
-      { "label": "Supporters, Items, Stadium", "allowed": false },
+      { "label": "Supporters", "allowed": false },
+      { "label": "Items", "allowed": false },
+      { "label": "Stadium", "allowed": false },
       { "label": "Attack", "allowed": true }
     ]
   },
   "2012": {
     "flip": "Winner Goes First",
     "rules": [
-      { "label": "Items, Supporters, Stadium", "allowed": true },
+      { "label": "Items", "allowed": true },
+      { "label": "Supporters", "allowed": true },
+      { "label": "Stadium", "allowed": true },
       { "label": "Attack", "allowed": true }
     ]
   },
   "2013": {
     "flip": "Winner Goes First",
     "rules": [
-      { "label": "Items, Supporters, Stadium", "allowed": true },
+      { "label": "Items", "allowed": true },
+      { "label": "Supporters", "allowed": true },
+      { "label": "Stadium", "allowed": true },
       { "label": "Attack", "allowed": true }
     ]
   },
   "2014": {
     "flip": "Winner Chooses",
     "rules": [
-      { "label": "Items, Supporters, Stadium", "allowed": true },
+      { "label": "Items", "allowed": true },
+      { "label": "Supporters", "allowed": true },
+      { "label": "Stadium", "allowed": true },
       { "label": "Attack", "allowed": false }
     ]
   },
   "2015": {
     "flip": "Winner Chooses",
     "rules": [
-      { "label": "Items, Supporters, Stadium", "allowed": true },
+      { "label": "Items", "allowed": true },
+      { "label": "Supporters", "allowed": true },
+      { "label": "Stadium", "allowed": true },
       { "label": "Attack", "allowed": false }
     ]
   },
   "2016": {
     "flip": "Winner Chooses",
     "rules": [
-      { "label": "Items, Supporters, Stadium", "allowed": true },
+      { "label": "Items", "allowed": true },
+      { "label": "Supporters", "allowed": true },
+      { "label": "Stadium", "allowed": true },
       { "label": "Attack", "allowed": false }
     ]
   },
   "2017": {
     "flip": "Winner Chooses",
     "rules": [
-      { "label": "Items, Supporters, Stadium", "allowed": true },
+      { "label": "Items", "allowed": true },
+      { "label": "Supporters", "allowed": true },
+      { "label": "Stadium", "allowed": true },
       { "label": "Attack", "allowed": false }
     ]
   },
   "2017 NAIC": {
     "flip": "Winner Chooses",
     "rules": [
-      { "label": "Items, Supporters, Stadium", "allowed": true },
+      { "label": "Items", "allowed": true },
+      { "label": "Supporters", "allowed": true },
+      { "label": "Stadium", "allowed": true },
       { "label": "Attack", "allowed": false }
     ]
   },
   "2018": {
     "flip": "Winner Chooses",
     "rules": [
-      { "label": "Items, Supporters, Stadium", "allowed": true },
+      { "label": "Items", "allowed": true },
+      { "label": "Supporters", "allowed": true },
+      { "label": "Stadium", "allowed": true },
       { "label": "Attack", "allowed": false }
     ]
   },
   "2019": {
     "flip": "Winner Chooses",
     "rules": [
-      { "label": "Items, Supporters, Stadium", "allowed": true },
+      { "label": "Items", "allowed": true },
+      { "label": "Supporters", "allowed": true },
+      { "label": "Stadium", "allowed": true },
       { "label": "Attack", "allowed": false }
     ]
   },
   "2020": {
     "flip": "Winner Chooses",
     "rules": [
-      { "label": "Items, Stadium", "allowed": true },
+      { "label": "Items", "allowed": true },
+      { "label": "Stadium", "allowed": true },
       { "label": "Supporters", "allowed": false },
       { "label": "Attack", "allowed": false }
     ]
@@ -81,7 +102,8 @@
   "2022": {
     "flip": "Winner Chooses",
     "rules": [
-      { "label": "Items, Stadium", "allowed": true },
+      { "label": "Items", "allowed": true },
+      { "label": "Stadium", "allowed": true },
       { "label": "Supporters", "allowed": false },
       { "label": "Attack", "allowed": false }
     ]
@@ -89,7 +111,8 @@
   "2023": {
     "flip": "Winner Chooses",
     "rules": [
-      { "label": "Items, Stadium", "allowed": true },
+      { "label": "Items", "allowed": true },
+      { "label": "Stadium", "allowed": true },
       { "label": "Supporters", "allowed": false },
       { "label": "Attack", "allowed": false }
     ]
@@ -97,7 +120,8 @@
   "2024": {
     "flip": "Winner Chooses",
     "rules": [
-      { "label": "Items, Stadium", "allowed": true },
+      { "label": "Items", "allowed": true },
+      { "label": "Stadium", "allowed": true },
       { "label": "Supporters", "allowed": false },
       { "label": "Attack", "allowed": false }
     ]
@@ -105,7 +129,8 @@
   "2025": {
     "flip": "Winner Chooses",
     "rules": [
-      { "label": "Items, Stadium", "allowed": true },
+      { "label": "Items", "allowed": true },
+      { "label": "Stadium", "allowed": true },
       { "label": "Supporters", "allowed": false },
       { "label": "Attack", "allowed": false }
     ]

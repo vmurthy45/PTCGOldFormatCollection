@@ -82,29 +82,33 @@ an entry — see `piloting_guides_collection/README.md`.)
 
 ## Display format used on the site
 
-Rendered per the four buckets above:
+Each card-type/action is stored as its own atomic entry in
+`data/turn1_rules.json` (`{label, allowed}`), and `index.html` groups them
+by `allowed` at render time — one ✅ line and one ❌ line, each a
+`/`-joined list of every label sharing that status. So the underlying
+data for 2020 is four separate entries (Items, Stadium, Supporters,
+Attack), but it renders as exactly two lines:
 
 **2010**
 ```
 Flip: Winner Goes First
 Player going first:
-❌ Supporters, Items, Stadium
 ✅ Attack
+❌ Supporters/Items/Stadium
 ```
 
 **2012, 2013**
 ```
 Flip: Winner Goes First
 Player going first:
-✅ Items, Supporters, Stadium
-✅ Attack
+✅ Items/Supporters/Stadium/Attack
 ```
 
 **2014 – 2019 (incl. 2017 NAIC)**
 ```
 Flip: Winner Chooses
 Player going first:
-✅ Items, Supporters, Stadium
+✅ Items/Supporters/Stadium
 ❌ Attack
 ```
 
@@ -112,9 +116,8 @@ Player going first:
 ```
 Flip: Winner Chooses
 Player going first:
-✅ Items, Stadium
-❌ Supporters
-❌ Attack
+✅ Items/Stadium
+❌ Supporters/Attack
 ```
 
 ## Sources
