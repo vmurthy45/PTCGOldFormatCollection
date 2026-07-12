@@ -79,6 +79,24 @@
   .chip:hover{border-color:var(--red); transform:translateY(-1px)}
   .chip.active{background:var(--red); color:#fff; border-color:var(--red); box-shadow:0 3px 10px rgba(238,43,57,.35)}
   .stats{font-size:13px; color:var(--muted); margin:2px 2px 14px; font-weight:500}
+  .turn1-box{
+    background:var(--card); border:1px solid var(--line); border-radius:16px;
+    margin-bottom:16px; overflow:hidden; box-shadow:0 2px 10px var(--shadow);
+  }
+  .turn1-box[hidden]{display:none}
+  .t1-toggle{
+    width:100%; display:flex; align-items:center; justify-content:space-between; gap:10px;
+    padding:13px 16px; cursor:pointer; color:#fff; background:var(--red); border:none;
+    font-family:'Poppins',sans-serif; font-size:14.5px; font-weight:600; text-align:left;
+  }
+  .t1-arrow{transition:transform .2s; font-size:12px}
+  .t1-toggle.active .t1-arrow{transform:rotate(90deg)}
+  .t1-panel{display:none; padding:16px}
+  .t1-panel.open{display:block}
+  .t1-flip{font-size:14px; margin-bottom:10px}
+  .t1-flip strong{font-family:'Poppins',sans-serif}
+  .t1-sub{font-size:11px; font-weight:700; letter-spacing:.8px; text-transform:uppercase; color:var(--muted); margin-bottom:8px}
+  .t1-rule{font-size:14px; padding:6px 0; display:flex; align-items:center; gap:8px}
   .deck{
     background:var(--card); border:1px solid var(--line); border-radius:16px;
     margin-bottom:16px; overflow:hidden; box-shadow:0 2px 10px var(--shadow);
@@ -204,6 +222,7 @@
     <div id="years" class="filters"></div>
   </div>
   <div id="stats" class="stats"></div>
+  <div id="turn1Box" class="turn1-box" hidden></div>
   <div id="list"><div class="loading">Loading collection…</div></div>
 </div>
 
@@ -261,9 +280,40 @@ document.addEventListener('keydown', e => { if(e.key === 'Escape') modal.hidden 
 /* ---------- data + render ---------- */
 let CARDS = [];
 let GUIDES = {};
+let TURN1_RULES = {};
 let YEARS = [];
 let activeYear = 'ALL';
 let query = '';
+
+function renderTurn1Box(){
+  const box = document.getElementById('turn1Box');
+  const data = TURN1_RULES[activeYear];
+  if(activeYear === 'ALL' || !data){
+    box.hidden = true;
+    box.innerHTML = '';
+    return;
+  }
+  box.hidden = false;
+  const rulesHtml = data.rules.map(r =>
+    `<div class="t1-rule">${r.allowed ? '✅' : '❌'} ${esc(r.label)}</div>`
+  ).join('');
+  box.innerHTML = `
+    <button type="button" class="t1-toggle">
+      <span>📜 Turn 1 Rules — ${esc(activeYear)}</span>
+      <span class="t1-arrow">▶</span>
+    </button>
+    <div class="t1-panel">
+      <div class="t1-flip"><strong>Flip:</strong> ${esc(data.flip)}</div>
+      <div class="t1-sub">Player going first:</div>
+      ${rulesHtml}
+    </div>`;
+  const btn = box.querySelector('.t1-toggle');
+  const panel = box.querySelector('.t1-panel');
+  btn.onclick = () => {
+    const isOpen = panel.classList.toggle('open');
+    btn.classList.toggle('active', isOpen);
+  };
+}
 
 const SECTIONS = [['Pokemon', 'Pokémon'], ['Trainer', 'Trainers'], ['Energy', 'Energy']];
 
@@ -285,7 +335,7 @@ function chip(label, val){
   const b = document.createElement('div');
   b.className = 'chip' + (val === activeYear ? ' active' : '');
   b.textContent = label;
-  b.onclick = () => { activeYear = val; document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active')); b.classList.add('active'); render(); };
+  b.onclick = () => { activeYear = val; document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active')); b.classList.add('active'); renderTurn1Box(); render(); };
   return b;
 }
 
@@ -390,9 +440,12 @@ function render(){
 async function init(){
   const list = document.getElementById('list');
   try{
-    const [cardsRes, guidesRes] = await Promise.all([fetch('data/cards.json'), fetch('data/guides.json')]);
+    const [cardsRes, guidesRes, turn1Res] = await Promise.all([
+      fetch('data/cards.json'), fetch('data/guides.json'), fetch('data/turn1_rules.json')
+    ]);
     CARDS = await cardsRes.json();
     GUIDES = await guidesRes.json();
+    TURN1_RULES = await turn1Res.json();
   }catch(err){
     list.innerHTML = '<div class="empty">Couldn\'t load the collection data. If you opened this file directly from disk, serve it over http(s) instead (fetch() of local JSON is blocked from file://).</div>';
     return;

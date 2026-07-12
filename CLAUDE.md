@@ -27,9 +27,10 @@ Hosted free on GitHub Pages.
 
 - `index.html` — the entire app. Vanilla HTML/CSS/JS, no dependencies except
   two Google Fonts (Poppins for headings, Inter for body) loaded via
-  `<link>`. Fetches `data/cards.json` and `data/guides.json` at page load.
-  **Must be served over http(s)** — opening it via `file://` breaks the
-  `fetch()` calls (this is a browser security restriction, not a bug).
+  `<link>`. Fetches `data/cards.json`, `data/guides.json`, and
+  `data/turn1_rules.json` at page load. **Must be served over http(s)** —
+  opening it via `file://` breaks the `fetch()` calls (this is a browser
+  security restriction, not a bug).
 - `data/cards.json` — every card line for every deck. Each row:
   `{year, deck, count, name, set, category, image}`. `category` is one of
   `Pokemon`/`Trainer`/`Energy`. `image` is a pokemontcg.io URL; may be
@@ -38,6 +39,15 @@ Hosted free on GitHub Pages.
   `slug(deckName)` where `slug()` (defined identically in `index.html` and
   in the Python build scripts) lowercases, replaces every run of
   non-alphanumeric characters with `_`, and trims leading/trailing `_`.
+- `data/turn1_rules.json` — turn-1 rules (coin flip + what the player
+  going first can/can't do) keyed by the exact `year` label used in
+  `cards.json` (e.g. `"2010"`, `"2017 NAIC"`). Rendered as an expandable
+  box that only appears when a single year is filtered (never on "All
+  years"). Hand-maintained, not generated — see `TURN1_RULES.md` for the
+  research/sources and the "why" behind each entry. **If you add a new
+  year to the collection, add a matching entry here too**, or the box
+  just won't show for that year (silent, not an error — `renderTurn1Box()`
+  in `index.html` treats a missing key the same as "All years").
 - `piloting_guides_collection/<year>/*.md` — source markdown for every
   guide, one file per deck. **Edit these, not `data/guides.json` directly**
   — the JSON is generated output.
@@ -329,6 +339,7 @@ which repoints tracking without needing another push).
   URLs, all verified HTTP 200.
 - All 67 piloting guides exist and are wired up (`data/guides.json` has 67
   keys, one per deck).
+- `data/turn1_rules.json` has an entry for all 15 year labels.
 
 If any of these counts don't match what you find when you pick this
 project back up, something changed (Vig added/edited a deck) — that's

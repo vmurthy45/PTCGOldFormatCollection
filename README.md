@@ -17,6 +17,10 @@ Live site: served from `index.html` via GitHub Pages.
   URL where one was found).
 - `data/guides.json` — piloting-guide HTML for each deck, keyed by a slug of
   the deck name (see `slug()` in `index.html`).
+- `data/turn1_rules.json` — the "player going first" ruleset for each `year`
+  label (coin flip, and what's allowed on turn 1), shown in an expandable
+  box when a single year is filtered. Hand-maintained; see `TURN1_RULES.md`
+  for the research and sources behind it.
 - `piloting_guides_collection/` — the source markdown for every guide, one
   file per deck, organized by year. This is the thing to edit if you want to
   change a guide's content.
