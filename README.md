@@ -1,4 +1,4 @@
-# Vig's Pokémon Old Format Collection
+# Vig's Pokémon TCG Old Format Collection
 
 A static site for browsing a personal Pokémon TCG collection: 67 competitive decks
 spanning 2010–2025, each with its full card list and (for most decks) a "how to

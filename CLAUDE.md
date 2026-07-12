@@ -1,4 +1,4 @@
-# Vig's Pokémon Old Format Collection — agent notes
+# Vig's Pokémon TCG Old Format Collection — agent notes
 
 This file is for a future Claude Code session picking this project back up.
 It covers what the site is, how the data pipeline works, exactly what to do
