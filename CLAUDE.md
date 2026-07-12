@@ -48,6 +48,17 @@ Hosted free on GitHub Pages.
   year to the collection, add a matching entry here too**, or the box
   just won't show for that year (silent, not an error — `renderTurn1Box()`
   in `index.html` treats a missing key the same as "All years").
+- **Matchup Generator tab** — a second top-level tab (`#matchupTab`,
+  alongside `#collectionTab`) with no separate data file; it reads
+  directly from the already-loaded `CARDS` array. Pick a format (or leave
+  it on "Random format") and click "Randomize Matchup" to get two
+  distinct random decks from that format (`pickTwo()` in `index.html`).
+  Re-clicking the button keeps whatever format is currently selected in
+  the dropdown — it only re-rolls the format too if the dropdown is still
+  on "Random format". Clicking either deck name in the result jumps to
+  the Collection tab with that deck's year filtered and its name typed
+  into the search box (reuses the existing search/filter machinery rather
+  than adding new deck-lookup logic — see `jumpToDeck()`).
 - `piloting_guides_collection/<year>/*.md` — source markdown for every
   guide, one file per deck. **Edit these, not `data/guides.json` directly**
   — the JSON is generated output.
