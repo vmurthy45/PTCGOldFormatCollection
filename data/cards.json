@@ -9730,240 +9730,6 @@
   },
   {
     "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 3,
-    "name": "Jirachi",
-    "set": "99/181",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm9/99_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 3,
-    "name": "Zacian V",
-    "set": "138/202",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/swsh1/138_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 2,
-    "name": "Arceus & Dialga & Palkia-GX",
-    "set": "156/236",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm12/156_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 2,
-    "name": "Dedenne-GX",
-    "set": "57/214",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm10/57_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 1,
-    "name": "Mimikyu",
-    "set": "97/236",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm12/97_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 1,
-    "name": "Mew",
-    "set": "76/214",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm10/76_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 1,
-    "name": "Absol",
-    "set": "88/181",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm9/88_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 1,
-    "name": "Phione",
-    "set": "57/236",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm12/57_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 4,
-    "name": "Professor's Research",
-    "set": "178/202",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/swsh1/178_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 1,
-    "name": "Guzma & Hala",
-    "set": "193/236",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm12/193_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 1,
-    "name": "Cynthia & Caitlin",
-    "set": "189/236",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm12/189_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 4,
-    "name": "Quick Ball",
-    "set": "179/202",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/swsh1/179_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 4,
-    "name": "Metal Saucer",
-    "set": "170/202",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/swsh1/170_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 4,
-    "name": "Switch",
-    "set": "147/168",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm7/147_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 4,
-    "name": "Custom Catcher",
-    "set": "171/214",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm8/171_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 2,
-    "name": "Tag Call",
-    "set": "206/236",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm12/206_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 2,
-    "name": "Energy Switch",
-    "set": "129/168",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm7/129_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 2,
-    "name": "Reset Stamp",
-    "set": "206/236",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm11/206_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 1,
-    "name": "Great Catcher",
-    "set": "192/236",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm12/192_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 1,
-    "name": "Escape Board",
-    "set": "122/156",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm5/122_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 1,
-    "name": "Vitality Band",
-    "set": "185/202",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/swsh1/185_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 1,
-    "name": "Big Charm",
-    "set": "158/202",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/swsh1/158_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 2,
-    "name": "Shrine of Punishment",
-    "set": "143/168",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm7/143_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 9,
-    "name": "Metal Energy",
-    "set": "",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/xy1/139_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 2,
-    "name": "Aurora Energy",
-    "set": "186/202",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/swsh1/186_hires.png"
-  },
-  {
-    "year": "2020",
-    "deck": "ADP Zacian (2020)",
-    "count": 1,
-    "name": "Unit Energy GRW",
-    "set": "137/156",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/sm5/137_hires.png"
-  },
-  {
-    "year": "2020",
     "deck": "Blacephalon (2020)",
     "count": 4,
     "name": "Blacephalon",
@@ -14731,5 +14497,221 @@
     "set": "190/214",
     "category": "Energy",
     "image": "https://images.pokemontcg.io/sm10/190_hires.png"
+  },
+  {
+    "year": "2020",
+    "deck": "ADP Zacian (2020)",
+    "count": 3,
+    "name": "Zacian V",
+    "set": "138/202",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/swsh1/138_hires.png"
+  },
+  {
+    "year": "2020",
+    "deck": "ADP Zacian (2020)",
+    "count": 2,
+    "name": "Arceus & Dialga & Palkia-GX",
+    "set": "156/236",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm12/156_hires.png"
+  },
+  {
+    "year": "2020",
+    "deck": "ADP Zacian (2020)",
+    "count": 2,
+    "name": "Dedenne-GX",
+    "set": "57/214",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm10/57_hires.png"
+  },
+  {
+    "year": "2020",
+    "deck": "ADP Zacian (2020)",
+    "count": 1,
+    "name": "Oranguru",
+    "set": "148/202",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/swsh1/148_hires.png"
+  },
+  {
+    "year": "2020",
+    "deck": "ADP Zacian (2020)",
+    "count": 1,
+    "name": "Eldegoss V",
+    "set": "19/192",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/swsh2/19_hires.png"
+  },
+  {
+    "year": "2020",
+    "deck": "ADP Zacian (2020)",
+    "count": 4,
+    "name": "Professor's Research",
+    "set": "178/202",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/swsh1/178_hires.png"
+  },
+  {
+    "year": "2020",
+    "deck": "ADP Zacian (2020)",
+    "count": 4,
+    "name": "Marnie",
+    "set": "169/202",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/swsh1/169_hires.png"
+  },
+  {
+    "year": "2020",
+    "deck": "ADP Zacian (2020)",
+    "count": 2,
+    "name": "Boss's Orders",
+    "set": "154/192",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/swsh2/154_hires.png"
+  },
+  {
+    "year": "2020",
+    "deck": "ADP Zacian (2020)",
+    "count": 1,
+    "name": "Mallow & Lana",
+    "set": "198/236",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm12/198_hires.png"
+  },
+  {
+    "year": "2020",
+    "deck": "ADP Zacian (2020)",
+    "count": 4,
+    "name": "Quick Ball",
+    "set": "179/202",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/swsh1/179_hires.png"
+  },
+  {
+    "year": "2020",
+    "deck": "ADP Zacian (2020)",
+    "count": 4,
+    "name": "Metal Saucer",
+    "set": "170/202",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/swsh1/170_hires.png"
+  },
+  {
+    "year": "2020",
+    "deck": "ADP Zacian (2020)",
+    "count": 4,
+    "name": "Order Pad",
+    "set": "131/156",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm5/131_hires.png"
+  },
+  {
+    "year": "2020",
+    "deck": "ADP Zacian (2020)",
+    "count": 3,
+    "name": "Acro Bike",
+    "set": "123/168",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm7/123_hires.png"
+  },
+  {
+    "year": "2020",
+    "deck": "ADP Zacian (2020)",
+    "count": 3,
+    "name": "Energy Switch",
+    "set": "162/202",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/swsh1/162_hires.png"
+  },
+  {
+    "year": "2020",
+    "deck": "ADP Zacian (2020)",
+    "count": 2,
+    "name": "Cherish Ball",
+    "set": "191/236",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm11/191_hires.png"
+  },
+  {
+    "year": "2020",
+    "deck": "ADP Zacian (2020)",
+    "count": 2,
+    "name": "Energy Spinner",
+    "set": "170/214",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm10/170_hires.png"
+  },
+  {
+    "year": "2020",
+    "deck": "ADP Zacian (2020)",
+    "count": 2,
+    "name": "Switch",
+    "set": "183/202",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/swsh1/183_hires.png"
+  },
+  {
+    "year": "2020",
+    "deck": "ADP Zacian (2020)",
+    "count": 1,
+    "name": "Great Catcher",
+    "set": "192/236",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm12/192_hires.png"
+  },
+  {
+    "year": "2020",
+    "deck": "ADP Zacian (2020)",
+    "count": 1,
+    "name": "Tool Scrapper",
+    "set": "168/192",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/swsh2/168_hires.png"
+  },
+  {
+    "year": "2020",
+    "deck": "ADP Zacian (2020)",
+    "count": 2,
+    "name": "Air Balloon",
+    "set": "156/202",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/swsh1/156_hires.png"
+  },
+  {
+    "year": "2020",
+    "deck": "ADP Zacian (2020)",
+    "count": 1,
+    "name": "Metal Frying Pan",
+    "set": "112/131",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm6/112_hires.png"
+  },
+  {
+    "year": "2020",
+    "deck": "ADP Zacian (2020)",
+    "count": 1,
+    "name": "Chaotic Swell",
+    "set": "187/236",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm12/187_hires.png"
+  },
+  {
+    "year": "2020",
+    "deck": "ADP Zacian (2020)",
+    "count": 8,
+    "name": "Metal Energy",
+    "set": "",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/xy1/139_hires.png"
+  },
+  {
+    "year": "2020",
+    "deck": "ADP Zacian (2020)",
+    "count": 2,
+    "name": "Water Energy",
+    "set": "",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/xy1/134_hires.png"
   }
 ]

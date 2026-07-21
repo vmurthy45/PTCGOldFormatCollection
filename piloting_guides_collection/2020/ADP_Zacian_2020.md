@@ -1,109 +1,115 @@
 # How to Pilot — ADP Zacian (2020)
 
-_Format: Sword & Shield-on Standard 2020 (UPR–SSH era; Rebel Clash/Darkness Ablaze tools).
-"ADPZ" — the defining, format-warping best deck of the year. "Boss, Boss, Game."_
+_Format: Standard 2020 (Team Up-on, Sword & Shield / Rebel Clash era). "ADPZ" — the
+defining, format-warping best deck of the year. This list is one card off the build piloted
+at the 2020 Limitless Invitational. "Boss, Boss, Game."_
 
 ## One-line identity
-The prize-race cheat code: **Arceus & Dialga & Palkia-GX's Altered Creation-GX** gives
-*every* attack +30 damage **and one extra Prize per KO for the rest of the game**, so you
-only need ~3 KOs to win. **Metal Saucer** + **Zacian V's Intrepid Sword** turbo-charge
-Metal Energy, and **Zacian V's Brave Blade** (230, +30 = 260) 1HKOs almost anything —
-taking 3 prizes at a time.
+The prize-race cheat code: **Arceus & Dialga & Palkia-GX's Altered Creation-GX** gives *every*
+one of your attacks **+30 damage and one extra Prize per KO for the rest of the game**, so a
+deck that normally needs six prizes now needs only **~three or four KOs** — and **Zacian V's
+Brave Blade** (230, +30 = 260) supplies those KOs on repeat.
 
 ## The meta it lived in
-ADPZ was so strong it *defined* the format — the consensus **best deck in the format
-(BDIF)** — it "gatekept" the metagame by punishing the
-2-prize support Pokémon (Dedenne-GX, Crobat V) that every other deck needed. There's no
-Fairy deck to exploit ADP's Weakness (Fairies were being phased out), and Zacian V's Fire
-Weakness is patchable with Metal Frying Pan. Only a handful of decks (Lucario & Melmetal,
-Cinccino Mill, Fire toolbox) could reliably fight it. Its whole plan is simple and brutal:
-attach → **Altered Creation-GX** → KO → KO → game.
+2020 Standard was ADPZ's format — it was the consensus **best deck (BDIF)**, the thing every
+other deck had to beat or copy. The extra-prize engine warps the entire prize math: while
+your opponent grinds toward six, you're closing games in three big hits. Fast, resilient, and
+absurdly consistent (a huge draw/search engine), its only real problems are opposing ADP
+mirrors (whoever fires **Altered Creation-GX** first is usually ahead) and non-GX single-prize
+decks that deny you the multi-prize KOs the extra-prize plan feeds on.
 
-## Engine cards (why they're here)
-- **Arceus & Dialga & Palkia-GX (156/236) ×2** — the core. **Altered Creation-GX** (needs
-  Water + Metal): +30 damage to all your attacks **and +1 Prize per KO** for the rest of the
-  game — the single strongest GX attack in the format. **Ultimate Ray**: 150 + attach **3
-  basic Energy from your deck** to your Pokémon — after Altered Creation it's 180, and it
-  sets up a benched Zacian in one attack. Two copies to reliably see one early.
-- **Zacian V (138/202) ×3** — the workhorse. **Intrepid Sword** (Ability): draw 3 and attach
-  any Energy drawn to Zacian (ends your turn) — draw *and* acceleration, and great going first
-  under the no-Supporter-T1 rule. **Brave Blade**: 230 (260 with Altered Creation, 270+ with
-  Vitality Band) — 1HKOs Tag Teams; the "can't attack next turn" drawback is covered by Switch.
-- **Jirachi (99/181) ×3** — **Stellar Wish**: look at top 5, take a Trainer — consistency to
-  find Metal Saucer / Quick Ball / the Supporter you need. Great opening Pokémon.
-- **Metal Saucer ×4** — attach a Metal from **discard** to a benched Metal Pokémon — the turbo
-  that powers a T1 Zacian or refuels an attacker instantly (and re-arms after Crushing Hammer).
+## The two cards that matter (the engine)
+- **Arceus & Dialga & Palkia-GX (156/236) ×2** — the reason the deck exists.
+  - **Ultimate Ray** [CWM]: 150 damage **and search your deck for up to 3 basic Energy and
+    attach them to your Pokémon in any way you like** — a huge one-attack accelerate that
+    loads Metal onto your Zacians while you swing.
+  - **Altered Creation-GX** [W]: for the rest of the game, your attacks do **+30** to the
+    opponent's Active. **Crucially, if ADP has at least one _extra_ Water Energy attached
+    (beyond the [W] cost), you also take +1 Prize on every KO those attacks score.** This is
+    why the deck runs **2 Water Energy** — one pays the cost, one turns on the extra-prize
+    mode. Fire the "plus" version and the game becomes a 3–4-KO race.
+- **Zacian V (138/202) ×3** — the workhorse attacker and the draw engine.
+  - **Intrepid Sword** (Ability): once per turn, look at the top 3 cards and attach any Metal
+    Energy among them to this Zacian, then put the rest into your hand — **but using it ends
+    your turn.** It's your setup-turn engine: dig + accelerate, then pass.
+  - **Brave Blade** [MMM]: **230** (260 under Altered Creation) — but this Zacian **can't
+    attack next turn**, so you rotate between multiple Zacian V (that's why you run three) and
+    lean on Metal Saucer to keep the next one charged.
 
-## Support / tech (why the odd 1-ofs)
-- **Dedenne-GX (57/214) ×2** — **Dedechange** draw (discard hand → 6); consistency (a 2-prize
-  liability, but you're the deck that hands out extra prizes, not the one giving them).
-- **Mimikyu (97/236) ×1** — **Nightmare Curse**/wall tech vs. specific single-prize or
-  low-damage attackers; a body that punishes certain matchups.
-- **Mew (76/214) ×1** — **Bench Barrier**: protects your bench from snipe (Cramorant V,
-  Naganadel, spread) — keeps your Dedenne/Jirachi safe.
-- **Absol (88/181) ×1** — **Ability** punishes benched Pokémon / a tech vs. Jirachi decks and
-  the mirror (great disruptive body).
-- **Phione (57/236) ×1** — **Bubble Beat**-style gust/pivot utility.
-- **Guzma & Hala ×1 / Cynthia & Caitlin ×1** — Tag Team Supporters (Tag Call targets): **Guzma
-  & Hala** grabs a Tool + Special Energy + Stadium (finds Aurora/Unit Energy for Altered
-  Creation); **Cynthia & Caitlin** draws + fetches a Supporter/Stadium.
-- **Professor's Research ×4 / Reset Stamp ×2** — draw + hand disruption (Reset Stamp shrinks
-  their hand as you take your prize lead).
-- **Quick Ball ×4 / Tag Call ×2 / Switch ×4 / Custom Catcher ×4 / Great Catcher ×1** — search
-  (Tag Call → ADP or a Tag Supporter), pivot (reset Brave Blade), and gust (Custom Catcher ×2
-  or Great Catcher onto a benched target for the KO).
-- **Energy Switch ×2** — move Metal around: enables a **T1 Altered Creation** (Saucer onto a
-  benched Metal → Energy Switch onto ADP), or pull Energy off ADP to swing with Zacian out of
-  nowhere.
-- **Escape Board ×1 / Vitality Band ×1 / Big Charm ×1** — pivot a sleeping Jirachi; **Vitality
-  Band** (+10, lets Zacian hit 270 on Tag Teams under Altered Creation); **Big Charm** (+30 HP).
-- **Shrine of Punishment ×2** — chip opposing GX/EX boards between turns; a Stadium the deck
-  likes since it runs few of its own Abilities.
-- **9 Metal + 2 Aurora + 1 Unit Energy GRW** — Metal fuels Saucer/Intrepid Sword/Brave Blade;
-  **Aurora / Unit Energy** provide the **Water** needed for Altered Creation-GX without playing
-  basic Water (Aurora = any type; Unit GRW covers it).
+## Support / consistency (why the odd 1-ofs)
+- **Dedenne-GX (57/214) ×2** — **Dedechange**: discard your hand, draw 6. The explosive
+  setup/refuel button (mind the 3-prize liability — don't over-bench it into Boss's Orders).
+- **Eldegoss V (19/192) ×1** — **Happy Match**: when you bench it from hand, take a Supporter
+  from your **discard pile** back to hand. Recurs a used Boss's Orders / Professor's Research /
+  Marnie — endless Supporter fuel for the grind.
+- **Oranguru (148/202) ×1** — **Primate Wisdom**: swap a card in hand with the top of your
+  deck. Resource smoothing — stash a dead card, set up your next draw.
+- **Metal Saucer (170/202) ×4** — the acceleration backbone: attach a Metal from your **discard**
+  straight onto a Benched Metal Pokémon (Zacian). This is what keeps a fresh Zacian charged
+  while the last one sits out its no-attack turn.
+- **Professor's Research ×4 / Marnie ×4 / Boss's Orders ×2 / Mallow & Lana ×1** — the Supporter
+  suite. Research is raw draw 7; **Marnie** draws 5 *and* disrupts their hand; **Boss's Orders**
+  is the gust that ends games ("Boss, Boss, Game"); **Mallow & Lana** heals 120 to keep a
+  damaged Zacian swinging.
+- **Order Pad ×4 / Acro Bike ×3 / Quick Ball ×4 / Cherish Ball ×2** — the Item search/dig shell
+  that finds Pokémon and Items to assemble the turn.
+- **Energy Switch ×3 / Energy Spinner ×2** — move/search Energy to fix a turn (e.g. shuttle
+  Metal onto the attacking Zacian, or grab the Water ADP needs).
+- **Switch ×2 / Air Balloon ×2 / Great Catcher ×1** — pivots and a GX/V gust.
+
+## Tech cards
+- **Metal Frying Pan (112/131) ×1** — Pokémon Tool: the Metal Pokémon it's on takes **−30 from
+  attacks and loses its Weakness** — huge on Zacian/ADP into Fighting Weakness and into big
+  hitters.
+- **Chaotic Swell (187/236) ×1** — Stadium that **discards any differently-named Stadium the
+  instant one is played** and **can't be removed by card effects** — a one-card answer to
+  opposing Stadiums (Power Plant shutting off your Abilities, etc.).
+- **Tool Scrapper (168/192) ×1** — discard up to 2 Tools; strip an opposing Big Charm / Frying
+  Pan when it's holding up a KO.
 
 ## Ideal early game
-- **Turn 1:** ideally **Zacian V Intrepid Sword** (draw 3, attach Metal) to develop, or set up
-  an ADP with Water + Metal. With **Metal Saucer + Energy Switch** you can even **Altered
-  Creation-GX turn 1**.
-- **Turn 2 (the key turn):** **Altered Creation-GX** — now every KO is worth an extra prize and
-  hits +30.
+- **Turn 1–2:** flood the setup — **Quick Ball / Dedenne-GX** to find pieces, **Intrepid Sword**
+  on Zacian to dig and attach Metal (accepting the turn-end), and get an **ADP** onto the bench
+  with a **Water** (plus the extra Water) queued up.
+- **The key turn:** fire **Altered Creation-GX (with the extra Water)** as early as you safely
+  can — every attack for the rest of the game is now +30 and +1 prize. From here you're only
+  ~3 KOs from winning.
 
 ## The core loop
-Get **Altered Creation-GX** off ASAP → then **Boss's Orders-style gust (Custom/Great Catcher)
-into a 2-prize Pokémon and KO it for 3 prizes** → **Ultimate Ray** to load the next attacker
-(or Metal Saucer + Intrepid Sword) → **Brave Blade** the next threat for another 3. Two big
-KOs after Altered Creation usually ends it. **Reset Stamp** disrupts their rebuild; **Mew**
-protects your bench; **Switch** resets Brave Blade so you never skip a turn.
+Altered Creation-GX+ online → **Ultimate Ray** (150 + attach 3 Metal to your Zacians) or a
+**Brave Blade** (260) → **Metal Saucer** re-charges the *next* Zacian from the discard while
+this one sits out → rotate to the fresh Zacian and swing again → **Boss's Orders** the target
+that closes it. Each KO is worth 2 prizes, so the six-prize game is really a three-KO game.
 
 ## Priorities / rules of thumb
-- **Altered Creation-GX is the whole game** — you almost always want it off by turn 2; the
-  +1-prize-per-KO is what turns 6 prizes into ~3 KOs. Protect the Water Energy that enables it.
-- **Attack 2-prize Pokémon** — with Altered Creation they're worth 3; gust the Dedenne/Crobat/
-  Zacian and take three at a time.
-- **Attach Metal first vs. Crushing Hammer** — if they hit it, Metal Saucer just re-arms you.
-- **Sequence Brave Blade + Switch** — the "can't attack next turn" clause is free if you
-  planned the pivot.
+- **Fire Altered Creation-GX+ before you start taking KOs** — a KO scored *before* the extra
+  prize is on is a wasted prize. Get the +1 running first, then start knocking things out.
+- **Always keep the _extra_ Water on ADP.** Altered Creation without the second Water is only
+  +30 damage, no extra prize — half the card. Track that Water like a win condition.
+- **Rotate your Zacians.** Brave Blade locks one out next turn; have the next Zacian charged
+  (Metal Saucer) so you never miss an attack step.
+- **Respect Dedenne-GX / ADP as 3- and 2-prize liabilities** — don't hand the opponent a
+  cheap multi-prize Boss's Orders KO that swings the race back.
 
 ## Weaknesses / bad matchups
-- **Lucario & Melmetal-GX / Zacian** — **Full Metal Wall-GX** discards your Energy right after
-  Altered Creation and **Metal Goggles** stops the Brave Blade 1HKO; a genuinely hard matchup
-  (bait the wall with Zacian first).
-- **Cinccino Mill / control** — decks that don't care about prizes and mill you out sidestep the
-  whole plan; unfavorable.
-- **Fire (Zacian V is Fire-Weak)** — Blacephalon/Fire toolbox can race/1HKO Zacian unless you
-  get Metal Frying Pan down.
-- **Crushing Hammer / Energy denial** — can stall your setup if it stacks up.
+- **The ADPZ mirror** — largely decided by who lands **Altered Creation-GX+ first** and who
+  wins the Zacian race; going first and Boss timing matter enormously.
+- **Single-prize / non-GX decks** — they deny you the multi-prize KOs the extra-prize plan
+  wants, and chip away while giving up only one prize at a time.
+- **Ability lock (Power Plant)** — shuts off Intrepid Sword and Dedechange; **Chaotic Swell**
+  is your one out, so protect/deploy it.
+- **Fighting Weakness** — ADP is Fighting-weak; without **Metal Frying Pan** down, a Fighting
+  attacker can 2-for-1 your engine.
 
 ## Quick reference — the numbers
-- Altered Creation-GX: **+30 damage to all your attacks + 1 extra Prize per KO** (rest of game).
-- Ultimate Ray: **150 + attach 3 basic Energy from deck** (180 after Altered Creation).
-- Brave Blade: **230** (260 w/ Altered Creation, 270 w/ Vitality Band) — can't attack next turn.
-- Intrepid Sword: **draw 3 + attach Energy drawn to Zacian** (ends turn); Metal Saucer: Metal
-  from discard → bench.
+- Altered Creation-GX: **+30 damage to all your attacks** for the rest of the game; **+1 Prize
+  per KO** if ADP has an extra Water attached.
+- Brave Blade: **230** (**260** under Altered Creation); Zacian **can't attack next turn**.
+- Ultimate Ray: **150** + **attach 3 basic Energy** from deck.
+- Win math: **~3–4 KOs** for the full six prizes.
+- Setup: **Altered Creation-GX+ as early as possible**; rotate 3 Zacian V off Metal Saucer.
 
 ---
-_Sources: Bulbapedia (ADP archetype), SixPrizes ("The Too Good Dog", "From A to Z"), PokéBeach
-(Zacian V/ADP lists), PTCGO Store ("ADP Zacian is Amazing"). Verified vs. the collection
-workbook (60 cards)._
+_Sources: Bulbapedia (Arceus & Dialga & Palkia-GX / Zacian V card text), Limitless TCG
+(Cosmic Eclipse & Sword & Shield card database; 2020 Limitless Invitational deck lists),
+Pokemon.com "ADPZ" deck strategy. Verified vs. the 60-card list._

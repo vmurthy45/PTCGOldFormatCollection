@@ -81,6 +81,15 @@ URL_OVERRIDES = {
     # Zubat 53/135 (Boundaries Crossed) — the correct print for the two 2015
     # decks; recorded here (not just in cards.json) so it survives a re-merge.
     ("Zubat", "53/135"): "https://images.pokemontcg.io/bw8/53_hires.png",
+    # ADP Zacian (2020) Limitless Invitational list — new prints for this deck,
+    # all HTTP-verified 200.
+    ("Oranguru", "148/202"): "https://images.pokemontcg.io/swsh1/148_hires.png",
+    ("Eldegoss V", "19/192"): "https://images.pokemontcg.io/swsh2/19_hires.png",
+    ("Mallow & Lana", "198/236"): "https://images.pokemontcg.io/sm12/198_hires.png",
+    ("Order Pad", "131/156"): "https://images.pokemontcg.io/sm5/131_hires.png",
+    ("Energy Switch", "162/202"): "https://images.pokemontcg.io/swsh1/162_hires.png",
+    ("Metal Frying Pan", "112/131"): "https://images.pokemontcg.io/sm6/112_hires.png",
+    ("Chaotic Swell", "187/236"): "https://images.pokemontcg.io/sm12/187_hires.png",
     # Basic Energy is recorded in cards.json with no specific print (empty
     # set), since decklists rarely note which printing was used. These pin
     # every basic Energy card to its XY base-set art (xy1) so there's a
