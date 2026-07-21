@@ -344,11 +344,11 @@ which repoints tracking without needing another push).
 
 ## Current data state (as of the last update in this file)
 
-- 67 decks, 1613 card rows, 15 "formats" (year groupings, including a
+- 68 decks, 1637 card rows, 15 "formats" (year groupings, including a
   standalone `2017 NAIC`).
-- Every row has a `category`. Every row has an `image` — 705 unique image
+- Every row has a `category`. Every row has an `image` — 718 unique image
   URLs, all verified HTTP 200.
-- All 67 piloting guides exist and are wired up (`data/guides.json` has 67
+- All 68 piloting guides exist and are wired up (`data/guides.json` has 68
   keys, one per deck).
 - `data/turn1_rules.json` has an entry for all 15 year labels.
 
