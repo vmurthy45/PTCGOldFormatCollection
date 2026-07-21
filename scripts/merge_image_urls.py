@@ -62,6 +62,25 @@ URL_OVERRIDES = {
     ("Cynthia & Caitlin", "189/236"): "https://images.pokemontcg.io/sm12/189_hires.png",
     ("Unit Energy GRW", "137/156"): "https://images.pokemontcg.io/sm5/137_hires.png",
     ("Rapid Strike Energy", "140/163"): "https://images.pokemontcg.io/swsh5/140_hires.png",
+    # Whimsicott GX (2019) — new cards for this deck, all HTTP-verified 200.
+    ("Cottonee", "139/214"): "https://images.pokemontcg.io/sm10/139_hires.png",
+    ("Whimsicott GX", "140/214"): "https://images.pokemontcg.io/sm10/140_hires.png",
+    ("Blitzle", "81/214"): "https://images.pokemontcg.io/sm8/81_hires.png",
+    ("Zebstrika", "82/214"): "https://images.pokemontcg.io/sm8/82_hires.png",
+    ("Porygon", "155/214"): "https://images.pokemontcg.io/sm10/155_hires.png",
+    ("Porygon-Z", "157/214"): "https://images.pokemontcg.io/sm10/157_hires.png",
+    ("Whimsicott", "144/236"): "https://images.pokemontcg.io/sm11/144_hires.png",
+    ("Fairy Charm L", "172/214"): "https://images.pokemontcg.io/sm10/172_hires.png",
+    ("Wondrous Labyrinth", "158/181"): "https://images.pokemontcg.io/sm9/158_hires.png",
+    ("Professor Elm's Lecture", "188/214"): "https://images.pokemontcg.io/sm8/188_hires.png",
+    ("Unit Energy FDF", "118/131"): "https://images.pokemontcg.io/sm6/118_hires.png",
+    ("Triple Acceleration Energy", "190/214"): "https://images.pokemontcg.io/sm10/190_hires.png",
+    # Rainbow Energy's only in-collection prints are XY-era (not 2019-legal);
+    # this deck uses the Celestial Storm 151/168 print.
+    ("Rainbow Energy", "151/168"): "https://images.pokemontcg.io/sm7/151_hires.png",
+    # Zubat 53/135 (Boundaries Crossed) — the correct print for the two 2015
+    # decks; recorded here (not just in cards.json) so it survives a re-merge.
+    ("Zubat", "53/135"): "https://images.pokemontcg.io/bw8/53_hires.png",
     # Basic Energy is recorded in cards.json with no specific print (empty
     # set), since decklists rarely note which printing was used. These pin
     # every basic Energy card to its XY base-set art (xy1) so there's a

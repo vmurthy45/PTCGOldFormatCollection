@@ -2,7 +2,7 @@
 
 A browsable set of research-based piloting guides for historical competitive decks, one per deck, spanning the 2010–2025 Standard seasons (plus the 2017 NAIC format). Each guide covers the deck's identity, the meta it lived in, its engine and tech cards, the core gameplay loop, priorities, bad matchups, and a quick-reference sheet.
 
-**67 guides across 15 formats.** Guides are organized into year folders. All guides are research-based and reflect documented competitive consensus — they were not playtested by the author.
+**68 guides across 15 formats.** Guides are organized into year folders. All guides are research-based and reflect documented competitive consensus — they were not playtested by the author.
 
 ---
 
@@ -73,7 +73,7 @@ A browsable set of research-based piloting guides for historical competitive dec
 - **[Zoroark Golisopod (2018)](2018/Zoroark_Golisopod_2018.md)** — Consistency meets efficiency: Zoroark-GX's Trade draws you through the deck every turn while Riotous Beating provides scaling damage, and Golisopod-GX adds a hyper- efficient First Impression (120 for one Grass) as a second, harder-hitting attacker.
 - **[Zoroark Lycanroc (2018)](2018/Zoroark_Lycanroc_2018.md)** — The most flexible Zoroark deck: Zoroark-GX's Trade draws you through the deck, Riotous Beating scales with your board, and Lycanroc-GX's Bloodthirsty Eyes drags up any benched Pokémon (no Supporter) so you KO exactly what you want.
 
-## 2019  (6 guides)
+## 2019  (7 guides)
 
 - **[Blacephalon GX (2019)](2019/Blacephalon_GX_2019.md)** — A Fire OHKO deck built on Blacephalon-GX's Mind Blown: send any number of your Fire Energy to the Lost Zone to deal 50 damage each, scaling to a one-hit KO on literally anything in the format.
 - **[Green's ReshiZard (2019)](2019/Greens_ReshiZard_2019.md)** — A tanky, Trainer-driven ReshiZard: Green's Exploration searches your deck for 2 Trainer cards — playable only while you have no Pokémon with Abilities in play — and because not a single Pokémon in this list has an Ability, Green's is always live.
@@ -81,6 +81,7 @@ A browsable set of research-based piloting guides for historical competitive dec
 - **[Perfection (Mewtwo & Mew-GX) (2019)](2019/Perfection_Mewtwo_2019.md)** — A single 270-HP Tag Team that copies the entire format's best GX attacks.
 - **[Pikarom Judge (2019)](2019/Pikarom_Judge_2019.md)** — Explosive turn-1 aggression with hand disruption: Pikachu & Zekrom-GX's Full Blitz attacks and accelerates 3 Lightning on turn 1, Electropower spikes damage for 1HKOs, and Judge keeps resetting the opponent to 4 cards so they can't stabilize.
 - **[ReshiZard Firebox (2019)](2019/ReshiZard_Firebox_2019.md)** — Fast, consistent Fire beatdown: Welder attaches 2 Fire a turn (and draws 3) to power Reshiram & Charizard-GX's Flare Strike (230) from turn 2, while an Ability engine (Jirachi + Dedenne-GX) digs to Welder every game.
+- **[Whimsicott GX (2019)](2019/Whimsicott_GX_2019.md)** — A Fairy disruption/toolbox: Porygon-Z's Crazy Code pours Special Energy onto Whimsicott-GX (Energy Blow scales 30 per Energy) while a wall package — Fluffy Cotton's coin-flip damage prevention, Fairy Charm L vs PikaRom, and Wondrous Labyrinth's non-Fairy attack tax — makes the opponent whiff; you out-last and grind rather than race.
 
 ## 2020  (4 guides)
 

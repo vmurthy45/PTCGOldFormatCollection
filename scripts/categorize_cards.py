@@ -23,7 +23,8 @@ ENERGY_NAMES = {
     "Lightning Energy", "Luminous Energy", "Metal Energy", "Neo Upper Energy",
     "Plasma Energy", "Prism Energy", "Psychic Energy", "Rainbow Energy",
     "Rapid Strike Energy", "Recycle Energy", "Reversal Energy", "Spiral Energy", "Splash Energy",
-    "Strong Energy", "Therapeutic Energy", "Unit Energy GRW", "Unit Energy LPM",
+    "Strong Energy", "Therapeutic Energy", "Triple Acceleration Energy", "Unit Energy FDF",
+    "Unit Energy GRW", "Unit Energy LPM",
     "V Guard Energy", "Warp Energy", "Water Energy", "Wonder Energy",
 }
 
@@ -47,7 +48,7 @@ TRAINER_NAMES = {
     "Energy Loto", "Energy Recycler", "Energy Retrieval", "Energy Search",
     "Energy Spinner", "Energy Switch", "Enhanced Hammer", "Escape Board", "Escape Rope",
     "Eviolite", "Evolution Incense", "Evosoda", "Expert Belt", "Explorer's Guidance",
-    "Fairy Garden", "Felicity's Drawing", "Field Blower", "Fiery Flint",
+    "Fairy Charm L", "Fairy Garden", "Felicity's Drawing", "Field Blower", "Fiery Flint",
     "Fighting Fury Belt", "Fighting Stadium", "Fire Crystal", "Fisherman", "Float Stone",
     "Fog Crystal", "Forest Seal Stone", "Forest of Giant Plants", "Friend Ball",
     "Faba", "Future Booster Energy Capsule", "G Booster", "Giant Hearth", "Giovanni's Charisma",
@@ -66,7 +67,7 @@ TRAINER_NAMES = {
     "Pokémon Collector", "Pokémon Communication", "Pokémon Fan Club", "Pokémon Ranger",
     "Pokémon Rescue",
     "Potion", "Power Plant", "Power Tablet", "PlusPower", "Prime Catcher", "Professor Burnet",
-    "Professor Juniper", "Professor Kukui", "Professor Oak's New Theory",
+    "Professor Elm's Lecture", "Professor Juniper", "Professor Kukui", "Professor Oak's New Theory",
     "Professor Sada's Vitality", "Professor Sycamore", "Professor Turo's Scenario",
     "Professor's Letter", "Professor's Research", "Puzzle of Time", "Quick Ball",
     "Raihan", "Random Receiver", "Rare Candy", "Rayquaza Spirit Link", "Rescue Board",
@@ -86,7 +87,8 @@ TRAINER_NAMES = {
     "Temple of Sinnoh", "Thunder Mountain Prism Star", "Tool Jammer", "Tool Scrapper",
     "Tower of Waters", "Town Map", "Town Store", "Trainers' Mail", "Training Court",
     "Tropical Beach", "Ultra Ball", "Ultra Space", "VS Seeker", "Virbank City Gym",
-    "Viridian Forest", "Vitality Band", "Volkner", "Warp Point", "Welder", "Xerosic",
+    "Viridian Forest", "Vitality Band", "Volkner", "Warp Point", "Welder", "Wondrous Labyrinth",
+    "Xerosic",
 }
 
 
