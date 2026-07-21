@@ -3,6 +3,10 @@
 _Format: Sun & Moon-on Standard 2019 (TEU–UNM). A Fairy disruption/toolbox that tries to
 win games while taking little or no damage — you wall, tax, and grind rather than race._
 
+> **Vig's note:** I strongly considered playing this at the 2019 World Championships, but
+> changed my mind at the last minute and copied Louis's Blacephalon list instead — in my
+> testing, Fluffy Cotton just didn't flip favourably often enough to trust.
+
 ## One-line identity
 A **Fairy control-beatdown**: **Porygon-Z's Crazy Code** pours Special Energy onto
 **Whimsicott-GX** for free, whose **Energy Blow** scales at 30 damage per Energy, while a
