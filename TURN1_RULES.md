@@ -75,10 +75,13 @@ rules snapshot. Mapping the timeline above onto that:
 | 2010 | 2007–2010 (Diamond & Pearl / HGSS era) | Winner must go first |
 | 2012, 2013 | 2011–2013 (Black & White era) | Winner must go first |
 | 2014, 2015, 2016, 2017, 2017 NAIC, 2018, 2019 | XY – pre-Sword & Shield | Winner chooses |
-| 2020, 2022, 2023, 2024, 2025 | Sword & Shield onward | Winner chooses |
+| 2020, 2021, 2022, 2023, 2024, 2025 | Sword & Shield onward | Winner chooses |
 
-(2011 and 2021 have no decklists in this collection, so they don't need
-an entry — see `piloting_guides_collection/README.md`.)
+(2011 has no decklists in this collection, so it doesn't need an entry —
+see `piloting_guides_collection/README.md`. 2021 is represented by the
+Players Cup III/IV era; its ruleset is identical to 2020's, since the
+Feb 2020 Sword & Shield "no Supporter, no attack on turn 1" rules were
+still in force and unchanged.)
 
 ## Display format used on the site
 

@@ -3,136 +3,337 @@
   "2010": {
     "flip": "Winner Goes First",
     "rules": [
-      { "label": "Supporters", "allowed": false },
-      { "label": "Items", "allowed": false },
-      { "label": "Stadium", "allowed": false },
-      { "label": "Attack", "allowed": true }
+      {
+        "label": "Supporters",
+        "allowed": false
+      },
+      {
+        "label": "Items",
+        "allowed": false
+      },
+      {
+        "label": "Stadium",
+        "allowed": false
+      },
+      {
+        "label": "Attack",
+        "allowed": true
+      }
     ]
   },
   "2012": {
     "flip": "Winner Goes First",
     "rules": [
-      { "label": "Items", "allowed": true },
-      { "label": "Supporters", "allowed": true },
-      { "label": "Stadium", "allowed": true },
-      { "label": "Attack", "allowed": true }
+      {
+        "label": "Items",
+        "allowed": true
+      },
+      {
+        "label": "Supporters",
+        "allowed": true
+      },
+      {
+        "label": "Stadium",
+        "allowed": true
+      },
+      {
+        "label": "Attack",
+        "allowed": true
+      }
     ]
   },
   "2013": {
     "flip": "Winner Goes First",
     "rules": [
-      { "label": "Items", "allowed": true },
-      { "label": "Supporters", "allowed": true },
-      { "label": "Stadium", "allowed": true },
-      { "label": "Attack", "allowed": true }
+      {
+        "label": "Items",
+        "allowed": true
+      },
+      {
+        "label": "Supporters",
+        "allowed": true
+      },
+      {
+        "label": "Stadium",
+        "allowed": true
+      },
+      {
+        "label": "Attack",
+        "allowed": true
+      }
     ]
   },
   "2014": {
     "flip": "Winner Chooses",
     "rules": [
-      { "label": "Items", "allowed": true },
-      { "label": "Supporters", "allowed": true },
-      { "label": "Stadium", "allowed": true },
-      { "label": "Attack", "allowed": false }
+      {
+        "label": "Items",
+        "allowed": true
+      },
+      {
+        "label": "Supporters",
+        "allowed": true
+      },
+      {
+        "label": "Stadium",
+        "allowed": true
+      },
+      {
+        "label": "Attack",
+        "allowed": false
+      }
     ]
   },
   "2015": {
     "flip": "Winner Chooses",
     "rules": [
-      { "label": "Items", "allowed": true },
-      { "label": "Supporters", "allowed": true },
-      { "label": "Stadium", "allowed": true },
-      { "label": "Attack", "allowed": false }
+      {
+        "label": "Items",
+        "allowed": true
+      },
+      {
+        "label": "Supporters",
+        "allowed": true
+      },
+      {
+        "label": "Stadium",
+        "allowed": true
+      },
+      {
+        "label": "Attack",
+        "allowed": false
+      }
     ]
   },
   "2016": {
     "flip": "Winner Chooses",
     "rules": [
-      { "label": "Items", "allowed": true },
-      { "label": "Supporters", "allowed": true },
-      { "label": "Stadium", "allowed": true },
-      { "label": "Attack", "allowed": false }
+      {
+        "label": "Items",
+        "allowed": true
+      },
+      {
+        "label": "Supporters",
+        "allowed": true
+      },
+      {
+        "label": "Stadium",
+        "allowed": true
+      },
+      {
+        "label": "Attack",
+        "allowed": false
+      }
     ]
   },
   "2017": {
     "flip": "Winner Chooses",
     "rules": [
-      { "label": "Items", "allowed": true },
-      { "label": "Supporters", "allowed": true },
-      { "label": "Stadium", "allowed": true },
-      { "label": "Attack", "allowed": false }
+      {
+        "label": "Items",
+        "allowed": true
+      },
+      {
+        "label": "Supporters",
+        "allowed": true
+      },
+      {
+        "label": "Stadium",
+        "allowed": true
+      },
+      {
+        "label": "Attack",
+        "allowed": false
+      }
     ]
   },
   "2017 NAIC": {
     "flip": "Winner Chooses",
     "rules": [
-      { "label": "Items", "allowed": true },
-      { "label": "Supporters", "allowed": true },
-      { "label": "Stadium", "allowed": true },
-      { "label": "Attack", "allowed": false }
+      {
+        "label": "Items",
+        "allowed": true
+      },
+      {
+        "label": "Supporters",
+        "allowed": true
+      },
+      {
+        "label": "Stadium",
+        "allowed": true
+      },
+      {
+        "label": "Attack",
+        "allowed": false
+      }
     ]
   },
   "2018": {
     "flip": "Winner Chooses",
     "rules": [
-      { "label": "Items", "allowed": true },
-      { "label": "Supporters", "allowed": true },
-      { "label": "Stadium", "allowed": true },
-      { "label": "Attack", "allowed": false }
+      {
+        "label": "Items",
+        "allowed": true
+      },
+      {
+        "label": "Supporters",
+        "allowed": true
+      },
+      {
+        "label": "Stadium",
+        "allowed": true
+      },
+      {
+        "label": "Attack",
+        "allowed": false
+      }
     ]
   },
   "2019": {
     "flip": "Winner Chooses",
     "rules": [
-      { "label": "Items", "allowed": true },
-      { "label": "Supporters", "allowed": true },
-      { "label": "Stadium", "allowed": true },
-      { "label": "Attack", "allowed": false }
+      {
+        "label": "Items",
+        "allowed": true
+      },
+      {
+        "label": "Supporters",
+        "allowed": true
+      },
+      {
+        "label": "Stadium",
+        "allowed": true
+      },
+      {
+        "label": "Attack",
+        "allowed": false
+      }
     ]
   },
   "2020": {
     "flip": "Winner Chooses",
     "rules": [
-      { "label": "Items", "allowed": true },
-      { "label": "Stadium", "allowed": true },
-      { "label": "Supporters", "allowed": false },
-      { "label": "Attack", "allowed": false }
+      {
+        "label": "Items",
+        "allowed": true
+      },
+      {
+        "label": "Stadium",
+        "allowed": true
+      },
+      {
+        "label": "Supporters",
+        "allowed": false
+      },
+      {
+        "label": "Attack",
+        "allowed": false
+      }
+    ]
+  },
+  "2021": {
+    "flip": "Winner Chooses",
+    "rules": [
+      {
+        "label": "Items",
+        "allowed": true
+      },
+      {
+        "label": "Stadium",
+        "allowed": true
+      },
+      {
+        "label": "Supporters",
+        "allowed": false
+      },
+      {
+        "label": "Attack",
+        "allowed": false
+      }
     ]
   },
   "2022": {
     "flip": "Winner Chooses",
     "rules": [
-      { "label": "Items", "allowed": true },
-      { "label": "Stadium", "allowed": true },
-      { "label": "Supporters", "allowed": false },
-      { "label": "Attack", "allowed": false }
+      {
+        "label": "Items",
+        "allowed": true
+      },
+      {
+        "label": "Stadium",
+        "allowed": true
+      },
+      {
+        "label": "Supporters",
+        "allowed": false
+      },
+      {
+        "label": "Attack",
+        "allowed": false
+      }
     ]
   },
   "2023": {
     "flip": "Winner Chooses",
     "rules": [
-      { "label": "Items", "allowed": true },
-      { "label": "Stadium", "allowed": true },
-      { "label": "Supporters", "allowed": false },
-      { "label": "Attack", "allowed": false }
+      {
+        "label": "Items",
+        "allowed": true
+      },
+      {
+        "label": "Stadium",
+        "allowed": true
+      },
+      {
+        "label": "Supporters",
+        "allowed": false
+      },
+      {
+        "label": "Attack",
+        "allowed": false
+      }
     ]
   },
   "2024": {
     "flip": "Winner Chooses",
     "rules": [
-      { "label": "Items", "allowed": true },
-      { "label": "Stadium", "allowed": true },
-      { "label": "Supporters", "allowed": false },
-      { "label": "Attack", "allowed": false }
+      {
+        "label": "Items",
+        "allowed": true
+      },
+      {
+        "label": "Stadium",
+        "allowed": true
+      },
+      {
+        "label": "Supporters",
+        "allowed": false
+      },
+      {
+        "label": "Attack",
+        "allowed": false
+      }
     ]
   },
   "2025": {
     "flip": "Winner Chooses",
     "rules": [
-      { "label": "Items", "allowed": true },
-      { "label": "Stadium", "allowed": true },
-      { "label": "Supporters", "allowed": false },
-      { "label": "Attack", "allowed": false }
+      {
+        "label": "Items",
+        "allowed": true
+      },
+      {
+        "label": "Stadium",
+        "allowed": true
+      },
+      {
+        "label": "Supporters",
+        "allowed": false
+      },
+      {
+        "label": "Attack",
+        "allowed": false
+      }
     ]
   }
 }

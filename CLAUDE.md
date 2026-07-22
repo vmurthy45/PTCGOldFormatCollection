@@ -344,13 +344,20 @@ which repoints tracking without needing another push).
 
 ## Current data state (as of the last update in this file)
 
-- 68 decks, 1637 card rows, 15 "formats" (year groupings, including a
+- 73 decks, 1740 card rows, 16 "formats" (year groupings, including a
   standalone `2017 NAIC`).
-- Every row has a `category`. Every row has an `image` — 718 unique image
+- Every row has a `category`. Every row has an `image` — 740 unique image
   URLs, all verified HTTP 200.
-- All 68 piloting guides exist and are wired up (`data/guides.json` has 68
-  keys, one per deck).
-- `data/turn1_rules.json` has an entry for all 15 year labels.
+- All 73 piloting guides exist and are wired up (`data/guides.json` has 73
+  keys, one per deck). The five 2021 guides are intentionally stubs whose
+  body is just "TBC" — the decklists are complete, the write-ups aren't.
+- `data/turn1_rules.json` has an entry for all 16 year labels.
+- 2021 uses the **Players Cup III/IV** online events as its benchmark
+  (there was no 2021 Worlds — COVID). Lists came from the Limitless
+  tournament archive (`limitlesstcg.com/decks/list/<id>`), whose HTML
+  carries `data-set`/`data-number` attributes that map cleanly onto
+  pokemontcg.io image URLs — a useful trick if more archived lists are
+  ever imported.
 
 If any of these counts don't match what you find when you pick this
 project back up, something changed (Vig added/edited a deck) — that's

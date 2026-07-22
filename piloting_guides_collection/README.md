@@ -2,7 +2,7 @@
 
 A browsable set of research-based piloting guides for historical competitive decks, one per deck, spanning the 2010–2025 Standard seasons (plus the 2017 NAIC format). Each guide covers the deck's identity, the meta it lived in, its engine and tech cards, the core gameplay loop, priorities, bad matchups, and a quick-reference sheet.
 
-**68 guides across 15 formats.** Guides are organized into year folders. All guides are research-based and reflect documented competitive consensus — they were not playtested by the author.
+**73 guides across 16 formats.** Guides are organized into year folders. All guides are research-based and reflect documented competitive consensus — they were not playtested by the author.
 
 ---
 
@@ -90,6 +90,17 @@ A browsable set of research-based piloting guides for historical competitive dec
 - **[Cinccino Mill (2020)](2020/Cinccino_Mill_2020.md)** — Pure control: Cinccino's Make Do (discard a card → draw 2) chains your whole deck every turn, while Bellelba & Brycen-Man and the Mewtwo & Mew-GX → Magcargo-GX GX-mill combo strip cards off the top of the opponent's deck.
 - **[Turbo Zacian (2020)](2020/Turbo_Zacian_2020.md)** — Fast, consistent Metal aggro with a prize-stealing trick: Zacian V's Intrepid Sword + Metal Saucer power a turn-1/2 Brave Blade (230), while the Jirachi Prism Star + Mr.
 
+## 2021  (5 guides)
+
+_The COVID-era season: no World Championships were held, so this collection uses the
+**Players Cup** online events as the format's benchmark. Lists are archived on Limitless._
+
+- **[Rapid Strike Urshifu / Inteleon (2021)](2021/rapid_strike_urshifu_inteleon_2021.md)** — TBC (Alex Schemanske, 1st, Players Cup IV)
+- **[Spiritomb (2021)](2021/spiritomb_2021.md)** — TBC (Bruno Sermann, 2nd, Players Cup IV)
+- **[Ice Rider Calyrex / Inteleon (2021)](2021/ice_rider_calyrex_inteleon_2021.md)** — TBC (Christian Hasbani, 9th, Players Cup IV)
+- **[Shadow Rider Calyrex (2021)](2021/shadow_rider_calyrex_2021.md)** — TBC (Dan Hugar, 9th, Players Cup IV)
+- **[Eternatus VMAX (2021)](2021/eternatus_vmax_2021.md)** — TBC (Matías Martini Serrano, 7th, Players Cup III)
+
 ## 2022  (5 guides)
 
 - **[ADP Flying Pikachu (2022)](2022/ADP_Flying_Pikachu_2022.md)** — An Arceus VSTAR control-beatdown: Starbirth (Arceus VSTAR's VSTAR Power) searches any 2 cards for perfect consistency, Trinity Nova (200) accelerates Energy to set up the next attacker, and you close with Flying Pikachu VMAX (a Lightning VMAX that dodges damage) and Hisuian Decidueye VSTAR.
@@ -125,4 +136,6 @@ A browsable set of research-based piloting guides for historical competitive dec
 
 - **World Championship winning decks** in this collection include: Darkrai (2013, Jason Klaczynski), Zoroark Garbodor & Banette Garbodor (2018), Perfection Mewtwo & ReshiZard Firebox & Blacephalon-GX (2019 event finishes), Ice Rider Palkia (2022, Rikuto Ohashi), Lost Box Kyogre (2023, Shao Tong Yen), Regidrago VSTAR & Iron Thorns & Miraidon & Ancient Toolbox (2024, all four Worlds divisions), and Flutter Devo Gardevoir (2025, Riley McKay) with Dragapult (2025 finalist) and Joltdengo (2025, Gabriel Semedo, Seniors division).
 - **Best-Deck-In-Format (BDIF) decks** are flagged in their guides: LuxChomp (2010), Darkrai (2013), Night March (2016), Gardevoir-GX (2017), ADP Zacian (2020), Mew VMAX (2022), Lugia VSTAR (2023), Regidrago VSTAR (2024).
-- Years without decklists (2011, 2021) are intentionally absent.
+- Years without decklists (2011) are intentionally absent. 2021 had no World
+  Championships (COVID), so the Players Cup III/IV online events stand in as that
+  season's benchmark.
