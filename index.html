@@ -574,7 +574,11 @@ async function init(){
     list.innerHTML = '<div class="empty">Couldn\'t load the collection data. If you opened this file directly from disk, serve it over http(s) instead (fetch() of local JSON is blocked from file://).</div>';
     return;
   }
-  YEARS = [...new Set(CARDS.map(c => c.year))];
+  // Sort chronologically rather than trusting cards.json row order, so a year
+  // added later (e.g. 2021) still lands in the right place. The numeric prefix
+  // orders the years; the string tiebreak keeps "2017 NAIC" just after "2017".
+  YEARS = [...new Set(CARDS.map(c => c.year))]
+    .sort((a, b) => (parseInt(a, 10) - parseInt(b, 10)) || a.localeCompare(b));
   yearsEl.appendChild(chip('All years', 'ALL'));
   YEARS.forEach(y => yearsEl.appendChild(chip(y, y)));
 
