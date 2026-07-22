@@ -576,9 +576,10 @@ async function init(){
   }
   // Sort chronologically rather than trusting cards.json row order, so a year
   // added later (e.g. 2021) still lands in the right place. The numeric prefix
-  // orders the years; the string tiebreak keeps "2017 NAIC" just after "2017".
+  // orders the years; within a year, a labelled event (e.g. "2017 NAIC", held in
+  // June) sorts ahead of the bare year, which always means Worlds in August.
   YEARS = [...new Set(CARDS.map(c => c.year))]
-    .sort((a, b) => (parseInt(a, 10) - parseInt(b, 10)) || a.localeCompare(b));
+    .sort((a, b) => (parseInt(a, 10) - parseInt(b, 10)) || b.localeCompare(a));
   yearsEl.appendChild(chip('All years', 'ALL'));
   YEARS.forEach(y => yearsEl.appendChild(chip(y, y)));
 
