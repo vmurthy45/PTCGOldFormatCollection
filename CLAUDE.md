@@ -344,12 +344,12 @@ which repoints tracking without needing another push).
 
 ## Current data state (as of the last update in this file)
 
-- 73 decks, 1740 card rows, 16 "formats" (year groupings, including a
+- 74 decks, 1764 card rows, 16 "formats" (year groupings, including a
   standalone `2017 NAIC`).
-- Every row has a `category`. Every row has an `image` — 740 unique image
+- Every row has a `category`. Every row has an `image` — 749 unique image
   URLs, all verified HTTP 200.
-- All 73 piloting guides exist and are wired up (`data/guides.json` has 73
-  keys, one per deck). The five 2021 guides are intentionally stubs whose
+- All 74 piloting guides exist and are wired up (`data/guides.json` has 74
+  keys, one per deck). The six 2021 guides are intentionally stubs whose
   body is just "TBC" — the decklists are complete, the write-ups aren't.
 - `data/turn1_rules.json` has an entry for all 16 year labels.
 - 2021 uses the **Players Cup III/IV** online events as its benchmark

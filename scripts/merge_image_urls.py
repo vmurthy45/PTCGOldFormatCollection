@@ -153,6 +153,33 @@ URL_OVERRIDES = {
     ('Tower of Waters', '138/163'): 'https://images.pokemontcg.io/swsh5/138_hires.png',
     ('Weakness Guard Energy', '213/236'): 'https://images.pokemontcg.io/sm11/213_hires.png',
     ('Yveltal', '95/181'): 'https://images.pokemontcg.io/sm9/95_hires.png',
+    # Mad Party (2021) — Takahiro Ikeda, 13th, Champions League Yokohama.
+    # Prism Star names are normalized to the collection's spelled-out form
+    # (Limitless renders them with the ♢ glyph).
+    ('Acro Bike', '123/168'): 'https://images.pokemontcg.io/sm7/123_hires.png',
+    ("Boss's Orders", '154/192'): 'https://images.pokemontcg.io/swsh2/154_hires.png',
+    ('Bunnelby', '150/189'): 'https://images.pokemontcg.io/swsh3/150_hires.png',
+    ('Crobat V', '104/189'): 'https://images.pokemontcg.io/swsh3/104_hires.png',
+    ('Dedenne', '78/189'): 'https://images.pokemontcg.io/swsh3/78_hires.png',
+    ('Dedenne-GX', '57/214'): 'https://images.pokemontcg.io/sm10/57_hires.png',
+    ('Ditto Prism Star', '154/214'): 'https://images.pokemontcg.io/sm8/154_hires.png',
+    ('Galarian Mr. Rime', '36/189'): 'https://images.pokemontcg.io/swsh3/36_hires.png',
+    ('Great Ball', '164/202'): 'https://images.pokemontcg.io/swsh1/164_hires.png',
+    ('Great Catcher', '192/236'): 'https://images.pokemontcg.io/sm12/192_hires.png',
+    ('Jirachi Prism Star', '97/168'): 'https://images.pokemontcg.io/sm7/97_hires.png',
+    ('Mewtwo', '75/214'): 'https://images.pokemontcg.io/sm10/75_hires.png',
+    ('Mimikyu', '81/189'): 'https://images.pokemontcg.io/swsh3/81_hires.png',
+    ('Mr. Mime', '11/18'): 'https://images.pokemontcg.io/det1/11_hires.png',
+    ('Mysterious Treasure', '113/131'): 'https://images.pokemontcg.io/sm6/113_hires.png',
+    ('Oranguru', '148/202'): 'https://images.pokemontcg.io/swsh1/148_hires.png',
+    ('Polteageist', '83/189'): 'https://images.pokemontcg.io/swsh3/83_hires.png',
+    ("Professor's Research", '178/202'): 'https://images.pokemontcg.io/swsh1/178_hires.png',
+    ('Quick Ball', '179/202'): 'https://images.pokemontcg.io/swsh1/179_hires.png',
+    ('Roxie', '205/236'): 'https://images.pokemontcg.io/sm12/205_hires.png',
+    ('Scoop Up Net', '165/192'): 'https://images.pokemontcg.io/swsh2/165_hires.png',
+    ('Sinistea', '89/202'): 'https://images.pokemontcg.io/swsh1/89_hires.png',
+    ('Triple Acceleration Energy', '190/214'): 'https://images.pokemontcg.io/sm10/190_hires.png',
+    ('Twin Energy', '174/192'): 'https://images.pokemontcg.io/swsh2/174_hires.png',
     # Basic Energy is recorded in cards.json with no specific print (empty
     # set), since decklists rarely note which printing was used. These pin
     # every basic Energy card to its XY base-set art (xy1) so there's a

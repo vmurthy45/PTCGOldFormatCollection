@@ -2,7 +2,7 @@
 
 A browsable set of research-based piloting guides for historical competitive decks, one per deck, spanning the 2010–2025 Standard seasons (plus the 2017 NAIC format). Each guide covers the deck's identity, the meta it lived in, its engine and tech cards, the core gameplay loop, priorities, bad matchups, and a quick-reference sheet.
 
-**73 guides across 16 formats.** Guides are organized into year folders. All guides are research-based and reflect documented competitive consensus — they were not playtested by the author.
+**74 guides across 16 formats.** Guides are organized into year folders. All guides are research-based and reflect documented competitive consensus — they were not playtested by the author.
 
 ---
 
@@ -90,7 +90,7 @@ A browsable set of research-based piloting guides for historical competitive dec
 - **[Cinccino Mill (2020)](2020/Cinccino_Mill_2020.md)** — Pure control: Cinccino's Make Do (discard a card → draw 2) chains your whole deck every turn, while Bellelba & Brycen-Man and the Mewtwo & Mew-GX → Magcargo-GX GX-mill combo strip cards off the top of the opponent's deck.
 - **[Turbo Zacian (2020)](2020/Turbo_Zacian_2020.md)** — Fast, consistent Metal aggro with a prize-stealing trick: Zacian V's Intrepid Sword + Metal Saucer power a turn-1/2 Brave Blade (230), while the Jirachi Prism Star + Mr.
 
-## 2021  (5 guides)
+## 2021  (6 guides)
 
 _The COVID-era season: no World Championships were held, so this collection uses the
 **Players Cup** online events as the format's benchmark. Lists are archived on Limitless._
@@ -100,6 +100,7 @@ _The COVID-era season: no World Championships were held, so this collection uses
 - **[Ice Rider Calyrex / Inteleon (2021)](2021/ice_rider_calyrex_inteleon_2021.md)** — TBC (Christian Hasbani, 9th, Players Cup IV)
 - **[Shadow Rider Calyrex (2021)](2021/shadow_rider_calyrex_2021.md)** — TBC (Dan Hugar, 9th, Players Cup IV)
 - **[Eternatus VMAX (2021)](2021/eternatus_vmax_2021.md)** — TBC (Matías Martini Serrano, 7th, Players Cup III)
+- **[Mad Party (2021)](2021/mad_party_2021.md)** — TBC (Takahiro Ikeda, 13th, Champions League Yokohama — the only archived Mad Party lists come from this Oct 2020 event, which sits in the same 2020–21 season; every card is legal in the Players Cup format)
 
 ## 2022  (5 guides)
 
