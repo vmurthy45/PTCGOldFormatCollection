@@ -349,8 +349,9 @@ which repoints tracking without needing another push).
 - Every row has a `category`. Every row has an `image` — 740 unique image
   URLs, all verified HTTP 200.
 - All 73 piloting guides exist and are wired up (`data/guides.json` has 73
-  keys, one per deck). The five 2021 guides are intentionally stubs whose
-  body is just "TBC" — the decklists are complete, the write-ups aren't.
+  keys, one per deck). One guide — **Eternatus VMAX (2021)** — is still an
+  intentional stub whose body is just "TBC"; its decklist is complete, the
+  write-up isn't. Every other deck has a full guide.
 - `data/turn1_rules.json` has an entry for all 16 year labels.
 - 2021 uses the **Players Cup III/IV** online events as its benchmark
   (there was no 2021 Worlds — COVID). Lists came from the Limitless

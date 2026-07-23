@@ -95,10 +95,10 @@ A browsable set of research-based piloting guides for historical competitive dec
 _The COVID-era season: no World Championships were held, so this collection uses the
 **Players Cup** online events as the format's benchmark. Lists are archived on Limitless._
 
-- **[Rapid Strike Urshifu (2021)](2021/rapid_strike_urshifu_2021.md)** — TBC (Alex Schemanske, 1st, Players Cup IV)
-- **[Spiritomb (2021)](2021/spiritomb_2021.md)** — TBC (Bruno Sermann, 2nd, Players Cup IV)
-- **[Ice Rider Calyrex (2021)](2021/ice_rider_calyrex_2021.md)** — TBC (Christian Hasbani, 9th, Players Cup IV)
-- **[Shadow Rider Calyrex (2021)](2021/shadow_rider_calyrex_2021.md)** — TBC (Dan Hugar, 9th, Players Cup IV)
+- **[Rapid Strike Urshifu (2021)](2021/rapid_strike_urshifu_2021.md)** — The format's premier bench sniper: G-Max Rapid Flow hits two of the opponent's Pokémon for 120 each through Bench protection, and Passimian's Throwing Coach raises that to 150 against benched V/GX — so you execute their support Pokémon instead of racing their attacker. (Alex Schemanske, 1st, Players Cup IV)
+- **[Spiritomb (2021)](2021/spiritomb_2021.md)** — A single-prize deck that damages itself on purpose: Anguish Cry does 10 + 30 per damage counter on Spiritomb, and Building Spite plus your own Spikemuth pile on +3 counters (+90 damage) a turn, so a 60 HP Basic swings for 250 while giving up one Prize. (Bruno Sermann, 2nd, Players Cup IV)
+- **[Ice Rider Calyrex (2021)](2021/ice_rider_calyrex_2021.md)** — The cleanest 250-a-turn deck in the format: Max Lance one-shots almost every Pokémon V for two Water, Melony puts the discarded Energy straight back and draws 3, and three Path to the Peak shut off everyone else's Abilities while costing this deck nothing. (Christian Hasbani, 9th, Players Cup IV)
+- **[Shadow Rider Calyrex (2021)](2021/shadow_rider_calyrex_2021.md)** — A VMAX that accelerates its own Energy and draws for doing it: Underworld Door attaches a Psychic to the Bench and draws 2 per copy each turn, while Max Geist does 10 + 30 for every Psychic Energy on your whole board, so the Energy is both the fuel and the damage. (Dan Hugar, 9th, Players Cup IV)
 - **[Eternatus VMAX (2021)](2021/eternatus_vmax_2021.md)** — TBC (Matías Martini Serrano, 7th, Players Cup III)
 
 ## 2022  (5 guides)

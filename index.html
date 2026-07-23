@@ -210,6 +210,12 @@
   .guide-panel blockquote{margin:8px 0; padding:6px 12px; border-left:3px solid var(--red); background:var(--card); color:var(--charcoal)}
   .guide-panel hr{border:none; border-top:1px solid var(--line); margin:12px 0}
   .guide-panel strong{color:var(--charcoal-dark)}
+  /* Guides may include a small reference table (e.g. Spiritomb's damage-per-counter
+     row). Wide ones scroll inside their own box rather than stretching the panel. */
+  .guide-panel .table-wrap{overflow-x:auto; margin:10px 0}
+  .guide-panel table{border-collapse:collapse; font-size:12.5px}
+  .guide-panel th,.guide-panel td{border:1px solid var(--line); padding:4px 9px; text-align:center; white-space:nowrap}
+  .guide-panel th{background:var(--band-a); color:var(--charcoal-dark); font-weight:600}
   .count-badge{background:rgba(255,255,255,.24); padding:2px 8px; border-radius:999px; font-size:11px}
   .loading{text-align:center; color:var(--muted); padding:40px 20px; font-size:15px}
   /* card image modal */
@@ -473,6 +479,14 @@ function render(){
       const panel = document.createElement('div');
       panel.className = 'guide-panel';
       panel.innerHTML = guideHtml;
+      // Markdown emits a bare <table>; wrap it so a wide one scrolls inside its
+      // own box instead of stretching the deck card and the page with it.
+      panel.querySelectorAll('table').forEach(t => {
+        const wrap = document.createElement('div');
+        wrap.className = 'table-wrap';
+        t.replaceWith(wrap);
+        wrap.appendChild(t);
+      });
       btn.onclick = (e) => {
         e.stopPropagation();
         const isOpen = panel.classList.toggle('open');
