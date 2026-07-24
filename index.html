@@ -467,7 +467,7 @@ function render(){
     totalCards += arr.length;
     for(const c of arr) totalQty += (Number(c.count) || 0);
   }
-  stats.textContent = `${groups.size} deck${groups.size>1?'s':''} · ${totalCards} card line${totalCards>1?'s':''} · ${totalQty} cards`;
+  stats.textContent = `${groups.size} deck${groups.size>1?'s':''} · ${totalCards} unique card${totalCards>1?'s':''} · ${totalQty} total cards`;
 
   const collapsed = !query;
 
