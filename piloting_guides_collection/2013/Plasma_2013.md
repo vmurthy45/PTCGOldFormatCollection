@@ -1,4 +1,4 @@
-# How to Pilot — Plasma (2013)
+# How to Pilot — TDK (2013)
 
 _Format: BW-on 2013 (Plasma Freeze era). "TDK" = **T**hundurus-EX / **D**eoxys-EX /
 **K**yurem PLF — regarded as the BDIF (best deck in format) of its time._

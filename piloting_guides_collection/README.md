@@ -16,20 +16,20 @@ A browsable set of research-based piloting guides for historical competitive dec
 ## 2012  (2 guides)
 
 - **[CMT (2012)](2012/CMT_2012.md)** — Pure speed and consistency: Celebi Prime accelerates Grass Energy by hand, so you power a hard-hitting Mewtwo-EX (X-Ball) or a Tornadus in a single turn — often hitting for 60–100 as early as turn 1.
-- **[Darkrai/Mewtwo/Terrakion (2012)](2012/Darkrai_Mewtwo_Terrakion_2012.md)** — The premier "Big Basics" toolbox: a wall of powerful Basic EXs where Darkrai-EX gives the whole team free retreat and Night Spear snipes the bench, while Mewtwo-EX and Terrakion are matchup-specific hammers.
+- **[Darkrai Mewtwo (2012)](2012/Darkrai_Mewtwo_Terrakion_2012.md)** — The premier "Big Basics" toolbox: a wall of powerful Basic EXs where Darkrai-EX gives the whole team free retreat and Night Spear snipes the bench, while Mewtwo-EX and Terrakion are matchup-specific hammers.
 
 ## 2013  (5 guides)
 
 - **[Blastoise (2013)](2013/Blastoise_2013.md)** — A Stage-2 "toolbox" deck: get Blastoise out fast, use its Deluge Ability to dump a pile of Water Energy onto an attacker in a single turn, and take knockouts with Keldeo-EX (scaling damage) or Black Kyurem-EX (flat 200).
 - **[Darkrai (2013)](2013/Darkrai_2013.md)** — The consistency king of the format: Darkrai-EX with Dark Cloak free retreat and Night Spear snipe, supercharged by Hypnotoxic Laser + Virbank City Gym so your attacks hit KO numbers a full turn early.
 - **[Gothitelle (2013)](2013/Gothitelle_2013.md)** — A lock deck: Gothitelle stops the opponent from playing Item cards while Accelgor (copied endlessly by Mew-EX) paralyzes and poisons their Active every turn.
-- **[Plasma (2013)](2013/Plasma_2013.md)** — A fast, consistent Team Plasma toolbox: Thundurus-EX and Colress Machine accelerate Energy onto a benched Kyurem, whose Blizzard Burn does big damage as a single-prize attacker, all boosted by Deoxys-EX's Power Connect.
+- **[TDK (2013)](2013/Plasma_2013.md)** — A fast, consistent Team Plasma toolbox: Thundurus-EX and Colress Machine accelerate Energy onto a benched Kyurem, whose Blizzard Burn does big damage as a single-prize attacker, all boosted by Deoxys-EX's Power Connect.
 - **[RayEels (2013)](2013/RayEels_2013.md)** — A 1HKO machine: Eelektrik's Dynamotor moves Lightning from your discard onto the bench every turn, letting Rayquaza-EX fire Dragon Burst for 180 — enough to one-shot almost any EX.
 
 ## 2014  (4 guides)
 
 - **[Mega Kangaskhan (2014)](2014/Mega_Kangaskhan_2014.md)** — A near-unkillable toolbox: M Kangaskhan-EX is a 230-HP wall that punches for big damage, while Aromatisse shuttles Fairy Energy around so you can strip a Pokémon bare, Max Potion it to full with zero downside, and then reload the Energy the same turn.
-- **[Thundurus/Deoxys/Kyurem (TDK) (2014)](2014/Thundurus_Deoxys_Kyurem_TDK_2014.md)** — A fast, consistent Team Plasma toolbox: Thundurus-EX + Colress Machine accelerate Energy onto a benched Kyurem, whose Blizzard Burn hits hard as a single-prize attacker, all boosted by Deoxys-EX's Power Connect.
+- **[TDK (2014)](2014/Thundurus_Deoxys_Kyurem_TDK_2014.md)** — A fast, consistent Team Plasma toolbox: Thundurus-EX + Colress Machine accelerate Energy onto a benched Kyurem, whose Blizzard Burn hits hard as a single-prize attacker, all boosted by Deoxys-EX's Power Connect.
 - **[Virizion/Genesect (2014)](2014/Virizion_Genesect_2014.md)** — A consistent acceleration deck: Virizion-EX's Emerald Slash loads Grass Energy onto a benched Genesect-EX, which then 1HKOs anything with the G Booster ACE SPEC and drags up whatever it wants with Red Signal.
 - **[Yveltal/Raichu (2014)](2014/Yveltal_Raichu_2014.md)** — One of the two decks that defined 2014: Yveltal-EX hits for one of the format's biggest attacks (Evil Ball scales with Energy), Darkrai-EX gives the team free retreat and Dark Patch acceleration, and a Pikachu/Raichu line is teched in so the mirror doesn't come down to a coin-flip — Raichu's Circle Circuit 1HKOs opposing Yveltal-EX.
 
@@ -75,7 +75,7 @@ A browsable set of research-based piloting guides for historical competitive dec
 
 ## 2019  (7 guides)
 
-- **[Blacephalon-GX (2019)](2019/Blacephalon_GX_2019.md)** — A Fire OHKO deck built on Blacephalon-GX's Mind Blown: send any number of your Fire Energy to the Lost Zone to deal 50 damage each, scaling to a one-hit KO on literally anything in the format.
+- **[Blacephalon GX (2019)](2019/Blacephalon_GX_2019.md)** — A Fire OHKO deck built on Blacephalon-GX's Mind Blown: send any number of your Fire Energy to the Lost Zone to deal 50 damage each, scaling to a one-hit KO on literally anything in the format.
 - **[Green's Reshizard (2019)](2019/Greens_ReshiZard_2019.md)** — A tanky, Trainer-driven ReshiZard: Green's Exploration searches your deck for 2 Trainer cards — playable only while you have no Pokémon with Abilities in play — and because not a single Pokémon in this list has an Ability, Green's is always live.
 - **[Malamar (2019)](2019/Malamar_2019.md)** — A resilient Psychic engine: Malamar's Psychic Recharge accelerates Psychic Energy from the discard to your bench every turn, powering an infinitely-recurring Giratina (which comes back from the discard each turn) plus a toolbox of Psychic attackers.
 - **[Perfection (Mewtwo & Mew-GX) (2019)](2019/Perfection_Mewtwo_2019.md)** — A single 270-HP Tag Team that copies the entire format's best GX attacks.
@@ -134,7 +134,7 @@ _The COVID-era season: no World Championships were held, so this collection uses
 
 ## Notes
 
-- **World Championship winning decks** in this collection include: Darkrai (2013, Jason Klaczynski), Zoroark Garbodor & Banette Garbodor (2018), Perfection Mewtwo & ReshiZard Firebox & Blacephalon-GX (2019 event finishes), Ice Rider Palkia (2022, Rikuto Ohashi), Lost Box Kyogre (2023, Shao Tong Yen), Regidrago VSTAR & Iron Thorns & Miraidon & Ancient Toolbox (2024, all four Worlds divisions), and Flutter Devo Gardevoir (2025, Riley McKay) with Dragapult (2025 finalist) and Joltdengo (2025, Gabriel Semedo, Seniors division).
+- **World Championship winning decks** in this collection include: Darkrai (2013, Jason Klaczynski), Zoroark Garbodor & Banette Garbodor (2018), Perfection Mewtwo & ReshiZard Firebox & Blacephalon GX (2019 event finishes), Ice Rider Palkia (2022, Rikuto Ohashi), Lost Box Kyogre (2023, Shao Tong Yen), Regidrago VSTAR & Iron Thorns & Miraidon & Ancient Toolbox (2024, all four Worlds divisions), and Flutter Devo Gardevoir (2025, Riley McKay) with Dragapult (2025 finalist) and Joltdengo (2025, Gabriel Semedo, Seniors division).
 - **Best-Deck-In-Format (BDIF) decks** are flagged in their guides: LuxChomp (2010), Darkrai (2013), Night March (2016), Gardevoir-GX (2017), ADP Zacian (2020), Mew VMAX (2022), Lugia VSTAR (2023), Regidrago VSTAR (2024).
 - Years without decklists (2011) are intentionally absent. 2021 had no World
   Championships (COVID), so the Players Cup III/IV online events stand in as that

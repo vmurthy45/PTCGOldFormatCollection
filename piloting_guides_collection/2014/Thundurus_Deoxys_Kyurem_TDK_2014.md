@@ -1,4 +1,4 @@
-# How to Pilot — Thundurus/Deoxys/Kyurem (TDK) (2014)
+# How to Pilot — TDK (2014)
 
 _Format: NXD-on 2014 (XY era). The same Team Plasma "TDK" core as 2013, updated with
 Muscle Band and XY trainers — still a top-tier deck into the new season._

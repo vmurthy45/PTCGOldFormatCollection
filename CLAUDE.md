@@ -229,7 +229,7 @@ slugifying), **except one**, hardcoded in `build_guides.py`'s
 
 (There used to be three. `Blacephalon_GX_2019.md` and
 `Greens_ReshiZard_2019.md` stopped needing an override once their decks
-were renamed to `"Blacephalon-GX (2019)"` and `"Green's Reshizard (2019)"`
+were renamed to `"Blacephalon GX (2019)"` and `"Green's Reshizard (2019)"`
 — the titles now slugify to the deck names on their own. Note the two
 **filenames** still use the older spelling; only the H1 and the deck name
 have to agree, so renaming the files was unnecessary churn.)

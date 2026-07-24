@@ -1,4 +1,4 @@
-# How to Pilot — Darkrai/Mewtwo/Terrakion (2012)
+# How to Pilot — Darkrai Mewtwo (2012)
 
 _Format: HGSS-on 2012 (BLW–DRX, "Big Basics" era). This build closely mirrors Igor
 Costa's 2012 World Championship-**winning** list._
