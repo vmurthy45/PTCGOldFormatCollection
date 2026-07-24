@@ -221,15 +221,18 @@ explicit choice, not a default worth silently changing.
 The site matches a deck's card list to its guide via
 `slug(deckName) === slug(guide's own key in guides.json)`. Almost every
 guide file's H1 title matches its deck name in `cards.json` exactly (after
-slugifying), **except three**, hardcoded in `build_guides.py`'s
+slugifying), **except one**, hardcoded in `build_guides.py`'s
 `MANUAL_SLUG_OVERRIDES`:
 
-- `Blacephalon_GX_2019.md` (titled "Blacephalon GX (2019)") → deck
-  `"Blacephalon (2019)"`
-- `Greens_ReshiZard_2019.md` (titled "Green's ReshiZard (2019)") → deck
-  `"Green's Reshiram & Charizard (2019)"`
 - `Perfection_Mewtwo_2019.md` (titled "Perfection (Mewtwo & Mew-GX)
   (2019)") → deck `"Perfection Mewtwo (2019)"`
+
+(There used to be three. `Blacephalon_GX_2019.md` and
+`Greens_ReshiZard_2019.md` stopped needing an override once their decks
+were renamed to `"Blacephalon-GX (2019)"` and `"Green's Reshizard (2019)"`
+— the titles now slugify to the deck names on their own. Note the two
+**filenames** still use the older spelling; only the H1 and the deck name
+have to agree, so renaming the files was unnecessary churn.)
 
 If you add a new guide whose title doesn't match its deck's exact name in
 `cards.json`, add an entry here rather than renaming either side — the

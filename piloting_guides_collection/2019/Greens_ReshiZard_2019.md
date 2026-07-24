@@ -1,4 +1,4 @@
-# How to Pilot — Green's ReshiZard (2019)
+# How to Pilot — Green's Reshizard (2019)
 
 _Format: Sun & Moon-on Standard 2019 (TEU–UNM). The **Green's Exploration** control/tank
 variant of Reshiram & Charizard-GX — a slower, grindier take on the format's best Fire deck._

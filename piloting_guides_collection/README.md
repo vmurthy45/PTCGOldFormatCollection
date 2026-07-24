@@ -75,8 +75,8 @@ A browsable set of research-based piloting guides for historical competitive dec
 
 ## 2019  (7 guides)
 
-- **[Blacephalon GX (2019)](2019/Blacephalon_GX_2019.md)** — A Fire OHKO deck built on Blacephalon-GX's Mind Blown: send any number of your Fire Energy to the Lost Zone to deal 50 damage each, scaling to a one-hit KO on literally anything in the format.
-- **[Green's ReshiZard (2019)](2019/Greens_ReshiZard_2019.md)** — A tanky, Trainer-driven ReshiZard: Green's Exploration searches your deck for 2 Trainer cards — playable only while you have no Pokémon with Abilities in play — and because not a single Pokémon in this list has an Ability, Green's is always live.
+- **[Blacephalon-GX (2019)](2019/Blacephalon_GX_2019.md)** — A Fire OHKO deck built on Blacephalon-GX's Mind Blown: send any number of your Fire Energy to the Lost Zone to deal 50 damage each, scaling to a one-hit KO on literally anything in the format.
+- **[Green's Reshizard (2019)](2019/Greens_ReshiZard_2019.md)** — A tanky, Trainer-driven ReshiZard: Green's Exploration searches your deck for 2 Trainer cards — playable only while you have no Pokémon with Abilities in play — and because not a single Pokémon in this list has an Ability, Green's is always live.
 - **[Malamar (2019)](2019/Malamar_2019.md)** — A resilient Psychic engine: Malamar's Psychic Recharge accelerates Psychic Energy from the discard to your bench every turn, powering an infinitely-recurring Giratina (which comes back from the discard each turn) plus a toolbox of Psychic attackers.
 - **[Perfection (Mewtwo & Mew-GX) (2019)](2019/Perfection_Mewtwo_2019.md)** — A single 270-HP Tag Team that copies the entire format's best GX attacks.
 - **[Pikarom Judge (2019)](2019/Pikarom_Judge_2019.md)** — Explosive turn-1 aggression with hand disruption: Pikachu & Zekrom-GX's Full Blitz attacks and accelerates 3 Lightning on turn 1, Electropower spikes damage for 1HKOs, and Judge keeps resetting the opponent to 4 cards so they can't stabilize.

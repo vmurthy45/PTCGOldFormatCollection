@@ -1,4 +1,4 @@
-# How to Pilot — Blacephalon GX (2019)
+# How to Pilot — Blacephalon-GX (2019)
 
 _Format: Sun & Moon-on Standard 2019 (TEU–UNM). Blacephalon-GX + Naganadel — the Fire
 "Mind Blown" deck that OHKOs anything by sending Fire Energy to the Lost Zone._

@@ -4,9 +4,9 @@ same slug the site's JS uses to match a guide to a deck (see slug() in index.htm
     deck.toLowerCase().replace(/[^a-z0-9]+/g,'_').replace(/^_+|_+$/g,'')
 
 A guide file's own title doesn't always match the deck name used in the card
-data (e.g. the file titled "Blacephalon GX (2019)" belongs to the deck named
-"Blacephalon (2019)" in the collection spreadsheet). MANUAL_SLUG_OVERRIDES
-maps those specific files to the correct deck slug.
+data (e.g. the file titled "Perfection (Mewtwo & Mew-GX) (2019)" belongs to
+the deck named "Perfection Mewtwo (2019)" in the collection spreadsheet).
+MANUAL_SLUG_OVERRIDES maps those specific files to the correct deck slug.
 """
 import json
 import re
@@ -20,8 +20,6 @@ CARDS_JSON = ROOT / "data" / "cards.json"
 OUT = ROOT / "data" / "guides.json"
 
 MANUAL_SLUG_OVERRIDES = {
-    "2019/Blacephalon_GX_2019.md": "blacephalon_2019",
-    "2019/Greens_ReshiZard_2019.md": "green_s_reshiram_charizard_2019",
     "2019/Perfection_Mewtwo_2019.md": "perfection_mewtwo_2019",
 }
 
