@@ -440,6 +440,17 @@ function render(){
     groups.get(c.deck).push(c);
   }
 
+  // Decks are always listed alphabetically (case-insensitive), so any deck
+  // added later slots into place automatically without touching cards.json's
+  // row order. On "All years" the years stay in chronological order (the site
+  // is organised by year) and the alphabetical sort applies within each year;
+  // filtering to one year makes the whole list alphabetical. deckYear() reads
+  // the year off the group's first card rather than parsing the name.
+  const deckYear = deck => groups.get(deck)[0].year;
+  const sortedDecks = [...groups.keys()].sort((a, b) =>
+    (YEARS.indexOf(deckYear(a)) - YEARS.indexOf(deckYear(b))) ||
+    a.localeCompare(b, undefined, {sensitivity: 'base'}));
+
   const list = document.getElementById('list');
   const stats = document.getElementById('stats');
   list.innerHTML = '';
@@ -456,7 +467,8 @@ function render(){
 
   const collapsed = !query;
 
-  for(const [deck, arr] of groups){
+  for(const deck of sortedDecks){
+    const arr = groups.get(deck);
     const d = document.createElement('div');
     d.className = 'deck' + (collapsed ? ' collapsed' : '');
     const total = arr.reduce((s,c)=> s + (Number(c.count)||0), 0);

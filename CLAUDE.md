@@ -161,6 +161,20 @@ Then:
 # 6. git add -A && git commit -m "..." (see "Git & pushing" below)
 ```
 
+### Deck ordering (alphabetical — automatic)
+
+Decks are **always shown alphabetically** (case-insensitive), and this is
+enforced at render time in `index.html`'s `render()`, not by the row order
+in `cards.json`. So a newly added deck sorts into place on its own — you do
+**not** need to insert its rows at any particular position in `cards.json`,
+and you must not reintroduce manual ordering there. The sort is two-level:
+years stay in chronological order (via the `YEARS` array, so "All years"
+still reads oldest→newest and `2017 NAIC` still lands just before `2017`),
+and within each year the decks are alphabetical by display name. Filtering
+to a single year therefore shows a purely alphabetical list. If you add a
+whole new *year*, it slots in via `YEARS`; nothing about the deck sort
+needs changing.
+
 ### Card categorization (Pokemon / Trainer / Energy)
 
 There is **no type/category column anywhere in the source data** — not in
