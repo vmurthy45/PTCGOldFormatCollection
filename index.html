@@ -652,11 +652,16 @@ let ccSort = { key: 'name', dir: 1 };   // dir: 1 asc, -1 desc
 
 const CAT_LABEL = { Pokemon: 'Pokémon', Trainer: 'Trainer', Energy: 'Energy' };
 
-// Collapse the flat card rows into one entry per card NAME (the collection's
-// own notion of a card, matching how a player thinks of "a card" — e.g. all
-// Professor's Letter rows become one line). copies sums every count; a card
-// can appear on two rows of the same deck (two prints), so deck counts are
-// summed per deck. Respects the active year filter and name search.
+// Collapse the flat card rows into aggregated entries. Pokémon are keyed by
+// (name, set) — different prints are genuinely different cards, so each print
+// gets its own line. Trainers/Energy are keyed by name only, since same name =
+// same effect regardless of printing (e.g. all Professor's Letter rows become
+// one line). copies sums every count; a card can appear on two rows of the
+// same deck, so deck counts are summed per deck. Respects the year filter and
+// name search.
+function ccKey(c){
+  return c.category === 'Pokemon' ? c.name + ' ' + c.set : c.name;
+}
 function ccAggregate(){
   let rows = CARDS;
   if(ccYear !== 'ALL') rows = rows.filter(c => c.year === ccYear);
@@ -664,18 +669,20 @@ function ccAggregate(){
     const q = ccQuery.toLowerCase();
     rows = rows.filter(c => c.name.toLowerCase().includes(q));
   }
-  const byName = new Map();
+  const byKey = new Map();
   for(const c of rows){
-    let e = byName.get(c.name);
-    if(!e){ e = { name: c.name, category: c.category, sets: new Set(), copies: 0, decks: new Map() }; byName.set(c.name, e); }
+    const key = ccKey(c);
+    let e = byKey.get(key);
+    if(!e){ e = { name: c.name, category: c.category, sets: new Set(), copies: 0, decks: new Map() }; byKey.set(key, e); }
     const n = Number(c.count) || 0;
     e.copies += n;
     if(c.set) e.sets.add(c.set);
     const prev = e.decks.get(c.deck);
     e.decks.set(c.deck, { count: (prev ? prev.count : 0) + n, year: c.year });
   }
-  return [...byName.values()];
+  return [...byKey.values()];
 }
+const ccSetStr = e => [...e.sets].join(' / ');
 
 // Decks a card appears in, ordered like the Collection tab: chronological by
 // year, then alphabetical within a year.
@@ -693,6 +700,8 @@ function ccSortRows(rows){
     else if(key === 'decks') cmp = a.decks.size - b.decks.size;
     else cmp = a.name.localeCompare(b.name, undefined, {sensitivity: 'base'});
     if(cmp === 0) cmp = a.name.localeCompare(b.name, undefined, {sensitivity: 'base'});
+    // Same name (e.g. two Pokémon prints): order by set so it's stable.
+    if(cmp === 0) cmp = ccSetStr(a).localeCompare(ccSetStr(b));
     return cmp * dir;
   });
 }
@@ -719,7 +728,7 @@ function renderCardCollection(){
   for(const r of rows){
     const pills = ccDeckList(r)
       .map(([deck, info]) => `<span class="cc-deck-pill">${esc(deck)} <b>×${info.count}</b></span>`).join('');
-    const sets = [...r.sets].join(' / ') || '—';
+    const sets = ccSetStr(r) || '—';
     html += '<tr>' +
       `<td class="cc-name">${hl(r.name, ccQuery)}</td>` +
       `<td class="cc-cat">${esc(CAT_LABEL[r.category] || r.category)}</td>` +
@@ -749,7 +758,7 @@ function ccExportCsv(){
   for(const r of rows){
     const appearsIn = ccDeckList(r).map(([deck, info]) => `${deck} x${info.count}`).join('; ');
     lines.push([
-      r.name, CAT_LABEL[r.category] || r.category, [...r.sets].join(' / '),
+      r.name, CAT_LABEL[r.category] || r.category, ccSetStr(r),
       r.copies, r.decks.size, appearsIn,
     ].map(q).join(','));
   }
