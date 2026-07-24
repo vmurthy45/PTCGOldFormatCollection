@@ -1,4 +1,4 @@
-# How to Pilot — Darkrai Giratina Garbodor (2016)
+# How to Pilot — Darkrai Giratina (2016)
 
 _Format: XY Standard 2016. "Black Dragon" — this build mirrors Shunto Sadahiro's 2016
 Junior World Championship-**winning** list._

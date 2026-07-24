@@ -1,4 +1,4 @@
-# How to Pilot — Buzz/Garb/Shrine (2018)
+# How to Pilot — Buzz Garb Shrine (2018)
 
 _Format: Sun & Moon-on Standard 2018, **post-rotation** (SM-on, Celestial Storm era —
 Strong Energy/Max Elixir gone). "Buzzwole/Shrine" — a single-prize Fighting control deck

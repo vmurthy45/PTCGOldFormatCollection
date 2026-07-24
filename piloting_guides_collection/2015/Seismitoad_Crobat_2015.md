@@ -1,4 +1,4 @@
-# How to Pilot — Seismitoad/Crobat (2015)
+# How to Pilot — Seismitoad Crobat (2015)
 
 _Format: BCR-on 2015 (XY "control" era). "Seismibats." Seismitoad-EX went 2nd/3rd at
 2015 Worlds (Masters); the Crobat build was its most popular form._
