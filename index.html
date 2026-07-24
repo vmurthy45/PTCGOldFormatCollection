@@ -461,9 +461,13 @@ function render(){
     return;
   }
 
-  let totalCards = 0;
-  for(const arr of groups.values()) totalCards += arr.length;
-  stats.textContent = `${groups.size} deck${groups.size>1?'s':''} · ${totalCards} card line${totalCards>1?'s':''}`;
+  let totalCards = 0;   // card lines (rows)
+  let totalQty = 0;     // actual cards, summing each row's count (60 per deck)
+  for(const arr of groups.values()){
+    totalCards += arr.length;
+    for(const c of arr) totalQty += (Number(c.count) || 0);
+  }
+  stats.textContent = `${groups.size} deck${groups.size>1?'s':''} · ${totalCards} card line${totalCards>1?'s':''} · ${totalQty} cards`;
 
   const collapsed = !query;
 
