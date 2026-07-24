@@ -296,7 +296,7 @@
     </svg>
     <div>
       <h1>Vig's Pokémon TCG Old Format Collection</h1>
-      <div class="sub">Competitive decks 2010–2025</div>
+      <div id="tagline" class="sub">Competitive decks</div>
     </div>
     <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">🌙</button>
   </div>
@@ -797,6 +797,15 @@ async function init(){
     .sort((a, b) => (parseInt(a, 10) - parseInt(b, 10)) || b.localeCompare(a));
   yearsEl.appendChild(chip('All years', 'ALL'));
   YEARS.forEach(y => yearsEl.appendChild(chip(y, y)));
+
+  // Tagline range is derived from the data, so adding a 2026+ deck updates it
+  // automatically. Labels like "2017 NAIC" parse to their leading year.
+  const yearNums = YEARS.map(y => parseInt(y, 10)).filter(n => !isNaN(n));
+  if(yearNums.length){
+    const lo = Math.min(...yearNums), hi = Math.max(...yearNums);
+    document.getElementById('tagline').textContent =
+      `Competitive decks ${lo}${hi !== lo ? '–' + hi : ''}`;
+  }
 
   matchupFormatEl.innerHTML = '<option value="RANDOM">🎲 Random format</option>' +
     YEARS.map(y => `<option value="${esc(y)}">${esc(y)}</option>`).join('');
