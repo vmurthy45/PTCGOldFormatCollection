@@ -1,8 +1,8 @@
 # Pokémon TCG Piloting Guides — Complete Collection
 
-A browsable set of research-based piloting guides for historical competitive decks, one per deck, spanning the 2010–2025 Standard seasons (plus the 2017 NAIC format). Each guide covers the deck's identity, the meta it lived in, its engine and tech cards, the core gameplay loop, priorities, bad matchups, and a quick-reference sheet.
+A browsable set of research-based piloting guides for historical competitive decks, one per deck, spanning the 2010–2025 Standard seasons. Each guide covers the deck's identity, the meta it lived in, its engine and tech cards, the core gameplay loop, priorities, bad matchups, and a quick-reference sheet.
 
-**73 guides across 16 formats.** Guides are organized into year folders. All guides are research-based and reflect documented competitive consensus — they were not playtested by the author.
+**73 guides across 15 formats.** Guides are organized into year folders. All guides are research-based and reflect documented competitive consensus — they were not playtested by the author.
 
 ---
 
@@ -47,7 +47,7 @@ A browsable set of research-based piloting guides for historical competitive dec
 - **[Night March (2016)](2016/Night_March_2016.md)** — The fastest, most consistent aggro deck in the game: Battle Compressor dumps Joltik / Pumpkaboo / Lampent into the discard, and each one's Night March attack does 20 × the number of Night Marchers in the discard — up to 200+ for a single DCE, often on the very first attack.
 - **[Vespiquen/Yanmega (2016)](2016/Vespiquen_Yanmega_2016.md)** — Two complementary non-EX attackers: Yanmega BREAK hits hard for zero Energy (when your hand has exactly 4 cards) as an early-game rush, and as it trades it feeds the discard for Vespiquen, whose Bee Revenge scales with any Pokémon in the discard for a powerful late game.
 
-## 2017  (6 guides)
+## 2017  (10 guides)
 
 - **[Alolan Ninetales (2017)](2017/Alolan_Ninetales_2017.md)** — A flexible Water toolbox: Aqua Patch pours Water Energy from the discard onto your bench, letting Alolan Ninetales-GX fire Ice Blade (a 2-Energy bench snipe) or its bulky attacks while Blizzard Edge and the Ice Path-GX attack lock the game up.
 - **[Decidueye/Golisopod (2017)](2017/Decidueye_Golisopod_2017.md)** — Two Grass attackers that cover each other: Decidueye-GX's Feather Arrow puts free damage on any Pokémon every turn (an Ability, not an attack), softening the board, while Golisopod-GX swings for a huge First Impression (120 for one Energy) each time it comes into the Active spot.
@@ -55,13 +55,10 @@ A browsable set of research-based piloting guides for historical competitive dec
 - **[Golisopod/Garbodor (2017)](2017/Golisopod_Garbodor_2017.md)** — An efficient two-pronged deck: Golisopod-GX swings for First Impression (120 for one Grass) every time it re-enters the Active spot, while Garbodor provides both a punishing attacker (Trashalanche scales with the opponent's Items in the discard) and a disruptive Ability (Garbotoxin shuts off all Abilities).
 - **[Ho-Oh Salazzle (2017)](2017/Ho-Oh_Salazzle_2017.md)** — Explosive Fire aggression: Kiawe attaches 4 Fire Energy in one Supporter (your turn ends), instantly powering Ho-Oh-GX's Phoenix Burn for 180 — a turn-1/2 haymaker.
 - **[Mega Rayquaza (2017)](2017/Mega_Rayquaza_2017.md)** — Fast, explosive tempo: Sky Field expands your bench to 8, and M Rayquaza-EX's Emerald Break does 30 × your benched Pokémon — up to 240 for a single DCE.
-
-## 2017 NAIC  (4 guides)
-
-- **[Decidueye (2017 NAIC)](2017_NAIC/Decidueye_2017_NAIC.md)** — A control-toolbox: Decidueye-GX's Feather Arrow puts 2 free damage counters on any Pokémon every turn (an Ability), so you grind the whole board down without attacking, while Alolan Ninetales-GX and Tapu Koko add snipe and reach.
-- **[Espeon Garbodor (2017 NAIC)](2017_NAIC/Espeon_Garbodor_2017_NAIC.md)** — A punishing control deck: Garbodor's Trashalanche does 20 × the opponent's Items in the discard (a 1HKO against Item-reliant decks), while Espeon-GX's Psybeam confuses and its Psychic attack scales with the Energy the opponent has attached — so the deck punishes both Items and Energy.
-- **[Tapu Bulu/Vikavolt (2017 NAIC)](2017_NAIC/Tapu_Bulu_Vikavolt_2017_NAIC.md)** — Turbo one-shots: Vikavolt's Strong Charge attaches a Grass and a Lightning Energy from your deck every turn (an Ability), letting Tapu Bulu-GX fire Nature's Judgment for 180 (210 with Choice Band) from turn 2 — enough to 1HKO almost anything.
-- **[Zoroark Drampa (2017 NAIC)](2017_NAIC/Zoroark_Drampa_2017_NAIC.md)** — A consistent, flexible Dark deck: Zoroark BREAK's Mind Jack scales with the opponent's bench (and Foul Play copies their Active's attack), while Drampa-GX's Berserk hits a hard 180 — the format's benchmark KO number.
+- **[Decidueye Ninetales (2017)](2017/Decidueye_Ninetales_2017.md)** — TBC (Worlds-format build: Decidueye-GX's Feather Arrow chips the board for free while Alolan Ninetales-GX adds snipe and reach).
+- **[Drampa Garbodor (2017)](2017/Drampa_Garbodor_2017.md)** — TBC (Worlds-format build: Drampa-GX's Berserk hits a hard 180 while Garbodor's Trashalanche punishes Item-heavy decks — the Zoroark-less, pre-Crimson-Invasion version).
+- **[Espeon Garbodor (2017)](2017/Espeon_Garbodor_2017.md)** — A punishing control deck: Garbodor's Trashalanche does 20 × the opponent's Items in the discard (a 1HKO against Item-reliant decks), while Espeon-GX's Psybeam confuses and its Psychic attack scales with the Energy the opponent has attached — so the deck punishes both Items and Energy.
+- **[Tapu Bulu Vikavolt (2017)](2017/Tapu_Bulu_Vikavolt_2017.md)** — Turbo one-shots: Vikavolt's Strong Charge attaches a Grass and a Lightning Energy from your deck every turn (an Ability), letting Tapu Bulu-GX fire Nature's Judgment for 180 (210 with Choice Band) from turn 2 — enough to 1HKO almost anything.
 
 ## 2018  (7 guides)
 

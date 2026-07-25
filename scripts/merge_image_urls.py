@@ -153,6 +153,13 @@ URL_OVERRIDES = {
     ('Tower of Waters', '138/163'): 'https://images.pokemontcg.io/swsh5/138_hires.png',
     ('Weakness Guard Energy', '213/236'): 'https://images.pokemontcg.io/sm11/213_hires.png',
     ('Yveltal', '95/181'): 'https://images.pokemontcg.io/sm9/95_hires.png',
+    # 2017 Worlds format prints (Tapu Bulu Vikavolt / Espeon Garbodor /
+    # Drampa Garbodor / Decidueye Ninetales) that the CSV didn't resolve.
+    ('Eevee', '101/149'): 'https://images.pokemontcg.io/sm1/101_hires.png',
+    ('Ultra Ball', '135/149'): 'https://images.pokemontcg.io/sm1/135_hires.png',
+    ('Double Colorless Energy', '136/149'): 'https://images.pokemontcg.io/sm1/136_hires.png',
+    ('Rainbow Energy', '137/149'): 'https://images.pokemontcg.io/sm1/137_hires.png',
+    ('Plumeria', '120/147'): 'https://images.pokemontcg.io/sm3/120_hires.png',
     # Basic Energy is recorded in cards.json with no specific print (empty
     # set), since decklists rarely note which printing was used. These pin
     # every basic Energy card to its XY base-set art (xy1) so there's a

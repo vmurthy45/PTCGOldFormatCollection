@@ -6183,8 +6183,8 @@
     "image": "https://images.pokemontcg.io/g1/74_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Tapu Bulu/Vikavolt (2017 NAIC)",
+    "year": "2017",
+    "deck": "Tapu Bulu Vikavolt (2017)",
     "count": 3,
     "name": "Tapu Bulu-GX",
     "set": "SM32/248",
@@ -6192,8 +6192,17 @@
     "image": "https://images.pokemontcg.io/smp/SM32_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Tapu Bulu/Vikavolt (2017 NAIC)",
+    "year": "2017",
+    "deck": "Tapu Bulu Vikavolt (2017)",
+    "count": 3,
+    "name": "Tapu Lele-GX",
+    "set": "60/145",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm2/60_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Tapu Bulu Vikavolt (2017)",
     "count": 3,
     "name": "Grubbin",
     "set": "13/149",
@@ -6201,8 +6210,8 @@
     "image": "https://images.pokemontcg.io/sm1/13_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Tapu Bulu/Vikavolt (2017 NAIC)",
+    "year": "2017",
+    "deck": "Tapu Bulu Vikavolt (2017)",
     "count": 1,
     "name": "Charjabug",
     "set": "51/149",
@@ -6210,8 +6219,8 @@
     "image": "https://images.pokemontcg.io/sm1/51_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Tapu Bulu/Vikavolt (2017 NAIC)",
+    "year": "2017",
+    "deck": "Tapu Bulu Vikavolt (2017)",
     "count": 3,
     "name": "Vikavolt",
     "set": "52/149",
@@ -6219,17 +6228,8 @@
     "image": "https://images.pokemontcg.io/sm1/52_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Tapu Bulu/Vikavolt (2017 NAIC)",
-    "count": 3,
-    "name": "Tapu Lele-GX",
-    "set": "60/145",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm2/60_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Tapu Bulu/Vikavolt (2017 NAIC)",
+    "year": "2017",
+    "deck": "Tapu Bulu Vikavolt (2017)",
     "count": 1,
     "name": "Tapu Koko",
     "set": "SM30/248",
@@ -6237,71 +6237,8 @@
     "image": "https://images.pokemontcg.io/smp/SM30_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Tapu Bulu/Vikavolt (2017 NAIC)",
-    "count": 4,
-    "name": "Professor Sycamore",
-    "set": "107/122",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy9/107_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Tapu Bulu/Vikavolt (2017 NAIC)",
-    "count": 3,
-    "name": "N",
-    "set": "105/124",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy10/105_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Tapu Bulu/Vikavolt (2017 NAIC)",
-    "count": 2,
-    "name": "Lysandre",
-    "set": "78/98",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy7/78_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Tapu Bulu/Vikavolt (2017 NAIC)",
-    "count": 1,
-    "name": "Skyla",
-    "set": "148/162",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy8/148_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Tapu Bulu/Vikavolt (2017 NAIC)",
-    "count": 1,
-    "name": "Professor Kukui",
-    "set": "128/149",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm1/128_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Tapu Bulu/Vikavolt (2017 NAIC)",
-    "count": 1,
-    "name": "Brigette",
-    "set": "134/162",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy8/134_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Tapu Bulu/Vikavolt (2017 NAIC)",
-    "count": 4,
-    "name": "VS Seeker",
-    "set": "109/119",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy4/109_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Tapu Bulu/Vikavolt (2017 NAIC)",
+    "year": "2017",
+    "deck": "Tapu Bulu Vikavolt (2017)",
     "count": 4,
     "name": "Ultra Ball",
     "set": "93/108",
@@ -6309,8 +6246,17 @@
     "image": "https://images.pokemontcg.io/xy6/93_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Tapu Bulu/Vikavolt (2017 NAIC)",
+    "year": "2017",
+    "deck": "Tapu Bulu Vikavolt (2017)",
+    "count": 3,
+    "name": "VS Seeker",
+    "set": "109/119",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy4/109_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Tapu Bulu Vikavolt (2017)",
     "count": 3,
     "name": "Rare Candy",
     "set": "135/160",
@@ -6318,8 +6264,8 @@
     "image": "https://images.pokemontcg.io/xy5/135_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Tapu Bulu/Vikavolt (2017 NAIC)",
+    "year": "2017",
+    "deck": "Tapu Bulu Vikavolt (2017)",
     "count": 2,
     "name": "Energy Recycler",
     "set": "72/98",
@@ -6327,8 +6273,8 @@
     "image": "https://images.pokemontcg.io/xy7/72_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Tapu Bulu/Vikavolt (2017 NAIC)",
+    "year": "2017",
+    "deck": "Tapu Bulu Vikavolt (2017)",
     "count": 2,
     "name": "Choice Band",
     "set": "121/145",
@@ -6336,17 +6282,8 @@
     "image": "https://images.pokemontcg.io/sm2/121_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Tapu Bulu/Vikavolt (2017 NAIC)",
-    "count": 2,
-    "name": "Float Stone",
-    "set": "137/162",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy8/137_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Tapu Bulu/Vikavolt (2017 NAIC)",
+    "year": "2017",
+    "deck": "Tapu Bulu Vikavolt (2017)",
     "count": 2,
     "name": "Fighting Fury Belt",
     "set": "99/122",
@@ -6354,8 +6291,17 @@
     "image": "https://images.pokemontcg.io/xy9/99_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Tapu Bulu/Vikavolt (2017 NAIC)",
+    "year": "2017",
+    "deck": "Tapu Bulu Vikavolt (2017)",
+    "count": 2,
+    "name": "Float Stone",
+    "set": "137/162",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy8/137_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Tapu Bulu Vikavolt (2017)",
     "count": 2,
     "name": "Field Blower",
     "set": "125/145",
@@ -6363,8 +6309,8 @@
     "image": "https://images.pokemontcg.io/sm2/125_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Tapu Bulu/Vikavolt (2017 NAIC)",
+    "year": "2017",
+    "deck": "Tapu Bulu Vikavolt (2017)",
     "count": 1,
     "name": "Heavy Ball",
     "set": "140/162",
@@ -6372,89 +6318,8 @@
     "image": "https://images.pokemontcg.io/xy8/140_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Tapu Bulu/Vikavolt (2017 NAIC)",
-    "count": 7,
-    "name": "Grass Energy",
-    "set": "",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/xy1/132_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Tapu Bulu/Vikavolt (2017 NAIC)",
-    "count": 5,
-    "name": "Lightning Energy",
-    "set": "",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/xy1/135_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Zoroark Drampa (2017 NAIC)",
-    "count": 4,
-    "name": "Zorua",
-    "set": "89/162",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/bw11/89_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Zoroark Drampa (2017 NAIC)",
-    "count": 4,
-    "name": "Zoroark",
-    "set": "91/162",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm9/91_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Zoroark Drampa (2017 NAIC)",
-    "count": 2,
-    "name": "Zoroark BREAK",
-    "set": "92/162",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/xy8/92_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Zoroark Drampa (2017 NAIC)",
-    "count": 2,
-    "name": "Drampa-GX",
-    "set": "115/145",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm2/115_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Zoroark Drampa (2017 NAIC)",
-    "count": 3,
-    "name": "Tapu Lele-GX",
-    "set": "60/145",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm2/60_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Zoroark Drampa (2017 NAIC)",
-    "count": 1,
-    "name": "Eevee",
-    "set": "63/98",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/xy7/63_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Zoroark Drampa (2017 NAIC)",
-    "count": 1,
-    "name": "Flareon",
-    "set": "13/98",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/xy7/13_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Zoroark Drampa (2017 NAIC)",
+    "year": "2017",
+    "deck": "Tapu Bulu Vikavolt (2017)",
     "count": 4,
     "name": "Professor Sycamore",
     "set": "107/122",
@@ -6462,8 +6327,8 @@
     "image": "https://images.pokemontcg.io/xy9/107_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Zoroark Drampa (2017 NAIC)",
+    "year": "2017",
+    "deck": "Tapu Bulu Vikavolt (2017)",
     "count": 3,
     "name": "N",
     "set": "105/124",
@@ -6471,431 +6336,17 @@
     "image": "https://images.pokemontcg.io/xy10/105_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Zoroark Drampa (2017 NAIC)",
-    "count": 2,
-    "name": "Lysandre",
-    "set": "78/98",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy7/78_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Zoroark Drampa (2017 NAIC)",
-    "count": 1,
-    "name": "Hex Maniac",
-    "set": "75/98",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy7/75_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Zoroark Drampa (2017 NAIC)",
-    "count": 1,
-    "name": "Teammates",
-    "set": "141/160",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy5/141_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Zoroark Drampa (2017 NAIC)",
-    "count": 1,
-    "name": "Brigette",
-    "set": "134/162",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy8/134_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Zoroark Drampa (2017 NAIC)",
-    "count": 1,
-    "name": "Professor Kukui",
-    "set": "128/149",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm1/128_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Zoroark Drampa (2017 NAIC)",
-    "count": 4,
-    "name": "Ultra Ball",
-    "set": "93/108",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy6/93_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Zoroark Drampa (2017 NAIC)",
-    "count": 4,
-    "name": "VS Seeker",
-    "set": "109/119",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy4/109_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Zoroark Drampa (2017 NAIC)",
+    "year": "2017",
+    "deck": "Tapu Bulu Vikavolt (2017)",
     "count": 3,
-    "name": "Choice Band",
-    "set": "121/145",
+    "name": "Guzma",
+    "set": "115/147",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm2/121_hires.png"
+    "image": "https://images.pokemontcg.io/sm3/115_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Zoroark Drampa (2017 NAIC)",
-    "count": 2,
-    "name": "Rescue Stretcher",
-    "set": "130/145",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm2/130_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Zoroark Drampa (2017 NAIC)",
-    "count": 2,
-    "name": "Float Stone",
-    "set": "137/162",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy8/137_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Zoroark Drampa (2017 NAIC)",
-    "count": 1,
-    "name": "Field Blower",
-    "set": "125/145",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm2/125_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Zoroark Drampa (2017 NAIC)",
-    "count": 1,
-    "name": "Special Charge",
-    "set": "105/114",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy11/105_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Zoroark Drampa (2017 NAIC)",
-    "count": 4,
-    "name": "Double Colorless Energy",
-    "set": "74/83",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/g1/74_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Zoroark Drampa (2017 NAIC)",
-    "count": 4,
-    "name": "Rainbow Energy",
-    "set": "152/162",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/xy8/152_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Zoroark Drampa (2017 NAIC)",
-    "count": 5,
-    "name": "Darkness Energy",
-    "set": "",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/xy1/138_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Espeon Garbodor (2017 NAIC)",
-    "count": 4,
-    "name": "Trubbish",
-    "set": "56/122",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/xy9/56_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Espeon Garbodor (2017 NAIC)",
-    "count": 3,
-    "name": "Garbodor",
-    "set": "51/145",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm2/51_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Espeon Garbodor (2017 NAIC)",
-    "count": 1,
-    "name": "Garbodor",
-    "set": "57/122",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/xy9/57_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Espeon Garbodor (2017 NAIC)",
-    "count": 4,
-    "name": "Eevee",
-    "set": "63/98",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/xy7/63_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Espeon Garbodor (2017 NAIC)",
-    "count": 3,
-    "name": "Espeon-GX",
-    "set": "61/149",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm1/61_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Espeon Garbodor (2017 NAIC)",
-    "count": 1,
-    "name": "Flareon",
-    "set": "13/98",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/xy7/13_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Espeon Garbodor (2017 NAIC)",
-    "count": 3,
-    "name": "Tapu Lele-GX",
-    "set": "60/145",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm2/60_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Espeon Garbodor (2017 NAIC)",
-    "count": 4,
-    "name": "Professor Sycamore",
-    "set": "107/122",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy9/107_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Espeon Garbodor (2017 NAIC)",
-    "count": 4,
-    "name": "N",
-    "set": "105/124",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy10/105_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Espeon Garbodor (2017 NAIC)",
-    "count": 3,
-    "name": "Lysandre",
-    "set": "78/98",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy7/78_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Espeon Garbodor (2017 NAIC)",
-    "count": 2,
-    "name": "Hex Maniac",
-    "set": "75/98",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy7/75_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Espeon Garbodor (2017 NAIC)",
-    "count": 1,
-    "name": "Brigette",
-    "set": "134/162",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy8/134_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Espeon Garbodor (2017 NAIC)",
-    "count": 4,
-    "name": "Ultra Ball",
-    "set": "93/108",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy6/93_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Espeon Garbodor (2017 NAIC)",
-    "count": 3,
-    "name": "Float Stone",
-    "set": "137/162",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy8/137_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Espeon Garbodor (2017 NAIC)",
-    "count": 3,
-    "name": "VS Seeker",
-    "set": "109/119",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy4/109_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Espeon Garbodor (2017 NAIC)",
-    "count": 3,
-    "name": "Choice Band",
-    "set": "121/145",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm2/121_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Espeon Garbodor (2017 NAIC)",
-    "count": 1,
-    "name": "Field Blower",
-    "set": "125/145",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm2/125_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Espeon Garbodor (2017 NAIC)",
-    "count": 1,
-    "name": "Rescue Stretcher",
-    "set": "130/145",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm2/130_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Espeon Garbodor (2017 NAIC)",
-    "count": 4,
-    "name": "Double Colorless Energy",
-    "set": "74/83",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/g1/74_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Espeon Garbodor (2017 NAIC)",
-    "count": 8,
-    "name": "Psychic Energy",
-    "set": "",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/xy1/136_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
-    "count": 4,
-    "name": "Rowlet",
-    "set": "9/149",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm1/9_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
-    "count": 4,
-    "name": "Dartrix",
-    "set": "10/149",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm1/10_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
-    "count": 4,
-    "name": "Decidueye-GX",
-    "set": "12/149",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm1/12_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
-    "count": 2,
-    "name": "Tapu Koko",
-    "set": "SM30/248",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/smp/SM30_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
-    "count": 1,
-    "name": "Espeon-EX",
-    "set": "52/122",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/xy9/52_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
-    "count": 1,
-    "name": "Shaymin-EX",
-    "set": "77/108",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/xy6/77_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
-    "count": 2,
-    "name": "Tapu Lele-GX",
-    "set": "60/145",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm2/60_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
-    "count": 2,
-    "name": "Alolan Vulpix",
-    "set": "21/145",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm2/21_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
-    "count": 1,
-    "name": "Alolan Ninetales-GX",
-    "set": "22/145",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm2/22_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
-    "count": 4,
-    "name": "Professor Sycamore",
-    "set": "107/122",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy9/107_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
-    "count": 2,
-    "name": "N",
-    "set": "105/124",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy10/105_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
-    "count": 1,
-    "name": "Lysandre",
-    "set": "78/98",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy7/78_hires.png"
-  },
-  {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
+    "year": "2017",
+    "deck": "Tapu Bulu Vikavolt (2017)",
     "count": 1,
     "name": "Skyla",
     "set": "148/162",
@@ -6903,35 +6354,161 @@
     "image": "https://images.pokemontcg.io/xy8/148_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
+    "year": "2017",
+    "deck": "Tapu Bulu Vikavolt (2017)",
     "count": 1,
-    "name": "Delinquent",
-    "set": "98/122",
+    "name": "Professor Kukui",
+    "set": "128/149",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy9/98_hires.png"
+    "image": "https://images.pokemontcg.io/sm1/128_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
+    "year": "2017",
+    "deck": "Tapu Bulu Vikavolt (2017)",
+    "count": 1,
+    "name": "Brigette",
+    "set": "134/162",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy8/134_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Tapu Bulu Vikavolt (2017)",
+    "count": 7,
+    "name": "Grass Energy",
+    "set": "",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/xy1/132_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Tapu Bulu Vikavolt (2017)",
+    "count": 5,
+    "name": "Lightning Energy",
+    "set": "",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/xy1/135_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Espeon Garbodor (2017)",
     "count": 4,
-    "name": "Ultra Ball",
-    "set": "93/108",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy6/93_hires.png"
+    "name": "Eevee",
+    "set": "101/149",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm1/101_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
+    "year": "2017",
+    "deck": "Espeon Garbodor (2017)",
+    "count": 3,
+    "name": "Espeon-GX",
+    "set": "61/149",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm1/61_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Espeon Garbodor (2017)",
+    "count": 1,
+    "name": "Flareon",
+    "set": "13/98",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/xy7/13_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Espeon Garbodor (2017)",
+    "count": 4,
+    "name": "Trubbish",
+    "set": "56/122",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/xy9/56_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Espeon Garbodor (2017)",
+    "count": 3,
+    "name": "Garbodor",
+    "set": "51/145",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm2/51_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Espeon Garbodor (2017)",
+    "count": 1,
+    "name": "Garbodor",
+    "set": "57/122",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/xy9/57_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Espeon Garbodor (2017)",
     "count": 2,
-    "name": "Float Stone",
-    "set": "137/162",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy8/137_hires.png"
+    "name": "Tapu Lele-GX",
+    "set": "60/145",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm2/60_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
+    "year": "2017",
+    "deck": "Espeon Garbodor (2017)",
+    "count": 3,
+    "name": "Professor Sycamore",
+    "set": "107/122",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy9/107_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Espeon Garbodor (2017)",
+    "count": 3,
+    "name": "N",
+    "set": "105/124",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy10/105_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Espeon Garbodor (2017)",
+    "count": 2,
+    "name": "Guzma",
+    "set": "115/147",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm3/115_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Espeon Garbodor (2017)",
+    "count": 1,
+    "name": "Brigette",
+    "set": "134/162",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy8/134_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Espeon Garbodor (2017)",
+    "count": 1,
+    "name": "Hex Maniac",
+    "set": "75/98",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy7/75_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Espeon Garbodor (2017)",
+    "count": 1,
+    "name": "Teammates",
+    "set": "141/160",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy5/141_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Espeon Garbodor (2017)",
     "count": 4,
     "name": "VS Seeker",
     "set": "109/119",
@@ -6939,17 +6516,17 @@
     "image": "https://images.pokemontcg.io/xy4/109_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
-    "count": 2,
-    "name": "Choice Band",
-    "set": "121/145",
+    "year": "2017",
+    "deck": "Espeon Garbodor (2017)",
+    "count": 4,
+    "name": "Ultra Ball",
+    "set": "135/149",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm2/121_hires.png"
+    "image": "https://images.pokemontcg.io/sm1/135_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
+    "year": "2017",
+    "deck": "Espeon Garbodor (2017)",
     "count": 2,
     "name": "Field Blower",
     "set": "125/145",
@@ -6957,8 +6534,8 @@
     "image": "https://images.pokemontcg.io/sm2/125_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
+    "year": "2017",
+    "deck": "Espeon Garbodor (2017)",
     "count": 1,
     "name": "Rescue Stretcher",
     "set": "130/145",
@@ -6966,17 +6543,395 @@
     "image": "https://images.pokemontcg.io/sm2/130_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
-    "count": 1,
-    "name": "Revitalizer",
-    "set": "70/83",
+    "year": "2017",
+    "deck": "Espeon Garbodor (2017)",
+    "count": 4,
+    "name": "Float Stone",
+    "set": "137/162",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/g1/70_hires.png"
+    "image": "https://images.pokemontcg.io/xy8/137_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
+    "year": "2017",
+    "deck": "Espeon Garbodor (2017)",
+    "count": 3,
+    "name": "Choice Band",
+    "set": "121/145",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm2/121_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Espeon Garbodor (2017)",
+    "count": 1,
+    "name": "Parallel City",
+    "set": "145/162",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy8/145_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Espeon Garbodor (2017)",
+    "count": 8,
+    "name": "Psychic Energy",
+    "set": "",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/xy1/136_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Espeon Garbodor (2017)",
+    "count": 4,
+    "name": "Double Colorless Energy",
+    "set": "136/149",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/sm1/136_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Drampa Garbodor (2017)",
+    "count": 3,
+    "name": "Drampa-GX",
+    "set": "115/145",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm2/115_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Drampa Garbodor (2017)",
+    "count": 4,
+    "name": "Trubbish",
+    "set": "56/122",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/xy9/56_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Drampa Garbodor (2017)",
+    "count": 3,
+    "name": "Garbodor",
+    "set": "51/145",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm2/51_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Drampa Garbodor (2017)",
+    "count": 1,
+    "name": "Garbodor",
+    "set": "57/122",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/xy9/57_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Drampa Garbodor (2017)",
+    "count": 4,
+    "name": "Tapu Lele-GX",
+    "set": "60/145",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm2/60_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Drampa Garbodor (2017)",
+    "count": 4,
+    "name": "N",
+    "set": "105/124",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy10/105_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Drampa Garbodor (2017)",
+    "count": 3,
+    "name": "Professor Sycamore",
+    "set": "107/122",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy9/107_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Drampa Garbodor (2017)",
+    "count": 2,
+    "name": "Guzma",
+    "set": "115/147",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm3/115_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Drampa Garbodor (2017)",
+    "count": 1,
+    "name": "Brigette",
+    "set": "134/162",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy8/134_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Drampa Garbodor (2017)",
+    "count": 1,
+    "name": "Teammates",
+    "set": "141/160",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy5/141_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Drampa Garbodor (2017)",
+    "count": 1,
+    "name": "Acerola",
+    "set": "112/147",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm3/112_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Drampa Garbodor (2017)",
+    "count": 1,
+    "name": "Plumeria",
+    "set": "120/147",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm3/120_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Drampa Garbodor (2017)",
+    "count": 4,
+    "name": "VS Seeker",
+    "set": "109/119",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy4/109_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Drampa Garbodor (2017)",
+    "count": 4,
+    "name": "Ultra Ball",
+    "set": "135/149",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm1/135_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Drampa Garbodor (2017)",
+    "count": 2,
+    "name": "Field Blower",
+    "set": "125/145",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm2/125_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Drampa Garbodor (2017)",
+    "count": 1,
+    "name": "Rescue Stretcher",
+    "set": "130/145",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm2/130_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Drampa Garbodor (2017)",
+    "count": 1,
+    "name": "Super Rod",
+    "set": "149/162",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy8/149_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Drampa Garbodor (2017)",
+    "count": 4,
+    "name": "Float Stone",
+    "set": "137/162",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy8/137_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Drampa Garbodor (2017)",
+    "count": 4,
+    "name": "Choice Band",
+    "set": "121/145",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm2/121_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Drampa Garbodor (2017)",
+    "count": 4,
+    "name": "Psychic Energy",
+    "set": "",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/xy1/136_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Drampa Garbodor (2017)",
+    "count": 4,
+    "name": "Rainbow Energy",
+    "set": "137/149",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/sm1/137_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Drampa Garbodor (2017)",
+    "count": 4,
+    "name": "Double Colorless Energy",
+    "set": "136/149",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/sm1/136_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
+    "count": 4,
+    "name": "Rowlet",
+    "set": "9/149",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm1/9_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
+    "count": 4,
+    "name": "Dartrix",
+    "set": "10/149",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm1/10_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
+    "count": 4,
+    "name": "Decidueye-GX",
+    "set": "12/149",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm1/12_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
+    "count": 2,
+    "name": "Alolan Vulpix",
+    "set": "21/145",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm2/21_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
+    "count": 1,
+    "name": "Alolan Ninetales-GX",
+    "set": "22/145",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm2/22_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
+    "count": 2,
+    "name": "Tapu Lele-GX",
+    "set": "60/145",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm2/60_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
+    "count": 1,
+    "name": "Shaymin-EX",
+    "set": "77/108",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/xy6/77_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
+    "count": 1,
+    "name": "Espeon-EX",
+    "set": "52/122",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/xy9/52_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
+    "count": 1,
+    "name": "Tapu Koko",
+    "set": "SM30/248",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/smp/SM30_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
+    "count": 4,
+    "name": "Professor Sycamore",
+    "set": "107/122",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy9/107_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
+    "count": 4,
+    "name": "N",
+    "set": "105/124",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy10/105_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
+    "count": 2,
+    "name": "Acerola",
+    "set": "112/147",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm3/112_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
+    "count": 1,
+    "name": "Guzma",
+    "set": "115/147",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm3/115_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
+    "count": 1,
+    "name": "Brigette",
+    "set": "134/162",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy8/134_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
+    "count": 4,
+    "name": "Ultra Ball",
+    "set": "135/149",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm1/135_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
+    "count": 3,
+    "name": "VS Seeker",
+    "set": "109/119",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy4/109_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
     "count": 2,
     "name": "Level Ball",
     "set": "76/98",
@@ -6984,8 +6939,53 @@
     "image": "https://images.pokemontcg.io/xy7/76_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
+    "count": 2,
+    "name": "Field Blower",
+    "set": "125/145",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm2/125_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
+    "count": 1,
+    "name": "Rescue Stretcher",
+    "set": "130/145",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm2/130_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
+    "count": 1,
+    "name": "Revitalizer",
+    "set": "70/83",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/g1/70_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
+    "count": 2,
+    "name": "Choice Band",
+    "set": "121/145",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm2/121_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
+    "count": 2,
+    "name": "Float Stone",
+    "set": "137/162",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy8/137_hires.png"
+  },
+  {
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
     "count": 4,
     "name": "Forest of Giant Plants",
     "set": "74/98",
@@ -6993,18 +6993,18 @@
     "image": "https://images.pokemontcg.io/xy7/74_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
     "count": 4,
     "name": "Double Colorless Energy",
-    "set": "74/83",
+    "set": "136/149",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/g1/74_hires.png"
+    "image": "https://images.pokemontcg.io/sm1/136_hires.png"
   },
   {
-    "year": "2017 NAIC",
-    "deck": "Decidueye (2017 NAIC)",
-    "count": 4,
+    "year": "2017",
+    "deck": "Decidueye Ninetales (2017)",
+    "count": 3,
     "name": "Grass Energy",
     "set": "",
     "category": "Energy",

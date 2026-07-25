@@ -70,7 +70,7 @@ TRAINER_NAMES = {
     "Mixed Herbs", "Moonlight Stadium", "Multi Switch", "Muscle Band",
     "Mysterious Treasure", "N", "Nest Ball", "Night Maintenance", "Night Stretcher",
     "Order Pad", "Ordinary Rod", "Pal Pad", "Parallel City", "Path to the Peak", "Penny",
-    "Phoebe",
+    "Phoebe", "Plumeria",
     "PokéStop", "Pokégear 3.0", "Pokémon Catcher", "Pokémon Center Lady",
     "Pokémon Collector", "Pokémon Communication", "Pokémon Fan Club", "Pokémon Ranger",
     "Pokémon Rescue",

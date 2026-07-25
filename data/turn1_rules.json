@@ -147,27 +147,6 @@
       }
     ]
   },
-  "2017 NAIC": {
-    "flip": "Winner Chooses",
-    "rules": [
-      {
-        "label": "Items",
-        "allowed": true
-      },
-      {
-        "label": "Supporters",
-        "allowed": true
-      },
-      {
-        "label": "Stadium",
-        "allowed": true
-      },
-      {
-        "label": "Attack",
-        "allowed": false
-      }
-    ]
-  },
   "2018": {
     "flip": "Winner Chooses",
     "rules": [

@@ -41,7 +41,7 @@ Hosted free on GitHub Pages.
   non-alphanumeric characters with `_`, and trims leading/trailing `_`.
 - `data/turn1_rules.json` — turn-1 rules (coin flip + what the player
   going first can/can't do) keyed by the exact `year` label used in
-  `cards.json` (e.g. `"2010"`, `"2017 NAIC"`). Rendered as an expandable
+  `cards.json` (e.g. `"2010"`). Rendered as an expandable
   box that only appears when a single year is filtered (never on "All
   years"). Hand-maintained, not generated — see `TURN1_RULES.md` for the
   research/sources and the "why" behind each entry. **If you add a new
@@ -169,8 +169,9 @@ in `cards.json`. So a newly added deck sorts into place on its own — you do
 **not** need to insert its rows at any particular position in `cards.json`,
 and you must not reintroduce manual ordering there. The sort is two-level:
 years stay in chronological order (via the `YEARS` array, so "All years"
-still reads oldest→newest and `2017 NAIC` still lands just before `2017`),
-and within each year the decks are alphabetical by display name. Filtering
+still reads oldest→newest; a same-year labelled event like a future
+`2018 NAIC` would sort just before its bare year), and within each year
+the decks are alphabetical by display name. Filtering
 to a single year therefore shows a purely alphabetical list. If you add a
 whole new *year*, it slots in via `YEARS`; nothing about the deck sort
 needs changing.
@@ -361,15 +362,20 @@ which repoints tracking without needing another push).
 
 ## Current data state (as of the last update in this file)
 
-- 73 decks, 1740 card rows, 16 "formats" (year groupings, including a
-  standalone `2017 NAIC`).
+- 73 decks, 1740 card rows, 15 "formats" (year groupings, 2010–2025 with
+  no 2011). The one-time standalone `2017 NAIC` label was consolidated into
+  `2017`: its four decks were moved to 2017 with their World-Championship-
+  format lists (different from NAIC — Guzma over Lysandre, Burning Shadows
+  legal), and two were renamed (Zoroark Drampa → Drampa Garbodor, Decidueye
+  → Decidueye Ninetales, both now TBC guides).
 - Every row has a `category`. Every row has an `image` — 740 unique image
   URLs, all verified HTTP 200.
 - All 73 piloting guides exist and are wired up (`data/guides.json` has 73
-  keys, one per deck). One guide — **Eternatus VMAX (2021)** — is still an
-  intentional stub whose body is just "TBC"; its decklist is complete, the
-  write-up isn't. Every other deck has a full guide.
-- `data/turn1_rules.json` has an entry for all 16 year labels.
+  keys, one per deck). Three are intentional "TBC" stubs whose decklists are
+  complete but write-ups aren't: **Eternatus VMAX (2021)**, **Drampa
+  Garbodor (2017)**, and **Decidueye Ninetales (2017)**. Every other deck
+  has a full guide.
+- `data/turn1_rules.json` has an entry for all 15 year labels.
 - 2021 uses the **Players Cup III/IV** online events as its benchmark
   (there was no 2021 Worlds — COVID). Lists came from the Limitless
   tournament archive (`limitlesstcg.com/decks/list/<id>`), whose HTML
