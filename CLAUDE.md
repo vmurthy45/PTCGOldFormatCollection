@@ -367,14 +367,14 @@ which repoints tracking without needing another push).
   `2017`: its four decks were moved to 2017 with their World-Championship-
   format lists (different from NAIC — Guzma over Lysandre, Burning Shadows
   legal), and two were renamed (Zoroark Drampa → Drampa Garbodor, Decidueye
-  → Decidueye Ninetales, both now TBC guides).
+  → Decidueye Ninetales). Drampa Garbodor is a TBC guide; Decidueye Ninetales
+  reused the old Decidueye guide (Lysandre→Guzma).
 - Every row has a `category`. Every row has an `image` — 740 unique image
   URLs, all verified HTTP 200.
 - All 73 piloting guides exist and are wired up (`data/guides.json` has 73
-  keys, one per deck). Three are intentional "TBC" stubs whose decklists are
-  complete but write-ups aren't: **Eternatus VMAX (2021)**, **Drampa
-  Garbodor (2017)**, and **Decidueye Ninetales (2017)**. Every other deck
-  has a full guide.
+  keys, one per deck). Two are intentional "TBC" stubs whose decklists are
+  complete but write-ups aren't: **Eternatus VMAX (2021)** and **Drampa
+  Garbodor (2017)**. Every other deck has a full guide.
 - `data/turn1_rules.json` has an entry for all 15 year labels.
 - 2021 uses the **Players Cup III/IV** online events as its benchmark
   (there was no 2021 Worlds — COVID). Lists came from the Limitless
