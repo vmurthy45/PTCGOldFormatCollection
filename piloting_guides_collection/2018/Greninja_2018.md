@@ -1,8 +1,7 @@
 # How to Pilot — Greninja (2018)
 
-_Format: the **Greninja BREAK** control deck. With Evosoda (XY base set) and the BREAKpoint
-Greninja line, this is an **Expanded**-format build — Greninja BREAK's natural home by 2018 —
-catalogued here under 2018._
+_Format: **2018 Standard** — the Greninja BREAK control deck. (Evosoda saw a promo reprint,
+keeping it Standard-legal for the season.)_
 
 ## One-line identity
 A single-prize control/spread deck. **Giant Water Shuriken** (Greninja BREAK) throws **60
@@ -13,9 +12,9 @@ faster than they can trade.
 
 ## The meta it lived in
 Greninja BREAK was a long-running fixture — a slow, high-skill control deck that punished
-Ability- and Special-Energy-reliant decks and out-attritioned fair midrange. Its home by 2018
-was **Expanded**, where the full engine (Evosoda, the BREAKpoint line, Enhanced Hammer, Max
-Potion) is legal. The deck's weakness is its own setup: a Stage-2-into-BREAK line is slow, so
+Ability- and Special-Energy-reliant decks and out-attritioned fair midrange. It rewards
+tight play: the payoff is a single-prize board that heals and recovers faster than most decks
+can trade Prizes. The deck's weakness is its own setup: a Stage-2-into-BREAK line is slow, so
 raw aggression that races you before the shuriken start flying is the enemy.
 
 ## Engine cards (why they're here)
