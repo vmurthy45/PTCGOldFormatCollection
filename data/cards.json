@@ -6455,7 +6455,7 @@
   {
     "year": "2017",
     "deck": "Espeon Garbodor (2017)",
-    "count": 3,
+    "count": 4,
     "name": "Professor Sycamore",
     "set": "107/122",
     "category": "Trainer",
@@ -6464,7 +6464,7 @@
   {
     "year": "2017",
     "deck": "Espeon Garbodor (2017)",
-    "count": 3,
+    "count": 4,
     "name": "N",
     "set": "105/124",
     "category": "Trainer",
@@ -6545,7 +6545,7 @@
   {
     "year": "2017",
     "deck": "Espeon Garbodor (2017)",
-    "count": 4,
+    "count": 3,
     "name": "Float Stone",
     "set": "137/162",
     "category": "Trainer",
@@ -6559,15 +6559,6 @@
     "set": "121/145",
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/sm2/121_hires.png"
-  },
-  {
-    "year": "2017",
-    "deck": "Espeon Garbodor (2017)",
-    "count": 1,
-    "name": "Parallel City",
-    "set": "145/162",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy8/145_hires.png"
   },
   {
     "year": "2017",

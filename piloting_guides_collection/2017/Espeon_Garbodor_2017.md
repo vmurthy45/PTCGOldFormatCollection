@@ -34,17 +34,19 @@ plus **Darkrai** (Psychic-resistant) and **Greninja**, are all rough.
   decks.
 
 ## Support / tech (why the odd counts)
-- **Sycamore ×3 / N ×3 / Guzma ×2 / Hex Maniac ×1 / Teammates ×1 / Brigette ×1** — the
+- **Sycamore ×4 / N ×4 / Guzma ×2 / Hex Maniac ×1 / Teammates ×1 / Brigette ×1** — the
   control Supporter suite. **Guzma** (your Burning Shadows gust) drags up the target *and*
   pivots your own Active; **Hex Maniac** shuts off Abilities for a turn; **Teammates** (after
   a KO) fetches the exact two cards you need; **N** disrupts.
-- **Ultra Ball ×4 / VS Seeker ×4 / Float Stone ×4 / Field Blower ×2 / Rescue Stretcher ×1** —
+- **Ultra Ball ×4 / VS Seeker ×4 / Float Stone ×3 / Field Blower ×2 / Rescue Stretcher ×1** —
   search, recursion (VS Seeker → more Guzma), **Float Stone** (free retreat *and* the Tool
   for Garbotoxin), Tool/Stadium removal, recovery.
 - **Choice Band ×3** — +30 vs. GX/EX so Psybeam/Psychic and even Trashalanche hit exact KO
   numbers.
-- **Parallel City ×1** — shrinks your *own* bench to dodge spread, or turns off the
-  opponent's non-Fire attackers' damage; a flexible one-of Stadium.
+- **Flex slot — Parallel City:** a **Parallel City** could come in over a fourth **Professor
+  Sycamore** — it shrinks your *own* bench to dodge spread and turns off the opponent's
+  non-Fire attackers' damage, a flexible one-of Stadium. It's left out of this list only
+  because Vig doesn't own a copy; with one, run 3 Sycamore + 1 Parallel City.
 - **8 Psychic + 4 DCE** — a high Psychic count (8) is deliberate: it maximizes the turn-1
   Psybeam and keeps Energy Evolution live; DCE powers Trashalanche/Psychic's Colorless.
 
