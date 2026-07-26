@@ -362,14 +362,17 @@ which repoints tracking without needing another push).
 
 ## Current data state (as of the last update in this file)
 
-- 73 decks, 1740 card rows, 15 "formats" (year groupings, 2010–2025 with
+- 73 decks, 1741 card rows, 15 "formats" (year groupings, 2010–2025 with
   no 2011). The one-time standalone `2017 NAIC` label was consolidated into
-  `2017`: its four decks were moved to 2017 with their World-Championship-
-  format lists (different from NAIC — Guzma over Lysandre, Burning Shadows
-  legal), and two were renamed (Zoroark Drampa → Drampa Garbodor, Decidueye
-  → Decidueye Ninetales). Decidueye Ninetales reused the old Decidueye guide
-  (Lysandre→Guzma); Drampa Garbodor got a fresh full guide.
-- Every row has a `category`. Every row has an `image` — 740 unique image
+  `2017`: its four decks moved to 2017. Three took World-Championship-format
+  lists (Guzma over Lysandre, Burning Shadows legal): Tapu Bulu Vikavolt,
+  Espeon Garbodor, and Decidueye (→ Decidueye Ninetales, reusing the old
+  guide with Lysandre→Guzma). The fourth, Zoroark Drampa, was reinstated
+  as **Drampa Zoroark (2017)** with its original BKT-Zoroark-BREAK list —
+  which still runs Lysandre (all cards legal in the 2017 season); its guide
+  keeps the original text with the card mechanics corrected against the API
+  (Mind Jack is 10+30×bench, Berserk keys off your own damaged bench).
+- Every row has a `category`. Every row has an `image` — 742 unique image
   URLs, all verified HTTP 200.
 - All 73 piloting guides exist and are wired up (`data/guides.json` has 73
   keys, one per deck). One is an intentional "TBC" stub whose decklist is
