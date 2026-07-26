@@ -160,6 +160,11 @@ URL_OVERRIDES = {
     ('Double Colorless Energy', '136/149'): 'https://images.pokemontcg.io/sm1/136_hires.png',
     ('Rainbow Energy', '137/149'): 'https://images.pokemontcg.io/sm1/137_hires.png',
     ('Plumeria', '120/147'): 'https://images.pokemontcg.io/sm3/120_hires.png',
+    # Greninja BREAK (2018) prints the CSV didn't resolve.
+    ('Froakie', '22/131'): 'https://images.pokemontcg.io/sm6/22_hires.png',
+    ('Staryu', '25/122'): 'https://images.pokemontcg.io/xy9/25_hires.png',
+    ('Starmie', '31/108'): 'https://images.pokemontcg.io/xy12/31_hires.png',
+    ('Evosoda', '116/146'): 'https://images.pokemontcg.io/xy1/116_hires.png',
     # Basic Energy is recorded in cards.json with no specific print (empty
     # set), since decklists rarely note which printing was used. These pin
     # every basic Energy card to its XY base-set art (xy1) so there's a

@@ -2,7 +2,7 @@
 
 A browsable set of research-based piloting guides for historical competitive decks, one per deck, spanning the 2010–2025 Standard seasons. Each guide covers the deck's identity, the meta it lived in, its engine and tech cards, the core gameplay loop, priorities, bad matchups, and a quick-reference sheet.
 
-**73 guides across 15 formats.** Guides are organized into year folders. All guides are research-based and reflect documented competitive consensus — they were not playtested by the author.
+**74 guides across 15 formats.** Guides are organized into year folders. All guides are research-based and reflect documented competitive consensus — they were not playtested by the author.
 
 ---
 
@@ -60,11 +60,12 @@ A browsable set of research-based piloting guides for historical competitive dec
 - **[Espeon Garbodor (2017)](2017/Espeon_Garbodor_2017.md)** — A punishing control deck: Garbodor's Trashalanche does 20 × the opponent's Items in the discard (a 1HKO against Item-reliant decks), while Espeon-GX's Psybeam confuses and its Psychic attack scales with the Energy the opponent has attached — so the deck punishes both Items and Energy.
 - **[Tapu Bulu Vikavolt (2017)](2017/Tapu_Bulu_Vikavolt_2017.md)** — Turbo one-shots: Vikavolt's Strong Charge attaches a Grass and a Lightning Energy from your deck every turn (an Ability), letting Tapu Bulu-GX fire Nature's Judgment for 180 (210 with Choice Band) from turn 2 — enough to 1HKO almost anything.
 
-## 2018  (7 guides)
+## 2018  (8 guides)
 
 - **[Banette Garbodor (2018)](2018/Banette_Garbodor_2018.md)** — A disruptive single-Energy toolbox: Banette-GX attacks for just one Psychic (Shadow Chant scales with Supporters in your discard) and its Shady Move Ability slides a damage counter anywhere — even onto the opponent — for surprise KOs.
 - **[Buzz Garb Shrine (2018)](2018/Buzz_Garb_Shrine_2018.md)** — A single-prize grind deck: attack almost entirely with non-GX Buzzwole (Jet Punch spread + Sledgehammer 1HKOs), lock the opponent's Abilities with Garbodor's Garbotoxin, and let Shrine of Punishment quietly place damage on every GX/EX the opponent benches.
 - **[Buzzwole Lycanroc (2018)](2018/Buzzwole_Lycanroc_2018.md)** — Fast, disruptive Fighting aggression: Buzzwole-GX's Jet Punch does 30 to the Active and 30 to a benched Pokémon for a single Energy, Lycanroc-GX's Bloodthirsty Eyes drags up whatever you want to KO (no Supporter needed), and Beast Ring + Sledgehammer give you explosive comeback turns.
+- **[Greninja (2018)](2018/Greninja_2018.md)** — A single-prize Water control deck: Greninja BREAK's Giant Water Shuriken throws 60 damage at any Pokémon every turn (discard a Water Energy from hand), Shadow Stitching locks the opponent's Abilities, and Max Potion + Splash Energy make it grind out fair decks — an Expanded-pool build.
 - **[Zoroark Garbodor (2018)](2018/Zoroark_Garbodor_2018.md)** — The consistency king of the format with a disruption package bolted on: Zoroark-GX's Trade draws you 2 cards a turn (an Ability), Riotous Beating hits 20 × your Pokémon, and a split Garbodor line either shuts off all Abilities (Garbotoxin) or punishes Item decks (Trashalanche).
 - **[Zoroark Gardevoir (2018)](2018/Zoroark_Gardevoir_2018.md)** — Consistency plus a heavy hitter: Zoroark-GX's Trade churns through the deck while Gardevoir-GX provides Infinite Force (30 × total Energy on both Active Pokémon) and Secret Spring Fairy acceleration.
 - **[Zoroark Golisopod (2018)](2018/Zoroark_Golisopod_2018.md)** — Consistency meets efficiency: Zoroark-GX's Trade draws you through the deck every turn while Riotous Beating provides scaling damage, and Golisopod-GX adds a hyper- efficient First Impression (120 for one Grass) as a second, harder-hitting attacker.

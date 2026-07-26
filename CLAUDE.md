@@ -362,7 +362,7 @@ which repoints tracking without needing another push).
 
 ## Current data state (as of the last update in this file)
 
-- 73 decks, 1741 card rows, 15 "formats" (year groupings, 2010–2025 with
+- 74 decks, 1759 card rows, 15 "formats" (year groupings, 2010–2025 with
   no 2011). The one-time standalone `2017 NAIC` label was consolidated into
   `2017`: its four decks moved to 2017. Three took World-Championship-format
   lists (Guzma over Lysandre, Burning Shadows legal): Tapu Bulu Vikavolt,
@@ -372,9 +372,9 @@ which repoints tracking without needing another push).
   which still runs Lysandre (all cards legal in the 2017 season); its guide
   keeps the original text with the card mechanics corrected against the API
   (Mind Jack is 10+30×bench, Berserk keys off your own damaged bench).
-- Every row has a `category`. Every row has an `image` — 742 unique image
+- Every row has a `category`. Every row has an `image` — 746 unique image
   URLs, all verified HTTP 200.
-- All 73 piloting guides exist and are wired up (`data/guides.json` has 73
+- All 74 piloting guides exist and are wired up (`data/guides.json` has 74
   keys, one per deck). One is an intentional "TBC" stub whose decklist is
   complete but write-up isn't: **Eternatus VMAX (2021)**. Every other deck
   has a full guide.

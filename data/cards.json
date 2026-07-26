@@ -8568,6 +8568,168 @@
     "image": "https://images.pokemontcg.io/xy1/140_hires.png"
   },
   {
+    "year": "2018",
+    "deck": "Greninja (2018)",
+    "count": 4,
+    "name": "Froakie",
+    "set": "22/131",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm6/22_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Greninja (2018)",
+    "count": 4,
+    "name": "Frogadier",
+    "set": "39/122",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/xy9/39_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Greninja (2018)",
+    "count": 4,
+    "name": "Greninja",
+    "set": "40/122",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/xy9/40_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Greninja (2018)",
+    "count": 3,
+    "name": "Greninja BREAK",
+    "set": "41/122",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/xy9/41_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Greninja (2018)",
+    "count": 1,
+    "name": "Staryu",
+    "set": "25/122",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/xy9/25_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Greninja (2018)",
+    "count": 1,
+    "name": "Starmie",
+    "set": "31/108",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/xy12/31_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Greninja (2018)",
+    "count": 4,
+    "name": "Professor Sycamore",
+    "set": "107/122",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy9/107_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Greninja (2018)",
+    "count": 4,
+    "name": "Cynthia",
+    "set": "119/156",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm5/119_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Greninja (2018)",
+    "count": 4,
+    "name": "N",
+    "set": "105/124",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy10/105_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Greninja (2018)",
+    "count": 4,
+    "name": "Ultra Ball",
+    "set": "135/149",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm1/135_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Greninja (2018)",
+    "count": 4,
+    "name": "Evosoda",
+    "set": "116/146",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy1/116_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Greninja (2018)",
+    "count": 4,
+    "name": "Enhanced Hammer",
+    "set": "124/145",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm2/124_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Greninja (2018)",
+    "count": 3,
+    "name": "Max Potion",
+    "set": "128/145",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm2/128_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Greninja (2018)",
+    "count": 2,
+    "name": "Super Rod",
+    "set": "149/162",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy8/149_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Greninja (2018)",
+    "count": 1,
+    "name": "Rescue Stretcher",
+    "set": "130/145",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm2/130_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Greninja (2018)",
+    "count": 3,
+    "name": "Brooklet Hill",
+    "set": "120/145",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm2/120_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Greninja (2018)",
+    "count": 6,
+    "name": "Water Energy",
+    "set": "",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/xy1/134_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Greninja (2018)",
+    "count": 4,
+    "name": "Splash Energy",
+    "set": "113/122",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/xy9/113_hires.png"
+  },
+  {
     "year": "2019",
     "deck": "Malamar (2019)",
     "count": 4,
