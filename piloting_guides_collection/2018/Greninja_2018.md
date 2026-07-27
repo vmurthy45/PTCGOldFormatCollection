@@ -18,7 +18,7 @@ can trade Prizes. The deck's weakness is its own setup: a Stage-2-into-BREAK lin
 raw aggression that races you before the shuriken start flying is the enemy.
 
 ## Engine cards (why they're here)
-- **Froakie (22/131) ×4 → Frogadier (39/122) ×4 → Greninja (40/122) ×4 → Greninja BREAK
+- **Froakie (38/122) ×4 → Frogadier (39/122) ×4 → Greninja (40/122) ×4 → Greninja BREAK
   (41/122) ×3** — the deck. **Frogadier's Water Duplicates** searches **3 Frogadier onto your
   Bench** — the accelerant that builds the whole line fast. **Greninja (BKP 40)** brings the
   two attacks the BREAK keeps via BREAK Evolution: **Shadow Stitching** [C] 40 — until the end

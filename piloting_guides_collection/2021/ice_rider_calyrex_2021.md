@@ -35,7 +35,7 @@ Ability to function, Ice Rider genuinely does not.
   Inteleon fetches **2**. Note this build runs only the SSH Inteleon — there's no Quick Shooting
   package, because the deck doesn't need chip damage when it one-shots things outright. Every
   Trainer in the list is effectively searchable.
-- **Path to the Peak (148/198) ×3** — *Pokémon with a Rule Box have no Abilities.* Read your own
+- **Path to the Peak (148/198) ×2** — *Pokémon with a Rule Box have no Abilities.* Read your own
   board: **Ice Rider Calyrex V and VMAX have no Abilities to lose**, and **Sobble, Drizzile and
   Inteleon have no Rule Box**, so Shady Dealings keeps working. It costs you literally nothing
   and it turns off Underworld Door, Eternal Zone, Dedenne-GX and Crobat V. This is a one-sided
@@ -54,9 +54,9 @@ Ability to function, Ice Rider genuinely does not.
 - **Reset Stamp (206/236) ×2** — shuffle their hand back and give them one card per remaining
   Prize. Backbreaking on the turn you take your fourth or fifth Prize, and a genuine comeback
   button when you're behind.
-- **Quick Ball ×4 / Evolution Incense ×4 / Level Ball ×3** — Level Ball covers Sobble **and**
-  Drizzile (both 90 HP or less); Evolution Incense gets the Inteleon line and Ice Rider
-  Calyrex VMAX.
+- **Quick Ball ×4 / Evolution Incense ×4 / Level Ball ×3 / Pokémon Communication ×1** — Level
+  Ball covers Sobble **and** Drizzile (both 90 HP or less); Evolution Incense gets the Inteleon
+  line and Ice Rider Calyrex VMAX.
 - **Air Balloon (156/202) ×2** — Ice Rider Calyrex VMAX is slow to retreat; Air Balloon is how
   you rotate a damaged one out without spending your Supporter for the turn.
 
@@ -75,8 +75,8 @@ Prize race. Swap to **Ride of the High King** when their Bench is wide and you'd
 discard Energy.
 
 ## Priorities / rules of thumb
-- **Path to the Peak is nearly free for you — play it early and often.** Three copies means you
-  win the Stadium war; against Shadow Rider it can be the whole game.
+- **Path to the Peak is nearly free for you — play it early and often.** It costs your board
+  nothing, so lean on it to win the Stadium war; against Shadow Rider it can be the whole game.
 - **Melony is the deck.** Prizing multiple copies is your worst start; use Shady Dealings to dig
   for one before you dig for anything else.
 - **Pick the attack.** Max Lance for the clean 250 KO; **Ride of the High King** when they have

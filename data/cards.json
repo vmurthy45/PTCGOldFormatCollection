@@ -8572,9 +8572,9 @@
     "deck": "Greninja (2018)",
     "count": 4,
     "name": "Froakie",
-    "set": "22/131",
+    "set": "38/122",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm6/22_hires.png"
+    "image": "https://images.pokemontcg.io/xy9/38_hires.png"
   },
   {
     "year": "2018",
@@ -11549,7 +11549,7 @@
   {
     "year": "2021",
     "deck": "Ice Rider Calyrex (2021)",
-    "count": 3,
+    "count": 2,
     "name": "Path to the Peak",
     "set": "148/198",
     "category": "Trainer",
@@ -11563,6 +11563,15 @@
     "set": "",
     "category": "Energy",
     "image": "https://images.pokemontcg.io/xy1/134_hires.png"
+  },
+  {
+    "year": "2021",
+    "deck": "Ice Rider Calyrex (2021)",
+    "count": 1,
+    "name": "Pokémon Communication",
+    "set": "152/181",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm9/152_hires.png"
   },
   {
     "year": "2021",

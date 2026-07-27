@@ -85,9 +85,11 @@
   .search:focus{border-color:var(--red); box-shadow:0 0 0 3px rgba(238,43,57,.15)}
   .filters{display:flex; flex-wrap:wrap; gap:8px}
   .chip{
-    padding:7px 14px; border-radius:999px; border:1px solid var(--line);
+    box-sizing:border-box; width:62px; flex:0 0 62px; text-align:center;
+    padding:7px 0; border-radius:999px; border:1px solid var(--line);
     background:var(--chip-bg); color:var(--red-dark); font-size:13px; font-weight:600; cursor:pointer;
-    white-space:nowrap; user-select:none; transition:background .15s,color .15s,border-color .15s,transform .15s,box-shadow .15s;
+    white-space:nowrap; user-select:none; font-variant-numeric:tabular-nums;
+    transition:background .15s,color .15s,border-color .15s,transform .15s,box-shadow .15s;
     box-shadow:0 1px 2px var(--shadow);
   }
   .chip:hover{border-color:var(--red); transform:translateY(-1px)}
