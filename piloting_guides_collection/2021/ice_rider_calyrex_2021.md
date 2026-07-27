@@ -48,15 +48,15 @@ Ability to function, Ice Rider genuinely does not.
 - **Boss's Orders (154/192) ×3** — three copies, deliberately. When you one-shot anything for
   250, the limiting factor stops being damage and becomes *reach*: dragging up the support
   Pokémon or the wounded attacker is how you convert damage into Prizes.
-- **Marnie ×3 / Professor's Research ×2 / Bird Keeper ×1** — the draw suite is deliberately
-  light on Research because **Melony draws 3** most turns. **Marnie** is favoured for the hand
-  disruption; **Bird Keeper** switches your Active *and* draws 3, which matters on a bulky VMAX.
+- **Marnie ×3 / Professor's Research ×3 / Bird Keeper ×1** — a full draw suite on top of
+  **Melony's draw 3** most turns. **Marnie** adds hand disruption; **Bird Keeper** switches
+  your Active *and* draws 3, which matters on a bulky VMAX.
 - **Reset Stamp (206/236) ×2** — shuffle their hand back and give them one card per remaining
   Prize. Backbreaking on the turn you take your fourth or fifth Prize, and a genuine comeback
   button when you're behind.
-- **Quick Ball ×4 / Evolution Incense ×4 / Level Ball ×3 / Pokémon Communication ×1** — Level
-  Ball covers Sobble **and** Drizzile (both 90 HP or less); Evolution Incense gets the Inteleon
-  line and Ice Rider Calyrex VMAX.
+- **Quick Ball ×4 / Evolution Incense ×4 / Level Ball ×3** — Level Ball covers Sobble **and**
+  Drizzile (both 90 HP or less); Evolution Incense gets the Inteleon line and Ice Rider
+  Calyrex VMAX.
 - **Air Balloon (156/202) ×2** — Ice Rider Calyrex VMAX is slow to retreat; Air Balloon is how
   you rotate a damaged one out without spending your Supporter for the turn.
 
