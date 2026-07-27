@@ -453,7 +453,20 @@ function chip(label, val){
   const b = document.createElement('div');
   b.className = 'chip' + (val === activeYear ? ' active' : '');
   b.textContent = label;
-  b.onclick = () => { activeYear = val; document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active')); b.classList.add('active'); renderTurn1Box(); render(); };
+  // Toggle: clicking a year filters to it; clicking the already-active year
+  // clears the filter back to all years (activeYear 'ALL' = no chip active).
+  b.onclick = () => {
+    const wasActive = activeYear === val;
+    document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+    if(wasActive){
+      activeYear = 'ALL';
+    } else {
+      activeYear = val;
+      b.classList.add('active');
+    }
+    renderTurn1Box();
+    render();
+  };
   return b;
 }
 
@@ -796,7 +809,6 @@ async function init(){
   // always means Worlds in August.
   YEARS = [...new Set(CARDS.map(c => c.year))]
     .sort((a, b) => (parseInt(a, 10) - parseInt(b, 10)) || b.localeCompare(a));
-  yearsEl.appendChild(chip('All years', 'ALL'));
   YEARS.forEach(y => yearsEl.appendChild(chip(y, y)));
 
   // Tagline range is derived from the data, so adding a 2026+ deck updates it
