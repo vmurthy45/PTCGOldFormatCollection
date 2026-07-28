@@ -8646,7 +8646,8 @@
     "name": "N",
     "set": "105/124",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy10/105_hires.png"
+    "image": "https://images.pokemontcg.io/xy10/105_hires.png",
+    "missing": 4
   },
   {
     "year": "2018",
@@ -8664,7 +8665,8 @@
     "name": "Evosoda",
     "set": "116/146",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy1/116_hires.png"
+    "image": "https://images.pokemontcg.io/xy1/116_hires.png",
+    "missing": 2
   },
   {
     "year": "2018",
@@ -8727,7 +8729,8 @@
     "name": "Splash Energy",
     "set": "113/122",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/xy9/113_hires.png"
+    "image": "https://images.pokemontcg.io/xy9/113_hires.png",
+    "missing": 2
   },
   {
     "year": "2019",

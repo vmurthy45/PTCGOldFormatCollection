@@ -17,6 +17,8 @@
     --mark-bg:#ffe58a; --mark-ink:#2b2f35; --overlay:rgba(20,18,19,.6);
     --pokeball-ink:#202225; --shadow:rgba(59,64,72,.14);
     --chip-bg:#ffffff; --rules-header:#202225; --rules-panel:#ffffff;
+    --miss-red-line:#d5303b; --miss-red-bg:rgba(213,48,59,.13);
+    --miss-orange-line:#d9820f; --miss-orange-bg:rgba(224,138,30,.16);
   }
   :root[data-theme="dark"]{
     /* Only the background/surface colors change for dark mode - the red
@@ -32,6 +34,8 @@
     --band-a:#2a1c1e; --band-b:#20232a; --cnt-bg:#3a2226; --steel:#9099a3;
     --overlay:rgba(0,0,0,.75); --shadow:rgba(0,0,0,.45);
     --chip-bg:#262b32; --rules-header:#2c3138; --rules-panel:#20242b;
+    /* Slightly stronger missing-row tints so they read on the dark card. */
+    --miss-red-bg:rgba(213,48,59,.24); --miss-orange-bg:rgba(224,138,30,.24);
   }
   *{box-sizing:border-box}
   html,body{margin:0;padding:0}
@@ -224,6 +228,31 @@
   }
   .row .nm{font-weight:500}
   .row .st{color:var(--muted); font-size:12px; font-variant-numeric:tabular-nums; text-align:right}
+  /* Missing-card highlighting: orange = own some but short, red = own none. */
+  .row.miss-some{background:var(--miss-orange-bg); box-shadow:inset 3px 0 0 var(--miss-orange-line)}
+  .row.miss-all{background:var(--miss-red-bg); box-shadow:inset 3px 0 0 var(--miss-red-line)}
+  .row.miss-some:hover{background:var(--miss-orange-bg); filter:brightness(1.05)}
+  .row.miss-all:hover{background:var(--miss-red-bg); filter:brightness(1.05)}
+  .miss-badge{
+    display:inline-block; margin-left:7px; font-size:10.5px; font-weight:700; color:#fff;
+    padding:1px 7px; border-radius:6px; vertical-align:middle; letter-spacing:.2px; white-space:nowrap;
+  }
+  .row.miss-some .miss-badge{background:var(--miss-orange-line)}
+  .row.miss-all .miss-badge{background:var(--miss-red-line)}
+  .miss-head-badge{
+    background:#ffd34d; color:#7a1520; padding:2px 9px; border-radius:999px;
+    font-size:11px; font-weight:700; white-space:nowrap;
+  }
+  .count-badge.miss{background:#ffd34d; color:#7a1520; font-weight:700}
+  .miss-filter{
+    margin-top:8px; display:inline-flex; align-items:center; gap:6px; padding:7px 15px;
+    border-radius:999px; border:1px solid var(--miss-orange-line); background:var(--chip-bg);
+    color:var(--miss-orange-line); font-family:inherit; font-size:13px; font-weight:600;
+    cursor:pointer; user-select:none; box-shadow:0 1px 2px var(--shadow);
+    transition:background .15s,color .15s,transform .15s;
+  }
+  .miss-filter:hover{transform:translateY(-1px)}
+  .miss-filter.active{background:var(--miss-orange-line); color:#fff}
   mark{background:var(--mark-bg); color:var(--mark-ink); border-radius:3px; padding:0 1px}
   .empty{text-align:center; color:var(--muted); padding:40px 20px; font-size:15px}
   /* guide expander */
@@ -316,6 +345,7 @@
     <div class="controls">
       <input id="q" class="search" type="search" placeholder="Search cards, decks, sets…" autocomplete="off">
       <div id="years" class="filters"></div>
+      <button id="missingToggle" class="miss-filter" type="button">⚠︎ Missing</button>
     </div>
     <div id="stats" class="stats"></div>
     <div id="turn1Box" class="turn1-box" hidden></div>
@@ -401,6 +431,7 @@ let TURN1_RULES = {};
 let YEARS = [];
 let activeYear = 'ALL';
 let query = '';
+let missingOnly = false;
 
 function renderTurn1Box(){
   const box = document.getElementById('turn1Box');
@@ -474,6 +505,13 @@ function chip(label, val){
 
 document.getElementById('q').addEventListener('input', e => { query = e.target.value.trim(); render(); });
 
+const missingToggleEl = document.getElementById('missingToggle');
+missingToggleEl.onclick = () => {
+  missingOnly = !missingOnly;
+  missingToggleEl.classList.toggle('active', missingOnly);
+  render();
+};
+
 function matches(c, q){
   if(!q) return true;
   q = q.toLowerCase();
@@ -484,9 +522,16 @@ function matches(c, q){
 
 function makeRow(c, query){
   const r = document.createElement('div');
-  r.className = 'row';
+  const missing = Number(c.missing) || 0;
+  const count = Number(c.count) || 0;
+  // Own none of a needed card -> red; own some but short -> orange.
+  const missClass = missing <= 0 ? '' : (missing >= count ? ' miss-all' : ' miss-some');
+  r.className = 'row' + missClass;
+  const badge = missing > 0
+    ? ` <span class="miss-badge">missing ${missing}${count ? ' of ' + count : ''}</span>`
+    : '';
   r.innerHTML = `<span class="cnt">${esc(c.count)}</span>
-    <span class="nm">${hl(c.name, query)}</span>
+    <span class="nm">${hl(c.name, query)}${badge}</span>
     <span class="st">${hl(c.set, query)}</span>`;
   r.onclick = () => openCardModal(c);
   return r;
@@ -496,6 +541,9 @@ function render(){
   let rows = CARDS;
   if(activeYear !== 'ALL') rows = rows.filter(c => c.year === activeYear);
   if(query) rows = rows.filter(c => matches(c, query));
+  // The Missing filter stacks with the year filter: keep only cards the user
+  // is short on (missing > 0). Decks with none then drop out entirely.
+  if(missingOnly) rows = rows.filter(c => (Number(c.missing) || 0) > 0);
 
   const groups = new Map();
   for(const c of rows){
@@ -519,30 +567,47 @@ function render(){
   list.innerHTML = '';
 
   if(groups.size === 0){
-    list.innerHTML = '<div class="empty">No matches. Try a different search or year.</div>';
+    const where = activeYear !== 'ALL' ? ` in ${esc(activeYear)}` : '';
+    list.innerHTML = missingOnly
+      ? `<div class="empty">No missing cards${where} — you have everything you need. 🎉</div>`
+      : '<div class="empty">No matches. Try a different search or year.</div>';
     stats.textContent = '';
     return;
   }
 
   let totalCards = 0;   // card lines (rows)
   let totalQty = 0;     // actual cards, summing each row's count (60 per deck)
+  let totalMissing = 0; // copies the user is short on, across shown rows
   for(const arr of groups.values()){
     totalCards += arr.length;
-    for(const c of arr) totalQty += (Number(c.count) || 0);
+    for(const c of arr){
+      totalQty += (Number(c.count) || 0);
+      totalMissing += (Number(c.missing) || 0);
+    }
   }
-  stats.textContent = `${groups.size} deck${groups.size>1?'s':''} · ${totalCards} unique card${totalCards>1?'s':''} · ${totalQty} total cards`;
+  stats.textContent = missingOnly
+    ? `${groups.size} deck${groups.size>1?'s':''} · ${totalCards} card${totalCards!==1?'s':''} missing · ${totalMissing} cop${totalMissing!==1?'ies':'y'} to find`
+    : `${groups.size} deck${groups.size>1?'s':''} · ${totalCards} unique card${totalCards>1?'s':''} · ${totalQty} total cards`;
 
-  const collapsed = !query;
+  // Auto-expand decks when a filter is narrowing the view (search or Missing).
+  const collapsed = !query && !missingOnly;
 
   for(const deck of sortedDecks){
     const arr = groups.get(deck);
     const d = document.createElement('div');
     d.className = 'deck' + (collapsed ? ' collapsed' : '');
     const total = arr.reduce((s,c)=> s + (Number(c.count)||0), 0);
+    const deckMissing = arr.reduce((s,c)=> s + (Number(c.missing)||0), 0);
     const head = document.createElement('div');
     head.className = 'deck-head';
+    // Under the Missing filter the badge shows how many copies are short;
+    // otherwise show the deck size plus a ⚠ hint when anything is missing.
+    const metaHtml = missingOnly
+      ? `<span class="count-badge miss">${deckMissing} missing</span>`
+      : `<span class="count-badge">${total} cards</span>` +
+        (deckMissing > 0 ? ` <span class="miss-head-badge">⚠︎ ${deckMissing} missing</span>` : '');
     head.innerHTML = `<span class="title">${hl(deck, query)}</span>
-      <span class="meta"><span class="count-badge">${total} cards</span> <span class="arrow">▼</span></span>`;
+      <span class="meta">${metaHtml} <span class="arrow">▼</span></span>`;
     head.onclick = () => d.classList.toggle('collapsed');
     d.appendChild(head);
 

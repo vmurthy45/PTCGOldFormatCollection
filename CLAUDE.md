@@ -32,7 +32,8 @@ Hosted free on GitHub Pages.
   opening it via `file://` breaks the `fetch()` calls (this is a browser
   security restriction, not a bug).
 - `data/cards.json` — every card line for every deck. Each row:
-  `{year, deck, count, name, set, category, image}`. `category` is one of
+  `{year, deck, count, name, set, category, image}`, plus an optional
+  `missing` (see "Missing-card tracking" below). `category` is one of
   `Pokemon`/`Trainer`/`Energy`. `image` is a pokemontcg.io URL; may be
   absent (shouldn't be, as of this writing — see "Current data state").
 - `data/guides.json` — piloting-guide HTML per deck, keyed by
@@ -175,6 +176,27 @@ the decks are alphabetical by display name. Filtering
 to a single year therefore shows a purely alphabetical list. If you add a
 whole new *year*, it slots in via `YEARS`; nothing about the deck sort
 needs changing.
+
+### Missing-card tracking
+
+Vig doesn't own every card. A row may carry an optional `"missing": N`
+field = how many copies of that `count` he's short (so `0 <= missing <=
+count`; omit the field entirely when he owns all of them). It's
+hand-maintained from what Vig says in chat (e.g. *"Greninja (2018) is
+missing 2 Evosoda, 2 Splash Energy, 4 N"* → add `"missing":2` /
+`"missing":2` / `"missing":4` to those three rows). The regen scripts
+(`categorize_cards.py`, `merge_image_urls.py`) preserve the field — they
+only touch `category`/`image` — so add it directly to `cards.json`.
+
+`index.html` renders it: a row with `missing >= count` (owns none) gets a
+**red** highlight, `0 < missing < count` (owns some) gets **orange**, each
+with a "missing N of count" badge; the deck header shows a "⚠ N missing"
+hint. A **"⚠ Missing" toggle** (`missingOnly` in `render()`) filters to
+just the short rows and **stacks with the year chips** (e.g. 2021 +
+Missing). Colors are the `--miss-*` CSS vars (dark mode bumps the tint
+opacity). If you bulk-replace a deck's rows later, the `missing` values for
+that deck are lost unless you re-add them — they describe the *current*
+list.
 
 ### Card categorization (Pokemon / Trainer / Energy)
 
