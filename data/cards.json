@@ -11262,7 +11262,8 @@
     "name": "Mew",
     "set": "76/214",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm10/76_hires.png"
+    "image": "https://images.pokemontcg.io/sm10/76_hires.png",
+    "missing": 1
   },
   {
     "year": "2021",
@@ -11271,7 +11272,8 @@
     "name": "Marshadow",
     "set": "81/214",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm10/81_hires.png"
+    "image": "https://images.pokemontcg.io/sm10/81_hires.png",
+    "missing": 1
   },
   {
     "year": "2021",
@@ -11280,7 +11282,8 @@
     "name": "Oricorio-GX",
     "set": "95/236",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm12/95_hires.png"
+    "image": "https://images.pokemontcg.io/sm12/95_hires.png",
+    "missing": 1
   },
   {
     "year": "2021",
