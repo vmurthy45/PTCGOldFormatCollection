@@ -11041,7 +11041,8 @@
     "name": "Passimian",
     "set": "88/198",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/swsh6/88_hires.png"
+    "image": "https://images.pokemontcg.io/swsh6/88_hires.png",
+    "missing": 1
   },
   {
     "year": "2021",
@@ -11050,7 +11051,8 @@
     "name": "Mew",
     "set": "76/214",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm10/76_hires.png"
+    "image": "https://images.pokemontcg.io/sm10/76_hires.png",
+    "missing": 1
   },
   {
     "year": "2021",
@@ -11068,7 +11070,8 @@
     "name": "Jirachi-GX",
     "set": "79/236",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm11/79_hires.png"
+    "image": "https://images.pokemontcg.io/sm11/79_hires.png",
+    "missing": 1
   },
   {
     "year": "2021",
@@ -11431,7 +11434,8 @@
     "name": "Ice Rider Calyrex VMAX",
     "set": "46/198",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/swsh6/46_hires.png"
+    "image": "https://images.pokemontcg.io/swsh6/46_hires.png",
+    "missing": 1
   },
   {
     "year": "2021",
@@ -11467,7 +11471,8 @@
     "name": "Melony",
     "set": "146/198",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/swsh6/146_hires.png"
+    "image": "https://images.pokemontcg.io/swsh6/146_hires.png",
+    "missing": 3
   },
   {
     "year": "2021",
@@ -11602,7 +11607,8 @@
     "name": "Shadow Rider Calyrex VMAX",
     "set": "75/198",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/swsh6/75_hires.png"
+    "image": "https://images.pokemontcg.io/swsh6/75_hires.png",
+    "missing": 1
   },
   {
     "year": "2021",
@@ -11611,7 +11617,8 @@
     "name": "Gengar & Mimikyu-GX",
     "set": "53/181",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm9/53_hires.png"
+    "image": "https://images.pokemontcg.io/sm9/53_hires.png",
+    "missing": 2
   },
   {
     "year": "2021",
@@ -11629,7 +11636,8 @@
     "name": "Marshadow",
     "set": "81/214",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm10/81_hires.png"
+    "image": "https://images.pokemontcg.io/sm10/81_hires.png",
+    "missing": 2
   },
   {
     "year": "2021",
@@ -11638,7 +11646,8 @@
     "name": "Marshadow",
     "set": "103/236",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm12/103_hires.png"
+    "image": "https://images.pokemontcg.io/sm12/103_hires.png",
+    "missing": 1
   },
   {
     "year": "2021",
