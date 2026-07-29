@@ -3040,7 +3040,8 @@
     "name": "Darkrai-EX",
     "set": "63/108",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/bw5/63_hires.png"
+    "image": "https://images.pokemontcg.io/bw5/63_hires.png",
+    "missing": 1
   },
   {
     "year": "2014",
@@ -3211,7 +3212,8 @@
     "name": "N",
     "set": "96/108",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/bw5/96_hires.png"
+    "image": "https://images.pokemontcg.io/bw5/96_hires.png",
+    "missing": 1
   },
   {
     "year": "2014",
