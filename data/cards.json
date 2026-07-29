@@ -9912,7 +9912,8 @@
     "name": "Cottonee",
     "set": "139/214",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm10/139_hires.png"
+    "image": "https://images.pokemontcg.io/sm10/139_hires.png",
+    "missing": 1
   },
   {
     "year": "2019",
@@ -9966,7 +9967,8 @@
     "name": "Mew",
     "set": "76/214",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm10/76_hires.png"
+    "image": "https://images.pokemontcg.io/sm10/76_hires.png",
+    "missing": 1
   },
   {
     "year": "2019",
@@ -10182,7 +10184,8 @@
     "name": "Mew",
     "set": "76/214",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm10/76_hires.png"
+    "image": "https://images.pokemontcg.io/sm10/76_hires.png",
+    "missing": 1
   },
   {
     "year": "2020",
