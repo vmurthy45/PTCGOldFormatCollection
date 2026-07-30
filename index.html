@@ -397,7 +397,7 @@
 
   <div id="gameLogTab" class="tab-panel">
     <div class="gl-filters">
-      <select id="gl-player" class="cc-select" aria-label="Filter by player"></select>
+      <select id="gl-player" class="cc-select" aria-label="Filter by opponent"></select>
       <select id="gl-year" class="cc-select" aria-label="Filter by year"></select>
     </div>
     <div id="gl-summary" class="gl-summary"></div>
@@ -896,11 +896,11 @@ const glSummaryEl = document.getElementById('gl-summary');
 const glTableWrap = document.getElementById('gl-table-wrap');
 
 function glPopulateFilters(){
-  const players = [...new Set(GAMES.map(g => g.player).filter(Boolean))]
+  const players = [...new Set(GAMES.map(g => g.opponent).filter(Boolean))]
     .sort((a, b) => a.localeCompare(b, undefined, {sensitivity: 'base'}));
   const years = [...new Set(GAMES.map(g => g.year).filter(Boolean))]
     .sort((a, b) => (parseInt(a, 10) - parseInt(b, 10)) || b.localeCompare(a));
-  glPlayerEl.innerHTML = '<option value="ALL">All players</option>' +
+  glPlayerEl.innerHTML = '<option value="ALL">All opponents</option>' +
     players.map(p => `<option value="${esc(p)}">${esc(p)}</option>`).join('');
   glYearEl.innerHTML = '<option value="ALL">All years</option>' +
     years.map(y => `<option value="${esc(y)}">${esc(y)}</option>`).join('');
@@ -910,7 +910,7 @@ function renderGameLog(){
   const player = glPlayerEl.value || 'ALL';
   const year = glYearEl.value || 'ALL';
   let games = GAMES.filter(g =>
-    (player === 'ALL' || g.player === player) &&
+    (player === 'ALL' || g.opponent === player) &&
     (year === 'ALL' || g.year === year));
   // Newest first by date; entries without a date keep their file order at the end.
   games = games.slice().sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
@@ -938,7 +938,7 @@ function renderGameLog(){
     `<span><b>${pct}%</b> win rate${decided ? '' : ' (no decided games)'}</span>`;
 
   let html = '<div class="gl-table-wrap"><table class="gl-table"><thead><tr>' +
-    '<th>Date</th><th>Year</th><th>Your Deck</th><th>Opponent\'s Deck</th><th>Player</th><th>Result</th><th>Notes</th>' +
+    '<th>Date</th><th>Year</th><th>Vig\'s Deck</th><th>Opponent\'s Deck</th><th>Opponent</th><th>Result</th><th>Notes</th>' +
     '</tr></thead><tbody>';
   for(const g of games){
     const res = ['Win', 'Loss', 'Tie'].includes(g.result) ? g.result : '';
@@ -947,7 +947,7 @@ function renderGameLog(){
       `<td>${esc(g.year || '')}</td>` +
       `<td>${esc(g.myDeck || '')}</td>` +
       `<td>${esc(g.oppDeck || '')}</td>` +
-      `<td>${esc(g.player || '')}</td>` +
+      `<td>${esc(g.opponent || '')}</td>` +
       `<td>${res ? `<span class="gl-res ${res}">${res}</span>` : esc(g.result || '')}</td>` +
       `<td class="gl-notes">${esc(g.notes || '')}</td>` +
       '</tr>';
