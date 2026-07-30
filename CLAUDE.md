@@ -49,6 +49,14 @@ Hosted free on GitHub Pages.
   year to the collection, add a matching entry here too**, or the box
   just won't show for that year (silent, not an error — `renderTurn1Box()`
   in `index.html` treats a missing key the same as "All years").
+- `data/games.json` — the **Game Log** backend: an array of played-game
+  records, each `{date, year, myDeck, oppDeck, player, result, notes}`
+  (`result` is `"Win"`/`"Loss"`/`"Tie"`; `year` is the format/collection
+  year; `player` is the opponent). Hand-maintained from what Vig reports in
+  chat — there is **no live logging UI**; the Game Log tab only *displays*
+  this file, with Player and Year filter dropdowns and a W–L–T + win-rate
+  summary (win rate excludes ties). Loaded via its own guarded `fetch()` so
+  a missing/empty file never breaks the site. Starts as `[]`.
 - **Matchup Generator tab** — a second top-level tab (`#matchupTab`,
   alongside `#collectionTab`) with no separate data file; it reads
   directly from the already-loaded `CARDS` array. Pick a format (or leave

@@ -184,6 +184,28 @@
   }
   .cc-deck-pill b{color:var(--red-dark); font-variant-numeric:tabular-nums}
   .cc-empty{text-align:center; color:var(--muted); padding:50px 20px; font-size:15px}
+  /* game log */
+  .gl-filters{display:flex; flex-wrap:wrap; gap:10px; margin-bottom:12px}
+  .gl-filters .cc-select{flex:1 1 200px}
+  .gl-summary{font-size:13.5px; color:var(--muted); margin:2px 2px 14px; font-weight:500; display:flex; flex-wrap:wrap; gap:6px 14px; align-items:center}
+  .gl-summary b{color:var(--ink)}
+  .gl-rec-w{color:#1f9d55; font-weight:700}
+  .gl-rec-l{color:var(--miss-red-line); font-weight:700}
+  .gl-rec-t{color:var(--muted); font-weight:700}
+  .gl-table-wrap{overflow-x:auto; border:1px solid var(--line); border-radius:14px; box-shadow:0 2px 10px var(--shadow); background:var(--card)}
+  .gl-table{border-collapse:collapse; width:100%; font-size:13.5px}
+  .gl-table th,.gl-table td{padding:10px 13px; text-align:left; border-bottom:1px solid var(--line); vertical-align:top; white-space:nowrap}
+  .gl-table thead th{background:var(--red); color:#fff; font-family:'Poppins',sans-serif; font-weight:600; font-size:12.5px}
+  .gl-table tbody tr:last-child td{border-bottom:none}
+  .gl-table tbody tr:hover{background:var(--band-a)}
+  .gl-table td.gl-notes{white-space:normal; min-width:140px; color:var(--muted)}
+  .gl-res{display:inline-block; padding:2px 10px; border-radius:999px; font-size:12px; font-weight:700}
+  .gl-res.Win{background:rgba(31,157,85,.16); color:#1f9d55}
+  .gl-res.Loss{background:var(--miss-red-bg); color:var(--miss-red-line)}
+  .gl-res.Tie{background:var(--band-b); color:var(--muted)}
+  .gl-del{background:none; border:none; color:var(--muted); cursor:pointer; font-size:16px; padding:0 4px; line-height:1}
+  .gl-del:hover{color:var(--miss-red-line)}
+  .gl-empty{text-align:center; color:var(--muted); padding:44px 20px; font-size:15px}
   .deck{
     background:var(--card); border:1px solid var(--line); border-radius:16px;
     margin-bottom:16px; overflow:hidden; box-shadow:0 2px 10px var(--shadow);
@@ -339,6 +361,7 @@
     <button class="tab-btn active" data-tab="collection" type="button">📚 All Decks</button>
     <button class="tab-btn" data-tab="cardCollection" type="button">🃏 Card Collection</button>
     <button class="tab-btn" data-tab="matchup" type="button">⚔️ Matchup Generator</button>
+    <button class="tab-btn" data-tab="gameLog" type="button">🎮 Game Log</button>
   </div>
 
   <div id="collectionTab" class="tab-panel active">
@@ -370,6 +393,15 @@
       <button id="matchupBtn" class="matchup-btn" type="button">🎲 Randomize Matchup</button>
     </div>
     <div id="matchupResult"></div>
+  </div>
+
+  <div id="gameLogTab" class="tab-panel">
+    <div class="gl-filters">
+      <select id="gl-player" class="cc-select" aria-label="Filter by player"></select>
+      <select id="gl-year" class="cc-select" aria-label="Filter by year"></select>
+    </div>
+    <div id="gl-summary" class="gl-summary"></div>
+    <div id="gl-table-wrap"></div>
   </div>
 </div>
 
@@ -428,6 +460,7 @@ document.addEventListener('keydown', e => { if(e.key === 'Escape') modal.hidden 
 let CARDS = [];
 let GUIDES = {};
 let TURN1_RULES = {};
+let GAMES = [];
 let YEARS = [];
 let activeYear = 'ALL';
 let query = '';
@@ -856,6 +889,76 @@ ccQEl.addEventListener('input', e => { ccQuery = e.target.value.trim(); renderCa
 ccYearEl.addEventListener('change', e => { ccYear = e.target.value; renderCardCollection(); });
 ccExportBtn.onclick = ccExportCsv;
 
+/* ---------- game log (read-only, from data/games.json) ---------- */
+const glPlayerEl = document.getElementById('gl-player');
+const glYearEl = document.getElementById('gl-year');
+const glSummaryEl = document.getElementById('gl-summary');
+const glTableWrap = document.getElementById('gl-table-wrap');
+
+function glPopulateFilters(){
+  const players = [...new Set(GAMES.map(g => g.player).filter(Boolean))]
+    .sort((a, b) => a.localeCompare(b, undefined, {sensitivity: 'base'}));
+  const years = [...new Set(GAMES.map(g => g.year).filter(Boolean))]
+    .sort((a, b) => (parseInt(a, 10) - parseInt(b, 10)) || b.localeCompare(a));
+  glPlayerEl.innerHTML = '<option value="ALL">All players</option>' +
+    players.map(p => `<option value="${esc(p)}">${esc(p)}</option>`).join('');
+  glYearEl.innerHTML = '<option value="ALL">All years</option>' +
+    years.map(y => `<option value="${esc(y)}">${esc(y)}</option>`).join('');
+}
+
+function renderGameLog(){
+  const player = glPlayerEl.value || 'ALL';
+  const year = glYearEl.value || 'ALL';
+  let games = GAMES.filter(g =>
+    (player === 'ALL' || g.player === player) &&
+    (year === 'ALL' || g.year === year));
+  // Newest first by date; entries without a date keep their file order at the end.
+  games = games.slice().sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
+
+  if(GAMES.length === 0){
+    glSummaryEl.textContent = '';
+    glTableWrap.innerHTML = '<div class="gl-empty">No games logged yet.</div>';
+    return;
+  }
+  if(games.length === 0){
+    glSummaryEl.textContent = '';
+    glTableWrap.innerHTML = '<div class="gl-empty">No games match these filters.</div>';
+    return;
+  }
+
+  const w = games.filter(g => g.result === 'Win').length;
+  const l = games.filter(g => g.result === 'Loss').length;
+  const t = games.filter(g => g.result === 'Tie').length;
+  const decided = w + l;
+  const pct = decided ? Math.round(w / decided * 100) : 0;
+  glSummaryEl.innerHTML =
+    `<span><b>${games.length}</b> game${games.length !== 1 ? 's' : ''}</span>` +
+    `<span><span class="gl-rec-w">${w}W</span> – <span class="gl-rec-l">${l}L</span>` +
+      (t ? ` – <span class="gl-rec-t">${t}T</span>` : '') + `</span>` +
+    `<span><b>${pct}%</b> win rate${decided ? '' : ' (no decided games)'}</span>`;
+
+  let html = '<div class="gl-table-wrap"><table class="gl-table"><thead><tr>' +
+    '<th>Date</th><th>Year</th><th>Your Deck</th><th>Opponent\'s Deck</th><th>Player</th><th>Result</th><th>Notes</th>' +
+    '</tr></thead><tbody>';
+  for(const g of games){
+    const res = ['Win', 'Loss', 'Tie'].includes(g.result) ? g.result : '';
+    html += '<tr>' +
+      `<td>${esc(g.date || '')}</td>` +
+      `<td>${esc(g.year || '')}</td>` +
+      `<td>${esc(g.myDeck || '')}</td>` +
+      `<td>${esc(g.oppDeck || '')}</td>` +
+      `<td>${esc(g.player || '')}</td>` +
+      `<td>${res ? `<span class="gl-res ${res}">${res}</span>` : esc(g.result || '')}</td>` +
+      `<td class="gl-notes">${esc(g.notes || '')}</td>` +
+      '</tr>';
+  }
+  html += '</tbody></table></div>';
+  glTableWrap.innerHTML = html;
+}
+
+glPlayerEl.addEventListener('change', renderGameLog);
+glYearEl.addEventListener('change', renderGameLog);
+
 async function init(){
   const list = document.getElementById('list');
   try{
@@ -869,6 +972,9 @@ async function init(){
     list.innerHTML = '<div class="empty">Couldn\'t load the collection data. If you opened this file directly from disk, serve it over http(s) instead (fetch() of local JSON is blocked from file://).</div>';
     return;
   }
+  // Game Log is a separate, optional data file — a missing/empty games.json
+  // must never break the rest of the site.
+  try{ GAMES = await (await fetch('data/games.json')).json(); }catch(err){ GAMES = []; }
   // Sort chronologically rather than trusting cards.json row order, so a year
   // added later (e.g. 2021) still lands in the right place. The numeric prefix
   // orders the years; the string tiebreak keeps any future same-year labelled
@@ -894,6 +1000,9 @@ async function init(){
   ccYearEl.innerHTML = '<option value="ALL">All years</option>' +
     YEARS.map(y => `<option value="${esc(y)}">${esc(y)}</option>`).join('');
   renderCardCollection();
+
+  glPopulateFilters();
+  renderGameLog();
 
   render();
 }
