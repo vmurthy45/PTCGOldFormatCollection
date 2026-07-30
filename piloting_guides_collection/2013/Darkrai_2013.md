@@ -27,7 +27,7 @@ World Championship (his third Worlds title, a record at the time).
   discard to hand. Free-retreat under Dark Cloak, it recurs Lasers, Catchers, Energy
   Switch — a near-infinite Item engine that also gives donk potential (Confuse Ray +
   Dark Claw + Laser can KO a small Basic).
-- **Keldeo-EX (49/149) ×2** — **Rush In** free pivot to escape Status/Catcher; a Water
+- **Keldeo-EX (49/149) ×1** — **Rush In** free pivot to escape Status/Catcher; a Water
   attacker when needed. Note: it's the same card that answers *opposing* status locks.
 - **Hypnotoxic Laser ×4 + Virbank City Gym ×2** — the damage engine: poison (20 between
   turns with Virbank) + a sleep flip. Pushes Night Spear to lethal numbers.
@@ -83,7 +83,7 @@ Enhanced Hammer to strip the special Energy that fast decks depend on.
 - LaserBank max: Night Spear + Dark Claw + Laser + Virbank = **140** (+30 snipe →
   1HKOs Keldeo/Mewtwo/Tornadus).
 - Poison w/ Virbank: **20 between turns**.
-- Setup: **turn-2 Night Spear**; Energy is **10 Darkness** + Dark Patch.
+- Setup: **turn-2 Night Spear**; Energy is **11 Darkness** + Dark Patch.
 
 ---
 _Sources: SixPrizes ("The Different Types of Dark Cloak", 2013 Darkrai analyses),
