@@ -1,4 +1,4 @@
-# How to Pilot — Turbo Zacian (2020)
+# How to Pilot — Combo Zacian (2020)
 
 _Format: Sword & Shield-on Standard 2020 (UPR–SSH/RCL era). "Combo Zacian V" — a
 streamlined, ADP-free Zacian deck that steals extra prizes with the Jirachi Prism Star combo._
@@ -11,7 +11,7 @@ so, like ADP, you can plan around winning in ~two attacks. Simpler and more cons
 ADPZ, with one less hoop (no Altered Creation required).
 
 ## The meta it lived in
-Turbo/"Combo" Zacian was one of the top decks of 2020 (three copies in a Limitless Top 8),
+Combo Zacian was one of the top decks of 2020 (three copies in a Limitless Top 8),
 sitting right alongside ADPZ and Lucario & Melmetal. Its pitch over ADPZ: **straightforwardness
 and consistency** — you don't need to land Altered Creation-GX, you just turbo a Zacian and
 swing, and the Jirachi Prism combo quietly manufactures the extra prizes ADP would get from

@@ -86,7 +86,7 @@ A browsable set of research-based piloting guides for historical competitive dec
 - **[ADP Zacian (2020)](2020/ADP_Zacian_2020.md)** — The prize-race cheat code: Arceus & Dialga & Palkia-GX's Altered Creation-GX gives every attack +30 damage and one extra Prize per KO for the rest of the game, so you only need ~3 KOs to win.
 - **[Blacephalon (2020)](2020/Blacephalon_2020.md)** — A single-prize OHKO machine: Blacephalon's Fireball Circus discards Fire Energy from your hand to deal 50 × the number discarded, scaling to a one-hit KO on anything — while only giving up one prize when it dies.
 - **[Cinccino Mill (2020)](2020/Cinccino_Mill_2020.md)** — Pure control: Cinccino's Make Do (discard a card → draw 2) chains your whole deck every turn, while Bellelba & Brycen-Man and the Mewtwo & Mew-GX → Magcargo-GX GX-mill combo strip cards off the top of the opponent's deck.
-- **[Turbo Zacian (2020)](2020/Turbo_Zacian_2020.md)** — Fast, consistent Metal aggro with a prize-stealing trick: Zacian V's Intrepid Sword + Metal Saucer power a turn-1/2 Brave Blade (230), while the Jirachi Prism Star + Mr.
+- **[Combo Zacian (2020)](2020/Turbo_Zacian_2020.md)** — Fast, consistent Metal aggro with a prize-stealing trick: Zacian V's Intrepid Sword + Metal Saucer power a turn-1/2 Brave Blade (230), while the Jirachi Prism Star + Mr.
 
 ## 2021  (5 guides)
 
