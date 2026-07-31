@@ -902,7 +902,7 @@ function glPopulateFilters(){
     .sort((a, b) => (parseInt(a, 10) - parseInt(b, 10)) || b.localeCompare(a));
   glPlayerEl.innerHTML = '<option value="ALL">All opponents</option>' +
     players.map(p => `<option value="${esc(p)}">${esc(p)}</option>`).join('');
-  glYearEl.innerHTML = '<option value="ALL">All years</option>' +
+  glYearEl.innerHTML = '<option value="ALL">All formats</option>' +
     years.map(y => `<option value="${esc(y)}">${esc(y)}</option>`).join('');
 }
 
