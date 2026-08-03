@@ -314,5 +314,26 @@
         "allowed": false
       }
     ]
+  },
+  "2026": {
+    "flip": "Winner Chooses",
+    "rules": [
+      {
+        "label": "Items",
+        "allowed": true
+      },
+      {
+        "label": "Stadium",
+        "allowed": true
+      },
+      {
+        "label": "Supporters",
+        "allowed": false
+      },
+      {
+        "label": "Attack",
+        "allowed": false
+      }
+    ]
   }
 }

@@ -165,6 +165,28 @@ URL_OVERRIDES = {
     ('Staryu', '25/122'): 'https://images.pokemontcg.io/xy9/25_hires.png',
     ('Starmie', '31/108'): 'https://images.pokemontcg.io/xy12/31_hires.png',
     ('Evosoda', '116/146'): 'https://images.pokemontcg.io/xy1/116_hires.png',
+    # Rocket's Honchkrow (2026). Newest Mega-era sets (me2pt5 "ASC", me3 "POR")
+    # aren't on images.pokemontcg.io yet — those three cards use scrydex, the
+    # only host that serves them (all HTTP-verified 200).
+    ("Team Rocket's Murkrow", '127/182'): 'https://images.pokemontcg.io/sv10/127_hires.png',
+    ("Team Rocket's Honchkrow", '127/217'): 'https://images.scrydex.com/pokemon/me2pt5-127/large',
+    ("Team Rocket's Porygon", '153/182'): 'https://images.pokemontcg.io/sv10/153_hires.png',
+    ("Team Rocket's Porygon2", '154/182'): 'https://images.pokemontcg.io/sv10/154_hires.png',
+    ("Team Rocket's Articuno", '51/182'): 'https://images.pokemontcg.io/sv10/51_hires.png',
+    ("Team Rocket's Ariana", '171/182'): 'https://images.pokemontcg.io/sv10/171_hires.png',
+    ("Team Rocket's Archer", '170/182'): 'https://images.pokemontcg.io/sv10/170_hires.png',
+    ("Team Rocket's Giovanni", '174/182'): 'https://images.pokemontcg.io/sv10/174_hires.png',
+    ("Team Rocket's Proton", '177/182'): 'https://images.pokemontcg.io/sv10/177_hires.png',
+    ("Team Rocket's Petrel", '176/182'): 'https://images.pokemontcg.io/sv10/176_hires.png',
+    ('Poké Pad', '81/88'): 'https://images.scrydex.com/pokemon/me3-81/large',
+    ("Team Rocket's Transceiver", '178/182'): 'https://images.pokemontcg.io/sv10/178_hires.png',
+    ('Roto-Stick', '127/131'): 'https://images.pokemontcg.io/sv8pt5/127_hires.png',
+    ('Night Stretcher', '196/217'): 'https://images.scrydex.com/pokemon/me2pt5-196/large',
+    ('Ultra Ball', '131/132'): 'https://images.pokemontcg.io/me1/131_hires.png',
+    ('Miracle Headset', '183/191'): 'https://images.pokemontcg.io/sv8/183_hires.png',
+    ("Team Rocket's Factory", '173/182'): 'https://images.pokemontcg.io/sv10/173_hires.png',
+    ("Team Rocket's Energy", '182/182'): 'https://images.pokemontcg.io/sv10/182_hires.png',
+    ('Ignition Energy', '86/86'): 'https://images.pokemontcg.io/rsv10pt5/86_hires.png',
     # Basic Energy is recorded in cards.json with no specific print (empty
     # set), since decklists rarely note which printing was used. These pin
     # every basic Energy card to its XY base-set art (xy1) so there's a
