@@ -65,7 +65,7 @@ TRAINER_NAMES = {
     "Kiawe", "Klara", "Korrina", "Korrina's Focus", "Leon", "Level Ball", "Levincia",
     "Lillie", "Lillie's Poké Doll", "Looker's Investigation", "Lost City", "Lost Vacuum",
     "Lt. Surge's Strategy", "Lucian's Assignment",
-    "Lucky Egg", "Luxury Ball", "Lysandre", "Lysandre Labs", "Mallow", "Mallow & Lana", "Marnie",
+    "Lucky Egg", "Lusamine", "Luxury Ball", "Lysandre", "Lysandre Labs", "Mallow", "Mallow & Lana", "Marnie",
     "Max Elixir", "Max Potion", "Mega Turbo", "Melony", "Metal Frying Pan", "Metal Saucer",
     "Mirage Gate",
     "Mixed Herbs", "Moonlight Stadium", "Multi Switch", "Muscle Band",

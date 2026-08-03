@@ -187,6 +187,8 @@ URL_OVERRIDES = {
     ("Team Rocket's Factory", '173/182'): 'https://images.pokemontcg.io/sv10/173_hires.png',
     ("Team Rocket's Energy", '182/182'): 'https://images.pokemontcg.io/sv10/182_hires.png',
     ('Ignition Energy', '86/86'): 'https://images.pokemontcg.io/rsv10pt5/86_hires.png',
+    # Malamar (2019) Espurr correction: UNB 79 (was mistakenly FLI 44).
+    ('Espurr', '79/214'): 'https://images.pokemontcg.io/sm10/79_hires.png',
     # Basic Energy is recorded in cards.json with no specific print (empty
     # set), since decklists rarely note which printing was used. These pin
     # every basic Energy card to its XY base-set art (xy1) so there's a
