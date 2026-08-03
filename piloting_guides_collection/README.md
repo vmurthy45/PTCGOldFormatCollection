@@ -2,7 +2,7 @@
 
 A browsable set of research-based piloting guides for historical competitive decks, one per deck, spanning the 2010–2026 Standard seasons. Each guide covers the deck's identity, the meta it lived in, its engine and tech cards, the core gameplay loop, priorities, bad matchups, and a quick-reference sheet.
 
-**75 guides across 16 formats.** Guides are organized into year folders. All guides are research-based and reflect documented competitive consensus — they were not playtested by the author.
+**76 guides across 16 formats.** Guides are organized into year folders. All guides are research-based and reflect documented competitive consensus — they were not playtested by the author.
 
 ---
 
@@ -128,9 +128,10 @@ _The COVID-era season: no World Championships were held, so this collection uses
 - **[Joltdengo (2025)](2025/Joltdengo_2025.md)** — A hybrid toolbox: a **Joltik Box** swarm of cheap single-attack Basics (Iron Hands ex, Miraidon ex, Pikachu ex) takes fast early prizes while **Gholdengo ex**'s Make It Rain (50 damage per Basic Energy discarded from hand) closes games late — Superior Energy Retrieval recycles the Energy spent early into late-game nuke fuel. Won the 2025 World Championship Seniors division.
 - **[Raging Bolt (2025)](2025/Raging_Bolt_2025.md)** — A Tera-Ancient turbo deck: Teal Mask Ogerpon ex attaches a Grass Energy and draws a card for free every turn, feeding Raging Bolt ex's Bellowing Thunder (discards all attached Energy for 70 damage each, up to 350) — a one-shot nuke you reload every single turn, backstopped by Noctowl's Trainer search.
 
-## 2026  (1 guide)
+## 2026  (2 guides)
 
 - **[Rocket's Honchkrow (2026)](2026/Rockets_Honchkrow_2026.md)** — TBC (a Team Rocket's tribe deck from the Destined Rivals / Mega era, built on the Team Rocket's Murkrow → Honchkrow line with the Rocket's Supporter suite).
+- **[Cynthia's Garchomp (2026)](2026/Cynthias_Garchomp_2026.md)** — TBC (a Cynthia's-tribe Fighting deck: the Cynthia's Gible → Garchomp ex line with Cynthia's Roserade support and the Cynthia's Supporter/Item engine).
 
 ---
 

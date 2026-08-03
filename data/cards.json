@@ -16018,5 +16018,185 @@
     "set": "86/86",
     "category": "Energy",
     "image": "https://images.pokemontcg.io/rsv10pt5/86_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 4,
+    "name": "Cynthia's Gible",
+    "set": "109/217",
+    "category": "Pokemon",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-109/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 4,
+    "name": "Cynthia's Gabite",
+    "set": "110/217",
+    "category": "Pokemon",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-110/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 3,
+    "name": "Cynthia's Garchomp ex",
+    "set": "111/217",
+    "category": "Pokemon",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-111/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 4,
+    "name": "Cynthia's Roselia",
+    "set": "7/182",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sv10/7_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 4,
+    "name": "Cynthia's Roserade",
+    "set": "8/182",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sv10/8_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 3,
+    "name": "Cynthia's Power Weight",
+    "set": "162/182",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sv10/162_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 4,
+    "name": "Lillie's Determination",
+    "set": "192/217",
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-192/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 3,
+    "name": "Boss's Orders",
+    "set": "183/217",
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-183/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 3,
+    "name": "Pokégear 3.0",
+    "set": "84/86",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/zsv10pt5/84_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 4,
+    "name": "Fighting Gong",
+    "set": "187/217",
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-187/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 4,
+    "name": "Buddy-Buddy Poffin",
+    "set": "184/217",
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-184/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 1,
+    "name": "Premium Power Pro",
+    "set": "199/217",
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-199/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 1,
+    "name": "Hilda",
+    "set": "84/86",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/rsv10pt5/84_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 1,
+    "name": "Prime Catcher",
+    "set": "119/131",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sv8pt5/119_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 1,
+    "name": "Switch",
+    "set": "130/132",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/me1/130_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 4,
+    "name": "Poké Pad",
+    "set": "81/88",
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me3-81/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 3,
+    "name": "Prism Tower",
+    "set": "80/86",
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me4-80/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 1,
+    "name": "Night Stretcher",
+    "set": "196/217",
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-196/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 4,
+    "name": "Rocky Fighting Energy",
+    "set": "87/88",
+    "category": "Energy",
+    "image": "https://images.scrydex.com/pokemon/me3-87/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 4,
+    "name": "Fighting Energy",
+    "set": "",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/xy1/137_hires.png"
   }
 ]

@@ -394,7 +394,7 @@ which repoints tracking without needing another push).
 
 ## Current data state (as of the last update in this file)
 
-- 75 decks, 1778 card rows, 16 "formats" (year groupings, 2010–2026 with
+- 76 decks, 1798 card rows, 16 "formats" (year groupings, 2010–2026 with
   no 2011). The one-time standalone `2017 NAIC` label was consolidated into
   `2017`: its four decks moved to 2017. Three took World-Championship-format
   lists (Guzma over Lysandre, Burning Shadows legal): Tapu Bulu Vikavolt,
@@ -404,16 +404,16 @@ which repoints tracking without needing another push).
   which still runs Lysandre (all cards legal in the 2017 season); its guide
   keeps the original text with the card mechanics corrected against the API
   (Mind Jack is 10+30×bench, Berserk keys off your own damaged bench).
-- Every row has a `category`. Every row has an `image` — 763 unique image
+- Every row has a `category`. Every row has an `image` — 780 unique image
   URLs, all verified HTTP 200. **Almost all are `images.pokemontcg.io`; the
   exception is three cards in Rocket's Honchkrow (2026) from the newest
   Mega-era sets (me2pt5 "ASC", me3 "POR") which pokemontcg.io doesn't host
   yet — those use `images.scrydex.com` URLs (the only source, verified 200).
   If pokemontcg.io later adds them, they can be repointed.**
-- All 75 piloting guides exist and are wired up (`data/guides.json` has 75
-  keys, one per deck). Two are intentional "TBC" stubs whose decklists are
-  complete but write-ups aren't: **Eternatus VMAX (2021)** and **Rocket's
-  Honchkrow (2026)**. Every other deck has a full guide.
+- All 76 piloting guides exist and are wired up (`data/guides.json` has 76
+  keys, one per deck). Three are intentional "TBC" stubs whose decklists are
+  complete but write-ups aren't: **Eternatus VMAX (2021)**, **Rocket's
+  Honchkrow (2026)**, and **Cynthia's Garchomp (2026)**. Every other deck has a full guide.
 - `data/turn1_rules.json` has an entry for all 15 year labels.
 - 2021 uses the **Players Cup III/IV** online events as its benchmark
   (there was no 2021 Worlds — COVID). Lists came from the Limitless

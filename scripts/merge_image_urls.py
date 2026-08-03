@@ -189,6 +189,26 @@ URL_OVERRIDES = {
     ('Ignition Energy', '86/86'): 'https://images.pokemontcg.io/rsv10pt5/86_hires.png',
     # Malamar (2019) Espurr correction: UNB 79 (was mistakenly FLI 44).
     ('Espurr', '79/214'): 'https://images.pokemontcg.io/sm10/79_hires.png',
+    # Cynthia's Garchomp (2026). More Mega-era prints; the me2pt5/me3/me4
+    # (ASC/POR/CRI) cards are scrydex-only (verified 200). Poké Pad 81/88 and
+    # Night Stretcher 196/217 reuse the overrides added for Rocket's Honchkrow.
+    ("Cynthia's Gible", '109/217'): 'https://images.scrydex.com/pokemon/me2pt5-109/large',
+    ("Cynthia's Gabite", '110/217'): 'https://images.scrydex.com/pokemon/me2pt5-110/large',
+    ("Cynthia's Garchomp ex", '111/217'): 'https://images.scrydex.com/pokemon/me2pt5-111/large',
+    ("Cynthia's Roselia", '7/182'): 'https://images.pokemontcg.io/sv10/7_hires.png',
+    ("Cynthia's Roserade", '8/182'): 'https://images.pokemontcg.io/sv10/8_hires.png',
+    ("Cynthia's Power Weight", '162/182'): 'https://images.pokemontcg.io/sv10/162_hires.png',
+    ("Lillie's Determination", '192/217'): 'https://images.scrydex.com/pokemon/me2pt5-192/large',
+    ("Boss's Orders", '183/217'): 'https://images.scrydex.com/pokemon/me2pt5-183/large',
+    ('Pokégear 3.0', '84/86'): 'https://images.pokemontcg.io/zsv10pt5/84_hires.png',
+    ('Fighting Gong', '187/217'): 'https://images.scrydex.com/pokemon/me2pt5-187/large',
+    ('Buddy-Buddy Poffin', '184/217'): 'https://images.scrydex.com/pokemon/me2pt5-184/large',
+    ('Premium Power Pro', '199/217'): 'https://images.scrydex.com/pokemon/me2pt5-199/large',
+    ('Hilda', '84/86'): 'https://images.pokemontcg.io/rsv10pt5/84_hires.png',
+    ('Prime Catcher', '119/131'): 'https://images.pokemontcg.io/sv8pt5/119_hires.png',
+    ('Switch', '130/132'): 'https://images.pokemontcg.io/me1/130_hires.png',
+    ('Prism Tower', '80/86'): 'https://images.scrydex.com/pokemon/me4-80/large',
+    ('Rocky Fighting Energy', '87/88'): 'https://images.scrydex.com/pokemon/me3-87/large',
     # Basic Energy is recorded in cards.json with no specific print (empty
     # set), since decklists rarely note which printing was used. These pin
     # every basic Energy card to its XY base-set art (xy1) so there's a
