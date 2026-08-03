@@ -219,6 +219,8 @@
     border-bottom:3px solid var(--pokeball-ink);
   }
   .deck-head .title{font-family:'Poppins',sans-serif; font-weight:600; font-size:15.5px; letter-spacing:.1px}
+  /* "favourite deck of the year" star (marked per deck in FAVOURITES) */
+  .fav-star{width:19px; height:19px; vertical-align:-4px; margin-left:7px; flex:0 0 auto}
   .deck-head .meta{font-size:12px; opacity:.9; font-weight:500; display:flex; align-items:center; gap:8px}
   .deck-head .arrow{transition:transform .2s; font-size:12px; opacity:.95}
   .deck.collapsed .arrow{transform:rotate(-90deg)}
@@ -501,6 +503,25 @@ function renderTurn1Box(){
 
 const SECTIONS = [['Pokemon', 'Pokémon'], ['Trainer', 'Trainers'], ['Energy', 'Energy']];
 
+// Vig's favourite deck of each year — a star (pokéball-in-a-star) shows next
+// to these deck names. Edit this set to change the picks.
+const FAVOURITES = new Set([
+  'LuxChomp (2010)', 'Darkrai Mewtwo (2012)', 'Darkrai (2013)', 'Virizion/Genesect (2014)',
+  "Archie's Blastoise (2015)", 'Night March (2016)', 'Espeon Garbodor (2017)',
+  'Zoroark Golisopod (2018)', 'Malamar (2019)', 'Combo Zacian (2020)', 'Spiritomb (2021)',
+  'Fusion Strike Mew (2022)', 'Colorless Lugia (2023)', 'Ancient Toolbox (2024)', 'Dragapult (2025)',
+]);
+const FAV_STAR =
+  '<svg class="fav-star" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" aria-label="favourite deck" role="img">' +
+  '<title>Favourite deck of the year</title>' +
+  '<polygon points="256,26 310,182 475,185 343,284 391,442 256,348 121,442 168,284 37,185 202,182" fill="#FCC419" stroke="#2f2a26" stroke-width="22" stroke-linejoin="round"/>' +
+  '<circle cx="256" cy="272" r="82" fill="#F1F3F5"/>' +
+  '<path d="M174 272 A82 82 0 0 1 338 272 Z" fill="#FF5252"/>' +
+  '<rect x="180" y="264" width="152" height="16" fill="#2f2a26"/>' +
+  '<circle cx="256" cy="272" r="30" fill="#F1F3F5" stroke="#2f2a26" stroke-width="12"/>' +
+  '<circle cx="256" cy="272" r="82" fill="none" stroke="#2f2a26" stroke-width="12"/>' +
+  '</svg>';
+
 function slug(name){
   return name.toLowerCase().replace(/[^a-z0-9]+/g,'_').replace(/^_+|_+$/g,'');
 }
@@ -639,7 +660,7 @@ function render(){
       ? `<span class="count-badge miss">${deckMissing} missing</span>`
       : `<span class="count-badge">${total} cards</span>` +
         (deckMissing > 0 ? ` <span class="miss-head-badge">⚠︎ ${deckMissing} missing</span>` : '');
-    head.innerHTML = `<span class="title">${hl(deck, query)}</span>
+    head.innerHTML = `<span class="title">${hl(deck, query)}${FAVOURITES.has(deck) ? FAV_STAR : ''}</span>
       <span class="meta">${metaHtml} <span class="arrow">▼</span></span>`;
     head.onclick = () => d.classList.toggle('collapsed');
     d.appendChild(head);

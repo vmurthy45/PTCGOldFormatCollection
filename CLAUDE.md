@@ -208,6 +208,17 @@ opacity). If you bulk-replace a deck's rows later, the `missing` values for
 that deck are lost unless you re-add them — they describe the *current*
 list.
 
+### Favourite deck of the year (star icon)
+
+Vig's favourite deck of each year shows a gold **star-with-pokéball** icon
+next to its name in the All Decks list. The picks are a hardcoded
+`FAVOURITES` Set of exact deck names in `index.html` (not in cards.json) —
+edit that set to change a pick. The icon is an inline SVG constant
+(`FAV_STAR`) rendered into the deck header when `FAVOURITES.has(deck)`; it's
+drawn from scratch (the source was an attached PNG that couldn't be embedded
+as bytes), so tweak the SVG if a closer match is ever wanted. Currently one
+per year, 2010–2025.
+
 ### Card categorization (Pokemon / Trainer / Energy)
 
 There is **no type/category column anywhere in the source data** — not in
