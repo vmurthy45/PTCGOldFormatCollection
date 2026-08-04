@@ -405,7 +405,7 @@ which repoints tracking without needing another push).
 
 ## Current data state (as of the last update in this file)
 
-- 79 decks, 1867 card rows, 16 "formats" (year groupings, 2010–2026 with
+- 80 decks, 1894 card rows, 16 "formats" (year groupings, 2010–2026 with
   no 2011). The one-time standalone `2017 NAIC` label was consolidated into
   `2017`: its four decks moved to 2017. Three took World-Championship-format
   lists (Guzma over Lysandre, Burning Shadows legal): Tapu Bulu Vikavolt,

@@ -36,6 +36,25 @@ NAME_FIXES = {
 # (name, set) -> image URL, for prints the CSV flagged as "Not Found"/"Error"
 # with no working row at all. Verified HTTP 200 before adding.
 URL_OVERRIDES = {
+    # Alakazam (2026)
+    ("Abra", "54/132"): "https://images.pokemontcg.io/me1/54_hires.png",
+    ("Kadabra", "55/132"): "https://images.pokemontcg.io/me1/55_hires.png",
+    ("Alakazam", "56/132"): "https://images.pokemontcg.io/me1/56_hires.png",
+    ("Rare Candy", "125/132"): "https://images.pokemontcg.io/me1/125_hires.png",
+    ("Dedenne", "87/191"): "https://images.pokemontcg.io/sv8/87_hires.png",
+    ("Elgyem", "40/86"): "https://images.pokemontcg.io/zsv10pt5/40_hires.png",
+    ("Genesect", "40/64"): "https://images.pokemontcg.io/sv6pt5/40_hires.png",
+    ("Shaymin", "10/182"): "https://images.pokemontcg.io/sv10/10_hires.png",
+    ("Hilda", "84/86"): "https://images.pokemontcg.io/rsv10pt5/84_hires.png",
+    ("Lana's Aid", "155/167"): "https://images.pokemontcg.io/sv6/155_hires.png",
+    ("Enhanced Hammer", "148/167"): "https://images.pokemontcg.io/sv6/148_hires.png",
+    ("Lucky Helmet", "158/167"): "https://images.pokemontcg.io/sv6/158_hires.png",
+    ("Handheld Fan", "150/167"): "https://images.pokemontcg.io/sv6/150_hires.png",
+    ("Sacred Ash", "168/182"): "https://images.pokemontcg.io/sv10/168_hires.png",
+    ("Enriching Energy", "191/191"): "https://images.pokemontcg.io/sv8/191_hires.png",
+    ("Air Balloon", "181/217"): "https://images.scrydex.com/pokemon/me2pt5-181/large",
+    ("Nighttime Mine", "197/217"): "https://images.scrydex.com/pokemon/me2pt5-197/large",
+    ("Telepathic Psychic Energy", "88/88"): "https://images.scrydex.com/pokemon/me3-88/large",
     # Dragapult (2026)
     ("Dunsparce", "120/159"): "https://images.pokemontcg.io/sv9/120_hires.png",
     ("Dudunsparce", "129/162"): "https://images.pokemontcg.io/sv5/129_hires.png",

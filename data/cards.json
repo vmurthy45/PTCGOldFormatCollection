@@ -16865,5 +16865,257 @@
     "set": "",
     "category": "Energy",
     "image": "https://images.pokemontcg.io/xy1/138_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 4,
+    "name": "Abra",
+    "set": "54/132",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/me1/54_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 4,
+    "name": "Kadabra",
+    "set": "55/132",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/me1/55_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 3,
+    "name": "Alakazam",
+    "set": "56/132",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/me1/56_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 3,
+    "name": "Dunsparce",
+    "set": "120/159",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sv9/120_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 3,
+    "name": "Dudunsparce",
+    "set": "129/162",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sv5/129_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 1,
+    "name": "Dedenne",
+    "set": "87/191",
+    "missing": 1,
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sv8/87_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 1,
+    "name": "Elgyem",
+    "set": "40/86",
+    "missing": 1,
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/zsv10pt5/40_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 1,
+    "name": "Genesect",
+    "set": "40/64",
+    "missing": 1,
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sv6pt5/40_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 1,
+    "name": "Fezandipiti ex",
+    "set": "142/217",
+    "category": "Pokemon",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-142/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 1,
+    "name": "Shaymin",
+    "set": "10/182",
+    "missing": 1,
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sv10/10_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 4,
+    "name": "Dawn",
+    "set": "87/94",
+    "missing": 4,
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/me2/87_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 3,
+    "name": "Hilda",
+    "set": "84/86",
+    "missing": 3,
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/rsv10pt5/84_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 2,
+    "name": "Boss's Orders",
+    "set": "114/132",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/me1/114_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 1,
+    "name": "Lana's Aid",
+    "set": "155/167",
+    "missing": 1,
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sv6/155_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 4,
+    "name": "Buddy-Buddy Poffin",
+    "set": "144/162",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sv5/144_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 4,
+    "name": "Poké Pad",
+    "set": "81/88",
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me3-81/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 3,
+    "name": "Rare Candy",
+    "set": "125/132",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/me1/125_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 2,
+    "name": "Enhanced Hammer",
+    "set": "148/167",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sv6/148_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 1,
+    "name": "Sacred Ash",
+    "set": "168/182",
+    "missing": 1,
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sv10/168_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 1,
+    "name": "Night Stretcher",
+    "set": "196/217",
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-196/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 1,
+    "name": "Lucky Helmet",
+    "set": "158/167",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sv6/158_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 1,
+    "name": "Handheld Fan",
+    "set": "150/167",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sv6/150_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 1,
+    "name": "Air Balloon",
+    "set": "181/217",
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-181/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 4,
+    "name": "Nighttime Mine",
+    "set": "197/217",
+    "missing": 4,
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-197/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 4,
+    "name": "Telepathic Psychic Energy",
+    "set": "88/88",
+    "category": "Energy",
+    "image": "https://images.scrydex.com/pokemon/me3-88/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 1,
+    "name": "Psychic Energy",
+    "set": "",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/xy1/136_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 1,
+    "name": "Enriching Energy",
+    "set": "191/191",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/sv8/191_hires.png"
   }
 ]
