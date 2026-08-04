@@ -36,6 +36,11 @@ NAME_FIXES = {
 # (name, set) -> image URL, for prints the CSV flagged as "Not Found"/"Error"
 # with no working row at all. Verified HTTP 200 before adding.
 URL_OVERRIDES = {
+    # Dragapult (2026)
+    ("Dunsparce", "120/159"): "https://images.pokemontcg.io/sv9/120_hires.png",
+    ("Dudunsparce", "129/162"): "https://images.pokemontcg.io/sv5/129_hires.png",
+    ("Risky Ruins", "127/132"): "https://images.pokemontcg.io/me1/127_hires.png",
+    ("Rosa's Encouragement", "84/88"): "https://images.scrydex.com/pokemon/me3-84/large",
     # Dragapult Dusknoir (2026)
     ("Duskull", "35/131"): "https://images.pokemontcg.io/sv8pt5/35_hires.png",
     ("Dusclops", "36/131"): "https://images.pokemontcg.io/sv8pt5/36_hires.png",

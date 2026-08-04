@@ -50,6 +50,7 @@ TRAINER_NAMES = {
     "Cynthia & Caitlin", "Cynthia's Ambition", "Cynthia's Feelings", "Cynthia's Power Weight",
     "Cyrus's Conspiracy", "Fighting Gong", "Lillie's Determination", "Premium Power Pro", "Prism Tower",
     "Dawn", "Unfair Stamp", "Special Red Card", "Team Rocket's Watchtower",
+    "Rosa's Encouragement", "Risky Ruins",
     "Dark Claw", "Dark Patch", "Defiance Band", "Delinquent", "Dimension Valley",
     "Dive Ball", "Dowsing Machine", "Dual Ball", "Earthen Vessel", "Echoing Horn",
     "Electric Generator", "Electromagnetic Radar", "Electropower", "Elesa's Sparkle",
