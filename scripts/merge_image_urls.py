@@ -36,6 +36,23 @@ NAME_FIXES = {
 # (name, set) -> image URL, for prints the CSV flagged as "Not Found"/"Error"
 # with no working row at all. Verified HTTP 200 before adding.
 URL_OVERRIDES = {
+    # Dragapult Dusknoir (2026)
+    ("Duskull", "35/131"): "https://images.pokemontcg.io/sv8pt5/35_hires.png",
+    ("Dusclops", "36/131"): "https://images.pokemontcg.io/sv8pt5/36_hires.png",
+    ("Dusknoir", "37/131"): "https://images.pokemontcg.io/sv8pt5/37_hires.png",
+    ("Budew", "16/217"): "https://images.scrydex.com/pokemon/me2pt5-16/large",
+    ("Fezandipiti ex", "142/217"): "https://images.scrydex.com/pokemon/me2pt5-142/large",
+    ("Meowth ex", "62/88"): "https://images.scrydex.com/pokemon/me3-62/large",
+    ("Lillie's Determination", "119/132"): "https://images.pokemontcg.io/me1/119_hires.png",
+    ("Boss's Orders", "114/132"): "https://images.pokemontcg.io/me1/114_hires.png",
+    ("Dawn", "87/94"): "https://images.pokemontcg.io/me2/87_hires.png",
+    ("Crushing Hammer", "71/88"): "https://images.scrydex.com/pokemon/me3-71/large",
+    ("Unfair Stamp", "165/167"): "https://images.pokemontcg.io/sv6/165_hires.png",
+    ("Special Red Card", "82/86"): "https://images.scrydex.com/pokemon/me4-82/large",
+    ("Team Rocket's Watchtower", "180/182"): "https://images.pokemontcg.io/sv10/180_hires.png",
+    ("Rayquaza-GX", "109/168"): "https://images.pokemontcg.io/sm7/109_hires.png",
+    ("Marshadow", "45/73"): "https://images.pokemontcg.io/sm35/45_hires.png",
+    ("Escape Rope", "114/147"): "https://images.pokemontcg.io/sm3/114_hires.png",
     ("Air Balloon", "156/202"): "https://images.pokemontcg.io/swsh1/156_hires.png",
     ("Crushing Hammer", "115/149"): "https://images.pokemontcg.io/sm1/115_hires.png",
     ("Lt. Surge's Strategy", "178/214"): "https://images.pokemontcg.io/sm10/178_hires.png",

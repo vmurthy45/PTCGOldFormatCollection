@@ -8352,7 +8352,8 @@
     "name": "Zorua",
     "set": "52/73",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm35/52_hires.png"
+    "image": "https://images.pokemontcg.io/sm35/52_hires.png",
+    "missing": 4
   },
   {
     "year": "2018",
@@ -8361,7 +8362,8 @@
     "name": "Zoroark-GX",
     "set": "53/73",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm35/53_hires.png"
+    "image": "https://images.pokemontcg.io/sm35/53_hires.png",
+    "missing": 4
   },
   {
     "year": "2018",
@@ -8370,7 +8372,8 @@
     "name": "Ralts",
     "set": "91/147",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm3/91_hires.png"
+    "image": "https://images.pokemontcg.io/sm3/91_hires.png",
+    "missing": 4
   },
   {
     "year": "2018",
@@ -8379,7 +8382,8 @@
     "name": "Gardevoir-GX",
     "set": "93/147",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm3/93_hires.png"
+    "image": "https://images.pokemontcg.io/sm3/93_hires.png",
+    "missing": 2
   },
   {
     "year": "2018",
@@ -8388,7 +8392,8 @@
     "name": "Gallade",
     "set": "84/162",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/xy8/84_hires.png"
+    "image": "https://images.pokemontcg.io/xy8/84_hires.png",
+    "missing": 1
   },
   {
     "year": "2018",
@@ -8397,7 +8402,8 @@
     "name": "Tapu Lele-GX",
     "set": "60/145",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm2/60_hires.png"
+    "image": "https://images.pokemontcg.io/sm2/60_hires.png",
+    "missing": 3
   },
   {
     "year": "2018",
@@ -8406,7 +8412,8 @@
     "name": "Mew-EX",
     "set": "XY126/211",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/xyp/XY126_hires.png"
+    "image": "https://images.pokemontcg.io/xyp/XY126_hires.png",
+    "missing": 1
   },
   {
     "year": "2018",
@@ -8415,7 +8422,8 @@
     "name": "Giratina",
     "set": "XY184/211",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/xyp/XY184_hires.png"
+    "image": "https://images.pokemontcg.io/xyp/XY184_hires.png",
+    "missing": 1
   },
   {
     "year": "2018",
@@ -8424,7 +8432,8 @@
     "name": "Brigette",
     "set": "134/162",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy8/134_hires.png"
+    "image": "https://images.pokemontcg.io/xy8/134_hires.png",
+    "missing": 3
   },
   {
     "year": "2018",
@@ -8433,7 +8442,8 @@
     "name": "N",
     "set": "105/124",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy10/105_hires.png"
+    "image": "https://images.pokemontcg.io/xy10/105_hires.png",
+    "missing": 3
   },
   {
     "year": "2018",
@@ -8442,7 +8452,8 @@
     "name": "Professor Sycamore",
     "set": "107/122",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy9/107_hires.png"
+    "image": "https://images.pokemontcg.io/xy9/107_hires.png",
+    "missing": 2
   },
   {
     "year": "2018",
@@ -8451,7 +8462,8 @@
     "name": "Mallow",
     "set": "127/145",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm2/127_hires.png"
+    "image": "https://images.pokemontcg.io/sm2/127_hires.png",
+    "missing": 2
   },
   {
     "year": "2018",
@@ -8460,7 +8472,8 @@
     "name": "Guzma",
     "set": "115/147",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm3/115_hires.png"
+    "image": "https://images.pokemontcg.io/sm3/115_hires.png",
+    "missing": 2
   },
   {
     "year": "2018",
@@ -8469,7 +8482,8 @@
     "name": "Ultra Ball",
     "set": "113/124",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy10/113_hires.png"
+    "image": "https://images.pokemontcg.io/xy10/113_hires.png",
+    "missing": 4
   },
   {
     "year": "2018",
@@ -8478,7 +8492,8 @@
     "name": "Puzzle of Time",
     "set": "109/122",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy9/109_hires.png"
+    "image": "https://images.pokemontcg.io/xy9/109_hires.png",
+    "missing": 4
   },
   {
     "year": "2018",
@@ -8487,7 +8502,8 @@
     "name": "Rare Candy",
     "set": "129/149",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm1/129_hires.png"
+    "image": "https://images.pokemontcg.io/sm1/129_hires.png",
+    "missing": 3
   },
   {
     "year": "2018",
@@ -8496,7 +8512,8 @@
     "name": "Evosoda",
     "set": "62/83",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/g1/62_hires.png"
+    "image": "https://images.pokemontcg.io/g1/62_hires.png",
+    "missing": 2
   },
   {
     "year": "2018",
@@ -8505,7 +8522,8 @@
     "name": "Field Blower",
     "set": "125/145",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm2/125_hires.png"
+    "image": "https://images.pokemontcg.io/sm2/125_hires.png",
+    "missing": 2
   },
   {
     "year": "2018",
@@ -8514,7 +8532,8 @@
     "name": "Max Potion",
     "set": "128/145",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm2/128_hires.png"
+    "image": "https://images.pokemontcg.io/sm2/128_hires.png",
+    "missing": 1
   },
   {
     "year": "2018",
@@ -8523,7 +8542,8 @@
     "name": "Enhanced Hammer",
     "set": "124/145",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm2/124_hires.png"
+    "image": "https://images.pokemontcg.io/sm2/124_hires.png",
+    "missing": 1
   },
   {
     "year": "2018",
@@ -8532,7 +8552,8 @@
     "name": "Choice Band",
     "set": "121/145",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm2/121_hires.png"
+    "image": "https://images.pokemontcg.io/sm2/121_hires.png",
+    "missing": 1
   },
   {
     "year": "2018",
@@ -8541,7 +8562,8 @@
     "name": "Float Stone",
     "set": "137/162",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy8/137_hires.png"
+    "image": "https://images.pokemontcg.io/xy8/137_hires.png",
+    "missing": 1
   },
   {
     "year": "2018",
@@ -8550,7 +8572,8 @@
     "name": "Parallel City",
     "set": "145/162",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy8/145_hires.png"
+    "image": "https://images.pokemontcg.io/xy8/145_hires.png",
+    "missing": 1
   },
   {
     "year": "2018",
@@ -8559,7 +8582,8 @@
     "name": "Double Colorless Energy",
     "set": "74/83",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/g1/74_hires.png"
+    "image": "https://images.pokemontcg.io/g1/74_hires.png",
+    "missing": 4
   },
   {
     "year": "2018",
@@ -8568,7 +8592,8 @@
     "name": "Fairy Energy",
     "set": "",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/xy1/140_hires.png"
+    "image": "https://images.pokemontcg.io/xy1/140_hires.png",
+    "missing": 4
   },
   {
     "year": "2018",
@@ -15612,7 +15637,7 @@
     "name": "Drakloak",
     "set": "129/167",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/swsh8/129_hires.png"
+    "image": "https://images.pokemontcg.io/sv6/129_hires.png"
   },
   {
     "year": "2025",
@@ -15621,7 +15646,7 @@
     "name": "Dreepy",
     "set": "128/167",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/swsh8/128_hires.png"
+    "image": "https://images.pokemontcg.io/sv6/128_hires.png"
   },
   {
     "year": "2025",
@@ -16198,5 +16223,430 @@
     "set": "",
     "category": "Energy",
     "image": "https://images.pokemontcg.io/xy1/137_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Rayquaza (2018)",
+    "count": 4,
+    "name": "Rayquaza-GX",
+    "set": "109/168",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm7/109_hires.png",
+    "missing": 4
+  },
+  {
+    "year": "2018",
+    "deck": "Rayquaza (2018)",
+    "count": 2,
+    "name": "Marshadow",
+    "set": "45/73",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm35/45_hires.png",
+    "missing": 2
+  },
+  {
+    "year": "2018",
+    "deck": "Rayquaza (2018)",
+    "count": 2,
+    "name": "Tapu Lele-GX",
+    "set": "60/145",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm2/60_hires.png",
+    "missing": 2
+  },
+  {
+    "year": "2018",
+    "deck": "Rayquaza (2018)",
+    "count": 1,
+    "name": "Oranguru",
+    "set": "113/149",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm1/113_hires.png",
+    "missing": 1
+  },
+  {
+    "year": "2018",
+    "deck": "Rayquaza (2018)",
+    "count": 4,
+    "name": "Professor Sycamore",
+    "set": "107/122",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy9/107_hires.png",
+    "missing": 4
+  },
+  {
+    "year": "2018",
+    "deck": "Rayquaza (2018)",
+    "count": 4,
+    "name": "Guzma",
+    "set": "115/147",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm3/115_hires.png",
+    "missing": 4
+  },
+  {
+    "year": "2018",
+    "deck": "Rayquaza (2018)",
+    "count": 1,
+    "name": "Lillie",
+    "set": "125/156",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm5/125_hires.png",
+    "missing": 1
+  },
+  {
+    "year": "2018",
+    "deck": "Rayquaza (2018)",
+    "count": 4,
+    "name": "Puzzle of Time",
+    "set": "109/122",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy9/109_hires.png",
+    "missing": 4
+  },
+  {
+    "year": "2018",
+    "deck": "Rayquaza (2018)",
+    "count": 4,
+    "name": "Mysterious Treasure",
+    "set": "113/131",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm6/113_hires.png",
+    "missing": 4
+  },
+  {
+    "year": "2018",
+    "deck": "Rayquaza (2018)",
+    "count": 4,
+    "name": "Max Elixir",
+    "set": "102/122",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy9/102_hires.png",
+    "missing": 4
+  },
+  {
+    "year": "2018",
+    "deck": "Rayquaza (2018)",
+    "count": 3,
+    "name": "Acro Bike",
+    "set": "123/168",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm7/123_hires.png",
+    "missing": 3
+  },
+  {
+    "year": "2018",
+    "deck": "Rayquaza (2018)",
+    "count": 2,
+    "name": "Ultra Ball",
+    "set": "135/149",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm1/135_hires.png",
+    "missing": 2
+  },
+  {
+    "year": "2018",
+    "deck": "Rayquaza (2018)",
+    "count": 2,
+    "name": "Rescue Stretcher",
+    "set": "130/145",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm2/130_hires.png",
+    "missing": 2
+  },
+  {
+    "year": "2018",
+    "deck": "Rayquaza (2018)",
+    "count": 2,
+    "name": "Field Blower",
+    "set": "125/145",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm2/125_hires.png",
+    "missing": 2
+  },
+  {
+    "year": "2018",
+    "deck": "Rayquaza (2018)",
+    "count": 1,
+    "name": "Super Rod",
+    "set": "149/162",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy8/149_hires.png",
+    "missing": 1
+  },
+  {
+    "year": "2018",
+    "deck": "Rayquaza (2018)",
+    "count": 1,
+    "name": "Escape Rope",
+    "set": "114/147",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm3/114_hires.png",
+    "missing": 1
+  },
+  {
+    "year": "2018",
+    "deck": "Rayquaza (2018)",
+    "count": 3,
+    "name": "Choice Band",
+    "set": "121/145",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm2/121_hires.png",
+    "missing": 3
+  },
+  {
+    "year": "2018",
+    "deck": "Rayquaza (2018)",
+    "count": 2,
+    "name": "Float Stone",
+    "set": "137/162",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy8/137_hires.png",
+    "missing": 2
+  },
+  {
+    "year": "2018",
+    "deck": "Rayquaza (2018)",
+    "count": 7,
+    "name": "Grass Energy",
+    "set": "",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/xy1/132_hires.png",
+    "missing": 7
+  },
+  {
+    "year": "2018",
+    "deck": "Rayquaza (2018)",
+    "count": 7,
+    "name": "Lightning Energy",
+    "set": "",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/xy1/135_hires.png",
+    "missing": 7
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 4,
+    "name": "Dreepy",
+    "set": "128/167",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sv6/128_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 4,
+    "name": "Drakloak",
+    "set": "129/167",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sv6/129_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 3,
+    "name": "Dragapult ex",
+    "set": "130/167",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sv6/130_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 2,
+    "name": "Duskull",
+    "set": "35/131",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sv8pt5/35_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 2,
+    "name": "Dusclops",
+    "set": "36/131",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sv8pt5/36_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 1,
+    "name": "Dusknoir",
+    "set": "37/131",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sv8pt5/37_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 1,
+    "name": "Budew",
+    "set": "16/217",
+    "category": "Pokemon",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-16/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 1,
+    "name": "Fezandipiti ex",
+    "set": "142/217",
+    "category": "Pokemon",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-142/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 1,
+    "name": "Meowth ex",
+    "set": "62/88",
+    "category": "Pokemon",
+    "image": "https://images.scrydex.com/pokemon/me3-62/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 1,
+    "name": "Munkidori",
+    "set": "95/167",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sv6/95_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 4,
+    "name": "Lillie's Determination",
+    "set": "119/132",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/me1/119_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 4,
+    "name": "Crispin",
+    "set": "133/142",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sv7/133_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 2,
+    "name": "Boss's Orders",
+    "set": "114/132",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/me1/114_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 1,
+    "name": "Dawn",
+    "set": "87/94",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/me2/87_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 4,
+    "name": "Ultra Ball",
+    "set": "131/132",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/me1/131_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 4,
+    "name": "Poké Pad",
+    "set": "81/88",
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me3-81/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 4,
+    "name": "Buddy-Buddy Poffin",
+    "set": "144/162",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sv5/144_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 4,
+    "name": "Crushing Hammer",
+    "set": "71/88",
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me3-71/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 2,
+    "name": "Night Stretcher",
+    "set": "196/217",
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-196/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 1,
+    "name": "Unfair Stamp",
+    "set": "165/167",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sv6/165_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 1,
+    "name": "Special Red Card",
+    "set": "82/86",
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me4-82/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 1,
+    "name": "Team Rocket's Watchtower",
+    "set": "180/182",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sv10/180_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 3,
+    "name": "Psychic Energy",
+    "set": "",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/xy1/136_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 3,
+    "name": "Fire Energy",
+    "set": "",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/xy1/133_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Dragapult Dusknoir (2026)",
+    "count": 2,
+    "name": "Darkness Energy",
+    "set": "",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/xy1/138_hires.png"
   }
 ]
