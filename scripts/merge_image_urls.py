@@ -36,6 +36,17 @@ NAME_FIXES = {
 # (name, set) -> image URL, for prints the CSV flagged as "Not Found"/"Error"
 # with no working row at all. Verified HTTP 200 before adding.
 URL_OVERRIDES = {
+    # Hide 'n' Sneak (2026) — PBL = me5 (Pitch Black), scrydex-hosted
+    ("Dhelmise", "39/84"): "https://images.scrydex.com/pokemon/me5-39/large",
+    ("Shuppet", "33/84"): "https://images.scrydex.com/pokemon/me5-33/large",
+    ("Banette", "34/84"): "https://images.scrydex.com/pokemon/me5-34/large",
+    ("Poltchageist", "5/84"): "https://images.scrydex.com/pokemon/me5-5/large",
+    ("Sinistcha", "6/84"): "https://images.scrydex.com/pokemon/me5-6/large",
+    ("Gwynn", "78/84"): "https://images.scrydex.com/pokemon/me5-78/large",
+    ("Lillie's Clefairy ex", "56/159"): "https://images.pokemontcg.io/sv9/56_hires.png",
+    ("Bloodmoon Ursaluna ex", "141/167"): "https://images.pokemontcg.io/sv6/141_hires.png",
+    ("Pokégear 3.0", "186/198"): "https://images.pokemontcg.io/sv1/186_hires.png",
+    ("Legacy Energy", "167/167"): "https://images.pokemontcg.io/sv6/167_hires.png",
     # Alakazam (2026)
     ("Abra", "54/132"): "https://images.pokemontcg.io/me1/54_hires.png",
     ("Kadabra", "55/132"): "https://images.pokemontcg.io/me1/55_hires.png",

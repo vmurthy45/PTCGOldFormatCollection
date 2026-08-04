@@ -17117,5 +17117,215 @@
     "set": "191/191",
     "category": "Energy",
     "image": "https://images.pokemontcg.io/sv8/191_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Hide 'n' Sneak (2026)",
+    "count": 4,
+    "name": "Dhelmise",
+    "set": "39/84",
+    "category": "Pokemon",
+    "image": "https://images.scrydex.com/pokemon/me5-39/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Hide 'n' Sneak (2026)",
+    "count": 3,
+    "name": "Dunsparce",
+    "set": "120/159",
+    "missing": 1,
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sv9/120_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Hide 'n' Sneak (2026)",
+    "count": 2,
+    "name": "Dudunsparce",
+    "set": "129/162",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sv5/129_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Hide 'n' Sneak (2026)",
+    "count": 3,
+    "name": "Shuppet",
+    "set": "33/84",
+    "category": "Pokemon",
+    "image": "https://images.scrydex.com/pokemon/me5-33/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Hide 'n' Sneak (2026)",
+    "count": 4,
+    "name": "Banette",
+    "set": "34/84",
+    "category": "Pokemon",
+    "image": "https://images.scrydex.com/pokemon/me5-34/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Hide 'n' Sneak (2026)",
+    "count": 2,
+    "name": "Poltchageist",
+    "set": "5/84",
+    "category": "Pokemon",
+    "image": "https://images.scrydex.com/pokemon/me5-5/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Hide 'n' Sneak (2026)",
+    "count": 1,
+    "name": "Sinistcha",
+    "set": "6/84",
+    "category": "Pokemon",
+    "image": "https://images.scrydex.com/pokemon/me5-6/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Hide 'n' Sneak (2026)",
+    "count": 1,
+    "name": "Lillie's Clefairy ex",
+    "set": "56/159",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sv9/56_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Hide 'n' Sneak (2026)",
+    "count": 1,
+    "name": "Shaymin",
+    "set": "10/182",
+    "missing": 1,
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sv10/10_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Hide 'n' Sneak (2026)",
+    "count": 1,
+    "name": "Bloodmoon Ursaluna ex",
+    "set": "141/167",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sv6/141_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Hide 'n' Sneak (2026)",
+    "count": 4,
+    "name": "Lillie's Determination",
+    "set": "119/132",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/me1/119_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Hide 'n' Sneak (2026)",
+    "count": 4,
+    "name": "Gwynn",
+    "set": "78/84",
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me5-78/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Hide 'n' Sneak (2026)",
+    "count": 3,
+    "name": "Boss's Orders",
+    "set": "114/132",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/me1/114_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Hide 'n' Sneak (2026)",
+    "count": 4,
+    "name": "Poké Pad",
+    "set": "81/88",
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me3-81/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Hide 'n' Sneak (2026)",
+    "count": 4,
+    "name": "Ultra Ball",
+    "set": "131/132",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/me1/131_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Hide 'n' Sneak (2026)",
+    "count": 2,
+    "name": "Pokégear 3.0",
+    "set": "186/198",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sv1/186_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Hide 'n' Sneak (2026)",
+    "count": 2,
+    "name": "Buddy-Buddy Poffin",
+    "set": "144/162",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sv5/144_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Hide 'n' Sneak (2026)",
+    "count": 3,
+    "name": "Night Stretcher",
+    "set": "196/217",
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-196/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Hide 'n' Sneak (2026)",
+    "count": 2,
+    "name": "Air Balloon",
+    "set": "181/217",
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-181/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Hide 'n' Sneak (2026)",
+    "count": 3,
+    "name": "Prism Tower",
+    "set": "80/86",
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me4-80/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Hide 'n' Sneak (2026)",
+    "count": 4,
+    "name": "Telepathic Psychic Energy",
+    "set": "88/88",
+    "category": "Energy",
+    "image": "https://images.scrydex.com/pokemon/me3-88/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Hide 'n' Sneak (2026)",
+    "count": 2,
+    "name": "Psychic Energy",
+    "set": "",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/xy1/136_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Hide 'n' Sneak (2026)",
+    "count": 1,
+    "name": "Legacy Energy",
+    "set": "167/167",
+    "missing": 1,
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/sv6/167_hires.png"
   }
 ]
