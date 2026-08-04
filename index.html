@@ -271,13 +271,12 @@
   }
   .row.miss-some .miss-badge{background:var(--miss-orange-line)}
   .row.miss-all .miss-badge{background:var(--miss-red-line)}
-  .miss-head-badge{
-    background:#ffd34d; color:#7a1520; padding:2px 9px; border-radius:999px;
-    font-size:11px; font-weight:700; white-space:nowrap;
-  }
-  .count-badge.miss{background:#ffd34d; color:#7a1520; font-weight:700}
+  /* a deck with missing cards flags it by tinting its count pill the Missing-filter
+     shade (header box + name stay as normal); replaces the old inline yellow badge */
+  .deck-head.has-missing .count-badge{background:var(--miss-orange-line); color:#fff}
+  .count-badge.miss{background:rgba(255,255,255,.24); color:#ffe1b3; font-weight:700}
   .miss-filter{
-    margin-top:8px; display:inline-flex; align-items:center; gap:6px; padding:7px 15px;
+    margin-top:8px; align-self:flex-start; display:inline-flex; align-items:center; gap:6px; padding:7px 15px;
     border-radius:999px; border:1px solid var(--miss-orange-line); background:var(--chip-bg);
     color:var(--miss-orange-line); font-family:inherit; font-size:13px; font-weight:600;
     cursor:pointer; user-select:none; box-shadow:0 1px 2px var(--shadow);
@@ -729,11 +728,12 @@ function render(){
     const head = document.createElement('div');
     head.className = 'deck-head';
     // Under the Missing filter the badge shows how many copies are short;
-    // otherwise show the deck size plus a ⚠ hint when anything is missing.
+    // otherwise just the deck size. A deck with missing cards is flagged
+    // subtly by tinting its name (.has-missing), not with a loud badge.
     const metaHtml = missingOnly
       ? `<span class="count-badge miss">${deckMissing} missing</span>`
-      : `<span class="count-badge">${total} cards</span>` +
-        (deckMissing > 0 ? ` <span class="miss-head-badge">⚠︎ ${deckMissing} missing</span>` : '');
+      : `<span class="count-badge">${total} cards</span>`;
+    if(deckMissing > 0) head.classList.add('has-missing');
     head.innerHTML = `<span class="title">${hl(deck, query)}${FAVOURITES.has(deck) ? FAV_STAR : ''}${TIERS[deck] ? tierBadge(TIERS[deck]) : ''}</span>
       <span class="meta">${metaHtml} <span class="arrow">▼</span></span>`;
     head.onclick = () => d.classList.toggle('collapsed');
