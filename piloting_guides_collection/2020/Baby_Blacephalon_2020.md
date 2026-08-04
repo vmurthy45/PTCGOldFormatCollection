@@ -1,4 +1,4 @@
-# How to Pilot — Blacephalon (2020)
+# How to Pilot — Baby Blacephalon (2020)
 
 _Format: Sword & Shield-on Standard 2020 (UPR–SSH/RCL era). "Baby Blacephalon" / "Fireball
 Circus" — the single-prize Fire OHKO deck built on the non-GX Blacephalon._

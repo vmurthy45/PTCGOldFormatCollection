@@ -530,11 +530,68 @@ const FAV_STAR =
   '<circle cx="256" cy="272" r="82" fill="none" stroke="#2f2a26" stroke-width="12"/>' +
   '</svg>';
 
-// Minimalist competitive tier rating, marked per deck. Currently the 2013 format.
+// Minimalist competitive tier rating, marked per deck (rated per format).
 const TIERS = {
+  // 2010 — SP / Platinum-on format
+  'LuxChomp (2010)': 'S',
+  'Gyarados (2010)': 'A',
+  'Boltevoir (2010)': 'B', 'Jumpluff (2010)': 'B',
+  // 2012 — HS-on Big Basics EX format
+  'Darkrai Mewtwo (2012)': 'S',
+  'CMT (2012)': 'A',
+  // 2013 — BW-on Darkrai/Plasma format
   'Darkrai (2013)': 'S', 'TDK (2013)': 'S',
   'Blastoise (2013)': 'A', 'RayEels (2013)': 'A',
   'Gothitelle (2013)': 'B',
+  // 2014 — XY-on (Plasma -> Fairy)
+  'Virizion/Genesect (2014)': 'S', 'Yveltal/Raichu (2014)': 'S',
+  'TDK (2014)': 'A',
+  'Mega Kangaskhan (2014)': 'B',
+  // 2015 — XY-on Seismitoad era
+  'Seismitoad Crobat (2015)': 'S',
+  'Lando Bats (2015)': 'A', "Archie's Blastoise (2015)": 'A',
+  // 2016 — XY-on Night March era
+  'Night March (2016)': 'S',
+  'Darkrai Giratina (2016)': 'A', 'Greninja (2016)': 'A',
+  'Vespiquen Yanmega (2016)': 'B', 'Mega Audino (2016)': 'B',
+  // 2017 — SM Guardians Rising Standard
+  'Gardevoir-GX (2017)': 'S', 'Decidueye/Golisopod (2017)': 'S',
+  'Espeon Garbodor (2017)': 'A', 'Golisopod/Garbodor (2017)': 'A',
+  'Drampa Zoroark (2017)': 'A', 'Decidueye Ninetales (2017)': 'A',
+  'Tapu Bulu Vikavolt (2017)': 'A',
+  'Alolan Ninetales (2017)': 'B', 'Ho-Oh Salazzle (2017)': 'B',
+  'Mega Rayquaza (2017)': 'B',
+  // 2018 — SM Zoroark-GX Standard
+  'Zoroark Garbodor (2018)': 'S', 'Zoroark Lycanroc (2018)': 'S',
+  'Zoroark Golisopod (2018)': 'S',
+  'Buzzwole Lycanroc (2018)': 'A',
+  'Zoroark Gardevoir (2018)': 'B', 'Banette Garbodor (2018)': 'B',
+  'Buzz Garb Shrine (2018)': 'B', 'Greninja (2018)': 'B', 'Rayquaza (2018)': 'B',
+  // 2019 — SM Tag Team GX Standard (Team Up -> Unified Minds)
+  'Perfection Mewtwo (2019)': 'S', "Green's Reshizard (2019)": 'S',
+  'Pikarom Judge (2019)': 'S',
+  'Malamar (2019)': 'A', 'Blacephalon GX (2019)': 'A', 'ReshiZard Firebox (2019)': 'A',
+  'Whimsicott GX (2019)': 'B',
+  // 2020 — ADP / Players Cup Standard
+  'ADP Zacian (2020)': 'A', 'Combo Zacian (2020)': 'A', 'Cinccino Mill (2020)': 'A',
+  'Baby Blacephalon (2020)': 'A',
+  // 2021 — SSH VMAX Standard (Battle Styles -> Chilling Reign)
+  'Shadow Rider Calyrex (2021)': 'S', 'Ice Rider Calyrex (2021)': 'S',
+  'Rapid Strike Urshifu (2021)': 'A', 'Eternatus VMAX (2021)': 'A',
+  'Spiritomb (2021)': 'B',
+  // 2022 — SSH VSTAR / Fusion Strike Standard
+  'Fusion Strike Mew (2022)': 'S', 'Ice Rider Palkia (2022)': 'S',
+  'Urshifu VMAX (2022)': 'A', 'ADP Flying Pikachu (2022)': 'A',
+  'Malamar Rapid Strike (2022)': 'B',
+  // 2023 — SSH->SV transition Standard
+  'Colorless Lugia (2023)': 'S', 'Lost Box Kyogre (2023)': 'S', 'Gardevoir (2023)': 'S',
+  'Mew (Fusion Strike) (2023)': 'A',
+  // 2024 — SV Standard (Paradox Rift -> Shrouded Fable)
+  'Miraidon (2024)': 'S', 'Regidrago VSTAR (2024)': 'S',
+  'Ancient Toolbox (2024)': 'A', 'Iron Thorns (2024)': 'A',
+  // 2025 — SV Standard (Surging Sparks -> Destined Rivals)
+  'Dragapult (2025)': 'S', 'Raging Bolt (2025)': 'S',
+  'Joltdengo (2025)': 'A', 'Flutter Devo Gardevoir (2025)': 'A',
 };
 const tierBadge = (t) =>
   `<span class="tier-badge tier-${t}" title="Tier ${t}">${t}</span>`;
