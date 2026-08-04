@@ -1,4 +1,4 @@
-# How to Pilot — Virizion/Genesect (2014)
+# How to Pilot — VirGen (2014)
 
 _Format: NXD-on 2014 (XY era). "VirGen." This build mirrors Andrew Estrada's 2014
 World Championship-**winning** list (VirGen went 1st/2nd/3rd in Masters at Worlds)._

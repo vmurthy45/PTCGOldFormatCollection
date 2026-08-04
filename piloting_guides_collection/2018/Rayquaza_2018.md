@@ -1,4 +1,4 @@
-# How to Pilot — Rayquaza (2018)
+# How to Pilot — Turbo Rayquaza (2018)
 
 _Format: Sun & Moon-on Standard, the **Celestial Storm** era (the 2018–19 rotation that
 opened when CES legalised Rayquaza-GX). A fast, all-in turbo deck that pairs raw damage

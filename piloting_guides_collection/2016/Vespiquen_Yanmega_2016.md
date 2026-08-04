@@ -1,4 +1,4 @@
-# How to Pilot — Vespiquen/Yanmega (2016)
+# How to Pilot — Vespiquen (2016)
 
 _Format: XY Standard 2016. A Grass non-EX toolbox pairing **Vespiquen's** discard-
 scaling attack with the energy-free **Yanmega BREAK** — the archetype that took the

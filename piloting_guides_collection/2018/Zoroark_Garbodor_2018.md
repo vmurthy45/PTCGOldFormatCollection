@@ -1,4 +1,4 @@
-# How to Pilot — Zoroark Garbodor (2018)
+# How to Pilot — ZoroGarb (2018)
 
 _Format: Sun & Moon-on Standard 2018 (BKT–FLI, the Zoroark-GX era). "ZoroGarb" — this
 build mirrors Stephane Ivanoff's 2018 World Championship-**winning** list._

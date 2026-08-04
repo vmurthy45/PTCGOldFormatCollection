@@ -1,4 +1,4 @@
-# How to Pilot — Zoroark Lycanroc (2018)
+# How to Pilot — ZoroRoc (2018)
 
 _Format: Sun & Moon-on Standard 2018 (BKT–FLI). "ZoroRoc" — a Tier-1 (arguably the best)
 Zoroark-GX variant of the year._

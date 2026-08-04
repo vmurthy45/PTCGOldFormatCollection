@@ -1,4 +1,4 @@
-# How to Pilot — Flutter Devo Gardevoir (2025)
+# How to Pilot — Gardevoir (2025)
 
 _Format: Scarlet & Violet Standard 2025 (JTG/BLK-on, the "ex" era). This build mirrors the
 Munkidori/Scream Tail Gardevoir ex archetype — Riley McKay **won the 2025 World

@@ -513,9 +513,9 @@ const SECTIONS = [['Pokemon', 'Pokémon'], ['Trainer', 'Trainers'], ['Energy', '
 // Vig's favourite deck of each year — a star (pokéball-in-a-star) shows next
 // to these deck names. Edit this set to change the picks.
 const FAVOURITES = new Set([
-  'LuxChomp (2010)', 'Darkrai Mewtwo (2012)', 'Darkrai (2013)', 'Virizion/Genesect (2014)',
+  'LuxChomp (2010)', 'Darkrai Mewtwo (2012)', 'Darkrai (2013)', 'VirGen (2014)',
   "Archie's Blastoise (2015)", 'Night March (2016)', 'Espeon Garbodor (2017)',
-  'Zoroark Golisopod (2018)', 'Malamar (2019)', 'Combo Zacian (2020)', 'Spiritomb (2021)',
+  'ZoroPod (2018)', 'Malamar (2019)', 'Combo Zacian (2020)', 'Spiritomb (2021)',
   'Fusion Strike Mew (2022)', 'Colorless Lugia (2023)', 'Ancient Toolbox (2024)', 'Dragapult (2025)',
 ]);
 const FAV_STAR =
@@ -543,39 +543,39 @@ const TIERS = {
   'Blastoise (2013)': 'A', 'RayEels (2013)': 'A',
   'Gothitelle (2013)': 'B',
   // 2014 — XY-on (Plasma -> Fairy)
-  'Virizion/Genesect (2014)': 'S', 'Yveltal/Raichu (2014)': 'S',
+  'VirGen (2014)': 'S', 'Yveltal/Raichu (2014)': 'S',
   'TDK (2014)': 'A',
   'Mega Kangaskhan (2014)': 'B',
   // 2015 — XY-on Seismitoad era
-  'Seismitoad Crobat (2015)': 'S',
+  'ToadBats (2015)': 'S',
   'Lando Bats (2015)': 'A', "Archie's Blastoise (2015)": 'A',
   // 2016 — XY-on Night March era
   'Night March (2016)': 'S',
   'Darkrai Giratina (2016)': 'A', 'Greninja (2016)': 'A',
-  'Vespiquen Yanmega (2016)': 'B', 'Mega Audino (2016)': 'B',
+  'Vespiquen (2016)': 'B', 'Mega Audino (2016)': 'B',
   // 2017 — SM Guardians Rising Standard
-  'Gardevoir-GX (2017)': 'S', 'Decidueye/Golisopod (2017)': 'S',
-  'Espeon Garbodor (2017)': 'A', 'Golisopod/Garbodor (2017)': 'A',
-  'Drampa Zoroark (2017)': 'A', 'Decidueye Ninetales (2017)': 'A',
+  'Gardevoir-GX (2017)': 'S', 'DeciPod (2017)': 'S',
+  'Espeon Garbodor (2017)': 'A', 'GoliGarb (2017)': 'A',
+  'Drampa Zoroark (2017)': 'A', 'DeciTales (2017)': 'A',
   'Tapu Bulu Vikavolt (2017)': 'A',
   'Alolan Ninetales (2017)': 'B', 'Ho-Oh Salazzle (2017)': 'B',
   'Mega Rayquaza (2017)': 'B',
   // 2018 — SM Zoroark-GX Standard
-  'Zoroark Garbodor (2018)': 'S', 'Zoroark Lycanroc (2018)': 'S',
-  'Zoroark Golisopod (2018)': 'S',
+  'ZoroGarb (2018)': 'S', 'ZoroRoc (2018)': 'S',
+  'ZoroPod (2018)': 'S',
   'Buzzwole Lycanroc (2018)': 'A',
-  'Zoroark Gardevoir (2018)': 'B', 'Banette Garbodor (2018)': 'B',
-  'Buzz Garb Shrine (2018)': 'B', 'Greninja (2018)': 'B', 'Rayquaza (2018)': 'B',
+  'ZoroGardy (2018)': 'B', 'Banette Garbodor (2018)': 'B',
+  'Buzz Garb Shrine (2018)': 'B', 'Greninja (2018)': 'B', 'Turbo Rayquaza (2018)': 'B',
   // 2019 — SM Tag Team GX Standard (Team Up -> Unified Minds)
   'Perfection Mewtwo (2019)': 'S', "Green's Reshizard (2019)": 'S',
   'Pikarom Judge (2019)': 'S',
-  'Malamar (2019)': 'A', 'Blacephalon GX (2019)': 'A', 'ReshiZard Firebox (2019)': 'A',
+  'Malamar (2019)': 'A', 'Blacephalon GX (2019)': 'A', 'Reshizard Firebox (2019)': 'A',
   'Whimsicott GX (2019)': 'B',
   // 2020 — ADP / Players Cup Standard
   'ADP Zacian (2020)': 'A', 'Combo Zacian (2020)': 'A', 'Cinccino Mill (2020)': 'A',
   'Baby Blacephalon (2020)': 'A',
   // 2021 — SSH VMAX Standard (Battle Styles -> Chilling Reign)
-  'Shadow Rider Calyrex (2021)': 'S', 'Ice Rider Calyrex (2021)': 'S',
+  'Shadow Rider (2021)': 'S', 'Ice Rider (2021)': 'S',
   'Rapid Strike Urshifu (2021)': 'A', 'Eternatus VMAX (2021)': 'A',
   'Spiritomb (2021)': 'B',
   // 2022 — SSH VSTAR / Fusion Strike Standard
@@ -584,13 +584,13 @@ const TIERS = {
   'Malamar Rapid Strike (2022)': 'B',
   // 2023 — SSH->SV transition Standard
   'Colorless Lugia (2023)': 'S', 'Lost Box Kyogre (2023)': 'S', 'Gardevoir (2023)': 'S',
-  'Mew (Fusion Strike) (2023)': 'A',
+  'Fusion Strike Mew (2023)': 'A',
   // 2024 — SV Standard (Paradox Rift -> Shrouded Fable)
-  'Miraidon (2024)': 'S', 'Regidrago VSTAR (2024)': 'S',
+  'Miraidon (2024)': 'S', 'Regidrago (2024)': 'S',
   'Ancient Toolbox (2024)': 'A', 'Iron Thorns (2024)': 'A',
   // 2025 — SV Standard (Surging Sparks -> Destined Rivals)
   'Dragapult (2025)': 'S', 'Raging Bolt (2025)': 'S',
-  'Joltdengo (2025)': 'A', 'Flutter Devo Gardevoir (2025)': 'A',
+  'Joltdengo (2025)': 'A', 'Gardevoir (2025)': 'A',
 };
 const tierBadge = (t) =>
   `<span class="tier-badge tier-${t}" title="Tier ${t}">${t}</span>`;
@@ -728,11 +728,11 @@ function render(){
     const head = document.createElement('div');
     head.className = 'deck-head';
     // Under the Missing filter the badge shows how many copies are short;
-    // otherwise just the deck size. A deck with missing cards is flagged
-    // subtly by tinting its name (.has-missing), not with a loud badge.
+    // otherwise the count of cards actually owned (deck size minus any missing),
+    // and the pill is tinted (.has-missing) so a short deck stands out.
     const metaHtml = missingOnly
       ? `<span class="count-badge miss">${deckMissing} missing</span>`
-      : `<span class="count-badge">${total} cards</span>`;
+      : `<span class="count-badge">${total - deckMissing} cards</span>`;
     if(deckMissing > 0) head.classList.add('has-missing');
     head.innerHTML = `<span class="title">${hl(deck, query)}${FAVOURITES.has(deck) ? FAV_STAR : ''}${TIERS[deck] ? tierBadge(TIERS[deck]) : ''}</span>
       <span class="meta">${metaHtml} <span class="arrow">▼</span></span>`;

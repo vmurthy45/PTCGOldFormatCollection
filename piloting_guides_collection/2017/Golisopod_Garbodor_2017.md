@@ -1,4 +1,4 @@
-# How to Pilot — Golisopod/Garbodor (2017)
+# How to Pilot — GoliGarb (2017)
 
 _Format: Sun & Moon-on Standard, **late 2017 / Worlds era** (Burning Shadows). "Golisodor"
 — this build mirrors Naoto Suzuki's 2017 World Championship **finalist** list._

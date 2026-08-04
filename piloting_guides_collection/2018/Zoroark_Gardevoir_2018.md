@@ -1,4 +1,4 @@
-# How to Pilot — Zoroark Gardevoir (2018)
+# How to Pilot — ZoroGardy (2018)
 
 _Format: Sun & Moon-on Standard 2018 (BKT–FLI). "ZoroGard" — a Tier-1 Zoroark-GX variant
 pairing the format's best draw engine with Gardevoir-GX's scaling Fairy attacker._

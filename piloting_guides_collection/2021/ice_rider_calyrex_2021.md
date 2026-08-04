@@ -1,4 +1,4 @@
-# How to Pilot — Ice Rider Calyrex (2021)
+# How to Pilot — Ice Rider (2021)
 
 _Format: Standard 2021 (TEU–CRE, the Players Cup IV card pool). This build mirrors **Christian
 Hasbani's 9th-place** Players Cup IV list._

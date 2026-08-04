@@ -1,4 +1,4 @@
-# How to Pilot — Zoroark Golisopod (2018)
+# How to Pilot — ZoroPod (2018)
 
 _Format: Sun & Moon-on Standard 2018 (BKT–FLI). "ZoroPod" — a Tier-1 Zoroark-GX variant
 (Masters Worlds Top-8 archetype)._

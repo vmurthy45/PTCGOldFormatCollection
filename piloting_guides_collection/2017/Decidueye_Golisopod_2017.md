@@ -1,4 +1,4 @@
-# How to Pilot — Decidueye/Golisopod (2017)
+# How to Pilot — DeciPod (2017)
 
 _Format: Sun & Moon-on Standard, **late 2017 / Worlds era** (Burning Shadows — note
 Guzma/Acerola). A Grass toolbox pairing Decidueye-GX's snipe with Golisopod-GX's

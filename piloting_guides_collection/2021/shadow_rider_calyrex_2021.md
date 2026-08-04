@@ -1,4 +1,4 @@
-# How to Pilot — Shadow Rider Calyrex (2021)
+# How to Pilot — Shadow Rider (2021)
 
 _Format: Standard 2021 (TEU–CRE, the Players Cup IV card pool). This build mirrors **Dan
 Hugar's 9th-place** Players Cup IV list._

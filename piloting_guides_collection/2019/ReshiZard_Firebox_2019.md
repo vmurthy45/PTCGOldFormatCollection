@@ -1,4 +1,4 @@
-# How to Pilot — ReshiZard Firebox (2019)
+# How to Pilot — Reshizard Firebox (2019)
 
 _Format: Sun & Moon-on Standard 2019 (TEU–UNM). The Jirachi/Dedenne-GX ("Firebox")
 aggressive variant of Reshiram & Charizard-GX — the most popular deck of the format._

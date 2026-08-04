@@ -1,4 +1,4 @@
-# How to Pilot — Decidueye Ninetales (2017)
+# How to Pilot — DeciTales (2017)
 
 _Format: **SM-base–Burning Shadows Standard** (the 2017 World Championship format — Burning
 Shadows legal, so **Guzma** not Lysandre). A straight Decidueye-GX build with an Alolan

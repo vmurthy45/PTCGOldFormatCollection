@@ -1,4 +1,4 @@
-# How to Pilot — Mew (Fusion Strike) (2023)
+# How to Pilot — Fusion Strike Mew (2023)
 
 _Format: Scarlet & Violet-on Standard 2023 (post-rotation). The Fusion Strike **Mew VMAX**
 deck carried into the SV format — still fast, consistent, and combo-driven._

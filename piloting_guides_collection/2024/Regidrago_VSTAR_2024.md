@@ -1,4 +1,4 @@
-# How to Pilot — Regidrago VSTAR (2024)
+# How to Pilot — Regidrago (2024)
 
 _Format: Scarlet & Violet Standard 2024 (TWM-on, the Teal Mask Ogerpon era). This build
 mirrors Evan Pavelski's 2024 Senior World Championship-**winning** Regidrago VSTAR — the
