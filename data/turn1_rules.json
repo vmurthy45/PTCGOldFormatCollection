@@ -21,6 +21,27 @@
       }
     ]
   },
+  "2011": {
+    "flip": "Winner Goes First",
+    "rules": [
+      {
+        "label": "Items",
+        "allowed": true
+      },
+      {
+        "label": "Supporters",
+        "allowed": true
+      },
+      {
+        "label": "Stadium",
+        "allowed": true
+      },
+      {
+        "label": "Attack",
+        "allowed": true
+      }
+    ]
+  },
   "2012": {
     "flip": "Winner Goes First",
     "rules": [

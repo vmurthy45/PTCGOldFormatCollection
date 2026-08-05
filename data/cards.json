@@ -3272,7 +3272,7 @@
   {
     "year": "2015",
     "deck": "Archie's Blastoise (2015)",
-    "count": 3,
+    "count": 4,
     "name": "Keldeo-EX",
     "set": "49/149",
     "category": "Pokemon",
@@ -3322,15 +3322,6 @@
     "set": "54/113",
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/bw11/54_hires.png"
-  },
-  {
-    "year": "2015",
-    "deck": "Archie's Blastoise (2015)",
-    "count": 1,
-    "name": "Wailord-EX",
-    "set": "38/160",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/xy5/38_hires.png"
   },
   {
     "year": "2015",
@@ -5895,7 +5886,8 @@
     "name": "VS Seeker",
     "set": "109/119",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy4/109_hires.png"
+    "image": "https://images.pokemontcg.io/xy4/109_hires.png",
+    "missing": 3
   },
   {
     "year": "2017",
@@ -6057,7 +6049,8 @@
     "name": "Hex Maniac",
     "set": "75/98",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy7/75_hires.png"
+    "image": "https://images.pokemontcg.io/xy7/75_hires.png",
+    "missing": 1
   },
   {
     "year": "2017",
@@ -6066,7 +6059,8 @@
     "name": "N",
     "set": "105/124",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy10/105_hires.png"
+    "image": "https://images.pokemontcg.io/xy10/105_hires.png",
+    "missing": 1
   },
   {
     "year": "2017",
@@ -6093,7 +6087,8 @@
     "name": "VS Seeker",
     "set": "109/119",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy4/109_hires.png"
+    "image": "https://images.pokemontcg.io/xy4/109_hires.png",
+    "missing": 3
   },
   {
     "year": "2017",
@@ -6678,7 +6673,8 @@
     "name": "N",
     "set": "105/124",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy10/105_hires.png"
+    "image": "https://images.pokemontcg.io/xy10/105_hires.png",
+    "missing": 2
   },
   {
     "year": "2017",
@@ -6705,7 +6701,8 @@
     "name": "Brigette",
     "set": "134/162",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy8/134_hires.png"
+    "image": "https://images.pokemontcg.io/xy8/134_hires.png",
+    "missing": 1
   },
   {
     "year": "2017",
@@ -8208,7 +8205,8 @@
     "name": "Brigette",
     "set": "134/162",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy8/134_hires.png"
+    "image": "https://images.pokemontcg.io/xy8/134_hires.png",
+    "missing": 4
   },
   {
     "year": "2018",
@@ -8271,7 +8269,8 @@
     "name": "Evosoda",
     "set": "62/83",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/g1/62_hires.png"
+    "image": "https://images.pokemontcg.io/g1/62_hires.png",
+    "missing": 1
   },
   {
     "year": "2018",
@@ -8289,7 +8288,8 @@
     "name": "Puzzle of Time",
     "set": "109/122",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy9/109_hires.png"
+    "image": "https://images.pokemontcg.io/xy9/109_hires.png",
+    "missing": 1
   },
   {
     "year": "2018",
@@ -8316,7 +8316,8 @@
     "name": "Parallel City",
     "set": "145/162",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy8/145_hires.png"
+    "image": "https://images.pokemontcg.io/xy8/145_hires.png",
+    "missing": 1
   },
   {
     "year": "2018",
