@@ -144,7 +144,13 @@
   .t1-tile-panel.open{display:block}
   /* landing intro / how-to blurb (shown when no year is selected) */
   .home-blurb{max-width:640px; margin:6px auto 0; color:var(--ink); line-height:1.55; font-size:14.5px; text-align:left}
-  .home-blurb .home-title{font-family:'Poppins',sans-serif; font-size:19px; font-weight:600; margin:0 0 14px; color:var(--ink)}
+  .home-blurb .home-title{font-family:'Poppins',sans-serif; font-size:19px; font-weight:600; margin:32px 0 14px; color:var(--ink)}
+  .home-blurb .home-title:first-child{margin-top:0}
+  .home-blurb .blurb-a,
+  .home-blurb .blurb-link{color:var(--red-dark); font-weight:600; text-decoration:underline; cursor:pointer}
+  .home-blurb .blurb-link{text-decoration-style:dotted; text-underline-offset:2px}
+  .home-blurb .blurb-a:hover,
+  .home-blurb .blurb-link:hover{color:var(--red)}
   .home-blurb p{margin:0 0 12px}
   .home-blurb h3{font-family:'Poppins',sans-serif; font-size:15px; font-weight:600; margin:20px 0 8px}
   .home-blurb ul{margin:0; padding-left:20px}
@@ -521,6 +527,20 @@ function openCardModal(card){
   modalBody.appendChild(cap);
   modal.hidden = false;
 }
+// Generic image popup (reuses the card modal) for the About-me photos.
+function openImageModal(src, caption){
+  modalBody.innerHTML = '';
+  const img = document.createElement('img');
+  img.src = src; img.alt = caption || '';
+  modalBody.appendChild(img);
+  if(caption){
+    const cap = document.createElement('div');
+    cap.className = 'modal-caption';
+    cap.textContent = caption;
+    modalBody.appendChild(cap);
+  }
+  modal.hidden = false;
+}
 modal.addEventListener('click', e => { if(e.target === modal) modal.hidden = true; });
 modal.querySelector('.modal-close').onclick = () => modal.hidden = true;
 document.addEventListener('keydown', e => { if(e.key === 'Escape') modal.hidden = true; });
@@ -624,20 +644,20 @@ function renderHomeBlurbHtml(){
     <h2 class="home-title">About this site</h2>
     <p>This is a collection of <strong>${n} competitive decks</strong> from the Pokémon
     Trading Card Game <strong>World Championships</strong> format, spanning
-    <strong>${lo}–${hi}</strong>. It aims to be a historical record of the prevalent decks
-    that shaped the metagame in each season's format — the archetypes that defined how the
+    <strong>${lo}-${hi}</strong>. It aims to be a historical record of the prevalent decks
+    that shaped the metagame in each season's format - the archetypes that defined how the
     game was actually played, year by year.</p>
     <p>Every entry is a complete 60-card list with card images, grouped by the year of the
     World Championship it was played in. Some lists are decks that placed well at the World
     Championships, others are lists played by me through the season.</p>
     <p>Two markers sit next to each deck's name: a
-    ${FAV_STAR} flags my favourite decks of that year, and a tier badge —
-    ${tierBadge('S')} ${tierBadge('A')} ${tierBadge('B')} — rates how the deck stacked up
+    ${FAV_STAR} flags my favourite decks of that year, and a tier badge -
+    ${tierBadge('S')} ${tierBadge('A')} ${tierBadge('B')} - rates how the deck stacked up
     within its own format (S = format-defining, A = top tier, B = solid or rogue).</p>
     <h3>How to use the site</h3>
     <ul>
       <li>Pick a <strong>year</strong> above (or <strong>All</strong>) to browse that
-      format's decks. Each deck row expands to its full card list — tap any card for its image.</li>
+      format's decks. Each deck row expands to its full card list - tap any card for its image.</li>
       <li><strong>See Guide</strong> on a deck opens a piloting guide: the game plan, key
       cards, ideal opening, and tough matchups.</li>
       <li><strong>Turn 1 Rules</strong> shows what the player going first
@@ -646,7 +666,33 @@ function renderHomeBlurbHtml(){
       aggregated <strong>Card Collection</strong> view (every card across all decks, with CSV
       export).</li>
     </ul>
+    <h2 class="home-title">About me</h2>
+    <p>The decks in this collection were curated by me, <strong>Vig M.</strong> I was a
+    <a class="blurb-a" href="https://limitlesstcg.com/players/179" target="_blank" rel="noopener noreferrer">Pokémon
+    TCG player</a> from New Zealand and I played competitively from
+    <strong>2013-2020</strong>. My start in the Pokémon TCG was by pure chance - I happened to
+    purchase a booster pack from EB Games on a whim and pulled a full-art Heatran-EX in my very
+    first pack. That <span class="blurb-link" data-img="images/heatran.jpeg" data-cap="Heatran-EX - my very first pull">same
+    Heatran-EX</span> card is still in my collection to this day, and my love and obsession with
+    the Pokémon TCG only grew from there.</p>
+    <p>Over the years, I qualified for the 2014, 2016, 2017, and 2019 Pokémon World
+    Championships, attending each from 2016 onwards. My accomplishments range from City
+    Championship victories to an undefeated Special Event run, with career highlights including
+    making Day 2 at OCIC 2017 with a <span class="blurb-link" data-img="images/gyarados.jpg" data-cap="Gyarados - OCIC 2017 (Day 2)">rogue
+    Gyarados deck</span>, Day 2 at Worlds 2017 with Tapu Bulu Vikavolt (the exact 60 cards are
+    featured in this collection), and a <span class="blurb-link" data-img="images/special.jpg" data-cap="1st place - 2018 Melbourne Special Event (VikaRay)">1st-place
+    finish</span> at the 2018 Melbourne Special Event with a Rayquaza Vikavolt deck - a deck
+    optimised by my team, Altaria Motive.</p>
+    <p>I retired from competitive play when Play! Pokémon events were cancelled due to the
+    COVID-19 pandemic. I hope the knowledge and history captured on this site are useful to
+    Pokémon TCG fans around the world.</p>
   </div>`;
+}
+// Wire the About-me photo links to the image modal after the blurb is inserted.
+function wireHomeBlurb(){
+  document.querySelectorAll('#list .home-blurb .blurb-link').forEach(el => {
+    el.onclick = () => openImageModal(el.dataset.img, el.dataset.cap || '');
+  });
 }
 
 const SECTIONS = [['Pokemon', 'Pokémon'], ['Trainer', 'Trainers'], ['Energy', 'Energy']];
@@ -821,7 +867,7 @@ function render(){
     document.getElementById('list').innerHTML = showT1
       ? renderT1AggregateHtml()
       : renderHomeBlurbHtml();
-    if(showT1) wireT1Aggregate();
+    if(showT1) wireT1Aggregate(); else wireHomeBlurb();
     const tb = document.getElementById('t1LandingBtn');
     if(tb) tb.classList.toggle('active', showT1);
     return;
