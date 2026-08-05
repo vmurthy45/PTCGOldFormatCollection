@@ -144,6 +144,7 @@
   .t1-tile-panel.open{display:block}
   /* landing intro / how-to blurb (shown when no year is selected) */
   .home-blurb{max-width:640px; margin:6px auto 0; color:var(--ink); line-height:1.55; font-size:14.5px; text-align:left}
+  .home-blurb .home-title{font-family:'Poppins',sans-serif; font-size:19px; font-weight:600; margin:0 0 14px; color:var(--ink)}
   .home-blurb p{margin:0 0 12px}
   .home-blurb h3{font-family:'Poppins',sans-serif; font-size:15px; font-weight:600; margin:20px 0 8px}
   .home-blurb ul{margin:0; padding-left:20px}
@@ -620,13 +621,16 @@ function renderHomeBlurbHtml(){
   const nums = YEARS.map(y => parseInt(y, 10)).filter(x => !isNaN(x));
   const lo = Math.min(...nums), hi = Math.max(...nums);
   return `<div class="home-blurb">
+    <h2 class="home-title">About this site</h2>
     <p>This is a collection of <strong>${n} competitive decks</strong> from the Pokémon
     Trading Card Game <strong>World Championships</strong> format, spanning
     <strong>${lo}–${hi}</strong>. It aims to be a historical record of the prevalent decks
     that shaped the metagame in each season's format — the archetypes that defined how the
     game was actually played, year by year.</p>
     <p>Every entry is a complete 60-card list with card images, grouped by the year of the
-    World Championship it was played in. Two markers sit next to each deck's name: a
+    World Championship it was played in. Some lists are decks that placed well at the World
+    Championships, others are lists played by me through the season. Two markers sit next to
+    each deck's name: a
     ${FAV_STAR} flags my favourite deck of that year, and a tier badge —
     ${tierBadge('S')} ${tierBadge('A')} ${tierBadge('B')} — rates how the deck stacked up
     within its own format (S = format-defining, A = top tier, B = solid or rogue).</p>
@@ -654,6 +658,9 @@ const FAVOURITES = new Set([
   "Archie's Blastoise (2015)", 'Night March (2016)', 'Espeon Garbodor (2017)',
   'ZoroPod (2018)', 'Malamar (2019)', 'Combo Zacian (2020)', 'Spiritomb (2021)',
   'Fusion Strike Mew (2022)', 'Colorless Lugia (2023)', 'Ancient Toolbox (2024)', 'Dragapult (2025)',
+  'TDK (2013)', 'Yveltal/Raichu (2014)', 'ToadBats (2015)', 'DeciTales (2017)',
+  'Tapu Bulu Vikavolt (2017)', 'Perfection Mewtwo (2019)', 'Baby Blacephalon (2020)',
+  'Gardevoir (2025)', 'Dragapult Dusknoir (2026)', "Cynthia's Garchomp (2026)",
 ]);
 const FAV_STAR =
   '<svg class="fav-star" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" aria-label="favourite deck" role="img">' +
