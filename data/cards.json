@@ -15898,8 +15898,7 @@
     "name": "Team Rocket's Porygon",
     "set": "153/182",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sv10/153_hires.png",
-    "missing": 2
+    "image": "https://images.pokemontcg.io/sv10/153_hires.png"
   },
   {
     "year": "2026",
@@ -15908,8 +15907,7 @@
     "name": "Team Rocket's Porygon2",
     "set": "154/182",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sv10/154_hires.png",
-    "missing": 1
+    "image": "https://images.pokemontcg.io/sv10/154_hires.png"
   },
   {
     "year": "2026",
@@ -15991,8 +15989,7 @@
     "name": "Roto-Stick",
     "set": "127/131",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sv8pt5/127_hires.png",
-    "missing": 1
+    "image": "https://images.pokemontcg.io/sv8pt5/127_hires.png"
   },
   {
     "year": "2026",
@@ -16832,7 +16829,6 @@
     "count": 1,
     "name": "Unfair Stamp",
     "set": "165/167",
-    "missing": 1,
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/sv6/165_hires.png"
   },
@@ -16923,7 +16919,6 @@
     "count": 1,
     "name": "Dedenne",
     "set": "87/191",
-    "missing": 1,
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/sv8/87_hires.png"
   },
@@ -16933,7 +16928,6 @@
     "count": 1,
     "name": "Elgyem",
     "set": "40/86",
-    "missing": 1,
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/zsv10pt5/40_hires.png"
   },
@@ -16962,7 +16956,6 @@
     "count": 1,
     "name": "Shaymin",
     "set": "10/182",
-    "missing": 1,
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/sv10/10_hires.png"
   },
@@ -16972,7 +16965,6 @@
     "count": 4,
     "name": "Dawn",
     "set": "87/94",
-    "missing": 4,
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/me2/87_hires.png"
   },
@@ -16982,7 +16974,6 @@
     "count": 3,
     "name": "Hilda",
     "set": "84/86",
-    "missing": 3,
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/rsv10pt5/84_hires.png"
   },
@@ -17093,7 +17084,7 @@
     "count": 4,
     "name": "Nighttime Mine",
     "set": "197/217",
-    "missing": 4,
+    "missing": 3,
     "category": "Trainer",
     "image": "https://images.scrydex.com/pokemon/me2pt5-197/large"
   },
@@ -17203,7 +17194,6 @@
     "count": 1,
     "name": "Shaymin",
     "set": "10/182",
-    "missing": 1,
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/sv10/10_hires.png"
   },
