@@ -36,6 +36,60 @@ NAME_FIXES = {
 # (name, set) -> image URL, for prints the CSV flagged as "Not Found"/"Error"
 # with no working row at all. Verified HTTP 200 before adding.
 URL_OVERRIDES = {
+    # Charizard Pidgeot (2025)
+    ("Charmander", "7/91"): "https://images.pokemontcg.io/sv4pt5/7_hires.png",
+    ("Charmeleon", "5/165"): "https://images.pokemontcg.io/sv3pt5/5_hires.png",
+    ("Charizard ex", "125/197"): "https://images.pokemontcg.io/sv3/125_hires.png",
+    ("Pidgey", "162/197"): "https://images.pokemontcg.io/sv3/162_hires.png",
+    ("Pidgeotto", "17/165"): "https://images.pokemontcg.io/sv3pt5/17_hires.png",
+    ("Pidgeot ex", "164/197"): "https://images.pokemontcg.io/sv3/164_hires.png",
+    ("Cleffa", "80/197"): "https://images.pokemontcg.io/sv3/80_hires.png",
+    ("Chi-Yu", "29/182"): "https://images.pokemontcg.io/sv4/29_hires.png",
+    ("Fezandipiti ex", "38/64"): "https://images.pokemontcg.io/sv6pt5/38_hires.png",
+    ("Arven", "186/197"): "https://images.pokemontcg.io/sv3/186_hires.png",
+    ("Iono", "185/193"): "https://images.pokemontcg.io/sv2/185_hires.png",
+    ("Jacq", "175/198"): "https://images.pokemontcg.io/sv1/175_hires.png",
+    ("Briar", "132/142"): "https://images.pokemontcg.io/sv7/132_hires.png",
+    ("Rare Candy", "191/198"): "https://images.pokemontcg.io/sv1/191_hires.png",
+    ("Counter Catcher", "160/182"): "https://images.pokemontcg.io/sv4/160_hires.png",
+    ("Super Rod", "188/193"): "https://images.pokemontcg.io/sv2/188_hires.png",
+    ("Nest Ball", "181/198"): "https://images.pokemontcg.io/sv1/181_hires.png",
+    ("Technical Machine: Evolution", "178/182"): "https://images.pokemontcg.io/sv4/178_hires.png",
+    ("Air Balloon", "79/86"): "https://images.pokemontcg.io/zsv10pt5/79_hires.png",
+    ("Maximum Belt", "154/162"): "https://images.pokemontcg.io/sv5/154_hires.png",
+    ("Artazon", "171/193"): "https://images.pokemontcg.io/sv2/171_hires.png",
+    ("Mist Energy", "161/162"): "https://images.pokemontcg.io/sv5/161_hires.png",
+    # Slowking (2026)
+    ("Slowpoke", "57/142"): "https://images.pokemontcg.io/sv7/57_hires.png",
+    ("Slowking", "58/142"): "https://images.pokemontcg.io/sv7/58_hires.png",
+    ("Mega Kangaskhan ex", "104/132"): "https://images.pokemontcg.io/me1/104_hires.png",
+    ("Latias ex", "76/191"): "https://images.pokemontcg.io/sv8/76_hires.png",
+    ("Kyurem", "47/64"): "https://images.pokemontcg.io/sv6pt5/47_hires.png",
+    ("Metagross", "61/86"): "https://images.scrydex.com/pokemon/me4-61/large",
+    ("Zeraora", "78/182"): "https://images.pokemontcg.io/sv10/78_hires.png",
+    ("Ciphermaniac's Codebreaking", "145/162"): "https://images.pokemontcg.io/sv5/145_hires.png",
+    ("Wondrous Patch", "94/94"): "https://images.pokemontcg.io/me2/94_hires.png",
+    ("Switch", "130/132"): "https://images.pokemontcg.io/me1/130_hires.png",
+    ("Brave Bangle", "80/86"): "https://images.pokemontcg.io/rsv10pt5/80_hires.png",
+    ("Academy at Night", "54/64"): "https://images.pokemontcg.io/sv6pt5/54_hires.png",
+    ("Boomerang Energy", "166/167"): "https://images.pokemontcg.io/sv6/166_hires.png",
+    # N's Zoroark (2026)
+    ("N's Zorua", "97/159"): "https://images.pokemontcg.io/sv9/97_hires.png",
+    ("N's Zoroark ex", "98/159"): "https://images.pokemontcg.io/sv9/98_hires.png",
+    ("N's Zekrom", "155/217"): "https://images.scrydex.com/pokemon/me2pt5-155/large",
+    ("N's Darumaka", "26/159"): "https://images.pokemontcg.io/sv9/26_hires.png",
+    ("N's Darmanitan", "27/159"): "https://images.pokemontcg.io/sv9/27_hires.png",
+    ("Tatsugiri", "131/167"): "https://images.pokemontcg.io/sv6/131_hires.png",
+    ("Yveltal", "88/132"): "https://images.pokemontcg.io/me1/88_hires.png",
+    ("Pecharunt ex", "39/64"): "https://images.pokemontcg.io/sv6pt5/39_hires.png",
+    ("Cyrano", "170/191"): "https://images.pokemontcg.io/sv8/170_hires.png",
+    ("Black Belt's Training", "143/159"): "https://images.pokemontcg.io/sv9/143_hires.png",
+    ("Ruffian", "157/159"): "https://images.pokemontcg.io/sv9/157_hires.png",
+    ("Transformation Tome", "83/86"): "https://images.scrydex.com/pokemon/me4-83/large",
+    ("N's PP Up", "153/159"): "https://images.pokemontcg.io/sv9/153_hires.png",
+    ("Secret Box", "163/167"): "https://images.pokemontcg.io/sv6/163_hires.png",
+    ("Binding Mochi", "95/131"): "https://images.pokemontcg.io/sv8pt5/95_hires.png",
+    ("N's Castle", "152/159"): "https://images.pokemontcg.io/sv9/152_hires.png",
     # Hide 'n' Sneak (2026) — PBL = me5 (Pitch Black), scrydex-hosted
     ("Dhelmise", "39/84"): "https://images.scrydex.com/pokemon/me5-39/large",
     ("Shuppet", "33/84"): "https://images.scrydex.com/pokemon/me5-33/large",
@@ -274,6 +328,15 @@ URL_OVERRIDES = {
     ("Darkness Energy", ""): "https://images.pokemontcg.io/xy1/138_hires.png",
     ("Metal Energy", ""): "https://images.pokemontcg.io/xy1/139_hires.png",
     ("Fairy Energy", ""): "https://images.pokemontcg.io/xy1/140_hires.png",
+    # Rocket's Mewtwo (2026). All pokemontcg.io-hosted (DRI=sv10, MEG=me1, TWM=sv6).
+    # The rest of the deck reuses overrides already present above (Team Rocket's
+    # supporters, Lillie's line, Ultra Ball, Night Stretcher, Lucky Helmet, etc.).
+    ("Team Rocket's Tarountula", "19/182"): "https://images.pokemontcg.io/sv10/19_hires.png",
+    ("Team Rocket's Spidops", "20/182"): "https://images.pokemontcg.io/sv10/20_hires.png",
+    ("Team Rocket's Mewtwo ex", "81/182"): "https://images.pokemontcg.io/sv10/81_hires.png",
+    ("Team Rocket's Mimikyu", "87/182"): "https://images.pokemontcg.io/sv10/87_hires.png",
+    ("Bug Catching Set", "143/167"): "https://images.pokemontcg.io/sv6/143_hires.png",
+    ("Energy Switch", "115/132"): "https://images.pokemontcg.io/me1/115_hires.png",
 }
 
 
