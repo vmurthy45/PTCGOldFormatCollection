@@ -16898,16 +16898,44 @@
   {
     "year": "2026",
     "deck": "Alakazam (2026)",
-    "count": 3,
+    "count": 2,
+    "name": "Pikipek",
+    "set": "66/84",
+    "category": "Pokemon",
+    "image": "https://images.scrydex.com/pokemon/me5-66/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 1,
+    "name": "Trumbeak",
+    "set": "67/84",
+    "category": "Pokemon",
+    "image": "https://images.scrydex.com/pokemon/me5-67/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 2,
+    "name": "Toucannon",
+    "set": "68/84",
+    "category": "Pokemon",
+    "image": "https://images.scrydex.com/pokemon/me5-68/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 2,
     "name": "Dunsparce",
     "set": "120/159",
+    "missing": 2,
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/sv9/120_hires.png"
   },
   {
     "year": "2026",
     "deck": "Alakazam (2026)",
-    "count": 3,
+    "count": 2,
     "name": "Dudunsparce",
     "set": "129/162",
     "category": "Pokemon",
@@ -16917,29 +16945,19 @@
     "year": "2026",
     "deck": "Alakazam (2026)",
     "count": 1,
-    "name": "Dedenne",
-    "set": "87/191",
+    "name": "Shaymin",
+    "set": "10/182",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sv8/87_hires.png"
+    "image": "https://images.pokemontcg.io/sv10/10_hires.png"
   },
   {
     "year": "2026",
     "deck": "Alakazam (2026)",
     "count": 1,
-    "name": "Elgyem",
-    "set": "40/86",
+    "name": "Psyduck",
+    "set": "39/217",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/zsv10pt5/40_hires.png"
-  },
-  {
-    "year": "2026",
-    "deck": "Alakazam (2026)",
-    "count": 1,
-    "name": "Genesect",
-    "set": "40/64",
-    "missing": 1,
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sv6pt5/40_hires.png"
+    "image": "https://images.scrydex.com/pokemon/me2pt5-39/large"
   },
   {
     "year": "2026",
@@ -16954,10 +16972,11 @@
     "year": "2026",
     "deck": "Alakazam (2026)",
     "count": 1,
-    "name": "Shaymin",
-    "set": "10/182",
+    "name": "Genesect",
+    "set": "40/64",
+    "missing": 1,
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sv10/10_hires.png"
+    "image": "https://images.pokemontcg.io/sv6pt5/40_hires.png"
   },
   {
     "year": "2026",
@@ -16974,6 +16993,7 @@
     "count": 3,
     "name": "Hilda",
     "set": "84/86",
+    "missing": 3,
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/rsv10pt5/84_hires.png"
   },
@@ -17001,6 +17021,7 @@
     "count": 4,
     "name": "Buddy-Buddy Poffin",
     "set": "144/162",
+    "missing": 3,
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/sv5/144_hires.png"
   },
@@ -17025,11 +17046,11 @@
   {
     "year": "2026",
     "deck": "Alakazam (2026)",
-    "count": 2,
-    "name": "Enhanced Hammer",
-    "set": "148/167",
+    "count": 1,
+    "name": "Night Stretcher",
+    "set": "196/217",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sv6/148_hires.png"
+    "image": "https://images.scrydex.com/pokemon/me2pt5-196/large"
   },
   {
     "year": "2026",
@@ -17044,19 +17065,10 @@
     "year": "2026",
     "deck": "Alakazam (2026)",
     "count": 1,
-    "name": "Night Stretcher",
-    "set": "196/217",
+    "name": "Enhanced Hammer",
+    "set": "148/167",
     "category": "Trainer",
-    "image": "https://images.scrydex.com/pokemon/me2pt5-196/large"
-  },
-  {
-    "year": "2026",
-    "deck": "Alakazam (2026)",
-    "count": 1,
-    "name": "Lucky Helmet",
-    "set": "158/167",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sv6/158_hires.png"
+    "image": "https://images.pokemontcg.io/sv6/148_hires.png"
   },
   {
     "year": "2026",
@@ -17079,12 +17091,29 @@
   {
     "year": "2026",
     "deck": "Alakazam (2026)",
-    "count": 4,
+    "count": 1,
+    "name": "Lucky Helmet",
+    "set": "158/167",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sv6/158_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 2,
     "name": "Nighttime Mine",
     "set": "197/217",
-    "missing": 3,
     "category": "Trainer",
     "image": "https://images.scrydex.com/pokemon/me2pt5-197/large"
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 1,
+    "name": "Battle Cage",
+    "set": "85/94",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/me2/85_hires.png"
   },
   {
     "year": "2026",
@@ -17110,9 +17139,9 @@
     "count": 1,
     "name": "Enriching Energy",
     "set": "191/191",
+    "missing": 1,
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/sv8/191_hires.png",
-    "missing": 1
+    "image": "https://images.pokemontcg.io/sv8/191_hires.png"
   },
   {
     "year": "2026",
@@ -17129,7 +17158,6 @@
     "count": 3,
     "name": "Dunsparce",
     "set": "120/159",
-    "missing": 1,
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/sv9/120_hires.png"
   },
@@ -17425,6 +17453,15 @@
   {
     "year": "2026",
     "deck": "N's Zoroark (2026)",
+    "count": 1,
+    "name": "N's Reshiram",
+    "set": "116/159",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sv9/116_hires.png"
+  },
+  {
+    "year": "2026",
+    "deck": "N's Zoroark (2026)",
     "count": 4,
     "name": "Lillie's Determination",
     "set": "119/132",
@@ -17457,15 +17494,6 @@
     "set": "143/159",
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/sv9/143_hires.png"
-  },
-  {
-    "year": "2026",
-    "deck": "N's Zoroark (2026)",
-    "count": 1,
-    "name": "Ruffian",
-    "set": "157/159",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sv9/157_hires.png"
   },
   {
     "year": "2026",
@@ -17528,7 +17556,8 @@
     "name": "Special Red Card",
     "set": "82/86",
     "category": "Trainer",
-    "image": "https://images.scrydex.com/pokemon/me4-82/large"
+    "image": "https://images.scrydex.com/pokemon/me4-82/large",
+    "missing": 1
   },
   {
     "year": "2026",
@@ -17585,7 +17614,7 @@
     "set": "58/142",
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/sv7/58_hires.png",
-    "missing": 3
+    "missing": 2
   },
   {
     "year": "2026",
@@ -17622,7 +17651,8 @@
     "name": "Metagross",
     "set": "61/86",
     "category": "Pokemon",
-    "image": "https://images.scrydex.com/pokemon/me4-61/large"
+    "image": "https://images.scrydex.com/pokemon/me4-61/large",
+    "missing": 1
   },
   {
     "year": "2026",
@@ -17650,7 +17680,8 @@
     "name": "Lillie's Clefairy ex",
     "set": "56/159",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sv9/56_hires.png"
+    "image": "https://images.pokemontcg.io/sv9/56_hires.png",
+    "missing": 1
   },
   {
     "year": "2026",
@@ -17668,7 +17699,8 @@
     "name": "Lillie's Determination",
     "set": "119/132",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/me1/119_hires.png"
+    "image": "https://images.pokemontcg.io/me1/119_hires.png",
+    "missing": 4
   },
   {
     "year": "2026",
@@ -17722,7 +17754,8 @@
     "name": "Secret Box",
     "set": "163/167",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sv6/163_hires.png"
+    "image": "https://images.pokemontcg.io/sv6/163_hires.png",
+    "missing": 1
   },
   {
     "year": "2026",
@@ -18115,7 +18148,8 @@
     "name": "Lillie's Determination",
     "set": "119/132",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/me1/119_hires.png"
+    "image": "https://images.pokemontcg.io/me1/119_hires.png",
+    "missing": 2
   },
   {
     "year": "2026",

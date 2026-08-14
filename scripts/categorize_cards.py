@@ -59,6 +59,7 @@ TRAINER_NAMES = {
     "Binding Mochi", "N's Castle",
     "Ciphermaniac's Codebreaking", "Wondrous Patch", "Brave Bangle", "Academy at Night",
     "Jacq", "Briar", "Maximum Belt", "Bug Catching Set", "Lillie's Determination",
+    "Battle Cage",
     "Dark Claw", "Dark Patch", "Defiance Band", "Delinquent", "Dimension Valley",
     "Dive Ball", "Dowsing Machine", "Dual Ball", "Earthen Vessel", "Echoing Horn",
     "Electric Generator", "Electromagnetic Radar", "Electropower", "Elesa's Sparkle",

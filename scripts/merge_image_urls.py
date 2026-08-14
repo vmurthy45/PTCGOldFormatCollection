@@ -337,6 +337,16 @@ URL_OVERRIDES = {
     ("Team Rocket's Mimikyu", "87/182"): "https://images.pokemontcg.io/sv10/87_hires.png",
     ("Bug Catching Set", "143/167"): "https://images.pokemontcg.io/sv6/143_hires.png",
     ("Energy Switch", "115/132"): "https://images.pokemontcg.io/me1/115_hires.png",
+    # N's Zoroark (2026) update: N's Reshiram (JTG=sv9).
+    ("N's Reshiram", "116/159"): "https://images.pokemontcg.io/sv9/116_hires.png",
+    # Alakazam (2026) rebuild. PBL=me5 and ASC=me2pt5 are scrydex-only (verified
+    # 200); Battle Cage (PFL=me2) and Buddy-Buddy Poffin (TEF=sv5) are on pokemontcg.io.
+    ("Pikipek", "66/84"): "https://images.scrydex.com/pokemon/me5-66/large",
+    ("Trumbeak", "67/84"): "https://images.scrydex.com/pokemon/me5-67/large",
+    ("Toucannon", "68/84"): "https://images.scrydex.com/pokemon/me5-68/large",
+    ("Psyduck", "39/217"): "https://images.scrydex.com/pokemon/me2pt5-39/large",
+    ("Battle Cage", "85/94"): "https://images.pokemontcg.io/me2/85_hires.png",
+    ("Buddy-Buddy Poffin", "144/162"): "https://images.pokemontcg.io/sv5/144_hires.png",
 }
 
 
