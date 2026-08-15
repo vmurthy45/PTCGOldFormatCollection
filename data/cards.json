@@ -3564,9 +3564,9 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/bwp/BW28_hires.png",
     "prints": {
-      "authentic": 0,
+      "authentic": 4,
       "wc": 0,
-      "proxy": 4
+      "proxy": 0
     }
   },
   {
@@ -9290,9 +9290,9 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/xy6/77_hires.png",
     "prints": {
-      "authentic": 4,
+      "authentic": 0,
       "wc": 0,
-      "proxy": 0
+      "proxy": 4
     }
   },
   {
@@ -9418,7 +9418,7 @@
     "prints": {
       "authentic": 0,
       "wc": 0,
-      "proxy": 0
+      "proxy": 1
     }
   },
   {

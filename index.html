@@ -93,6 +93,28 @@
   .subtab-btn.active{background:var(--red); color:#fff; border-color:var(--red)}
   .subtab-panel{display:none}
   .subtab-panel.active{display:block}
+  /* Cards to Get */
+  .ctg-head{display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:12px; flex-wrap:wrap}
+  .ctg-head .stats{margin:0}
+  .ctg-copy-btn{border:1px solid var(--line); background:var(--card); color:var(--ink);
+    font-family:inherit; font-size:13px; font-weight:600; padding:8px 14px; border-radius:999px;
+    cursor:pointer; transition:background .12s,color .12s,border-color .12s; white-space:nowrap}
+  .ctg-copy-btn:hover{border-color:var(--red); color:var(--red-dark); background:var(--band-a)}
+  .ctg-copy-btn.copied{background:var(--pip-auth); color:#fff; border-color:var(--pip-auth)}
+  .ctg-list{display:flex; flex-direction:column; gap:8px}
+  .ctg-item{display:grid; grid-template-columns:38px 1fr; gap:12px; align-items:center;
+    background:var(--card); border:1px solid var(--line); border-radius:12px;
+    padding:11px 14px; cursor:pointer; transition:background .12s,border-color .12s}
+  .ctg-item:hover{background:var(--band-a); border-color:var(--red)}
+  .ctg-need{background:var(--miss-red-bg); color:var(--miss-red-line); border:1px solid var(--miss-red-line);
+    font-weight:700; font-size:14px; text-align:center; border-radius:8px; padding:5px 0}
+  .ctg-main{min-width:0}
+  .ctg-title{display:flex; align-items:baseline; gap:9px; flex-wrap:wrap}
+  .ctg-name{font-weight:600; font-size:14.5px}
+  .ctg-set{color:var(--muted); font-size:11.5px; font-weight:600; font-variant-numeric:tabular-nums;
+    letter-spacing:.3px; background:var(--band-b); padding:1px 7px; border-radius:5px}
+  .ctg-decks{display:block; color:var(--muted); font-size:12px; margin-top:3px;
+    overflow:hidden; text-overflow:ellipsis}
   .controls{display:flex; flex-direction:column; gap:10px; margin-bottom:12px}
   .search{
     width:100%; padding:13px 16px; font-size:16px; border:1px solid var(--line);
@@ -335,6 +357,15 @@
   .deck-legend b{font-size:10px; text-transform:uppercase; letter-spacing:.7px; color:var(--muted)}
   .deck-legend .lg{display:inline-flex; align-items:center; gap:6px; font-size:12px; color:var(--muted)}
   .deck-legend .lg .pip{width:9px; height:9px}
+  .copy-deck{margin-left:auto; display:inline-flex; align-items:center; justify-content:center;
+    width:28px; height:28px; padding:0; border-radius:8px; cursor:pointer;
+    border:1px solid var(--line); background:var(--card); color:var(--muted);
+    transition:background .12s, color .12s, border-color .12s}
+  .copy-deck:hover{color:var(--red-dark); border-color:var(--red); background:var(--band-a)}
+  .copy-deck .ic-done{display:none}
+  .copy-deck.copied{color:#fff; background:var(--pip-auth); border-color:var(--pip-auth)}
+  .copy-deck.copied .ic-copy{display:none}
+  .copy-deck.copied .ic-done{display:block}
   /* Missing-card highlighting: orange = own some but short, red = own none. */
   .row.miss-some{background:var(--miss-orange-bg); box-shadow:inset 3px 0 0 var(--miss-orange-line)}
   .row.miss-all{background:var(--miss-red-bg); box-shadow:inset 3px 0 0 var(--miss-red-line)}
@@ -462,6 +493,7 @@
     <div class="subtabs">
       <button class="subtab-btn active" data-subtab="matchup" type="button">Matchup Generator</button>
       <button class="subtab-btn" data-subtab="cardCollection" type="button">Card Collection</button>
+      <button class="subtab-btn" data-subtab="cardsToGet" type="button">Cards to Get</button>
       <button class="subtab-btn" data-subtab="gameLog" type="button">Game Log</button>
     </div>
 
@@ -475,6 +507,14 @@
     </div>
     <div id="cc-stats" class="stats"></div>
     <div id="cc-table-wrap" class="cc-table-wrap"></div>
+  </div>
+
+  <div id="cardsToGetTab" class="subtab-panel">
+    <div class="ctg-head">
+      <div id="ctg-summary" class="stats"></div>
+      <button id="ctg-copy" class="ctg-copy-btn" type="button">📋 Copy list</button>
+    </div>
+    <div id="ctg-list" class="ctg-list"></div>
   </div>
 
   <div id="matchupTab" class="subtab-panel active">
@@ -801,6 +841,75 @@ const TIERS = {
 const tierBadge = (t) =>
   `<span class="tier-badge tier-${t}" title="Tier ${t}">${t}</span>`;
 
+/* ---------- decklist export (Copy to Clipboard) ---------- */
+// pokemontcg.io / scrydex set id -> PTCGO/PTCGL set code, resolved from the
+// API's ptcgoCode for every set that appears in the collection.
+const SET_CODES = {
+  base3:"FO", bw1:"BLW", bw10:"PLB", bw11:"LTR", bw2:"EPO", bw3:"NVI", bw4:"NXD",
+  bw5:"DEX", bw6:"DRX", bw7:"BCR", bw8:"PLS", bw9:"PLF", bwp:"PR-BLW", cel25:"CEL",
+  dp1:"DP", dp2:"MT", dp3:"SW", dp4:"GE", dp5:"MD", dp6:"LA", dp7:"SF", dv1:"DRV",
+  ex1:"RS", ex11:"DS", ex12:"LM", ex15:"DF", ex4:"MA", ex7:"TRR", g1:"GEN",
+  hgss1:"HS", hgss2:"UL", hgss3:"UD", hgss4:"TM", me1:"MEG", me2:"PFL", me2pt5:"ASC",
+  me3:"POR", me4:"CRI", me5:"PBL", pgo:"PGO", pl1:"PL", pl2:"RR", pl3:"SV", pl4:"AR",
+  rsv10pt5:"WHT", sm1:"SUM", sm10:"UNB", sm11:"UNM", sm12:"CEC", sm2:"GRI", sm3:"BUS",
+  sm35:"SLG", sm4:"CIN", sm5:"UPR", sm6:"FLI", sm7:"CES", sm75:"DRM", sm8:"LOT",
+  sm9:"TEU", smp:"PR-SM", sv1:"SVI", sv10:"DRI", sv2:"PAL", sv3:"OBF", sv3pt5:"MEW",
+  sv4:"PAR", sv4pt5:"PAF", sv5:"TEF", sv6:"TWM", sv6pt5:"SFA", sv7:"SCR", sv8:"SSP",
+  sv8pt5:"PRE", sv9:"JTG", swsh1:"SSH", swsh10:"ASR", swsh11:"LOR", swsh12:"SIT",
+  swsh12pt5:"CRZ", swsh2:"RCL", swsh3:"DAA", swsh35:"CPA", swsh4:"VIV", swsh5:"BST",
+  swsh6:"CRE", swsh7:"EVS", swsh8:"FST", swsh9:"BRS", swshp:"PR-SW", xy1:"XY",
+  xy10:"FCO", xy11:"STS", xy12:"EVO", xy2:"FLF", xy3:"FFI", xy4:"PHF", xy5:"PRC",
+  xy6:"ROS", xy7:"AOR", xy8:"BKT", xy9:"BKP", xyp:"PR-XY", zsv10pt5:"BLK",
+};
+// Basic energy carries no stored set; export it as the current basic-energy set
+// (MEE) with the standard type numbering, which is how PTCGL exports read.
+const BASIC_ENERGY_NO = {
+  "Grass Energy":1, "Fire Energy":2, "Water Energy":3, "Lightning Energy":4,
+  "Psychic Energy":5, "Fighting Energy":6, "Darkness Energy":7, "Metal Energy":8,
+  "Fairy Energy":9,
+};
+function setCodeFromImage(url){
+  if(!url) return '';
+  const m = url.match(/images\.pokemontcg\.io\/([^/]+)\//) || url.match(/scrydex\.com\/pokemon\/([a-z0-9]+)-\d/i);
+  return m ? (SET_CODES[m[1]] || '') : '';
+}
+// Build the standard "Section: total" + "count Name CODE number" text.
+function deckListText(deckName){
+  const rows = CARDS.filter(c => c.deck === deckName);
+  const out = [];
+  for(const [key, label] of [['Pokemon','Pokémon'], ['Trainer','Trainer'], ['Energy','Energy']]){
+    const sec = rows.filter(c => c.category === key);
+    if(!sec.length) continue;
+    const total = sec.reduce((s,c)=> s + (Number(c.count)||0), 0);
+    out.push(`${label}: ${total}`);
+    for(const c of sec){
+      if(isBasicEnergy(c) && BASIC_ENERGY_NO[c.name]){
+        out.push(`${c.count} ${c.name} MEE ${BASIC_ENERGY_NO[c.name]}`);
+      } else {
+        const code = setCodeFromImage(c.image);
+        const num = String(c.set || '').split('/')[0];
+        out.push(code && num ? `${c.count} ${c.name} ${code} ${num}` : `${c.count} ${c.name}`);
+      }
+    }
+    out.push('');
+  }
+  return out.join('\n').trim();
+}
+async function copyDeckList(deckName, btn){
+  const text = deckListText(deckName);
+  try { await navigator.clipboard.writeText(text); }
+  catch(e){
+    const ta = document.createElement('textarea');
+    ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand('copy'); } catch(_){}
+    ta.remove();
+  }
+  btn.classList.add('copied');
+  clearTimeout(btn._t);
+  btn._t = setTimeout(() => btn.classList.remove('copied'), 1500);
+}
+
 function slug(name){
   return name.toLowerCase().replace(/[^a-z0-9]+/g,'_').replace(/^_+|_+$/g,'');
 }
@@ -1028,14 +1137,23 @@ function render(){
 
     const cw = document.createElement('div');
     cw.className = 'cards';
-    // print-type key, shown only inside the expanded card list
+    // print-type key + copy button, shown only inside the expanded card list
     const legend = document.createElement('div');
     legend.className = 'deck-legend';
     legend.innerHTML = `<b>Prints</b>`
       + `<span class="lg"><span class="pip auth"></span>Authentic</span>`
-      + `<span class="lg"><span class="pip wc"></span>World Champs</span>`
+      + `<span class="lg"><span class="pip wc"></span>WC</span>`
       + `<span class="lg"><span class="pip proxy"></span>Proxy</span>`
       + `<span class="lg"><span class="pip miss"></span>Missing</span>`;
+    const copyBtn = document.createElement('button');
+    copyBtn.type = 'button';
+    copyBtn.className = 'copy-deck';
+    copyBtn.title = 'Copy decklist';
+    copyBtn.setAttribute('aria-label', 'Copy decklist');
+    copyBtn.innerHTML = `<svg class="ic-copy" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>`
+      + `<svg class="ic-done" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>`;
+    copyBtn.onclick = (e) => { e.stopPropagation(); copyDeckList(deck, copyBtn); };
+    legend.appendChild(copyBtn);
     cw.appendChild(legend);
     for(const [key, label] of SECTIONS){
       const sectionRows = arr.filter(c => c.category === key);
@@ -1272,6 +1390,82 @@ function glPopulateFilters(){
     years.map(y => `<option value="${esc(y)}">${esc(y)}</option>`).join('');
 }
 
+/* ---------- Cards to Get (aggregated missing across all decks) ---------- */
+function cardsToGetData(){
+  const byCard = new Map();  // card name -> {name, total, entries[]}
+  for(const c of CARDS){
+    const m = missingOf(c);
+    if(m <= 0) continue;
+    if(!byCard.has(c.name)) byCard.set(c.name, {name: c.name, total: 0, entries: []});
+    const g = byCard.get(c.name);
+    g.total += m;
+    g.entries.push({deck: c.deck, year: c.year, need: m, set: c.set, image: c.image,
+                    code: setCodeFromImage(c.image)});
+  }
+  // most-needed first, then alphabetical
+  return [...byCard.values()].sort((a, b) => b.total - a.total || a.name.localeCompare(b.name));
+}
+function ctgSetLabel(entry){
+  if(BASIC_ENERGY_NO[entry.__name]) return `MEE ${BASIC_ENERGY_NO[entry.__name]}`;
+  const num = String(entry.set || '').split('/')[0];
+  return entry.code && num ? `${entry.code} ${num}` : '';
+}
+function renderCardsToGet(){
+  const wrap = document.getElementById('ctg-list');
+  const summary = document.getElementById('ctg-summary');
+  if(!wrap) return;
+  const cards = cardsToGetData();
+  if(!cards.length){
+    summary.textContent = '';
+    wrap.innerHTML = `<div class="empty">Nothing to get — you own every card in every deck. 🎉</div>`;
+    return;
+  }
+  const totalCopies = cards.reduce((s, c) => s + c.total, 0);
+  const deckSet = new Set();
+  cards.forEach(c => c.entries.forEach(e => deckSet.add(e.deck)));
+  summary.textContent =
+    `${totalCopies} cop${totalCopies !== 1 ? 'ies' : 'y'} to get · ${cards.length} unique card${cards.length !== 1 ? 's' : ''} · across ${deckSet.size} deck${deckSet.size !== 1 ? 's' : ''}`;
+  wrap.innerHTML = cards.map(c => {
+    const labels = [...new Set(c.entries.map(e => ctgSetLabel({...e, __name: c.name})))].filter(Boolean);
+    const setLabel = labels.length === 1 ? labels[0] : (labels.length > 1 ? 'multiple prints' : '');
+    const decks = c.entries.slice()
+      .sort((a, b) => b.need - a.need || a.deck.localeCompare(b.deck))
+      .map(e => `${esc(e.deck)}${e.need > 1 ? ` ×${e.need}` : ''}`).join(' · ');
+    const rep = c.entries[0];
+    return `<div class="ctg-item" data-img="${esc(rep.image || '')}" data-name="${esc(c.name)}">
+      <span class="ctg-need">${c.total}</span>
+      <span class="ctg-main">
+        <span class="ctg-title"><span class="ctg-name">${esc(c.name)}</span>${setLabel ? `<span class="ctg-set">${esc(setLabel)}</span>` : ''}</span>
+        <span class="ctg-decks">${decks}</span>
+      </span>
+    </div>`;
+  }).join('');
+  wrap.querySelectorAll('.ctg-item').forEach(el => {
+    el.onclick = () => { if(el.dataset.img) openImageModal(el.dataset.img, el.dataset.name); };
+  });
+}
+async function copyCardsToGet(btn){
+  const cards = cardsToGetData();
+  const lines = cards.map(c => {
+    const label = ctgSetLabel({...c.entries[0], __name: c.name});
+    return label ? `${c.total} ${c.name} ${label}` : `${c.total} ${c.name}`;
+  });
+  const text = lines.join('\n');
+  try { await navigator.clipboard.writeText(text); }
+  catch(e){
+    const ta = document.createElement('textarea');
+    ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand('copy'); } catch(_){}
+    ta.remove();
+  }
+  const old = btn.textContent;
+  btn.textContent = '✓ Copied';
+  btn.classList.add('copied');
+  clearTimeout(btn._t);
+  btn._t = setTimeout(() => { btn.textContent = old; btn.classList.remove('copied'); }, 1500);
+}
+
 function renderGameLog(){
   const player = glPlayerEl.value || 'ALL';
   const year = glYearEl.value || 'ALL';
@@ -1374,6 +1568,9 @@ async function init(){
 
   glPopulateFilters();
   renderGameLog();
+
+  renderCardsToGet();
+  document.getElementById('ctg-copy').onclick = (e) => copyCardsToGet(e.currentTarget);
 
   render();
 }
