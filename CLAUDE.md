@@ -32,8 +32,11 @@ Hosted free on GitHub Pages.
   opening it via `file://` breaks the `fetch()` calls (this is a browser
   security restriction, not a bug).
 - `data/cards.json` — every card line for every deck. Each row:
-  `{year, deck, count, name, set, category, image}`, plus an optional
-  `missing` (see "Missing-card tracking" below). `category` is one of
+  `{year, deck, count, name, set, category, image, prints}`. `prints` is
+  `{authentic, wc, proxy}` — how many of the row's `count` copies you own of
+  each print type (see "Print-type tracking / Missing-card tracking" below).
+  There is no stored `missing` field any more: **missing is derived** =
+  `count - (authentic+wc+proxy)`. `category` is one of
   `Pokemon`/`Trainer`/`Energy`. `image` is a pokemontcg.io URL; may be
   absent (shouldn't be, as of this writing — see "Current data state").
 - `data/guides.json` — piloting-guide HTML per deck, keyed by
@@ -187,26 +190,39 @@ to a single year therefore shows a purely alphabetical list. If you add a
 whole new *year*, it slots in via `YEARS`; nothing about the deck sort
 needs changing.
 
-### Missing-card tracking
+### Print-type tracking / Missing-card tracking
 
-Vig doesn't own every card. A row may carry an optional `"missing": N`
-field = how many copies of that `count` he's short (so `0 <= missing <=
-count`; omit the field entirely when he owns all of them). It's
-hand-maintained from what Vig says in chat (e.g. *"Greninja (2018) is
-missing 2 Evosoda, 2 Splash Energy, 4 N"* → add `"missing":2` /
-`"missing":2` / `"missing":4` to those three rows). The regen scripts
-(`categorize_cards.py`, `merge_image_urls.py`) preserve the field — they
-only touch `category`/`image` — so add it directly to `cards.json`.
+Every owned copy is one of three print types, tracked per row in
+`prints:{authentic, wc, proxy}` (World Championships / Proxy). The invariant
+is `authentic + wc + proxy <= count`; the leftover, **`count - sum`, is what
+Vig is Missing**. There is no separate `missing` field — it's always derived.
+All existing owned copies were seeded to `authentic` on 2026-08-15; Vig
+dictates the exceptions in chat and I hand-edit `cards.json`:
+- *"Sycamore: 2 WC, 1 Authentic, 1 Proxy"* (count 4) → `prints:{authentic:1,
+  wc:2, proxy:1}` (missing 0).
+- *"2x Pidgey missing"* (count 2, was all authentic) → `prints:{authentic:0,
+  wc:0, proxy:0}` (missing 2). Marking missing = **lower the owned buckets**
+  so the leftover grows; un-marking = raise `authentic` back up.
+- Basic energy (empty `set`, category Energy) is always a single print type,
+  never a mix.
+The regen scripts (`categorize_cards.py`, `merge_image_urls.py`) preserve
+`prints` — they only touch `category`/`image`. If you bulk-replace a deck's
+rows, its `prints` are lost unless re-added; new rows default to
+`{authentic:count, wc:0, proxy:0}`.
 
-`index.html` renders it: a row with `missing >= count` (owns none) gets a
-**red** highlight, `0 < missing < count` (owns some) gets **orange**, each
-with a "missing N of count" badge; the deck header shows a "⚠ N missing"
-hint. A **"⚠ Missing" toggle** (`missingOnly` in `render()`) filters to
-just the short rows and **stacks with the year chips** (e.g. 2021 +
-Missing). Colors are the `--miss-*` CSS vars (dark mode bumps the tint
-opacity). If you bulk-replace a deck's rows later, the `missing` values for
-that deck are lost unless you re-add them — they describe the *current*
-list.
+`index.html` renders per-copy **pips** in the expanded deck view only
+(collapsed rows untouched), ordered **Authentic (green) → WC (grey) → Proxy
+(blue) → Missing (dashed red)**; a slim `Prints` legend sits atop each
+expanded list. Pokémon/Trainers/special energy show one pip per copy; basic
+energy collapses to `count + one pip` per bucket. Helpers `printsOf(c)` /
+`missingOf(c)` (in `index.html`) are the single source for missing math.
+The **"⚠ Missing" toggle** (`missingOnly` in `render()`) filters to rows with
+`missingOf(c) > 0` and **stacks with the year chips** (e.g. 2021 + Missing);
+the deck header pill still shows the owned count / "N missing" and tints
+(`has-missing`). Pip colors are the `--pip-*` CSS vars (dark mode overrides
+`--pip-wc`/`--pip-proxy`). The old per-row orange/red tint + "missing N of
+count" badge were **replaced** by the dashed pips (that CSS is now dead but
+left in place).
 
 ### Favourite deck of the year (star icon)
 
@@ -405,7 +421,7 @@ which repoints tracking without needing another push).
 
 ## Current data state (as of the last update in this file)
 
-- 85 decks, 2022 card rows, 16 "formats" (year groupings, 2010–2026 with
+- 85 decks, 2020 card rows, 16 "formats" (year groupings, 2010–2026 with
   no 2011). The one-time standalone `2017 NAIC` label was consolidated into
   `2017`: its four decks moved to 2017. Three took World-Championship-format
   lists (Guzma over Lysandre, Burning Shadows legal): Tapu Bulu Vikavolt,

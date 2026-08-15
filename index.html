@@ -19,6 +19,8 @@
     --chip-bg:#ffffff; --rules-header:#202225; --rules-panel:#ffffff;
     --miss-red-line:#d5303b; --miss-red-bg:rgba(213,48,59,.13);
     --miss-orange-line:#d9820f; --miss-orange-bg:rgba(224,138,30,.16);
+    /* print-type pips: Authentic / World Champs / Proxy / Missing */
+    --pip-auth:#2FA84A; --pip-wc:#9AA4B2; --pip-proxy:#3B82F6; --pip-miss:#d5303b;
   }
   :root[data-theme="dark"]{
     /* Only the background/surface colors change for dark mode - the red
@@ -36,6 +38,7 @@
     --chip-bg:#262b32; --rules-header:#2c3138; --rules-panel:#20242b;
     /* Slightly stronger missing-row tints so they read on the dark card. */
     --miss-red-bg:rgba(213,48,59,.24); --miss-orange-bg:rgba(224,138,30,.24);
+    --pip-wc:#8791a0; --pip-proxy:#4C8DF6;
   }
   *{box-sizing:border-box}
   html,body{margin:0;padding:0}
@@ -307,7 +310,7 @@
     padding:2px 9px; border-radius:999px;
   }
   .row{
-    display:grid; grid-template-columns:34px 1fr auto; gap:8px; align-items:center;
+    display:grid; grid-template-columns:34px 1fr auto auto; gap:10px; align-items:center;
     padding:10px 16px; border-top:1px solid var(--band-b); font-size:14px; cursor:pointer;
     transition:background .12s;
   }
@@ -318,7 +321,20 @@
     border-radius:7px; padding:3px 0; font-size:13px;
   }
   .row .nm{font-weight:500}
-  .row .st{color:var(--muted); font-size:12px; font-variant-numeric:tabular-nums; text-align:right}
+  .row .st{color:var(--muted); font-size:12px; font-variant-numeric:tabular-nums; text-align:right; min-width:44px}
+  /* per-copy print-type pips (expanded deck view only) */
+  .row .prints{display:inline-flex; gap:3px; justify-content:flex-end; align-items:center}
+  .pip{width:10px; height:10px; border-radius:2.5px; flex:0 0 auto}
+  .pip.auth{background:var(--pip-auth)} .pip.wc{background:var(--pip-wc)}
+  .pip.proxy{background:var(--pip-proxy)}
+  .pip.miss{background:transparent; border:1.5px dashed var(--pip-miss)}
+  .prints .single{display:inline-flex; align-items:center; gap:6px}
+  .prints .cn{font-size:12px; color:var(--muted); font-weight:600; font-variant-numeric:tabular-nums}
+  .deck-legend{display:flex; gap:14px; flex-wrap:wrap; align-items:center;
+    padding:9px 16px; border-bottom:1px solid var(--band-b); background:var(--band-b)}
+  .deck-legend b{font-size:10px; text-transform:uppercase; letter-spacing:.7px; color:var(--muted)}
+  .deck-legend .lg{display:inline-flex; align-items:center; gap:6px; font-size:12px; color:var(--muted)}
+  .deck-legend .lg .pip{width:9px; height:9px}
   /* Missing-card highlighting: orange = own some but short, red = own none. */
   .row.miss-some{background:var(--miss-orange-bg); box-shadow:inset 3px 0 0 var(--miss-orange-line)}
   .row.miss-all{background:var(--miss-red-bg); box-shadow:inset 3px 0 0 var(--miss-red-line)}
@@ -844,18 +860,49 @@ function matches(c, q){
       || String(c.set).toLowerCase().includes(q);
 }
 
+// Print-type model: prints{authentic,wc,proxy} are the copies owned by print,
+// and Missing is derived (count minus what you own) so the Missing filter and
+// the "N cards" counts still work without a separate stored field.
+function printsOf(c){
+  const p = c.prints || {};
+  return {
+    authentic: Number(p.authentic) || 0,
+    wc:        Number(p.wc)        || 0,
+    proxy:     Number(p.proxy)     || 0,
+  };
+}
+function missingOf(c){
+  const count = Number(c.count) || 0;
+  const {authentic, wc, proxy} = printsOf(c);
+  return Math.max(0, count - authentic - wc - proxy);
+}
+// Basic energy is stored with an empty set and is always a single print type,
+// so it collapses to "count + one pip" per bucket instead of a per-copy strip.
+function isBasicEnergy(c){
+  return c.category === 'Energy' && (!c.set || c.set === '');
+}
+const PIP_ORDER = [['authentic','auth'], ['wc','wc'], ['proxy','proxy'], ['missing','miss']];
+function printPipsHtml(c){
+  const {authentic, wc, proxy} = printsOf(c);
+  const buckets = {authentic, wc, proxy, missing: missingOf(c)};
+  if(isBasicEnergy(c)){
+    // count + single pip per non-empty bucket (usually just one)
+    return PIP_ORDER
+      .filter(([k]) => buckets[k] > 0)
+      .map(([k, cls]) => `<span class="single"><span class="cn">${buckets[k]}</span><span class="pip ${cls}"></span></span>`)
+      .join('');
+  }
+  // one pip per copy, ordered Authentic -> WC -> Proxy -> Missing
+  return PIP_ORDER
+    .map(([k, cls]) => `<span class="pip ${cls}"></span>`.repeat(buckets[k]))
+    .join('');
+}
 function makeRow(c, query){
   const r = document.createElement('div');
-  const missing = Number(c.missing) || 0;
-  const count = Number(c.count) || 0;
-  // Own none of a needed card -> red; own some but short -> orange.
-  const missClass = missing <= 0 ? '' : (missing >= count ? ' miss-all' : ' miss-some');
-  r.className = 'row' + missClass;
-  const badge = missing > 0
-    ? ` <span class="miss-badge">missing ${missing}${count ? ' of ' + count : ''}</span>`
-    : '';
+  r.className = 'row';
   r.innerHTML = `<span class="cnt">${esc(c.count)}</span>
-    <span class="nm">${hl(c.name, query)}${badge}</span>
+    <span class="nm">${hl(c.name, query)}</span>
+    <span class="prints">${printPipsHtml(c)}</span>
     <span class="st">${hl(c.set, query)}</span>`;
   r.onclick = () => openCardModal(c);
   return r;
@@ -877,7 +924,7 @@ function render(){
   if(query) rows = rows.filter(c => matches(c, query));
   // The Missing filter stacks with the year filter: keep only cards the user
   // is short on (missing > 0). Decks with none then drop out entirely.
-  if(missingOnly) rows = rows.filter(c => (Number(c.missing) || 0) > 0);
+  if(missingOnly) rows = rows.filter(c => missingOf(c) > 0);
 
   const groups = new Map();
   for(const c of rows){
@@ -918,7 +965,7 @@ function render(){
     totalCards += arr.length;
     for(const c of arr){
       totalQty += (Number(c.count) || 0);
-      totalMissing += (Number(c.missing) || 0);
+      totalMissing += missingOf(c);
     }
   }
   stats.textContent = missingOnly
@@ -933,7 +980,7 @@ function render(){
     const d = document.createElement('div');
     d.className = 'deck' + (collapsed ? ' collapsed' : '');
     const total = arr.reduce((s,c)=> s + (Number(c.count)||0), 0);
-    const deckMissing = arr.reduce((s,c)=> s + (Number(c.missing)||0), 0);
+    const deckMissing = arr.reduce((s,c)=> s + missingOf(c), 0);
     const head = document.createElement('div');
     head.className = 'deck-head';
     // Under the Missing filter the badge shows how many copies are short;
@@ -981,6 +1028,15 @@ function render(){
 
     const cw = document.createElement('div');
     cw.className = 'cards';
+    // print-type key, shown only inside the expanded card list
+    const legend = document.createElement('div');
+    legend.className = 'deck-legend';
+    legend.innerHTML = `<b>Prints</b>`
+      + `<span class="lg"><span class="pip auth"></span>Authentic</span>`
+      + `<span class="lg"><span class="pip wc"></span>World Champs</span>`
+      + `<span class="lg"><span class="pip proxy"></span>Proxy</span>`
+      + `<span class="lg"><span class="pip miss"></span>Missing</span>`;
+    cw.appendChild(legend);
     for(const [key, label] of SECTIONS){
       const sectionRows = arr.filter(c => c.category === key);
       if(sectionRows.length === 0) continue;

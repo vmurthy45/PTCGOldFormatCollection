@@ -347,6 +347,11 @@ URL_OVERRIDES = {
     ("Psyduck", "39/217"): "https://images.scrydex.com/pokemon/me2pt5-39/large",
     ("Battle Cage", "85/94"): "https://images.pokemontcg.io/me2/85_hires.png",
     ("Buddy-Buddy Poffin", "144/162"): "https://images.pokemontcg.io/sv5/144_hires.png",
+    # Eternatus VMAX (2021) update: Galarian Moltres V / Liepard V (CRE=swsh6),
+    # Big Charm (SSH=swsh1). Energy Switch 162/202 reuses an existing override.
+    ("Galarian Moltres V", "97/198"): "https://images.pokemontcg.io/swsh6/97_hires.png",
+    ("Liepard V", "104/198"): "https://images.pokemontcg.io/swsh6/104_hires.png",
+    ("Big Charm", "158/202"): "https://images.pokemontcg.io/swsh1/158_hires.png",
 }
 
 
