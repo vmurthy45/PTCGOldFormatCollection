@@ -115,6 +115,28 @@
     letter-spacing:.3px; background:var(--band-b); padding:1px 7px; border-radius:5px}
   .ctg-decks{display:block; color:var(--muted); font-size:12px; margin-top:3px;
     overflow:hidden; text-overflow:ellipsis}
+  /* Stats */
+  .st-tiles{display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:10px; margin-bottom:8px}
+  .st-tile{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 12px; text-align:center}
+  .st-num{font-size:26px; font-weight:800; color:var(--red-dark); line-height:1.1; font-variant-numeric:tabular-nums}
+  .st-num .st-sub{font-size:15px; color:var(--muted); font-weight:700}
+  .st-lbl{font-size:11px; text-transform:uppercase; letter-spacing:.6px; color:var(--muted); font-weight:700; margin-top:5px}
+  .st-section{margin-top:22px}
+  .st-h{font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:.6px; color:var(--muted); margin:0 0 10px}
+  .st-bar{display:flex; height:16px; border-radius:8px; overflow:hidden; background:var(--band-b);
+    box-shadow:inset 0 0 0 1px var(--line)}
+  .st-bar.small{height:10px; border-radius:5px}
+  .st-seg{height:100%}
+  .st-seg.auth{background:var(--pip-auth)} .st-seg.wc{background:var(--pip-wc)}
+  .st-seg.proxy{background:var(--pip-proxy)} .st-seg.miss{background:var(--pip-miss)}
+  .st-legend{display:flex; flex-wrap:wrap; gap:8px 18px; margin-top:11px}
+  .st-key{display:inline-flex; align-items:center; gap:6px; font-size:13px; color:var(--ink)}
+  .st-key .pip{width:11px; height:11px}
+  .st-formats{display:flex; flex-direction:column; gap:12px}
+  .st-fmt-head{display:flex; align-items:baseline; justify-content:space-between; gap:10px; margin-bottom:5px}
+  .st-fmt-head b{font-size:14px} .st-fmt-head span{font-size:12px; color:var(--muted)}
+  .st-tiers{display:flex; flex-wrap:wrap; gap:10px 20px}
+  .st-tierkey{display:inline-flex; align-items:center; gap:7px; font-size:14px; color:var(--ink)}
   .controls{display:flex; flex-direction:column; gap:10px; margin-bottom:12px}
   .search{
     width:100%; padding:13px 16px; font-size:16px; border:1px solid var(--line);
@@ -474,7 +496,7 @@
 <div class="wrap">
   <div class="tabs">
     <button class="tab-btn active" data-tab="collection" type="button">All Decks</button>
-    <button class="tab-btn" data-tab="tools" type="button">Tools</button>
+    <button class="tab-btn" data-tab="tools" type="button" hidden>Tools</button>
   </div>
 
   <div id="collectionTab" class="tab-panel active">
@@ -494,6 +516,7 @@
       <button class="subtab-btn active" data-subtab="matchup" type="button">Matchup Generator</button>
       <button class="subtab-btn" data-subtab="cardCollection" type="button">Card Collection</button>
       <button class="subtab-btn" data-subtab="cardsToGet" type="button">Cards to Get</button>
+      <button class="subtab-btn" data-subtab="stats" type="button">Stats</button>
       <button class="subtab-btn" data-subtab="gameLog" type="button">Game Log</button>
     </div>
 
@@ -515,6 +538,10 @@
       <button id="ctg-copy" class="ctg-copy-btn" type="button">📋 Copy list</button>
     </div>
     <div id="ctg-list" class="ctg-list"></div>
+  </div>
+
+  <div id="statsTab" class="subtab-panel">
+    <div id="stats-content"></div>
   </div>
 
   <div id="matchupTab" class="subtab-panel active">
@@ -718,9 +745,6 @@ function renderHomeBlurbHtml(){
       cards, ideal opening, and tough matchups.</li>
       <li><strong>Turn 1 Rules</strong> shows what the player going first
       was allowed to do each season.</li>
-      <li>The <strong>Tools</strong> tab has a random <strong>Matchup Generator</strong> and an
-      aggregated <strong>Card Collection</strong> view (every card across all decks, with CSV
-      export).</li>
     </ul>
     <h2 class="home-title">About me</h2>
     <p>The decks in this collection were curated by me,
@@ -760,9 +784,9 @@ const FAVOURITES = new Set([
   "Archie's Blastoise (2015)", 'Night March (2016)', 'Espeon Garbodor (2017)',
   'ZoroPod (2018)', 'Malamar (2019)', 'Combo Zacian (2020)', 'Spiritomb (2021)',
   'Fusion Strike Mew (2022)', 'Colorless Lugia (2023)', 'Ancient Toolbox (2024)', 'Dragapult (2025)',
-  'TDK (2013)', 'Yveltal/Raichu (2014)', 'ToadBats (2015)', 'DeciTales (2017)',
+  'TDK (2013)', 'Yveltal Raichu (2014)', 'ToadBats (2015)', 'DeciTales (2017)',
   'Tapu Bulu Vikavolt (2017)', 'Perfection Mewtwo (2019)', 'Baby Blacephalon (2020)',
-  'Gardevoir (2025)', 'Dragapult Dusknoir (2026)', "Cynthia's Garchomp (2026)",
+  'Gardevoir (2025)', 'Dragapult Dusknoir (2026)',
 ]);
 const FAV_STAR =
   '<svg class="fav-star" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" aria-label="favourite deck" role="img">' +
@@ -789,7 +813,7 @@ const TIERS = {
   'Blastoise (2013)': 'A', 'RayEels (2013)': 'A',
   'Gothitelle (2013)': 'B',
   // 2014 — XY-on (Plasma -> Fairy)
-  'VirGen (2014)': 'S', 'Yveltal/Raichu (2014)': 'S',
+  'VirGen (2014)': 'S', 'Yveltal Raichu (2014)': 'S',
   'TDK (2014)': 'A',
   'Mega Kangaskhan (2014)': 'B',
   // 2015 — XY-on Seismitoad era
@@ -1466,6 +1490,87 @@ async function copyCardsToGet(btn){
   btn._t = setTimeout(() => { btn.textContent = old; btn.classList.remove('copied'); }, 1500);
 }
 
+/* ---------- Stats ---------- */
+function statSegBar(a, w, p, m, tot, cls){
+  const pc = v => tot ? (v / tot * 100) : 0;
+  return `<div class="st-bar ${cls || ''}">`
+    + (a ? `<span class="st-seg auth" style="width:${pc(a)}%" title="Authentic ${a}"></span>` : '')
+    + (w ? `<span class="st-seg wc" style="width:${pc(w)}%" title="WC ${w}"></span>` : '')
+    + (p ? `<span class="st-seg proxy" style="width:${pc(p)}%" title="Proxy ${p}"></span>` : '')
+    + (m ? `<span class="st-seg miss" style="width:${pc(m)}%" title="Missing ${m}"></span>` : '')
+    + `</div>`;
+}
+function renderStats(){
+  const el = document.getElementById('stats-content');
+  if(!el) return;
+  let A = 0, W = 0, P = 0, M = 0, total = 0;
+  const deckMiss = new Map();               // deck -> missing copies
+  const byYear = new Map();                 // year -> tallies
+  for(const c of CARDS){
+    const cnt = Number(c.count) || 0, pr = printsOf(c), m = missingOf(c);
+    A += pr.authentic; W += pr.wc; P += pr.proxy; M += m; total += cnt;
+    deckMiss.set(c.deck, (deckMiss.get(c.deck) || 0) + m);
+    if(!byYear.has(c.year)) byYear.set(c.year, {decks: new Set(), total: 0, a: 0, w: 0, p: 0, m: 0});
+    const y = byYear.get(c.year);
+    y.decks.add(c.deck); y.total += cnt; y.a += pr.authentic; y.w += pr.wc; y.p += pr.proxy; y.m += m;
+  }
+  const decks = [...deckMiss.keys()];
+  const complete = decks.filter(d => deckMiss.get(d) === 0).length;
+  const owned = total - M;
+  const pct = total ? Math.round(owned / total * 100) : 0;
+  const pctOf = n => total ? Math.round(n / total * 100) : 0;
+  const tierCount = {S: 0, A: 0, B: 0};
+  decks.forEach(d => { const t = TIERS[d]; if(t && tierCount[t] != null) tierCount[t]++; });
+
+  const tile = (num, lbl) => `<div class="st-tile"><div class="st-num">${num}</div><div class="st-lbl">${lbl}</div></div>`;
+
+  const legend = [
+    ['auth', 'Authentic', A], ['wc', 'WC', W], ['proxy', 'Proxy', P], ['miss', 'Missing', M],
+  ].map(([cls, name, n]) =>
+    `<span class="st-key"><span class="pip ${cls}"></span>${name} — <b>${n}</b> (${pctOf(n)}%)</span>`
+  ).join('');
+
+  const years = [...byYear.keys()].sort((a, b) =>
+    (YEARS.indexOf(a) - YEARS.indexOf(b)) || a.localeCompare(b));
+  const formatsHtml = years.map(y => {
+    const d = byYear.get(y);
+    return `<div class="st-fmt">
+      <div class="st-fmt-head"><b>${esc(y)}</b><span>${d.decks.size} deck${d.decks.size !== 1 ? 's' : ''} · ${d.total} cards${d.m ? ` · ${d.m} missing` : ''}</span></div>
+      ${statSegBar(d.a, d.w, d.p, d.m, d.total, 'small')}
+    </div>`;
+  }).join('');
+
+  const tiersHtml = ['S', 'A', 'B'].map(t =>
+    `<span class="st-tierkey">${tierBadge(t)} <b>${tierCount[t]}</b> deck${tierCount[t] !== 1 ? 's' : ''}</span>`
+  ).join('');
+
+  el.innerHTML = `
+    <div class="st-tiles">
+      ${tile(decks.length, 'Decks')}
+      ${tile(total, 'Total cards')}
+      ${tile(owned, 'Owned')}
+      ${tile(M, 'To get')}
+      ${tile(`${complete}<span class="st-sub">/${decks.length}</span>`, 'Complete decks')}
+      ${tile(`${pct}<span class="st-sub">%</span>`, 'Completion')}
+    </div>
+
+    <div class="st-section">
+      <h3 class="st-h">Print composition</h3>
+      ${statSegBar(A, W, P, M, total)}
+      <div class="st-legend">${legend}</div>
+    </div>
+
+    <div class="st-section">
+      <h3 class="st-h">By format</h3>
+      <div class="st-formats">${formatsHtml}</div>
+    </div>
+
+    <div class="st-section">
+      <h3 class="st-h">Deck tiers</h3>
+      <div class="st-tiers">${tiersHtml}<span class="st-tierkey">★ <b>${[...FAVOURITES].filter(d => decks.includes(d)).length}</b> favourites</span></div>
+    </div>`;
+}
+
 function renderGameLog(){
   const player = glPlayerEl.value || 'ALL';
   const year = glYearEl.value || 'ALL';
@@ -1571,9 +1676,44 @@ async function init(){
 
   renderCardsToGet();
   document.getElementById('ctg-copy').onclick = (e) => copyCardsToGet(e.currentTarget);
+  renderStats();
 
   render();
 }
+
+/* ---------- private Tools tab ----------
+   The Tools tab is hidden for everyone by default (the QR-coded public URL is
+   untouched — no hash, no Tools). Visiting the site once with the secret hash
+   #tools unlocks it and remembers on that device via localStorage, so from
+   then on the plain URL shows Tools for you. Visit #lock to hide it again.
+   This is not security (a static page's source is always readable) — it just
+   keeps the tab out of the way for other visitors. Change TOOLS_KEY to rename
+   the unlock word. */
+function applyToolsGate(){
+  const TOOLS_KEY = 'tools';
+  const btn = document.querySelector('.tab-btn[data-tab="tools"]');
+  if(!btn) return;
+  const h = (location.hash || '').replace(/^#/, '').toLowerCase();
+  let unlocked = false;
+  try{
+    if(h === TOOLS_KEY) localStorage.setItem('toolsUnlocked', '1');
+    if(h === 'lock') localStorage.removeItem('toolsUnlocked');
+    unlocked = localStorage.getItem('toolsUnlocked') === '1';
+  }catch(e){
+    unlocked = (h === TOOLS_KEY);          // storage blocked -> unlock this visit only
+  }
+  if(h === TOOLS_KEY || h === 'lock'){     // don't leave the key sitting in the address bar
+    history.replaceState(null, '', location.pathname + location.search);
+  }
+  btn.hidden = !unlocked;
+  // if Tools was open when it got locked, drop back to the public All Decks tab
+  if(!unlocked && btn.classList.contains('active')){
+    document.querySelector('.tab-btn[data-tab="collection"]').click();
+  }
+}
+window.addEventListener('hashchange', applyToolsGate);
+applyToolsGate();
+
 init();
 </script>
 </body>

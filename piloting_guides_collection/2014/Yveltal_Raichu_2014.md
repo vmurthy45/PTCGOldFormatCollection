@@ -1,4 +1,4 @@
-# How to Pilot — Yveltal/Raichu (2014)
+# How to Pilot — Yveltal Raichu (2014)
 
 _Format: NXD-on 2014 (XY era). A Dark "Big Basics" deck splashing a Raichu line as a
 Yveltal-mirror counter._

@@ -62,7 +62,17 @@ Hosted free on GitHub Pages.
   table columns are Date / Year / Vig's Deck / Opponent's Deck / Opponent /
   Result / Notes. Loaded via its own guarded `fetch()` so
   a missing/empty file never breaks the site. Starts as `[]`.
-- **Matchup Generator tab** — a second top-level tab (`#matchupTab`,
+- **Tools tab is private/gated.** The `Tools` top tab (`data-tab="tools"`,
+  holding Matchup Generator / Card Collection / Cards to Get / Stats / Game
+  Log) is `hidden` by default so public visitors (and the printed-QR URL,
+  which must stay untouched) never see it. `applyToolsGate()` in `index.html`
+  reveals it only when unlocked: visiting `#tools` once sets a
+  `toolsUnlocked` localStorage flag (remembered per device) and the tab then
+  shows even on the plain URL; `#lock` clears it. The unlock word is
+  `TOOLS_KEY` in `applyToolsGate()`. This is convenience, not security — a
+  static page's source is always readable. Runs on load and on `hashchange`,
+  and wipes the key from the address bar via `history.replaceState`.
+- **Matchup Generator tab** — the default sub-tab of the Tools tab (`#matchupTab`,
   alongside `#collectionTab`) with no separate data file; it reads
   directly from the already-loaded `CARDS` array. Pick a format (or leave
   it on "Random format") and click "Randomize Matchup" to get two
