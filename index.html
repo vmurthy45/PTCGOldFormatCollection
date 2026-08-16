@@ -6,6 +6,10 @@
 <meta name="theme-color" content="#EE2B39">
 <title>Vig's Pokémon TCG Old Format Collection</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3CclipPath id='t'%3E%3Cpath d='M4 50A46 46 0 0 1 96 50Z'/%3E%3C/clipPath%3E%3CclipPath id='b'%3E%3Cpath d='M4 50A46 46 0 0 0 96 50Z'/%3E%3C/clipPath%3E%3C/defs%3E%3Ccircle cx='50' cy='50' r='46' fill='%23fff' stroke='%2339424B' stroke-width='6'/%3E%3Cpath d='M4 50A46 46 0 0 1 96 50Z' fill='%23F0504A'/%3E%3Cg clip-path='url(%23t)'%3E%3Cellipse cx='80' cy='22' rx='28' ry='32' fill='%23D8413C'/%3E%3C/g%3E%3Cg clip-path='url(%23b)'%3E%3Cellipse cx='80' cy='78' rx='30' ry='26' fill='%23E4E6E9'/%3E%3C/g%3E%3Crect x='4' y='44' width='92' height='12' fill='%2339424B'/%3E%3Ccircle cx='50' cy='50' r='15' fill='%23fff'/%3E%3Ccircle cx='50' cy='50' r='13' fill='%2339424B'/%3E%3Ccircle cx='50' cy='50' r='8' fill='%23fff'/%3E%3C/svg%3E">
+<!-- iOS home-screen icon (needs a real PNG; the SVG favicon above is ignored there) -->
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="Old Format">
+<link rel="manifest" href="manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -1454,7 +1458,7 @@ function renderCardsToGet(){
     const setLabel = labels.length === 1 ? labels[0] : (labels.length > 1 ? 'multiple prints' : '');
     const decks = c.entries.slice()
       .sort((a, b) => b.need - a.need || a.deck.localeCompare(b.deck))
-      .map(e => `${esc(e.deck)}${e.need > 1 ? ` ×${e.need}` : ''}`).join(' · ');
+      .map(e => `${esc(e.deck)} ×${e.need}`).join(' · ');
     const rep = c.entries[0];
     return `<div class="ctg-item" data-img="${esc(rep.image || '')}" data-name="${esc(c.name)}">
       <span class="ctg-need">${c.total}</span>

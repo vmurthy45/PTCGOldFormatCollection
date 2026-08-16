@@ -83,6 +83,14 @@ Hosted free on GitHub Pages.
   the Collection tab with that deck's year filtered and its name typed
   into the search box (reuses the existing search/filter machinery rather
   than adding new deck-lookup logic — see `jumpToDeck()`).
+- `apple-touch-icon.png` (180) / `icon-192.png` / `icon-512.png` +
+  `manifest.webmanifest` — home-screen / PWA icons (iOS ignores the inline SVG
+  favicon for home-screen web-clips, so a real PNG is required). All three PNGs
+  are generated from the favicon's pokeball artwork by `scripts/make_icons.py`
+  (Pillow); re-run it if the pokeball ever changes. iOS caches the icon hard —
+  after adding it, an already-saved home-screen bookmark must be removed and
+  re-added to pick it up. `manifest.webmanifest` uses `display:browser` and
+  `start_url:"."` so it stays a normal bookmark on the QR-safe plain URL.
 - `piloting_guides_collection/<year>/*.md` — source markdown for every
   guide, one file per deck. **Edit these, not `data/guides.json` directly**
   — the JSON is generated output.
