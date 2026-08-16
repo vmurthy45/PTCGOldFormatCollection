@@ -66,11 +66,16 @@ Hosted free on GitHub Pages.
   holding Matchup Generator / Card Collection / Cards to Get / Stats / Game
   Log) is `hidden` by default so public visitors (and the printed-QR URL,
   which must stay untouched) never see it. `applyToolsGate()` in `index.html`
-  reveals it only when unlocked: visiting `#tools` once sets a
+  reveals it only when unlocked: (a) launching from the **home screen** —
+  `isStandaloneApp()` (navigator.standalone / display-mode:standalone) — always
+  shows Tools, since an install is intentional and this side-steps the iOS
+  web-clip storage sandbox; or (b) in Safari, visiting `#tools` once sets a
   `toolsUnlocked` localStorage flag (remembered per device) and the tab then
   shows even on the plain URL; `#lock` clears it. The unlock word is
-  `TOOLS_KEY` in `applyToolsGate()`. This is convenience, not security — a
-  static page's source is always readable. Runs on load and on `hashchange`,
+  `TOOLS_KEY` in `applyToolsGate()`. The head opts into standalone via
+  `apple-mobile-web-app-capable`/`mobile-web-app-capable` and the manifest is
+  `display:standalone` with `start_url:"index.html#tools"` (belt-and-suspenders).
+  This is convenience, not security — a static page's source is always readable. Runs on load and on `hashchange`,
   and wipes the key from the address bar via `history.replaceState`.
 - **Matchup Generator tab** — the default sub-tab of the Tools tab (`#matchupTab`,
   alongside `#collectionTab`) with no separate data file; it reads

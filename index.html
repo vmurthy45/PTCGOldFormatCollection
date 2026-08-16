@@ -9,6 +9,10 @@
 <!-- iOS home-screen icon (needs a real PNG; the SVG favicon above is ignored there) -->
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="apple-mobile-web-app-title" content="Old Format">
+<!-- launch as a standalone app from the home screen; the Tools tab auto-unlocks
+     in that mode (see applyToolsGate). Safari / QR visitors stay gated. -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -328,7 +332,12 @@
     background:var(--red);
     border-bottom:3px solid var(--pokeball-ink);
   }
-  .deck-head .title{font-family:'Poppins',sans-serif; font-weight:600; font-size:15.5px; letter-spacing:.1px}
+  .deck-head .title{font-family:'Poppins',sans-serif; font-weight:600; font-size:15.5px; letter-spacing:.1px;
+    display:flex; align-items:center; min-width:0; flex:1 1 auto}
+  /* the name truncates if ever too long, so the star/tier badge and count pill
+     never wrap to a second line */
+  .deck-head .dname{white-space:nowrap; overflow:hidden; text-overflow:ellipsis; min-width:0}
+  .deck-head .tier-badge{flex:0 0 auto}
   /* "favourite deck of the year" star (marked per deck in FAVOURITES) */
   .fav-star{width:19px; height:19px; vertical-align:-4px; margin-left:7px; flex:0 0 auto}
   /* minimalist per-deck tier badge (marked in TIERS) */
@@ -339,7 +348,7 @@
   .tier-badge.tier-S{background:#FFD43B}
   .tier-badge.tier-A{background:#CED4DA}
   .tier-badge.tier-B{background:#E8B48A}
-  .deck-head .meta{font-size:12px; opacity:.9; font-weight:500; display:flex; align-items:center; gap:8px}
+  .deck-head .meta{font-size:12px; opacity:.9; font-weight:500; display:flex; align-items:center; gap:8px; flex:0 0 auto}
   .deck-head .arrow{transition:transform .2s; font-size:12px; opacity:.95}
   .deck.collapsed .arrow{transform:rotate(-90deg)}
   .deck.collapsed .cards{display:none}
@@ -378,11 +387,10 @@
   .pip.miss{background:transparent; border:1.5px dashed var(--pip-miss)}
   .prints .single{display:inline-flex; align-items:center; gap:6px}
   .prints .cn{font-size:12px; color:var(--muted); font-weight:600; font-variant-numeric:tabular-nums}
-  .deck-legend{display:flex; gap:14px; flex-wrap:wrap; align-items:center;
+  .deck-legend{display:flex; gap:12px; flex-wrap:nowrap; align-items:center;
     padding:9px 16px; border-bottom:1px solid var(--band-b); background:var(--band-b)}
-  .deck-legend b{font-size:10px; text-transform:uppercase; letter-spacing:.7px; color:var(--muted)}
-  .deck-legend .lg{display:inline-flex; align-items:center; gap:6px; font-size:12px; color:var(--muted)}
-  .deck-legend .lg .pip{width:9px; height:9px}
+  .deck-legend .lg{display:inline-flex; align-items:center; gap:5px; font-size:12px; color:var(--muted); white-space:nowrap}
+  .deck-legend .lg .pip{width:9px; height:9px; flex:0 0 auto}
   .copy-deck{margin-left:auto; display:inline-flex; align-items:center; justify-content:center;
     width:28px; height:28px; padding:0; border-radius:8px; cursor:pointer;
     border:1px solid var(--line); background:var(--card); color:var(--muted);
@@ -445,7 +453,15 @@
   .guide-panel table{border-collapse:collapse; font-size:12.5px}
   .guide-panel th,.guide-panel td{border:1px solid var(--line); padding:4px 9px; text-align:center; white-space:nowrap}
   .guide-panel th{background:var(--band-a); color:var(--charcoal-dark); font-weight:600}
-  .count-badge{background:rgba(255,255,255,.24); padding:2px 8px; border-radius:999px; font-size:11px}
+  .count-badge{background:rgba(255,255,255,.24); padding:2px 8px; border-radius:999px; font-size:11px; white-space:nowrap}
+  /* phones: nudge the deck title down + tighten padding so the longest names
+     (e.g. Cynthia's Garchomp (2026)) fit on one line without truncating */
+  @media (max-width:480px){
+    .deck-head{padding:13px 12px}
+    .deck-head .title{font-size:13.5px}
+    .deck-head .fav-star{width:16px; height:16px; margin-left:5px}
+    .deck-head .tier-badge{margin-left:5px}
+  }
   .loading{text-align:center; color:var(--muted); padding:40px 20px; font-size:15px}
   /* card image modal */
   .modal-overlay{
@@ -850,7 +866,7 @@ const TIERS = {
   'Baby Blacephalon (2020)': 'A',
   // 2021 — SSH VMAX Standard (Battle Styles -> Chilling Reign)
   'Shadow Rider (2021)': 'S', 'Ice Rider (2021)': 'S',
-  'Rapid Strike Urshifu (2021)': 'A', 'Eternatus VMAX (2021)': 'A',
+  'Rapid Strike Urshifu (2021)': 'A', 'Eternatus (2021)': 'A',
   'Spiritomb (2021)': 'B',
   // 2022 — SSH VSTAR / Fusion Strike Standard
   'Fusion Strike Mew (2022)': 'S', 'Ice Rider Palkia (2022)': 'S',
@@ -1132,7 +1148,7 @@ function render(){
       ? `<span class="count-badge miss">${deckMissing} missing</span>`
       : `<span class="count-badge">${total - deckMissing} cards</span>`;
     if(deckMissing > 0) head.classList.add('has-missing');
-    head.innerHTML = `<span class="title">${hl(deck, query)}${FAVOURITES.has(deck) ? FAV_STAR : ''}${TIERS[deck] ? tierBadge(TIERS[deck]) : ''}</span>
+    head.innerHTML = `<span class="title"><span class="dname">${hl(deck, query)}</span>${FAVOURITES.has(deck) ? FAV_STAR : ''}${TIERS[deck] ? tierBadge(TIERS[deck]) : ''}</span>
       <span class="meta">${metaHtml} <span class="arrow">▼</span></span>`;
     head.onclick = () => d.classList.toggle('collapsed');
     d.appendChild(head);
@@ -1173,8 +1189,7 @@ function render(){
     // print-type key + copy button, shown only inside the expanded card list
     const legend = document.createElement('div');
     legend.className = 'deck-legend';
-    legend.innerHTML = `<b>Prints</b>`
-      + `<span class="lg"><span class="pip auth"></span>Authentic</span>`
+    legend.innerHTML = `<span class="lg"><span class="pip auth"></span>Authentic</span>`
       + `<span class="lg"><span class="pip wc"></span>WC</span>`
       + `<span class="lg"><span class="pip proxy"></span>Proxy</span>`
       + `<span class="lg"><span class="pip miss"></span>Missing</span>`;
@@ -1698,18 +1713,26 @@ async function init(){
    This is not security (a static page's source is always readable) — it just
    keeps the tab out of the way for other visitors. Change TOOLS_KEY to rename
    the unlock word. */
+function isStandaloneApp(){
+  // installed to the home screen (iOS web-clip or PWA display:standalone)
+  return window.navigator.standalone === true
+    || (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches);
+}
 function applyToolsGate(){
   const TOOLS_KEY = 'tools';
   const btn = document.querySelector('.tab-btn[data-tab="tools"]');
   if(!btn) return;
   const h = (location.hash || '').replace(/^#/, '').toLowerCase();
-  let unlocked = false;
+  // Launched from the home screen? That's an intentional install — always show
+  // Tools (this side-steps the iOS web-clip storage sandbox, where the Safari
+  // unlock flag doesn't exist).
+  let unlocked = isStandaloneApp();
   try{
     if(h === TOOLS_KEY) localStorage.setItem('toolsUnlocked', '1');
     if(h === 'lock') localStorage.removeItem('toolsUnlocked');
-    unlocked = localStorage.getItem('toolsUnlocked') === '1';
+    unlocked = unlocked || localStorage.getItem('toolsUnlocked') === '1';
   }catch(e){
-    unlocked = (h === TOOLS_KEY);          // storage blocked -> unlock this visit only
+    unlocked = unlocked || (h === TOOLS_KEY);   // storage blocked -> unlock this visit only
   }
   if(h === TOOLS_KEY || h === 'lock'){     // don't leave the key sitting in the address bar
     history.replaceState(null, '', location.pathname + location.search);
