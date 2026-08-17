@@ -26190,7 +26190,7 @@
     "prints": {
       "authentic": 0,
       "wc": 0,
-      "proxy": 0
+      "proxy": 2
     }
   },
   {
@@ -27220,11 +27220,11 @@
     "deck": "Slowking (2026)",
     "count": 4,
     "name": "Slowpoke",
-    "set": "57/142",
+    "set": "85/193",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sv7/57_hires.png",
+    "image": "https://images.pokemontcg.io/sv2/85_hires.png",
     "prints": {
-      "authentic": 0,
+      "authentic": 4,
       "wc": 0,
       "proxy": 0
     }
@@ -27238,7 +27238,7 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/sv7/58_hires.png",
     "prints": {
-      "authentic": 1,
+      "authentic": 3,
       "wc": 0,
       "proxy": 0
     }
@@ -27280,7 +27280,7 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/sm75/47_hires.png",
     "prints": {
-      "authentic": 0,
+      "authentic": 2,
       "wc": 0,
       "proxy": 0
     }
@@ -27294,7 +27294,7 @@
     "category": "Pokemon",
     "image": "https://images.scrydex.com/pokemon/me4-61/large",
     "prints": {
-      "authentic": 1,
+      "authentic": 2,
       "wc": 0,
       "proxy": 0
     }
@@ -27322,7 +27322,7 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/sv10/78_hires.png",
     "prints": {
-      "authentic": 0,
+      "authentic": 1,
       "wc": 0,
       "proxy": 0
     }
@@ -27700,7 +27700,7 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/sv4/29_hires.png",
     "prints": {
-      "authentic": 0,
+      "authentic": 1,
       "wc": 0,
       "proxy": 0
     }
@@ -27966,7 +27966,7 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/sv10/19_hires.png",
     "prints": {
-      "authentic": 0,
+      "authentic": 4,
       "wc": 0,
       "proxy": 0
     }
@@ -27980,7 +27980,7 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/sv10/20_hires.png",
     "prints": {
-      "authentic": 2,
+      "authentic": 4,
       "wc": 0,
       "proxy": 0
     }
@@ -28022,7 +28022,7 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/sv10/51_hires.png",
     "prints": {
-      "authentic": 0,
+      "authentic": 2,
       "wc": 0,
       "proxy": 0
     }

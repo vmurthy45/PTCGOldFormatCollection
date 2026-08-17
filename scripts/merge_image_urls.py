@@ -352,6 +352,8 @@ URL_OVERRIDES = {
     ("Galarian Moltres V", "97/198"): "https://images.pokemontcg.io/swsh6/97_hires.png",
     ("Liepard V", "104/198"): "https://images.pokemontcg.io/swsh6/104_hires.png",
     ("Big Charm", "158/202"): "https://images.pokemontcg.io/swsh1/158_hires.png",
+    # Slowking (2026): Slowpoke swapped to the PAL (sv2) print.
+    ("Slowpoke", "85/193"): "https://images.pokemontcg.io/sv2/85_hires.png",
 }
 
 
