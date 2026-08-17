@@ -354,6 +354,30 @@ URL_OVERRIDES = {
     ("Big Charm", "158/202"): "https://images.pokemontcg.io/swsh1/158_hires.png",
     # Slowking (2026): Slowpoke swapped to the PAL (sv2) print.
     ("Slowpoke", "85/193"): "https://images.pokemontcg.io/sv2/85_hires.png",
+    # Empoleon Swampert (2018) — SM-era (UPR=sm5, CES=sm7, GRI=sm2, BUS=sm3,
+    # SUM=sm1, CIN=sm4, SMP=smp promos, all on pokemontcg.io).
+    ("Piplup", "32/156"): "https://images.pokemontcg.io/sm5/32_hires.png",
+    ("Prinplup", "33/156"): "https://images.pokemontcg.io/sm5/33_hires.png",
+    ("Empoleon", "34/156"): "https://images.pokemontcg.io/sm5/34_hires.png",
+    ("Mudkip", "33/168"): "https://images.pokemontcg.io/sm7/33_hires.png",
+    ("Marshtomp", "34/168"): "https://images.pokemontcg.io/sm7/34_hires.png",
+    ("Swampert", "35/168"): "https://images.pokemontcg.io/sm7/35_hires.png",
+    ("Tapu Koko", "SM30/248"): "https://images.pokemontcg.io/smp/SM30_hires.png",
+    ("Oranguru", "114/156"): "https://images.pokemontcg.io/sm5/114_hires.png",
+    ("Alolan Vulpix", "21/145"): "https://images.pokemontcg.io/sm2/21_hires.png",
+    ("Cynthia", "119/156"): "https://images.pokemontcg.io/sm5/119_hires.png",
+    ("Guzma", "115/147"): "https://images.pokemontcg.io/sm3/115_hires.png",
+    ("Lillie", "125/156"): "https://images.pokemontcg.io/sm5/125_hires.png",
+    ("Professor Kukui", "128/149"): "https://images.pokemontcg.io/sm1/128_hires.png",
+    ("Rare Candy", "142/168"): "https://images.pokemontcg.io/sm7/142_hires.png",
+    ("Nest Ball", "123/149"): "https://images.pokemontcg.io/sm1/123_hires.png",
+    ("Timer Ball", "134/149"): "https://images.pokemontcg.io/sm1/134_hires.png",
+    ("Aqua Patch", "119/145"): "https://images.pokemontcg.io/sm2/119_hires.png",
+    ("Rescue Stretcher", "130/145"): "https://images.pokemontcg.io/sm2/130_hires.png",
+    ("Choice Band", "121/145"): "https://images.pokemontcg.io/sm2/121_hires.png",
+    ("Brooklet Hill", "120/145"): "https://images.pokemontcg.io/sm2/120_hires.png",
+    ("Counter Energy", "100/111"): "https://images.pokemontcg.io/sm4/100_hires.png",
+    ("Super Boost Energy Prism Star", "136/156"): "https://images.pokemontcg.io/sm5/136_hires.png",
 }
 
 

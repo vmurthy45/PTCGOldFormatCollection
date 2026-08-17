@@ -28278,5 +28278,327 @@
       "wc": 0,
       "proxy": 0
     }
+  },
+  {
+    "year": "2018",
+    "deck": "Empoleon Swampert (2018)",
+    "count": 4,
+    "name": "Piplup",
+    "set": "32/156",
+    "prints": {
+      "authentic": 4,
+      "wc": 0,
+      "proxy": 0
+    },
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm5/32_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Empoleon Swampert (2018)",
+    "count": 2,
+    "name": "Prinplup",
+    "set": "33/156",
+    "prints": {
+      "authentic": 2,
+      "wc": 0,
+      "proxy": 0
+    },
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm5/33_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Empoleon Swampert (2018)",
+    "count": 4,
+    "name": "Empoleon",
+    "set": "34/156",
+    "prints": {
+      "authentic": 4,
+      "wc": 0,
+      "proxy": 0
+    },
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm5/34_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Empoleon Swampert (2018)",
+    "count": 3,
+    "name": "Mudkip",
+    "set": "33/168",
+    "prints": {
+      "authentic": 3,
+      "wc": 0,
+      "proxy": 0
+    },
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm7/33_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Empoleon Swampert (2018)",
+    "count": 1,
+    "name": "Marshtomp",
+    "set": "34/168",
+    "prints": {
+      "authentic": 1,
+      "wc": 0,
+      "proxy": 0
+    },
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm7/34_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Empoleon Swampert (2018)",
+    "count": 3,
+    "name": "Swampert",
+    "set": "35/168",
+    "prints": {
+      "authentic": 3,
+      "wc": 0,
+      "proxy": 0
+    },
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm7/35_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Empoleon Swampert (2018)",
+    "count": 1,
+    "name": "Tapu Koko",
+    "set": "SM30/248",
+    "prints": {
+      "authentic": 1,
+      "wc": 0,
+      "proxy": 0
+    },
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/smp/SM30_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Empoleon Swampert (2018)",
+    "count": 1,
+    "name": "Oranguru",
+    "set": "114/156",
+    "prints": {
+      "authentic": 0,
+      "wc": 0,
+      "proxy": 0
+    },
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm5/114_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Empoleon Swampert (2018)",
+    "count": 1,
+    "name": "Alolan Vulpix",
+    "set": "21/145",
+    "prints": {
+      "authentic": 1,
+      "wc": 0,
+      "proxy": 0
+    },
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sm2/21_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Empoleon Swampert (2018)",
+    "count": 4,
+    "name": "Cynthia",
+    "set": "119/156",
+    "prints": {
+      "authentic": 4,
+      "wc": 0,
+      "proxy": 0
+    },
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm5/119_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Empoleon Swampert (2018)",
+    "count": 3,
+    "name": "Guzma",
+    "set": "115/147",
+    "prints": {
+      "authentic": 0,
+      "wc": 0,
+      "proxy": 0
+    },
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm3/115_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Empoleon Swampert (2018)",
+    "count": 2,
+    "name": "Lillie",
+    "set": "125/156",
+    "prints": {
+      "authentic": 2,
+      "wc": 0,
+      "proxy": 0
+    },
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm5/125_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Empoleon Swampert (2018)",
+    "count": 2,
+    "name": "Professor Kukui",
+    "set": "128/149",
+    "prints": {
+      "authentic": 2,
+      "wc": 0,
+      "proxy": 0
+    },
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm1/128_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Empoleon Swampert (2018)",
+    "count": 4,
+    "name": "Rare Candy",
+    "set": "142/168",
+    "prints": {
+      "authentic": 4,
+      "wc": 0,
+      "proxy": 0
+    },
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm7/142_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Empoleon Swampert (2018)",
+    "count": 3,
+    "name": "Nest Ball",
+    "set": "123/149",
+    "prints": {
+      "authentic": 3,
+      "wc": 0,
+      "proxy": 0
+    },
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm1/123_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Empoleon Swampert (2018)",
+    "count": 3,
+    "name": "Timer Ball",
+    "set": "134/149",
+    "prints": {
+      "authentic": 3,
+      "wc": 0,
+      "proxy": 0
+    },
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm1/134_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Empoleon Swampert (2018)",
+    "count": 3,
+    "name": "Aqua Patch",
+    "set": "119/145",
+    "prints": {
+      "authentic": 3,
+      "wc": 0,
+      "proxy": 0
+    },
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm2/119_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Empoleon Swampert (2018)",
+    "count": 2,
+    "name": "Rescue Stretcher",
+    "set": "130/145",
+    "prints": {
+      "authentic": 2,
+      "wc": 0,
+      "proxy": 0
+    },
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm2/130_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Empoleon Swampert (2018)",
+    "count": 2,
+    "name": "Choice Band",
+    "set": "121/145",
+    "prints": {
+      "authentic": 2,
+      "wc": 0,
+      "proxy": 0
+    },
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm2/121_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Empoleon Swampert (2018)",
+    "count": 3,
+    "name": "Brooklet Hill",
+    "set": "120/145",
+    "prints": {
+      "authentic": 3,
+      "wc": 0,
+      "proxy": 0
+    },
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm2/120_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Empoleon Swampert (2018)",
+    "count": 5,
+    "name": "Water Energy",
+    "set": "",
+    "prints": {
+      "authentic": 5,
+      "wc": 0,
+      "proxy": 0
+    },
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/xy1/134_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Empoleon Swampert (2018)",
+    "count": 3,
+    "name": "Counter Energy",
+    "set": "100/111",
+    "prints": {
+      "authentic": 3,
+      "wc": 0,
+      "proxy": 0
+    },
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/sm4/100_hires.png"
+  },
+  {
+    "year": "2018",
+    "deck": "Empoleon Swampert (2018)",
+    "count": 1,
+    "name": "Super Boost Energy Prism Star",
+    "set": "136/156",
+    "prints": {
+      "authentic": 1,
+      "wc": 0,
+      "proxy": 0
+    },
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/sm5/136_hires.png"
   }
 ]
