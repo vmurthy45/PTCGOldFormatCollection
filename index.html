@@ -1378,16 +1378,17 @@ function invDeckIndex(){
   }
   return idx;
 }
-// Loose copies. A variant still marked "Sheet" is unassigned stock; once Vig
+// Loose copies. A variant still marked "Spare" is unassigned stock; once Vig
 // tells us which deck holds those copies, the variant names that deck and is
 // no longer spare. Current-format decks with no explicit assignment yet are
 // still assumed to be drawing on the unassigned pile.
 function invAssignedDecks(g){
-  return new Set(g.variants.map(v => v.source).filter(s => s && s !== 'Sheet'));
+  return new Set(g.variants.map(v => v.source).filter(s => s && s !== 'Spare'));
 }
+// "Spare" on a variant = loose stock, not yet assigned to a deck
 function invLoose(g){
   return g.variants.reduce((s,v) =>
-    s + ((!v.source || v.source === 'Sheet') ? (Number(v.qty) || 0) : 0), 0);
+    s + ((!v.source || v.source === 'Spare') ? (Number(v.qty) || 0) : 0), 0);
 }
 // Each row is one PRINT of a card, but current-format deck usage is only known
 // per card name, so a card's unassigned usage is consumed greedily across its
@@ -1466,9 +1467,9 @@ function renderInventory(){
     // holding each. Print type (World Champs / Authentic / Proxy / Standard...)
     // is the second axis: several types of the SAME print sit together here.
     const vars = g.variants.map(v => {
-      const src = v.source && v.source !== 'Sheet'
+      const src = v.source && v.source !== 'Spare'
         ? `<span class="inv-src inv-src-deck">${esc(v.source)}</span>`
-        : `<span class="inv-src">Sheet</span>`;
+        : `<span class="inv-src">Spare</span>`;
       return `<span class="inv-var"><b>${v.qty}</b> ${esc(v.version)}${src}</span>`;
     }).join('');
     // g.decks is already just the current-format usage this row supplies from

@@ -48,7 +48,7 @@ def main():
             e["variants"].append({
                 "version": v.get("version", "Standard"),
                 "qty": int(v.get("qty") or 0),
-                "source": v.get("source", "Sheet"),
+                "source": v.get("source", "Spare"),
             })
 
     rows = sorted(out.values(), key=lambda e: (e["name"].lower(), e["set"] == "",

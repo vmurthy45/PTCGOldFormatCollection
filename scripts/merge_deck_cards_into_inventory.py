@@ -68,7 +68,7 @@ def main():
     # drop any previously merged deck variants so this is safe to re-run
     for g in inventory:
         g["variants"] = [v for v in g.get("variants", [])
-                         if not v.get("source") or v["source"] == "Sheet"]
+                         if not v.get("source") or v["source"] == "Spare"]
     by_key = {g["key"]: g for g in inventory if g["variants"]}
 
     added_cards = added_copies = 0
@@ -107,11 +107,11 @@ def main():
 
     total = sum(g["total"] for g in out)
     sheet = sum(v["qty"] for g in out for v in g["variants"]
-                if (v.get("source") or "Sheet") == "Sheet")
+                if (v.get("source") or "Spare") == "Spare")
     print(f"Added {added_copies} copies from pre-{year_max} decks "
           f"({added_cards} cards new to the inventory).")
     print(f"Inventory: {len(out)} cards, {total} copies "
-          f"({sheet} from the sheet + {total - sheet} sleeved in decks).")
+          f"({sheet} loose + {total - sheet} sleeved in decks).")
 
 
 if __name__ == "__main__":

@@ -105,11 +105,16 @@ Hosted free on GitHub Pages.
   deck (e.g. "Dreepy: 4 Reverse Holo PRE 71 are in Dragapult Dusknoir (2026),
   4 in Dragapult (2026)"). Record that by setting the variant's `source` to the
   deck name (splitting a variant row if only some copies are assigned), and set
-  `"verified": true` on the card once he's confirmed it. `invSpare()` treats a
-  variant still sourced `"Sheet"` as loose stock, and only assumes a
+  `"verified": true` on the card once he's confirmed it. A variant sourced
+  `"Spare"` is loose stock, and only assumes a
   current-format deck is drawing on that pile when no variant already names
-  that deck — so assignments make the spare count exact. The tab shows ✓ for
-  verified cards and • for not-yet-checked, has "Verified" / "Not verified yet"
+  that deck — so assignments make the spare count exact. Auto-verification has been run twice: (1) rows where every copy is World
+  Champs and deck-assigned, and (2) rows whose card is played ONLY by 2026
+  decks (those copies had their deck written in, since there is nowhere else
+  they could be). Where a print has several versions the assignment script
+  guessed WHICH version went in the deck (it got counts right, not versions) —
+  those 19 rows were deliberately left unverified for Vig to check. The tab
+  shows ✓ for verified cards and • for not-yet-checked, has "Verified" / "Not verified yet"
   filters, and the stats line tracks progress (e.g. `1/754 verified`).
   2026 decks stay display-only — deck `prints`/missing markers are never
   rewritten from inventory. Vig intends to walk through the deck-sourced

@@ -136,7 +136,7 @@ def main():
             continue
         g["variants"].append({
             "version": v_key[0], "set": v_key[1], "num": v_key[2],
-            "qty": qty, "source": "Sheet",
+            "qty": qty, "source": "Spare",
             "image": image_for(set_code, num, img_by_name.get(k)),
         })
 

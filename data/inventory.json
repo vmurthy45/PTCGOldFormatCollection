@@ -30,9 +30,10 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Alakazam (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Absol",
@@ -65,9 +66,10 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Slowking (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Accelgor",
@@ -305,7 +307,7 @@
       {
         "version": "Standard",
         "qty": 19,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -320,16 +322,22 @@
     "total": 6,
     "variants": [
       {
-        "version": "Reverse Holo",
-        "qty": 2,
-        "source": "Sheet"
+        "version": "Standard",
+        "qty": 3,
+        "source": "Alakazam (2026)"
       },
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Sheet"
+        "qty": 1,
+        "source": "Spare"
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 2,
+        "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Alolan Ninetales-GX",
@@ -528,7 +536,8 @@
         "qty": 2,
         "source": "Raging Bolt (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Area Zero Underdepths",
@@ -543,7 +552,7 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -623,7 +632,7 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -696,7 +705,8 @@
         "qty": 2,
         "source": "Dragapult (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Arven",
@@ -711,7 +721,7 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -818,7 +828,8 @@
         "qty": 1,
         "source": "Boltevoir (2010)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Azelf",
@@ -835,7 +846,8 @@
         "qty": 1,
         "source": "Gyarados (2010)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Azelf LV.X",
@@ -870,7 +882,8 @@
         "qty": 3,
         "source": "Jumpluff (2010)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Baltoy",
@@ -887,7 +900,8 @@
         "qty": 1,
         "source": "Boltevoir (2010)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Banette",
@@ -901,10 +915,16 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 5,
-        "source": "Sheet"
+        "qty": 3,
+        "source": "Hide 'n' Sneak (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Banette-GX",
@@ -974,12 +994,12 @@
       {
         "version": "Prize Pack",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "Standard",
         "qty": 12,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -995,10 +1015,16 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 2,
-        "source": "Sheet"
+        "qty": 1,
+        "source": "Alakazam (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Battle Compressor",
@@ -1201,7 +1227,8 @@
         "qty": 1,
         "source": "TDK (2013)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Bianca",
@@ -1218,7 +1245,8 @@
         "qty": 1,
         "source": "Mega Kangaskhan (2014)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Bibarel",
@@ -1320,9 +1348,10 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "N's Zoroark (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Bird Keeper",
@@ -1398,9 +1427,10 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "N's Zoroark (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Black Kyurem-EX",
@@ -1489,7 +1519,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "World Champs",
@@ -1543,7 +1573,8 @@
         "qty": 2,
         "source": "Regidrago (2024)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Boss's Orders",
@@ -1657,12 +1688,12 @@
       {
         "version": "Reverse Holo",
         "qty": 3,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "Standard",
         "qty": 27,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -1697,9 +1728,10 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Slowking (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Bravery Charm",
@@ -1776,7 +1808,7 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -1793,7 +1825,7 @@
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "Authentic",
@@ -1983,7 +2015,7 @@
       {
         "version": "Standard",
         "qty": 27,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -2000,7 +2032,7 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -2017,7 +2049,7 @@
       {
         "version": "Prize Pack Holo",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "World Champs",
@@ -2038,10 +2070,16 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Sheet"
+        "qty": 2,
+        "source": "Rocket's Mewtwo (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Bursting Balloon",
@@ -2209,7 +2247,7 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -2301,7 +2339,7 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "Authentic",
@@ -2340,7 +2378,7 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "Authentic",
@@ -2362,7 +2400,7 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "Authentic",
@@ -2444,7 +2482,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "Authentic",
@@ -2466,7 +2504,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -2483,7 +2521,7 @@
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -2657,7 +2695,7 @@
       {
         "version": "Prize Pack",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -2673,10 +2711,16 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 7,
-        "source": "Sheet"
+        "qty": 4,
+        "source": "Slowking (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Claydol",
@@ -2900,7 +2944,8 @@
         "qty": 4,
         "source": "Vespiquen (2016)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Combee",
@@ -2917,7 +2962,8 @@
         "qty": 1,
         "source": "Gyarados (2010)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Combusken",
@@ -2932,7 +2978,7 @@
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -3014,7 +3060,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -3102,7 +3148,7 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -3214,7 +3260,8 @@
         "qty": 1,
         "source": "Raging Bolt (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Crispin",
@@ -3229,7 +3276,7 @@
       {
         "version": "Standard",
         "qty": 6,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -3320,7 +3367,8 @@
         "qty": 4,
         "source": "Iron Thorns (2024)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Crushing Hammer",
@@ -3352,12 +3400,12 @@
       {
         "version": "Full Art",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -3374,7 +3422,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -3583,9 +3631,10 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Cynthia's Garchomp (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Cynthia's Garchomp ex",
@@ -3600,9 +3649,10 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Cynthia's Garchomp (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Cynthia's Garchomp ex",
@@ -3617,9 +3667,10 @@
       {
         "version": "Japanese",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Cynthia's Garchomp (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Cynthia's Gible",
@@ -3634,9 +3685,10 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Cynthia's Garchomp (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Cynthia's Power Weight",
@@ -3650,10 +3702,16 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Sheet"
+        "qty": 3,
+        "source": "Cynthia's Garchomp (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Cynthia's Roselia",
@@ -3668,9 +3726,10 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Cynthia's Garchomp (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Cynthia's Roserade",
@@ -3685,12 +3744,17 @@
       {
         "version": "Prize Pack",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Cynthia's Garchomp (2026)"
       },
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Sheet"
+        "qty": 3,
+        "source": "Cynthia's Garchomp (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare"
       }
     ]
   },
@@ -3706,10 +3770,16 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 3,
-        "source": "Sheet"
+        "qty": 2,
+        "source": "N's Zoroark (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Cyrus's Conspiracy",
@@ -3742,7 +3812,7 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -3778,7 +3848,8 @@
         "qty": 2,
         "source": "Ancient Toolbox (2024)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Dark Patch",
@@ -3877,12 +3948,12 @@
       {
         "version": "Standard",
         "qty": 7,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "Prize Pack",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -3901,7 +3972,8 @@
         "qty": 2,
         "source": "Darkrai Giratina (2016)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Darkrai-EX",
@@ -3964,13 +4036,18 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 5,
-        "source": "Sheet"
+        "qty": 4,
+        "source": "Alakazam (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare"
       },
       {
         "version": "Reverse Holo",
         "qty": 5,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -3987,7 +4064,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -4026,7 +4103,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -4141,9 +4218,10 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Hide 'n' Sneak (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Dialga G",
@@ -4505,7 +4583,7 @@
       {
         "version": "Standard",
         "qty": 9,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -4606,7 +4684,7 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -4623,7 +4701,7 @@
       {
         "version": "Japanese",
         "qty": 3,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -4640,7 +4718,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "World Champs",
@@ -4703,12 +4781,12 @@
       {
         "version": "Standard",
         "qty": 9,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "Reverse Holo",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -4725,7 +4803,7 @@
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -4742,7 +4820,7 @@
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "World Champs",
@@ -4809,7 +4887,7 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ],
     "verified": true
@@ -4863,7 +4941,7 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -4917,7 +4995,7 @@
       {
         "version": "Standard",
         "qty": 7,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -4955,13 +5033,18 @@
     "variants": [
       {
         "version": "Reverse Holo",
-        "qty": 3,
-        "source": "Sheet"
+        "qty": 2,
+        "source": "Alakazam (2026)"
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Hide 'n' Sneak (2026)"
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Hide 'n' Sneak (2026)"
       }
     ]
   },
@@ -4978,9 +5061,10 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Sheet"
+        "source": "Hide 'n' Sneak (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Dunsparce",
@@ -4995,12 +5079,17 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Alakazam (2026)"
       },
       {
         "version": "Reverse Holo",
-        "qty": 3,
-        "source": "Sheet"
+        "qty": 1,
+        "source": "Dragapult (2026)"
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 2,
+        "source": "Spare"
       }
     ]
   },
@@ -5034,7 +5123,7 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -5053,7 +5142,8 @@
         "qty": 1,
         "source": "Boltevoir (2010)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Dusclops",
@@ -5070,7 +5160,8 @@
         "qty": 2,
         "source": "Dragapult (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Dusknoir",
@@ -5087,7 +5178,8 @@
         "qty": 1,
         "source": "Gothitelle (2013)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Dusknoir",
@@ -5102,7 +5194,7 @@
       {
         "version": "Reverse Holo",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -5138,7 +5230,8 @@
         "qty": 1,
         "source": "Boltevoir (2010)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Dusknoir",
@@ -5155,7 +5248,8 @@
         "qty": 1,
         "source": "Dragapult (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Duskull",
@@ -5172,7 +5266,8 @@
         "qty": 1,
         "source": "Gothitelle (2013)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Duskull",
@@ -5187,7 +5282,7 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "Authentic",
@@ -5211,7 +5306,8 @@
         "qty": 1,
         "source": "Boltevoir (2010)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Duskull",
@@ -5228,7 +5324,8 @@
         "qty": 2,
         "source": "Dragapult (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Earthen Vessel",
@@ -5459,7 +5556,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -5476,7 +5573,7 @@
       {
         "version": "Prize Pack",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -5547,7 +5644,8 @@
         "qty": 2,
         "source": "Lost Box Kyogre (2023)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Energy Retrieval",
@@ -5630,7 +5728,8 @@
         "qty": 2,
         "source": "Urshifu VMAX (2022)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Energy Spinner",
@@ -5691,7 +5790,8 @@
         "qty": 4,
         "source": "Regidrago (2024)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Energy Switch",
@@ -5752,7 +5852,8 @@
         "qty": 1,
         "source": "Raging Bolt (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Enhanced Hammer",
@@ -6130,7 +6231,7 @@
       {
         "version": "Standard",
         "qty": 5,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -6191,7 +6292,7 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -6255,7 +6356,8 @@
         "qty": 4,
         "source": "Ancient Toolbox (2024)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Explorer's Guidance",
@@ -6270,7 +6372,7 @@
       {
         "version": "Prize Pack Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -6371,12 +6473,12 @@
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -6393,7 +6495,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -6412,7 +6514,8 @@
         "qty": 2,
         "source": "Raging Bolt (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Felicity's Drawing",
@@ -6445,7 +6548,7 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -6462,7 +6565,7 @@
       {
         "version": "Japanese",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -6717,7 +6820,7 @@
       {
         "version": "Standard",
         "qty": 12,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -6766,12 +6869,17 @@
       {
         "version": "Prize Pack Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Cynthia's Garchomp (2026)"
       },
       {
         "version": "Standard",
-        "qty": 8,
-        "source": "Sheet"
+        "qty": 3,
+        "source": "Cynthia's Garchomp (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 5,
+        "source": "Spare"
       }
     ]
   },
@@ -6900,7 +7008,7 @@
       {
         "version": "Standard",
         "qty": 11,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -7096,7 +7204,7 @@
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -7120,7 +7228,8 @@
         "qty": 1,
         "source": "Gardevoir (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Flying Pikachu V",
@@ -7319,7 +7428,7 @@
       {
         "version": "Prize Pack Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -7361,7 +7470,8 @@
         "qty": 3,
         "source": "Iron Thorns (2024)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Future Booster Energy Capsule",
@@ -7376,7 +7486,7 @@
       {
         "version": "Prize Pack Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -7469,7 +7579,8 @@
         "qty": 1,
         "source": "Boltevoir (2010)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Garbodor",
@@ -7596,7 +7707,8 @@
         "qty": 2,
         "source": "Gardevoir (2023)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Gardevoir",
@@ -7613,7 +7725,8 @@
         "qty": 3,
         "source": "Boltevoir (2010)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Gardevoir ex",
@@ -7734,7 +7847,8 @@
         "qty": 2,
         "source": "Joltdengo (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Genesect-EX",
@@ -7945,7 +8059,7 @@
       {
         "version": "Prize Pack",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -8065,7 +8179,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -8154,12 +8268,12 @@
       {
         "version": "Prize Pack",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "Standard",
         "qty": 13,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -8308,7 +8422,8 @@
         "qty": 1,
         "source": "Greninja (2016)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Greninja BREAK",
@@ -8453,10 +8568,16 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 8,
-        "source": "Sheet"
+        "qty": 4,
+        "source": "Hide 'n' Sneak (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Gyarados",
@@ -8489,9 +8610,10 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Alakazam (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Harlequin",
@@ -8506,7 +8628,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -8525,7 +8647,8 @@
         "qty": 1,
         "source": "Regidrago (2024)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Hawlucha",
@@ -8542,7 +8665,8 @@
         "qty": 4,
         "source": "Lando Bats (2015)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Hawlucha",
@@ -8559,7 +8683,8 @@
         "qty": 1,
         "source": "Dragapult (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Heat Factory Prism Star",
@@ -8734,7 +8859,8 @@
         "qty": 1,
         "source": "Dragapult (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Hilda",
@@ -8749,7 +8875,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -8865,7 +8991,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -8936,7 +9062,7 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -8955,7 +9081,8 @@
         "qty": 3,
         "source": "Raging Bolt (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Hoppip",
@@ -8972,7 +9099,8 @@
         "qty": 3,
         "source": "Jumpluff (2010)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Hoppip",
@@ -8989,7 +9117,8 @@
         "qty": 1,
         "source": "Jumpluff (2010)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Hypnotoxic Laser",
@@ -9063,7 +9192,7 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -9080,7 +9209,7 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -9119,9 +9248,10 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Rocket's Honchkrow (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Inkay",
@@ -9234,7 +9364,7 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -9308,7 +9438,7 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -9424,7 +9554,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -9464,7 +9594,7 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -9501,7 +9631,8 @@
         "qty": 1,
         "source": "Banette Garbodor (2018)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Jirachi",
@@ -9628,7 +9759,8 @@
         "qty": 2,
         "source": "Joltdengo (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Judge",
@@ -9645,7 +9777,8 @@
         "qty": 2,
         "source": "Vespiquen (2016)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Judge",
@@ -9662,7 +9795,8 @@
         "qty": 4,
         "source": "Pikarom Judge (2019)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Judge",
@@ -9679,7 +9813,8 @@
         "qty": 1,
         "source": "Fusion Strike Mew (2023)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Judge",
@@ -9696,7 +9831,8 @@
         "qty": 3,
         "source": "Iron Thorns (2024)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Judge",
@@ -9718,7 +9854,8 @@
         "qty": 1,
         "source": "Boltevoir (2010)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Judge",
@@ -9733,7 +9870,7 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -9806,10 +9943,16 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 8,
-        "source": "Sheet"
+        "qty": 4,
+        "source": "Alakazam (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Kangaskhan-EX",
@@ -9936,7 +10079,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -9989,7 +10132,8 @@
         "qty": 1,
         "source": "Gardevoir (2023)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Kirlia",
@@ -10006,7 +10150,8 @@
         "qty": 3,
         "source": "Gardevoir (2023)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Kirlia",
@@ -10023,7 +10168,8 @@
         "qty": 2,
         "source": "Gardevoir (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Kirlia",
@@ -10040,7 +10186,8 @@
         "qty": 2,
         "source": "Boltevoir (2010)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Klara",
@@ -10146,7 +10293,8 @@
         "qty": 1,
         "source": "Regidrago (2024)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Kyurem",
@@ -10168,7 +10316,8 @@
         "qty": 3,
         "source": "TDK (2014)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Kyurem",
@@ -10183,7 +10332,7 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -10216,10 +10365,16 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 3,
-        "source": "Sheet"
+        "qty": 1,
+        "source": "Alakazam (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Landorus-EX",
@@ -10252,7 +10407,7 @@
       {
         "version": "Japanese",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -10269,7 +10424,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "World Champs",
@@ -10564,12 +10719,12 @@
       {
         "version": "Prize Pack Holo",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -10618,7 +10773,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -10637,7 +10792,8 @@
         "qty": 1,
         "source": "Gardevoir (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Lillie's Clefairy ex",
@@ -10652,7 +10808,7 @@
       {
         "version": "Japanese",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -10669,12 +10825,37 @@
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Cynthia's Garchomp (2026)"
       },
       {
         "version": "Standard",
-        "qty": 21,
-        "source": "Sheet"
+        "qty": 3,
+        "source": "Cynthia's Garchomp (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Dragapult (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Dragapult Dusknoir (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Hide 'n' Sneak (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "N's Zoroark (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Rocket's Mewtwo (2026)"
       }
     ]
   },
@@ -10691,7 +10872,7 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -10725,7 +10906,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -10904,12 +11085,12 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Rocket's Mewtwo (2026)"
       },
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Alakazam (2026)"
       }
     ]
   },
@@ -10979,7 +11160,8 @@
         "qty": 1,
         "source": "Miraidon (2024)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Lumineon V",
@@ -10994,7 +11176,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -11029,7 +11211,7 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -11046,7 +11228,7 @@
       {
         "version": "Prize Pack Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -11726,7 +11908,8 @@
         "qty": 1,
         "source": "TDK (2014)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Maximum Belt",
@@ -11758,7 +11941,7 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -11793,7 +11976,7 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -11810,9 +11993,10 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Sheet"
+        "source": "Slowking (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Mega Signal",
@@ -11827,12 +12011,12 @@
       {
         "version": "Prize Pack",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -11871,7 +12055,7 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -11888,7 +12072,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -11950,7 +12134,7 @@
       {
         "version": "Standard",
         "qty": 8,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -11984,9 +12168,10 @@
       {
         "version": "Japanese",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Dragapult (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Meowth ex",
@@ -12000,10 +12185,26 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Sheet"
+        "qty": 1,
+        "source": "Dragapult Dusknoir (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "N's Zoroark (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Slowking (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Mesprit",
@@ -12036,9 +12237,10 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Slowking (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Metal Frying Pan",
@@ -12092,7 +12294,7 @@
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -12111,7 +12313,8 @@
         "qty": 1,
         "source": "Gardevoir (2023)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Mew",
@@ -12218,7 +12421,8 @@
         "qty": 2,
         "source": "Gothitelle (2013)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Mew-EX",
@@ -12245,7 +12449,8 @@
         "qty": 1,
         "source": "Gardevoir (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Mew-EX",
@@ -12415,7 +12620,7 @@
       {
         "version": "Prize Pack",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -12472,7 +12677,7 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -12489,7 +12694,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -12523,12 +12728,12 @@
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -12636,7 +12841,7 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -12653,7 +12858,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "World Champs",
@@ -13016,9 +13221,10 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "N's Zoroark (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "N's Darmanitan",
@@ -13033,9 +13239,10 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "N's Zoroark (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "N's Darmanitan",
@@ -13050,9 +13257,10 @@
       {
         "version": "Prize Pack Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "N's Darumaka",
@@ -13067,9 +13275,10 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "N's Zoroark (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "N's Plan",
@@ -13084,7 +13293,7 @@
       {
         "version": "Standard",
         "qty": 5,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -13101,12 +13310,17 @@
       {
         "version": "Prize Pack",
         "qty": 1,
-        "source": "Sheet"
+        "source": "N's Zoroark (2026)"
       },
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Sheet"
+        "qty": 2,
+        "source": "N's Zoroark (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare"
       }
     ]
   },
@@ -13123,9 +13337,10 @@
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "N's Zoroark (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "N's Reshiram",
@@ -13140,14 +13355,15 @@
       {
         "version": "Prize Pack",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "Prize Pack Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "N's Zekrom",
@@ -13162,12 +13378,17 @@
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "N's Zoroark (2026)"
       },
       {
         "version": "Standard",
-        "qty": 2,
-        "source": "Sheet"
+        "qty": 1,
+        "source": "N's Zoroark (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare"
       }
     ]
   },
@@ -13184,9 +13405,10 @@
       {
         "version": "Japanese",
         "qty": 4,
-        "source": "Sheet"
+        "source": "N's Zoroark (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "N's Zorua",
@@ -13201,9 +13423,10 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "N's Zoroark (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Naganadel",
@@ -13399,7 +13622,8 @@
         "qty": 3,
         "source": "Dragapult (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Night Stretcher",
@@ -13414,7 +13638,7 @@
       {
         "version": "Standard",
         "qty": 20,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -13431,9 +13655,10 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Alakazam (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Ninetales",
@@ -13466,7 +13691,7 @@
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -13485,7 +13710,8 @@
         "qty": 3,
         "source": "Raging Bolt (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Octillery",
@@ -13692,7 +13918,7 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -13709,7 +13935,7 @@
       {
         "version": "Full Art",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -13828,7 +14054,8 @@
         "qty": 2,
         "source": "Ancient Toolbox (2024)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Pal Pad",
@@ -13907,7 +14134,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -13983,7 +14210,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -14000,9 +14227,10 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "N's Zoroark (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Penny",
@@ -14086,7 +14314,7 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "Authentic",
@@ -14108,7 +14336,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "Authentic",
@@ -14182,10 +14410,16 @@
     "variants": [
       {
         "version": "Reverse Holo",
-        "qty": 4,
-        "source": "Sheet"
+        "qty": 2,
+        "source": "Alakazam (2026)"
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 2,
+        "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Piplup",
@@ -14247,7 +14481,8 @@
         "qty": 3,
         "source": "Jumpluff (2010)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "PlusPower",
@@ -14300,10 +14535,46 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 29,
-        "source": "Sheet"
+        "qty": 4,
+        "source": "Alakazam (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Cynthia's Garchomp (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Dragapult (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Dragapult Dusknoir (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Hide 'n' Sneak (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Rocket's Honchkrow (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Slowking (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "N's Zoroark (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Pokégear 3.0",
@@ -14330,7 +14601,8 @@
         "qty": 2,
         "source": "Joltdengo (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Pokégear 3.0",
@@ -14369,7 +14641,8 @@
         "qty": 4,
         "source": "Iron Thorns (2024)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Pokémon Catcher",
@@ -14450,7 +14723,8 @@
         "qty": 1,
         "source": "Mega Audino (2016)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Pokémon Center Lady",
@@ -14512,7 +14786,8 @@
         "qty": 2,
         "source": "Gothitelle (2013)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Pokémon Communication",
@@ -14534,7 +14809,8 @@
         "qty": 4,
         "source": "Jumpluff (2010)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Pokémon Communication",
@@ -14690,10 +14966,16 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Sheet"
+        "qty": 2,
+        "source": "Hide 'n' Sneak (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Porygon",
@@ -14809,12 +15091,12 @@
       {
         "version": "Prize Pack",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Cynthia's Garchomp (2026)"
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -14853,7 +15135,8 @@
         "qty": 1,
         "source": "Raging Bolt (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Prime Catcher",
@@ -14868,7 +15151,7 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -14929,7 +15212,7 @@
       {
         "version": "Standard",
         "qty": 6,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -14945,10 +15228,16 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 6,
-        "source": "Sheet"
+        "qty": 3,
+        "source": "Cynthia's Garchomp (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Hide 'n' Sneak (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Professor Burnet",
@@ -15160,7 +15449,8 @@
         "qty": 4,
         "source": "Raging Bolt (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Professor Sada's Vitality",
@@ -15175,7 +15465,7 @@
       {
         "version": "Prize Pack",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -15358,7 +15648,8 @@
         "qty": 1,
         "source": "Raging Bolt (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Professor Turo's Scenario",
@@ -15373,7 +15664,7 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -15434,7 +15725,8 @@
         "qty": 4,
         "source": "Regidrago (2024)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Professor's Research",
@@ -15513,7 +15805,8 @@
         "qty": 3,
         "source": "Dragapult (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Professor's Research",
@@ -15528,7 +15821,7 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -15617,12 +15910,12 @@
       {
         "version": "Prize Pack Holo",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -15639,9 +15932,10 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Alakazam (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Pumpkaboo",
@@ -15668,7 +15962,8 @@
         "qty": 1,
         "source": "Colorless Lugia (2023)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Pumpkaboo",
@@ -15809,7 +16104,7 @@
       {
         "version": "Standard",
         "qty": 22,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -16068,7 +16363,8 @@
         "qty": 4,
         "source": "TDK (2014)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Ralts",
@@ -16107,7 +16403,8 @@
         "qty": 3,
         "source": "Gardevoir (2023)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Ralts",
@@ -16124,7 +16421,8 @@
         "qty": 1,
         "source": "Gardevoir (2023)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Ralts",
@@ -16141,7 +16439,8 @@
         "qty": 3,
         "source": "Gardevoir (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Ralts",
@@ -16158,7 +16457,8 @@
         "qty": 4,
         "source": "Boltevoir (2010)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Random Receiver",
@@ -16227,7 +16527,7 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -16266,7 +16566,7 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -16283,7 +16583,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -16368,7 +16668,8 @@
         "qty": 3,
         "source": "Boltevoir (2010)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Rare Candy",
@@ -16385,7 +16686,8 @@
         "qty": 3,
         "source": "Gardevoir (2023)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Rare Candy",
@@ -16424,7 +16726,8 @@
         "qty": 1,
         "source": "Ice Rider Palkia (2022)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Rare Candy",
@@ -16488,12 +16791,12 @@
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -16529,7 +16832,8 @@
         "qty": 3,
         "source": "RayEels (2013)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Rayquaza-EX",
@@ -16981,12 +17285,12 @@
       {
         "version": "Prize Pack",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Dragapult (2026)"
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Dragapult (2026)"
       }
     ]
   },
@@ -17043,9 +17347,10 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Cynthia's Garchomp (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Rosa's Encouragement",
@@ -17060,12 +17365,12 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Dragapult (2026)"
       },
       {
         "version": "Prize Pack",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -17128,9 +17433,10 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Rocket's Honchkrow (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Rotom Phone",
@@ -17259,7 +17565,8 @@
         "qty": 2,
         "source": "Lost Box Kyogre (2023)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Sableye",
@@ -17276,7 +17583,8 @@
         "qty": 4,
         "source": "Gyarados (2010)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Sacred Ash",
@@ -17291,9 +17599,10 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Alakazam (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Salandit",
@@ -17344,7 +17653,8 @@
         "qty": 1,
         "source": "Lando Bats (2015)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Scoop Up Cyclone",
@@ -17359,7 +17669,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -17413,7 +17723,7 @@
       {
         "version": "Standard",
         "qty": 6,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -17432,7 +17742,8 @@
         "qty": 1,
         "source": "TDK (2014)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Scramble Switch",
@@ -17447,7 +17758,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -17522,7 +17833,7 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -17556,7 +17867,7 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -17573,7 +17884,7 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -17625,7 +17936,7 @@
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -17660,7 +17971,7 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -17803,7 +18114,8 @@
         "qty": 2,
         "source": "Banette Garbodor (2018)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Shuppet",
@@ -17818,7 +18130,7 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -17852,10 +18164,16 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Sheet"
+        "qty": 2,
+        "source": "Hide 'n' Sneak (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Skiploom",
@@ -18004,12 +18322,12 @@
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Slowking (2026)"
       },
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Slowking (2026)"
       }
     ]
   },
@@ -18026,9 +18344,10 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Slowking (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Smeargle",
@@ -18120,7 +18439,7 @@
       {
         "version": "Standard",
         "qty": 8,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -18154,7 +18473,7 @@
       {
         "version": "Reverse Holo",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -18171,7 +18490,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -18219,10 +18538,16 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 2,
-        "source": "Sheet"
+        "qty": 1,
+        "source": "Dragapult (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "N's Zoroark (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Spell Tag",
@@ -18271,7 +18596,7 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -18325,7 +18650,8 @@
         "qty": 3,
         "source": "Boltevoir (2010)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Spiritomb",
@@ -18569,7 +18895,8 @@
         "qty": 4,
         "source": "Lando Bats (2015)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Sudowoodo",
@@ -18737,7 +19064,8 @@
         "qty": 2,
         "source": "RayEels (2013)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Super Rod",
@@ -18796,7 +19124,8 @@
         "qty": 4,
         "source": "Gyarados (2010)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Super Scoop Up",
@@ -18862,7 +19191,8 @@
         "qty": 4,
         "source": "Joltdengo (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Superior Energy Retrieval",
@@ -18899,7 +19229,7 @@
       {
         "version": "Prize Pack",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -18999,7 +19329,8 @@
         "qty": 1,
         "source": "Regidrago (2024)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Switch",
@@ -19055,7 +19386,8 @@
         "qty": 3,
         "source": "TDK (2013)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Switch",
@@ -19319,7 +19651,7 @@
       {
         "version": "Full Art",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -19472,9 +19804,10 @@
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "N's Zoroark (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Teal Mask Ogerpon ex",
@@ -19612,12 +19945,12 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Rocket's Honchkrow (2026)"
       },
       {
         "version": "Prize Pack",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -19633,10 +19966,16 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 8,
-        "source": "Sheet"
+        "qty": 4,
+        "source": "Rocket's Honchkrow (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Rocket's Mewtwo (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Team Rocket's Articuno",
@@ -19650,10 +19989,16 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 3,
-        "source": "Sheet"
+        "qty": 2,
+        "source": "Rocket's Honchkrow (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Rocket's Mewtwo (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Team Rocket's Energy",
@@ -19668,17 +20013,27 @@
       {
         "version": "Prize Pack",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Rocket's Honchkrow (2026)"
       },
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Rocket's Honchkrow (2026)"
       },
       {
         "version": "Standard",
-        "qty": 6,
-        "source": "Sheet"
+        "qty": 1,
+        "source": "Rocket's Honchkrow (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Rocket's Mewtwo (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare"
       }
     ]
   },
@@ -19694,10 +20049,16 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Sheet"
+        "qty": 3,
+        "source": "Rocket's Honchkrow (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Rocket's Mewtwo (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Team Rocket's Giovanni",
@@ -19712,12 +20073,17 @@
       {
         "version": "Prize Pack",
         "qty": 3,
-        "source": "Sheet"
+        "source": "Rocket's Honchkrow (2026)"
       },
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Sheet"
+        "qty": 1,
+        "source": "Rocket's Honchkrow (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Rocket's Mewtwo (2026)"
       }
     ]
   },
@@ -19734,9 +20100,10 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Sheet"
+        "source": "Rocket's Honchkrow (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Team Rocket's Mewtwo ex",
@@ -19751,9 +20118,10 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Rocket's Mewtwo (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Team Rocket's Mewtwo ex",
@@ -19768,9 +20136,10 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Team Rocket's Mewtwo ex",
@@ -19785,9 +20154,10 @@
       {
         "version": "Japanese",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Team Rocket's Mimikyu",
@@ -19802,9 +20172,10 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Rocket's Mewtwo (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Team Rocket's Murkrow",
@@ -19819,9 +20190,10 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Rocket's Honchkrow (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Team Rocket's Petrel",
@@ -19838,7 +20210,8 @@
         "qty": 1,
         "source": "Joltdengo (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Team Rocket's Petrel",
@@ -19853,7 +20226,7 @@
       {
         "version": "Standard",
         "qty": 6,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -19870,9 +20243,10 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Rocket's Honchkrow (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Team Rocket's Porygon2",
@@ -19887,9 +20261,10 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Rocket's Honchkrow (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Team Rocket's Proton",
@@ -19903,10 +20278,16 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 6,
-        "source": "Sheet"
+        "qty": 4,
+        "source": "Rocket's Honchkrow (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Rocket's Mewtwo (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Team Rocket's Spidops",
@@ -19921,12 +20302,12 @@
       {
         "version": "Prize Pack",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Rocket's Mewtwo (2026)"
       },
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Rocket's Mewtwo (2026)"
       }
     ]
   },
@@ -19943,9 +20324,10 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Rocket's Mewtwo (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Team Rocket's Transceiver",
@@ -19959,10 +20341,21 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 9,
-        "source": "Sheet"
+        "qty": 4,
+        "source": "Rocket's Honchkrow (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Rocket's Mewtwo (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Team Rocket's Watchtower",
@@ -19977,12 +20370,17 @@
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Dragapult Dusknoir (2026)"
       },
       {
         "version": "Standard",
-        "qty": 3,
-        "source": "Sheet"
+        "qty": 1,
+        "source": "Dragapult Dusknoir (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare"
       }
     ]
   },
@@ -20071,7 +20469,7 @@
       {
         "version": "Prize Pack Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -20108,7 +20506,8 @@
         "qty": 2,
         "source": "Iron Thorns (2024)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Techno Radar",
@@ -20123,7 +20522,7 @@
       {
         "version": "Prize Pack",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -20139,13 +20538,23 @@
     "variants": [
       {
         "version": "Reverse Holo",
-        "qty": 5,
-        "source": "Sheet"
+        "qty": 4,
+        "source": "Alakazam (2026)"
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Hide 'n' Sneak (2026)"
       },
       {
         "version": "Standard",
-        "qty": 7,
-        "source": "Sheet"
+        "qty": 3,
+        "source": "Hide 'n' Sneak (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Slowking (2026)"
       }
     ]
   },
@@ -20355,7 +20764,7 @@
       {
         "version": "Reverse Holo",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -20388,10 +20797,16 @@
     "variants": [
       {
         "version": "Reverse Holo",
-        "qty": 4,
-        "source": "Sheet"
+        "qty": 2,
+        "source": "Alakazam (2026)"
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 2,
+        "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Tower of Waters",
@@ -20440,7 +20855,8 @@
         "qty": 1,
         "source": "VirGen (2014)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Town Map",
@@ -20457,7 +20873,8 @@
         "qty": 1,
         "source": "ZoroGarb (2018)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Town Store",
@@ -20540,9 +20957,10 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Sheet"
+        "source": "N's Zoroark (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Triple Acceleration Energy",
@@ -20647,10 +21065,16 @@
     "variants": [
       {
         "version": "Reverse Holo",
-        "qty": 4,
-        "source": "Sheet"
+        "qty": 1,
+        "source": "Alakazam (2026)"
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 3,
+        "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Turtonator",
@@ -20765,7 +21189,8 @@
         "qty": 4,
         "source": "Regidrago (2024)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Ultra Ball",
@@ -21059,17 +21484,17 @@
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "Standard",
         "qty": 26,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "Prize Pack",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -21107,10 +21532,16 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 2,
-        "source": "Sheet"
+        "qty": 1,
+        "source": "Dragapult (2026)"
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Dragapult Dusknoir (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Unit Energy FDF",
@@ -21470,7 +21901,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -21522,7 +21953,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -21633,7 +22064,8 @@
         "qty": 2,
         "source": "Gyarados (2010)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Vulpix",
@@ -21666,7 +22098,7 @@
       {
         "version": "Prize Pack Holo",
         "qty": 4,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -21806,12 +22238,12 @@
       {
         "version": "Prize Pack",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       },
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -21978,9 +22410,10 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Sheet"
+        "source": "Slowking (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Wyrdeer V",
@@ -22076,7 +22509,7 @@
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -22147,7 +22580,7 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -22166,7 +22599,8 @@
         "qty": 2,
         "source": "Darkrai Giratina (2016)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Yveltal-EX",
@@ -22200,7 +22634,8 @@
         "qty": 1,
         "source": "Gardevoir (2023)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Zacian V",
@@ -22247,7 +22682,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -22299,9 +22734,10 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Slowking (2026)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Zeraora-GX",
@@ -22400,7 +22836,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
@@ -22466,7 +22902,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Sheet"
+        "source": "Spare"
       }
     ]
   },
