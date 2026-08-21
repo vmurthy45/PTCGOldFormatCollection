@@ -561,15 +561,17 @@
 
   <div id="toolsTab" class="tab-panel">
     <div class="subtabs">
-      <button class="subtab-btn active" data-subtab="matchup" type="button">Matchup Generator</button>
-      <button class="subtab-btn" data-subtab="inventory" type="button">Cards Inventory</button>
+      <button class="subtab-btn active" data-subtab="inventory" type="button">Inventory</button>
       <button class="subtab-btn" data-subtab="cardsToGet" type="button">Cards to Get</button>
-      <button class="subtab-btn" data-subtab="stats" type="button">Stats</button>
       <button class="subtab-btn" data-subtab="tournamentLog" type="button">Tournament Log</button>
-      <button class="subtab-btn" data-subtab="gameLog" type="button">Game Log</button>
+      <button class="subtab-btn" data-subtab="stats" type="button">Stats</button>
+      <!-- Parked, not deleted: drop the `hidden` attribute to switch either
+           back on. Their panels stay in the DOM so their code keeps working. -->
+      <button class="subtab-btn" data-subtab="matchup" type="button" hidden>Matchup Generator</button>
+      <button class="subtab-btn" data-subtab="gameLog" type="button" hidden>Game Log</button>
     </div>
 
-  <div id="inventoryTab" class="subtab-panel">
+  <div id="inventoryTab" class="subtab-panel active">
     <div class="controls">
       <input id="inv-q" class="search" type="search" placeholder="Search your cards…" autocomplete="off">
       <div class="cc-controls-row">
@@ -600,10 +602,15 @@
   </div>
 
   <div id="tournamentLogTab" class="subtab-panel">
+    <div class="gl-filters">
+      <select id="tl-deck" class="cc-select" aria-label="Filter by deck"></select>
+      <select id="tl-year" class="cc-select" aria-label="Filter by year"></select>
+    </div>
+    <div id="tl-summary" class="stats"></div>
     <div id="tl-content"></div>
   </div>
 
-  <div id="matchupTab" class="subtab-panel active">
+  <div id="matchupTab" class="subtab-panel">
     <div class="matchup-controls">
       <select id="matchupFormat" class="matchup-select"></select>
       <button id="matchupBtn" class="matchup-btn" type="button">🎲 Randomize Matchup</button>
@@ -1556,6 +1563,17 @@ function renderStats(){
   const decks = [...deckMiss.keys()];
   const complete = decks.filter(d => deckMiss.get(d) === 0).length;
   const owned = total - M;
+  // Real collection size comes from the inventory: loose stock plus every copy
+  // sleeved in a deck. (Deck slots below are what the decks *call for*, which
+  // is a different number — a card can be needed by several decks.)
+  const invIdx = invDeckIndex();
+  let ownedCopies = 0, spareCopies = 0;
+  for(const g of INVENTORY){
+    const used = [...(invIdx.get(g.key) || new Map()).entries()];
+    ownedCopies += Number(g.total) || 0;
+    spareCopies += invSpare(g, used);
+  }
+  const sleeved = ownedCopies - spareCopies;
   const pct = total ? Math.round(owned / total * 100) : 0;
   const pctOf = n => total ? Math.round(n / total * 100) : 0;
   const tierCount = {S: 0, A: 0, B: 0};
@@ -1584,17 +1602,29 @@ function renderStats(){
   ).join('');
 
   el.innerHTML = `
-    <div class="st-tiles">
-      ${tile(decks.length, 'Decks')}
-      ${tile(total, 'Total cards')}
-      ${tile(owned, 'Owned')}
-      ${tile(M, 'To get')}
-      ${tile(`${complete}<span class="st-sub">/${decks.length}</span>`, 'Complete decks')}
-      ${tile(`${pct}<span class="st-sub">%</span>`, 'Completion')}
+    <div class="st-section">
+      <h3 class="st-h">Collection</h3>
+      <div class="st-tiles">
+        ${tile(ownedCopies, 'Cards owned')}
+        ${tile(sleeved, 'Sleeved in decks')}
+        ${tile(spareCopies, 'Spare')}
+        ${tile(INVENTORY.length, 'Unique cards')}
+      </div>
     </div>
 
     <div class="st-section">
-      <h3 class="st-h">Print composition</h3>
+      <h3 class="st-h">Decks</h3>
+      <div class="st-tiles">
+        ${tile(decks.length, 'Decks')}
+        ${tile(total, 'Deck slots')}
+        ${tile(M, 'To get')}
+        ${tile(`${complete}<span class="st-sub">/${decks.length}</span>`, 'Complete decks')}
+        ${tile(`${pct}<span class="st-sub">%</span>`, 'Completion')}
+      </div>
+    </div>
+
+    <div class="st-section">
+      <h3 class="st-h">Print composition (deck cards)</h3>
       ${statSegBar(A, W, P, M, total)}
       <div class="st-legend">${legend}</div>
     </div>
@@ -1665,14 +1695,50 @@ function placeRecordStr(t){
   if(place && rec) return `${place} ${rec}`;
   return place || rec || 'TBD';
 }
+let tlDeck = 'ALL';
+let tlYear = 'ALL';
+const tlYearOf = t => String(t.date || '').slice(0, 4);
+function tlPopulateFilters(){
+  const deckEl = document.getElementById('tl-deck');
+  const yearEl = document.getElementById('tl-year');
+  if(!deckEl || !yearEl) return;
+  const decks = [...new Set(TOURNAMENTS.map(t => t.deck).filter(Boolean))]
+    .sort((a,b) => a.localeCompare(b, undefined, {sensitivity:'base'}));
+  const years = [...new Set(TOURNAMENTS.map(tlYearOf).filter(Boolean))]
+    .sort((a,b) => b.localeCompare(a));       // newest year first
+  deckEl.innerHTML = '<option value="ALL">All decks</option>' +
+    decks.map(d => `<option value="${esc(d)}">${esc(d)}</option>`).join('');
+  yearEl.innerHTML = '<option value="ALL">All years</option>' +
+    years.map(y => `<option value="${esc(y)}">${esc(y)}</option>`).join('');
+  deckEl.value = tlDeck; yearEl.value = tlYear;
+  deckEl.onchange = e => { tlDeck = e.target.value; renderTournamentLog(); };
+  yearEl.onchange = e => { tlYear = e.target.value; renderTournamentLog(); };
+}
 function renderTournamentLog(){
   const el = document.getElementById('tl-content');
+  const sumEl = document.getElementById('tl-summary');
   if(!el) return;
   if(!TOURNAMENTS.length){
+    if(sumEl) sumEl.textContent = '';
     el.innerHTML = `<div class="empty">No tournaments logged yet.</div>`;
     return;
   }
-  const evs = [...TOURNAMENTS].sort((a,b) => (a.date < b.date ? 1 : -1));  // newest first
+  let evs = [...TOURNAMENTS].sort((a,b) => (a.date < b.date ? 1 : -1));  // newest first
+  if(tlDeck !== 'ALL') evs = evs.filter(t => t.deck === tlDeck);
+  if(tlYear !== 'ALL') evs = evs.filter(t => tlYearOf(t) === tlYear);
+  if(sumEl){
+    // W-L-T across the filtered events, so the record reads at a glance
+    let w = 0, l = 0, d = 0;
+    evs.forEach(t => { const r = t.record || {};
+      w += r.wins || 0; l += r.losses || 0; d += r.ties || 0; });
+    const played = w + l + d;
+    sumEl.textContent = `${evs.length} event${evs.length !== 1 ? 's' : ''}`
+      + (played ? ` · ${w}-${l}-${d}` : '');
+  }
+  if(!evs.length){
+    el.innerHTML = `<div class="empty">No tournaments match that filter.</div>`;
+    return;
+  }
   const money = v => (v == null) ? 'TBD' : (typeof v === 'number' ? '$' + v : esc(String(v)));
   el.innerHTML = evs.map((t, i) => {
     const fmt = formatForDate(t.date);
@@ -1783,7 +1849,7 @@ async function init(){
   try{ GAMES = await (await fetch('data/games.json')).json(); }catch(err){ GAMES = []; }
   // Tournament Log is likewise optional — never let it break the site.
   try{ TOURNAMENTS = await (await fetch('data/tournaments.json')).json(); }catch(err){ TOURNAMENTS = []; }
-  // Cards Inventory is likewise optional.
+  // Inventory is likewise optional.
   try{ INVENTORY = await (await fetch('data/inventory.json')).json(); }catch(err){ INVENTORY = []; }
   // Sort chronologically rather than trusting cards.json row order, so a year
   // added later (e.g. 2021) still lands in the right place. The numeric prefix
@@ -1820,6 +1886,7 @@ async function init(){
   renderCardsToGet();
   document.getElementById('ctg-copy').onclick = (e) => copyCardsToGet(e.currentTarget);
   renderStats();
+  tlPopulateFilters();
   renderTournamentLog();
 
   render();

@@ -62,7 +62,7 @@ Hosted free on GitHub Pages.
   table columns are Date / Year / Vig's Deck / Opponent's Deck / Opponent /
   Result / Notes. Loaded via its own guarded `fetch()` so
   a missing/empty file never breaks the site. Starts as `[]`.
-- `data/inventory.json` — the **Cards Inventory** backend: Vig's physical
+- `data/inventory.json` — the **Inventory** backend: Vig's physical
   collection, one entry per card `{name, type, key, total, variants[]}` where
   each variant is `{version, set, num, qty, image}` (version = Standard /
   Reverse Holo / Prize Pack / Prize Pack Holo / Japanese / Full Art). `key` is
@@ -112,9 +112,10 @@ Hosted free on GitHub Pages.
   `STD_ROTATIONS` entry when a real rotation drops a set**, and extend `STD_SETS`
   as new sets release. Loaded via guarded `fetch()`; starts `[]`.
 - **Tools tab is private/gated.** The `Tools` top tab (`data-tab="tools"`,
-  holding Matchup Generator / Cards Inventory / Cards to Get / Stats /
-  Tournament Log / Game
-  Log) is `hidden` by default so public visitors (and the printed-QR URL,
+  holding Inventory / Cards to Get / Tournament Log / Stats, in that order;
+  Matchup Generator and Game Log are parked behind a `hidden` attribute on
+  their sub-tab buttons — their panels and code are untouched, so removing
+  `hidden` switches either back on) is `hidden` by default so public visitors (and the printed-QR URL,
   which must stay untouched) never see it. `applyToolsGate()` in `index.html`
   reveals it only when unlocked: (a) launching from the **home screen** —
   `isStandaloneApp()` (navigator.standalone / display-mode:standalone) — always
