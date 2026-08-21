@@ -4945,14 +4945,22 @@
         "set": "PRE",
         "num": "71",
         "qty": 4,
-        "source": "Sheet",
+        "source": "Dragapult Dusknoir (2026)",
         "image": "https://images.pokemontcg.io/sv8pt5/71_hires.png"
       },
       {
         "version": "Standard",
         "set": "ASC",
         "num": "158",
-        "qty": 8,
+        "qty": 4,
+        "source": "Dragapult (2026)",
+        "image": "https://images.scrydex.com/pokemon/me2pt5-158/large"
+      },
+      {
+        "version": "Standard",
+        "set": "ASC",
+        "num": "158",
+        "qty": 4,
         "source": "Sheet",
         "image": "https://images.scrydex.com/pokemon/me2pt5-158/large"
       },
@@ -4964,7 +4972,8 @@
         "image": "https://images.pokemontcg.io/sv6/128_hires.png",
         "source": "Dragapult (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Drilbur",

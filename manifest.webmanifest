@@ -1,6 +1,6 @@
 {
-  "name": "Vig's Pokémon TCG Old Format Collection",
-  "short_name": "Old Format",
+  "name": "Vig's Pokémon Collection",
+  "short_name": "Pokémon",
   "start_url": "index.html#tools",
   "display": "standalone",
   "theme_color": "#EE2B39",

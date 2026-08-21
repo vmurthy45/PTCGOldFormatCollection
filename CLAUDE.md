@@ -92,6 +92,17 @@ Hosted free on GitHub Pages.
   skipped any card already in the sheet — that made Zacian V read 1 when five
   2020-2023 decks held 11 more; it should read 12 with 1 spare.) The merge
   script strips previously-merged deck variants first, so it is safe to re-run.
+  **Explicit deck assignments + verification (Vig's ongoing pass):** he is
+  working through the collection telling me which physical copies sit in which
+  deck (e.g. "Dreepy: 4 Reverse Holo PRE 71 are in Dragapult Dusknoir (2026),
+  4 in Dragapult (2026)"). Record that by setting the variant's `source` to the
+  deck name (splitting a variant row if only some copies are assigned), and set
+  `"verified": true` on the card once he's confirmed it. `invSpare()` treats a
+  variant still sourced `"Sheet"` as loose stock, and only assumes a
+  current-format deck is drawing on that pile when no variant already names
+  that deck — so assignments make the spare count exact. The tab shows ✓ for
+  verified cards and • for not-yet-checked, has "Verified" / "Not verified yet"
+  filters, and the stats line tracks progress (e.g. `1/754 verified`).
   2026 decks stay display-only — deck `prints`/missing markers are never
   rewritten from inventory. Vig intends to walk through the deck-sourced
   entries and correct the numbers over time.

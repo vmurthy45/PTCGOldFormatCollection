@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#EE2B39">
-<title>Vig's Pokémon TCG Old Format Collection</title>
+<title>Vig's Pokémon Collection</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3CclipPath id='t'%3E%3Cpath d='M4 50A46 46 0 0 1 96 50Z'/%3E%3C/clipPath%3E%3CclipPath id='b'%3E%3Cpath d='M4 50A46 46 0 0 0 96 50Z'/%3E%3C/clipPath%3E%3C/defs%3E%3Ccircle cx='50' cy='50' r='46' fill='%23fff' stroke='%2339424B' stroke-width='6'/%3E%3Cpath d='M4 50A46 46 0 0 1 96 50Z' fill='%23F0504A'/%3E%3Cg clip-path='url(%23t)'%3E%3Cellipse cx='80' cy='22' rx='28' ry='32' fill='%23D8413C'/%3E%3C/g%3E%3Cg clip-path='url(%23b)'%3E%3Cellipse cx='80' cy='78' rx='30' ry='26' fill='%23E4E6E9'/%3E%3C/g%3E%3Crect x='4' y='44' width='92' height='12' fill='%2339424B'/%3E%3Ccircle cx='50' cy='50' r='15' fill='%23fff'/%3E%3Ccircle cx='50' cy='50' r='13' fill='%2339424B'/%3E%3Ccircle cx='50' cy='50' r='8' fill='%23fff'/%3E%3C/svg%3E">
 <!-- iOS home-screen icon (needs a real PNG; the SVG favicon above is ignored there) -->
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<meta name="apple-mobile-web-app-title" content="Old Format">
+<meta name="apple-mobile-web-app-title" content="Pokémon">
 <!-- launch as a standalone app from the home screen; the Tools tab auto-unlocks
      in that mode (see applyToolsGate). Safari / QR visitors stay gated. -->
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -318,8 +318,14 @@
   .inv-name{font-weight:600; font-size:14.5px; transition:color .12s}
   .inv-qty{background:var(--cnt-bg); color:var(--red-dark); font-weight:700; font-size:11.5px;
     padding:1px 8px; border-radius:999px; font-variant-numeric:tabular-nums}
-  .inv-vars{display:flex; flex-wrap:wrap; gap:4px 8px; margin-top:4px; color:var(--muted); font-size:11.5px}
-  .inv-var{display:inline-flex; align-items:center; gap:5px; white-space:nowrap}
+  /* verification state: ✓ = counts confirmed with Vig, • = still to check */
+  .inv-ok{color:var(--pip-auth); font-weight:800; font-size:12.5px}
+  .inv-todo{color:var(--muted); opacity:.55; font-size:13px; line-height:1}
+  /* one variant per line: qty + print/version + set, then where it lives, so
+     the deck holding those copies is always readable at a glance */
+  .inv-vars{display:flex; flex-direction:column; gap:2px; margin-top:4px; color:var(--muted); font-size:11.5px}
+  .inv-var{display:flex; align-items:baseline; gap:5px; flex-wrap:wrap}
+  .inv-var .inv-src{margin-left:auto; padding-left:10px}
   .inv-src{color:var(--muted); opacity:.75; font-size:10.5px}
   .inv-src-deck{color:var(--steel); opacity:1}
   .inv-var b{color:var(--ink); font-variant-numeric:tabular-nums}
@@ -533,7 +539,7 @@
       <circle cx="50" cy="50" r="8" fill="#fff"/>
     </svg>
     <div>
-      <h1>Vig's Pokémon TCG Old Format Collection</h1>
+      <h1>Vig's Pokémon Collection</h1>
       <div id="tagline" class="sub">Competitive decks</div>
     </div>
     <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">🌙</button>
@@ -543,7 +549,7 @@
 
 <div class="wrap">
   <div class="tabs">
-    <button class="tab-btn active" data-tab="collection" type="button">All Decks</button>
+    <button class="tab-btn active" data-tab="collection" type="button">Old Format Decks</button>
     <button class="tab-btn" data-tab="tools" type="button" hidden>Tools</button>
   </div>
 
@@ -579,6 +585,8 @@
           <option value="ALL">All cards</option>
           <option value="INDECK">In a deck</option>
           <option value="SPARE">Spare only</option>
+          <option value="UNVERIFIED">Not verified yet</option>
+          <option value="VERIFIED">Verified</option>
           <option value="Pokemon">Pokémon</option>
           <option value="Trainer">Trainers</option>
           <option value="Energy">Energy</option>
@@ -1370,13 +1378,19 @@ function invDeckIndex(){
   }
   return idx;
 }
-// Loose copies: what the sheet counted, minus what current-format decks use.
-// (Older decks' copies are sleeved in those decks, never spare.)
+// Loose copies. A variant still marked "Sheet" is unassigned stock; once Vig
+// tells us which deck holds those copies, the variant names that deck and is
+// no longer spare. Current-format decks with no explicit assignment yet are
+// still assumed to be drawing on the unassigned pile.
+function invAssignedDecks(g){
+  return new Set(g.variants.map(v => v.source).filter(s => s && s !== 'Sheet'));
+}
 function invSpare(g, decks){
-  const sheet = g.variants.reduce((s,v) =>
+  const loose = g.variants.reduce((s,v) =>
     s + ((!v.source || v.source === 'Sheet') ? (Number(v.qty) || 0) : 0), 0);
-  const used = decks.reduce((s,[,n]) => s + n, 0);
-  return Math.max(0, sheet - used);
+  const assigned = invAssignedDecks(g);
+  const unaccounted = decks.reduce((s,[d,n]) => s + (assigned.has(d) ? 0 : n), 0);
+  return Math.max(0, loose - unaccounted);
 }
 function renderInventory(){
   if(!invListEl) return;
@@ -1389,6 +1403,8 @@ function renderInventory(){
   });
   if(invFilter === 'INDECK') items = items.filter(g => g.total > g.spare);
   else if(invFilter === 'SPARE') items = items.filter(g => g.spare > 0);
+  else if(invFilter === 'VERIFIED') items = items.filter(g => g.verified);
+  else if(invFilter === 'UNVERIFIED') items = items.filter(g => !g.verified);
   else if(invFilter !== 'ALL') items = items.filter(g => invCat(g.type) === invFilter);
   if(q) items = items.filter(g =>
     g.name.toLowerCase().includes(q) ||
@@ -1397,8 +1413,10 @@ function renderInventory(){
 
   const copies = items.reduce((s,g) => s + g.total, 0);
   const spare = items.reduce((s,g) => s + g.spare, 0);
+  const okd = items.filter(g => g.verified).length;
   invStatsEl.textContent =
-    `${items.length} card${items.length !== 1 ? 's' : ''} · ${copies} total cop${copies !== 1 ? 'ies' : 'y'} · ${spare} spare`;
+    `${items.length} card${items.length !== 1 ? 's' : ''} · ${copies} total cop${copies !== 1 ? 'ies' : 'y'}`
+    + ` · ${spare} spare · ${okd}/${items.length} verified`;
 
   if(!items.length){
     invListEl.innerHTML = '<div class="empty">No cards match your search.</div>';
@@ -1415,14 +1433,16 @@ function renderInventory(){
       return `<span class="inv-var"><b>${v.qty}</b> ${esc(v.version)}`
         + `${bits ? ` <span class="inv-set">${bits}</span>` : ''}${src}</span>`;
     }).join('');
-    // Older decks are already named per-variant above, so this line only adds
-    // current-format usage plus however many copies are sitting loose.
-    const parts = g.decks.map(([d,n]) => `${esc(d)} ×${n}`);
+    // Decks already named on a variant line above (older decks, plus any
+    // current-format deck Vig has assigned copies to) aren't repeated here.
+    const named = invAssignedDecks(g);
+    const parts = g.decks.filter(([d]) => !named.has(d)).map(([d,n]) => `${esc(d)} ×${n}`);
     if(g.spare > 0) parts.push(`<span class="inv-spare">Spare ×${g.spare}</span>`);
     const decks = parts.join(' · ');
     return `<div class="inv-item${img ? '' : ' inv-noimg'}" data-img="${esc(img)}" data-name="${esc(g.name)}">
       <span class="inv-main">
-        <span class="inv-title"><span class="inv-name">${esc(g.name)}</span><span class="inv-qty">${g.total}</span></span>
+        <span class="inv-title"><span class="inv-name">${esc(g.name)}</span><span class="inv-qty">${g.total}</span>`
+      + `${g.verified ? '<span class="inv-ok" title="Checked with Vig">✓</span>' : '<span class="inv-todo" title="Not verified yet">•</span>'}</span>
         <span class="inv-vars">${vars}</span>
         ${decks ? `<span class="inv-decks">${decks}</span>` : ''}
       </span>
