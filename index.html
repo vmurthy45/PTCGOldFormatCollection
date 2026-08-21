@@ -304,28 +304,28 @@
     font-weight:600; box-shadow:0 3px 10px rgba(238,43,57,.3); transition:transform .15s,box-shadow .15s;
   }
   .cc-export-btn:hover{transform:translateY(-1px); box-shadow:0 5px 16px rgba(238,43,57,.4)}
-  .cc-table-wrap{overflow-x:auto; border:1px solid var(--line); border-radius:14px; box-shadow:0 2px 10px var(--shadow); background:var(--card)}
-  .cc-table{border-collapse:collapse; width:100%; font-size:13.5px}
-  .cc-table th,.cc-table td{padding:10px 14px; text-align:left; border-bottom:1px solid var(--line); vertical-align:top}
-  .cc-table thead th{
-    position:sticky; top:0; background:var(--red); color:#fff; font-family:'Poppins',sans-serif;
-    font-weight:600; font-size:12.5px; white-space:nowrap; cursor:pointer; user-select:none;
-  }
-  .cc-table thead th:hover{filter:brightness(1.1)}
-  .cc-table thead th .cc-arrow{font-size:10px; opacity:.9}
-  .cc-table tbody tr:last-child td{border-bottom:none}
-  .cc-table tbody tr:hover{background:var(--band-a)}
-  .cc-name{font-weight:600; color:var(--ink); white-space:nowrap}
-  .cc-num{text-align:center; font-variant-numeric:tabular-nums; font-weight:700}
-  .cc-cat{color:var(--muted); font-size:12px; white-space:nowrap}
-  .cc-sets{color:var(--muted); font-size:12px; max-width:170px; line-height:1.5}
-  .cc-decks{min-width:240px}
-  .cc-deck-pill{
-    display:inline-block; background:var(--band-a); border:1px solid var(--line); border-radius:999px;
-    padding:2px 9px; margin:2px 3px 2px 0; font-size:12px; color:var(--charcoal); white-space:nowrap;
-  }
-  .cc-deck-pill b{color:var(--red-dark); font-variant-numeric:tabular-nums}
-  .cc-empty{text-align:center; color:var(--muted); padding:50px 20px; font-size:15px}
+  .inv-list{display:flex; flex-direction:column; gap:8px}
+  .inv-item{background:var(--card); border:1px solid var(--line); border-radius:12px;
+    padding:10px 14px; cursor:pointer; transition:background .12s,border-color .12s}
+  .inv-item:hover{background:var(--band-a); border-color:var(--red)}
+  .inv-item:hover .inv-name{color:var(--red-dark)}
+  /* no image available for this card -> not clickable-looking */
+  .inv-item.inv-noimg{cursor:default}
+  .inv-item.inv-noimg:hover{background:var(--card); border-color:var(--line)}
+  .inv-item.inv-noimg:hover .inv-name{color:inherit}
+  .inv-main{min-width:0}
+  .inv-title{display:flex; align-items:baseline; gap:9px}
+  .inv-name{font-weight:600; font-size:14.5px; transition:color .12s}
+  .inv-qty{background:var(--cnt-bg); color:var(--red-dark); font-weight:700; font-size:11.5px;
+    padding:1px 8px; border-radius:999px; font-variant-numeric:tabular-nums}
+  .inv-vars{display:flex; flex-wrap:wrap; gap:4px 8px; margin-top:4px; color:var(--muted); font-size:11.5px}
+  .inv-var{display:inline-flex; align-items:center; gap:5px; white-space:nowrap}
+  .inv-src{color:var(--muted); opacity:.75; font-size:10.5px}
+  .inv-src-deck{color:var(--steel); opacity:1}
+  .inv-var b{color:var(--ink); font-variant-numeric:tabular-nums}
+  .inv-set{background:var(--band-b); border-radius:4px; padding:0 5px; font-variant-numeric:tabular-nums}
+  .inv-decks{display:block; color:var(--muted); font-size:12px; margin-top:3px; line-height:1.45}
+  .inv-spare{color:var(--miss-orange-line); font-weight:600}
   /* game log */
   .gl-filters{display:flex; flex-wrap:wrap; gap:10px; margin-bottom:12px}
   .gl-filters .cc-select{flex:1 1 200px}
@@ -562,23 +562,29 @@
   <div id="toolsTab" class="tab-panel">
     <div class="subtabs">
       <button class="subtab-btn active" data-subtab="matchup" type="button">Matchup Generator</button>
-      <button class="subtab-btn" data-subtab="cardCollection" type="button">Card Collection</button>
+      <button class="subtab-btn" data-subtab="inventory" type="button">Cards Inventory</button>
       <button class="subtab-btn" data-subtab="cardsToGet" type="button">Cards to Get</button>
       <button class="subtab-btn" data-subtab="stats" type="button">Stats</button>
       <button class="subtab-btn" data-subtab="tournamentLog" type="button">Tournament Log</button>
       <button class="subtab-btn" data-subtab="gameLog" type="button">Game Log</button>
     </div>
 
-  <div id="cardCollectionTab" class="subtab-panel">
+  <div id="inventoryTab" class="subtab-panel">
     <div class="controls">
-      <input id="cc-q" class="search" type="search" placeholder="Search card names…" autocomplete="off">
+      <input id="inv-q" class="search" type="search" placeholder="Search your cards…" autocomplete="off">
       <div class="cc-controls-row">
-        <select id="cc-year" class="cc-select" aria-label="Filter by year"></select>
-        <button id="cc-export" class="cc-export-btn" type="button">⬇︎ Export CSV</button>
+        <select id="inv-filter" class="cc-select" aria-label="Filter cards">
+          <option value="ALL">All cards</option>
+          <option value="INDECK">In a deck</option>
+          <option value="SPARE">Spare only</option>
+          <option value="Pokemon">Pokémon</option>
+          <option value="Trainer">Trainers</option>
+          <option value="Energy">Energy</option>
+        </select>
       </div>
     </div>
-    <div id="cc-stats" class="stats"></div>
-    <div id="cc-table-wrap" class="cc-table-wrap"></div>
+    <div id="inv-stats" class="stats"></div>
+    <div id="inv-list" class="inv-list"></div>
   </div>
 
   <div id="cardsToGetTab" class="subtab-panel">
@@ -687,6 +693,7 @@ let GUIDES = {};
 let TURN1_RULES = {};
 let GAMES = [];
 let TOURNAMENTS = [];
+let INVENTORY = [];
 let YEARS = [];
 let activeYear = null;  // null = landing (only the year filters shown)
 let showT1 = false;     // on the landing, whether the all-years Turn 1 Rules list is open
@@ -1319,142 +1326,115 @@ function generateMatchup(){
 }
 matchupBtn.onclick = generateMatchup;
 
-/* ---------- card collection (aggregate view) ---------- */
-const ccYearEl = document.getElementById('cc-year');
-const ccQEl = document.getElementById('cc-q');
-const ccStatsEl = document.getElementById('cc-stats');
-const ccTableWrap = document.getElementById('cc-table-wrap');
-const ccExportBtn = document.getElementById('cc-export');
+/* ---------- cards inventory (data/inventory.json) ----------
+   Vig's physical collection. Deck usage is derived live from CARDS so it stays
+   correct as decks change; a card in no deck is "Spare". Inventory card names
+   are matched to deck card names with invKey(): accent/case/punctuation-blind,
+   ignoring "(variant)" tags and a leading "Basic ", so "Tapu Lele GX",
+   "Tapu Lele-GX" and "Basic Metal Energy" all find their deck rows. */
+const invQEl = document.getElementById('inv-q');
+const invFilterEl = document.getElementById('inv-filter');
+const invStatsEl = document.getElementById('inv-stats');
+const invListEl = document.getElementById('inv-list');
+let invQuery = '';
+let invFilter = 'ALL';
 
-let ccQuery = '';
-let ccYear = 'ALL';
-let ccSort = { key: 'name', dir: 1 };   // dir: 1 asc, -1 desc
-
-const CAT_LABEL = { Pokemon: 'Pokémon', Trainer: 'Trainer', Energy: 'Energy' };
-
-// Collapse the flat card rows into aggregated entries. Pokémon are keyed by
-// (name, set) — different prints are genuinely different cards, so each print
-// gets its own line. Trainers/Energy are keyed by name only, since same name =
-// same effect regardless of printing (e.g. all Professor's Letter rows become
-// one line). copies sums every count; a card can appear on two rows of the
-// same deck, so deck counts are summed per deck. Respects the year filter and
-// name search.
-function ccKey(c){
-  return c.category === 'Pokemon' ? c.name + ' ' + c.set : c.name;
+function invKey(s){
+  return String(s)
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase().replace(/\u2019/g, "'")
+    .replace(/\([^)]*\)/g, '')
+    .replace(/^basic\s+/, '')
+    .replace(/[^a-z0-9]+/g, '');
 }
-function ccAggregate(){
-  let rows = CARDS;
-  if(ccYear !== 'ALL') rows = rows.filter(c => c.year === ccYear);
-  if(ccQuery){
-    const q = ccQuery.toLowerCase();
-    rows = rows.filter(c => c.name.toLowerCase().includes(q));
+// name key -> [{deck, count}], built once per render from the deck data
+const INV_CURRENT_YEAR = '2026';
+function invDeckIndex(){
+  // Only current-format decks. Copies held by older decks are already listed
+  // as their own variants (with the deck named as the source), so re-listing
+  // them here would double up; 2026 decks are the ones drawing on loose stock.
+  const idx = new Map();
+  for(const c of CARDS){
+    if(c.year !== INV_CURRENT_YEAR) continue;
+    const k = invKey(c.name);
+    if(!idx.has(k)) idx.set(k, new Map());
+    const m = idx.get(k);
+    m.set(c.deck, (m.get(c.deck) || 0) + (Number(c.count) || 0));
   }
-  const byKey = new Map();
-  for(const c of rows){
-    const key = ccKey(c);
-    let e = byKey.get(key);
-    if(!e){ e = { name: c.name, category: c.category, sets: new Set(), copies: 0, decks: new Map() }; byKey.set(key, e); }
-    const n = Number(c.count) || 0;
-    e.copies += n;
-    if(c.set) e.sets.add(c.set);
-    const prev = e.decks.get(c.deck);
-    e.decks.set(c.deck, { count: (prev ? prev.count : 0) + n, year: c.year });
-  }
-  return [...byKey.values()];
+  return idx;
 }
-const ccSetStr = e => [...e.sets].join(' / ');
-
-// Decks a card appears in, ordered like the Collection tab: chronological by
-// year, then alphabetical within a year.
-function ccDeckList(entry){
-  return [...entry.decks.entries()].sort((a, b) =>
-    (YEARS.indexOf(a[1].year) - YEARS.indexOf(b[1].year)) ||
-    a[0].localeCompare(b[0], undefined, {sensitivity: 'base'}));
+// Loose copies: what the sheet counted, minus what current-format decks use.
+// (Older decks' copies are sleeved in those decks, never spare.)
+function invSpare(g, decks){
+  const sheet = g.variants.reduce((s,v) =>
+    s + ((!v.source || v.source === 'Sheet') ? (Number(v.qty) || 0) : 0), 0);
+  const used = decks.reduce((s,[,n]) => s + n, 0);
+  return Math.max(0, sheet - used);
 }
-
-function ccSortRows(rows){
-  const { key, dir } = ccSort;
-  return rows.sort((a, b) => {
-    let cmp;
-    if(key === 'copies') cmp = a.copies - b.copies;
-    else if(key === 'decks') cmp = a.decks.size - b.decks.size;
-    else cmp = a.name.localeCompare(b.name, undefined, {sensitivity: 'base'});
-    if(cmp === 0) cmp = a.name.localeCompare(b.name, undefined, {sensitivity: 'base'});
-    // Same name (e.g. two Pokémon prints): order by set so it's stable.
-    if(cmp === 0) cmp = ccSetStr(a).localeCompare(ccSetStr(b));
-    return cmp * dir;
+function renderInventory(){
+  if(!invListEl) return;
+  const idx = invDeckIndex();
+  const q = invQuery.toLowerCase();
+  let items = INVENTORY.map(g => {
+    const decks = [...(idx.get(g.key) || new Map()).entries()]
+      .sort((a,b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+    return {...g, decks, spare: invSpare(g, decks)};
   });
-}
+  if(invFilter === 'INDECK') items = items.filter(g => g.total > g.spare);
+  else if(invFilter === 'SPARE') items = items.filter(g => g.spare > 0);
+  else if(invFilter !== 'ALL') items = items.filter(g => invCat(g.type) === invFilter);
+  if(q) items = items.filter(g =>
+    g.name.toLowerCase().includes(q) ||
+    g.decks.some(([d]) => d.toLowerCase().includes(q)) ||
+    g.variants.some(v => (v.set || '').toLowerCase().includes(q)));
 
-function renderCardCollection(){
-  const rows = ccSortRows(ccAggregate());
-  const totalCopies = rows.reduce((s, r) => s + r.copies, 0);
-  ccStatsEl.textContent = `${rows.length} unique card${rows.length !== 1 ? 's' : ''} · ${totalCopies} total cop${totalCopies !== 1 ? 'ies' : 'y'}`;
+  const copies = items.reduce((s,g) => s + g.total, 0);
+  const spare = items.reduce((s,g) => s + g.spare, 0);
+  invStatsEl.textContent =
+    `${items.length} card${items.length !== 1 ? 's' : ''} · ${copies} total cop${copies !== 1 ? 'ies' : 'y'} · ${spare} spare`;
 
-  if(rows.length === 0){
-    ccTableWrap.innerHTML = '<div class="cc-empty">No cards match your search.</div>';
+  if(!items.length){
+    invListEl.innerHTML = '<div class="empty">No cards match your search.</div>';
     return;
   }
-
-  const arrow = key => ccSort.key === key ? `<span class="cc-arrow">${ccSort.dir > 0 ? '▲' : '▼'}</span>` : '';
-  let html = '<table class="cc-table"><thead><tr>' +
-    `<th data-sort="name">Card ${arrow('name')}</th>` +
-    '<th>Category</th>' +
-    '<th>Set(s)</th>' +
-    `<th data-sort="copies" class="cc-num">Copies ${arrow('copies')}</th>` +
-    `<th data-sort="decks" class="cc-num">Decks ${arrow('decks')}</th>` +
-    '<th>Appears In</th>' +
-    '</tr></thead><tbody>';
-  for(const r of rows){
-    const pills = ccDeckList(r)
-      .map(([deck, info]) => `<span class="cc-deck-pill">${esc(deck)} <b>×${info.count}</b></span>`).join('');
-    const sets = ccSetStr(r) || '—';
-    html += '<tr>' +
-      `<td class="cc-name">${hl(r.name, ccQuery)}</td>` +
-      `<td class="cc-cat">${esc(CAT_LABEL[r.category] || r.category)}</td>` +
-      `<td class="cc-sets">${esc(sets)}</td>` +
-      `<td class="cc-num">${r.copies}</td>` +
-      `<td class="cc-num">${r.decks.size}</td>` +
-      `<td class="cc-decks">${pills}</td>` +
-      '</tr>';
-  }
-  html += '</tbody></table>';
-  ccTableWrap.innerHTML = html;
-
-  ccTableWrap.querySelectorAll('th[data-sort]').forEach(th => {
-    th.onclick = () => {
-      const key = th.dataset.sort;
-      if(ccSort.key === key) ccSort.dir *= -1;
-      else ccSort = { key, dir: key === 'name' ? 1 : -1 };   // numeric columns default to descending
-      renderCardCollection();
-    };
+  invListEl.innerHTML = items.map(g => {
+    const img = (g.variants.find(v => v.image) || {}).image || '';
+    const vars = g.variants.map(v => {
+      const bits = v.set && v.num ? `${esc(v.set)} ${esc(v.num)}` : (v.set ? esc(v.set) : '');
+      // where the count came from: the purchases sheet, or a built deck
+      const src = v.source && v.source !== 'Sheet'
+        ? `<span class="inv-src inv-src-deck">${esc(v.source)}</span>`
+        : `<span class="inv-src">Sheet</span>`;
+      return `<span class="inv-var"><b>${v.qty}</b> ${esc(v.version)}`
+        + `${bits ? ` <span class="inv-set">${bits}</span>` : ''}${src}</span>`;
+    }).join('');
+    // Older decks are already named per-variant above, so this line only adds
+    // current-format usage plus however many copies are sitting loose.
+    const parts = g.decks.map(([d,n]) => `${esc(d)} ×${n}`);
+    if(g.spare > 0) parts.push(`<span class="inv-spare">Spare ×${g.spare}</span>`);
+    const decks = parts.join(' · ');
+    return `<div class="inv-item${img ? '' : ' inv-noimg'}" data-img="${esc(img)}" data-name="${esc(g.name)}">
+      <span class="inv-main">
+        <span class="inv-title"><span class="inv-name">${esc(g.name)}</span><span class="inv-qty">${g.total}</span></span>
+        <span class="inv-vars">${vars}</span>
+        ${decks ? `<span class="inv-decks">${decks}</span>` : ''}
+      </span>
+    </div>`;
+  }).join('');
+  invListEl.querySelectorAll('.inv-item').forEach(el => {
+    el.onclick = () => { if(el.dataset.img) openImageModal(el.dataset.img, el.dataset.name); };
   });
 }
-
-function ccExportCsv(){
-  const rows = ccSortRows(ccAggregate());
-  const q = s => { s = String(s); return /[",\n\r]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; };
-  const lines = [['Card', 'Category', 'Set(s)', 'Copies', 'Deck Count', 'Appears In'].join(',')];
-  for(const r of rows){
-    const appearsIn = ccDeckList(r).map(([deck, info]) => `${deck} x${info.count}`).join('; ');
-    lines.push([
-      r.name, CAT_LABEL[r.category] || r.category, ccSetStr(r),
-      r.copies, r.decks.size, appearsIn,
-    ].map(q).join(','));
-  }
-  // Prepend a BOM so Excel reads the é in "Pokémon" as UTF-8.
-  const blob = new Blob(['﻿' + lines.join('\r\n')], { type: 'text/csv;charset=utf-8' });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = ccYear === 'ALL' ? 'card-collection.csv' : `card-collection-${ccYear.replace(/\s+/g, '-')}.csv`;
-  document.body.appendChild(a); a.click(); a.remove();
-  setTimeout(() => URL.revokeObjectURL(url), 1000);
+// spreadsheet "Card Type" (Item/Supporter/Stadium/Pokémon/Energy) -> our 3 categories
+function invCat(t){
+  const s = String(t || '').toLowerCase();
+  if(s.startsWith('pok')) return 'Pokemon';
+  if(s === 'energy') return 'Energy';
+  return 'Trainer';
 }
+invQEl.addEventListener('input', e => { invQuery = e.target.value.trim(); renderInventory(); });
+invFilterEl.addEventListener('change', e => { invFilter = e.target.value; renderInventory(); });
 
-ccQEl.addEventListener('input', e => { ccQuery = e.target.value.trim(); renderCardCollection(); });
-ccYearEl.addEventListener('change', e => { ccYear = e.target.value; renderCardCollection(); });
-ccExportBtn.onclick = ccExportCsv;
 
 /* ---------- game log (read-only, from data/games.json) ---------- */
 const glPlayerEl = document.getElementById('gl-player');
@@ -1803,6 +1783,8 @@ async function init(){
   try{ GAMES = await (await fetch('data/games.json')).json(); }catch(err){ GAMES = []; }
   // Tournament Log is likewise optional — never let it break the site.
   try{ TOURNAMENTS = await (await fetch('data/tournaments.json')).json(); }catch(err){ TOURNAMENTS = []; }
+  // Cards Inventory is likewise optional.
+  try{ INVENTORY = await (await fetch('data/inventory.json')).json(); }catch(err){ INVENTORY = []; }
   // Sort chronologically rather than trusting cards.json row order, so a year
   // added later (e.g. 2021) still lands in the right place. The numeric prefix
   // orders the years; the string tiebreak keeps any future same-year labelled
@@ -1830,9 +1812,7 @@ async function init(){
     YEARS.map(y => `<option value="${esc(y)}">${esc(y)}</option>`).join('');
   matchupResultEl.innerHTML = '<div class="matchup-empty">Pick a format (or leave it on Random) and hit Randomize Matchup.</div>';
 
-  ccYearEl.innerHTML = '<option value="ALL">All years</option>' +
-    YEARS.map(y => `<option value="${esc(y)}">${esc(y)}</option>`).join('');
-  renderCardCollection();
+  renderInventory();
 
   glPopulateFilters();
   renderGameLog();

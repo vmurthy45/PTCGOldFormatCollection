@@ -62,6 +62,43 @@ Hosted free on GitHub Pages.
   table columns are Date / Year / Vig's Deck / Opponent's Deck / Opponent /
   Result / Notes. Loaded via its own guarded `fetch()` so
   a missing/empty file never breaks the site. Starts as `[]`.
+- `data/inventory.json` — the **Cards Inventory** backend: Vig's physical
+  collection, one entry per card `{name, type, key, total, variants[]}` where
+  each variant is `{version, set, num, qty, image}` (version = Standard /
+  Reverse Holo / Prize Pack / Prize Pack Holo / Japanese / Full Art). `key` is
+  the match key (see below). **This file is the source of truth** — it was
+  seeded once from the "Collection" sheet of `PTCG Purchases Tracker.xlsx` by
+  `scripts/build_inventory.py`, but is now hand-maintained from chat like
+  cards.json; **re-running that importer overwrites hand edits**, so only do it
+  on an explicit re-import request. Images are resolved at build time from the
+  set code + number (PTCGO code → pokemontcg.io/scrydex id), so the page makes
+  no API calls; ~21 brand-new cards have no image and render a placeholder.
+  **Deck usage is derived live** in `renderInventory()`: `invKey()` (in
+  index.html, mirroring `name_key()` in the scripts) is accent/case/punctuation-
+  blind and strips "(variant)" tags and a leading "Basic ", so "Tapu Lele GX" ↔
+  "Tapu Lele-GX" and "Basic Metal Energy" ↔ "Metal Energy" match. A card in no
+  deck shows as **Spare**. This tab replaced the old deck-scoped "Card
+  Collection" tab (removed).
+  Every variant carries a **`source`**: `"Sheet"` (counted in the purchases
+  spreadsheet) or a deck name (folded in from that built deck).
+  **The spreadsheet only records recent purchases**, not the whole collection —
+  older cards were already owned and were never entered. So the accounting is:
+  `total owned = sheet copies + copies sleeved in pre-2026 decks`, and
+  `spare = sheet copies - copies used by 2026 decks`. Pre-2026 deck copies are
+  therefore ALWAYS added on top of the sheet (via
+  `scripts/merge_deck_cards_into_inventory.py`, quantities from each deck's
+  `prints`, missing excluded, one variant per deck/print-type); 2026 decks draw
+  on the sheet stock and are NOT added again. (An earlier version wrongly
+  skipped any card already in the sheet — that made Zacian V read 1 when five
+  2020-2023 decks held 11 more; it should read 12 with 1 spare.) The merge
+  script strips previously-merged deck variants first, so it is safe to re-run.
+  2026 decks stay display-only — deck `prints`/missing markers are never
+  rewritten from inventory. Vig intends to walk through the deck-sourced
+  entries and correct the numbers over time.
+- `scripts/export_xlsx.py` — exports everything to one .xlsx (Inventory / Decks
+  / Cards to Get / Tournaments / Summary sheets). Run it whenever Vig wants a
+  spreadsheet copy back out; that's the agreed replacement for maintaining the
+  xlsx by hand.
 - `data/tournaments.json` — the **Tournament Log** backend: an array of events,
   each `{name, type, date (YYYY-MM-DD), deck, players, record, placement, notes,
   list}`. `record` is `{wins,losses,ties}` (Pokémon W-L-T convention) or `null`
@@ -75,7 +112,7 @@ Hosted free on GitHub Pages.
   `STD_ROTATIONS` entry when a real rotation drops a set**, and extend `STD_SETS`
   as new sets release. Loaded via guarded `fetch()`; starts `[]`.
 - **Tools tab is private/gated.** The `Tools` top tab (`data-tab="tools"`,
-  holding Matchup Generator / Card Collection / Cards to Get / Stats /
+  holding Matchup Generator / Cards Inventory / Cards to Get / Stats /
   Tournament Log / Game
   Log) is `hidden` by default so public visitors (and the printed-QR URL,
   which must stay untouched) never see it. `applyToolsGate()` in `index.html`
