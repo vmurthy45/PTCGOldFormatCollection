@@ -321,14 +321,11 @@
   /* verification state: ✓ = counts confirmed with Vig, • = still to check */
   .inv-ok{color:var(--pip-auth); font-weight:800; font-size:12.5px}
   .inv-todo{color:var(--muted); opacity:.55; font-size:13px; line-height:1}
-  /* grouped by print: a heading per set+number, then one line per print type
-     (qty + version + the deck holding it) underneath */
-  .inv-vars{display:flex; flex-direction:column; gap:7px; margin-top:5px; color:var(--muted); font-size:11.5px}
-  .inv-print{display:flex; flex-direction:column; gap:2px}
-  .inv-print-h{display:flex; align-items:baseline; gap:7px; margin-bottom:1px}
-  .inv-print-n{color:var(--muted); opacity:.7; font-size:10.5px; font-variant-numeric:tabular-nums}
-  .inv-var{display:flex; align-items:baseline; gap:5px; flex-wrap:wrap; padding-left:12px}
+  /* one row per print; each line under it is a print type + the deck holding it */
+  .inv-vars{display:flex; flex-direction:column; gap:2px; margin-top:4px; color:var(--muted); font-size:11.5px}
+  .inv-var{display:flex; align-items:baseline; gap:5px; flex-wrap:wrap}
   .inv-var .inv-src{margin-left:auto; padding-left:10px}
+  .inv-set-unknown{font-style:italic; opacity:.75}
   .inv-src{color:var(--muted); opacity:.75; font-size:10.5px}
   .inv-src-deck{color:var(--steel); opacity:1}
   .inv-var b{color:var(--ink); font-variant-numeric:tabular-nums}
@@ -1388,21 +1385,54 @@ function invDeckIndex(){
 function invAssignedDecks(g){
   return new Set(g.variants.map(v => v.source).filter(s => s && s !== 'Sheet'));
 }
-function invSpare(g, decks){
-  const loose = g.variants.reduce((s,v) =>
+function invLoose(g){
+  return g.variants.reduce((s,v) =>
     s + ((!v.source || v.source === 'Sheet') ? (Number(v.qty) || 0) : 0), 0);
-  const assigned = invAssignedDecks(g);
-  const unaccounted = decks.reduce((s,[d,n]) => s + (assigned.has(d) ? 0 : n), 0);
-  return Math.max(0, loose - unaccounted);
+}
+// Each row is one PRINT of a card, but current-format deck usage is only known
+// per card name, so a card's unassigned usage is consumed greedily across its
+// print rows (rows with loose stock absorb it first). Whatever loose stock is
+// left on a row is genuinely spare.
+function invAllocate(items, idx){
+  const byCard = new Map();
+  for(const g of items){
+    if(!byCard.has(g.key)) byCard.set(g.key, []);
+    byCard.get(g.key).push(g);
+  }
+  const alloc = new Map();          // printKey -> {spare, decks:[[deck,n]]}
+  for(const [key, rows] of byCard){
+    // a deck named on ANY print of this card is already accounted for there
+    const assigned = new Set();
+    rows.forEach(r => invAssignedDecks(r).forEach(d => assigned.add(d)));
+    const owed = [...(idx.get(key) || new Map()).entries()]
+      .filter(([d]) => !assigned.has(d))
+      .map(([d,n]) => [d, n]);
+    let oi = 0;
+    for(const r of rows){
+      let loose = invLoose(r);
+      const took = [];
+      while(loose > 0 && oi < owed.length){
+        const take = Math.min(loose, owed[oi][1]);
+        took.push([owed[oi][0], take]);
+        loose -= take;
+        owed[oi][1] -= take;
+        if(owed[oi][1] === 0) oi++;
+      }
+      alloc.set(r.printKey || r.key, {spare: loose, decks: took});
+    }
+  }
+  return alloc;
 }
 function renderInventory(){
   if(!invListEl) return;
   const idx = invDeckIndex();
   const q = invQuery.toLowerCase();
+  const alloc = invAllocate(INVENTORY, idx);
   let items = INVENTORY.map(g => {
-    const decks = [...(idx.get(g.key) || new Map()).entries()]
-      .sort((a,b) => b[1] - a[1] || a[0].localeCompare(b[0]));
-    return {...g, decks, spare: invSpare(g, decks)};
+    const a = alloc.get(g.printKey || g.key) || {spare: 0, decks: []};
+    // only the current-format usage this row actually supplies
+    const decks = a.decks.slice().sort((x,y) => y[1] - x[1] || x[0].localeCompare(y[0]));
+    return {...g, decks, spare: a.spare};
   });
   if(invFilter === 'INDECK') items = items.filter(g => g.total > g.spare);
   else if(invFilter === 'SPARE') items = items.filter(g => g.spare > 0);
@@ -1415,7 +1445,7 @@ function renderInventory(){
   // deck's cards.
   if(q) items = items.filter(g =>
     g.name.toLowerCase().includes(q) ||
-    g.variants.some(v => (v.set || '').toLowerCase() === q));
+    (g.set || '').toLowerCase() === q);
 
   const copies = items.reduce((s,g) => s + g.total, 0);
   const spare = items.reduce((s,g) => s + g.spare, 0);
@@ -1429,47 +1459,28 @@ function renderInventory(){
     return;
   }
   invListEl.innerHTML = items.map(g => {
-    const img = (g.variants.find(v => v.image) || {}).image || '';
-    // Group by PRINT (set + number) first: Azelf LA 19 and Azelf MT 4 are
-    // different cards and shouldn't be interleaved. Print type (World Champs /
-    // Authentic / Proxy / Standard...) is a separate axis, so several print
-    // types of the same print sit together under one heading — e.g. Ultra Ball
-    // SVI 196 lists its WC and Authentic copies and the decks holding each.
-    // Variants with no set recorded stay lumped together until Vig resolves
-    // them during his physical check.
-    const byPrint = new Map();
-    for(const v of g.variants){
-      const label = v.set && v.num ? `${v.set} ${v.num}` : (v.set || '');
-      if(!byPrint.has(label)) byPrint.set(label, []);
-      byPrint.get(label).push(v);
-    }
-    const printKeys = [...byPrint.keys()].sort((a,b) => {
-      if(!a) return 1;                     // unknown print last
-      if(!b) return -1;
-      return a.localeCompare(b, undefined, {numeric:true});
-    });
-    const vars = printKeys.map(label => {
-      const vs = byPrint.get(label);
-      const sub = vs.reduce((s,v) => s + (Number(v.qty) || 0), 0);
-      const head = `<span class="inv-print-h"><span class="inv-set">${label ? esc(label) : 'Set unknown'}</span>`
-        + `<span class="inv-print-n">${sub}</span></span>`;
-      const rows = vs.map(v => {
-        const src = v.source && v.source !== 'Sheet'
-          ? `<span class="inv-src inv-src-deck">${esc(v.source)}</span>`
-          : `<span class="inv-src">Sheet</span>`;
-        return `<span class="inv-var"><b>${v.qty}</b> ${esc(v.version)}${src}</span>`;
-      }).join('');
-      return `<span class="inv-print">${head}${rows}</span>`;
+    // image lives on the entry now (one print = one image); the variant
+    // fallback covers any row written before the per-print split
+    const img = g.image || (g.variants.find(v => v.image) || {}).image || '';
+    // One row per print already, so just list this print's types and the deck
+    // holding each. Print type (World Champs / Authentic / Proxy / Standard...)
+    // is the second axis: several types of the SAME print sit together here.
+    const vars = g.variants.map(v => {
+      const src = v.source && v.source !== 'Sheet'
+        ? `<span class="inv-src inv-src-deck">${esc(v.source)}</span>`
+        : `<span class="inv-src">Sheet</span>`;
+      return `<span class="inv-var"><b>${v.qty}</b> ${esc(v.version)}${src}</span>`;
     }).join('');
-    // Decks already named on a variant line above (older decks, plus any
-    // current-format deck Vig has assigned copies to) aren't repeated here.
-    const named = invAssignedDecks(g);
-    const parts = g.decks.filter(([d]) => !named.has(d)).map(([d,n]) => `${esc(d)} ×${n}`);
+    // g.decks is already just the current-format usage this row supplies from
+    // its loose stock; decks holding assigned copies are named on the lines above.
+    const parts = g.decks.map(([d,n]) => `${esc(d)} ×${n}`);
     if(g.spare > 0) parts.push(`<span class="inv-spare">Spare ×${g.spare}</span>`);
     const decks = parts.join(' · ');
     return `<div class="inv-item${img ? '' : ' inv-noimg'}" data-img="${esc(img)}" data-name="${esc(g.name)}">
       <span class="inv-main">
-        <span class="inv-title"><span class="inv-name">${esc(g.name)}</span><span class="inv-qty">${g.total}</span>`
+        <span class="inv-title"><span class="inv-name">${esc(g.name)}</span>`
+      + `${(g.set || g.num) ? `<span class="inv-set">${esc(((g.set || '') + ' ' + (g.num || '')).trim())}</span>` : '<span class="inv-set inv-set-unknown">set unknown</span>'}`
+      + `<span class="inv-qty">${g.total}</span>`
       + `${g.verified ? '<span class="inv-ok" title="Checked with Vig">✓</span>' : '<span class="inv-todo" title="Not verified yet">•</span>'}</span>
         <span class="inv-vars">${vars}</span>
         ${decks ? `<span class="inv-decks">${decks}</span>` : ''}
@@ -1614,12 +1625,11 @@ function renderStats(){
   // Real collection size comes from the inventory: loose stock plus every copy
   // sleeved in a deck. (Deck slots below are what the decks *call for*, which
   // is a different number — a card can be needed by several decks.)
-  const invIdx = invDeckIndex();
+  const invAlloc = invAllocate(INVENTORY, invDeckIndex());
   let ownedCopies = 0, spareCopies = 0;
   for(const g of INVENTORY){
-    const used = [...(invIdx.get(g.key) || new Map()).entries()];
     ownedCopies += Number(g.total) || 0;
-    spareCopies += invSpare(g, used);
+    spareCopies += (invAlloc.get(g.printKey || g.key) || {spare: 0}).spare;
   }
   const sleeved = ownedCopies - spareCopies;
   const pct = total ? Math.round(owned / total * 100) : 0;
@@ -1656,7 +1666,7 @@ function renderStats(){
         ${tile(ownedCopies, 'Cards owned')}
         ${tile(sleeved, 'Sleeved in decks')}
         ${tile(spareCopies, 'Spare')}
-        ${tile(INVENTORY.length, 'Unique cards')}
+        ${tile(new Set(INVENTORY.map(g => g.key)).size, 'Unique cards')}
       </div>
     </div>
 
