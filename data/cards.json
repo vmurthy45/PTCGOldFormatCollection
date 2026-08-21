@@ -10410,7 +10410,7 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/xy8/134_hires.png",
     "prints": {
-      "authentic": 0,
+      "authentic": 1,
       "wc": 0,
       "proxy": 0
     }
@@ -16920,7 +16920,7 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/sm11/191_hires.png",
     "prints": {
-      "authentic": 0,
+      "authentic": 1,
       "wc": 0,
       "proxy": 0
     }
@@ -25566,13 +25566,13 @@
   {
     "year": "2026",
     "deck": "Dragapult Dusknoir (2026)",
-    "count": 4,
+    "count": 3,
     "name": "Crispin",
     "set": "133/142",
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/sv7/133_hires.png",
     "prints": {
-      "authentic": 4,
+      "authentic": 3,
       "wc": 0,
       "proxy": 0
     }
@@ -25580,13 +25580,13 @@
   {
     "year": "2026",
     "deck": "Dragapult Dusknoir (2026)",
-    "count": 2,
+    "count": 3,
     "name": "Boss's Orders",
     "set": "114/132",
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/me1/114_hires.png",
     "prints": {
-      "authentic": 2,
+      "authentic": 3,
       "wc": 0,
       "proxy": 0
     }
@@ -25595,15 +25595,15 @@
     "year": "2026",
     "deck": "Dragapult Dusknoir (2026)",
     "count": 1,
-    "name": "Dawn",
-    "set": "87/94",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/me2/87_hires.png",
+    "name": "Judge",
+    "set": "76/88",
     "prints": {
       "authentic": 1,
       "wc": 0,
       "proxy": 0
-    }
+    },
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me3-76/large"
   },
   {
     "year": "2026",
@@ -25692,27 +25692,13 @@
   {
     "year": "2026",
     "deck": "Dragapult Dusknoir (2026)",
-    "count": 1,
-    "name": "Special Red Card",
-    "set": "82/86",
-    "category": "Trainer",
-    "image": "https://images.scrydex.com/pokemon/me4-82/large",
-    "prints": {
-      "authentic": 1,
-      "wc": 0,
-      "proxy": 0
-    }
-  },
-  {
-    "year": "2026",
-    "deck": "Dragapult Dusknoir (2026)",
-    "count": 1,
+    "count": 2,
     "name": "Team Rocket's Watchtower",
     "set": "180/182",
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/sv10/180_hires.png",
     "prints": {
-      "authentic": 1,
+      "authentic": 2,
       "wc": 0,
       "proxy": 0
     }

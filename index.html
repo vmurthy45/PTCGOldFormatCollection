@@ -145,6 +145,34 @@
   .st-fmt-head b{font-size:14px} .st-fmt-head span{font-size:12px; color:var(--muted)}
   .st-tiers{display:flex; flex-wrap:wrap; gap:10px 20px}
   .st-tierkey{display:inline-flex; align-items:center; gap:7px; font-size:14px; color:var(--ink)}
+  /* Tournament Log */
+  .tl-card{background:var(--card); border:1px solid var(--line); border-radius:14px; margin-bottom:14px; overflow:hidden}
+  .tl-head{cursor:pointer; padding:14px 16px; list-style:none; display:flex; flex-direction:column; gap:4px}
+  .tl-head::-webkit-details-marker{display:none}
+  .tl-card[open] .tl-head{border-bottom:1px solid var(--band-b)}
+  .tl-sum-main{display:flex; align-items:baseline; justify-content:space-between; gap:12px}
+  .tl-name{font-family:'Poppins',sans-serif; font-weight:700; font-size:16px; color:var(--red-dark)}
+  .tl-date{font-size:12.5px; color:var(--muted); font-weight:600; white-space:nowrap}
+  .tl-sum-sub{font-size:12.5px; color:var(--muted)}
+  .tl-sum-sub b{color:var(--ink); font-variant-numeric:tabular-nums}
+  .tl-fmt{color:var(--ink); font-weight:600}
+  .tl-body{padding:14px 16px 16px}
+  .tl-tiles{display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-bottom:12px}
+  .tl-tile{background:var(--band-b); border-radius:10px; padding:11px 10px; text-align:center}
+  .tl-tval{font-size:19px; font-weight:800; color:var(--ink); font-variant-numeric:tabular-nums}
+  .tl-tlabel{font-size:10.5px; text-transform:uppercase; letter-spacing:.5px; color:var(--muted); font-weight:700; margin-top:4px}
+  .tl-list summary{cursor:pointer; font-weight:700; font-size:13px; color:var(--red-dark); padding:4px 0}
+  .tl-list pre{background:var(--band-b); border:1px solid var(--line); border-radius:10px; padding:14px; overflow-x:auto;
+    font-size:12.5px; line-height:1.55; white-space:pre; margin:8px 0 0; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; color:var(--ink)}
+  .tl-copy{margin-top:8px; border:1px solid var(--line); background:var(--card); color:var(--ink);
+    font-family:inherit; font-size:12.5px; font-weight:600; padding:6px 12px; border-radius:999px; cursor:pointer}
+  .tl-copy:hover{border-color:var(--red); color:var(--red-dark)}
+  .tl-copy.copied{background:var(--pip-auth); color:#fff; border-color:var(--pip-auth)}
+  .tl-notes{font-size:13px; color:var(--ink); background:var(--band-a); border-radius:8px; padding:9px 12px; margin-top:12px}
+  .tl-money{display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:12px; padding-top:12px; border-top:1px solid var(--band-b)}
+  .tl-mitem{display:flex; flex-direction:column; gap:3px}
+  .tl-mitem span{font-size:10.5px; text-transform:uppercase; letter-spacing:.5px; color:var(--muted); font-weight:700}
+  .tl-mitem b{font-size:16px; color:var(--ink); font-variant-numeric:tabular-nums}
   .controls{display:flex; flex-direction:column; gap:10px; margin-bottom:12px}
   .search{
     width:100%; padding:13px 16px; font-size:16px; border:1px solid var(--line);
@@ -537,6 +565,7 @@
       <button class="subtab-btn" data-subtab="cardCollection" type="button">Card Collection</button>
       <button class="subtab-btn" data-subtab="cardsToGet" type="button">Cards to Get</button>
       <button class="subtab-btn" data-subtab="stats" type="button">Stats</button>
+      <button class="subtab-btn" data-subtab="tournamentLog" type="button">Tournament Log</button>
       <button class="subtab-btn" data-subtab="gameLog" type="button">Game Log</button>
     </div>
 
@@ -562,6 +591,10 @@
 
   <div id="statsTab" class="subtab-panel">
     <div id="stats-content"></div>
+  </div>
+
+  <div id="tournamentLogTab" class="subtab-panel">
+    <div id="tl-content"></div>
   </div>
 
   <div id="matchupTab" class="subtab-panel active">
@@ -653,6 +686,7 @@ let CARDS = [];
 let GUIDES = {};
 let TURN1_RULES = {};
 let GAMES = [];
+let TOURNAMENTS = [];
 let YEARS = [];
 let activeYear = null;  // null = landing (only the year filters shown)
 let showT1 = false;     // on the landing, whether the all-years Turn 1 Rules list is open
@@ -1596,6 +1630,108 @@ function renderStats(){
     </div>`;
 }
 
+/* ---------- Tournament Log ---------- */
+// Scarlet & Violet + Mega-era set release dates, newest last. Used to work out
+// which Standard sets were legal on a given tournament date.
+const STD_SETS = [
+  ["SVI","Scarlet & Violet","2023-03-31"], ["PAL","Paldea Evolved","2023-06-09"],
+  ["OBF","Obsidian Flames","2023-08-11"], ["MEW","151","2023-09-22"],
+  ["PAR","Paradox Rift","2023-11-03"], ["PAF","Paldean Fates","2024-01-26"],
+  ["TEF","Temporal Forces","2024-03-22"], ["TWM","Twilight Masquerade","2024-05-24"],
+  ["SFA","Shrouded Fable","2024-08-02"], ["SCR","Stellar Crown","2024-09-13"],
+  ["SSP","Surging Sparks","2024-11-08"], ["PRE","Prismatic Evolutions","2025-01-17"],
+  ["JTG","Journey Together","2025-03-28"], ["DRI","Destined Rivals","2025-05-30"],
+  ["BLK","Black Bolt","2025-07-18"], ["WHT","White Flare","2025-07-18"],
+  ["MEG","Mega Evolution","2025-09-26"], ["PFL","Phantasmal Flames","2025-11-14"],
+  ["ASC","Ascended Heroes","2026-01-30"], ["POR","Perfect Order","2026-03-27"],
+  ["CRI","Chaos Rising","2026-05-22"], ["PBL","Pitch Black","2026-07-17"],
+].map(([code,name,date]) => ({code, name, date}));
+// Standard rotations: each season start (mid-April) sets the earliest legal set.
+// A date picks the latest rotation on/before it; the format runs from that set
+// to the newest set released by the tournament date.
+const STD_ROTATIONS = [
+  {from:"2024-04-12", first:"SVI"},   // SV-on (SWSH rotates out)
+  {from:"2025-04-11", first:"TEF"},   // Reg G-on (Temporal Forces onward)
+];
+function formatForDate(dateStr){
+  if(!dateStr) return null;
+  const released = STD_SETS.filter(s => s.date <= dateStr);
+  if(!released.length) return null;
+  const last = released[released.length - 1];
+  const rot = [...STD_ROTATIONS].reverse().find(r => r.from <= dateStr);
+  const firstSet = STD_SETS.find(s => s.code === (rot ? rot.first : STD_SETS[0].code));
+  const legal = STD_SETS.filter(s => s.date >= firstSet.date && s.date <= last.date);
+  return {first: firstSet, last, legal, label: `${firstSet.name} – ${last.name}`};
+}
+function fmtDate(dateStr){
+  if(!dateStr) return '';
+  const [y,m,d] = dateStr.split('-').map(Number);
+  const mon = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][m-1];
+  return `${d} ${mon} ${y}`;
+}
+function recordStr(r){
+  if(!r) return 'TBD';
+  return `${r.wins ?? 0}-${r.losses ?? 0}-${r.ties ?? 0}`;
+}
+function ordinal(n){
+  n = Number(n);
+  const s = ['th','st','nd','rd'], v = n % 100;
+  return n + (s[(v - 20) % 10] || s[v] || s[0]);
+}
+// collapsed-row summary of result: "1st 5-1-0" (whichever parts are known)
+function placeRecordStr(t){
+  const place = (t.placement != null) ? ordinal(t.placement) : null;
+  const rec = t.record ? recordStr(t.record) : null;
+  if(place && rec) return `${place} ${rec}`;
+  return place || rec || 'TBD';
+}
+function renderTournamentLog(){
+  const el = document.getElementById('tl-content');
+  if(!el) return;
+  if(!TOURNAMENTS.length){
+    el.innerHTML = `<div class="empty">No tournaments logged yet.</div>`;
+    return;
+  }
+  const evs = [...TOURNAMENTS].sort((a,b) => (a.date < b.date ? 1 : -1));  // newest first
+  const money = v => (v == null) ? 'TBD' : (typeof v === 'number' ? '$' + v : esc(String(v)));
+  el.innerHTML = evs.map((t, i) => {
+    const fmt = formatForDate(t.date);
+    const placement = (t.placement != null)
+      ? `${ordinal(t.placement)}${t.players ? ` / ${t.players}` : ''}`
+      : 'TBD';
+    const tile = (label, val) => `<div class="tl-tile"><div class="tl-tval">${val}</div><div class="tl-tlabel">${label}</div></div>`;
+    return `<details class="tl-card">
+      <summary class="tl-head">
+        <div class="tl-sum-main"><span class="tl-name">${esc(t.name || 'Untitled event')}</span><span class="tl-date">${fmtDate(t.date)}</span></div>
+        <div class="tl-sum-sub">${esc(t.deck || '—')}${fmt ? ` · <span class="tl-fmt">${esc(fmt.label)}</span>` : ''} · <b>${esc(placeRecordStr(t))}</b></div>
+      </summary>
+      <div class="tl-body">
+        <div class="tl-tiles">
+          ${tile('Record (W-L-T)', recordStr(t.record))}
+          ${tile('Placement', esc(placement))}
+          ${tile('Players', t.players != null ? t.players : 'TBD')}
+        </div>
+        ${t.list ? `<details class="tl-list"><summary>Decklist played</summary><button class="tl-copy" type="button" data-idx="${i}">📋 Copy list</button><pre>${esc(t.list)}</pre></details>` : ''}
+        ${t.notes ? `<div class="tl-notes"><b>Notes:</b> ${esc(t.notes)}</div>` : ''}
+        <div class="tl-money">
+          <div class="tl-mitem"><span>Entry cost</span><b>${money(t.entryCost)}</b></div>
+          <div class="tl-mitem"><span>Prizes won</span><b>${money(t.prizesWon)}</b></div>
+        </div>
+      </div>
+    </details>`;
+  }).join('');
+  el.querySelectorAll('.tl-copy').forEach(btn => {
+    btn.onclick = async (e) => {
+      e.preventDefault();
+      const t = evs[Number(btn.dataset.idx)];
+      try{ await navigator.clipboard.writeText(t.list); }
+      catch(err){ const ta=document.createElement('textarea'); ta.value=t.list; ta.style.position='fixed'; ta.style.opacity='0'; document.body.appendChild(ta); ta.select(); try{document.execCommand('copy');}catch(_){} ta.remove(); }
+      const old = btn.textContent; btn.textContent = '✓ Copied'; btn.classList.add('copied');
+      clearTimeout(btn._t); btn._t = setTimeout(()=>{ btn.textContent = old; btn.classList.remove('copied'); }, 1500);
+    };
+  });
+}
+
 function renderGameLog(){
   const player = glPlayerEl.value || 'ALL';
   const year = glYearEl.value || 'ALL';
@@ -1665,6 +1801,8 @@ async function init(){
   // Game Log is a separate, optional data file — a missing/empty games.json
   // must never break the rest of the site.
   try{ GAMES = await (await fetch('data/games.json')).json(); }catch(err){ GAMES = []; }
+  // Tournament Log is likewise optional — never let it break the site.
+  try{ TOURNAMENTS = await (await fetch('data/tournaments.json')).json(); }catch(err){ TOURNAMENTS = []; }
   // Sort chronologically rather than trusting cards.json row order, so a year
   // added later (e.g. 2021) still lands in the right place. The numeric prefix
   // orders the years; the string tiebreak keeps any future same-year labelled
@@ -1702,6 +1840,7 @@ async function init(){
   renderCardsToGet();
   document.getElementById('ctg-copy').onclick = (e) => copyCardsToGet(e.currentTarget);
   renderStats();
+  renderTournamentLog();
 
   render();
 }

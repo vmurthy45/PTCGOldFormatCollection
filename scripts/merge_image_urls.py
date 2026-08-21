@@ -354,6 +354,8 @@ URL_OVERRIDES = {
     ("Big Charm", "158/202"): "https://images.pokemontcg.io/swsh1/158_hires.png",
     # Slowking (2026): Slowpoke swapped to the PAL (sv2) print.
     ("Slowpoke", "85/193"): "https://images.pokemontcg.io/sv2/85_hires.png",
+    # Dragapult Dusknoir (2026): Judge (POR=me3, scrydex-hosted).
+    ("Judge", "76/88"): "https://images.scrydex.com/pokemon/me3-76/large",
     # Empoleon Swampert (2018) — SM-era (UPR=sm5, CES=sm7, GRI=sm2, BUS=sm3,
     # SUM=sm1, CIN=sm4, SMP=smp promos, all on pokemontcg.io).
     ("Piplup", "32/156"): "https://images.pokemontcg.io/sm5/32_hires.png",

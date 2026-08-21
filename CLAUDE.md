@@ -62,8 +62,21 @@ Hosted free on GitHub Pages.
   table columns are Date / Year / Vig's Deck / Opponent's Deck / Opponent /
   Result / Notes. Loaded via its own guarded `fetch()` so
   a missing/empty file never breaks the site. Starts as `[]`.
+- `data/tournaments.json` — the **Tournament Log** backend: an array of events,
+  each `{name, type, date (YYYY-MM-DD), deck, players, record, placement, notes,
+  list}`. `record` is `{wins,losses,ties}` (Pokémon W-L-T convention) or `null`
+  = TBD; `placement` is Vig's finishing position (shown as `placement / players`)
+  or `null`; `list` is the raw decklist text played (kept verbatim, shown
+  preformatted with a Copy button). Hand-maintained from chat — **no logging UI**,
+  the tab only displays. The **Standard format is computed from `date`** by
+  `formatForDate()` in `index.html`: `STD_SETS` (SV+Mega set release dates) +
+  `STD_ROTATIONS` (season-start → earliest legal set) give the legal span
+  (e.g. 2026-08-24 → "Temporal Forces – Pitch Black", 16 sets). **Add a new
+  `STD_ROTATIONS` entry when a real rotation drops a set**, and extend `STD_SETS`
+  as new sets release. Loaded via guarded `fetch()`; starts `[]`.
 - **Tools tab is private/gated.** The `Tools` top tab (`data-tab="tools"`,
-  holding Matchup Generator / Card Collection / Cards to Get / Stats / Game
+  holding Matchup Generator / Card Collection / Cards to Get / Stats /
+  Tournament Log / Game
   Log) is `hidden` by default so public visitors (and the printed-QR URL,
   which must stay untouched) never see it. `applyToolsGate()` in `index.html`
   reveals it only when unlocked: (a) launching from the **home screen** —
