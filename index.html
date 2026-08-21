@@ -1406,10 +1406,13 @@ function renderInventory(){
   else if(invFilter === 'VERIFIED') items = items.filter(g => g.verified);
   else if(invFilter === 'UNVERIFIED') items = items.filter(g => !g.verified);
   else if(invFilter !== 'ALL') items = items.filter(g => invCat(g.type) === invFilter);
+  // Card name or set code only. Deck names are deliberately NOT searched:
+  // matching them dragged in every staple a deck happens to play (searching
+  // "dragapult" returned Boss's Orders), and the decks tab already lists a
+  // deck's cards.
   if(q) items = items.filter(g =>
     g.name.toLowerCase().includes(q) ||
-    g.decks.some(([d]) => d.toLowerCase().includes(q)) ||
-    g.variants.some(v => (v.set || '').toLowerCase().includes(q)));
+    g.variants.some(v => (v.set || '').toLowerCase() === q));
 
   const copies = items.reduce((s,g) => s + g.total, 0);
   const spare = items.reduce((s,g) => s + g.spare, 0);
