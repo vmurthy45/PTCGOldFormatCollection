@@ -321,10 +321,13 @@
   /* verification state: ✓ = counts confirmed with Vig, • = still to check */
   .inv-ok{color:var(--pip-auth); font-weight:800; font-size:12.5px}
   .inv-todo{color:var(--muted); opacity:.55; font-size:13px; line-height:1}
-  /* one variant per line: qty + print/version + set, then where it lives, so
-     the deck holding those copies is always readable at a glance */
-  .inv-vars{display:flex; flex-direction:column; gap:2px; margin-top:4px; color:var(--muted); font-size:11.5px}
-  .inv-var{display:flex; align-items:baseline; gap:5px; flex-wrap:wrap}
+  /* grouped by print: a heading per set+number, then one line per print type
+     (qty + version + the deck holding it) underneath */
+  .inv-vars{display:flex; flex-direction:column; gap:7px; margin-top:5px; color:var(--muted); font-size:11.5px}
+  .inv-print{display:flex; flex-direction:column; gap:2px}
+  .inv-print-h{display:flex; align-items:baseline; gap:7px; margin-bottom:1px}
+  .inv-print-n{color:var(--muted); opacity:.7; font-size:10.5px; font-variant-numeric:tabular-nums}
+  .inv-var{display:flex; align-items:baseline; gap:5px; flex-wrap:wrap; padding-left:12px}
   .inv-var .inv-src{margin-left:auto; padding-left:10px}
   .inv-src{color:var(--muted); opacity:.75; font-size:10.5px}
   .inv-src-deck{color:var(--steel); opacity:1}
@@ -1427,14 +1430,36 @@ function renderInventory(){
   }
   invListEl.innerHTML = items.map(g => {
     const img = (g.variants.find(v => v.image) || {}).image || '';
-    const vars = g.variants.map(v => {
-      const bits = v.set && v.num ? `${esc(v.set)} ${esc(v.num)}` : (v.set ? esc(v.set) : '');
-      // where the count came from: the purchases sheet, or a built deck
-      const src = v.source && v.source !== 'Sheet'
-        ? `<span class="inv-src inv-src-deck">${esc(v.source)}</span>`
-        : `<span class="inv-src">Sheet</span>`;
-      return `<span class="inv-var"><b>${v.qty}</b> ${esc(v.version)}`
-        + `${bits ? ` <span class="inv-set">${bits}</span>` : ''}${src}</span>`;
+    // Group by PRINT (set + number) first: Azelf LA 19 and Azelf MT 4 are
+    // different cards and shouldn't be interleaved. Print type (World Champs /
+    // Authentic / Proxy / Standard...) is a separate axis, so several print
+    // types of the same print sit together under one heading — e.g. Ultra Ball
+    // SVI 196 lists its WC and Authentic copies and the decks holding each.
+    // Variants with no set recorded stay lumped together until Vig resolves
+    // them during his physical check.
+    const byPrint = new Map();
+    for(const v of g.variants){
+      const label = v.set && v.num ? `${v.set} ${v.num}` : (v.set || '');
+      if(!byPrint.has(label)) byPrint.set(label, []);
+      byPrint.get(label).push(v);
+    }
+    const printKeys = [...byPrint.keys()].sort((a,b) => {
+      if(!a) return 1;                     // unknown print last
+      if(!b) return -1;
+      return a.localeCompare(b, undefined, {numeric:true});
+    });
+    const vars = printKeys.map(label => {
+      const vs = byPrint.get(label);
+      const sub = vs.reduce((s,v) => s + (Number(v.qty) || 0), 0);
+      const head = `<span class="inv-print-h"><span class="inv-set">${label ? esc(label) : 'Set unknown'}</span>`
+        + `<span class="inv-print-n">${sub}</span></span>`;
+      const rows = vs.map(v => {
+        const src = v.source && v.source !== 'Sheet'
+          ? `<span class="inv-src inv-src-deck">${esc(v.source)}</span>`
+          : `<span class="inv-src">Sheet</span>`;
+        return `<span class="inv-var"><b>${v.qty}</b> ${esc(v.version)}${src}</span>`;
+      }).join('');
+      return `<span class="inv-print">${head}${rows}</span>`;
     }).join('');
     // Decks already named on a variant line above (older decks, plus any
     // current-format deck Vig has assigned copies to) aren't repeated here.

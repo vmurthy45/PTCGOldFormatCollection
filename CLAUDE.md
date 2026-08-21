@@ -92,6 +92,14 @@ Hosted free on GitHub Pages.
   skipped any card already in the sheet — that made Zacian V read 1 when five
   2020-2023 decks held 11 more; it should read 12 with 1 spare.) The merge
   script strips previously-merged deck variants first, so it is safe to re-run.
+  **Display groups by print, not by row.** `renderInventory()` buckets a card's
+  variants by `set + num` first, because two prints are genuinely different
+  cards (Azelf LA 19 vs Azelf MT 4 must never interleave). Print *type*
+  (World Champs / Authentic / Proxy / Standard / Reverse Holo...) is a separate
+  axis, so all types of one print sit under a single heading with the deck
+  holding each — e.g. Ultra Ball SVI 196 shows its WC and Authentic copies
+  together. Variants with no set recorded collect under "Set unknown" at the
+  bottom, pending Vig's physical check.
   **Explicit deck assignments + verification (Vig's ongoing pass):** he is
   working through the collection telling me which physical copies sit in which
   deck (e.g. "Dreepy: 4 Reverse Holo PRE 71 are in Dragapult Dusknoir (2026),
