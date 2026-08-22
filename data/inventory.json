@@ -943,88 +943,6 @@
     ]
   },
   {
-    "name": "Basic Metal Energy",
-    "type": "Energy",
-    "key": "metalenergy",
-    "set": "SSH",
-    "num": "",
-    "printKey": "metalenergy|SSH",
-    "image": null,
-    "total": 8,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 8,
-        "source": "ADP Zacian (2020)",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Basic Metal Energy",
-    "type": "Energy",
-    "key": "metalenergy",
-    "set": "SUM",
-    "num": "171",
-    "printKey": "metalenergy|SUM 171",
-    "image": "https://images.pokemontcg.io/sm1/171_hires.png",
-    "total": 11,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 11,
-        "source": "Combo Zacian (2020)",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Basic Metal Energy",
-    "type": "Energy",
-    "key": "metalenergy",
-    "set": "XY",
-    "num": "",
-    "printKey": "metalenergy|XY",
-    "image": "https://images.pokemontcg.io/xy1/139_hires.png",
-    "total": 11,
-    "variants": [
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "LuxChomp (2010)",
-        "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 6,
-        "source": "Mega Audino (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "Joltdengo (2025)",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Basic Metal Energy",
-    "type": "Energy",
-    "key": "metalenergy",
-    "set": "",
-    "num": "",
-    "printKey": "metalenergy|",
-    "image": "https://images.pokemontcg.io/xy1/139_hires.png",
-    "total": 2,
-    "variants": [
-      {
-        "version": "Prize Pack",
-        "qty": 2,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Battle Cage",
     "type": "Item",
     "key": "battlecage",
@@ -13074,6 +12992,88 @@
         "qty": 2,
         "source": "Slowking (2026)",
         "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Metal Energy",
+    "type": "Energy",
+    "key": "metalenergy",
+    "set": "SSH",
+    "num": "",
+    "printKey": "metalenergy|SSH",
+    "image": null,
+    "total": 8,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 8,
+        "source": "ADP Zacian (2020)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Metal Energy",
+    "type": "Energy",
+    "key": "metalenergy",
+    "set": "SUM",
+    "num": "171",
+    "printKey": "metalenergy|SUM 171",
+    "image": "https://images.pokemontcg.io/sm1/171_hires.png",
+    "total": 11,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 11,
+        "source": "Combo Zacian (2020)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Metal Energy",
+    "type": "Energy",
+    "key": "metalenergy",
+    "set": "XY",
+    "num": "",
+    "printKey": "metalenergy|XY",
+    "image": "https://images.pokemontcg.io/xy1/139_hires.png",
+    "total": 11,
+    "variants": [
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "LuxChomp (2010)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 6,
+        "source": "Mega Audino (2016)"
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Joltdengo (2025)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Metal Energy",
+    "type": "Energy",
+    "key": "metalenergy",
+    "set": "",
+    "num": "",
+    "printKey": "metalenergy|",
+    "image": "https://images.pokemontcg.io/xy1/139_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Prize Pack",
+        "qty": 2,
+        "source": "Spare"
       }
     ]
   },

@@ -118,6 +118,9 @@ def main():
         if not name:
             continue
         name = re.sub(r"\s+", " ", str(name)).strip()
+        # the sheet writes "Basic Metal Energy"; every other energy is plain,
+        # so drop the qualifier rather than have one type read differently
+        name = re.sub(r"^Basic\s+(?=.*Energy$)", "", name)
         card_type, set_code, num, version, qty = r[1], r[2], r[3], r[4], r[5]
         qty = int(qty or 0)
         if qty <= 0:

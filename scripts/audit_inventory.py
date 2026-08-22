@@ -67,6 +67,13 @@ def main():
             else:
                 issues.append(f"{label}: total says {e.get('total')}, variants sum to {total}")
 
+        if e["name"].lower().startswith("basic "):
+            if fix:
+                e["name"] = re.sub(r"^Basic\s+", "", e["name"])
+                fixed.append(f"dropped the \"Basic\" qualifier from {e['name']}")
+            else:
+                issues.append(f"{label}: energy names do not carry a \"Basic\" qualifier")
+
         if "/" in str(e.get("num") or ""):
             issues.append(f"{label}: card number still carries the printed total")
 
