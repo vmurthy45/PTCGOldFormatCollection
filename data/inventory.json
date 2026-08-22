@@ -480,7 +480,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "ADP Flying Pikachu (2022)"
+        "source": "ADP Flying Pikachu (2022)",
+        "verified": true
       }
     ]
   },
@@ -497,7 +498,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "ADP Flying Pikachu (2022)"
+        "source": "ADP Flying Pikachu (2022)",
+        "verified": true
       }
     ]
   },
@@ -1046,12 +1048,14 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Fusion Strike Mew (2022)"
+        "source": "Fusion Strike Mew (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -1235,7 +1239,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "ADP Flying Pikachu (2022)"
+        "source": "ADP Flying Pikachu (2022)",
+        "verified": true
       }
     ]
   },
@@ -1269,7 +1274,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "ADP Flying Pikachu (2022)"
+        "source": "ADP Flying Pikachu (2022)",
+        "verified": true
       }
     ]
   },
@@ -1698,22 +1704,26 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Fusion Strike Mew (2022)"
+        "source": "Fusion Strike Mew (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "ADP Flying Pikachu (2022)"
+        "source": "ADP Flying Pikachu (2022)",
+        "verified": true
       }
     ]
   },
@@ -2375,7 +2385,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       }
     ]
   },
@@ -2426,7 +2437,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "ADP Flying Pikachu (2022)"
+        "source": "ADP Flying Pikachu (2022)",
+        "verified": true
       }
     ]
   },
@@ -2613,7 +2625,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       }
     ]
   },
@@ -2789,12 +2802,14 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Fusion Strike Mew (2022)"
+        "source": "Fusion Strike Mew (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -3322,7 +3337,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Fusion Strike Mew (2022)"
+        "source": "Fusion Strike Mew (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -3511,7 +3527,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "ADP Flying Pikachu (2022)"
+        "source": "ADP Flying Pikachu (2022)",
+        "verified": true
       }
     ]
   },
@@ -4834,12 +4851,14 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Fusion Strike Mew (2022)"
+        "source": "Fusion Strike Mew (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "ADP Flying Pikachu (2022)"
+        "source": "ADP Flying Pikachu (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -5189,7 +5208,7 @@
     "num": "56",
     "printKey": "drizzile|SSH 56",
     "image": "https://images.pokemontcg.io/swsh1/56_hires.png",
-    "total": 24,
+    "total": 17,
     "variants": [
       {
         "version": "Standard",
@@ -5210,17 +5229,14 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Urshifu VMAX (2022)"
-      },
-      {
-        "version": "Standard",
-        "qty": 7,
-        "source": "Spare"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       }
     ]
   },
@@ -5653,7 +5669,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Fusion Strike Mew (2022)"
+        "source": "Fusion Strike Mew (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -5801,7 +5818,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Fusion Strike Mew (2022)"
+        "source": "Fusion Strike Mew (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -5994,7 +6012,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       }
     ]
   },
@@ -6272,17 +6291,20 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Fusion Strike Mew (2022)"
+        "source": "Fusion Strike Mew (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -6511,17 +6533,20 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "ADP Flying Pikachu (2022)"
+        "source": "ADP Flying Pikachu (2022)",
+        "verified": true
       }
     ]
   },
@@ -7125,12 +7150,14 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "ADP Flying Pikachu (2022)"
+        "source": "ADP Flying Pikachu (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -7628,7 +7655,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "ADP Flying Pikachu (2022)"
+        "source": "ADP Flying Pikachu (2022)",
+        "verified": true
       }
     ]
   },
@@ -7645,7 +7673,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "ADP Flying Pikachu (2022)"
+        "source": "ADP Flying Pikachu (2022)",
+        "verified": true
       }
     ]
   },
@@ -7832,7 +7861,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Fusion Strike Mew (2022)"
+        "source": "Fusion Strike Mew (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -8204,7 +8234,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Fusion Strike Mew (2022)"
+        "source": "Fusion Strike Mew (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -9264,7 +9295,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "ADP Flying Pikachu (2022)"
+        "source": "ADP Flying Pikachu (2022)",
+        "verified": true
       }
     ]
   },
@@ -9281,7 +9313,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "ADP Flying Pikachu (2022)"
+        "source": "ADP Flying Pikachu (2022)",
+        "verified": true
       }
     ]
   },
@@ -9316,7 +9349,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -9544,7 +9578,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -9571,7 +9606,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -9657,7 +9693,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       }
     ]
   },
@@ -9669,7 +9706,7 @@
     "num": "58",
     "printKey": "inteleon|SSH 58",
     "image": "https://images.pokemontcg.io/swsh1/58_hires.png",
-    "total": 10,
+    "total": 8,
     "variants": [
       {
         "version": "Standard",
@@ -9690,17 +9727,14 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Urshifu VMAX (2022)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spare"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       }
     ]
   },
@@ -9800,12 +9834,14 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       }
     ]
   },
@@ -10838,7 +10874,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       }
     ]
   },
@@ -10903,12 +10940,14 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -11038,7 +11077,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "ADP Flying Pikachu (2022)"
+        "source": "ADP Flying Pikachu (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -11555,7 +11595,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "ADP Flying Pikachu (2022)"
+        "source": "ADP Flying Pikachu (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -12073,12 +12114,14 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -12137,17 +12180,20 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "ADP Flying Pikachu (2022)"
+        "source": "ADP Flying Pikachu (2022)",
+        "verified": true
       }
     ]
   },
@@ -12371,7 +12417,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       }
     ]
   },
@@ -12501,7 +12548,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Fusion Strike Mew (2022)"
+        "source": "Fusion Strike Mew (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -12529,7 +12577,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       }
     ]
   },
@@ -12786,7 +12835,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Fusion Strike Mew (2022)"
+        "source": "Fusion Strike Mew (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -12809,7 +12859,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Fusion Strike Mew (2022)"
+        "source": "Fusion Strike Mew (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -14259,7 +14310,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       }
     ]
   },
@@ -14380,7 +14432,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       }
     ]
   },
@@ -14471,7 +14524,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       }
     ]
   },
@@ -14488,7 +14542,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       }
     ]
   },
@@ -14510,12 +14565,14 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       }
     ]
   },
@@ -14664,12 +14721,14 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "ADP Flying Pikachu (2022)"
+        "source": "ADP Flying Pikachu (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -15616,7 +15675,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Fusion Strike Mew (2022)"
+        "source": "Fusion Strike Mew (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -16384,12 +16444,14 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "ADP Flying Pikachu (2022)"
+        "source": "ADP Flying Pikachu (2022)",
+        "verified": true
       }
     ]
   },
@@ -16595,12 +16657,14 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Fusion Strike Mew (2022)"
+        "source": "Fusion Strike Mew (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "ADP Flying Pikachu (2022)"
+        "source": "ADP Flying Pikachu (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -16717,22 +16781,26 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Fusion Strike Mew (2022)"
+        "source": "Fusion Strike Mew (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "ADP Flying Pikachu (2022)"
+        "source": "ADP Flying Pikachu (2022)",
+        "verified": true
       }
     ]
   },
@@ -16766,7 +16834,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -16895,7 +16964,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "ADP Flying Pikachu (2022)"
+        "source": "ADP Flying Pikachu (2022)",
+        "verified": true
       }
     ]
   },
@@ -17154,7 +17224,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       }
     ]
   },
@@ -17176,7 +17247,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -17220,7 +17292,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -17367,7 +17440,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       }
     ]
   },
@@ -17623,7 +17697,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       }
     ]
   },
@@ -17664,7 +17739,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       }
     ]
   },
@@ -18018,7 +18094,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Fusion Strike Mew (2022)"
+        "source": "Fusion Strike Mew (2022)",
+        "verified": true
       }
     ]
   },
@@ -18080,7 +18157,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Fusion Strike Mew (2022)"
+        "source": "Fusion Strike Mew (2022)",
+        "verified": true
       }
     ]
   },
@@ -18146,12 +18224,14 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       }
     ]
   },
@@ -18327,12 +18407,14 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       }
     ]
   },
@@ -19003,7 +19085,7 @@
     "num": "41",
     "printKey": "sobble|CRE 41",
     "image": "https://images.pokemontcg.io/swsh6/41_hires.png",
-    "total": 28,
+    "total": 20,
     "variants": [
       {
         "version": "Reverse Holo",
@@ -19030,17 +19112,14 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Urshifu VMAX (2022)"
-      },
-      {
-        "version": "Standard",
-        "qty": 8,
-        "source": "Spare"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       }
     ]
   },
@@ -20032,12 +20111,14 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Fusion Strike Mew (2022)"
+        "source": "Fusion Strike Mew (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "ADP Flying Pikachu (2022)"
+        "source": "ADP Flying Pikachu (2022)",
+        "verified": true
       }
     ]
   },
@@ -21497,7 +21578,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       }
     ]
   },
@@ -21641,7 +21723,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       }
     ]
   },
@@ -21747,7 +21830,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       }
     ]
   },
@@ -21971,22 +22055,26 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Urshifu VMAX (2022)"
+        "source": "Urshifu VMAX (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Fusion Strike Mew (2022)"
+        "source": "Fusion Strike Mew (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "ADP Flying Pikachu (2022)"
+        "source": "ADP Flying Pikachu (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -23127,7 +23215,8 @@
       {
         "version": "World Champs",
         "qty": 8,
-        "source": "Ice Rider Palkia (2022)"
+        "source": "Ice Rider Palkia (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
