@@ -39,6 +39,12 @@ BASIC = {"lightningenergy", "darknessenergy", "fireenergy", "grassenergy",
 # Japanese-only sets. A decklist names the English print it stands in for, as
 # every M2a row in the data already does; only the inventory records the card.
 JAPANESE = {"M2a", "M3", "MEP", "s12a"}
+# Printed totals for sets no deck row uses yet, so a first-of-its-kind print can
+# still be written onto a decklist. BWTK is the Black & White Trainer Kit, which
+# the card API does not catalogue at all -- its rows carry a hand-set image.
+EXTRA_TOTALS = {"col1": "95", "ecard1": "165", "base1": "102",
+                "gym1": "132", "gym2": "132", "det1": "18"}
+NO_API = {"BWTK"}
 
 
 def name_key(s):
@@ -71,6 +77,8 @@ def main():
         st = str(c.get("set") or "")
         if sid and "/" in st:
             totals.setdefault(sid, st.split("/", 1)[1])
+    for sid, tot in EXTRA_TOTALS.items():
+        totals.setdefault(sid, tot)
 
     def image_for(code, num):
         sid = CODE_TO_ID.get(code)
@@ -94,7 +102,7 @@ def main():
     for c in cards:
         rows_by[(c["deck"], c["name"])].append(c)
 
-    changed, merge, ask = [], [], []
+    changed, merge, ask, unresolved = [], [], [], []
     for deck in sorted(verified):
         held = defaultdict(lambda: defaultdict(int))     # key -> (set,num) -> qty
         for e, v in stacks_by_deck[deck]:
@@ -108,7 +116,8 @@ def main():
             prints = held.get(key)
             if not prints:
                 continue
-            prints = {k: v for k, v in prints.items() if k[0] not in JAPANESE}
+            prints = {k: v for k, v in prints.items()
+                      if k[0] not in JAPANESE and k[0] not in NO_API}
             if not prints:
                 continue
             if len(rows) > 1:
@@ -142,7 +151,7 @@ def main():
                 why = f"{qty} of {sum(prints.values())}"
             url, tot = image_for(code, num)
             if not url or not tot:
-                skipped.append(f"{deck}: {name} — cannot build a {code} {num} image/total")
+                unresolved.append(f"{deck}: {name} — no printed total known for {code} {num}")
                 continue
             changed.append((deck, name, f"{cur_code} {cur_num}", f"{code} {num}", why))
             if fix:
@@ -170,7 +179,9 @@ def main():
     for deck, name, was, now, why in changed:
         print(f"  {deck:<28} {name:<26} {was:<12} -> {now:<12} ({why})")
     for a in ask:
-        print(f"  Pokémon, left split (confirm if you want it merged): {a}")
+        print(f"  Pokémon duplicate, left split (say if you want it merged): {a}")
+    for u in unresolved:
+        print(f"  could not update: {u}")
     print(f"\n{len(changed)} deck lines {'updated' if fix else 'to update'}")
     return 0
 

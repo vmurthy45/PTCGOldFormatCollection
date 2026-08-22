@@ -2489,9 +2489,10 @@
     "total": 3,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 3,
-        "source": "CMT (2012)"
+        "source": "CMT (2012)",
+        "verified": true
       }
     ]
   },
@@ -4768,7 +4769,7 @@
     "num": "103",
     "printKey": "doublecolorlessenergy|HS 103",
     "image": "https://images.pokemontcg.io/hgss1/103_hires.png",
-    "total": 15,
+    "total": 11,
     "variants": [
       {
         "version": "World Champs",
@@ -4786,11 +4787,6 @@
         "version": "Standard",
         "qty": 3,
         "source": "Darkrai Mewtwo (2012)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "CMT (2012)"
       }
     ]
   },
@@ -4819,8 +4815,14 @@
     "num": "92",
     "printKey": "doublecolorlessenergy|NXD 92",
     "image": "https://images.pokemontcg.io/bw4/92_hires.png",
-    "total": 10,
+    "total": 14,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "CMT (2012)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
@@ -4895,11 +4897,11 @@
     "num": "",
     "printKey": "doublecolorlessenergy|",
     "image": "https://images.pokemontcg.io/hgss1/103_hires.png",
-    "total": 9,
+    "total": 5,
     "variants": [
       {
         "version": "Standard",
-        "qty": 9,
+        "qty": 5,
         "source": "Spare"
       }
     ]
@@ -5330,21 +5332,34 @@
     "name": "Dual Ball",
     "type": "Trainer",
     "key": "dualball",
+    "set": "CL",
+    "num": "78",
+    "printKey": "dualball|CL 78",
+    "image": "https://images.pokemontcg.io/col1/78_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "CMT (2012)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Dual Ball",
+    "type": "Trainer",
+    "key": "dualball",
     "set": "MA",
     "num": "72",
     "printKey": "dualball|MA 72",
     "image": "https://images.pokemontcg.io/ex4/72_hires.png",
-    "total": 5,
+    "total": 1,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
         "source": "Darkrai Mewtwo (2012)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "CMT (2012)"
       }
     ]
   },
@@ -6027,23 +6042,6 @@
     "name": "Energy Retrieval",
     "type": "Trainer",
     "key": "energyretrieval",
-    "set": "BLW",
-    "num": "92",
-    "printKey": "energyretrieval|BLW 92",
-    "image": "https://images.pokemontcg.io/bw1/92_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "CMT (2012)"
-      }
-    ]
-  },
-  {
-    "name": "Energy Retrieval",
-    "type": "Trainer",
-    "key": "energyretrieval",
     "set": "SLG",
     "num": "59",
     "printKey": "energyretrieval|SLG 59",
@@ -6066,8 +6064,14 @@
     "num": "116",
     "printKey": "energyretrieval|SUM 116",
     "image": "https://images.pokemontcg.io/sm1/116_hires.png",
-    "total": 3,
+    "total": 4,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "CMT (2012)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 2,
@@ -6090,13 +6094,8 @@
     "num": "93",
     "printKey": "energysearch|BLW 93",
     "image": "https://images.pokemontcg.io/bw1/93_hires.png",
-    "total": 4,
+    "total": 3,
     "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "CMT (2012)"
-      },
       {
         "version": "Standard",
         "qty": 1,
@@ -6111,6 +6110,24 @@
         "version": "World Champs",
         "qty": 1,
         "source": "TDK (2013)"
+      }
+    ]
+  },
+  {
+    "name": "Energy Search",
+    "type": "Trainer",
+    "key": "energysearch",
+    "set": "EX",
+    "num": "153",
+    "printKey": "energysearch|EX 153",
+    "image": "https://images.pokemontcg.io/ecard1/153_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "CMT (2012)",
+        "verified": true
       }
     ]
   },
@@ -6616,17 +6633,30 @@
     "num": "91",
     "printKey": "eviolite|NVI 91",
     "image": "https://images.pokemontcg.io/bw3/91_hires.png",
-    "total": 5,
+    "total": 3,
     "variants": [
       {
         "version": "Standard",
         "qty": 3,
         "source": "Darkrai Mewtwo (2012)"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Eviolite",
+    "type": "Trainer",
+    "key": "eviolite",
+    "set": "PLS",
+    "num": "122",
+    "printKey": "eviolite|PLS 122",
+    "image": "https://images.pokemontcg.io/bw8/122_hires.png",
+    "total": 2,
+    "variants": [
       {
         "version": "Standard",
         "qty": 2,
-        "source": "CMT (2012)"
+        "source": "CMT (2012)",
+        "verified": true
       }
     ]
   },
@@ -7256,8 +7286,14 @@
     "num": "97",
     "printKey": "fightingenergy|BS 97",
     "image": "https://images.pokemontcg.io/base1/97_hires.png",
-    "total": 4,
+    "total": 7,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "CMT (2012)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -7274,7 +7310,7 @@
     "num": "",
     "printKey": "fightingenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/137_hires.png",
-    "total": 31,
+    "total": 28,
     "variants": [
       {
         "version": "World Champs",
@@ -7286,11 +7322,6 @@
         "version": "Standard",
         "qty": 2,
         "source": "Darkrai Mewtwo (2012)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "CMT (2012)"
       },
       {
         "version": "World Champs",
@@ -7335,7 +7366,7 @@
     "num": "",
     "printKey": "fightingenergy|",
     "image": "https://images.pokemontcg.io/xy1/137_hires.png",
-    "total": 8,
+    "total": 5,
     "variants": [
       {
         "version": "Standard",
@@ -7345,7 +7376,7 @@
       },
       {
         "version": "Standard",
-        "qty": 4,
+        "qty": 1,
         "source": "Spare"
       }
     ]
@@ -8792,22 +8823,35 @@
     "name": "Grass Energy",
     "type": "Energy",
     "key": "grassenergy",
+    "set": "GH",
+    "num": "129",
+    "printKey": "grassenergy|GH 129",
+    "image": "https://images.pokemontcg.io/gym1/129_hires.png",
+    "total": 6,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 6,
+        "source": "CMT (2012)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Grass Energy",
+    "type": "Energy",
+    "key": "grassenergy",
     "set": "XY",
     "num": "",
     "printKey": "grassenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/132_hires.png",
-    "total": 66,
+    "total": 60,
     "variants": [
       {
         "version": "World Champs",
         "qty": 6,
         "source": "Jumpluff (2010)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 6,
-        "source": "CMT (2012)"
       },
       {
         "version": "World Champs",
@@ -8872,7 +8916,7 @@
     "num": "",
     "printKey": "grassenergy|",
     "image": "https://images.pokemontcg.io/xy1/132_hires.png",
-    "total": 15,
+    "total": 9,
     "variants": [
       {
         "version": "Standard",
@@ -8887,7 +8931,7 @@
       },
       {
         "version": "Standard",
-        "qty": 7,
+        "qty": 1,
         "source": "Spare"
       }
     ]
@@ -10520,14 +10564,15 @@
     "total": 8,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 4,
-        "source": "Darkrai Mewtwo (2012)"
+        "source": "CMT (2012)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 4,
-        "source": "CMT (2012)"
+        "source": "Darkrai Mewtwo (2012)"
       }
     ]
   },
@@ -13394,17 +13439,12 @@
     "num": "54",
     "printKey": "mewtwoex|LTR 54",
     "image": "https://images.pokemontcg.io/bw11/54_hires.png",
-    "total": 11,
+    "total": 8,
     "variants": [
       {
         "version": "Standard",
         "qty": 3,
         "source": "Darkrai Mewtwo (2012)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "CMT (2012)"
       },
       {
         "version": "World Champs",
@@ -13420,6 +13460,24 @@
         "version": "Standard",
         "qty": 2,
         "source": "ToadBats (2015)"
+      }
+    ]
+  },
+  {
+    "name": "Mewtwo-EX",
+    "type": "Pokémon",
+    "key": "mewtwoex",
+    "set": "NXD",
+    "num": "54",
+    "printKey": "mewtwoex|NXD 54",
+    "image": "https://images.pokemontcg.io/bw4/54_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "CMT (2012)",
+        "verified": true
       }
     ]
   },
@@ -13890,8 +13948,14 @@
     "num": "96",
     "printKey": "n|DEX 96",
     "image": "https://images.pokemontcg.io/bw5/96_hires.png",
-    "total": 21,
+    "total": 22,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "CMT (2012)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
@@ -14054,17 +14118,12 @@
     "num": "92",
     "printKey": "n|NVI 92",
     "image": "https://images.pokemontcg.io/bw3/92_hires.png",
-    "total": 22,
+    "total": 21,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
         "source": "Darkrai Mewtwo (2012)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "CMT (2012)"
       },
       {
         "version": "World Champs",
@@ -15428,6 +15487,24 @@
     "name": "PlusPower",
     "type": "Trainer",
     "key": "pluspower",
+    "set": "BWTK",
+    "num": "11",
+    "printKey": "pluspower|BWTK 11",
+    "image": "https://images.pokemontcg.io/bw1/96_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "CMT (2012)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "PlusPower",
+    "type": "Trainer",
+    "key": "pluspower",
     "set": "DP",
     "num": "109",
     "printKey": "pluspower|DP 109",
@@ -15450,17 +15527,12 @@
     "num": "80",
     "printKey": "pluspower|UL 80",
     "image": "https://images.pokemontcg.io/hgss2/80_hires.png",
-    "total": 4,
+    "total": 2,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
         "source": "Darkrai Mewtwo (2012)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "CMT (2012)"
       }
     ]
   },
@@ -15685,17 +15757,12 @@
     "num": "95",
     "printKey": "pokemoncatcher|EPO 95",
     "image": "https://images.pokemontcg.io/bw2/95_hires.png",
-    "total": 23,
+    "total": 20,
     "variants": [
       {
         "version": "Standard",
         "qty": 3,
         "source": "Darkrai Mewtwo (2012)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "CMT (2012)"
       },
       {
         "version": "World Champs",
@@ -15738,6 +15805,42 @@
         "version": "Standard",
         "qty": 1,
         "source": "Yveltal Raichu (2014)"
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Catcher",
+    "type": "Trainer",
+    "key": "pokemoncatcher",
+    "set": "SLG",
+    "num": "64",
+    "printKey": "pokemoncatcher|SLG 64",
+    "image": "https://images.pokemontcg.io/sm35/64_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "CMT (2012)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Catcher",
+    "type": "Trainer",
+    "key": "pokemoncatcher",
+    "set": "SUM",
+    "num": "126",
+    "printKey": "pokemoncatcher|SUM 126",
+    "image": "https://images.pokemontcg.io/sm1/126_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "CMT (2012)",
+        "verified": true
       }
     ]
   },
@@ -16064,18 +16167,19 @@
   },
   {
     "name": "Potion",
-    "type": "Trainer",
+    "type": "",
     "key": "potion",
-    "set": "BLW",
-    "num": "100",
-    "printKey": "potion|BLW 100",
-    "image": "https://images.pokemontcg.io/bw1/100_hires.png",
+    "set": "BCR",
+    "num": "132",
+    "printKey": "potion|BCR 132",
+    "image": "https://images.pokemontcg.io/bw7/132_hires.png",
     "total": 1,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
-        "source": "CMT (2012)"
+        "source": "CMT (2012)",
+        "verified": true
       }
     ]
   },
@@ -16388,17 +16492,12 @@
     "num": "101",
     "printKey": "professorjuniper|BLW 101",
     "image": "https://images.pokemontcg.io/bw1/101_hires.png",
-    "total": 25,
+    "total": 22,
     "variants": [
       {
         "version": "Standard",
         "qty": 3,
         "source": "Darkrai Mewtwo (2012)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "CMT (2012)"
       },
       {
         "version": "World Champs",
@@ -16435,8 +16534,14 @@
     "num": "98",
     "printKey": "professorjuniper|DEX 98",
     "image": "https://images.pokemontcg.io/bw5/98_hires.png",
-    "total": 4,
+    "total": 7,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "CMT (2012)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -16512,11 +16617,29 @@
     "name": "Professor Oak's New Theory",
     "type": "Trainer",
     "key": "professoroaksnewtheory",
+    "set": "CL",
+    "num": "83",
+    "printKey": "professoroaksnewtheory|CL 83",
+    "image": "https://images.pokemontcg.io/col1/83_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "CMT (2012)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Professor Oak's New Theory",
+    "type": "Trainer",
+    "key": "professoroaksnewtheory",
     "set": "HS",
     "num": "101",
     "printKey": "professoroaksnewtheory|HS 101",
     "image": "https://images.pokemontcg.io/hgss1/101_hires.png",
-    "total": 11,
+    "total": 7,
     "variants": [
       {
         "version": "World Champs",
@@ -16528,11 +16651,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Darkrai Mewtwo (2012)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "CMT (2012)"
       }
     ]
   },
@@ -17692,14 +17810,15 @@
     "total": 9,
     "variants": [
       {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Darkrai Mewtwo (2012)"
+        "version": "World Champs",
+        "qty": 3,
+        "source": "CMT (2012)",
+        "verified": true
       },
       {
         "version": "Standard",
-        "qty": 3,
-        "source": "CMT (2012)"
+        "qty": 2,
+        "source": "Darkrai Mewtwo (2012)"
       },
       {
         "version": "Standard",
@@ -18475,7 +18594,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "CMT (2012)"
+        "source": "CMT (2012)",
+        "verified": true
       }
     ]
   },
@@ -19216,14 +19336,15 @@
     "total": 3,
     "variants": [
       {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Darkrai Mewtwo (2012)"
+        "version": "World Champs",
+        "qty": 1,
+        "source": "CMT (2012)",
+        "verified": true
       },
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "CMT (2012)"
+        "qty": 2,
+        "source": "Darkrai Mewtwo (2012)"
       }
     ]
   },
@@ -19451,7 +19572,8 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "CMT (2012)"
+        "source": "CMT (2012)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -19590,14 +19712,15 @@
     "total": 4,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 2,
-        "source": "Darkrai Mewtwo (2012)"
+        "source": "CMT (2012)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 2,
-        "source": "CMT (2012)"
+        "source": "Darkrai Mewtwo (2012)"
       }
     ]
   },
@@ -20492,8 +20615,14 @@
     "num": "135",
     "printKey": "switch|BCR 135",
     "image": "https://images.pokemontcg.io/bw7/135_hires.png",
-    "total": 4,
+    "total": 5,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "CMT (2012)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 3,
@@ -20593,17 +20722,18 @@
     "num": "102",
     "printKey": "switch|HS 102",
     "image": "https://images.pokemontcg.io/hgss1/102_hires.png",
-    "total": 5,
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Darkrai Mewtwo (2012)"
+        "source": "CMT (2012)",
+        "verified": true
       },
       {
         "version": "Standard",
-        "qty": 3,
-        "source": "CMT (2012)"
+        "qty": 2,
+        "source": "Darkrai Mewtwo (2012)"
       }
     ]
   },
@@ -22056,14 +22186,15 @@
     "total": 4,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 2,
-        "source": "Darkrai Mewtwo (2012)"
+        "source": "CMT (2012)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 2,
-        "source": "CMT (2012)"
+        "source": "Darkrai Mewtwo (2012)"
       }
     ]
   },
@@ -22251,7 +22382,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "CMT (2012)"
+        "source": "CMT (2012)",
+        "verified": true
       }
     ]
   },
