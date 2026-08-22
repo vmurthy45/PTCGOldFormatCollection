@@ -327,8 +327,14 @@ after verifying a box. It deliberately leaves alone:
 - **basic energy** — a decklist keeps an empty `set`, which is also the key
   `merge_image_urls.py` uses for its `URL_OVERRIDES`; give one a real set number
   and that script deletes the image on its next run;
-- **Japanese-only sets** (M2a, M3, MEP, s12a) — the decklist names the English
-  print it stands in for, only the inventory records the Japanese card;
+- **Japanese-only sets** (M2a, M3, MEP, s12a) — Vig's rule: the decklist shows
+  the **English** print's set number and image, and the Japanese card is tracked
+  only in the inventory. The inventory row keeps its Japanese `set`/`num` but
+  carries an English stand-in `image`, so clicking it shows the same picture the
+  decklist does. Where a row serves one deck, match that deck's English print
+  exactly; a row shared by several decks (Fezandipiti ex M2a 114 sits in four)
+  can only pick one, so any valid English print of the card is fine. The audit
+  flags a Japanese row with no stand-in image;
 - **exact ties** (2 of one print, 2 of another) — one is simply picked: the row
   keeps what it already shows if that is one of the tied prints, otherwise the
   first by set/number, so the choice is stable rather than flipping each run;

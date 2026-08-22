@@ -83,6 +83,9 @@ def main():
         if e.get("set") and not e.get("num") and not placeholder:
             issues.append(f"{label}: has a set code but no number")
 
+        if e.get("set") in {"M2a", "M3", "MEP", "s12a"} and not e.get("image"):
+            issues.append(f"{label}: Japanese print with no English stand-in image")
+
         if not e.get("image"):
             url = image_for(e.get("set"), e.get("num"))
             if url and fix:
