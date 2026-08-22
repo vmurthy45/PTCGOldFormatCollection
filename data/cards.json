@@ -17168,9 +17168,9 @@
     "deck": "Rapid Strike Urshifu (2021)",
     "count": 1,
     "name": "Dedenne-GX",
-    "set": "57/214",
+    "set": "195a/214",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm10/57_hires.png",
+    "image": "https://images.pokemontcg.io/sm10/195a_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -17224,9 +17224,9 @@
     "deck": "Rapid Strike Urshifu (2021)",
     "count": 2,
     "name": "Boss's Orders",
-    "set": "154/192",
+    "set": "58/72",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/swsh2/154_hires.png",
+    "image": "https://images.pokemontcg.io/swsh45/58_hires.png",
     "prints": {
       "authentic": 2,
       "wc": 0,
@@ -17238,9 +17238,9 @@
     "deck": "Rapid Strike Urshifu (2021)",
     "count": 4,
     "name": "Quick Ball",
-    "set": "179/202",
+    "set": "237/264",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/swsh1/179_hires.png",
+    "image": "https://images.pokemontcg.io/swsh8/237_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,
@@ -17250,13 +17250,27 @@
   {
     "year": "2021",
     "deck": "Rapid Strike Urshifu (2021)",
-    "count": 4,
+    "count": 2,
     "name": "Level Ball",
     "set": "129/163",
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/swsh5/129_hires.png",
     "prints": {
-      "authentic": 4,
+      "authentic": 2,
+      "wc": 0,
+      "proxy": 0
+    }
+  },
+  {
+    "year": "2021",
+    "deck": "Rapid Strike Urshifu (2021)",
+    "count": 2,
+    "name": "Level Ball",
+    "set": "76/98",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/xy7/76_hires.png",
+    "prints": {
+      "authentic": 2,
       "wc": 0,
       "proxy": 0
     }
@@ -17294,9 +17308,9 @@
     "deck": "Rapid Strike Urshifu (2021)",
     "count": 1,
     "name": "Switch",
-    "set": "183/202",
+    "set": "147/168",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/swsh1/183_hires.png",
+    "image": "https://images.pokemontcg.io/sm7/147_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,

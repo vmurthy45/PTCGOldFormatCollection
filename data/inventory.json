@@ -292,6 +292,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 1,
+        "source": "Rapid Strike Urshifu (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 2,
         "source": "Cinccino Mill (2020)"
       },
@@ -299,11 +305,6 @@
         "version": "Standard",
         "qty": 2,
         "source": "ADP Zacian (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Rapid Strike Urshifu (2021)"
       },
       {
         "version": "Standard",
@@ -1672,7 +1673,7 @@
     "num": "154",
     "printKey": "bosssorders|RCL 154",
     "image": "https://images.pokemontcg.io/swsh2/154_hires.png",
-    "total": 28,
+    "total": 26,
     "variants": [
       {
         "version": "Standard",
@@ -1695,11 +1696,6 @@
         "version": "Standard",
         "qty": 2,
         "source": "ADP Zacian (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Rapid Strike Urshifu (2021)"
       },
       {
         "version": "Standard",
@@ -1747,6 +1743,24 @@
     "name": "Boss's Orders",
     "type": "Supporter",
     "key": "bosssorders",
+    "set": "SHF",
+    "num": "58",
+    "printKey": "bosssorders|SHF 58",
+    "image": "https://images.pokemontcg.io/swsh45/58_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Reverse Holo",
+        "qty": 2,
+        "source": "Rapid Strike Urshifu (2021)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Boss's Orders",
+    "type": "Supporter",
+    "key": "bosssorders",
     "set": "s12a",
     "num": "161",
     "printKey": "bosssorders|s12a 161",
@@ -1769,11 +1783,11 @@
     "num": "",
     "printKey": "bosssorders|",
     "image": "https://images.pokemontcg.io/swsh2/154_hires.png",
-    "total": 8,
+    "total": 6,
     "variants": [
       {
         "version": "Reverse Holo",
-        "qty": 3,
+        "qty": 1,
         "source": "Spare"
       },
       {
@@ -4401,8 +4415,14 @@
     "num": "195a",
     "printKey": "dedennegx|UNB 195a",
     "image": "https://images.pokemontcg.io/sm10/195a_hires.png",
-    "total": 2,
+    "total": 3,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Rapid Strike Urshifu (2021)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 2,
@@ -4419,7 +4439,7 @@
     "num": "57",
     "printKey": "dedennegx|UNB 57",
     "image": "https://images.pokemontcg.io/sm10/57_hires.png",
-    "total": 16,
+    "total": 15,
     "variants": [
       {
         "version": "Standard",
@@ -4456,11 +4476,6 @@
         "version": "Standard",
         "qty": 2,
         "source": "ADP Zacian (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Rapid Strike Urshifu (2021)"
       }
     ]
   },
@@ -5274,14 +5289,15 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 3,
-        "source": "Malamar Rapid Strike (2022)",
+        "qty": 4,
+        "source": "Rapid Strike Urshifu (2021)",
         "verified": true
       },
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Rapid Strike Urshifu (2021)"
+        "qty": 3,
+        "source": "Malamar Rapid Strike (2022)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -6343,7 +6359,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Rapid Strike Urshifu (2021)"
+        "source": "Rapid Strike Urshifu (2021)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -6569,6 +6586,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 2,
+        "source": "Rapid Strike Urshifu (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 3,
         "source": "Shadow Rider (2021)",
         "verified": true
@@ -6583,11 +6606,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Cinccino Mill (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Rapid Strike Urshifu (2021)"
       },
       {
         "version": "Standard",
@@ -7170,11 +7188,29 @@
     "name": "Fighting Energy",
     "type": "Energy",
     "key": "fightingenergy",
+    "set": "BS",
+    "num": "97",
+    "printKey": "fightingenergy|BS 97",
+    "image": "https://images.pokemontcg.io/base1/97_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Rapid Strike Urshifu (2021)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Fighting Energy",
+    "type": "Energy",
+    "key": "fightingenergy",
     "set": "XY",
     "num": "",
     "printKey": "fightingenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/137_hires.png",
-    "total": 35,
+    "total": 31,
     "variants": [
       {
         "version": "World Champs",
@@ -7207,11 +7243,6 @@
         "source": "ZoroRoc (2018)"
       },
       {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Rapid Strike Urshifu (2021)"
-      },
-      {
         "version": "World Champs",
         "qty": 3,
         "source": "Urshifu VMAX (2022)",
@@ -7239,7 +7270,7 @@
     "num": "",
     "printKey": "fightingenergy|",
     "image": "https://images.pokemontcg.io/xy1/137_hires.png",
-    "total": 12,
+    "total": 8,
     "variants": [
       {
         "version": "Standard",
@@ -7249,7 +7280,7 @@
       },
       {
         "version": "Standard",
-        "qty": 8,
+        "qty": 4,
         "source": "Spare"
       }
     ]
@@ -9747,14 +9778,15 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "Malamar Rapid Strike (2022)",
+        "qty": 3,
+        "source": "Rapid Strike Urshifu (2021)",
         "verified": true
       },
       {
         "version": "Standard",
-        "qty": 3,
-        "source": "Rapid Strike Urshifu (2021)"
+        "qty": 1,
+        "source": "Malamar Rapid Strike (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -9777,13 +9809,14 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Malamar Rapid Strike (2022)",
+        "source": "Rapid Strike Urshifu (2021)",
         "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Rapid Strike Urshifu (2021)"
+        "source": "Malamar Rapid Strike (2022)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -10431,7 +10464,8 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Rapid Strike Urshifu (2021)"
+        "source": "Rapid Strike Urshifu (2021)",
+        "verified": true
       }
     ]
   },
@@ -10955,8 +10989,14 @@
     "num": "76",
     "printKey": "levelball|AOR 76",
     "image": "https://images.pokemontcg.io/xy7/76_hires.png",
-    "total": 10,
+    "total": 12,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Rapid Strike Urshifu (2021)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -10994,18 +11034,19 @@
     "num": "129",
     "printKey": "levelball|BST 129",
     "image": "https://images.pokemontcg.io/swsh5/129_hires.png",
-    "total": 21,
+    "total": 19,
     "variants": [
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Malamar Rapid Strike (2022)",
+        "qty": 2,
+        "source": "Rapid Strike Urshifu (2021)",
         "verified": true
       },
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Rapid Strike Urshifu (2021)"
+        "source": "Malamar Rapid Strike (2022)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -12224,6 +12265,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 3,
+        "source": "Rapid Strike Urshifu (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 1,
         "source": "Shadow Rider (2021)",
         "verified": true
@@ -12243,11 +12290,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "ADP Zacian (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Rapid Strike Urshifu (2021)"
       },
       {
         "version": "Standard",
@@ -14771,7 +14813,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Rapid Strike Urshifu (2021)"
+        "source": "Rapid Strike Urshifu (2021)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -15515,6 +15558,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 2,
+        "source": "Rapid Strike Urshifu (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 4,
         "source": "Malamar (2019)"
       },
@@ -15542,11 +15591,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Cinccino Mill (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Rapid Strike Urshifu (2021)"
       },
       {
         "version": "Standard",
@@ -16511,6 +16555,12 @@
       {
         "version": "Standard",
         "qty": 4,
+        "source": "Rapid Strike Urshifu (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
         "source": "Shadow Rider (2021)",
         "verified": true
       },
@@ -16523,11 +16573,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "ADP Zacian (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Rapid Strike Urshifu (2021)"
       },
       {
         "version": "Standard",
@@ -16837,8 +16882,14 @@
     "num": "237",
     "printKey": "quickball|FST 237",
     "image": "https://images.pokemontcg.io/swsh8/237_hires.png",
-    "total": 4,
+    "total": 8,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Rapid Strike Urshifu (2021)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -16855,7 +16906,7 @@
     "num": "179",
     "printKey": "quickball|SSH 179",
     "image": "https://images.pokemontcg.io/swsh1/179_hires.png",
-    "total": 45,
+    "total": 41,
     "variants": [
       {
         "version": "Standard",
@@ -16882,11 +16933,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "ADP Zacian (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Rapid Strike Urshifu (2021)"
       },
       {
         "version": "Standard",
@@ -16932,11 +16978,11 @@
     "num": "",
     "printKey": "quickball|",
     "image": "https://images.pokemontcg.io/swsh1/179_hires.png",
-    "total": 18,
+    "total": 14,
     "variants": [
       {
         "version": "Standard",
-        "qty": 18,
+        "qty": 14,
         "source": "Spare"
       }
     ]
@@ -17339,7 +17385,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Rapid Strike Urshifu (2021)"
+        "source": "Rapid Strike Urshifu (2021)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -17362,7 +17409,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Rapid Strike Urshifu (2021)"
+        "source": "Rapid Strike Urshifu (2021)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -17407,7 +17455,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Rapid Strike Urshifu (2021)"
+        "source": "Rapid Strike Urshifu (2021)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -17948,6 +17997,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 1,
+        "source": "Rapid Strike Urshifu (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 2,
         "source": "Malamar (2019)"
       },
@@ -17965,11 +18020,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Whimsicott GX (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Rapid Strike Urshifu (2021)"
       },
       {
         "version": "Standard",
@@ -19229,6 +19279,12 @@
     "total": 20,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Rapid Strike Urshifu (2021)",
+        "verified": true
+      },
+      {
         "version": "Reverse Holo",
         "qty": 1,
         "source": "Malamar Rapid Strike (2022)",
@@ -19239,11 +19295,6 @@
         "qty": 3,
         "source": "Malamar Rapid Strike (2022)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Rapid Strike Urshifu (2021)"
       },
       {
         "version": "Standard",
@@ -20125,8 +20176,14 @@
     "num": "147",
     "printKey": "switch|CES 147",
     "image": "https://images.pokemontcg.io/sm7/147_hires.png",
-    "total": 20,
+    "total": 21,
     "variants": [
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Rapid Strike Urshifu (2021)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -20248,17 +20305,12 @@
     "num": "183",
     "printKey": "switch|SSH 183",
     "image": "https://images.pokemontcg.io/swsh1/183_hires.png",
-    "total": 10,
+    "total": 9,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
         "source": "ADP Zacian (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Rapid Strike Urshifu (2021)"
       },
       {
         "version": "Standard",
@@ -21785,17 +21837,18 @@
       {
         "version": "Standard",
         "qty": 1,
+        "source": "Rapid Strike Urshifu (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
         "source": "Combo Zacian (2020)"
       },
       {
         "version": "Standard",
         "qty": 1,
         "source": "ADP Zacian (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Rapid Strike Urshifu (2021)"
       }
     ]
   },
@@ -21869,13 +21922,14 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Malamar Rapid Strike (2022)",
+        "source": "Rapid Strike Urshifu (2021)",
         "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Rapid Strike Urshifu (2021)"
+        "source": "Malamar Rapid Strike (2022)",
+        "verified": true
       },
       {
         "version": "World Champs",
