@@ -158,6 +158,12 @@
       {
         "version": "Standard",
         "qty": 3,
+        "source": "Combo Zacian (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
         "source": "ADP Zacian (2020)",
         "verified": true
       },
@@ -180,11 +186,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Perfection Mewtwo (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Combo Zacian (2020)"
       },
       {
         "version": "Standard",
@@ -953,11 +954,29 @@
     "name": "Basic Metal Energy",
     "type": "Energy",
     "key": "metalenergy",
+    "set": "SUM",
+    "num": "",
+    "printKey": "metalenergy|SUM",
+    "image": null,
+    "total": 11,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 11,
+        "source": "Combo Zacian (2020)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Basic Metal Energy",
+    "type": "Energy",
+    "key": "metalenergy",
     "set": "XY",
     "num": "",
     "printKey": "metalenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/139_hires.png",
-    "total": 22,
+    "total": 11,
     "variants": [
       {
         "version": "World Champs",
@@ -968,11 +987,6 @@
         "version": "World Champs",
         "qty": 6,
         "source": "Mega Audino (2016)"
-      },
-      {
-        "version": "Standard",
-        "qty": 11,
-        "source": "Combo Zacian (2020)"
       },
       {
         "version": "World Champs",
@@ -990,16 +1004,11 @@
     "num": "",
     "printKey": "metalenergy|",
     "image": "https://images.pokemontcg.io/xy1/139_hires.png",
-    "total": 6,
+    "total": 2,
     "variants": [
       {
         "version": "Prize Pack",
         "qty": 2,
-        "source": "Spare"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
         "source": "Spare"
       }
     ]
@@ -1695,6 +1704,12 @@
     "total": 21,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Combo Zacian (2020)",
+        "verified": true
+      },
+      {
         "version": "Holo",
         "qty": 3,
         "source": "Ice Rider (2021)",
@@ -1711,11 +1726,6 @@
         "qty": 2,
         "source": "Spiritomb (2021)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Combo Zacian (2020)"
       },
       {
         "version": "Standard",
@@ -4478,6 +4488,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 1,
+        "source": "Combo Zacian (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 2,
         "source": "ADP Zacian (2020)",
         "verified": true
@@ -4507,11 +4523,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Blacephalon GX (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Combo Zacian (2020)"
       }
     ]
   },
@@ -6380,6 +6391,12 @@
       {
         "version": "Standard",
         "qty": 2,
+        "source": "Combo Zacian (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
         "source": "Malamar (2019)"
       },
       {
@@ -6391,11 +6408,6 @@
         "version": "Standard",
         "qty": 2,
         "source": "Baby Blacephalon (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Combo Zacian (2020)"
       }
     ]
   },
@@ -7929,12 +7941,13 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Baby Blacephalon (2020)"
+        "source": "Combo Zacian (2020)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Combo Zacian (2020)"
+        "source": "Baby Blacephalon (2020)"
       }
     ]
   },
@@ -8896,13 +8909,14 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "ADP Zacian (2020)",
+        "source": "Combo Zacian (2020)",
         "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Combo Zacian (2020)"
+        "source": "ADP Zacian (2020)",
+        "verified": true
       }
     ]
   },
@@ -9569,6 +9583,12 @@
       {
         "version": "Standard",
         "qty": 1,
+        "source": "Combo Zacian (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
         "source": "Spiritomb (2021)",
         "verified": true
       },
@@ -9576,11 +9596,6 @@
         "version": "World Champs",
         "qty": 1,
         "source": "Pikarom Judge (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Combo Zacian (2020)"
       }
     ]
   },
@@ -10174,6 +10189,12 @@
       {
         "version": "Standard",
         "qty": 3,
+        "source": "Combo Zacian (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
         "source": "Spiritomb (2021)",
         "verified": true
       },
@@ -10191,11 +10212,6 @@
         "version": "Standard",
         "qty": 3,
         "source": "Baby Blacephalon (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Combo Zacian (2020)"
       }
     ]
   },
@@ -10212,7 +10228,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Combo Zacian (2020)"
+        "source": "Combo Zacian (2020)",
+        "verified": true
       }
     ]
   },
@@ -12330,6 +12347,12 @@
     "total": 25,
     "variants": [
       {
+        "version": "Holo",
+        "qty": 2,
+        "source": "Combo Zacian (2020)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 4,
         "source": "ADP Zacian (2020)",
@@ -12364,11 +12387,6 @@
         "qty": 2,
         "source": "Shadow Rider (2021)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Combo Zacian (2020)"
       },
       {
         "version": "World Champs",
@@ -12448,18 +12466,19 @@
   },
   {
     "name": "Mawile-GX",
-    "type": "Pokémon",
+    "type": "",
     "key": "mawilegx",
     "set": "UNM",
-    "num": "141",
-    "printKey": "mawilegx|UNM 141",
-    "image": "https://images.pokemontcg.io/sm11/141_hires.png",
+    "num": "227",
+    "printKey": "mawilegx|UNM 227",
+    "image": "https://images.pokemontcg.io/sm11/227_hires.png",
     "total": 1,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Combo Zacian (2020)"
+        "source": "Combo Zacian (2020)",
+        "verified": true
       }
     ]
   },
@@ -12929,13 +12948,14 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "ADP Zacian (2020)",
+        "source": "Combo Zacian (2020)",
         "verified": true
       },
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Combo Zacian (2020)"
+        "source": "ADP Zacian (2020)",
+        "verified": true
       }
     ]
   },
@@ -13422,6 +13442,24 @@
     "name": "Mr. Mime",
     "type": "Pokémon",
     "key": "mrmime",
+    "set": "DET",
+    "num": "11",
+    "printKey": "mrmime|DET 11",
+    "image": "https://images.pokemontcg.io/det1/11_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Combo Zacian (2020)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Mr. Mime",
+    "type": "Pokémon",
+    "key": "mrmime",
     "set": "PLF",
     "num": "47",
     "printKey": "mrmime|PLF 47",
@@ -13437,23 +13475,6 @@
         "version": "World Champs",
         "qty": 1,
         "source": "VirGen (2014)"
-      }
-    ]
-  },
-  {
-    "name": "Mr. Mime",
-    "type": "Pokémon",
-    "key": "mrmime",
-    "set": "TEU",
-    "num": "66",
-    "printKey": "mrmime|TEU 66",
-    "image": "https://images.pokemontcg.io/sm9/66_hires.png",
-    "total": 2,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Combo Zacian (2020)"
       }
     ]
   },
@@ -14520,8 +14541,14 @@
     "num": "148",
     "printKey": "oranguru|SSH 148",
     "image": "https://images.pokemontcg.io/swsh1/148_hires.png",
-    "total": 1,
+    "total": 3,
     "variants": [
+      {
+        "version": "Reverse Holo",
+        "qty": 2,
+        "source": "Combo Zacian (2020)",
+        "verified": true
+      },
       {
         "version": "Reverse Holo",
         "qty": 1,
@@ -14565,13 +14592,8 @@
     "num": "114",
     "printKey": "oranguru|UPR 114",
     "image": "https://images.pokemontcg.io/sm5/114_hires.png",
-    "total": 4,
+    "total": 2,
     "variants": [
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Combo Zacian (2020)"
-      },
       {
         "version": "Standard",
         "qty": 2,
@@ -16660,6 +16682,12 @@
     "total": 23,
     "variants": [
       {
+        "version": "Holo",
+        "qty": 4,
+        "source": "Combo Zacian (2020)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 4,
         "source": "ADP Zacian (2020)",
@@ -16682,11 +16710,6 @@
         "qty": 4,
         "source": "Shadow Rider (2021)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Combo Zacian (2020)"
       },
       {
         "version": "World Champs",
@@ -17021,6 +17044,12 @@
       {
         "version": "Standard",
         "qty": 4,
+        "source": "Combo Zacian (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
         "source": "ADP Zacian (2020)",
         "verified": true
       },
@@ -17040,11 +17069,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Baby Blacephalon (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Combo Zacian (2020)"
       },
       {
         "version": "Standard",
@@ -18669,6 +18693,12 @@
       {
         "version": "Standard",
         "qty": 4,
+        "source": "Combo Zacian (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
         "source": "Spiritomb (2021)",
         "verified": true
       },
@@ -18677,11 +18707,6 @@
         "qty": 4,
         "source": "Malamar Rapid Strike (2022)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Combo Zacian (2020)"
       },
       {
         "version": "World Champs",
@@ -20285,7 +20310,7 @@
     "num": "147",
     "printKey": "switch|CES 147",
     "image": "https://images.pokemontcg.io/sm7/147_hires.png",
-    "total": 21,
+    "total": 17,
     "variants": [
       {
         "version": "Reverse Holo",
@@ -20323,11 +20348,6 @@
         "version": "Standard",
         "qty": 3,
         "source": "Baby Blacephalon (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Combo Zacian (2020)"
       }
     ]
   },
@@ -20420,8 +20440,14 @@
     "num": "183",
     "printKey": "switch|SSH 183",
     "image": "https://images.pokemontcg.io/swsh1/183_hires.png",
-    "total": 5,
+    "total": 9,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Combo Zacian (2020)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 2,
@@ -20575,14 +20601,15 @@
     "total": 2,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Combo Zacian (2020)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 1,
         "source": "Pikarom Judge (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Combo Zacian (2020)"
       }
     ]
   },
@@ -21948,6 +21975,12 @@
       {
         "version": "Standard",
         "qty": 1,
+        "source": "Combo Zacian (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
         "source": "ADP Zacian (2020)",
         "verified": true
       },
@@ -21956,11 +21989,6 @@
         "qty": 1,
         "source": "Rapid Strike Urshifu (2021)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Combo Zacian (2020)"
       }
     ]
   },
@@ -23986,6 +24014,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 4,
+        "source": "Combo Zacian (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 3,
         "source": "ADP Zacian (2020)",
         "verified": true
@@ -23994,11 +24028,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Baby Blacephalon (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Combo Zacian (2020)"
       },
       {
         "version": "Standard",
