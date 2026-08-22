@@ -158,6 +158,12 @@
       {
         "version": "Standard",
         "qty": 3,
+        "source": "ADP Zacian (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
         "source": "Malamar (2019)"
       },
       {
@@ -179,11 +185,6 @@
         "version": "Standard",
         "qty": 3,
         "source": "Combo Zacian (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "ADP Zacian (2020)"
       },
       {
         "version": "Standard",
@@ -293,6 +294,12 @@
       {
         "version": "Standard",
         "qty": 2,
+        "source": "ADP Zacian (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
         "source": "Ice Rider (2021)",
         "verified": true
       },
@@ -306,11 +313,6 @@
         "version": "Standard",
         "qty": 2,
         "source": "Cinccino Mill (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "ADP Zacian (2020)"
       }
     ]
   },
@@ -466,7 +468,8 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "ADP Zacian (2020)"
+        "source": "ADP Zacian (2020)",
+        "verified": true
       }
     ]
   },
@@ -932,11 +935,29 @@
     "name": "Basic Metal Energy",
     "type": "Energy",
     "key": "metalenergy",
+    "set": "SSH",
+    "num": "",
+    "printKey": "metalenergy|SSH",
+    "image": null,
+    "total": 8,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 8,
+        "source": "ADP Zacian (2020)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Basic Metal Energy",
+    "type": "Energy",
+    "key": "metalenergy",
     "set": "XY",
     "num": "",
     "printKey": "metalenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/139_hires.png",
-    "total": 30,
+    "total": 22,
     "variants": [
       {
         "version": "World Champs",
@@ -954,11 +975,6 @@
         "source": "Combo Zacian (2020)"
       },
       {
-        "version": "Standard",
-        "qty": 8,
-        "source": "ADP Zacian (2020)"
-      },
-      {
         "version": "World Champs",
         "qty": 3,
         "source": "Joltdengo (2025)",
@@ -974,7 +990,7 @@
     "num": "",
     "printKey": "metalenergy|",
     "image": "https://images.pokemontcg.io/xy1/139_hires.png",
-    "total": 14,
+    "total": 6,
     "variants": [
       {
         "version": "Prize Pack",
@@ -983,7 +999,7 @@
       },
       {
         "version": "Standard",
-        "qty": 12,
+        "qty": 4,
         "source": "Spare"
       }
     ]
@@ -1676,7 +1692,7 @@
     "num": "154",
     "printKey": "bosssorders|RCL 154",
     "image": "https://images.pokemontcg.io/swsh2/154_hires.png",
-    "total": 23,
+    "total": 21,
     "variants": [
       {
         "version": "Holo",
@@ -1700,11 +1716,6 @@
         "version": "Standard",
         "qty": 3,
         "source": "Combo Zacian (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "ADP Zacian (2020)"
       },
       {
         "version": "Standard",
@@ -1746,8 +1757,14 @@
     "num": "58",
     "printKey": "bosssorders|SHF 58",
     "image": "https://images.pokemontcg.io/swsh45/58_hires.png",
-    "total": 5,
+    "total": 7,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "ADP Zacian (2020)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 3,
@@ -1788,16 +1805,11 @@
     "num": "",
     "printKey": "bosssorders|",
     "image": "https://images.pokemontcg.io/swsh2/154_hires.png",
-    "total": 3,
+    "total": 1,
     "variants": [
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Spare"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
         "source": "Spare"
       }
     ]
@@ -2544,14 +2556,15 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 2,
-        "source": "Eternatus (2021)",
+        "qty": 1,
+        "source": "ADP Zacian (2020)",
         "verified": true
       },
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "ADP Zacian (2020)"
+        "qty": 2,
+        "source": "Eternatus (2021)",
+        "verified": true
       }
     ]
   },
@@ -2637,6 +2650,12 @@
     "total": 14,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 1,
+        "source": "ADP Zacian (2020)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 4,
         "source": "Reshizard Firebox (2019)"
@@ -2660,11 +2679,6 @@
         "version": "Standard",
         "qty": 2,
         "source": "Whimsicott GX (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "ADP Zacian (2020)"
       }
     ]
   },
@@ -4464,6 +4478,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 2,
+        "source": "ADP Zacian (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 1,
         "source": "Spiritomb (2021)",
         "verified": true
@@ -4492,11 +4512,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Combo Zacian (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "ADP Zacian (2020)"
       }
     ]
   },
@@ -5844,7 +5859,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "ADP Zacian (2020)"
+        "source": "ADP Zacian (2020)",
+        "verified": true
       }
     ]
   },
@@ -6129,13 +6145,14 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "Green's Reshizard (2019)"
+        "qty": 2,
+        "source": "ADP Zacian (2020)",
+        "verified": true
       },
       {
         "version": "Standard",
-        "qty": 2,
-        "source": "ADP Zacian (2020)"
+        "qty": 1,
+        "source": "Green's Reshizard (2019)"
       }
     ]
   },
@@ -6262,7 +6279,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "ADP Zacian (2020)"
+        "source": "ADP Zacian (2020)",
+        "verified": true
       }
     ]
   },
@@ -8878,12 +8896,13 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Combo Zacian (2020)"
+        "source": "ADP Zacian (2020)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "ADP Zacian (2020)"
+        "source": "Combo Zacian (2020)"
       }
     ]
   },
@@ -12257,9 +12276,10 @@
     "total": 1,
     "variants": [
       {
-        "version": "Standard",
+        "version": "Reverse Holo",
         "qty": 1,
-        "source": "ADP Zacian (2020)"
+        "source": "ADP Zacian (2020)",
+        "verified": true
       }
     ]
   },
@@ -12311,6 +12331,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 4,
+        "source": "ADP Zacian (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 3,
         "source": "Ice Rider (2021)",
         "verified": true
@@ -12343,11 +12369,6 @@
         "version": "Standard",
         "qty": 2,
         "source": "Combo Zacian (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "ADP Zacian (2020)"
       },
       {
         "version": "World Champs",
@@ -12890,7 +12911,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "ADP Zacian (2020)"
+        "source": "ADP Zacian (2020)",
+        "verified": true
       }
     ]
   },
@@ -12907,12 +12929,13 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Combo Zacian (2020)"
+        "source": "ADP Zacian (2020)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 4,
-        "source": "ADP Zacian (2020)"
+        "source": "Combo Zacian (2020)"
       }
     ]
   },
@@ -14500,9 +14523,10 @@
     "total": 1,
     "variants": [
       {
-        "version": "Standard",
+        "version": "Reverse Holo",
         "qty": 1,
-        "source": "ADP Zacian (2020)"
+        "source": "ADP Zacian (2020)",
+        "verified": true
       }
     ]
   },
@@ -14568,7 +14592,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "ADP Zacian (2020)"
+        "source": "ADP Zacian (2020)",
+        "verified": true
       }
     ]
   },
@@ -16637,6 +16662,12 @@
       {
         "version": "Standard",
         "qty": 4,
+        "source": "ADP Zacian (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
         "source": "Eternatus (2021)",
         "verified": true
       },
@@ -16656,11 +16687,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Combo Zacian (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "ADP Zacian (2020)"
       },
       {
         "version": "World Champs",
@@ -16995,6 +17021,12 @@
       {
         "version": "Standard",
         "qty": 4,
+        "source": "ADP Zacian (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
         "source": "Eternatus (2021)",
         "verified": true
       },
@@ -17018,11 +17050,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Cinccino Mill (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "ADP Zacian (2020)"
       },
       {
         "version": "World Champs",
@@ -20398,7 +20425,8 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "ADP Zacian (2020)"
+        "source": "ADP Zacian (2020)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -21920,6 +21948,12 @@
       {
         "version": "Standard",
         "qty": 1,
+        "source": "ADP Zacian (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
         "source": "Rapid Strike Urshifu (2021)",
         "verified": true
       },
@@ -21927,11 +21961,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Combo Zacian (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "ADP Zacian (2020)"
       }
     ]
   },
@@ -23454,8 +23483,14 @@
     "num": "",
     "printKey": "waterenergy|SSH",
     "image": null,
-    "total": 8,
+    "total": 10,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "ADP Zacian (2020)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 8,
@@ -23472,7 +23507,7 @@
     "num": "",
     "printKey": "waterenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/134_hires.png",
-    "total": 69,
+    "total": 67,
     "variants": [
       {
         "version": "World Champs",
@@ -23513,11 +23548,6 @@
         "version": "Standard",
         "qty": 6,
         "source": "Greninja (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "ADP Zacian (2020)"
       },
       {
         "version": "World Champs",
@@ -23956,6 +23986,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 3,
+        "source": "ADP Zacian (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 1,
         "source": "Baby Blacephalon (2020)"
       },
@@ -23968,11 +24004,6 @@
         "version": "Standard",
         "qty": 2,
         "source": "Cinccino Mill (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "ADP Zacian (2020)"
       }
     ]
   },
