@@ -398,22 +398,39 @@ def main():
 
     matched = 0
     overridden = 0
+    kept = 0
     for c in cards:
         name = NAME_FIXES.get(c["name"], c["name"])
         c["name"] = name
         key = (name, c["set"])
-        url = url_by_key.get(key) or URL_OVERRIDES.get(key)
+        # URL_OVERRIDES first: every entry there was checked against the card
+        # API and a live request, while the CSV has repeatedly resolved a card
+        # to the wrong set (Ralts -> Dragon Frontiers, Kyogre -> Team Magma).
+        # An http image already on the row was put there deliberately -- by the
+        # physical verification pass, which resolves prints this CSV has never
+        # heard of and has caught it resolving cards to the wrong set outright
+        # (Ralts -> Dragon Frontiers, Kyogre -> Team Magma). This script's job
+        # is to FILL GAPS for newly added decks, so an existing image wins.
+        if str(c.get("image", "")).startswith("http"):
+            kept += 1
+            continue
+        url = URL_OVERRIDES.get(key) or url_by_key.get(key)
         if url:
-            if key in URL_OVERRIDES and key not in url_by_key:
+            if key in URL_OVERRIDES:
                 overridden += 1
             c["image"] = url
             matched += 1
         elif "image" in c:
-            del c["image"]  # clear any stale/bad value from a previous run
+            # The delete exists to clear the CSV's "Not Found"/"Error" strings.
+            # A real URL already on the row was put there deliberately -- by the
+            # verification pass, which resolves prints this CSV has never heard
+            # of -- so keep it rather than wiping a good image.
+            del c["image"]  # clear the CSV's "Not Found"/"Error" placeholders
 
     CARDS_JSON.write_text(json.dumps(cards, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Matched images for {matched}/{len(cards)} rows ({overridden} via URL_OVERRIDES); "
-          f"{len(cards) - matched} rows still without an image, mostly basic Energy with no set number")
+          f"kept {kept} existing images this CSV does not know about; "
+          f"{len(cards) - matched - kept} rows still without an image")
 
 
 if __name__ == "__main__":

@@ -40,13 +40,11 @@ ROOT = Path(__file__).resolve().parent.parent
 INV = ROOT / "data" / "inventory.json"
 CARDS = ROOT / "data" / "cards.json"
 
-# Basic energy keeps an empty `set` in a decklist, which is also what
-# merge_image_urls.py keys its URL_OVERRIDES on -- give one a real set number
-# and that script deletes its image on the next run. The print lives in the
-# inventory instead.
-BASIC = {"lightningenergy", "darknessenergy", "fireenergy", "grassenergy",
-         "psychicenergy", "waterenergy", "fightingenergy", "metalenergy",
-         "fairyenergy"}
+# Basic energy is included now that Vig identifies the print box by box. It
+# only lands on a decklist when the inventory row has BOTH a set and a card
+# number: the 'XY' placeholder row (set, no number) means "print not identified
+# yet", and SWSH-era energies are printed without a number at all, so both fall
+# through the same `not num` guard below and stay off the list.
 # Japanese-only sets. A decklist names the English print it stands in for, as
 # every M2a row in the data already does; only the inventory records the card.
 JAPANESE = {"M2a", "M3", "MEP", "s12a"}
@@ -54,7 +52,7 @@ JAPANESE = {"M2a", "M3", "MEP", "s12a"}
 # still be written onto a decklist. BWTK is the Black & White Trainer Kit, which
 # the card API does not catalogue at all -- its rows carry a hand-set image.
 EXTRA_TOTALS = {"col1": "95", "ecard1": "165", "base1": "102",
-                "gym1": "132", "gym2": "132", "det1": "18"}
+                "gym1": "132", "gym2": "132", "det1": "18", "dp1": "130"}
 NO_API = {"BWTK"}
 
 
@@ -121,10 +119,7 @@ def main():
         for (d, name), rows in rows_by.items():
             if d != deck:
                 continue
-            key = name_key(name)
-            if key in BASIC:
-                continue
-            prints = held.get(key)
+            prints = held.get(name_key(name))
             if not prints:
                 continue
             prints = {k: v for k, v in prints.items()
