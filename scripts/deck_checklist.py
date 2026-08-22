@@ -56,14 +56,19 @@ def main():
 
     cards_by_name = {c["name"]: c for c in rows}
     claim = defaultdict(int)
-    verified = defaultdict(bool)
+    verified = {}
     by_key = defaultdict(list)
     for e in inv:
         by_key[e["key"]].append(e)
         for v in e["variants"]:
             if v["source"] == deck:
                 claim[e["key"]] += v["qty"]
-                verified[e["key"]] = verified[e["key"]] or bool(e.get("verified"))
+                # per-stack now: only THIS deck's copies count as checked, so a
+                # staple confirmed in another box still shows up here
+                if not v.get("verified"):
+                    verified[e["key"]] = False
+                elif e["key"] not in verified:
+                    verified[e["key"]] = True
 
     every = "--all" in sys.argv
     missing, todo = [], []

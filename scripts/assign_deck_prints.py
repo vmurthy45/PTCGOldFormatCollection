@@ -4,7 +4,8 @@ Vig checks a physical deck box and reports its 60 cards as
 (name, set, number, version, qty). This rewrites the inventory so that deck's
 claim matches, WITHOUT inventing or losing copies:
 
-  * every copy that deck currently claims is released back to Spare first;
+  * every copy that deck currently claims is released back to Spare first
+    (and loses its tick -- a released copy is unverified stock again);
   * each reported stack is then filled from stock already owned, preferring
     (1) the same print + version, (2) the same print any version, (3) a
     "set unknown" row of that card (this is the normal case — telling me the
@@ -58,7 +59,8 @@ def assign(inv, deck, stacks, image_for=None):
     # 1) release this deck's existing claim on every card it mentions
     for e in inv:
         if e["key"] in keys:
-            e["variants"] = [({**v, "source": "Spare"} if v["source"] == deck else v)
+            e["variants"] = [({**v, "source": "Spare", "verified": False}
+                              if v["source"] == deck else v)
                              for v in e["variants"]]
             e["total"] = sum(v["qty"] for v in e["variants"])
 
@@ -99,12 +101,13 @@ def assign(inv, deck, stacks, image_for=None):
         if need > 0:
             report["new_copies"].append(f"{need}x {name} {s} {num} ({version})")
 
-        target["variants"].insert(0, {"version": version, "qty": qty, "source": deck})
+        target["variants"].insert(0, {"version": version, "qty": qty,
+                                      "source": deck, "verified": True})
         target["total"] = sum(v["qty"] for v in target["variants"])
 
-    for e in inv:
-        if e["key"] in keys:
-            e["verified"] = True
+    # Verification is per stack: this box has been checked, so only its own
+    # stacks are ticked. Other decks sharing the same print row are untouched --
+    # a row-level flag used to clear their checklists for them.
     inv[:] = [e for e in inv if e["total"] > 0]
     inv.sort(key=lambda e: (e["name"].lower(), e["set"] == "", e["set"], e["num"]))
     return report

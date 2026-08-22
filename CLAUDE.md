@@ -106,18 +106,29 @@ Hosted free on GitHub Pages.
   working through the collection telling me which physical copies sit in which
   deck (e.g. "Dreepy: 4 Reverse Holo PRE 71 are in Dragapult Dusknoir (2026),
   4 in Dragapult (2026)"). Record that by setting the variant's `source` to the
-  deck name (splitting a variant row if only some copies are assigned), and set
-  `"verified": true` on the card once he's confirmed it. A variant sourced
-  `"Spare"` is loose stock, and only assumes a
+  deck name (splitting a variant row if only some copies are assigned). A
+  variant sourced `"Spare"` is loose stock, and only assumes a
   current-format deck is drawing on that pile when no variant already names
-  that deck — so assignments make the spare count exact. Auto-verification has been run twice: (1) rows where every copy is World
-  Champs and deck-assigned, and (2) rows whose card is played ONLY by 2026
-  decks (those copies had their deck written in, since there is nowhere else
-  they could be). Where a print has several versions the assignment script
-  guessed WHICH version went in the deck (it got counts right, not versions) —
-  those 19 rows were deliberately left unverified for Vig to check. The tab
-  shows ✓ for verified cards and • for not-yet-checked, has "Verified" / "Not verified yet"
-  filters, and the stats line tracks progress (e.g. `1/754 verified`).
+  that deck — so assignments make the spare count exact.
+
+  **Verification is per STACK, not per row.** A "stack" is one variant: one
+  deck's copies of one print, e.g. the 4 World Champs Iono PAL 185 in
+  Dragapult (2025). Set `"verified": true` on the variant when Vig has that
+  box open and confirms it. The flag used to sit on the row, but a row is
+  shared — Iono PAL 185 is held by nine decks — so checking one box wrongly
+  marked the other eight and silently cleared their checklists. Migrated by
+  `scripts/migrate_verification.py`, seeded from the boxes actually opened
+  (2025 + 2026). Earlier auto-verify passes were deductions from Vig's bulk
+  print rules, not cards anyone looked at, so they did NOT carry over.
+
+  A row's marker is derived: ✓ every stack checked, ◐ some, • none. Each stack
+  line carries its own ✓/•. Filters are "Verified" / "Partly verified" /
+  "Not verified yet"; the stats line counts stacks (e.g. `370/2202`).
+
+  **The Verification tab** (Tools) is the progress view: decks checked, deck
+  stacks, spare stacks, and a per-deck bar grouped by year. The order of work
+  is all decks first, then the spare boxes — once every deck has claimed its
+  copies, whatever is still `"Spare"` is what is physically loose.
   2026 decks stay display-only — deck `prints`/missing markers are never
   rewritten from inventory. Vig intends to walk through the deck-sourced
   entries and correct the numbers over time.

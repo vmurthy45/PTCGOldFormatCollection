@@ -125,6 +125,22 @@
     overflow:hidden; text-overflow:ellipsis}
   /* Stats */
   .st-tiles{display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:10px; margin-bottom:8px}
+  /* verification progress */
+  .vf-list{display:flex; flex-direction:column; gap:4px}
+  .vf-row{display:flex; align-items:center; gap:10px; padding:6px 10px; border:1px solid var(--line);
+    border-radius:9px; background:var(--card); font-size:13px}
+  .vf-name{flex:1 1 auto; min-width:0; color:var(--ink); font-weight:600;
+    overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+  .vf-bar{flex:0 0 84px; height:6px; border-radius:99px; background:var(--line); overflow:hidden}
+  .vf-fill{display:block; height:100%; background:var(--pip-auth); border-radius:99px}
+  .vf-lab{flex:0 0 auto; color:var(--muted); font-size:11.5px; font-variant-numeric:tabular-nums}
+  .vf-all .vf-name{color:var(--pip-auth)}
+  .vf-all .vf-lab{color:var(--pip-auth)}
+  .vf-some .vf-fill{background:var(--pip-wc)}
+  .vf-none .vf-fill{background:transparent}
+  .vf-cnt{font-size:11.5px; color:var(--muted); font-weight:600; margin-left:6px}
+  .vf-note{font-size:12px; color:var(--muted); line-height:1.55; margin:10px 2px 0}
+  @media (max-width:520px){ .vf-bar{flex-basis:52px} .vf-lab{font-size:11px} }
   .st-tile{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 12px; text-align:center}
   .st-num{font-size:26px; font-weight:800; color:var(--red-dark); line-height:1.1; font-variant-numeric:tabular-nums}
   .st-num .st-sub{font-size:15px; color:var(--muted); font-weight:700}
@@ -321,6 +337,8 @@
   /* verification state: ✓ = counts confirmed with Vig, • = still to check */
   .inv-ok{color:var(--pip-auth); font-weight:800; font-size:12.5px}
   .inv-todo{color:var(--muted); opacity:.55; font-size:13px; line-height:1}
+  .inv-part{color:var(--pip-wc); font-weight:800; font-size:12.5px}
+  .inv-var .inv-ok,.inv-var .inv-todo{margin-left:6px}
   /* one row per print; each line under it is a print type + the deck holding it */
   .inv-vars{display:flex; flex-direction:column; gap:2px; margin-top:4px; color:var(--muted); font-size:11.5px}
   .inv-var{display:flex; align-items:baseline; gap:5px; flex-wrap:wrap}
@@ -570,6 +588,7 @@
       <button class="subtab-btn active" data-subtab="inventory" type="button">Inventory</button>
       <button class="subtab-btn" data-subtab="cardsToGet" type="button">Cards to Get</button>
       <button class="subtab-btn" data-subtab="tournamentLog" type="button">Tournament Log</button>
+      <button class="subtab-btn" data-subtab="verify" type="button">Verification</button>
       <button class="subtab-btn" data-subtab="stats" type="button">Stats</button>
       <!-- Parked, not deleted: drop the `hidden` attribute to switch either
            back on. Their panels stay in the DOM so their code keeps working. -->
@@ -586,6 +605,7 @@
           <option value="INDECK">In a deck</option>
           <option value="SPARE">Spare only</option>
           <option value="UNVERIFIED">Not verified yet</option>
+          <option value="PARTIAL">Partly verified</option>
           <option value="VERIFIED">Verified</option>
           <option value="Pokemon">Pokémon</option>
           <option value="Trainer">Trainers</option>
@@ -603,6 +623,10 @@
       <button id="ctg-copy" class="ctg-copy-btn" type="button">📋 Copy list</button>
     </div>
     <div id="ctg-list" class="ctg-list"></div>
+  </div>
+
+  <div id="verifyTab" class="subtab-panel">
+    <div id="verify-body"></div>
   </div>
 
   <div id="statsTab" class="subtab-panel">
@@ -1293,8 +1317,85 @@ document.querySelectorAll('.subtab-btn').forEach(btn => {
     document.querySelectorAll('.subtab-panel').forEach(p => p.classList.remove('active'));
     btn.classList.add('active');
     document.getElementById(btn.dataset.subtab + 'Tab').classList.add('active');
+    if(btn.dataset.subtab === 'verify') renderVerify();
   };
 });
+
+
+/* ---------- Verification progress ---------- */
+// Answers the two questions the whole physical check is for: which print of
+// which card sits in each deck, and what is left over in the spare boxes.
+// A deck is done when every stack the inventory attributes to it is ticked;
+// the spare boxes are the last pass, once every deck has been accounted for.
+function verifyData(){
+  const decks = new Map();          // deck -> {done, total, copies, doneCopies}
+  const spare = {done: 0, total: 0, copies: 0, doneCopies: 0};
+  for(const g of INVENTORY){
+    for(const v of g.variants){
+      const bucket = (!v.source || v.source === 'Spare')
+        ? spare
+        : (decks.get(v.source) || decks.set(v.source, {done:0,total:0,copies:0,doneCopies:0}).get(v.source));
+      bucket.total++; bucket.copies += Number(v.qty) || 0;
+      if(v.verified){ bucket.done++; bucket.doneCopies += Number(v.qty) || 0; }
+    }
+  }
+  // decks with no inventory attribution at all still need checking
+  for(const c of CARDS) if(!decks.has(c.deck)) decks.set(c.deck, {done:0,total:0,copies:0,doneCopies:0});
+  return {decks, spare};
+}
+function yearOfDeck(d){
+  const c = CARDS.find(x => x.deck === d);
+  return c ? c.year : '';
+}
+function renderVerify(){
+  const el = document.getElementById('verify-body');
+  if(!el) return;
+  const {decks, spare} = verifyData();
+  const rows = [...decks.entries()].map(([deck, s]) => ({deck, year: yearOfDeck(deck), ...s}));
+  const doneDecks = rows.filter(r => r.total > 0 && r.done === r.total).length;
+  const stacks = rows.reduce((a,r) => a + r.total, 0);
+  const stacksDone = rows.reduce((a,r) => a + r.done, 0);
+
+  const tile = (v, l) => `<div class="st-tile"><div class="st-num">${v}</div><div class="st-lab">${l}</div></div>`;
+  const bar = (d, t) => {
+    const pc = t ? Math.round(d / t * 100) : 0;
+    return `<span class="vf-bar"><span class="vf-fill" style="width:${pc}%"></span></span>`;
+  };
+
+  const byYear = new Map();
+  rows.sort((a,b) => a.deck.localeCompare(b.deck));
+  for(const r of rows){
+    if(!byYear.has(r.year)) byYear.set(r.year, []);
+    byYear.get(r.year).push(r);
+  }
+  const years = [...byYear.keys()].sort().reverse();
+
+  el.innerHTML =
+    `<div class="st-group"><h3>Overall</h3><div class="st-tiles">`
+    + tile(`${doneDecks}/${rows.length}`, 'DECKS CHECKED')
+    + tile(`${stacksDone}/${stacks}`, 'DECK STACKS')
+    + tile(`${spare.done}/${spare.total}`, 'SPARE STACKS')
+    + tile(spare.copies, 'SPARE COPIES')
+    + `</div><p class="vf-note">A <b>stack</b> is one deck's copies of one print, e.g. the 4 World Champs Iono PAL 185 in Dragapult (2025). Ticking every stack in a box is what makes that deck's list exact. The spare boxes come last, once the decks have taken their copies.</p></div>`
+    + years.map(y => {
+        const list = byYear.get(y);
+        const d = list.filter(r => r.total > 0 && r.done === r.total).length;
+        return `<div class="st-group"><h3>${esc(y)} <span class="vf-cnt">${d}/${list.length} checked</span></h3>`
+          + `<div class="vf-list">` + list.map(r => {
+              const state = r.total === 0 ? 'none' : (r.done === r.total ? 'all' : (r.done ? 'some' : 'none'));
+              const label = state === 'all' ? 'checked'
+                : (r.total === 0 ? 'nothing recorded' : `${r.total - r.done} of ${r.total} left`);
+              return `<div class="vf-row vf-${state}"><span class="vf-name">${esc(r.deck)}</span>`
+                + bar(r.done, r.total)
+                + `<span class="vf-lab">${label}</span></div>`;
+            }).join('') + `</div></div>`;
+      }).join('')
+    + `<div class="st-group"><h3>Spare boxes</h3><div class="vf-list">`
+    + `<div class="vf-row vf-${spare.done === spare.total && spare.total ? 'all' : (spare.done ? 'some' : 'none')}">`
+    + `<span class="vf-name">Loose stock</span>${bar(spare.done, spare.total)}`
+    + `<span class="vf-lab">${spare.done}/${spare.total} stacks · ${spare.copies} copies</span></div></div>`
+    + `<p class="vf-note">Cards in the spare boxes that were never on the purchases sheet are not here yet; they get added when that pass happens.</p></div>`;
+}
 
 /* ---------- matchup generator ---------- */
 const matchupFormatEl = document.getElementById('matchupFormat');
@@ -1362,6 +1463,15 @@ function invKey(s){
     .replace(/\([^)]*\)/g, '')
     .replace(/^basic\s+/, '')
     .replace(/[^a-z0-9]+/g, '');
+}
+// Verification lives on the STACK (one deck's copies of one print), not on the
+// row: a row like Iono PAL 185 is shared by nine decks, so a row-level flag
+// could never say which boxes had actually been opened. A row's status is
+// derived from its stacks: every one checked, some, or none.
+function invStackOk(v){ return !!v.verified; }
+function invStatus(g){
+  const t = g.variants.length, d = g.variants.filter(invStackOk).length;
+  return d === 0 ? 'none' : (d === t ? 'all' : 'some');
 }
 // name key -> [{deck, count}], built once per render from the deck data
 const INV_CURRENT_YEAR = '2026';
@@ -1438,8 +1548,9 @@ function renderInventory(){
   });
   if(invFilter === 'INDECK') items = items.filter(g => g.total > g.spare);
   else if(invFilter === 'SPARE') items = items.filter(g => g.spare > 0);
-  else if(invFilter === 'VERIFIED') items = items.filter(g => g.verified);
-  else if(invFilter === 'UNVERIFIED') items = items.filter(g => !g.verified);
+  else if(invFilter === 'VERIFIED') items = items.filter(g => invStatus(g) === 'all');
+  else if(invFilter === 'PARTIAL') items = items.filter(g => invStatus(g) === 'some');
+  else if(invFilter === 'UNVERIFIED') items = items.filter(g => invStatus(g) !== 'all');
   else if(invFilter !== 'ALL') items = items.filter(g => invCat(g.type) === invFilter);
   // Card name or set code only. Deck names are deliberately NOT searched:
   // matching them dragged in every staple a deck happens to play (searching
@@ -1451,10 +1562,11 @@ function renderInventory(){
 
   const copies = items.reduce((s,g) => s + g.total, 0);
   const spare = items.reduce((s,g) => s + g.spare, 0);
-  const okd = items.filter(g => g.verified).length;
+  const stacks = items.reduce((s,g) => s + g.variants.length, 0);
+  const okd = items.reduce((s,g) => s + g.variants.filter(invStackOk).length, 0);
   invStatsEl.textContent =
     `${items.length} card${items.length !== 1 ? 's' : ''} · ${copies} total cop${copies !== 1 ? 'ies' : 'y'}`
-    + ` · ${spare} spare · ${okd}/${items.length} verified`;
+    + ` · ${spare} spare · ${okd}/${stacks} stacks verified`;
 
   if(!items.length){
     invListEl.innerHTML = '<div class="empty">No cards match your search.</div>';
@@ -1471,7 +1583,10 @@ function renderInventory(){
       const src = v.source && v.source !== 'Spare'
         ? `<span class="inv-src inv-src-deck">${esc(v.source)}</span>`
         : `<span class="inv-src">Spare</span>`;
-      return `<span class="inv-var"><b>${v.qty}</b> ${esc(v.version)}${src}</span>`;
+      const tick = invStackOk(v)
+        ? '<span class="inv-ok" title="Checked in hand">✓</span>'
+        : '<span class="inv-todo" title="Not checked yet">•</span>';
+      return `<span class="inv-var"><b>${v.qty}</b> ${esc(v.version)}${src}${tick}</span>`;
     }).join('');
     // g.decks is already just the current-format usage this row supplies from
     // its loose stock; decks holding assigned copies are named on the lines above.
@@ -1483,7 +1598,9 @@ function renderInventory(){
         <span class="inv-title"><span class="inv-name">${esc(g.name)}</span>`
       + `${(g.set || g.num) ? `<span class="inv-set">${esc(((g.set || '') + ' ' + (g.num || '')).trim())}</span>` : '<span class="inv-set inv-set-unknown">set unknown</span>'}`
       + `<span class="inv-qty">${g.total}</span>`
-      + `${g.verified ? '<span class="inv-ok" title="Checked with Vig">✓</span>' : '<span class="inv-todo" title="Not verified yet">•</span>'}</span>
+      + `${({all: '<span class="inv-ok" title="Every stack checked in hand">✓</span>',
+             some: '<span class="inv-part" title="Some stacks still to check">◐</span>',
+             none: '<span class="inv-todo" title="Not checked yet">•</span>'})[invStatus(g)]}</span>
         <span class="inv-vars">${vars}</span>
         ${decks ? `<span class="inv-decks">${decks}</span>` : ''}
       </span>
