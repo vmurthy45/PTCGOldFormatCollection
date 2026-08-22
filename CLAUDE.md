@@ -132,6 +132,17 @@ Hosted free on GitHub Pages.
   2026 decks stay display-only — deck `prints`/missing markers are never
   rewritten from inventory. Vig intends to walk through the deck-sourced
   entries and correct the numbers over time.
+- `scripts/audit_inventory.py` — **run this after every single change to
+  `data/inventory.json`, without being asked.** Vig's instruction: keep the
+  inventory clean as you go rather than waiting to be reminded. It checks row
+  totals against their stacks, card numbers that still carry the printed total
+  ("58/202"), missing images that can be derived, stale `printKey`s, duplicate
+  stacks on a row, two rows for one print, stacks with no version or an unknown
+  deck, empty rows, and every deck holding exactly what it plays. `--fix`
+  repairs the safe ones and rewrites the file sorted; it exits non-zero while
+  anything is unresolved, so it can gate a commit. Every check is there because
+  that fault actually occurred — most were spotted by Vig on the site, which is
+  the thing this script exists to prevent.
 - `scripts/export_xlsx.py` — exports everything to one .xlsx (Inventory / Decks
   / Cards to Get / Tournaments / Summary sheets). Run it whenever Vig wants a
   spreadsheet copy back out; that's the agreed replacement for maintaining the
