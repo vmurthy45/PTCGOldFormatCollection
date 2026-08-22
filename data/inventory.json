@@ -7554,7 +7554,7 @@
     "num": "",
     "printKey": "fireenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/133_hires.png",
-    "total": 94,
+    "total": 80,
     "variants": [
       {
         "version": "Standard",
@@ -7593,11 +7593,6 @@
         "source": "Blacephalon GX (2019)"
       },
       {
-        "version": "Standard",
-        "qty": 14,
-        "source": "Baby Blacephalon (2020)"
-      },
-      {
         "version": "World Champs",
         "qty": 3,
         "source": "Regidrago (2024)",
@@ -7607,6 +7602,24 @@
         "version": "World Champs",
         "qty": 1,
         "source": "Dragapult (2025)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Fire Energy",
+    "type": "Energy",
+    "key": "fireenergy",
+    "set": "XY",
+    "num": "133",
+    "printKey": "fireenergy|XY 133",
+    "image": "https://images.pokemontcg.io/xy1/133_hires.png",
+    "total": 14,
+    "variants": [
+      {
+        "version": "Holo",
+        "qty": 14,
+        "source": "Baby Blacephalon (2020)",
         "verified": true
       }
     ]
