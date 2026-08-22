@@ -234,8 +234,14 @@
     "num": "181",
     "printKey": "airballoon|ASC 181",
     "image": "https://images.scrydex.com/pokemon/me2pt5-181/large",
-    "total": 2,
+    "total": 5,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Shadow Rider (2021)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -282,7 +288,7 @@
     "num": "156",
     "printKey": "airballoon|SSH 156",
     "image": "https://images.pokemontcg.io/swsh1/156_hires.png",
-    "total": 10,
+    "total": 7,
     "variants": [
       {
         "version": "Standard",
@@ -303,11 +309,6 @@
         "version": "Standard",
         "qty": 2,
         "source": "Ice Rider (2021)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Shadow Rider (2021)"
       }
     ]
   },
@@ -319,11 +320,11 @@
     "num": "",
     "printKey": "airballoon|",
     "image": "https://images.pokemontcg.io/swsh1/156_hires.png",
-    "total": 17,
+    "total": 14,
     "variants": [
       {
         "version": "Standard",
-        "qty": 17,
+        "qty": 14,
         "source": "Spare"
       }
     ]
@@ -1515,8 +1516,14 @@
     "num": "183",
     "printKey": "bosssorders|ASC 183",
     "image": "https://images.scrydex.com/pokemon/me2pt5-183/large",
-    "total": 14,
+    "total": 15,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Shadow Rider (2021)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 3,
@@ -1668,6 +1675,12 @@
     "total": 28,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Shadow Rider (2021)",
+        "verified": true
+      },
+      {
         "version": "Holo",
         "qty": 2,
         "source": "Spiritomb (2021)",
@@ -1695,8 +1708,9 @@
       },
       {
         "version": "Standard",
-        "qty": 3,
-        "source": "Shadow Rider (2021)"
+        "qty": 2,
+        "source": "Spare",
+        "verified": false
       },
       {
         "version": "Standard",
@@ -1733,11 +1747,29 @@
     "name": "Boss's Orders",
     "type": "Supporter",
     "key": "bosssorders",
+    "set": "s12a",
+    "num": "161",
+    "printKey": "bosssorders|s12a 161",
+    "image": "https://images.pokemontcg.io/swsh9/132_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Japanese",
+        "qty": 1,
+        "source": "Shadow Rider (2021)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Boss's Orders",
+    "type": "Supporter",
+    "key": "bosssorders",
     "set": "",
     "num": "",
     "printKey": "bosssorders|",
     "image": "https://images.pokemontcg.io/swsh2/154_hires.png",
-    "total": 10,
+    "total": 8,
     "variants": [
       {
         "version": "Reverse Holo",
@@ -1746,7 +1778,7 @@
       },
       {
         "version": "Standard",
-        "qty": 7,
+        "qty": 5,
         "source": "Spare"
       }
     ]
@@ -4366,10 +4398,28 @@
     "type": "Pokémon",
     "key": "dedennegx",
     "set": "UNB",
+    "num": "195a",
+    "printKey": "dedennegx|UNB 195a",
+    "image": "https://images.pokemontcg.io/sm10/195a_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Shadow Rider (2021)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Dedenne-GX",
+    "type": "Pokémon",
+    "key": "dedennegx",
+    "set": "UNB",
     "num": "57",
     "printKey": "dedennegx|UNB 57",
     "image": "https://images.pokemontcg.io/sm10/57_hires.png",
-    "total": 18,
+    "total": 16,
     "variants": [
       {
         "version": "Standard",
@@ -4411,11 +4461,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Rapid Strike Urshifu (2021)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Shadow Rider (2021)"
       }
     ]
   },
@@ -6524,6 +6569,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 3,
+        "source": "Shadow Rider (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 4,
         "source": "Malamar Rapid Strike (2022)",
         "verified": true
@@ -6542,11 +6593,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Ice Rider (2021)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Shadow Rider (2021)"
       },
       {
         "version": "World Champs",
@@ -12178,6 +12224,18 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 1,
+        "source": "Shadow Rider (2021)",
+        "verified": true
+      },
+      {
+        "version": "Holo",
+        "qty": 2,
+        "source": "Shadow Rider (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 2,
         "source": "Combo Zacian (2020)"
       },
@@ -12195,11 +12253,6 @@
         "version": "Standard",
         "qty": 3,
         "source": "Ice Rider (2021)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Shadow Rider (2021)"
       },
       {
         "version": "Standard",
@@ -14440,6 +14493,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 1,
+        "source": "Shadow Rider (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 2,
         "source": "Spiritomb (2021)",
         "verified": true
@@ -14454,11 +14513,6 @@
         "version": "Standard",
         "qty": 2,
         "source": "Cinccino Mill (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Shadow Rider (2021)"
       },
       {
         "version": "World Champs",
@@ -14587,7 +14641,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Shadow Rider (2021)"
+        "source": "Shadow Rider (2021)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -14738,12 +14793,13 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Ice Rider (2021)"
+        "source": "Shadow Rider (2021)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Shadow Rider (2021)"
+        "source": "Ice Rider (2021)"
       },
       {
         "version": "World Champs",
@@ -14871,7 +14927,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Shadow Rider (2021)"
+        "source": "Shadow Rider (2021)",
+        "verified": true
       }
     ]
   },
@@ -16454,6 +16511,12 @@
       {
         "version": "Standard",
         "qty": 4,
+        "source": "Shadow Rider (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
         "source": "Combo Zacian (2020)"
       },
       {
@@ -16470,11 +16533,6 @@
         "version": "Standard",
         "qty": 3,
         "source": "Ice Rider (2021)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Shadow Rider (2021)"
       },
       {
         "version": "Standard",
@@ -16541,11 +16599,29 @@
     "name": "Psychic Energy",
     "type": "Energy",
     "key": "psychicenergy",
+    "set": "SSH",
+    "num": "",
+    "printKey": "psychicenergy|SSH",
+    "image": null,
+    "total": 14,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 14,
+        "source": "Shadow Rider (2021)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Psychic Energy",
+    "type": "Energy",
+    "key": "psychicenergy",
     "set": "XY",
     "num": "",
     "printKey": "psychicenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/136_hires.png",
-    "total": 66,
+    "total": 52,
     "variants": [
       {
         "version": "World Champs",
@@ -16576,11 +16652,6 @@
         "version": "Standard",
         "qty": 3,
         "source": "Perfection Mewtwo (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 14,
-        "source": "Shadow Rider (2021)"
       },
       {
         "version": "World Champs",
@@ -16762,11 +16833,29 @@
     "name": "Quick Ball",
     "type": "Item",
     "key": "quickball",
+    "set": "FST",
+    "num": "237",
+    "printKey": "quickball|FST 237",
+    "image": "https://images.pokemontcg.io/swsh8/237_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Shadow Rider (2021)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Quick Ball",
+    "type": "Item",
+    "key": "quickball",
     "set": "SSH",
     "num": "179",
     "printKey": "quickball|SSH 179",
     "image": "https://images.pokemontcg.io/swsh1/179_hires.png",
-    "total": 49,
+    "total": 45,
     "variants": [
       {
         "version": "Standard",
@@ -16807,11 +16896,6 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Shadow Rider (2021)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
         "source": "Eternatus (2021)"
       },
       {
@@ -16848,11 +16932,11 @@
     "num": "",
     "printKey": "quickball|",
     "image": "https://images.pokemontcg.io/swsh1/179_hires.png",
-    "total": 22,
+    "total": 18,
     "variants": [
       {
         "version": "Standard",
-        "qty": 22,
+        "qty": 18,
         "source": "Spare"
       }
     ]
@@ -18573,12 +18657,13 @@
     "num": "74",
     "printKey": "shadowridercalyrexv|CRE 74",
     "image": "https://images.pokemontcg.io/swsh6/74_hires.png",
-    "total": 6,
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Shadow Rider (2021)"
+        "qty": 2,
+        "source": "Shadow Rider (2021)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -18605,6 +18690,24 @@
     ]
   },
   {
+    "name": "Shadow Rider Calyrex V",
+    "type": "Pokémon",
+    "key": "shadowridercalyrexv",
+    "set": "SWSH",
+    "num": "SWSH131",
+    "printKey": "shadowridercalyrexv|SWSH SWSH131",
+    "image": "https://images.pokemontcg.io/swshp/SWSH131_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Shadow Rider (2021)",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Shadow Rider Calyrex VMAX",
     "type": "Pokémon",
     "key": "shadowridercalyrexvmax",
@@ -18617,7 +18720,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Shadow Rider (2021)"
+        "source": "Shadow Rider (2021)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -20122,11 +20226,29 @@
     "name": "Switch",
     "type": "Trainer",
     "key": "switch",
+    "set": "SLG",
+    "num": "67",
+    "printKey": "switch|SLG 67",
+    "image": "https://images.pokemontcg.io/sm35/67_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Shadow Rider (2021)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Switch",
+    "type": "Trainer",
+    "key": "switch",
     "set": "SSH",
     "num": "183",
     "printKey": "switch|SSH 183",
     "image": "https://images.pokemontcg.io/swsh1/183_hires.png",
-    "total": 12,
+    "total": 10,
     "variants": [
       {
         "version": "Standard",
@@ -20137,11 +20259,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Rapid Strike Urshifu (2021)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Shadow Rider (2021)"
       },
       {
         "version": "Standard",

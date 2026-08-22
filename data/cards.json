@@ -17992,13 +17992,27 @@
   {
     "year": "2021",
     "deck": "Shadow Rider (2021)",
-    "count": 4,
+    "count": 2,
     "name": "Shadow Rider Calyrex V",
     "set": "74/198",
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/swsh6/74_hires.png",
     "prints": {
-      "authentic": 4,
+      "authentic": 2,
+      "wc": 0,
+      "proxy": 0
+    }
+  },
+  {
+    "year": "2021",
+    "deck": "Shadow Rider (2021)",
+    "count": 2,
+    "name": "Shadow Rider Calyrex V",
+    "set": "SWSH131/307",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/swshp/SWSH131_hires.png",
+    "prints": {
+      "authentic": 2,
       "wc": 0,
       "proxy": 0
     }
@@ -18036,9 +18050,9 @@
     "deck": "Shadow Rider (2021)",
     "count": 2,
     "name": "Dedenne-GX",
-    "set": "57/214",
+    "set": "195a/214",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm10/57_hires.png",
+    "image": "https://images.pokemontcg.io/sm10/195a_hires.png",
     "prints": {
       "authentic": 2,
       "wc": 0,
@@ -18090,13 +18104,27 @@
   {
     "year": "2021",
     "deck": "Shadow Rider (2021)",
-    "count": 3,
+    "count": 1,
+    "name": "Boss's Orders",
+    "set": "183/217",
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-183/large",
+    "prints": {
+      "authentic": 1,
+      "wc": 0,
+      "proxy": 0
+    }
+  },
+  {
+    "year": "2021",
+    "deck": "Shadow Rider (2021)",
+    "count": 2,
     "name": "Boss's Orders",
     "set": "154/192",
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/swsh2/154_hires.png",
     "prints": {
-      "authentic": 3,
+      "authentic": 2,
       "wc": 0,
       "proxy": 0
     }
@@ -18148,9 +18176,9 @@
     "deck": "Shadow Rider (2021)",
     "count": 4,
     "name": "Quick Ball",
-    "set": "179/202",
+    "set": "237/264",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/swsh1/179_hires.png",
+    "image": "https://images.pokemontcg.io/swsh8/237_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,
@@ -18176,9 +18204,9 @@
     "deck": "Shadow Rider (2021)",
     "count": 2,
     "name": "Switch",
-    "set": "183/202",
+    "set": "67/73",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/swsh1/183_hires.png",
+    "image": "https://images.pokemontcg.io/sm35/67_hires.png",
     "prints": {
       "authentic": 2,
       "wc": 0,
@@ -18218,9 +18246,9 @@
     "deck": "Shadow Rider (2021)",
     "count": 3,
     "name": "Air Balloon",
-    "set": "156/202",
+    "set": "181/217",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/swsh1/156_hires.png",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-181/large",
     "prints": {
       "authentic": 3,
       "wc": 0,
