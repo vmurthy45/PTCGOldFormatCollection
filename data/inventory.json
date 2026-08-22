@@ -20574,18 +20574,30 @@
     "num": "100",
     "printKey": "superscoopup|DS 100",
     "image": "https://images.pokemontcg.io/ex11/100_hires.png",
-    "total": 8,
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "ToadBats (2015)"
+      }
+    ]
+  },
+  {
+    "name": "Super Scoop Up",
+    "type": "Trainer",
+    "key": "superscoopup",
+    "set": "FFI",
+    "num": "100",
+    "printKey": "superscoopup|FFI 100",
+    "image": "https://images.pokemontcg.io/xy3/100_hires.png",
+    "total": 4,
     "variants": [
       {
         "version": "World Champs",
         "qty": 4,
         "source": "Lando Bats (2015)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "ToadBats (2015)"
       }
     ]
   },
