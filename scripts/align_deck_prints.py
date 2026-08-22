@@ -16,8 +16,10 @@ tidily). When a verified box turns out to hold two printings of the same card,
 that row should display the majority one: 3 Great Ball SLG 60 + 1 SUM 119 shows
 as SLG 60. The split itself stays in data/inventory.json as separate stacks.
 
-Only runs against decks where every stack is verified — an unverified deck's
-inventory is still inference, so it has no authority over the list.
+Gated per CARD, not per deck: a line is only touched when every stack of that
+card in that deck is verified. A deck part-way through checking still gets its
+confirmed lines updated, and one outstanding energy no longer holds back the
+other twenty-two.
 
 Card names that appear on TWO rows of one deck are handled by category, which
 is Vig's rule: a **Trainer or Energy** duplicate is a reprint, so it merges to
@@ -54,6 +56,12 @@ JAPANESE = {"M2a", "M3", "MEP", "s12a"}
 EXTRA_TOTALS = {"col1": "95", "ecard1": "165", "base1": "102",
                 "gym1": "132", "gym2": "132", "det1": "18", "dp1": "130"}
 NO_API = {"BWTK"}
+# Rows where Vig has fixed what the decklist shows, overriding the majority
+# rule. ToadBats plays a Zubat PLS 53 with a SUM 54 standing in for it, and a
+# Computer Search he wants pictured as BCR 137 while the card in the sleeve is
+# Base Set 71 -- in both the list and the inventory are deliberately different.
+PINNED = {("ToadBats (2015)", "Zubat"),
+          ("ToadBats (2015)", "Computer Search")}
 
 
 def name_key(s):
@@ -98,26 +106,35 @@ def main():
                if sid in SCRYDEX_IDS else f"https://images.pokemontcg.io/{sid}/{n}_hires.png")
         return url, totals.get(sid)
 
-    # which decks are fully verified
     stacks_by_deck = defaultdict(list)
     for e in inv:
         for v in e["variants"]:
             src = v.get("source")
             if src and src != "Spare":
                 stacks_by_deck[src].append((e, v))
-    verified = {d for d, sv in stacks_by_deck.items() if all(v.get("verified") for _, v in sv)}
+    # (deck, card key) -> every stack of that card is confirmed
+    card_ok = defaultdict(lambda: True)
+    for d, sv in stacks_by_deck.items():
+        for e, v in sv:
+            if not v.get("verified"):
+                card_ok[(d, e["key"])] = False
+            else:
+                card_ok.setdefault((d, e["key"]), True)
+    verified = sorted(stacks_by_deck)
 
     rows_by = defaultdict(list)
     for c in cards:
         rows_by[(c["deck"], c["name"])].append(c)
 
     changed, merge, ask, unresolved = [], [], [], []
-    for deck in sorted(verified):
+    for deck in verified:
         held = defaultdict(lambda: defaultdict(int))     # key -> (set,num) -> qty
         for e, v in stacks_by_deck[deck]:
             held[e["key"]][(e.get("set", ""), e.get("num", ""))] += v["qty"]
         for (d, name), rows in rows_by.items():
             if d != deck:
+                continue
+            if (deck, name) in PINNED or not card_ok.get((deck, name_key(name))):
                 continue
             prints = held.get(name_key(name))
             if not prints:
@@ -184,7 +201,7 @@ def main():
     # ---- pass 2: print type, so the pips match the box --------------------
     WC, PROXY = "World Champs", "Proxy"
     pips = []
-    for deck in sorted(verified):
+    for deck in verified:
         owned = defaultdict(lambda: {"authentic": 0, "wc": 0, "proxy": 0})
         for e, v in stacks_by_deck[deck]:
             bucket = "wc" if v["version"] == WC else ("proxy" if v["version"] == PROXY
@@ -194,6 +211,8 @@ def main():
             if d != deck or len(rows) > 1:
                 continue
             c = rows[0]
+            if not card_ok.get((deck, name_key(name))):
+                continue
             got = owned.get(name_key(name))
             if not got:
                 continue
@@ -234,7 +253,8 @@ def main():
     if fix and (changed or pips):
         CARDS.write_text(json.dumps(cards, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    print(f"{len(verified)} decks fully verified")
+    print(f"{sum(1 for k, ok in card_ok.items() if ok)} verified card lines "
+          f"across {len(verified)} decks")
     for deck, name, was, now, why in changed:
         print(f"  {deck:<28} {name:<26} {was:<12} -> {now:<12} ({why})")
     for deck, name, cur, got in pips:

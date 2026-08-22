@@ -769,15 +769,16 @@
     "total": 7,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 1,
+        "source": "ToadBats (2015)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 1,
         "source": "Lando Bats (2015)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "ToadBats (2015)"
       },
       {
         "version": "World Champs",
@@ -3011,6 +3012,12 @@
     "total": 20,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 1,
+        "source": "ToadBats (2015)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 2,
         "source": "Lando Bats (2015)",
@@ -3055,11 +3062,6 @@
         "version": "Standard",
         "qty": 2,
         "source": "Yveltal Raichu (2014)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "ToadBats (2015)"
       }
     ]
   },
@@ -3204,7 +3206,7 @@
     "num": "137",
     "printKey": "computersearch|BCR 137",
     "image": "https://images.pokemontcg.io/bw7/137_hires.png",
-    "total": 7,
+    "total": 6,
     "variants": [
       {
         "version": "World Champs",
@@ -3235,11 +3237,24 @@
         "version": "Standard",
         "qty": 1,
         "source": "Archie's Blastoise (2015)"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Computer Search",
+    "type": "Trainer",
+    "key": "computersearch",
+    "set": "BS",
+    "num": "71",
+    "printKey": "computersearch|BS 71",
+    "image": "https://images.pokemontcg.io/base1/71_hires.png",
+    "total": 1,
+    "variants": [
       {
         "version": "Standard",
         "qty": 1,
-        "source": "ToadBats (2015)"
+        "source": "ToadBats (2015)",
+        "verified": true
       }
     ]
   },
@@ -3500,15 +3515,16 @@
     "total": 6,
     "variants": [
       {
+        "version": "Reverse Holo",
+        "qty": 3,
+        "source": "ToadBats (2015)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 3,
         "source": "Lando Bats (2015)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "ToadBats (2015)"
       }
     ]
   },
@@ -4807,23 +4823,6 @@
     "name": "Double Colorless Energy",
     "type": "Energy",
     "key": "doublecolorlessenergy",
-    "set": "LTR",
-    "num": "113",
-    "printKey": "doublecolorlessenergy|LTR 113",
-    "image": "https://images.pokemontcg.io/bw11/113_hires.png",
-    "total": 4,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "ToadBats (2015)"
-      }
-    ]
-  },
-  {
-    "name": "Double Colorless Energy",
-    "type": "Energy",
-    "key": "doublecolorlessenergy",
     "set": "NXD",
     "num": "92",
     "printKey": "doublecolorlessenergy|NXD 92",
@@ -4856,6 +4855,24 @@
         "version": "Standard",
         "qty": 4,
         "source": "Yveltal Raichu (2014)"
+      }
+    ]
+  },
+  {
+    "name": "Double Colorless Energy",
+    "type": "Energy",
+    "key": "doublecolorlessenergy",
+    "set": "PHF",
+    "num": "111",
+    "printKey": "doublecolorlessenergy|PHF 111",
+    "image": "https://images.pokemontcg.io/xy4/111_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "ToadBats (2015)",
+        "verified": true
       }
     ]
   },
@@ -4916,11 +4933,11 @@
     "num": "",
     "printKey": "doublecolorlessenergy|",
     "image": "https://images.pokemontcg.io/hgss1/103_hires.png",
-    "total": 5,
+    "total": 1,
     "variants": [
       {
         "version": "Standard",
-        "qty": 5,
+        "qty": 1,
         "source": "Spare"
       }
     ]
@@ -8749,15 +8766,16 @@
     "total": 7,
     "variants": [
       {
+        "version": "Reverse Holo",
+        "qty": 4,
+        "source": "ToadBats (2015)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 3,
         "source": "Lando Bats (2015)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "ToadBats (2015)"
       }
     ]
   },
@@ -9842,6 +9860,18 @@
     "total": 18,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "ToadBats (2015)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "ToadBats (2015)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 4,
         "source": "Darkrai (2013)"
@@ -9860,11 +9890,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Yveltal Raichu (2014)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "ToadBats (2015)"
       }
     ]
   },
@@ -12172,6 +12197,12 @@
     "variants": [
       {
         "version": "World Champs",
+        "qty": 1,
+        "source": "ToadBats (2015)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
         "qty": 2,
         "source": "Lando Bats (2015)",
         "verified": true
@@ -12195,11 +12226,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Archie's Blastoise (2015)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "ToadBats (2015)"
       },
       {
         "version": "World Champs",
@@ -13482,7 +13508,7 @@
     "num": "54",
     "printKey": "mewtwoex|LTR 54",
     "image": "https://images.pokemontcg.io/bw11/54_hires.png",
-    "total": 6,
+    "total": 4,
     "variants": [
       {
         "version": "World Champs",
@@ -13499,11 +13525,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Archie's Blastoise (2015)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "ToadBats (2015)"
       }
     ]
   },
@@ -13515,8 +13536,14 @@
     "num": "54",
     "printKey": "mewtwoex|NXD 54",
     "image": "https://images.pokemontcg.io/bw4/54_hires.png",
-    "total": 5,
+    "total": 7,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "ToadBats (2015)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 2,
@@ -13895,6 +13922,12 @@
     "total": 21,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 3,
+        "source": "ToadBats (2015)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 4,
         "source": "Lando Bats (2015)",
@@ -13924,11 +13957,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Archie's Blastoise (2015)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "ToadBats (2015)"
       }
     ]
   },
@@ -13999,7 +14027,7 @@
     "num": "96",
     "printKey": "n|DEX 96",
     "image": "https://images.pokemontcg.io/bw5/96_hires.png",
-    "total": 24,
+    "total": 21,
     "variants": [
       {
         "version": "World Champs",
@@ -14043,11 +14071,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Archie's Blastoise (2015)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "ToadBats (2015)"
       }
     ]
   },
@@ -14059,8 +14082,14 @@
     "num": "105",
     "printKey": "n|FCO 105",
     "image": "https://images.pokemontcg.io/xy10/105_hires.png",
-    "total": 57,
+    "total": 60,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "ToadBats (2015)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 2,
@@ -16585,8 +16614,14 @@
     "num": "98",
     "printKey": "professorjuniper|DEX 98",
     "image": "https://images.pokemontcg.io/bw5/98_hires.png",
-    "total": 10,
+    "total": 11,
     "variants": [
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "ToadBats (2015)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 3,
@@ -16614,17 +16649,18 @@
     "num": "84",
     "printKey": "professorjuniper|PLB 84",
     "image": "https://images.pokemontcg.io/bw10/84_hires.png",
-    "total": 6,
+    "total": 5,
     "variants": [
+      {
+        "version": "Reverse Holo",
+        "qty": 3,
+        "source": "ToadBats (2015)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 2,
         "source": "Archie's Blastoise (2015)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "ToadBats (2015)"
       }
     ]
   },
@@ -19236,9 +19272,10 @@
     "total": 3,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 3,
-        "source": "ToadBats (2015)"
+        "source": "ToadBats (2015)",
+        "verified": true
       }
     ]
   },
@@ -19434,6 +19471,12 @@
     "variants": [
       {
         "version": "World Champs",
+        "qty": 2,
+        "source": "ToadBats (2015)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
         "qty": 1,
         "source": "Lando Bats (2015)",
         "verified": true
@@ -19442,11 +19485,6 @@
         "version": "Standard",
         "qty": 2,
         "source": "Archie's Blastoise (2015)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "ToadBats (2015)"
       },
       {
         "version": "World Champs",
@@ -20550,8 +20588,14 @@
     "num": "103",
     "printKey": "superscoopup|BLW 103",
     "image": "https://images.pokemontcg.io/bw1/103_hires.png",
-    "total": 2,
+    "total": 6,
     "variants": [
+      {
+        "version": "Reverse Holo",
+        "qty": 4,
+        "source": "ToadBats (2015)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 2,
@@ -20575,23 +20619,6 @@
         "qty": 4,
         "source": "Gyarados (2010)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Super Scoop Up",
-    "type": "Trainer",
-    "key": "superscoopup",
-    "set": "DS",
-    "num": "100",
-    "printKey": "superscoopup|DS 100",
-    "image": "https://images.pokemontcg.io/ex11/100_hires.png",
-    "total": 4,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "ToadBats (2015)"
       }
     ]
   },
@@ -23137,17 +23164,12 @@
     "num": "90",
     "printKey": "ultraball|PLB 90",
     "image": "https://images.pokemontcg.io/bw10/90_hires.png",
-    "total": 8,
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
         "qty": 4,
         "source": "Archie's Blastoise (2015)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "ToadBats (2015)"
       }
     ]
   },
@@ -23159,8 +23181,14 @@
     "num": "93",
     "printKey": "ultraball|ROS 93",
     "image": "https://images.pokemontcg.io/xy6/93_hires.png",
-    "total": 39,
+    "total": 43,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "ToadBats (2015)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
@@ -23292,23 +23320,6 @@
         "qty": 4,
         "source": "Dragapult (2025)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Ultra Ball",
-    "type": "Item",
-    "key": "ultraball",
-    "set": "",
-    "num": "",
-    "printKey": "ultraball|",
-    "image": "https://images.pokemontcg.io/bw5/102_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Reverse Holo",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -23618,6 +23629,18 @@
       {
         "version": "Standard",
         "qty": 2,
+        "source": "ToadBats (2015)",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "ToadBats (2015)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
         "source": "Darkrai (2013)"
       },
       {
@@ -23634,11 +23657,6 @@
         "version": "Standard",
         "qty": 2,
         "source": "Yveltal Raichu (2014)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "ToadBats (2015)"
       }
     ]
   },
@@ -23795,6 +23813,12 @@
     "variants": [
       {
         "version": "World Champs",
+        "qty": 4,
+        "source": "ToadBats (2015)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
         "qty": 2,
         "source": "Lando Bats (2015)",
         "verified": true
@@ -23803,11 +23827,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Archie's Blastoise (2015)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "ToadBats (2015)"
       },
       {
         "version": "World Champs",
@@ -24317,9 +24336,10 @@
     "total": 4,
     "variants": [
       {
-        "version": "Standard",
+        "version": "Reverse Holo",
         "qty": 2,
-        "source": "ToadBats (2015)"
+        "source": "ToadBats (2015)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -24732,18 +24752,31 @@
     "num": "53",
     "printKey": "zubat|PLS 53",
     "image": "https://images.pokemontcg.io/bw8/53_hires.png",
-    "total": 8,
+    "total": 4,
     "variants": [
       {
         "version": "World Champs",
         "qty": 4,
         "source": "Lando Bats (2015)",
         "verified": true
-      },
+      }
+    ]
+  },
+  {
+    "name": "Zubat",
+    "type": "Pokémon",
+    "key": "zubat",
+    "set": "SUM",
+    "num": "54",
+    "printKey": "zubat|SUM 54",
+    "image": "https://images.pokemontcg.io/sm1/54_hires.png",
+    "total": 4,
+    "variants": [
       {
         "version": "Standard",
         "qty": 4,
-        "source": "ToadBats (2015)"
+        "source": "ToadBats (2015)",
+        "verified": true
       }
     ]
   }

@@ -5692,9 +5692,9 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/bw8/53_hires.png",
     "prints": {
-      "authentic": 4,
+      "authentic": 0,
       "wc": 0,
-      "proxy": 0
+      "proxy": 4
     }
   },
   {
@@ -5734,8 +5734,8 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/xy3/20_hires.png",
     "prints": {
-      "authentic": 3,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 3,
       "proxy": 0
     }
   },
@@ -5744,12 +5744,12 @@
     "deck": "ToadBats (2015)",
     "count": 2,
     "name": "Mewtwo-EX",
-    "set": "54/113",
+    "set": "54/99",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/bw11/54_hires.png",
+    "image": "https://images.pokemontcg.io/bw4/54_hires.png",
     "prints": {
-      "authentic": 2,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 2,
       "proxy": 0
     }
   },
@@ -5762,8 +5762,8 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/xy6/77_hires.png",
     "prints": {
-      "authentic": 2,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 2,
       "proxy": 0
     }
   },
@@ -5786,12 +5786,12 @@
     "deck": "ToadBats (2015)",
     "count": 3,
     "name": "N",
-    "set": "96/108",
+    "set": "105/124",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/bw5/96_hires.png",
+    "image": "https://images.pokemontcg.io/xy10/105_hires.png",
     "prints": {
-      "authentic": 3,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 3,
       "proxy": 0
     }
   },
@@ -5818,8 +5818,8 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/xy2/90_hires.png",
     "prints": {
-      "authentic": 1,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 1,
       "proxy": 0
     }
   },
@@ -5860,8 +5860,8 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/xy4/109_hires.png",
     "prints": {
-      "authentic": 4,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 4,
       "proxy": 0
     }
   },
@@ -5870,9 +5870,9 @@
     "deck": "ToadBats (2015)",
     "count": 4,
     "name": "Ultra Ball",
-    "set": "90/101",
+    "set": "93/108",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/bw10/90_hires.png",
+    "image": "https://images.pokemontcg.io/xy6/93_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,
@@ -5888,8 +5888,8 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/bw8/123_hires.png",
     "prints": {
-      "authentic": 4,
-      "wc": 0,
+      "authentic": 3,
+      "wc": 1,
       "proxy": 0
     }
   },
@@ -5898,9 +5898,9 @@
     "deck": "ToadBats (2015)",
     "count": 4,
     "name": "Super Scoop Up",
-    "set": "100/111",
+    "set": "103/114",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/ex11/100_hires.png",
+    "image": "https://images.pokemontcg.io/bw1/103_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,
@@ -5954,12 +5954,12 @@
     "deck": "ToadBats (2015)",
     "count": 4,
     "name": "Double Colorless Energy",
-    "set": "113/113",
+    "set": "111/108",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/bw11/113_hires.png",
+    "image": "https://images.pokemontcg.io/xy4/111_hires.png",
     "prints": {
-      "authentic": 4,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 4,
       "proxy": 0
     }
   },
