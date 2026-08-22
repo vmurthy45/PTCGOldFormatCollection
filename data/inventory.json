@@ -16614,14 +16614,8 @@
     "num": "84",
     "printKey": "professorjuniper|PLB 84",
     "image": "https://images.pokemontcg.io/bw10/84_hires.png",
-    "total": 10,
+    "total": 6,
     "variants": [
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Lando Bats (2015)",
-        "verified": true
-      },
       {
         "version": "Standard",
         "qty": 2,
@@ -16858,6 +16852,24 @@
         "version": "Standard",
         "qty": 4,
         "source": "Turbo Rayquaza (2018)"
+      }
+    ]
+  },
+  {
+    "name": "Professor Sycamore",
+    "type": "Trainer",
+    "key": "professorsycamore",
+    "set": "PHF",
+    "num": "101",
+    "printKey": "professorsycamore|PHF 101",
+    "image": "https://images.pokemontcg.io/xy4/101_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Lando Bats (2015)",
+        "verified": true
       }
     ]
   },
@@ -23125,14 +23137,8 @@
     "num": "90",
     "printKey": "ultraball|PLB 90",
     "image": "https://images.pokemontcg.io/bw10/90_hires.png",
-    "total": 12,
+    "total": 8,
     "variants": [
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Lando Bats (2015)",
-        "verified": true
-      },
       {
         "version": "Standard",
         "qty": 4,
@@ -23153,8 +23159,14 @@
     "num": "93",
     "printKey": "ultraball|ROS 93",
     "image": "https://images.pokemontcg.io/xy6/93_hires.png",
-    "total": 35,
+    "total": 39,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Lando Bats (2015)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 3,
