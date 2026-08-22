@@ -297,6 +297,22 @@ Then:
 # 6. git add -A && git commit -m "..." (see "Git & pushing" below)
 ```
 
+### One line per card in a decklist
+
+A deck's card list shows **one row per card name**, never one row per printing.
+When Vig's physical check turns up two prints of the same card in a box — 3
+Great Ball SLG 60 and 1 SUM 119 — the deck row stays a single `4x Great Ball`
+carrying the majority print, and the split is recorded in `data/inventory.json`
+as separate stacks. That is his stated preference: the list reads tidily, the
+inventory carries the reality.
+
+The exception is **different cards that share a name**, which must stay as
+separate rows because they are not interchangeable: Garbodor GRI 51
+(Trashalanche) vs BKP 57 (Garbotoxin), Inteleon SSH 58 (Shady Dealings) vs CRE
+43 (Quick Shooting), Kirlia, Ralts, Azelf, Hoppip, Marshadow, Greninja. Before
+merging any duplicate-name pair, check the abilities/attacks via the card API —
+same rules text means a reprint and can merge; different text means two cards.
+
 ### Deck ordering (alphabetical — automatic)
 
 Decks are **always shown alphabetically** (case-insensitive), and this is
