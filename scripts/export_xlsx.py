@@ -115,7 +115,7 @@ def main():
         ])
     sheet("Decks",
           ["Format", "Deck", "Count", "Card", "Set", "Category",
-           "Authentic", "WC", "Proxy", "Missing"],
+           "Standard", "WC", "Proxy", "Missing"],
           deck_rows, [9, 26, 7, 28, 11, 11, 10, 7, 8, 9])
 
     # --- Cards to Get ---

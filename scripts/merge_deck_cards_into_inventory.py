@@ -30,7 +30,7 @@ ROOT = Path(__file__).resolve().parent.parent
 INV = ROOT / "data" / "inventory.json"
 CARDS = ROOT / "data" / "cards.json"
 
-PRINT_LABEL = {"authentic": "Authentic", "wc": "World Champs", "proxy": "Proxy"}
+PRINT_LABEL = {"authentic": "Standard", "wc": "World Champs", "proxy": "Proxy"}
 CAT_TYPE = {"Pokemon": "Pokémon", "Trainer": "Trainer", "Energy": "Energy"}
 
 

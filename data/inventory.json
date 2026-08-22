@@ -118,32 +118,32 @@
     "total": 9,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "DeciPod (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "GoliGarb (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Gardevoir-GX (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "DeciTales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroPod (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroRoc (2018)"
       }
@@ -160,7 +160,7 @@
     "total": 22,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Malamar (2019)"
       },
@@ -170,27 +170,27 @@
         "source": "Reshizard Firebox (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Green's Reshizard (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Perfection Mewtwo (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Combo Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "ADP Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Turbo Rayquaza (2018)"
       }
@@ -207,7 +207,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Archie's Blastoise (2015)"
       }
@@ -224,7 +224,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Baby Blacephalon (2020)"
       }
@@ -238,8 +238,13 @@
     "num": "181",
     "printKey": "airballoon|ASC 181",
     "image": "https://images.scrydex.com/pokemon/me2pt5-181/large",
-    "total": 1,
+    "total": 2,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Charizard Pidgeot (2025)"
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -256,7 +261,7 @@
     "num": "79",
     "printKey": "airballoon|BLK 79",
     "image": "https://images.pokemontcg.io/zsv10pt5/79_hires.png",
-    "total": 5,
+    "total": 4,
     "variants": [
       {
         "version": "World Champs",
@@ -267,11 +272,6 @@
         "version": "World Champs",
         "qty": 2,
         "source": "Dragapult (2025)"
-      },
-      {
-        "version": "Authentic",
-        "qty": 1,
-        "source": "Charizard Pidgeot (2025)"
       }
     ],
     "verified": true
@@ -287,27 +287,27 @@
     "total": 10,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Cinccino Mill (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "ADP Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Rapid Strike Urshifu (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Ice Rider (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Shadow Rider (2021)"
       }
@@ -322,11 +322,11 @@
     "num": "",
     "printKey": "airballoon|",
     "image": "https://images.pokemontcg.io/swsh1/156_hires.png",
-    "total": 18,
+    "total": 17,
     "variants": [
       {
         "version": "Standard",
-        "qty": 18,
+        "qty": 17,
         "source": "Spare"
       }
     ],
@@ -371,12 +371,12 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Alolan Ninetales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "DeciTales (2017)"
       }
@@ -393,22 +393,22 @@
     "total": 8,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Gardevoir-GX (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Alolan Ninetales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "DeciTales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Empoleon Swampert (2018)"
       }
@@ -443,12 +443,12 @@
     "total": 7,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Alolan Ninetales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Empoleon Swampert (2018)"
       }
@@ -465,7 +465,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "ADP Zacian (2020)"
       }
@@ -536,7 +536,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Archie's Blastoise (2015)"
       }
@@ -624,6 +624,11 @@
     "total": 5,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Charizard Pidgeot (2025)"
+      },
+      {
         "version": "World Champs",
         "qty": 1,
         "source": "Gardevoir (2023)"
@@ -632,30 +637,9 @@
         "version": "World Champs",
         "qty": 2,
         "source": "Gardevoir (2025)"
-      },
-      {
-        "version": "Authentic",
-        "qty": 2,
-        "source": "Charizard Pidgeot (2025)"
       }
-    ]
-  },
-  {
-    "name": "Artazon",
-    "type": "Stadium",
-    "key": "artazon",
-    "set": "",
-    "num": "",
-    "printKey": "artazon|",
-    "image": "https://images.pokemontcg.io/sv2/171_hires.png",
-    "total": 2,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spare"
-      }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Articuno",
@@ -668,7 +652,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Archie's Blastoise (2015)"
       }
@@ -685,11 +669,12 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Charizard Pidgeot (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Arven",
@@ -728,23 +713,6 @@
       }
     ],
     "verified": true
-  },
-  {
-    "name": "Arven",
-    "type": "Supporter",
-    "key": "arven",
-    "set": "",
-    "num": "",
-    "printKey": "arven|",
-    "image": "https://images.pokemontcg.io/sv1/166_hires.png",
-    "total": 4,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Spare"
-      }
-    ]
   },
   {
     "name": "Audino Spirit Link",
@@ -798,7 +766,7 @@
         "source": "Lando Bats (2015)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ToadBats (2015)"
       },
@@ -818,7 +786,7 @@
         "source": "Darkrai Giratina (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Night March (2016)"
       }
@@ -986,12 +954,12 @@
         "source": "Mega Audino (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 11,
         "source": "Combo Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 8,
         "source": "ADP Zacian (2020)"
       },
@@ -1053,7 +1021,7 @@
     "total": 11,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Archie's Blastoise (2015)"
       },
@@ -1068,7 +1036,7 @@
         "source": "Greninja (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Night March (2016)"
       }
@@ -1123,7 +1091,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Baby Blacephalon (2020)"
       }
@@ -1140,7 +1108,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Buzz Garb Shrine (2018)"
       },
@@ -1150,7 +1118,7 @@
         "source": "Buzzwole Lycanroc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Blacephalon GX (2019)"
       }
@@ -1172,7 +1140,7 @@
         "source": "Buzzwole Lycanroc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Blacephalon GX (2019)"
       }
@@ -1222,7 +1190,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Cinccino Mill (2020)"
       }
@@ -1293,7 +1261,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Darkrai (2013)"
       }
@@ -1328,7 +1296,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Eternatus (2021)"
       }
@@ -1345,7 +1313,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Perfection Mewtwo (2019)"
       }
@@ -1380,12 +1348,12 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Spiritomb (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Ice Rider (2021)"
       }
@@ -1402,7 +1370,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Baby Blacephalon (2020)"
       }
@@ -1419,12 +1387,12 @@
     "total": 5,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Blacephalon GX (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Baby Blacephalon (2020)"
       }
@@ -1459,7 +1427,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Blastoise (2013)"
       }
@@ -1476,12 +1444,12 @@
     "total": 6,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Blastoise (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Archie's Blastoise (2015)"
       }
@@ -1516,7 +1484,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Whimsicott GX (2019)"
       }
@@ -1638,8 +1606,13 @@
     "num": "114",
     "printKey": "bosssorders|MEG 114",
     "image": "https://images.pokemontcg.io/me1/114_hires.png",
-    "total": 3,
+    "total": 6,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Charizard Pidgeot (2025)"
+      },
       {
         "version": "Standard",
         "qty": 3,
@@ -1656,7 +1629,7 @@
     "num": "172",
     "printKey": "bosssorders|PAL 172",
     "image": "https://images.pokemontcg.io/sv2/172_hires.png",
-    "total": 10,
+    "total": 7,
     "variants": [
       {
         "version": "World Champs",
@@ -1672,11 +1645,6 @@
         "version": "World Champs",
         "qty": 2,
         "source": "Dragapult (2025)"
-      },
-      {
-        "version": "Authentic",
-        "qty": 3,
-        "source": "Charizard Pidgeot (2025)"
       }
     ],
     "verified": true
@@ -1692,37 +1660,37 @@
     "total": 28,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Combo Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "ADP Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Rapid Strike Urshifu (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Spiritomb (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Ice Rider (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Shadow Rider (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Eternatus (2021)"
       },
@@ -1757,7 +1725,7 @@
     "num": "",
     "printKey": "bosssorders|",
     "image": "https://images.pokemontcg.io/swsh2/154_hires.png",
-    "total": 13,
+    "total": 10,
     "variants": [
       {
         "version": "Reverse Holo",
@@ -1766,7 +1734,7 @@
       },
       {
         "version": "Standard",
-        "qty": 10,
+        "qty": 7,
         "source": "Spare"
       }
     ],
@@ -1847,7 +1815,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Malamar Rapid Strike (2022)"
       }
@@ -1864,11 +1832,12 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Charizard Pidgeot (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Briar",
@@ -1878,14 +1847,15 @@
     "num": "",
     "printKey": "briar|",
     "image": "https://images.pokemontcg.io/sv7/132_hires.png",
-    "total": 2,
+    "total": 1,
     "variants": [
       {
         "version": "Standard",
-        "qty": 2,
+        "qty": 1,
         "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Brigette",
@@ -1903,42 +1873,42 @@
         "source": "Spare"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "DeciPod (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "GoliGarb (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Gardevoir-GX (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Alolan Ninetales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Tapu Bulu Vikavolt (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Espeon Garbodor (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "DeciTales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Drampa Zoroark (2017)"
       },
@@ -1953,7 +1923,7 @@
         "source": "ZoroGarb (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ZoroPod (2018)"
       }
@@ -2039,12 +2009,12 @@
         "source": "Buzzwole Lycanroc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Greninja (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Empoleon Swampert (2018)"
       }
@@ -2058,8 +2028,13 @@
     "num": "184",
     "printKey": "buddybuddypoffin|ASC 184",
     "image": "https://images.scrydex.com/pokemon/me2pt5-184/large",
-    "total": 4,
+    "total": 6,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Charizard Pidgeot (2025)"
+      },
       {
         "version": "Standard",
         "qty": 2,
@@ -2081,8 +2056,13 @@
     "num": "101",
     "printKey": "buddybuddypoffin|PRE 101",
     "image": "https://images.pokemontcg.io/sv8pt5/101_hires.png",
-    "total": 7,
+    "total": 9,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Charizard Pidgeot (2025)"
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -2114,7 +2094,7 @@
     "num": "144",
     "printKey": "buddybuddypoffin|TEF 144",
     "image": "https://images.pokemontcg.io/sv5/144_hires.png",
-    "total": 22,
+    "total": 18,
     "variants": [
       {
         "version": "Standard",
@@ -2145,11 +2125,6 @@
         "version": "World Champs",
         "qty": 4,
         "source": "Dragapult (2025)"
-      },
-      {
-        "version": "Authentic",
-        "qty": 4,
-        "source": "Charizard Pidgeot (2025)"
       }
     ],
     "verified": true
@@ -2162,11 +2137,11 @@
     "num": "",
     "printKey": "buddybuddypoffin|",
     "image": "https://images.pokemontcg.io/sv5/144_hires.png",
-    "total": 5,
+    "total": 1,
     "variants": [
       {
         "version": "Standard",
-        "qty": 5,
+        "qty": 1,
         "source": "Spare"
       }
     ],
@@ -2293,7 +2268,7 @@
     "total": 9,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Buzz Garb Shrine (2018)"
       },
@@ -2308,7 +2283,7 @@
         "source": "Banette Garbodor (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroRoc (2018)"
       }
@@ -2384,7 +2359,7 @@
     "total": 5,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Ice Rider (2021)"
       },
@@ -2406,7 +2381,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Spiritomb (2021)"
       }
@@ -2476,7 +2451,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "CMT (2012)"
       }
@@ -2493,12 +2468,12 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ADP Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Eternatus (2021)"
       }
@@ -2506,25 +2481,21 @@
   },
   {
     "name": "Charizard ex",
-    "type": "Pokémon",
+    "type": "",
     "key": "charizardex",
-    "set": "OBF",
-    "num": "125",
-    "printKey": "charizardex|OBF 125",
-    "image": "https://images.pokemontcg.io/sv3/125_hires.png",
-    "total": 6,
+    "set": "PAF",
+    "num": "54",
+    "printKey": "charizardex|PAF 54",
+    "image": "https://images.pokemontcg.io/sv4pt5/54_hires.png",
+    "total": 3,
     "variants": [
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Spare"
-      },
-      {
-        "version": "Authentic",
-        "qty": 3,
         "source": "Charizard Pidgeot (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Charjabug",
@@ -2537,7 +2508,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Tapu Bulu Vikavolt (2017)"
       }
@@ -2551,19 +2522,15 @@
     "num": "7",
     "printKey": "charmander|PAF 7",
     "image": "https://images.pokemontcg.io/sv4pt5/7_hires.png",
-    "total": 8,
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Spare"
-      },
-      {
-        "version": "Authentic",
-        "qty": 4,
         "source": "Charizard Pidgeot (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Charmeleon",
@@ -2573,19 +2540,15 @@
     "num": "5",
     "printKey": "charmeleon|MEW 5",
     "image": "https://images.pokemontcg.io/sv3pt5/5_hires.png",
-    "total": 4,
+    "total": 2,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Spare"
-      },
-      {
-        "version": "Authentic",
-        "qty": 2,
         "source": "Charizard Pidgeot (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Cherish Ball",
@@ -2608,22 +2571,22 @@
         "source": "Pikarom Judge (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Green's Reshizard (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Perfection Mewtwo (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Whimsicott GX (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ADP Zacian (2020)"
       }
@@ -2655,19 +2618,15 @@
     "num": "29",
     "printKey": "chiyu|PAR 29",
     "image": "https://images.pokemontcg.io/sv4/29_hires.png",
-    "total": 2,
+    "total": 1,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Spare"
-      },
-      {
-        "version": "Authentic",
-        "qty": 1,
         "source": "Charizard Pidgeot (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Chien-Pao",
@@ -2714,57 +2673,57 @@
     "total": 45,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "DeciPod (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "GoliGarb (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Gardevoir-GX (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Alolan Ninetales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Ho-Oh Salazzle (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Mega Rayquaza (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Tapu Bulu Vikavolt (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Espeon Garbodor (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "DeciTales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Drampa Zoroark (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Buzz Garb Shrine (2018)"
       },
@@ -2784,27 +2743,27 @@
         "source": "ZoroGarb (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroPod (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroRoc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroGardy (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Turbo Rayquaza (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Empoleon Swampert (2018)"
       }
@@ -2854,7 +2813,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Cinccino Mill (2020)"
       }
@@ -2965,7 +2924,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Perfection Mewtwo (2019)"
       }
@@ -3020,7 +2979,7 @@
         "source": "TDK (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Blastoise (2013)"
       },
@@ -3040,7 +2999,7 @@
         "source": "TDK (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Yveltal Raichu (2014)"
       },
@@ -3050,7 +3009,7 @@
         "source": "Lando Bats (2015)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ToadBats (2015)"
       }
@@ -3207,7 +3166,7 @@
         "source": "Gothitelle (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Darkrai (2013)"
       },
@@ -3217,22 +3176,22 @@
         "source": "TDK (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Blastoise (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Yveltal Raichu (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Archie's Blastoise (2015)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ToadBats (2015)"
       }
@@ -3266,7 +3225,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Whimsicott GX (2019)"
       }
@@ -3283,16 +3242,17 @@
     "total": 5,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroPod (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Whimsicott GX (2019)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Counter Catcher",
@@ -3304,6 +3264,11 @@
     "image": "https://images.pokemontcg.io/sv4/160_hires.png",
     "total": 9,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Charizard Pidgeot (2025)"
+      },
       {
         "version": "World Champs",
         "qty": 2,
@@ -3318,30 +3283,9 @@
         "version": "World Champs",
         "qty": 3,
         "source": "Dragapult (2025)"
-      },
-      {
-        "version": "Authentic",
-        "qty": 2,
-        "source": "Charizard Pidgeot (2025)"
       }
-    ]
-  },
-  {
-    "name": "Counter Catcher",
-    "type": "Item",
-    "key": "countercatcher",
-    "set": "",
-    "num": "",
-    "printKey": "countercatcher|",
-    "image": "https://images.pokemontcg.io/sm4/91_hires.png",
-    "total": 2,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spare"
-      }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Counter Energy",
@@ -3354,7 +3298,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Empoleon Swampert (2018)"
       }
@@ -3412,7 +3356,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Baby Blacephalon (2020)"
       }
@@ -3511,7 +3455,7 @@
         "source": "Lando Bats (2015)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "ToadBats (2015)"
       }
@@ -3556,7 +3500,7 @@
     "total": 5,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Eternatus (2021)"
       },
@@ -3632,7 +3576,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Cinccino Mill (2020)"
       }
@@ -3708,17 +3652,17 @@
         "source": "Pikarom Judge (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Green's Reshizard (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Perfection Mewtwo (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Blacephalon GX (2019)"
       }
@@ -3753,7 +3697,7 @@
     "total": 32,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Buzz Garb Shrine (2018)"
       },
@@ -3773,22 +3717,22 @@
         "source": "ZoroGarb (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroPod (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "ZoroRoc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Greninja (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Malamar (2019)"
       },
@@ -3798,17 +3742,17 @@
         "source": "Pikarom Judge (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Blacephalon GX (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Whimsicott GX (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Empoleon Swampert (2018)"
       }
@@ -3825,7 +3769,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Cinccino Mill (2020)"
       }
@@ -3842,7 +3786,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Malamar Rapid Strike (2022)"
       }
@@ -4071,7 +4015,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Darkrai (2013)"
       }
@@ -4106,17 +4050,17 @@
     "total": 12,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Darkrai Mewtwo (2012)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Darkrai (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Yveltal Raichu (2014)"
       }
@@ -4133,17 +4077,17 @@
     "total": 63,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 7,
         "source": "Darkrai Mewtwo (2012)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 11,
         "source": "Darkrai (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 8,
         "source": "Yveltal Raichu (2014)"
       },
@@ -4153,17 +4097,17 @@
         "source": "Darkrai Giratina (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 5,
         "source": "Drampa Zoroark (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Spiritomb (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 9,
         "source": "Eternatus (2021)"
       },
@@ -4242,17 +4186,17 @@
     "total": 8,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Darkrai Mewtwo (2012)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Darkrai (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Yveltal Raichu (2014)"
       }
@@ -4269,12 +4213,12 @@
     "total": 7,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "DeciPod (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "DeciTales (2017)"
       }
@@ -4349,12 +4293,12 @@
     "total": 7,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "DeciPod (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "DeciTales (2017)"
       }
@@ -4398,37 +4342,37 @@
         "source": "Pikarom Judge (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Perfection Mewtwo (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Blacephalon GX (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Combo Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "ADP Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Rapid Strike Urshifu (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Spiritomb (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Shadow Rider (2021)"
       }
@@ -4540,7 +4484,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Gardevoir-GX (2017)"
       }
@@ -4557,7 +4501,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Buzz Garb Shrine (2018)"
       },
@@ -4579,7 +4523,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Night March (2016)"
       }
@@ -4614,17 +4558,17 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Blacephalon GX (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Whimsicott GX (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Cinccino Mill (2020)"
       }
@@ -4659,32 +4603,32 @@
     "total": 41,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "DeciPod (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "GoliGarb (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Gardevoir-GX (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Alolan Ninetales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Mega Rayquaza (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Drampa Zoroark (2017)"
       },
@@ -4699,17 +4643,17 @@
         "source": "ZoroGarb (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ZoroPod (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ZoroRoc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ZoroGardy (2018)"
       }
@@ -4736,12 +4680,12 @@
         "source": "Boltevoir (2010)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Darkrai Mewtwo (2012)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "CMT (2012)"
       }
@@ -4758,7 +4702,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ToadBats (2015)"
       }
@@ -4785,7 +4729,7 @@
         "source": "Mega Kangaskhan (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Yveltal Raichu (2014)"
       }
@@ -4802,12 +4746,12 @@
     "total": 8,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Espeon Garbodor (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "DeciTales (2017)"
       }
@@ -4834,7 +4778,7 @@
         "source": "Mega Audino (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Night March (2016)"
       }
@@ -5126,7 +5070,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Drampa Zoroark (2017)"
       },
@@ -5242,12 +5186,12 @@
     "total": 17,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Rapid Strike Urshifu (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Ice Rider (2021)"
       },
@@ -5262,7 +5206,7 @@
         "source": "Urshifu VMAX (2022)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Malamar Rapid Strike (2022)"
       }
@@ -5296,12 +5240,12 @@
     "total": 5,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Darkrai Mewtwo (2012)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "CMT (2012)"
       }
@@ -5416,13 +5360,13 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 2,
-        "source": "Dragapult Dusknoir (2026)"
-      },
-      {
-        "version": "Authentic",
         "qty": 1,
         "source": "Charizard Pidgeot (2025)"
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Dragapult Dusknoir (2026)"
       }
     ],
     "verified": true
@@ -5528,14 +5472,14 @@
     "total": 2,
     "variants": [
       {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Charizard Pidgeot (2025)"
+      },
+      {
         "version": "Standard",
         "qty": 1,
         "source": "Dragapult Dusknoir (2026)"
-      },
-      {
-        "version": "Authentic",
-        "qty": 1,
-        "source": "Charizard Pidgeot (2025)"
       }
     ],
     "verified": true
@@ -5602,22 +5546,17 @@
     "num": "35",
     "printKey": "duskull|PRE 35",
     "image": "https://images.pokemontcg.io/sv8pt5/35_hires.png",
-    "total": 6,
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Dragapult Dusknoir (2026)"
+        "source": "Charizard Pidgeot (2025)"
       },
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Spare"
-      },
-      {
-        "version": "Authentic",
-        "qty": 2,
-        "source": "Charizard Pidgeot (2025)"
+        "source": "Dragapult Dusknoir (2026)"
       }
     ],
     "verified": true
@@ -5753,7 +5692,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Drampa Zoroark (2017)"
       }
@@ -5770,7 +5709,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Espeon Garbodor (2017)"
       }
@@ -5787,7 +5726,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ADP Zacian (2020)"
       }
@@ -5827,7 +5766,7 @@
         "source": "Pikarom Judge (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Perfection Mewtwo (2019)"
       }
@@ -5919,7 +5858,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Empoleon Swampert (2018)"
       }
@@ -5954,7 +5893,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Tapu Bulu Vikavolt (2017)"
       }
@@ -5989,7 +5928,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "CMT (2012)"
       }
@@ -6006,7 +5945,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Baby Blacephalon (2020)"
       }
@@ -6023,12 +5962,12 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "CMT (2012)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Darkrai (2013)"
       },
@@ -6073,12 +6012,12 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Green's Reshizard (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "ADP Zacian (2020)"
       }
@@ -6095,7 +6034,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Darkrai (2013)"
       }
@@ -6146,7 +6085,7 @@
         "source": "VirGen (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Yveltal Raichu (2014)"
       }
@@ -6164,12 +6103,12 @@
     "total": 6,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "ADP Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Eternatus (2021)"
       }
@@ -6215,17 +6154,17 @@
         "source": "ZoroGarb (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroRoc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroGardy (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Greninja (2018)"
       }
@@ -6243,7 +6182,7 @@
     "total": 5,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Darkrai (2013)"
       },
@@ -6253,7 +6192,7 @@
         "source": "VirGen (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Yveltal Raichu (2014)"
       }
@@ -6271,7 +6210,7 @@
     "total": 8,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Malamar (2019)"
       },
@@ -6281,12 +6220,12 @@
         "source": "Reshizard Firebox (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Baby Blacephalon (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Combo Zacian (2020)"
       }
@@ -6303,12 +6242,12 @@
     "total": 15,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Rapid Strike Urshifu (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Spiritomb (2021)"
       },
@@ -6328,7 +6267,7 @@
         "source": "Fusion Strike Mew (2022)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Malamar Rapid Strike (2022)"
       },
@@ -6355,7 +6294,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Turbo Rayquaza (2018)"
       }
@@ -6377,7 +6316,7 @@
         "source": "Mega Audino (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Night March (2016)"
       }
@@ -6394,7 +6333,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Perfection Mewtwo (2019)"
       }
@@ -6411,12 +6350,12 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "DeciPod (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "DeciTales (2017)"
       }
@@ -6433,7 +6372,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Espeon Garbodor (2017)"
       }
@@ -6450,7 +6389,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Malamar (2019)"
       }
@@ -6467,7 +6406,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Eternatus (2021)"
       }
@@ -6484,7 +6423,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Eternatus (2021)"
       }
@@ -6501,12 +6440,12 @@
     "total": 5,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Darkrai Mewtwo (2012)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "CMT (2012)"
       }
@@ -6523,22 +6462,22 @@
     "total": 21,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Cinccino Mill (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Rapid Strike Urshifu (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Ice Rider (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Shadow Rider (2021)"
       },
@@ -6558,7 +6497,7 @@
         "source": "ADP Flying Pikachu (2022)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Malamar Rapid Strike (2022)"
       }
@@ -6597,12 +6536,12 @@
         "source": "ZoroGarb (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "ZoroPod (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroRoc (2018)"
       }
@@ -6619,7 +6558,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Greninja (2018)"
       }
@@ -6653,7 +6592,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Archie's Blastoise (2015)"
       }
@@ -6733,7 +6672,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Cinccino Mill (2020)"
       }
@@ -6750,7 +6689,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Whimsicott GX (2019)"
       }
@@ -6772,17 +6711,17 @@
         "source": "Mega Kangaskhan (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 7,
         "source": "Gardevoir-GX (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ZoroGardy (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Whimsicott GX (2019)"
       }
@@ -6917,6 +6856,11 @@
       {
         "version": "Japanese",
         "qty": 1,
+        "source": "Charizard Pidgeot (2025)"
+      },
+      {
+        "version": "Japanese",
+        "qty": 1,
         "source": "N's Zoroark (2026)"
       },
       {
@@ -6928,11 +6872,6 @@
         "version": "Japanese",
         "qty": 1,
         "source": "Alakazam (2026)"
-      },
-      {
-        "version": "Japanese",
-        "qty": 1,
-        "source": "Spare"
       }
     ],
     "verified": true
@@ -6945,7 +6884,7 @@
     "num": "38",
     "printKey": "fezandipitiex|SFA 38",
     "image": "https://images.pokemontcg.io/sv6pt5/38_hires.png",
-    "total": 8,
+    "total": 7,
     "variants": [
       {
         "version": "World Champs",
@@ -6981,11 +6920,6 @@
         "version": "World Champs",
         "qty": 1,
         "source": "Dragapult (2025)"
-      },
-      {
-        "version": "Authentic",
-        "qty": 1,
-        "source": "Charizard Pidgeot (2025)"
       }
     ],
     "verified": true
@@ -7001,52 +6935,52 @@
     "total": 34,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "DeciPod (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "GoliGarb (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Gardevoir-GX (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Alolan Ninetales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Mega Rayquaza (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Tapu Bulu Vikavolt (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Espeon Garbodor (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "DeciTales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Drampa Zoroark (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Buzz Garb Shrine (2018)"
       },
@@ -7066,22 +7000,22 @@
         "source": "ZoroGarb (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "ZoroPod (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "ZoroRoc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "ZoroGardy (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Turbo Rayquaza (2018)"
       }
@@ -7103,12 +7037,12 @@
         "source": "Reshizard Firebox (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Green's Reshizard (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Baby Blacephalon (2020)"
       }
@@ -7130,12 +7064,12 @@
         "source": "Boltevoir (2010)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Darkrai Mewtwo (2012)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "CMT (2012)"
       },
@@ -7150,12 +7084,12 @@
         "source": "Buzzwole Lycanroc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "ZoroRoc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Rapid Strike Urshifu (2021)"
       },
@@ -7216,12 +7150,12 @@
         "source": "Darkrai Giratina (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Night March (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Tapu Bulu Vikavolt (2017)"
       },
@@ -7320,17 +7254,17 @@
     "total": 8,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Green's Reshizard (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Perfection Mewtwo (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Baby Blacephalon (2020)"
       }
@@ -7347,12 +7281,17 @@
     "total": 97,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 6,
+        "source": "Charizard Pidgeot (2025)"
+      },
+      {
         "version": "World Champs",
         "qty": 4,
         "source": "RayEels (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 14,
         "source": "Ho-Oh Salazzle (2017)"
       },
@@ -7362,27 +7301,27 @@
         "source": "Reshizard Firebox (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 11,
         "source": "Green's Reshizard (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 8,
         "source": "Perfection Mewtwo (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 15,
         "source": "Blacephalon GX (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 14,
         "source": "Baby Blacephalon (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Cinccino Mill (2020)"
       },
@@ -7395,11 +7334,6 @@
         "version": "World Champs",
         "qty": 1,
         "source": "Dragapult (2025)"
-      },
-      {
-        "version": "Authentic",
-        "qty": 6,
-        "source": "Charizard Pidgeot (2025)"
       }
     ],
     "verified": true
@@ -7461,12 +7395,12 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Espeon Garbodor (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Drampa Zoroark (2017)"
       }
@@ -7493,52 +7427,52 @@
         "source": "Darkrai Giratina (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "DeciPod (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "GoliGarb (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Alolan Ninetales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Ho-Oh Salazzle (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Mega Rayquaza (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Tapu Bulu Vikavolt (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Espeon Garbodor (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "DeciTales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Drampa Zoroark (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Buzz Garb Shrine (2018)"
       },
@@ -7558,22 +7492,22 @@
         "source": "ZoroGarb (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "ZoroPod (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "ZoroRoc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroGardy (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Turbo Rayquaza (2018)"
       }
@@ -7605,7 +7539,7 @@
         "source": "TDK (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Archie's Blastoise (2015)"
       }
@@ -7698,7 +7632,7 @@
     "total": 6,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Malamar Rapid Strike (2022)"
       },
@@ -7725,12 +7659,12 @@
         "source": "Vespiquen (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "DeciPod (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "DeciTales (2017)"
       }
@@ -7780,12 +7714,12 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Baby Blacephalon (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Combo Zacian (2020)"
       }
@@ -7807,7 +7741,7 @@
         "source": "Greninja (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Greninja (2018)"
       }
@@ -7829,7 +7763,7 @@
         "source": "Greninja (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Greninja (2018)"
       }
@@ -7939,7 +7873,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Eternatus (2021)"
       }
@@ -7956,7 +7890,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Eternatus (2021)"
       }
@@ -7973,12 +7907,12 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Gardevoir-GX (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroGardy (2018)"
       }
@@ -8018,12 +7952,12 @@
         "source": "Darkrai Giratina (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "GoliGarb (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Espeon Garbodor (2017)"
       },
@@ -8050,17 +7984,17 @@
     "total": 11,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "GoliGarb (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Espeon Garbodor (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Buzz Garb Shrine (2018)"
       },
@@ -8200,12 +8134,12 @@
     "total": 5,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Gardevoir-GX (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "ZoroGardy (2018)"
       }
@@ -8286,7 +8220,7 @@
         "source": "VirGen (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "TDK (2014)"
       }
@@ -8326,17 +8260,17 @@
         "source": "Reshizard Firebox (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Green's Reshizard (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Perfection Mewtwo (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Blacephalon GX (2019)"
       }
@@ -8407,7 +8341,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Malamar (2019)"
       }
@@ -8424,7 +8358,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Alolan Ninetales (2017)"
       }
@@ -8499,7 +8433,7 @@
         "source": "Lando Bats (2015)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ToadBats (2015)"
       }
@@ -8516,17 +8450,17 @@
     "total": 8,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "DeciPod (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "GoliGarb (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "ZoroPod (2018)"
       }
@@ -8619,7 +8553,7 @@
         "source": "Jumpluff (2010)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 6,
         "source": "CMT (2012)"
       },
@@ -8629,27 +8563,27 @@
         "source": "VirGen (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 5,
         "source": "DeciPod (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "GoliGarb (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 7,
         "source": "Tapu Bulu Vikavolt (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "DeciTales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "ZoroPod (2018)"
       },
@@ -8669,7 +8603,7 @@
         "source": "Raging Bolt (2025)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 7,
         "source": "Turbo Rayquaza (2018)"
       }
@@ -8715,7 +8649,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Eternatus (2021)"
       }
@@ -8732,7 +8666,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Cinccino Mill (2020)"
       }
@@ -8749,12 +8683,12 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Combo Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ADP Zacian (2020)"
       }
@@ -8771,7 +8705,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Green's Reshizard (2019)"
       }
@@ -8806,7 +8740,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Green's Reshizard (2019)"
       }
@@ -8828,7 +8762,7 @@
         "source": "Greninja (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Greninja (2018)"
       }
@@ -8868,7 +8802,7 @@
         "source": "Greninja (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Greninja (2018)"
       }
@@ -8885,7 +8819,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Tapu Bulu Vikavolt (2017)"
       }
@@ -8902,52 +8836,52 @@
     "total": 39,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "DeciPod (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "GoliGarb (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Gardevoir-GX (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Alolan Ninetales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Ho-Oh Salazzle (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Mega Rayquaza (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Tapu Bulu Vikavolt (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Espeon Garbodor (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "DeciTales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Buzz Garb Shrine (2018)"
       },
@@ -8967,17 +8901,17 @@
         "source": "ZoroGarb (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "ZoroPod (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "ZoroRoc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Turbo Rayquaza (2018)"
       }
@@ -9129,17 +9063,17 @@
         "source": "Reshizard Firebox (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Green's Reshizard (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Blacephalon GX (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Baby Blacephalon (2020)"
       }
@@ -9174,12 +9108,12 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "GoliGarb (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Tapu Bulu Vikavolt (2017)"
       }
@@ -9196,7 +9130,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Blastoise (2013)"
       },
@@ -9223,32 +9157,32 @@
         "source": "Mega Audino (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Night March (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "GoliGarb (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Gardevoir-GX (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Mega Rayquaza (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Espeon Garbodor (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Drampa Zoroark (2017)"
       }
@@ -9265,7 +9199,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Spiritomb (2021)"
       }
@@ -9387,7 +9321,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Ho-Oh Salazzle (2017)"
       }
@@ -9426,12 +9360,12 @@
         "source": "Pikarom Judge (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Combo Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Spiritomb (2021)"
       }
@@ -9458,7 +9392,7 @@
         "source": "Darkrai Giratina (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Mega Rayquaza (2017)"
       }
@@ -9546,7 +9480,7 @@
     "total": 18,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Darkrai (2013)"
       },
@@ -9561,12 +9495,12 @@
         "source": "TDK (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Yveltal Raichu (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ToadBats (2015)"
       }
@@ -9583,7 +9517,7 @@
     "total": 5,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Ice Rider (2021)"
       },
@@ -9639,7 +9573,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Ice Rider (2021)"
       },
@@ -9679,7 +9613,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Malamar Rapid Strike (2022)"
       }
@@ -9696,7 +9630,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Malamar (2019)"
       }
@@ -9713,7 +9647,7 @@
     "total": 5,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Rapid Strike Urshifu (2021)"
       },
@@ -9723,7 +9657,7 @@
         "source": "Urshifu VMAX (2022)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Malamar Rapid Strike (2022)"
       }
@@ -9740,12 +9674,12 @@
     "total": 8,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Rapid Strike Urshifu (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Ice Rider (2021)"
       },
@@ -9760,7 +9694,7 @@
         "source": "Urshifu VMAX (2022)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Malamar Rapid Strike (2022)"
       }
@@ -9793,6 +9727,11 @@
     "image": "https://images.pokemontcg.io/sv2/185_hires.png",
     "total": 23,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Charizard Pidgeot (2025)"
+      },
       {
         "version": "World Champs",
         "qty": 3,
@@ -9832,13 +9771,9 @@
         "version": "World Champs",
         "qty": 4,
         "source": "Dragapult (2025)"
-      },
-      {
-        "version": "Authentic",
-        "qty": 3,
-        "source": "Charizard Pidgeot (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Iono",
@@ -9855,7 +9790,8 @@
         "qty": 4,
         "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Irida",
@@ -9950,28 +9886,12 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Charizard Pidgeot (2025)"
       }
-    ]
-  },
-  {
-    "name": "Jacq",
-    "type": "Supporter",
-    "key": "jacq",
-    "set": "",
-    "num": "",
-    "printKey": "jacq|",
-    "image": "https://images.pokemontcg.io/sv1/175_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Jamming Tower",
@@ -10060,7 +9980,7 @@
     "total": 17,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Malamar (2019)"
       },
@@ -10070,17 +9990,17 @@
         "source": "Reshizard Firebox (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Baby Blacephalon (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Combo Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Spiritomb (2021)"
       }
@@ -10097,7 +10017,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Combo Zacian (2020)"
       }
@@ -10119,7 +10039,7 @@
         "source": "VirGen (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Archie's Blastoise (2015)"
       }
@@ -10136,7 +10056,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Perfection Mewtwo (2019)"
       }
@@ -10153,7 +10073,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Night March (2016)"
       }
@@ -10337,12 +10257,12 @@
     "total": 8,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Darkrai Mewtwo (2012)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "CMT (2012)"
       }
@@ -10359,7 +10279,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Spiritomb (2021)"
       }
@@ -10417,7 +10337,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Rapid Strike Urshifu (2021)"
       }
@@ -10434,7 +10354,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Alolan Ninetales (2017)"
       }
@@ -10474,7 +10394,7 @@
         "source": "Gothitelle (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Darkrai (2013)"
       },
@@ -10484,7 +10404,7 @@
         "source": "RayEels (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Blastoise (2013)"
       },
@@ -10494,7 +10414,7 @@
         "source": "Mega Kangaskhan (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Archie's Blastoise (2015)"
       }
@@ -10528,7 +10448,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Ho-Oh Salazzle (2017)"
       }
@@ -10545,7 +10465,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Gardevoir-GX (2017)"
       }
@@ -10688,7 +10608,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Malamar Rapid Strike (2022)"
       }
@@ -10782,7 +10702,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Night March (2016)"
       }
@@ -10909,12 +10829,12 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Malamar (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Perfection Mewtwo (2019)"
       }
@@ -10959,7 +10879,7 @@
         "source": "Greninja (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "DeciTales (2017)"
       }
@@ -10976,17 +10896,17 @@
     "total": 25,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Rapid Strike Urshifu (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Spiritomb (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Ice Rider (2021)"
       },
@@ -11001,7 +10921,7 @@
         "source": "Urshifu VMAX (2022)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Malamar Rapid Strike (2022)"
       },
@@ -11033,7 +10953,7 @@
         "source": "RayEels (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Blastoise (2013)"
       },
@@ -11043,7 +10963,7 @@
         "source": "Mega Kangaskhan (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Yveltal Raichu (2014)"
       }
@@ -11078,7 +10998,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Eternatus (2021)"
       }
@@ -11110,17 +11030,17 @@
         "source": "TDK (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Blastoise (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 5,
         "source": "Mega Rayquaza (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 5,
         "source": "Tapu Bulu Vikavolt (2017)"
       },
@@ -11160,7 +11080,7 @@
         "source": "Raging Bolt (2025)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 7,
         "source": "Turbo Rayquaza (2018)"
       }
@@ -11199,22 +11119,22 @@
     "total": 9,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Malamar (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Blacephalon GX (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Turbo Rayquaza (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Empoleon Swampert (2018)"
       }
@@ -11363,7 +11283,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Cinccino Mill (2020)"
       }
@@ -11471,7 +11391,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Cinccino Mill (2020)"
       }
@@ -11542,7 +11462,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Baby Blacephalon (2020)"
       }
@@ -11738,7 +11658,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Green's Reshizard (2019)"
       }
@@ -11834,7 +11754,7 @@
         "source": "Buzzwole Lycanroc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "ZoroRoc (2018)"
       }
@@ -11851,7 +11771,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Drampa Zoroark (2017)"
       }
@@ -11878,12 +11798,12 @@
         "source": "TDK (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Yveltal Raichu (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Archie's Blastoise (2015)"
       },
@@ -11893,7 +11813,7 @@
         "source": "Lando Bats (2015)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ToadBats (2015)"
       },
@@ -11913,7 +11833,7 @@
         "source": "Darkrai Giratina (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Night March (2016)"
       }
@@ -11935,7 +11855,7 @@
         "source": "Pikarom Judge (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Green's Reshizard (2019)"
       }
@@ -11988,7 +11908,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Mega Rayquaza (2017)"
       }
@@ -12041,12 +11961,12 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Perfection Mewtwo (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Cinccino Mill (2020)"
       }
@@ -12099,7 +12019,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Malamar Rapid Strike (2022)"
       }
@@ -12116,7 +12036,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Malamar (2019)"
       }
@@ -12133,12 +12053,12 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroRoc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "ZoroGardy (2018)"
       }
@@ -12155,7 +12075,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ADP Zacian (2020)"
       }
@@ -12205,32 +12125,32 @@
     "total": 25,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Combo Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ADP Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Rapid Strike Urshifu (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Ice Rider (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Shadow Rider (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Eternatus (2021)"
       },
@@ -12262,7 +12182,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Turbo Rayquaza (2018)"
       }
@@ -12284,7 +12204,7 @@
         "source": "Pikarom Judge (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Perfection Mewtwo (2019)"
       }
@@ -12301,7 +12221,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Empoleon Swampert (2018)"
       }
@@ -12318,7 +12238,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Combo Zacian (2020)"
       }
@@ -12340,7 +12260,7 @@
         "source": "Darkrai Giratina (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Ho-Oh Salazzle (2017)"
       },
@@ -12350,7 +12270,7 @@
         "source": "Buzzwole Lycanroc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Turbo Rayquaza (2018)"
       }
@@ -12367,17 +12287,17 @@
     "total": 5,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroPod (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroGardy (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Greninja (2018)"
       }
@@ -12410,21 +12330,34 @@
     "name": "Maximum Belt",
     "type": "Item",
     "key": "maximumbelt",
+    "set": "PRE",
+    "num": "117",
+    "printKey": "maximumbelt|PRE 117",
+    "image": "https://images.pokemontcg.io/sv8pt5/117_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Charizard Pidgeot (2025)"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "name": "Maximum Belt",
+    "type": "Item",
+    "key": "maximumbelt",
     "set": "TEF",
     "num": "154",
     "printKey": "maximumbelt|TEF 154",
     "image": "https://images.pokemontcg.io/sv5/154_hires.png",
-    "total": 2,
+    "total": 1,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
         "source": "Rocket's Mewtwo (2026)"
-      },
-      {
-        "version": "Authentic",
-        "qty": 1,
-        "source": "Charizard Pidgeot (2025)"
       }
     ],
     "verified": true
@@ -12437,11 +12370,11 @@
     "num": "",
     "printKey": "maximumbelt|",
     "image": "https://images.pokemontcg.io/sv5/154_hires.png",
-    "total": 2,
+    "total": 1,
     "variants": [
       {
         "version": "Standard",
-        "qty": 2,
+        "qty": 1,
         "source": "Spare"
       }
     ],
@@ -12538,7 +12471,7 @@
         "source": "Mega Audino (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Mega Rayquaza (2017)"
       }
@@ -12612,7 +12545,7 @@
     "total": 6,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Ice Rider (2021)"
       },
@@ -12651,7 +12584,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Blacephalon GX (2019)"
       }
@@ -12755,7 +12688,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ADP Zacian (2020)"
       }
@@ -12772,12 +12705,12 @@
     "total": 8,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Combo Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ADP Zacian (2020)"
       }
@@ -12829,7 +12762,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Night March (2016)"
       }
@@ -12846,7 +12779,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Malamar (2019)"
       },
@@ -12856,7 +12789,7 @@
         "source": "Pikarom Judge (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Cinccino Mill (2020)"
       }
@@ -12965,17 +12898,17 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroPod (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroRoc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroGardy (2018)"
       }
@@ -12992,7 +12925,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Spiritomb (2021)"
       }
@@ -13009,12 +12942,12 @@
     "total": 5,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Perfection Mewtwo (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Cinccino Mill (2020)"
       }
@@ -13031,12 +12964,12 @@
     "total": 11,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Darkrai Mewtwo (2012)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "CMT (2012)"
       },
@@ -13046,12 +12979,12 @@
         "source": "Mega Kangaskhan (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Archie's Blastoise (2015)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "ToadBats (2015)"
       }
@@ -13068,7 +13001,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Malamar (2019)"
       }
@@ -13085,7 +13018,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Cinccino Mill (2020)"
       }
@@ -13160,11 +13093,12 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Charizard Pidgeot (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Mist Energy",
@@ -13181,7 +13115,8 @@
         "qty": 4,
         "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Misty's Vitality",
@@ -13211,7 +13146,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Green's Reshizard (2019)"
       }
@@ -13290,7 +13225,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Combo Zacian (2020)"
       }
@@ -13307,7 +13242,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Empoleon Swampert (2018)"
       }
@@ -13324,7 +13259,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroRoc (2018)"
       }
@@ -13430,12 +13365,12 @@
         "source": "TDK (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Yveltal Raichu (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Archie's Blastoise (2015)"
       },
@@ -13445,7 +13380,7 @@
         "source": "Lando Bats (2015)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "ToadBats (2015)"
       }
@@ -13490,22 +13425,22 @@
         "source": "ZoroGarb (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Malamar (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Perfection Mewtwo (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Blacephalon GX (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Turbo Rayquaza (2018)"
       }
@@ -13537,12 +13472,12 @@
         "source": "TDK (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Yveltal Raichu (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Archie's Blastoise (2015)"
       },
@@ -13552,7 +13487,7 @@
         "source": "Lando Bats (2015)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "ToadBats (2015)"
       }
@@ -13589,32 +13524,32 @@
         "source": "Greninja (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Night March (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "DeciPod (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "GoliGarb (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Gardevoir-GX (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Alolan Ninetales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Ho-Oh Salazzle (2017)"
       },
@@ -13624,27 +13559,27 @@
         "source": "Mega Rayquaza (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Tapu Bulu Vikavolt (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Espeon Garbodor (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "DeciTales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Drampa Zoroark (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Buzz Garb Shrine (2018)"
       },
@@ -13664,12 +13599,12 @@
         "source": "ZoroGarb (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "ZoroPod (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "ZoroRoc (2018)"
       }
@@ -13686,12 +13621,12 @@
     "total": 22,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Darkrai Mewtwo (2012)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "CMT (2012)"
       },
@@ -13701,7 +13636,7 @@
         "source": "Gothitelle (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Darkrai (2013)"
       },
@@ -13716,7 +13651,7 @@
         "source": "TDK (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Blastoise (2013)"
       }
@@ -13963,7 +13898,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Blacephalon GX (2019)"
       }
@@ -13980,7 +13915,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Perfection Mewtwo (2019)"
       }
@@ -14012,19 +13947,25 @@
     "num": "123",
     "printKey": "nestball|SUM 123",
     "image": "https://images.pokemontcg.io/sm1/123_hires.png",
-    "total": 6,
+    "total": 7,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
+        "qty": 1,
+        "source": "Charizard Pidgeot (2025)"
+      },
+      {
+        "version": "Standard",
         "qty": 3,
         "source": "Buzz Garb Shrine (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Empoleon Swampert (2018)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Nest Ball",
@@ -14034,7 +13975,7 @@
     "num": "181",
     "printKey": "nestball|SVI 181",
     "image": "https://images.pokemontcg.io/sv1/181_hires.png",
-    "total": 30,
+    "total": 29,
     "variants": [
       {
         "version": "World Champs",
@@ -14080,13 +14021,9 @@
         "version": "World Champs",
         "qty": 4,
         "source": "Raging Bolt (2025)"
-      },
-      {
-        "version": "Authentic",
-        "qty": 1,
-        "source": "Charizard Pidgeot (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Night Maintenance",
@@ -14289,17 +14226,17 @@
     "total": 7,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Gardevoir-GX (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Alolan Ninetales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Buzz Garb Shrine (2018)"
       },
@@ -14326,7 +14263,7 @@
         "source": "Urshifu VMAX (2022)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Malamar Rapid Strike (2022)"
       }
@@ -14343,7 +14280,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ADP Zacian (2020)"
       }
@@ -14360,17 +14297,17 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroPod (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroRoc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Turbo Rayquaza (2018)"
       }
@@ -14387,12 +14324,12 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Combo Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Cinccino Mill (2020)"
       }
@@ -14409,7 +14346,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ADP Zacian (2020)"
       }
@@ -14426,17 +14363,17 @@
     "total": 7,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Cinccino Mill (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Spiritomb (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Shadow Rider (2021)"
       },
@@ -14446,7 +14383,7 @@
         "source": "Urshifu VMAX (2022)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Malamar Rapid Strike (2022)"
       }
@@ -14515,12 +14452,12 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Baby Blacephalon (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Spiritomb (2021)"
       }
@@ -14573,7 +14510,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Shadow Rider (2021)"
       },
@@ -14638,12 +14575,12 @@
         "source": "Reshizard Firebox (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Baby Blacephalon (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Cinccino Mill (2020)"
       }
@@ -14680,7 +14617,7 @@
         "source": "ZoroGarb (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "ZoroPod (2018)"
       }
@@ -14714,7 +14651,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Rapid Strike Urshifu (2021)"
       }
@@ -14731,12 +14668,12 @@
     "total": 12,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Ice Rider (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Shadow Rider (2021)"
       },
@@ -14826,7 +14763,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Blacephalon GX (2019)"
       }
@@ -14843,7 +14780,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Baby Blacephalon (2020)"
       }
@@ -14860,7 +14797,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Shadow Rider (2021)"
       }
@@ -14874,19 +14811,15 @@
     "num": "164",
     "printKey": "pidgeotex|OBF 164",
     "image": "https://images.pokemontcg.io/sv3/164_hires.png",
-    "total": 4,
+    "total": 2,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Spare"
-      },
-      {
-        "version": "Authentic",
-        "qty": 2,
         "source": "Charizard Pidgeot (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Pidgeotto",
@@ -14896,19 +14829,15 @@
     "num": "17",
     "printKey": "pidgeotto|MEW 17",
     "image": "https://images.pokemontcg.io/sv3pt5/17_hires.png",
-    "total": 2,
+    "total": 1,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Spare"
-      },
-      {
-        "version": "Authentic",
-        "qty": 1,
         "source": "Charizard Pidgeot (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Pikachu",
@@ -14921,7 +14850,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Yveltal Raichu (2014)"
       }
@@ -14997,7 +14926,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Empoleon Swampert (2018)"
       }
@@ -15060,12 +14989,12 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Darkrai Mewtwo (2012)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "CMT (2012)"
       }
@@ -15082,7 +15011,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Blacephalon GX (2019)"
       }
@@ -15244,12 +15173,12 @@
     "total": 8,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Green's Reshizard (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Perfection Mewtwo (2019)"
       }
@@ -15285,12 +15214,12 @@
     "total": 23,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Darkrai Mewtwo (2012)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "CMT (2012)"
       },
@@ -15300,7 +15229,7 @@
         "source": "Gothitelle (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Darkrai (2013)"
       },
@@ -15315,7 +15244,7 @@
         "source": "TDK (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Blastoise (2013)"
       }
@@ -15332,7 +15261,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Yveltal Raichu (2014)"
       }
@@ -15367,7 +15296,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Alolan Ninetales (2017)"
       }
@@ -15453,7 +15382,7 @@
     "total": 25,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Malamar (2019)"
       },
@@ -15468,32 +15397,32 @@
         "source": "Pikarom Judge (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Blacephalon GX (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Whimsicott GX (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Cinccino Mill (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Rapid Strike Urshifu (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Ice Rider (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Eternatus (2021)"
       }
@@ -15510,7 +15439,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Mega Rayquaza (2017)"
       }
@@ -15537,7 +15466,7 @@
         "source": "Greninja (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Night March (2016)"
       }
@@ -15618,7 +15547,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Whimsicott GX (2019)"
       }
@@ -15635,7 +15564,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Whimsicott GX (2019)"
       }
@@ -15652,7 +15581,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "CMT (2012)"
       }
@@ -15669,7 +15598,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Malamar (2019)"
       },
@@ -15679,7 +15608,7 @@
         "source": "Pikarom Judge (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Green's Reshizard (2019)"
       }
@@ -15829,7 +15758,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Empoleon Swampert (2018)"
       }
@@ -15846,7 +15775,7 @@
     "total": 10,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Darkrai Mewtwo (2012)"
       },
@@ -15949,7 +15878,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Whimsicott GX (2019)"
       }
@@ -15966,12 +15895,12 @@
     "total": 25,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Darkrai Mewtwo (2012)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "CMT (2012)"
       },
@@ -15981,7 +15910,7 @@
         "source": "Gothitelle (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Darkrai (2013)"
       },
@@ -15996,7 +15925,7 @@
         "source": "TDK (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Blastoise (2013)"
       }
@@ -16013,7 +15942,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Yveltal Raichu (2014)"
       }
@@ -16030,7 +15959,7 @@
     "total": 10,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Archie's Blastoise (2015)"
       },
@@ -16040,7 +15969,7 @@
         "source": "Lando Bats (2015)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ToadBats (2015)"
       }
@@ -16057,27 +15986,27 @@
     "total": 6,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Alolan Ninetales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Tapu Bulu Vikavolt (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Drampa Zoroark (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroRoc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Empoleon Swampert (2018)"
       }
@@ -16099,12 +16028,12 @@
         "source": "LuxChomp (2010)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Darkrai Mewtwo (2012)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "CMT (2012)"
       }
@@ -16161,57 +16090,57 @@
     "total": 63,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "DeciPod (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "GoliGarb (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Gardevoir-GX (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Alolan Ninetales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Ho-Oh Salazzle (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Mega Rayquaza (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Tapu Bulu Vikavolt (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Espeon Garbodor (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "DeciTales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Drampa Zoroark (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Buzz Garb Shrine (2018)"
       },
@@ -16231,12 +16160,12 @@
         "source": "ZoroGarb (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroPod (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroRoc (2018)"
       },
@@ -16246,12 +16175,12 @@
         "source": "ZoroGardy (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Greninja (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Turbo Rayquaza (2018)"
       }
@@ -16303,7 +16232,7 @@
         "source": "Greninja (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Night March (2016)"
       }
@@ -16365,7 +16294,7 @@
         "source": "VirGen (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Yveltal Raichu (2014)"
       }
@@ -16420,37 +16349,37 @@
     "total": 30,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Combo Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ADP Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Rapid Strike Urshifu (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Spiritomb (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Ice Rider (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Shadow Rider (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Eternatus (2021)"
       },
@@ -16522,12 +16451,12 @@
         "source": "Boltevoir (2010)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 8,
         "source": "Espeon Garbodor (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Buzz Garb Shrine (2018)"
       },
@@ -16537,22 +16466,22 @@
         "source": "Banette Garbodor (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 9,
         "source": "Malamar (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Perfection Mewtwo (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 14,
         "source": "Shadow Rider (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Malamar Rapid Strike (2022)"
       },
@@ -16684,7 +16613,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Night March (2016)"
       }
@@ -16701,7 +16630,7 @@
     "total": 15,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Night March (2016)"
       },
@@ -16711,12 +16640,12 @@
         "source": "ZoroGarb (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ZoroPod (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "ZoroRoc (2018)"
       }
@@ -16733,47 +16662,47 @@
     "total": 49,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Baby Blacephalon (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Combo Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Cinccino Mill (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ADP Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Rapid Strike Urshifu (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Spiritomb (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Ice Rider (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Shadow Rider (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Eternatus (2021)"
       },
@@ -16919,7 +16848,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Yveltal Raichu (2014)"
       }
@@ -17013,17 +16942,17 @@
     "total": 15,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "GoliGarb (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Drampa Zoroark (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Buzz Garb Shrine (2018)"
       },
@@ -17045,7 +16974,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Whimsicott GX (2019)"
       }
@@ -17085,12 +17014,12 @@
     "total": 8,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Gardevoir-GX (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ZoroGardy (2018)"
       }
@@ -17179,22 +17108,22 @@
     "total": 9,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Darkrai Mewtwo (2012)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "CMT (2012)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Darkrai (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Yveltal Raichu (2014)"
       }
@@ -17211,7 +17140,7 @@
     "total": 8,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Rapid Strike Urshifu (2021)"
       },
@@ -17250,7 +17179,7 @@
     "total": 7,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Rapid Strike Urshifu (2021)"
       },
@@ -17306,7 +17235,7 @@
     "total": 5,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Rapid Strike Urshifu (2021)"
       },
@@ -17328,7 +17257,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Empoleon Swampert (2018)"
       }
@@ -17351,7 +17280,7 @@
         "source": "Gothitelle (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Blastoise (2013)"
       }
@@ -17385,6 +17314,24 @@
     "name": "Rare Candy",
     "type": "Item",
     "key": "rarecandy",
+    "set": "PAF",
+    "num": "89",
+    "printKey": "rarecandy|PAF 89",
+    "image": "https://images.pokemontcg.io/sv4pt5/89_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Charizard Pidgeot (2025)"
+      }
+    ],
+    "verified": true
+  },
+  {
+    "name": "Rare Candy",
+    "type": "Item",
+    "key": "rarecandy",
     "set": "PGO",
     "num": "69",
     "printKey": "rarecandy|PGO 69",
@@ -17410,12 +17357,12 @@
     "total": 6,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Gardevoir-GX (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Tapu Bulu Vikavolt (2017)"
       }
@@ -17456,12 +17403,12 @@
     "total": 7,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "ZoroGardy (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Whimsicott GX (2019)"
       }
@@ -17476,7 +17423,7 @@
     "num": "191",
     "printKey": "rarecandy|SVI 191",
     "image": "https://images.pokemontcg.io/sv1/191_hires.png",
-    "total": 6,
+    "total": 3,
     "variants": [
       {
         "version": "World Champs",
@@ -17487,34 +17434,6 @@
         "version": "World Champs",
         "qty": 1,
         "source": "Dragapult (2025)"
-      },
-      {
-        "version": "Authentic",
-        "qty": 3,
-        "source": "Charizard Pidgeot (2025)"
-      }
-    ],
-    "verified": true
-  },
-  {
-    "name": "Rare Candy",
-    "type": "Item",
-    "key": "rarecandy",
-    "set": "",
-    "num": "",
-    "printKey": "rarecandy|",
-    "image": "https://images.pokemontcg.io/dp4/102_hires.png",
-    "total": 2,
-    "variants": [
-      {
-        "version": "Reverse Holo",
-        "qty": 1,
-        "source": "Spare"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
       }
     ],
     "verified": true
@@ -17530,7 +17449,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Mega Rayquaza (2017)"
       }
@@ -17565,7 +17484,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Mega Rayquaza (2017)"
       }
@@ -17582,7 +17501,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Turbo Rayquaza (2018)"
       }
@@ -17599,12 +17518,12 @@
     "total": 5,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Whimsicott GX (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Cinccino Mill (2020)"
       }
@@ -17675,12 +17594,12 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Gardevoir-GX (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Alolan Ninetales (2017)"
       }
@@ -17697,7 +17616,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Buzz Garb Shrine (2018)"
       },
@@ -17724,7 +17643,7 @@
         "source": "Urshifu VMAX (2022)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Malamar Rapid Strike (2022)"
       }
@@ -17764,7 +17683,7 @@
         "source": "Urshifu VMAX (2022)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Malamar Rapid Strike (2022)"
       }
@@ -17781,37 +17700,37 @@
     "total": 17,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "GoliGarb (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Gardevoir-GX (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Mega Rayquaza (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Espeon Garbodor (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "DeciTales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Drampa Zoroark (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Buzz Garb Shrine (2018)"
       },
@@ -17826,17 +17745,17 @@
         "source": "ZoroGarb (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Greninja (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Turbo Rayquaza (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Empoleon Swampert (2018)"
       }
@@ -17853,7 +17772,7 @@
     "total": 8,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Malamar (2019)"
       },
@@ -17863,22 +17782,22 @@
         "source": "Pikarom Judge (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Green's Reshizard (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Whimsicott GX (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Rapid Strike Urshifu (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Ice Rider (2021)"
       }
@@ -17900,12 +17819,12 @@
         "source": "Reshizard Firebox (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Green's Reshizard (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Perfection Mewtwo (2019)"
       }
@@ -17963,12 +17882,12 @@
         "source": "Vespiquen (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "DeciPod (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "DeciTales (2017)"
       }
@@ -17985,7 +17904,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "CMT (2012)"
       }
@@ -18048,7 +17967,7 @@
         "source": "Buzzwole Lycanroc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "ZoroRoc (2018)"
       }
@@ -18201,7 +18120,7 @@
     "total": 8,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Archie's Blastoise (2015)"
       },
@@ -18211,7 +18130,7 @@
         "source": "Greninja (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Alolan Ninetales (2017)"
       }
@@ -18228,12 +18147,12 @@
     "total": 7,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "DeciPod (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "DeciTales (2017)"
       }
@@ -18273,12 +18192,12 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Darkrai (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Yveltal Raichu (2014)"
       }
@@ -18349,7 +18268,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Ho-Oh Salazzle (2017)"
       }
@@ -18366,7 +18285,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Ho-Oh Salazzle (2017)"
       }
@@ -18418,12 +18337,12 @@
     "total": 18,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Combo Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Spiritomb (2021)"
       },
@@ -18438,7 +18357,7 @@
         "source": "Urshifu VMAX (2022)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Malamar Rapid Strike (2022)"
       }
@@ -18548,7 +18467,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "ToadBats (2015)"
       }
@@ -18582,7 +18501,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Shadow Rider (2021)"
       }
@@ -18633,7 +18552,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Shadow Rider (2021)"
       }
@@ -18726,12 +18645,12 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Darkrai Mewtwo (2012)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "CMT (2012)"
       }
@@ -18749,7 +18668,7 @@
     "total": 21,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Archie's Blastoise (2015)"
       },
@@ -18759,7 +18678,7 @@
         "source": "Lando Bats (2015)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "ToadBats (2015)"
       },
@@ -18779,12 +18698,12 @@
         "source": "Darkrai Giratina (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Night March (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Ho-Oh Salazzle (2017)"
       },
@@ -18794,7 +18713,7 @@
         "source": "Mega Rayquaza (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "DeciTales (2017)"
       }
@@ -18829,12 +18748,12 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Buzz Garb Shrine (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Green's Reshizard (2019)"
       }
@@ -18946,7 +18865,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Mega Rayquaza (2017)"
       }
@@ -18963,7 +18882,7 @@
     "total": 5,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "CMT (2012)"
       },
@@ -18995,7 +18914,7 @@
         "source": "TDK (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Blastoise (2013)"
       },
@@ -19022,12 +18941,12 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Mega Rayquaza (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Tapu Bulu Vikavolt (2017)"
       }
@@ -19103,12 +19022,12 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Darkrai Mewtwo (2012)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "CMT (2012)"
       }
@@ -19143,12 +19062,12 @@
     "total": 20,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Rapid Strike Urshifu (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Ice Rider (2021)"
       },
@@ -19163,7 +19082,7 @@
         "source": "Urshifu VMAX (2022)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Malamar Rapid Strike (2022)"
       }
@@ -19197,7 +19116,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Perfection Mewtwo (2019)"
       }
@@ -19253,17 +19172,17 @@
         "source": "Vespiquen (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Night March (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Drampa Zoroark (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Buzz Garb Shrine (2018)"
       }
@@ -19298,7 +19217,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Malamar (2019)"
       }
@@ -19315,7 +19234,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Spiritomb (2021)"
       }
@@ -19367,7 +19286,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Malamar Rapid Strike (2022)"
       }
@@ -19402,7 +19321,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Spiritomb (2021)"
       }
@@ -19424,7 +19343,7 @@
         "source": "Greninja (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Greninja (2018)"
       }
@@ -19487,7 +19406,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Blastoise (2013)"
       }
@@ -19509,7 +19428,7 @@
         "source": "Pikarom Judge (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Baby Blacephalon (2020)"
       }
@@ -19526,7 +19445,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Greninja (2018)"
       }
@@ -19553,7 +19472,7 @@
         "source": "TDK (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Yveltal Raichu (2014)"
       },
@@ -19568,7 +19487,7 @@
         "source": "Greninja (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Night March (2016)"
       }
@@ -19585,7 +19504,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Greninja (2018)"
       }
@@ -19602,7 +19521,7 @@
     "total": 10,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Buzz Garb Shrine (2018)"
       },
@@ -19612,7 +19531,7 @@
         "source": "Buzzwole Lycanroc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "ZoroRoc (2018)"
       }
@@ -19647,22 +19566,22 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "DeciPod (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Alolan Ninetales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Ho-Oh Salazzle (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Mega Rayquaza (2017)"
       }
@@ -19697,7 +19616,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Empoleon Swampert (2018)"
       }
@@ -19711,8 +19630,18 @@
     "num": "149",
     "printKey": "superrod|BKT 149",
     "image": "https://images.pokemontcg.io/xy8/149_hires.png",
-    "total": 11,
+    "total": 13,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Charizard Pidgeot (2025)"
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Charizard Pidgeot (2025)"
+      },
       {
         "version": "World Champs",
         "qty": 1,
@@ -19729,12 +19658,12 @@
         "source": "Greninja (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Gardevoir-GX (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Ho-Oh Salazzle (2017)"
       },
@@ -19744,16 +19673,17 @@
         "source": "Buzzwole Lycanroc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Greninja (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Turbo Rayquaza (2018)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Super Rod",
@@ -19776,11 +19706,12 @@
         "source": "Mega Kangaskhan (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Yveltal Raichu (2014)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Super Rod",
@@ -19813,7 +19744,7 @@
     "num": "188",
     "printKey": "superrod|PAL 188",
     "image": "https://images.pokemontcg.io/sv2/188_hires.png",
-    "total": 9,
+    "total": 7,
     "variants": [
       {
         "version": "World Champs",
@@ -19839,13 +19770,9 @@
         "version": "World Champs",
         "qty": 1,
         "source": "Gardevoir (2025)"
-      },
-      {
-        "version": "Authentic",
-        "qty": 2,
-        "source": "Charizard Pidgeot (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Super Scoop Up",
@@ -19881,7 +19808,7 @@
         "source": "Lando Bats (2015)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ToadBats (2015)"
       }
@@ -19898,7 +19825,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Darkrai Mewtwo (2012)"
       }
@@ -19943,12 +19870,12 @@
     "total": 8,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Blastoise (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Archie's Blastoise (2015)"
       }
@@ -19982,7 +19909,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Empoleon Swampert (2018)"
       }
@@ -20004,7 +19931,7 @@
         "source": "TDK (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Yveltal Raichu (2014)"
       }
@@ -20022,7 +19949,7 @@
     "total": 16,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Malamar (2019)"
       },
@@ -20037,17 +19964,17 @@
         "source": "Pikarom Judge (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Perfection Mewtwo (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Baby Blacephalon (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Combo Zacian (2020)"
       }
@@ -20083,12 +20010,12 @@
     "total": 5,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Darkrai Mewtwo (2012)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "CMT (2012)"
       }
@@ -20106,7 +20033,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Ho-Oh Salazzle (2017)"
       }
@@ -20142,27 +20069,27 @@
     "total": 16,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "ADP Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Rapid Strike Urshifu (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Spiritomb (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Shadow Rider (2021)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Eternatus (2021)"
       },
@@ -20241,7 +20168,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Cinccino Mill (2020)"
       }
@@ -20294,7 +20221,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Tapu Bulu Vikavolt (2017)"
       }
@@ -20316,7 +20243,7 @@
         "source": "Pikarom Judge (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Combo Zacian (2020)"
       }
@@ -20333,37 +20260,37 @@
     "total": 8,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "DeciPod (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "GoliGarb (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Alolan Ninetales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Mega Rayquaza (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Tapu Bulu Vikavolt (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "DeciTales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Empoleon Swampert (2018)"
       }
@@ -20398,7 +20325,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Mega Rayquaza (2017)"
       }
@@ -20432,52 +20359,52 @@
     "total": 40,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "DeciPod (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "GoliGarb (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Gardevoir-GX (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Alolan Ninetales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Ho-Oh Salazzle (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Mega Rayquaza (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Tapu Bulu Vikavolt (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Espeon Garbodor (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "DeciTales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Drampa Zoroark (2017)"
       },
@@ -20492,17 +20419,17 @@
         "source": "ZoroGarb (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "ZoroPod (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "ZoroRoc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroGardy (2018)"
       },
@@ -20512,7 +20439,7 @@
         "source": "ZoroGardy (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Turbo Rayquaza (2018)"
       }
@@ -20529,7 +20456,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Night March (2016)"
       }
@@ -20546,12 +20473,12 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Whimsicott GX (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Cinccino Mill (2020)"
       }
@@ -21335,22 +21262,22 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Night March (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "GoliGarb (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Espeon Garbodor (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Drampa Zoroark (2017)"
       }
@@ -21385,16 +21312,17 @@
     "total": 3,
     "variants": [
       {
+        "version": "Prize Pack Holo",
+        "qty": 1,
+        "source": "Charizard Pidgeot (2025)"
+      },
+      {
         "version": "World Champs",
         "qty": 2,
         "source": "Gardevoir (2025)"
-      },
-      {
-        "version": "Authentic",
-        "qty": 1,
-        "source": "Charizard Pidgeot (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Technical Machine: Evolution",
@@ -21411,7 +21339,8 @@
         "qty": 1,
         "source": "Spare"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Technical Machine: Turbo Energize",
@@ -21533,12 +21462,12 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Darkrai Mewtwo (2012)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "CMT (2012)"
       }
@@ -21614,7 +21543,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Empoleon Swampert (2018)"
       }
@@ -21654,7 +21583,7 @@
         "source": "Gothitelle (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Darkrai (2013)"
       },
@@ -21681,17 +21610,17 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Combo Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ADP Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Rapid Strike Urshifu (2021)"
       }
@@ -21725,7 +21654,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "CMT (2012)"
       }
@@ -21765,7 +21694,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Rapid Strike Urshifu (2021)"
       },
@@ -21775,7 +21704,7 @@
         "source": "Urshifu VMAX (2022)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Malamar Rapid Strike (2022)"
       }
@@ -21851,7 +21780,7 @@
     "total": 13,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Archie's Blastoise (2015)"
       },
@@ -21866,7 +21795,7 @@
         "source": "Darkrai Giratina (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Night March (2016)"
       }
@@ -21919,7 +21848,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Whimsicott GX (2019)"
       }
@@ -21946,7 +21875,7 @@
         "source": "RayEels (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Blastoise (2013)"
       },
@@ -21973,17 +21902,17 @@
         "source": "Darkrai Giratina (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "GoliGarb (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Espeon Garbodor (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Buzz Garb Shrine (2018)"
       },
@@ -22051,7 +21980,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Ho-Oh Salazzle (2017)"
       }
@@ -22172,7 +22101,7 @@
     "total": 28,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Darkrai Mewtwo (2012)"
       },
@@ -22182,7 +22111,7 @@
         "source": "Gothitelle (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Darkrai (2013)"
       },
@@ -22197,7 +22126,7 @@
         "source": "TDK (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Blastoise (2013)"
       },
@@ -22217,7 +22146,7 @@
         "source": "TDK (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Yveltal Raichu (2014)"
       }
@@ -22235,7 +22164,7 @@
     "total": 23,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Buzz Garb Shrine (2018)"
       },
@@ -22250,17 +22179,17 @@
         "source": "Banette Garbodor (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ZoroPod (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ZoroRoc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ZoroGardy (2018)"
       }
@@ -22298,7 +22227,7 @@
         "source": "Darkrai Giratina (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Night March (2016)"
       }
@@ -22313,8 +22242,13 @@
     "num": "131",
     "printKey": "ultraball|MEG 131",
     "image": "https://images.pokemontcg.io/me1/131_hires.png",
-    "total": 4,
+    "total": 7,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Charizard Pidgeot (2025)"
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -22372,7 +22306,7 @@
     "total": 12,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Archie's Blastoise (2015)"
       },
@@ -22382,7 +22316,7 @@
         "source": "Lando Bats (2015)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ToadBats (2015)"
       }
@@ -22405,42 +22339,42 @@
         "source": "Slowking (2026)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "DeciPod (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "GoliGarb (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Gardevoir-GX (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Alolan Ninetales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Ho-Oh Salazzle (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Mega Rayquaza (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Tapu Bulu Vikavolt (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Drampa Zoroark (2017)"
       }
@@ -22458,22 +22392,22 @@
     "total": 14,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Espeon Garbodor (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "DeciTales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Greninja (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Turbo Rayquaza (2018)"
       }
@@ -22488,7 +22422,7 @@
     "num": "196",
     "printKey": "ultraball|SVI 196",
     "image": "https://images.pokemontcg.io/sv1/196_hires.png",
-    "total": 21,
+    "total": 18,
     "variants": [
       {
         "version": "Standard",
@@ -22519,11 +22453,6 @@
         "version": "World Champs",
         "qty": 4,
         "source": "Dragapult (2025)"
-      },
-      {
-        "version": "Authentic",
-        "qty": 3,
-        "source": "Charizard Pidgeot (2025)"
       }
     ],
     "verified": true
@@ -22536,16 +22465,11 @@
     "num": "",
     "printKey": "ultraball|",
     "image": "https://images.pokemontcg.io/bw5/102_hires.png",
-    "total": 4,
+    "total": 1,
     "variants": [
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Spare"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
         "source": "Spare"
       }
     ],
@@ -22562,12 +22486,12 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Blacephalon GX (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Baby Blacephalon (2020)"
       }
@@ -22620,7 +22544,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Whimsicott GX (2019)"
       }
@@ -22837,7 +22761,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Tapu Bulu Vikavolt (2017)"
       }
@@ -22854,7 +22778,7 @@
     "total": 10,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Darkrai (2013)"
       },
@@ -22869,12 +22793,12 @@
         "source": "TDK (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Yveltal Raichu (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "ToadBats (2015)"
       }
@@ -22891,12 +22815,12 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Malamar (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Perfection Mewtwo (2019)"
       }
@@ -22931,7 +22855,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Ho-Oh Salazzle (2017)"
       }
@@ -22948,7 +22872,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Green's Reshizard (2019)"
       }
@@ -22982,7 +22906,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Ho-Oh Salazzle (2017)"
       }
@@ -23034,7 +22958,7 @@
     "total": 58,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Archie's Blastoise (2015)"
       },
@@ -23044,7 +22968,7 @@
         "source": "Lando Bats (2015)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ToadBats (2015)"
       },
@@ -23069,47 +22993,47 @@
         "source": "Greninja (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Night March (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "DeciPod (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "GoliGarb (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Gardevoir-GX (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Alolan Ninetales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Tapu Bulu Vikavolt (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Espeon Garbodor (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "DeciTales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Drampa Zoroark (2017)"
       }
@@ -23230,7 +23154,7 @@
         "source": "TDK (2013)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 10,
         "source": "Blastoise (2013)"
       },
@@ -23240,12 +23164,12 @@
         "source": "Mega Kangaskhan (2014)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 11,
         "source": "Archie's Blastoise (2015)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "ToadBats (2015)"
       },
@@ -23255,22 +23179,22 @@
         "source": "Greninja (2016)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 7,
         "source": "Alolan Ninetales (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 6,
         "source": "Greninja (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "ADP Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 8,
         "source": "Ice Rider (2021)"
       },
@@ -23285,7 +23209,7 @@
         "source": "Lost Box Kyogre (2023)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 5,
         "source": "Empoleon Swampert (2018)"
       }
@@ -23329,22 +23253,22 @@
         "source": "Reshizard Firebox (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Green's Reshizard (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Perfection Mewtwo (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Blacephalon GX (2019)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Baby Blacephalon (2020)"
       }
@@ -23361,7 +23285,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Whimsicott GX (2019)"
       }
@@ -23378,7 +23302,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Whimsicott GX (2019)"
       }
@@ -23395,17 +23319,17 @@
     "total": 10,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "DeciPod (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "GoliGarb (2017)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "ZoroPod (2018)"
       }
@@ -23440,7 +23364,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Gardevoir-GX (2017)"
       }
@@ -23457,7 +23381,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Whimsicott GX (2019)"
       }
@@ -23546,7 +23470,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "ToadBats (2015)"
       },
@@ -23685,7 +23609,7 @@
     "total": 3,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "Yveltal Raichu (2014)"
       }
@@ -23720,22 +23644,22 @@
     "total": 10,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Baby Blacephalon (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Combo Zacian (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Cinccino Mill (2020)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 3,
         "source": "ADP Zacian (2020)"
       }
@@ -23787,7 +23711,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "Whimsicott GX (2019)"
       }
@@ -23840,7 +23764,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Drampa Zoroark (2017)"
       }
@@ -23857,7 +23781,7 @@
     "total": 2,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 2,
         "source": "Drampa Zoroark (2017)"
       }
@@ -23879,17 +23803,17 @@
         "source": "ZoroGarb (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ZoroPod (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ZoroRoc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ZoroGardy (2018)"
       }
@@ -23923,7 +23847,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "Drampa Zoroark (2017)"
       }
@@ -23945,17 +23869,17 @@
         "source": "ZoroGarb (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ZoroPod (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ZoroRoc (2018)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 1,
         "source": "ZoroGardy (2018)"
       }
@@ -23994,7 +23918,7 @@
         "source": "Lando Bats (2015)"
       },
       {
-        "version": "Authentic",
+        "version": "Standard",
         "qty": 4,
         "source": "ToadBats (2015)"
       }

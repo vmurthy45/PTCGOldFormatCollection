@@ -5,6 +5,11 @@ verified, AND cards the deck needs that the inventory doesn't attribute to it at
 all (shared staples, whose copies are only inferred at display time). Cards
 flagged missing for the deck are listed separately so they're never reported as
 physically present.
+
+    --copy   paste-back format: "Nx Card Name = " for Vig to fill in
+    --all    every card in the box, not just the unconfirmed ones, with the
+             set code the decklist expects pre-filled so most lines are a
+             yes/no rather than something to write out
 """
 import json
 import re
@@ -24,6 +29,23 @@ def key(s):
     return re.sub(r"[^a-z0-9]+", "", s)
 
 
+ID_TO_CODE = None
+
+
+def set_code(c):
+    """The set the decklist says this card comes from: 'PAL 185', or 'basic'."""
+    global ID_TO_CODE
+    if ID_TO_CODE is None:
+        sys.path.insert(0, str(ROOT / "scripts"))
+        from build_inventory import CODE_TO_ID
+        ID_TO_CODE = {v: k for k, v in CODE_TO_ID.items()}
+    url = c.get("image") or ""
+    m = (re.search(r"pokemontcg\.io/([^/]+)/", url)
+         or re.search(r"scrydex\.com/pokemon/([a-z0-9]+)-", url, re.I))
+    num = str(c.get("set") or "").split("/")[0]
+    return f"{ID_TO_CODE.get(m.group(1), '?')} {num}".strip() if m and num else "basic"
+
+
 def main():
     deck = sys.argv[1]
     inv = json.loads((ROOT / "data/inventory.json").read_text(encoding="utf-8"))
@@ -32,6 +54,7 @@ def main():
     if not rows:
         sys.exit(f"no such deck: {deck}")
 
+    cards_by_name = {c["name"]: c for c in rows}
     claim = defaultdict(int)
     verified = defaultdict(bool)
     by_key = defaultdict(list)
@@ -42,6 +65,7 @@ def main():
                 claim[e["key"]] += v["qty"]
                 verified[e["key"]] = verified[e["key"]] or bool(e.get("verified"))
 
+    every = "--all" in sys.argv
     missing, todo = [], []
     for c in sorted(rows, key=lambda c: (c["category"], c["name"])):
         k = key(c["name"])
@@ -52,7 +76,7 @@ def main():
         need = c["count"] - m
         if need == 0:          # wholly missing card: nothing physical to confirm
             continue
-        if need > have or not verified.get(k):
+        if every or need > have or not verified.get(k):
             known = [f"{v['qty']} {v['version']}" for e in by_key.get(k, [])
                      for v in e["variants"] if v["source"] == deck]
             todo.append((need, c["name"], c["set"], known, need - have))
@@ -63,7 +87,7 @@ def main():
         if missing:
             print("# missing, not in the box: " + ", ".join(missing))
         for need, name, st, known, gap in todo:
-            print(f"{need}x {name} = ")
+            print(f"{need}x {name} = {set_code(cards_by_name[name]) if every else ''}".rstrip())
         return
     print(f"{deck}: {sum(c['count'] for c in rows)} cards")
     if missing:

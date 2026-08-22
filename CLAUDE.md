@@ -34,6 +34,8 @@ Hosted free on GitHub Pages.
 - `data/cards.json` — every card line for every deck. Each row:
   `{year, deck, count, name, set, category, image, prints}`. `prints` is
   `{authentic, wc, proxy}` — how many of the row's `count` copies you own of
+  each print. `authentic` is the plain retail printing; it is shown to Vig as
+  **Standard** everywhere in the UI (the JSON key keeps its original name).
   each print type (see "Print-type tracking / Missing-card tracking" below).
   There is no stored `missing` field any more: **missing is derived** =
   `count - (authentic+wc+proxy)`. `category` is one of
@@ -95,9 +97,9 @@ Hosted free on GitHub Pages.
   **Display groups by print, not by row.** `renderInventory()` buckets a card's
   variants by `set + num` first, because two prints are genuinely different
   cards (Azelf LA 19 vs Azelf MT 4 must never interleave). Print *type*
-  (World Champs / Authentic / Proxy / Standard / Reverse Holo...) is a separate
+  (World Champs / Standard / Proxy / Reverse Holo...) is a separate
   axis, so all types of one print sit under a single heading with the deck
-  holding each — e.g. Ultra Ball SVI 196 shows its WC and Authentic copies
+  holding each — e.g. Ultra Ball SVI 196 shows its WC and Standard copies
   together. Variants with no set recorded collect under "Set unknown" at the
   bottom, pending Vig's physical check.
   **Explicit deck assignments + verification (Vig's ongoing pass):** he is
@@ -296,7 +298,7 @@ is `authentic + wc + proxy <= count`; the leftover, **`count - sum`, is what
 Vig is Missing**. There is no separate `missing` field — it's always derived.
 All existing owned copies were seeded to `authentic` on 2026-08-15; Vig
 dictates the exceptions in chat and I hand-edit `cards.json`:
-- *"Sycamore: 2 WC, 1 Authentic, 1 Proxy"* (count 4) → `prints:{authentic:1,
+- *"Sycamore: 2 WC, 1 Standard, 1 Proxy"* (count 4) → `prints:{authentic:1,
   wc:2, proxy:1}` (missing 0).
 - *"2x Pidgey missing"* (count 2, was all authentic) → `prints:{authentic:0,
   wc:0, proxy:0}` (missing 2). Marking missing = **lower the owned buckets**
@@ -309,7 +311,7 @@ rows, its `prints` are lost unless re-added; new rows default to
 `{authentic:count, wc:0, proxy:0}`.
 
 `index.html` renders per-copy **pips** in the expanded deck view only
-(collapsed rows untouched), ordered **Authentic (green) → WC (grey) → Proxy
+(collapsed rows untouched), ordered **Standard (green) → WC (grey) → Proxy
 (blue) → Missing (dashed red)**; a slim `Prints` legend sits atop each
 expanded list. Pokémon/Trainers/special energy show one pip per copy; basic
 energy collapses to `count + one pip` per bucket. Helpers `printsOf(c)` /

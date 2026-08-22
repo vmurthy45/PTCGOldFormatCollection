@@ -27,7 +27,7 @@
     --chip-bg:#ffffff; --rules-header:#202225; --rules-panel:#ffffff;
     --miss-red-line:#d5303b; --miss-red-bg:rgba(213,48,59,.13);
     --miss-orange-line:#d9820f; --miss-orange-bg:rgba(224,138,30,.16);
-    /* print-type pips: Authentic / World Champs / Proxy / Missing */
+    /* print-type pips: Standard / World Champs / Proxy / Missing */
     --pip-auth:#2FA84A; --pip-wc:#9AA4B2; --pip-proxy:#3B82F6; --pip-miss:#d5303b;
   }
   :root[data-theme="dark"]{
@@ -1076,6 +1076,7 @@ function matches(c, q){
 }
 
 // Print-type model: prints{authentic,wc,proxy} are the copies owned by print,
+// where `authentic` is the plain retail printing, shown to Vig as "Standard".
 // and Missing is derived (count minus what you own) so the Missing filter and
 // the "N cards" counts still work without a separate stored field.
 function printsOf(c){
@@ -1107,7 +1108,7 @@ function printPipsHtml(c){
       .map(([k, cls]) => `<span class="single"><span class="cn">${buckets[k]}</span><span class="pip ${cls}"></span></span>`)
       .join('');
   }
-  // one pip per copy, ordered Authentic -> WC -> Proxy -> Missing
+  // one pip per copy, ordered Standard -> WC -> Proxy -> Missing
   return PIP_ORDER
     .map(([k, cls]) => `<span class="pip ${cls}"></span>`.repeat(buckets[k]))
     .join('');
@@ -1246,7 +1247,7 @@ function render(){
     // print-type key + copy button, shown only inside the expanded card list
     const legend = document.createElement('div');
     legend.className = 'deck-legend';
-    legend.innerHTML = `<span class="lg"><span class="pip auth"></span>Authentic</span>`
+    legend.innerHTML = `<span class="lg"><span class="pip auth"></span>Standard</span>`
       + `<span class="lg"><span class="pip wc"></span>WC</span>`
       + `<span class="lg"><span class="pip proxy"></span>Proxy</span>`
       + `<span class="lg"><span class="pip miss"></span>Missing</span>`;
@@ -1464,7 +1465,7 @@ function renderInventory(){
     // fallback covers any row written before the per-print split
     const img = g.image || (g.variants.find(v => v.image) || {}).image || '';
     // One row per print already, so just list this print's types and the deck
-    // holding each. Print type (World Champs / Authentic / Proxy / Standard...)
+    // holding each. Print type (World Champs / Standard / Proxy / Reverse Holo...)
     // is the second axis: several types of the SAME print sit together here.
     const vars = g.variants.map(v => {
       const src = v.source && v.source !== 'Spare'
@@ -1600,7 +1601,7 @@ async function copyCardsToGet(btn){
 function statSegBar(a, w, p, m, tot, cls){
   const pc = v => tot ? (v / tot * 100) : 0;
   return `<div class="st-bar ${cls || ''}">`
-    + (a ? `<span class="st-seg auth" style="width:${pc(a)}%" title="Authentic ${a}"></span>` : '')
+    + (a ? `<span class="st-seg auth" style="width:${pc(a)}%" title="Standard ${a}"></span>` : '')
     + (w ? `<span class="st-seg wc" style="width:${pc(w)}%" title="WC ${w}"></span>` : '')
     + (p ? `<span class="st-seg proxy" style="width:${pc(p)}%" title="Proxy ${p}"></span>` : '')
     + (m ? `<span class="st-seg miss" style="width:${pc(m)}%" title="Missing ${m}"></span>` : '')
@@ -1641,7 +1642,7 @@ function renderStats(){
   const tile = (num, lbl) => `<div class="st-tile"><div class="st-num">${num}</div><div class="st-lbl">${lbl}</div></div>`;
 
   const legend = [
-    ['auth', 'Authentic', A], ['wc', 'WC', W], ['proxy', 'Proxy', P], ['miss', 'Missing', M],
+    ['auth', 'Standard', A], ['wc', 'WC', W], ['proxy', 'Proxy', P], ['miss', 'Missing', M],
   ].map(([cls, name, n]) =>
     `<span class="st-key"><span class="pip ${cls}"></span>${name} — <b>${n}</b> (${pctOf(n)}%)</span>`
   ).join('');
