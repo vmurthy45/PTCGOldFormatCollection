@@ -313,6 +313,20 @@ separate rows because they are not interchangeable: Garbodor GRI 51
 merging any duplicate-name pair, check the abilities/attacks via the card API —
 same rules text means a reprint and can merge; different text means two cards.
 
+`scripts/align_deck_prints.py` enforces this. For every **fully verified** deck
+it compares each deck row against the prints the inventory says that box holds,
+and rewrites the row's `set`/`image` to the majority print (`--fix`). Run it
+after verifying a box. It deliberately leaves alone:
+- **basic energy** — a decklist keeps an empty `set`, which is also the key
+  `merge_image_urls.py` uses for its `URL_OVERRIDES`; give one a real set number
+  and that script deletes the image on its next run;
+- **Japanese-only sets** (M2a, M3, MEP, s12a) — the decklist names the English
+  print it stands in for, only the inventory records the Japanese card;
+- **exact ties** (2 of one print, 2 of another) — no majority, so the existing
+  row stands;
+- **unverified decks** — their inventory is still inference, so it has no
+  authority over the list.
+
 ### Deck ordering (alphabetical — automatic)
 
 Decks are **always shown alphabetically** (case-insensitive), and this is
