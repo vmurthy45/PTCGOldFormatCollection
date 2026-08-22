@@ -341,6 +341,62 @@ after verifying a box. It deliberately leaves alone:
 - **unverified decks** — their inventory is still inference, so it has no
   authority over the list.
 
+### TODO — basic energy prints not yet identified
+
+Vig is identifying which printing of each basic energy sits in each box as he
+works through the years. **47 stacks across 29 already-verified decks predate
+that**, so they carry no print. He has parked these deliberately: finish the
+remaining years first (2019, 2018, 2017, 2016, 2015, 2014, 2013), then revisit
+these boxes. Do not chase him for them before then.
+
+Two shapes, both of which `align_deck_prints.py` leaves off a decklist:
+
+- **`XY` placeholder row, no card number** — print genuinely unknown. This is
+  the merge script's stand-in for "a basic energy, printing not recorded", and
+  is what all of 2010 / 2022-2025 still uses.
+- **A set but no card number** (`SSH`, and the set-less 2026 rows) — SWSH-era
+  basic energies are printed *without* a collector number, so there is nothing
+  to put after the set code. **Ask Vig how he wants these shown** — just the
+  set code, or left blank as now. Affects ADP Zacian, Ice Rider, Shadow Rider
+  and Spiritomb, plus the nine 2026 decks whose basics were never asked about.
+
+Decks affected:
+
+```
+  ADP Flying Pikachu (2022)    3x Fighting Energy, 4x Lightning Energy
+  ADP Zacian (2020)            8x Metal Energy, 2x Water Energy
+  Alakazam (2026)              1x Psychic Energy
+  Ancient Toolbox (2024)       6x Darkness Energy
+  Boltevoir (2010)             1x Fighting Energy, 5x Psychic Energy
+  Charizard Pidgeot (2025)     6x Fire Energy
+  Cynthia's Garchomp (2026)    4x Fighting Energy
+  Dragapult (2025)             1x Fire Energy, 2x Psychic Energy
+  Dragapult (2026)             2x Darkness Energy, 3x Fire Energy, 4x Psychic Energy
+  Dragapult Dusknoir (2026)    2x Darkness Energy, 3x Fire Energy, 3x Psychic Energy
+  Gardevoir (2023)             10x Psychic Energy
+  Gardevoir (2025)             4x Darkness Energy, 7x Psychic Energy
+  Hide 'n' Sneak (2026)        2x Psychic Energy
+  Ice Rider (2021)             8x Water Energy
+  Ice Rider Palkia (2022)      8x Water Energy
+  Iron Thorns (2024)           7x Lightning Energy
+  Joltdengo (2025)             4x Grass Energy, 4x Lightning Energy, 3x Metal Energy
+  Jumpluff (2010)              6x Grass Energy
+  Lost Box Kyogre (2023)       3x Lightning Energy, 3x Psychic Energy, 5x Water Energy
+  LuxChomp (2010)              2x Lightning Energy, 2x Metal Energy
+  Miraidon (2024)              16x Lightning Energy
+  N's Zoroark (2026)           7x Darkness Energy
+  Raging Bolt (2025)           3x Fighting Energy, 6x Grass Energy, 3x Lightning Energy
+  Regidrago (2024)             3x Fire Energy, 7x Grass Energy
+  Rocket's Mewtwo (2026)       6x Grass Energy, 1x Psychic Energy
+  Shadow Rider (2021)          14x Psychic Energy
+  Slowking (2026)              4x Psychic Energy
+  Spiritomb (2021)             3x Darkness Energy
+  Urshifu VMAX (2022)          3x Fighting Energy
+```
+
+When picking this back up, a compact energy-only checklist is enough — the rest
+of those boxes is already verified.
+
 ### Deck ordering (alphabetical — automatic)
 
 Decks are **always shown alphabetically** (case-insensitive), and this is
