@@ -1534,8 +1534,8 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/bw5/63_hires.png",
     "prints": {
-      "authentic": 3,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 3,
       "proxy": 0
     }
   },
@@ -1546,10 +1546,10 @@
     "name": "Mewtwo-EX",
     "set": "54/99",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/bw11/54_hires.png",
+    "image": "https://images.pokemontcg.io/bw4/54_hires.png",
     "prints": {
-      "authentic": 3,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 3,
       "proxy": 0
     }
   },
@@ -1562,8 +1562,8 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/bw3/73_hires.png",
     "prints": {
-      "authentic": 2,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 2,
       "proxy": 0
     }
   },
@@ -1576,8 +1576,8 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/hgss2/8_hires.png",
     "prints": {
-      "authentic": 2,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 2,
       "proxy": 0
     }
   },
@@ -1590,8 +1590,8 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/hgss3/8_hires.png",
     "prints": {
-      "authentic": 2,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 2,
       "proxy": 0
     }
   },
@@ -1604,8 +1604,8 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/hgss1/101_hires.png",
     "prints": {
-      "authentic": 4,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 4,
       "proxy": 0
     }
   },
@@ -1614,12 +1614,12 @@
     "deck": "Darkrai Mewtwo (2012)",
     "count": 2,
     "name": "N",
-    "set": "92/101",
+    "set": "96/108",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/bw3/92_hires.png",
+    "image": "https://images.pokemontcg.io/bw5/96_hires.png",
     "prints": {
-      "authentic": 2,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 2,
       "proxy": 0
     }
   },
@@ -1628,12 +1628,12 @@
     "deck": "Darkrai Mewtwo (2012)",
     "count": 3,
     "name": "Professor Juniper",
-    "set": "101/114",
+    "set": "98/108",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/bw1/101_hires.png",
+    "image": "https://images.pokemontcg.io/bw5/98_hires.png",
     "prints": {
-      "authentic": 3,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 3,
       "proxy": 0
     }
   },
@@ -1646,8 +1646,8 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/hgss4/87_hires.png",
     "prints": {
-      "authentic": 4,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 4,
       "proxy": 0
     }
   },
@@ -1660,8 +1660,8 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/bw2/95_hires.png",
     "prints": {
-      "authentic": 3,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 3,
       "proxy": 0
     }
   },
@@ -1674,8 +1674,8 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/bw5/99_hires.png",
     "prints": {
-      "authentic": 2,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 2,
       "proxy": 0
     }
   },
@@ -1688,8 +1688,8 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/bw5/93_hires.png",
     "prints": {
-      "authentic": 4,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 4,
       "proxy": 0
     }
   },
@@ -1702,8 +1702,8 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/bw3/91_hires.png",
     "prints": {
-      "authentic": 3,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 3,
       "proxy": 0
     }
   },
@@ -1712,12 +1712,12 @@
     "deck": "Darkrai Mewtwo (2012)",
     "count": 2,
     "name": "PlusPower",
-    "set": "80/95",
+    "set": "96/114",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/hgss2/80_hires.png",
+    "image": "https://images.pokemontcg.io/bw1/96_hires.png",
     "prints": {
-      "authentic": 2,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 2,
       "proxy": 0
     }
   },
@@ -1726,12 +1726,12 @@
     "deck": "Darkrai Mewtwo (2012)",
     "count": 2,
     "name": "Switch",
-    "set": "102/123",
+    "set": "104/114",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/hgss1/102_hires.png",
+    "image": "https://images.pokemontcg.io/bw1/104_hires.png",
     "prints": {
-      "authentic": 2,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 2,
       "proxy": 0
     }
   },
@@ -1744,8 +1744,8 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/bw5/102_hires.png",
     "prints": {
-      "authentic": 2,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 2,
       "proxy": 0
     }
   },
@@ -1758,8 +1758,8 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/ex4/72_hires.png",
     "prints": {
-      "authentic": 1,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 1,
       "proxy": 0
     }
   },
@@ -1768,12 +1768,12 @@
     "deck": "Darkrai Mewtwo (2012)",
     "count": 2,
     "name": "Super Scoop Up",
-    "set": "83/95",
+    "set": "103/114",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/hgss2/83_hires.png",
+    "image": "https://images.pokemontcg.io/bw1/103_hires.png",
     "prints": {
-      "authentic": 2,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 2,
       "proxy": 0
     }
   },
@@ -1786,8 +1786,8 @@
     "category": "Energy",
     "image": "https://images.pokemontcg.io/bw4/93_hires.png",
     "prints": {
-      "authentic": 2,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 2,
       "proxy": 0
     }
   },
@@ -1796,12 +1796,12 @@
     "deck": "Darkrai Mewtwo (2012)",
     "count": 3,
     "name": "Double Colorless Energy",
-    "set": "103/123",
+    "set": "92/99",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/hgss1/103_hires.png",
+    "image": "https://images.pokemontcg.io/bw4/92_hires.png",
     "prints": {
-      "authentic": 3,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 3,
       "proxy": 0
     }
   },
@@ -1814,8 +1814,8 @@
     "category": "Energy",
     "image": "https://images.pokemontcg.io/xy1/138_hires.png",
     "prints": {
-      "authentic": 7,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 7,
       "proxy": 0
     }
   },
@@ -1828,8 +1828,8 @@
     "category": "Energy",
     "image": "https://images.pokemontcg.io/xy1/137_hires.png",
     "prints": {
-      "authentic": 2,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 2,
       "proxy": 0
     }
   },
@@ -1842,8 +1842,8 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/hgss4/92_hires.png",
     "prints": {
-      "authentic": 3,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 3,
       "proxy": 0
     }
   },
@@ -1856,8 +1856,8 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/hgss3/8_hires.png",
     "prints": {
-      "authentic": 2,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 2,
       "proxy": 0
     }
   },
@@ -1870,8 +1870,8 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/bw3/73_hires.png",
     "prints": {
-      "authentic": 2,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 2,
       "proxy": 0
     }
   },
@@ -1898,8 +1898,8 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/hgss2/8_hires.png",
     "prints": {
-      "authentic": 1,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 1,
       "proxy": 0
     }
   },
@@ -1912,8 +1912,8 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/bw4/54_hires.png",
     "prints": {
-      "authentic": 3,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 3,
       "proxy": 0
     }
   },
@@ -1926,8 +1926,8 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/col1/83_hires.png",
     "prints": {
-      "authentic": 4,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 4,
       "proxy": 0
     }
   },
@@ -1954,8 +1954,8 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/bw5/98_hires.png",
     "prints": {
-      "authentic": 3,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 3,
       "proxy": 0
     }
   },
@@ -1968,8 +1968,8 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/bw5/99_hires.png",
     "prints": {
-      "authentic": 3,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 3,
       "proxy": 0
     }
   },
@@ -2094,8 +2094,8 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/hgss4/87_hires.png",
     "prints": {
-      "authentic": 4,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 4,
       "proxy": 0
     }
   },
@@ -2136,8 +2136,8 @@
     "category": "Energy",
     "image": "https://images.pokemontcg.io/bw4/92_hires.png",
     "prints": {
-      "authentic": 4,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 4,
       "proxy": 0
     }
   },

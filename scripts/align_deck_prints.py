@@ -1,4 +1,15 @@
-"""Make each deck line show the print that deck actually mostly holds.
+"""Make each deck line match the box: its print, and its print TYPE.
+
+Two passes, both only over fully verified decks.
+
+1. the print shown on the row (set number + image) — the majority one the box
+   actually holds;
+2. the row's `prints{authentic, wc, proxy}`, which drives the coloured pips in
+   the expanded deck view. A stack's inventory version says which bucket it
+   belongs in: "World Champs" -> wc, "Proxy" -> proxy, and every other version
+   (Standard, Holo, Reverse Holo, Prize Pack, Japanese, Full Art) is a retail
+   copy -> authentic. Missing stays whatever `count` minus the owned buckets
+   leaves, so it is never touched directly.
 
 A decklist carries ONE row per card name (Vig's preference — the list reads
 tidily). When a verified box turns out to hold two printings of the same card,
@@ -158,6 +169,42 @@ def main():
                 c["set"] = f"{num}/{tot}"
                 c["image"] = url
 
+    # ---- pass 2: print type, so the pips match the box --------------------
+    WC, PROXY = "World Champs", "Proxy"
+    pips = []
+    for deck in sorted(verified):
+        owned = defaultdict(lambda: {"authentic": 0, "wc": 0, "proxy": 0})
+        for e, v in stacks_by_deck[deck]:
+            bucket = "wc" if v["version"] == WC else ("proxy" if v["version"] == PROXY
+                                                      else "authentic")
+            owned[e["key"]][bucket] += v["qty"]
+        for (d, name), rows in rows_by.items():
+            if d != deck or len(rows) > 1:
+                continue
+            c = rows[0]
+            got = owned.get(name_key(name))
+            if not got:
+                continue
+            cur = {f: (c.get("prints") or {}).get(f, 0) for f in ("authentic", "wc", "proxy")}
+            # Proxy is a fact about the DECK, not the card: Alakazam plays two
+            # ordinary Dunsparce PAL 156 as stand-ins, so the inventory calls
+            # them Standard while the deck row rightly says proxy. Never demote
+            # an existing proxy count -- only ever raise it.
+            got["proxy"] = max(got["proxy"], cur["proxy"])
+            owned_total = sum(v["qty"] for e, v in stacks_by_deck[deck]
+                              if e["key"] == name_key(name))
+            got["authentic"] = max(0, owned_total - got["wc"] - got["proxy"])
+            if cur == got:
+                continue
+            # never let this invent copies the deck does not own
+            if sum(got.values()) > c["count"]:
+                unresolved.append(f"{deck}: {name} — inventory holds "
+                                  f"{sum(got.values())} but the deck plays {c['count']}")
+                continue
+            pips.append((deck, name, cur, got))
+            if fix:
+                c["prints"] = dict(got)
+
     # Trainer/Energy duplicates collapse to one row carrying the majority print
     for deck, name, rows in merge:
         total = sum(r["count"] for r in rows)
@@ -172,17 +219,21 @@ def main():
                 if r is not keep:
                     cards.remove(r)
 
-    if fix and changed:
+    if fix and (changed or pips):
         CARDS.write_text(json.dumps(cards, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(f"{len(verified)} decks fully verified")
     for deck, name, was, now, why in changed:
         print(f"  {deck:<28} {name:<26} {was:<12} -> {now:<12} ({why})")
+    for deck, name, cur, got in pips:
+        f = lambda p: "/".join(str(p[k]) for k in ("authentic", "wc", "proxy"))
+        print(f"  pips  {deck:<28} {name:<26} {f(cur):<10} -> {f(got)}")
     for a in ask:
         print(f"  Pokémon duplicate, left split (say if you want it merged): {a}")
     for u in unresolved:
         print(f"  could not update: {u}")
-    print(f"\n{len(changed)} deck lines {'updated' if fix else 'to update'}")
+    print(f"\n{len(changed)} deck lines and {len(pips)} pip rows "
+          f"{'updated' if fix else 'to update'}")
     return 0
 
 
