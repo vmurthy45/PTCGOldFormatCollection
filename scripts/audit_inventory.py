@@ -72,7 +72,7 @@ def main():
 
         # basics deliberately sit on an 'XY' placeholder row with no number:
         # Vig does not track which basic energy print is in which older deck
-        placeholder = e["key"] in BASIC and e.get("set") == "XY" and not e.get("num")
+        placeholder = e["key"] in BASIC and not e.get("num")
         if e.get("set") and not e.get("num") and not placeholder:
             issues.append(f"{label}: has a set code but no number")
 

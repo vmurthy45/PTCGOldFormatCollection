@@ -1344,7 +1344,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Spiritomb (2021)"
+        "source": "Spiritomb (2021)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -1667,6 +1668,12 @@
     "total": 28,
     "variants": [
       {
+        "version": "Holo",
+        "qty": 2,
+        "source": "Spiritomb (2021)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 3,
         "source": "Combo Zacian (2020)"
@@ -1680,11 +1687,6 @@
         "version": "Standard",
         "qty": 2,
         "source": "Rapid Strike Urshifu (2021)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spiritomb (2021)"
       },
       {
         "version": "Standard",
@@ -2403,7 +2405,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Spiritomb (2021)"
+        "source": "Spiritomb (2021)",
+        "verified": true
       }
     ]
   },
@@ -4093,11 +4096,29 @@
     "name": "Darkness Energy",
     "type": "Energy",
     "key": "darknessenergy",
+    "set": "SSH",
+    "num": "",
+    "printKey": "darknessenergy|SSH",
+    "image": null,
+    "total": 3,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Spiritomb (2021)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Darkness Energy",
+    "type": "Energy",
+    "key": "darknessenergy",
     "set": "XY",
     "num": "",
     "printKey": "darknessenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/138_hires.png",
-    "total": 63,
+    "total": 60,
     "variants": [
       {
         "version": "Standard",
@@ -4123,11 +4144,6 @@
         "version": "Standard",
         "qty": 5,
         "source": "Drampa Zoroark (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Spiritomb (2021)"
       },
       {
         "version": "Standard",
@@ -4356,6 +4372,12 @@
     "total": 18,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spiritomb (2021)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 3,
         "source": "Reshizard Firebox (2019)"
@@ -4389,11 +4411,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Rapid Strike Urshifu (2021)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spiritomb (2021)"
       },
       {
         "version": "Standard",
@@ -6276,17 +6293,12 @@
     "num": "125",
     "printKey": "escaperope|BST 125",
     "image": "https://images.pokemontcg.io/swsh5/125_hires.png",
-    "total": 14,
+    "total": 10,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
         "source": "Rapid Strike Urshifu (2021)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Spiritomb (2021)"
       },
       {
         "version": "World Champs",
@@ -6328,8 +6340,14 @@
     "num": "114",
     "printKey": "escaperope|BUS 114",
     "image": "https://images.pokemontcg.io/sm3/114_hires.png",
-    "total": 2,
+    "total": 6,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spiritomb (2021)",
+        "verified": true
+      },
       {
         "version": "Reverse Holo",
         "qty": 1,
@@ -9254,7 +9272,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Spiritomb (2021)"
+        "source": "Spiritomb (2021)",
+        "verified": true
       }
     ]
   },
@@ -9411,6 +9430,12 @@
     "total": 3,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spiritomb (2021)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 1,
         "source": "Pikarom Judge (2019)"
@@ -9419,11 +9444,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Combo Zacian (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spiritomb (2021)"
       }
     ]
   },
@@ -10011,6 +10031,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 3,
+        "source": "Spiritomb (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 4,
         "source": "Malamar (2019)"
       },
@@ -10028,11 +10054,6 @@
         "version": "Standard",
         "qty": 3,
         "source": "Combo Zacian (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Spiritomb (2021)"
       }
     ]
   },
@@ -10306,7 +10327,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Spiritomb (2021)"
+        "source": "Spiritomb (2021)",
+        "verified": true
       }
     ]
   },
@@ -10887,8 +10909,20 @@
     "num": "76",
     "printKey": "levelball|AOR 76",
     "image": "https://images.pokemontcg.io/xy7/76_hires.png",
-    "total": 6,
+    "total": 10,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spiritomb (2021)",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 3,
+        "source": "Spiritomb (2021)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 2,
@@ -10914,7 +10948,7 @@
     "num": "129",
     "printKey": "levelball|BST 129",
     "image": "https://images.pokemontcg.io/swsh5/129_hires.png",
-    "total": 25,
+    "total": 21,
     "variants": [
       {
         "version": "Standard",
@@ -10926,11 +10960,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Rapid Strike Urshifu (2021)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Spiritomb (2021)"
       },
       {
         "version": "Standard",
@@ -12957,7 +12986,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Spiritomb (2021)"
+        "source": "Spiritomb (2021)",
+        "verified": true
       }
     ]
   },
@@ -14410,6 +14440,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 2,
+        "source": "Spiritomb (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 1,
         "source": "Malamar Rapid Strike (2022)",
         "verified": true
@@ -14418,11 +14454,6 @@
         "version": "Standard",
         "qty": 2,
         "source": "Cinccino Mill (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spiritomb (2021)"
       },
       {
         "version": "Standard",
@@ -14485,7 +14516,8 @@
       {
         "version": "Full Art",
         "qty": 1,
-        "source": "Spare"
+        "source": "Spiritomb (2021)",
+        "verified": true
       }
     ]
   },
@@ -14497,17 +14529,12 @@
     "num": "95",
     "printKey": "oricoriogx|CEC 95",
     "image": "https://images.pokemontcg.io/sm12/95_hires.png",
-    "total": 2,
+    "total": 1,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
         "source": "Baby Blacephalon (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spiritomb (2021)"
       }
     ]
   },
@@ -16400,11 +16427,29 @@
     "name": "Professor's Research",
     "type": "Supporter",
     "key": "professorsresearch",
+    "set": "CEL",
+    "num": "23",
+    "printKey": "professorsresearch|CEL 23",
+    "image": "https://images.pokemontcg.io/cel25/23_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spiritomb (2021)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Professor's Research",
+    "type": "Supporter",
+    "key": "professorsresearch",
     "set": "SSH",
     "num": "178",
     "printKey": "professorsresearch|SSH 178",
     "image": "https://images.pokemontcg.io/swsh1/178_hires.png",
-    "total": 30,
+    "total": 26,
     "variants": [
       {
         "version": "Standard",
@@ -16420,11 +16465,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Rapid Strike Urshifu (2021)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Spiritomb (2021)"
       },
       {
         "version": "Standard",
@@ -16476,23 +16516,6 @@
         "qty": 3,
         "source": "Dragapult (2025)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Professor's Research",
-    "type": "Supporter",
-    "key": "professorsresearch",
-    "set": "",
-    "num": "",
-    "printKey": "professorsresearch|",
-    "image": "https://images.pokemontcg.io/swsh1/178_hires.png",
-    "total": 4,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Spare"
       }
     ]
   },
@@ -16748,6 +16771,12 @@
       {
         "version": "Standard",
         "qty": 4,
+        "source": "Spiritomb (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
         "source": "Baby Blacephalon (2020)"
       },
       {
@@ -16769,11 +16798,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Rapid Strike Urshifu (2021)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Spiritomb (2021)"
       },
       {
         "version": "Standard",
@@ -18403,6 +18427,12 @@
       {
         "version": "Standard",
         "qty": 4,
+        "source": "Spiritomb (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
         "source": "Malamar Rapid Strike (2022)",
         "verified": true
       },
@@ -18410,11 +18440,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Combo Zacian (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Spiritomb (2021)"
       },
       {
         "version": "World Champs",
@@ -19266,7 +19291,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Spiritomb (2021)"
+        "source": "Spiritomb (2021)",
+        "verified": true
       }
     ]
   },
@@ -19350,9 +19376,10 @@
     "total": 4,
     "variants": [
       {
-        "version": "Standard",
+        "version": "Reverse Holo",
         "qty": 4,
-        "source": "Spiritomb (2021)"
+        "source": "Spiritomb (2021)",
+        "verified": true
       }
     ]
   },
@@ -19994,8 +20021,14 @@
     "num": "147",
     "printKey": "switch|CES 147",
     "image": "https://images.pokemontcg.io/sm7/147_hires.png",
-    "total": 16,
+    "total": 20,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spiritomb (2021)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 3,
@@ -20093,7 +20126,7 @@
     "num": "183",
     "printKey": "switch|SSH 183",
     "image": "https://images.pokemontcg.io/swsh1/183_hires.png",
-    "total": 16,
+    "total": 12,
     "variants": [
       {
         "version": "Standard",
@@ -20104,11 +20137,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Rapid Strike Urshifu (2021)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Spiritomb (2021)"
       },
       {
         "version": "Standard",
