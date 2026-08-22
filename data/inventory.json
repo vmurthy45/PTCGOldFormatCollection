@@ -16500,18 +16500,30 @@
     "name": "Psychic Energy",
     "type": "Energy",
     "key": "psychicenergy",
-    "set": "XY",
-    "num": "",
-    "printKey": "psychicenergy|XY",
-    "image": "https://images.pokemontcg.io/xy1/136_hires.png",
-    "total": 68,
+    "set": "GH",
+    "num": "131",
+    "printKey": "psychicenergy|GH 131",
+    "image": "https://images.pokemontcg.io/gym1/131_hires.png",
+    "total": 2,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
         "source": "Malamar Rapid Strike (2022)",
         "verified": true
-      },
+      }
+    ]
+  },
+  {
+    "name": "Psychic Energy",
+    "type": "Energy",
+    "key": "psychicenergy",
+    "set": "XY",
+    "num": "",
+    "printKey": "psychicenergy|XY",
+    "image": "https://images.pokemontcg.io/xy1/136_hires.png",
+    "total": 66,
+    "variants": [
       {
         "version": "World Champs",
         "qty": 5,
