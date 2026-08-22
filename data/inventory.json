@@ -968,7 +968,8 @@
         "qty": 3,
         "source": "Joltdengo (2025)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Basic Metal Energy",
@@ -11084,7 +11085,8 @@
         "qty": 7,
         "source": "Turbo Rayquaza (2018)"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "name": "Lightning Energy",
