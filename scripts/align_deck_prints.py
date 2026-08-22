@@ -136,8 +136,25 @@ def main():
             c = rows[0]
             top = max(prints.items(), key=lambda kv: kv[1])
             (code, num), qty = top
+            cur_code_pre = id_to_code.get(set_id_of(c.get("image")))
+            # 'XY' with no number is the merge script's placeholder for "a basic
+            # energy whose printing was never recorded" -- NOT a claim that the
+            # card is from XY base. It must never reach a decklist.
+            if code == "XY" and not num:
+                continue
+            if code and not num:
+                # SWSH-era basic energies are printed with a set symbol but no
+                # collector number, so the set code alone is the whole answer.
+                # Vig asked for these to read just "SSH". The card API has no
+                # image for them, so the row keeps the energy art it already has.
+                if c.get("set") != code:
+                    changed.append((deck, name, c.get("set") or "(none)", code,
+                                    "set only, this print has no card number"))
+                    if fix:
+                        c["set"] = code
+                continue
             if not code or not num:
-                continue                      # basics and unresolved prints
+                continue                      # print still unidentified
             cur_code = id_to_code.get(set_id_of(c.get("image")))
             cur_num = str(c.get("set") or "").split("/")[0]
             if (cur_code, cur_num) == (code, num):

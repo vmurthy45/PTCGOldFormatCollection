@@ -354,11 +354,12 @@ Two shapes, both of which `align_deck_prints.py` leaves off a decklist:
 - **`XY` placeholder row, no card number** — print genuinely unknown. This is
   the merge script's stand-in for "a basic energy, printing not recorded", and
   is what all of 2010 / 2022-2025 still uses.
-- **A set but no card number** (`SSH`, and the set-less 2026 rows) — SWSH-era
-  basic energies are printed *without* a collector number, so there is nothing
-  to put after the set code. **Ask Vig how he wants these shown** — just the
-  set code, or left blank as now. Affects ADP Zacian, Ice Rider, Shadow Rider
-  and Spiritomb, plus the nine 2026 decks whose basics were never asked about.
+- **A set but no card number** — SWSH-era basic energies are printed *without*
+  a collector number. **Settled 2026-08-22: these show the set code alone**, so
+  the line reads `SSH`. Done for ADP Zacian, Ice Rider, Shadow Rider and
+  Spiritomb. The card API has no image for an unnumbered SWSH basic, so those
+  rows keep the XY basic-energy art they already carried.
+- **No set at all** — the nine 2026 decks, whose basics were never asked about.
 
 Decks affected:
 
