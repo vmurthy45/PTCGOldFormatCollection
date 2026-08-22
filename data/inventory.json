@@ -292,6 +292,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 2,
+        "source": "Ice Rider (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 1,
         "source": "Rapid Strike Urshifu (2021)",
         "verified": true
@@ -305,11 +311,6 @@
         "version": "Standard",
         "qty": 2,
         "source": "ADP Zacian (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Ice Rider (2021)"
       }
     ]
   },
@@ -1345,15 +1346,16 @@
     "total": 4,
     "variants": [
       {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Spiritomb (2021)",
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Ice Rider (2021)",
         "verified": true
       },
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "Ice Rider (2021)"
+        "qty": 3,
+        "source": "Spiritomb (2021)",
+        "verified": true
       }
     ]
   },
@@ -1677,6 +1679,12 @@
     "total": 23,
     "variants": [
       {
+        "version": "Holo",
+        "qty": 3,
+        "source": "Ice Rider (2021)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 1,
         "source": "Shadow Rider (2021)",
@@ -1697,11 +1705,6 @@
         "version": "Standard",
         "qty": 2,
         "source": "ADP Zacian (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Ice Rider (2021)"
       },
       {
         "version": "Standard",
@@ -2430,7 +2433,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Ice Rider (2021)"
+        "source": "Ice Rider (2021)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -5307,6 +5311,12 @@
       {
         "version": "Standard",
         "qty": 4,
+        "source": "Ice Rider (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
         "source": "Rapid Strike Urshifu (2021)",
         "verified": true
       },
@@ -5315,11 +5325,6 @@
         "qty": 3,
         "source": "Malamar Rapid Strike (2022)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Ice Rider (2021)"
       },
       {
         "version": "World Champs",
@@ -6618,6 +6623,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 4,
+        "source": "Ice Rider (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 2,
         "source": "Rapid Strike Urshifu (2021)",
         "verified": true
@@ -6638,11 +6649,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Cinccino Mill (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Ice Rider (2021)"
       },
       {
         "version": "World Champs",
@@ -9705,7 +9711,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Ice Rider (2021)"
+        "source": "Ice Rider (2021)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -9733,7 +9740,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Ice Rider (2021)"
+        "source": "Ice Rider (2021)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -9843,6 +9851,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 2,
+        "source": "Ice Rider (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 1,
         "source": "Rapid Strike Urshifu (2021)",
         "verified": true
@@ -9852,11 +9866,6 @@
         "qty": 1,
         "source": "Malamar Rapid Strike (2022)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Ice Rider (2021)"
       },
       {
         "version": "World Champs",
@@ -11073,6 +11082,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 3,
+        "source": "Ice Rider (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 2,
         "source": "Rapid Strike Urshifu (2021)",
         "verified": true
@@ -11082,11 +11097,6 @@
         "qty": 4,
         "source": "Malamar Rapid Strike (2022)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Ice Rider (2021)"
       },
       {
         "version": "World Champs",
@@ -12301,6 +12311,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 3,
+        "source": "Ice Rider (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 4,
         "source": "Eternatus (2021)",
         "verified": true
@@ -12332,11 +12348,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "ADP Zacian (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Ice Rider (2021)"
       },
       {
         "version": "World Champs",
@@ -12733,7 +12744,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Ice Rider (2021)"
+        "source": "Ice Rider (2021)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -14873,13 +14885,14 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Shadow Rider (2021)",
+        "source": "Ice Rider (2021)",
         "verified": true
       },
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Ice Rider (2021)"
+        "source": "Shadow Rider (2021)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -15595,6 +15608,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 1,
+        "source": "Ice Rider (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 2,
         "source": "Rapid Strike Urshifu (2021)",
         "verified": true
@@ -15628,11 +15647,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Cinccino Mill (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Ice Rider (2021)"
       }
     ]
   },
@@ -16596,11 +16610,29 @@
     "name": "Professor's Research",
     "type": "Supporter",
     "key": "professorsresearch",
+    "set": "CEL",
+    "num": "24",
+    "printKey": "professorsresearch|CEL 24",
+    "image": "https://images.pokemontcg.io/cel25/24_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Ice Rider (2021)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Professor's Research",
+    "type": "Supporter",
+    "key": "professorsresearch",
     "set": "SSH",
     "num": "178",
     "printKey": "professorsresearch|SSH 178",
     "image": "https://images.pokemontcg.io/swsh1/178_hires.png",
-    "total": 26,
+    "total": 23,
     "variants": [
       {
         "version": "Standard",
@@ -16629,11 +16661,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "ADP Zacian (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Ice Rider (2021)"
       },
       {
         "version": "World Champs",
@@ -16933,8 +16960,14 @@
     "num": "237",
     "printKey": "quickball|FST 237",
     "image": "https://images.pokemontcg.io/swsh8/237_hires.png",
-    "total": 8,
+    "total": 12,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Ice Rider (2021)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -16957,7 +16990,7 @@
     "num": "179",
     "printKey": "quickball|SSH 179",
     "image": "https://images.pokemontcg.io/swsh1/179_hires.png",
-    "total": 41,
+    "total": 37,
     "variants": [
       {
         "version": "Standard",
@@ -16990,11 +17023,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "ADP Zacian (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Ice Rider (2021)"
       },
       {
         "version": "World Champs",
@@ -17030,11 +17058,11 @@
     "num": "",
     "printKey": "quickball|",
     "image": "https://images.pokemontcg.io/swsh1/179_hires.png",
-    "total": 14,
+    "total": 10,
     "variants": [
       {
         "version": "Standard",
-        "qty": 14,
+        "qty": 10,
         "source": "Spare"
       }
     ]
@@ -18049,6 +18077,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 2,
+        "source": "Ice Rider (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 1,
         "source": "Rapid Strike Urshifu (2021)",
         "verified": true
@@ -18072,11 +18106,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Whimsicott GX (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Ice Rider (2021)"
       }
     ]
   },
@@ -19333,6 +19362,12 @@
       {
         "version": "Standard",
         "qty": 4,
+        "source": "Ice Rider (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
         "source": "Rapid Strike Urshifu (2021)",
         "verified": true
       },
@@ -19347,11 +19382,6 @@
         "qty": 3,
         "source": "Malamar Rapid Strike (2022)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Ice Rider (2021)"
       },
       {
         "version": "World Champs",
@@ -23420,11 +23450,29 @@
     "name": "Water Energy",
     "type": "Energy",
     "key": "waterenergy",
+    "set": "SSH",
+    "num": "",
+    "printKey": "waterenergy|SSH",
+    "image": null,
+    "total": 8,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 8,
+        "source": "Ice Rider (2021)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Water Energy",
+    "type": "Energy",
+    "key": "waterenergy",
     "set": "XY",
     "num": "",
     "printKey": "waterenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/134_hires.png",
-    "total": 77,
+    "total": 69,
     "variants": [
       {
         "version": "World Champs",
@@ -23472,11 +23520,6 @@
         "source": "ADP Zacian (2020)"
       },
       {
-        "version": "Standard",
-        "qty": 8,
-        "source": "Ice Rider (2021)"
-      },
-      {
         "version": "World Champs",
         "qty": 8,
         "source": "Ice Rider Palkia (2022)",
@@ -23503,15 +23546,10 @@
     "num": "",
     "printKey": "waterenergy|",
     "image": "https://images.pokemontcg.io/xy1/134_hires.png",
-    "total": 4,
+    "total": 2,
     "variants": [
       {
         "version": "Prize Pack",
-        "qty": 2,
-        "source": "Spare"
-      },
-      {
-        "version": "Standard",
         "qty": 2,
         "source": "Spare"
       }
