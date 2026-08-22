@@ -224,7 +224,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Baby Blacephalon (2020)"
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
       }
     ]
   },
@@ -1119,7 +1120,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Baby Blacephalon (2020)"
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
       }
     ]
   },
@@ -1399,7 +1401,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Baby Blacephalon (2020)"
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
       }
     ]
   },
@@ -1414,14 +1417,15 @@
     "total": 5,
     "variants": [
       {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Blacephalon GX (2019)"
+        "version": "Proxy",
+        "qty": 1,
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
       },
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "Baby Blacephalon (2020)"
+        "qty": 4,
+        "source": "Blacephalon GX (2019)"
       }
     ]
   },
@@ -3462,7 +3466,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Baby Blacephalon (2020)"
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
       }
     ]
   },
@@ -6087,16 +6092,41 @@
     "name": "Energy Retrieval",
     "type": "Trainer",
     "key": "energyretrieval",
-    "set": "SSH",
-    "num": "160",
-    "printKey": "energyretrieval|SSH 160",
-    "image": "https://images.pokemontcg.io/swsh1/160_hires.png",
-    "total": 4,
+    "set": "SLG",
+    "num": "59",
+    "printKey": "energyretrieval|SLG 59",
+    "image": "https://images.pokemontcg.io/sm35/59_hires.png",
+    "total": 1,
     "variants": [
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Baby Blacephalon (2020)"
+        "qty": 1,
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Energy Retrieval",
+    "type": "Trainer",
+    "key": "energyretrieval",
+    "set": "SUM",
+    "num": "116",
+    "printKey": "energyretrieval|SUM 116",
+    "image": "https://images.pokemontcg.io/sm1/116_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
       }
     ]
   },
@@ -6397,6 +6427,12 @@
       {
         "version": "Standard",
         "qty": 2,
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
         "source": "Combo Zacian (2020)",
         "verified": true
       },
@@ -6409,11 +6445,6 @@
         "version": "World Champs",
         "qty": 2,
         "source": "Reshizard Firebox (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Baby Blacephalon (2020)"
       }
     ]
   },
@@ -7244,6 +7275,12 @@
     "total": 6,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 1,
         "source": "Reshizard Firebox (2019)"
@@ -7252,11 +7289,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Green's Reshizard (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Baby Blacephalon (2020)"
       }
     ]
   },
@@ -7480,6 +7512,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 4,
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 3,
         "source": "Green's Reshizard (2019)"
       },
@@ -7487,11 +7525,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Perfection Mewtwo (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Baby Blacephalon (2020)"
       }
     ]
   },
@@ -7962,13 +7995,14 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Combo Zacian (2020)",
+        "source": "Baby Blacephalon (2020)",
         "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Baby Blacephalon (2020)"
+        "source": "Combo Zacian (2020)",
+        "verified": true
       }
     ]
   },
@@ -9321,6 +9355,12 @@
     "total": 4,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 1,
         "source": "Reshizard Firebox (2019)"
@@ -9334,11 +9374,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Blacephalon GX (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Baby Blacephalon (2020)"
       }
     ]
   },
@@ -10229,6 +10264,12 @@
       {
         "version": "Standard",
         "qty": 3,
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
         "source": "Combo Zacian (2020)",
         "verified": true
       },
@@ -10247,11 +10288,6 @@
         "version": "World Champs",
         "qty": 4,
         "source": "Reshizard Firebox (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Baby Blacephalon (2020)"
       }
     ]
   },
@@ -11740,7 +11776,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Baby Blacephalon (2020)"
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
       }
     ]
   },
@@ -14798,7 +14835,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Baby Blacephalon (2020)"
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
       }
     ]
   },
@@ -14916,6 +14954,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 1,
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 4,
         "source": "Cinccino Mill (2020)",
         "verified": true
@@ -14924,11 +14968,6 @@
         "version": "World Champs",
         "qty": 1,
         "source": "Reshizard Firebox (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Baby Blacephalon (2020)"
       }
     ]
   },
@@ -15123,7 +15162,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Baby Blacephalon (2020)"
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
       }
     ]
   },
@@ -17083,8 +17123,14 @@
     "num": "237",
     "printKey": "quickball|FST 237",
     "image": "https://images.pokemontcg.io/swsh8/237_hires.png",
-    "total": 12,
+    "total": 16,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -17113,7 +17159,7 @@
     "num": "179",
     "printKey": "quickball|SSH 179",
     "image": "https://images.pokemontcg.io/swsh1/179_hires.png",
-    "total": 37,
+    "total": 33,
     "variants": [
       {
         "version": "Standard",
@@ -17144,11 +17190,6 @@
         "qty": 4,
         "source": "Spiritomb (2021)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Baby Blacephalon (2020)"
       },
       {
         "version": "World Champs",
@@ -17184,11 +17225,11 @@
     "num": "",
     "printKey": "quickball|",
     "image": "https://images.pokemontcg.io/swsh1/179_hires.png",
-    "total": 10,
+    "total": 6,
     "variants": [
       {
         "version": "Standard",
-        "qty": 10,
+        "qty": 6,
         "source": "Spare"
       }
     ]
@@ -19845,14 +19886,15 @@
     "total": 2,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 1,
         "source": "Pikarom Judge (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Baby Blacephalon (2020)"
       }
     ]
   },
@@ -20386,7 +20428,7 @@
     "num": "147",
     "printKey": "switch|CES 147",
     "image": "https://images.pokemontcg.io/sm7/147_hires.png",
-    "total": 17,
+    "total": 14,
     "variants": [
       {
         "version": "Reverse Holo",
@@ -20419,11 +20461,6 @@
         "version": "Standard",
         "qty": 2,
         "source": "Perfection Mewtwo (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Baby Blacephalon (2020)"
       }
     ]
   },
@@ -20516,8 +20553,14 @@
     "num": "183",
     "printKey": "switch|SSH 183",
     "image": "https://images.pokemontcg.io/swsh1/183_hires.png",
-    "total": 9,
+    "total": 12,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -22946,12 +22989,13 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Blacephalon GX (2019)"
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Baby Blacephalon (2020)"
+        "source": "Blacephalon GX (2019)"
       }
     ]
   },
@@ -23702,6 +23746,12 @@
     "total": 20,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 4,
         "source": "Reshizard Firebox (2019)"
@@ -23720,11 +23770,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Blacephalon GX (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Baby Blacephalon (2020)"
       }
     ]
   },
@@ -24091,6 +24136,12 @@
     "total": 10,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
+      },
+      {
         "version": "Proxy",
         "qty": 2,
         "source": "Cinccino Mill (2020)",
@@ -24107,11 +24158,6 @@
         "qty": 3,
         "source": "ADP Zacian (2020)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Baby Blacephalon (2020)"
       }
     ]
   },

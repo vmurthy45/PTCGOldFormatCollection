@@ -15758,9 +15758,9 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/sm8/52_hires.png",
     "prints": {
-      "authentic": 1,
+      "authentic": 0,
       "wc": 0,
-      "proxy": 0
+      "proxy": 1
     }
   },
   {
@@ -15880,23 +15880,9 @@
     "deck": "Baby Blacephalon (2020)",
     "count": 4,
     "name": "Quick Ball",
-    "set": "179/202",
+    "set": "237/264",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/swsh1/179_hires.png",
-    "prints": {
-      "authentic": 4,
-      "wc": 0,
-      "proxy": 0
-    }
-  },
-  {
-    "year": "2020",
-    "deck": "Baby Blacephalon (2020)",
-    "count": 4,
-    "name": "Energy Retrieval",
-    "set": "160/202",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/swsh1/160_hires.png",
+    "image": "https://images.pokemontcg.io/swsh8/237_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,
@@ -15907,10 +15893,38 @@
     "year": "2020",
     "deck": "Baby Blacephalon (2020)",
     "count": 3,
-    "name": "Switch",
-    "set": "147/168",
+    "name": "Energy Retrieval",
+    "set": "116/149",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm7/147_hires.png",
+    "image": "https://images.pokemontcg.io/sm1/116_hires.png",
+    "prints": {
+      "authentic": 3,
+      "wc": 0,
+      "proxy": 0
+    }
+  },
+  {
+    "year": "2020",
+    "deck": "Baby Blacephalon (2020)",
+    "count": 1,
+    "name": "Energy Retrieval",
+    "set": "59/73",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm35/59_hires.png",
+    "prints": {
+      "authentic": 1,
+      "wc": 0,
+      "proxy": 0
+    }
+  },
+  {
+    "year": "2020",
+    "deck": "Baby Blacephalon (2020)",
+    "count": 3,
+    "name": "Switch",
+    "set": "183/202",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/swsh1/183_hires.png",
     "prints": {
       "authentic": 3,
       "wc": 0,
