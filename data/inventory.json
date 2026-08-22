@@ -423,7 +423,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Ancient Toolbox (2024)"
+        "source": "Ancient Toolbox (2024)",
+        "verified": true
       }
     ]
   },
@@ -513,7 +514,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       }
     ]
   },
@@ -622,7 +624,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -680,12 +683,14 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Iron Thorns (2024)"
+        "source": "Iron Thorns (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -1051,17 +1056,20 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       }
     ]
   },
@@ -1487,7 +1495,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       }
     ]
   },
@@ -1546,37 +1555,44 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Ancient Toolbox (2024)"
+        "source": "Ancient Toolbox (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Iron Thorns (2024)"
+        "source": "Iron Thorns (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       }
     ]
   },
@@ -1736,7 +1752,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       }
     ]
   },
@@ -1771,7 +1788,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -2327,12 +2345,14 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Iron Thorns (2024)"
+        "source": "Iron Thorns (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       }
     ]
   },
@@ -2422,7 +2442,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       }
     ]
   },
@@ -2777,12 +2798,14 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       }
     ]
   },
@@ -2924,12 +2947,14 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       }
     ]
   },
@@ -3035,7 +3060,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       }
     ]
   },
@@ -3052,7 +3078,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Iron Thorns (2024)"
+        "source": "Iron Thorns (2024)",
+        "verified": true
       }
     ]
   },
@@ -3120,7 +3147,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       }
     ]
   },
@@ -3246,7 +3274,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Ancient Toolbox (2024)"
+        "source": "Ancient Toolbox (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -3297,7 +3326,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       }
     ]
   },
@@ -3314,7 +3344,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       }
     ]
   },
@@ -3348,7 +3379,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       }
     ]
   },
@@ -3495,7 +3527,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Iron Thorns (2024)"
+        "source": "Iron Thorns (2024)",
+        "verified": true
       }
     ]
   },
@@ -3599,7 +3632,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       }
     ]
   },
@@ -3998,7 +4032,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Ancient Toolbox (2024)"
+        "source": "Ancient Toolbox (2024)",
+        "verified": true
       }
     ]
   },
@@ -4077,7 +4112,8 @@
       {
         "version": "World Champs",
         "qty": 6,
-        "source": "Ancient Toolbox (2024)"
+        "source": "Ancient Toolbox (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -4354,7 +4390,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Ancient Toolbox (2024)"
+        "source": "Ancient Toolbox (2024)",
+        "verified": true
       }
     ]
   },
@@ -4799,22 +4836,26 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Iron Thorns (2024)"
+        "source": "Iron Thorns (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       }
     ]
   },
@@ -4894,7 +4935,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -4934,7 +4976,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       }
     ]
   },
@@ -5049,7 +5092,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       }
     ]
   },
@@ -5564,17 +5608,20 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Ancient Toolbox (2024)"
+        "source": "Ancient Toolbox (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Iron Thorns (2024)"
+        "source": "Iron Thorns (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -5614,7 +5661,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       }
     ]
   },
@@ -5699,7 +5747,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       }
     ]
   },
@@ -5760,7 +5809,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       }
     ]
   },
@@ -5828,7 +5878,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Iron Thorns (2024)"
+        "source": "Iron Thorns (2024)",
+        "verified": true
       }
     ]
   },
@@ -5862,7 +5913,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       }
     ]
   },
@@ -6012,7 +6064,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       }
     ]
   },
@@ -6218,12 +6271,14 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       }
     ]
   },
@@ -6582,7 +6637,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Ancient Toolbox (2024)"
+        "source": "Ancient Toolbox (2024)",
+        "verified": true
       }
     ]
   },
@@ -6833,17 +6889,20 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Ancient Toolbox (2024)"
+        "source": "Ancient Toolbox (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -7274,7 +7333,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -7521,7 +7581,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Ancient Toolbox (2024)"
+        "source": "Ancient Toolbox (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -7583,7 +7644,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       }
     ]
   },
@@ -7627,22 +7689,26 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       }
     ]
   },
@@ -7747,7 +7813,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       }
     ]
   },
@@ -7764,7 +7831,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Iron Thorns (2024)"
+        "source": "Iron Thorns (2024)",
+        "verified": true
       }
     ]
   },
@@ -7996,7 +8064,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       }
     ]
   },
@@ -8030,7 +8099,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -8115,7 +8185,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       }
     ]
   },
@@ -8222,7 +8293,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       }
     ]
   },
@@ -8257,7 +8329,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Iron Thorns (2024)"
+        "source": "Iron Thorns (2024)",
+        "verified": true
       }
     ]
   },
@@ -8308,7 +8381,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       }
     ]
   },
@@ -8516,7 +8590,8 @@
       {
         "version": "World Champs",
         "qty": 7,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -8651,7 +8726,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Ancient Toolbox (2024)"
+        "source": "Ancient Toolbox (2024)",
+        "verified": true
       }
     ]
   },
@@ -8930,7 +9006,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       }
     ]
   },
@@ -9197,7 +9274,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       }
     ]
   },
@@ -9219,12 +9297,14 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Ancient Toolbox (2024)"
+        "source": "Ancient Toolbox (2024)",
+        "verified": true
       }
     ]
   },
@@ -9652,27 +9732,32 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Iron Thorns (2024)"
+        "source": "Iron Thorns (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -9746,7 +9831,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       }
     ]
   },
@@ -9763,7 +9849,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -9786,7 +9873,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Iron Thorns (2024)"
+        "source": "Iron Thorns (2024)",
+        "verified": true
       }
     ]
   },
@@ -9862,7 +9950,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       }
     ]
   },
@@ -10076,7 +10165,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       }
     ]
   },
@@ -10093,7 +10183,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Iron Thorns (2024)"
+        "source": "Iron Thorns (2024)",
+        "verified": true
       }
     ]
   },
@@ -10389,7 +10480,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       }
     ]
   },
@@ -10406,7 +10498,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       }
     ]
   },
@@ -10458,7 +10551,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       }
     ]
   },
@@ -10527,7 +10621,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       }
     ]
   },
@@ -10544,7 +10639,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       }
     ]
   },
@@ -10824,7 +10920,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       }
     ]
   },
@@ -10953,17 +11050,20 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 7,
-        "source": "Iron Thorns (2024)"
+        "source": "Iron Thorns (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 16,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -11239,12 +11339,14 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Iron Thorns (2024)"
+        "source": "Iron Thorns (2024)",
+        "verified": true
       }
     ]
   },
@@ -11261,22 +11363,26 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Iron Thorns (2024)"
+        "source": "Iron Thorns (2024)",
+        "verified": true
       }
     ]
   },
@@ -11420,7 +11526,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       }
     ]
   },
@@ -11437,7 +11544,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       }
     ]
   },
@@ -11459,17 +11567,20 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       }
     ]
   },
@@ -11990,12 +12101,14 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       }
     ]
   },
@@ -12411,7 +12524,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       }
     ]
   },
@@ -12628,7 +12742,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       }
     ]
   },
@@ -12694,7 +12809,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       }
     ]
   },
@@ -12716,7 +12832,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       }
     ]
   },
@@ -12750,12 +12867,14 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -12915,7 +13034,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       }
     ]
   },
@@ -12949,7 +13069,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -13853,32 +13974,38 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Ancient Toolbox (2024)"
+        "source": "Ancient Toolbox (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -14006,7 +14133,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Ancient Toolbox (2024)"
+        "source": "Ancient Toolbox (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -14285,7 +14413,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       }
     ]
   },
@@ -14419,22 +14548,26 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Ancient Toolbox (2024)"
+        "source": "Ancient Toolbox (2024)",
+        "verified": true
       }
     ]
   },
@@ -14569,12 +14702,14 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       }
     ]
   },
@@ -14626,7 +14761,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Iron Thorns (2024)"
+        "source": "Iron Thorns (2024)",
+        "verified": true
       }
     ]
   },
@@ -15031,12 +15167,14 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Ancient Toolbox (2024)"
+        "source": "Ancient Toolbox (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Iron Thorns (2024)"
+        "source": "Iron Thorns (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -15081,7 +15219,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Iron Thorns (2024)"
+        "source": "Iron Thorns (2024)",
+        "verified": true
       }
     ]
   },
@@ -15380,12 +15519,14 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Ancient Toolbox (2024)"
+        "source": "Ancient Toolbox (2024)",
+        "verified": true
       }
     ]
   },
@@ -15508,7 +15649,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       }
     ]
   },
@@ -15578,17 +15720,20 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Iron Thorns (2024)"
+        "source": "Iron Thorns (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -15737,7 +15882,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       }
     ]
   },
@@ -15926,7 +16072,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Ancient Toolbox (2024)"
+        "source": "Ancient Toolbox (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -16188,27 +16335,32 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Iron Thorns (2024)"
+        "source": "Iron Thorns (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       }
     ]
   },
@@ -16363,12 +16515,14 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 10,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -16478,7 +16632,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       }
     ]
   },
@@ -16643,22 +16798,26 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Ancient Toolbox (2024)"
+        "source": "Ancient Toolbox (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       }
     ]
   },
@@ -16675,7 +16834,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       }
     ]
   },
@@ -16779,12 +16939,14 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       }
     ]
   },
@@ -16911,7 +17073,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       }
     ]
   },
@@ -16928,7 +17091,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       }
     ]
   },
@@ -17208,7 +17372,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       }
     ]
   },
@@ -17406,7 +17571,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       }
     ]
   },
@@ -17423,7 +17589,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       }
     ]
   },
@@ -17523,7 +17690,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       }
     ]
   },
@@ -17703,7 +17871,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       }
     ]
   },
@@ -17805,7 +17974,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Ancient Toolbox (2024)"
+        "source": "Ancient Toolbox (2024)",
+        "verified": true
       }
     ]
   },
@@ -18069,7 +18239,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       }
     ]
   },
@@ -18295,7 +18466,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Ancient Toolbox (2024)"
+        "source": "Ancient Toolbox (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -18808,7 +18980,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       }
     ]
   },
@@ -18889,7 +19062,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       }
     ]
   },
@@ -19219,12 +19393,14 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -19585,22 +19761,26 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Ancient Toolbox (2024)"
+        "source": "Ancient Toolbox (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -19679,12 +19859,14 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Ancient Toolbox (2024)"
+        "source": "Ancient Toolbox (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -19827,7 +20009,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       }
     ]
   },
@@ -19971,17 +20154,20 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       }
     ]
   },
@@ -20340,7 +20526,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -21177,7 +21364,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Iron Thorns (2024)"
+        "source": "Iron Thorns (2024)",
+        "verified": true
       }
     ]
   },
@@ -21194,7 +21382,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Iron Thorns (2024)"
+        "source": "Iron Thorns (2024)",
+        "verified": true
       }
     ]
   },
@@ -21270,7 +21459,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       }
     ]
   },
@@ -21309,7 +21499,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       }
     ]
   },
@@ -21581,7 +21772,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       }
     ]
   },
@@ -21874,32 +22066,38 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Fusion Strike Mew (2023)"
+        "source": "Fusion Strike Mew (2023)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Ancient Toolbox (2024)"
+        "source": "Ancient Toolbox (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Regidrago (2024)"
+        "source": "Regidrago (2024)",
+        "verified": true
       }
     ]
   },
@@ -22503,7 +22701,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       }
     ]
   },
@@ -23008,7 +23207,8 @@
       {
         "version": "World Champs",
         "qty": 5,
-        "source": "Lost Box Kyogre (2023)"
+        "source": "Lost Box Kyogre (2023)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -23219,7 +23419,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Colorless Lugia (2023)"
+        "source": "Colorless Lugia (2023)",
+        "verified": true
       }
     ]
   },
@@ -23422,7 +23623,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Gardevoir (2023)"
+        "source": "Gardevoir (2023)",
+        "verified": true
       }
     ]
   },
@@ -23488,7 +23690,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Miraidon (2024)"
+        "source": "Miraidon (2024)",
+        "verified": true
       }
     ]
   },

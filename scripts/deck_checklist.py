@@ -54,7 +54,6 @@ def main():
     if not rows:
         sys.exit(f"no such deck: {deck}")
 
-    cards_by_name = {c["name"]: c for c in rows}
     claim = defaultdict(int)
     verified = {}
     by_key = defaultdict(list)
@@ -84,21 +83,21 @@ def main():
         if every or need > have or not verified.get(k):
             known = [f"{v['qty']} {v['version']}" for e in by_key.get(k, [])
                      for v in e["variants"] if v["source"] == deck]
-            todo.append((need, c["name"], c["set"], known, need - have))
+            todo.append((need, c["name"], c["set"], known, need - have, c))
 
     if "--copy" in sys.argv:
         # paste-back format: Vig appends the print after the "=" and returns it
         print(deck)
         if missing:
             print("# missing, not in the box: " + ", ".join(missing))
-        for need, name, st, known, gap in todo:
-            print(f"{need}x {name} = {set_code(cards_by_name[name]) if every else ''}".rstrip())
+        for need, name, st, known, gap, c in todo:
+            print(f"{need}x {name} = {set_code(c) if every else ''}".rstrip())
         return
     print(f"{deck}: {sum(c['count'] for c in rows)} cards")
     if missing:
         print("  missing, do NOT list: " + ", ".join(missing))
     print(f"\n{len(todo)} card lines to confirm:\n")
-    for need, name, st, known, gap in todo:
+    for need, name, st, known, gap, c in todo:
         note = "no print recorded yet" if gap == need else (
             f"have {', '.join(known)}" + (f"; {gap} unaccounted" if gap else ""))
         print(f"  {need}x {name:<30} deck list {st or 'basic':<10} ({note})")
