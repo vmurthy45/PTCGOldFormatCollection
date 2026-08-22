@@ -1294,7 +1294,8 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Eternatus (2021)"
+        "source": "Eternatus (2021)",
+        "verified": true
       }
     ]
   },
@@ -1673,7 +1674,7 @@
     "num": "154",
     "printKey": "bosssorders|RCL 154",
     "image": "https://images.pokemontcg.io/swsh2/154_hires.png",
-    "total": 26,
+    "total": 23,
     "variants": [
       {
         "version": "Standard",
@@ -1709,11 +1710,6 @@
         "verified": false
       },
       {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Eternatus (2021)"
-      },
-      {
         "version": "World Champs",
         "qty": 2,
         "source": "Ice Rider Palkia (2022)",
@@ -1747,8 +1743,14 @@
     "num": "58",
     "printKey": "bosssorders|SHF 58",
     "image": "https://images.pokemontcg.io/swsh45/58_hires.png",
-    "total": 2,
+    "total": 5,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Eternatus (2021)",
+        "verified": true
+      },
       {
         "version": "Reverse Holo",
         "qty": 2,
@@ -1783,7 +1785,7 @@
     "num": "",
     "printKey": "bosssorders|",
     "image": "https://images.pokemontcg.io/swsh2/154_hires.png",
-    "total": 6,
+    "total": 3,
     "variants": [
       {
         "version": "Reverse Holo",
@@ -1792,7 +1794,7 @@
       },
       {
         "version": "Standard",
-        "qty": 5,
+        "qty": 2,
         "source": "Spare"
       }
     ]
@@ -2538,13 +2540,14 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "ADP Zacian (2020)"
+        "qty": 2,
+        "source": "Eternatus (2021)",
+        "verified": true
       },
       {
         "version": "Standard",
-        "qty": 2,
-        "source": "Eternatus (2021)"
+        "qty": 1,
+        "source": "ADP Zacian (2020)"
       }
     ]
   },
@@ -3571,7 +3574,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Eternatus (2021)"
+        "source": "Eternatus (2021)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -6173,6 +6177,24 @@
     "name": "Energy Switch",
     "type": "Trainer",
     "key": "energyswitch",
+    "set": "FFI",
+    "num": "89",
+    "printKey": "energyswitch|FFI 89",
+    "image": "https://images.pokemontcg.io/xy3/89_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Eternatus (2021)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Energy Switch",
+    "type": "Trainer",
+    "key": "energyswitch",
     "set": "LTR",
     "num": "112",
     "printKey": "energyswitch|LTR 112",
@@ -6217,17 +6239,12 @@
     "num": "162",
     "printKey": "energyswitch|SSH 162",
     "image": "https://images.pokemontcg.io/swsh1/162_hires.png",
-    "total": 6,
+    "total": 3,
     "variants": [
       {
         "version": "Standard",
         "qty": 3,
         "source": "ADP Zacian (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Eternatus (2021)"
       }
     ]
   },
@@ -6531,7 +6548,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Eternatus (2021)"
+        "source": "Eternatus (2021)",
+        "verified": true
       }
     ]
   },
@@ -6548,7 +6566,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Eternatus (2021)"
+        "source": "Eternatus (2021)",
+        "verified": true
       }
     ]
   },
@@ -8032,7 +8051,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Eternatus (2021)"
+        "source": "Eternatus (2021)",
+        "verified": true
       }
     ]
   },
@@ -8049,7 +8069,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Eternatus (2021)"
+        "source": "Eternatus (2021)",
+        "verified": true
       }
     ]
   },
@@ -8803,7 +8824,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Eternatus (2021)"
+        "source": "Eternatus (2021)",
+        "verified": true
       }
     ]
   },
@@ -11141,7 +11163,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Eternatus (2021)"
+        "source": "Eternatus (2021)",
+        "verified": true
       }
     ]
   },
@@ -12265,6 +12288,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 4,
+        "source": "Eternatus (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 3,
         "source": "Rapid Strike Urshifu (2021)",
         "verified": true
@@ -12295,11 +12324,6 @@
         "version": "Standard",
         "qty": 3,
         "source": "Ice Rider (2021)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Eternatus (2021)"
       },
       {
         "version": "World Champs",
@@ -15554,7 +15578,7 @@
     "num": "152",
     "printKey": "pokemoncommunication|TEU 152",
     "image": "https://images.pokemontcg.io/sm9/152_hires.png",
-    "total": 25,
+    "total": 21,
     "variants": [
       {
         "version": "Standard",
@@ -15596,11 +15620,24 @@
         "version": "Standard",
         "qty": 1,
         "source": "Ice Rider (2021)"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Communication",
+    "type": "Trainer",
+    "key": "pokemoncommunication",
+    "set": "TEU",
+    "num": "152b",
+    "printKey": "pokemoncommunication|TEU 152b",
+    "image": "https://images.pokemontcg.io/sm9/152b_hires.png",
+    "total": 4,
+    "variants": [
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Eternatus (2021)"
+        "source": "Eternatus (2021)",
+        "verified": true
       }
     ]
   },
@@ -16555,6 +16592,12 @@
       {
         "version": "Standard",
         "qty": 4,
+        "source": "Eternatus (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
         "source": "Rapid Strike Urshifu (2021)",
         "verified": true
       },
@@ -16578,11 +16621,6 @@
         "version": "Standard",
         "qty": 3,
         "source": "Ice Rider (2021)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Eternatus (2021)"
       },
       {
         "version": "World Champs",
@@ -16911,6 +16949,12 @@
       {
         "version": "Standard",
         "qty": 4,
+        "source": "Eternatus (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
         "source": "Spiritomb (2021)",
         "verified": true
       },
@@ -16938,11 +16982,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Ice Rider (2021)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Eternatus (2021)"
       },
       {
         "version": "World Champs",
@@ -20270,8 +20309,14 @@
     "num": "91",
     "printKey": "switch|ROS 91",
     "image": "https://images.pokemontcg.io/xy6/91_hires.png",
-    "total": 2,
+    "total": 6,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Eternatus (2021)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 2,
@@ -20305,17 +20350,12 @@
     "num": "183",
     "printKey": "switch|SSH 183",
     "image": "https://images.pokemontcg.io/swsh1/183_hires.png",
-    "total": 9,
+    "total": 5,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
         "source": "ADP Zacian (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Eternatus (2021)"
       },
       {
         "version": "World Champs",
