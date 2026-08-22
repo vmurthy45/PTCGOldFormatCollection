@@ -853,10 +853,10 @@
     "name": "Baltoy",
     "type": "Pokémon",
     "key": "baltoy",
-    "set": "MA",
+    "set": "GE",
     "num": "60",
-    "printKey": "baltoy|MA 60",
-    "image": "https://images.pokemontcg.io/ex4/60_hires.png",
+    "printKey": "baltoy|GE 60",
+    "image": "https://images.pokemontcg.io/dp4/60_hires.png",
     "total": 3,
     "variants": [
       {
@@ -6048,19 +6048,25 @@
     "num": "129",
     "printKey": "energyswitch|CES 129",
     "image": "https://images.pokemontcg.io/sm7/129_hires.png",
-    "total": 7,
+    "total": 2,
     "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Rocket's Mewtwo (2026)",
-        "verified": true
-      },
       {
         "version": "World Champs",
         "qty": 2,
         "source": "Pikarom Judge (2019)"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Energy Switch",
+    "type": "Trainer",
+    "key": "energyswitch",
+    "set": "CRZ",
+    "num": "129",
+    "printKey": "energyswitch|CRZ 129",
+    "image": "https://images.pokemontcg.io/swsh12pt5/129_hires.png",
+    "total": 4,
+    "variants": [
       {
         "version": "World Champs",
         "qty": 4,
@@ -6088,6 +6094,24 @@
         "version": "Standard",
         "qty": 2,
         "source": "Yveltal Raichu (2014)"
+      }
+    ]
+  },
+  {
+    "name": "Energy Switch",
+    "type": "Trainer",
+    "key": "energyswitch",
+    "set": "MEG",
+    "num": "115",
+    "printKey": "energyswitch|MEG 115",
+    "image": "https://images.pokemontcg.io/me1/115_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Rocket's Mewtwo (2026)",
+        "verified": true
       }
     ]
   },
@@ -10471,10 +10495,10 @@
     "name": "Kirlia",
     "type": "Pokémon",
     "key": "kirlia",
-    "set": "LTR",
+    "set": "CRE",
     "num": "60",
-    "printKey": "kirlia|LTR 60",
-    "image": "https://images.pokemontcg.io/bw11/60_hires.png",
+    "printKey": "kirlia|CRE 60",
+    "image": "https://images.pokemontcg.io/swsh6/60_hires.png",
     "total": 1,
     "variants": [
       {
@@ -10612,10 +10636,10 @@
     "name": "Kyogre",
     "type": "Pokémon",
     "key": "kyogre",
-    "set": "MA",
+    "set": "CEL",
     "num": "3",
-    "printKey": "kyogre|MA 3",
-    "image": "https://images.pokemontcg.io/ex4/3_hires.png",
+    "printKey": "kyogre|CEL 3",
+    "image": "https://images.pokemontcg.io/cel25/3_hires.png",
     "total": 1,
     "variants": [
       {
@@ -17042,6 +17066,24 @@
     "name": "Ralts",
     "type": "Pokémon",
     "key": "ralts",
+    "set": "ASR",
+    "num": "60",
+    "printKey": "ralts|ASR 60",
+    "image": "https://images.pokemontcg.io/swsh10/60_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Gardevoir (2023)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Ralts",
+    "type": "Pokémon",
+    "key": "ralts",
     "set": "BUS",
     "num": "91",
     "printKey": "ralts|BUS 91",
@@ -17064,28 +17106,10 @@
     "name": "Ralts",
     "type": "Pokémon",
     "key": "ralts",
-    "set": "DF",
-    "num": "60",
-    "printKey": "ralts|DF 60",
-    "image": "https://images.pokemontcg.io/ex15/60_hires.png",
-    "total": 3,
-    "variants": [
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "Gardevoir (2023)",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Ralts",
-    "type": "Pokémon",
-    "key": "ralts",
-    "set": "RS",
+    "set": "SIT",
     "num": "67",
-    "printKey": "ralts|RS 67",
-    "image": "https://images.pokemontcg.io/ex1/67_hires.png",
+    "printKey": "ralts|SIT 67",
+    "image": "https://images.pokemontcg.io/swsh12/67_hires.png",
     "total": 1,
     "variants": [
       {
@@ -19958,6 +19982,23 @@
     "name": "Switch",
     "type": "Trainer",
     "key": "switch",
+    "set": "BLW",
+    "num": "104",
+    "printKey": "switch|BLW 104",
+    "image": "https://images.pokemontcg.io/bw1/104_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "TDK (2013)"
+      }
+    ]
+  },
+  {
+    "name": "Switch",
+    "type": "Trainer",
+    "key": "switch",
     "set": "CES",
     "num": "147",
     "printKey": "switch|CES 147",
@@ -20040,33 +20081,16 @@
     "name": "Switch",
     "type": "Trainer",
     "key": "switch",
-    "set": "HS",
+    "set": "ROS",
     "num": "91",
-    "printKey": "switch|HS 91",
-    "image": "https://images.pokemontcg.io/hgss1/91_hires.png",
+    "printKey": "switch|ROS 91",
+    "image": "https://images.pokemontcg.io/xy6/91_hires.png",
     "total": 2,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
         "source": "Ho-Oh Salazzle (2017)"
-      }
-    ]
-  },
-  {
-    "name": "Switch",
-    "type": "Trainer",
-    "key": "switch",
-    "set": "PLF",
-    "num": "104",
-    "printKey": "switch|PLF 104",
-    "image": "https://images.pokemontcg.io/bw9/104_hires.png",
-    "total": 3,
-    "variants": [
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "TDK (2013)"
       }
     ]
   },

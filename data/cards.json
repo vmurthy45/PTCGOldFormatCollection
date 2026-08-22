@@ -832,7 +832,7 @@
     "name": "Baltoy",
     "set": "60/106",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/ex4/60_hires.png",
+    "image": "https://images.pokemontcg.io/dp4/60_hires.png",
     "prints": {
       "authentic": 0,
       "wc": 3,
@@ -3296,7 +3296,7 @@
     "name": "Switch",
     "set": "104/114",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/bw9/104_hires.png",
+    "image": "https://images.pokemontcg.io/bw1/104_hires.png",
     "prints": {
       "authentic": 0,
       "wc": 3,
@@ -9176,7 +9176,7 @@
     "name": "Switch",
     "set": "91/108",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/hgss1/91_hires.png",
+    "image": "https://images.pokemontcg.io/xy6/91_hires.png",
     "prints": {
       "authentic": 2,
       "wc": 0,
@@ -20278,7 +20278,7 @@
     "name": "Kyogre",
     "set": "3/25",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/ex4/3_hires.png",
+    "image": "https://images.pokemontcg.io/cel25/3_hires.png",
     "prints": {
       "authentic": 0,
       "wc": 1,
@@ -20964,7 +20964,7 @@
     "name": "Ralts",
     "set": "60/189",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/ex15/60_hires.png",
+    "image": "https://images.pokemontcg.io/swsh10/60_hires.png",
     "prints": {
       "authentic": 0,
       "wc": 3,
@@ -20978,7 +20978,7 @@
     "name": "Ralts",
     "set": "67/195",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/ex1/67_hires.png",
+    "image": "https://images.pokemontcg.io/swsh12/67_hires.png",
     "prints": {
       "authentic": 0,
       "wc": 1,
@@ -21006,7 +21006,7 @@
     "name": "Kirlia",
     "set": "60/198",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/bw11/60_hires.png",
+    "image": "https://images.pokemontcg.io/swsh6/60_hires.png",
     "prints": {
       "authentic": 0,
       "wc": 1,
@@ -22952,7 +22952,7 @@
     "name": "Energy Switch",
     "set": "129/159",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm7/129_hires.png",
+    "image": "https://images.pokemontcg.io/swsh12pt5/129_hires.png",
     "prints": {
       "authentic": 0,
       "wc": 4,
