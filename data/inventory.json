@@ -955,9 +955,9 @@
     "type": "Energy",
     "key": "metalenergy",
     "set": "SUM",
-    "num": "",
-    "printKey": "metalenergy|SUM",
-    "image": null,
+    "num": "171",
+    "printKey": "metalenergy|SUM 171",
+    "image": "https://images.pokemontcg.io/sm1/171_hires.png",
     "total": 11,
     "variants": [
       {
