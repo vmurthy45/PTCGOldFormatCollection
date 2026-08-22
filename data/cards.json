@@ -16416,9 +16416,9 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/swsh1/138_hires.png",
     "prints": {
-      "authentic": 2,
+      "authentic": 0,
       "wc": 0,
-      "proxy": 0
+      "proxy": 2
     }
   },
   {
@@ -16440,9 +16440,9 @@
     "deck": "Cinccino Mill (2020)",
     "count": 1,
     "name": "Mew",
-    "set": "76/214",
+    "set": "SM215/248",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm10/76_hires.png",
+    "image": "https://images.pokemontcg.io/smp/SM215_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -16468,13 +16468,13 @@
     "deck": "Cinccino Mill (2020)",
     "count": 1,
     "name": "Mewtwo & Mew-GX",
-    "set": "71/236",
+    "set": "SM191/248",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm11/71_hires.png",
+    "image": "https://images.pokemontcg.io/smp/SM191_hires.png",
     "prints": {
-      "authentic": 1,
+      "authentic": 0,
       "wc": 0,
-      "proxy": 0
+      "proxy": 1
     }
   },
   {
@@ -16662,13 +16662,27 @@
   {
     "year": "2020",
     "deck": "Cinccino Mill (2020)",
-    "count": 4,
+    "count": 1,
     "name": "Great Ball",
     "set": "119/149",
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/sm1/119_hires.png",
     "prints": {
-      "authentic": 4,
+      "authentic": 1,
+      "wc": 0,
+      "proxy": 0
+    }
+  },
+  {
+    "year": "2020",
+    "deck": "Cinccino Mill (2020)",
+    "count": 3,
+    "name": "Great Ball",
+    "set": "60/73",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm35/60_hires.png",
+    "prints": {
+      "authentic": 3,
       "wc": 0,
       "proxy": 0
     }

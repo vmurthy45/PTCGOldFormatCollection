@@ -295,6 +295,12 @@
       {
         "version": "Standard",
         "qty": 2,
+        "source": "Cinccino Mill (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
         "source": "ADP Zacian (2020)",
         "verified": true
       },
@@ -309,11 +315,6 @@
         "qty": 1,
         "source": "Rapid Strike Urshifu (2021)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Cinccino Mill (2020)"
       }
     ]
   },
@@ -1216,7 +1217,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Cinccino Mill (2020)"
+        "source": "Cinccino Mill (2020)",
+        "verified": true
       }
     ]
   },
@@ -2918,7 +2920,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Cinccino Mill (2020)"
+        "source": "Cinccino Mill (2020)",
+        "verified": true
       }
     ]
   },
@@ -3680,7 +3683,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Cinccino Mill (2020)"
+        "source": "Cinccino Mill (2020)",
+        "verified": true
       }
     ]
   },
@@ -3870,7 +3874,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Cinccino Mill (2020)"
+        "source": "Cinccino Mill (2020)",
+        "verified": true
       }
     ]
   },
@@ -4705,17 +4710,18 @@
       {
         "version": "Standard",
         "qty": 1,
+        "source": "Cinccino Mill (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
         "source": "Blacephalon GX (2019)"
       },
       {
         "version": "Standard",
         "qty": 1,
         "source": "Whimsicott GX (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Cinccino Mill (2020)"
       }
     ]
   },
@@ -6653,6 +6659,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 1,
+        "source": "Cinccino Mill (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 4,
         "source": "Ice Rider (2021)",
         "verified": true
@@ -6674,11 +6686,6 @@
         "qty": 4,
         "source": "Malamar Rapid Strike (2022)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Cinccino Mill (2020)"
       },
       {
         "version": "World Champs",
@@ -6870,7 +6877,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Cinccino Mill (2020)"
+        "source": "Cinccino Mill (2020)",
+        "verified": true
       }
     ]
   },
@@ -7491,11 +7499,29 @@
     "name": "Fire Energy",
     "type": "Energy",
     "key": "fireenergy",
+    "set": "BS",
+    "num": "98",
+    "printKey": "fireenergy|BS 98",
+    "image": "https://images.pokemontcg.io/base1/98_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Cinccino Mill (2020)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Fire Energy",
+    "type": "Energy",
+    "key": "fireenergy",
     "set": "XY",
     "num": "",
     "printKey": "fireenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/133_hires.png",
-    "total": 97,
+    "total": 94,
     "variants": [
       {
         "version": "Standard",
@@ -7539,11 +7565,6 @@
         "source": "Baby Blacephalon (2020)"
       },
       {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Cinccino Mill (2020)"
-      },
-      {
         "version": "World Champs",
         "qty": 3,
         "source": "Regidrago (2024)",
@@ -7565,7 +7586,7 @@
     "num": "",
     "printKey": "fireenergy|",
     "image": "https://images.pokemontcg.io/xy1/133_hires.png",
-    "total": 11,
+    "total": 8,
     "variants": [
       {
         "version": "Standard",
@@ -7581,7 +7602,7 @@
       },
       {
         "version": "Standard",
-        "qty": 5,
+        "qty": 2,
         "source": "Spare"
       }
     ]
@@ -8865,6 +8886,24 @@
     "name": "Great Ball",
     "type": "Trainer",
     "key": "greatball",
+    "set": "SLG",
+    "num": "60",
+    "printKey": "greatball|SLG 60",
+    "image": "https://images.pokemontcg.io/sm35/60_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Cinccino Mill (2020)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Great Ball",
+    "type": "Trainer",
+    "key": "greatball",
     "set": "SSH",
     "num": "164",
     "printKey": "greatball|SSH 164",
@@ -8887,12 +8926,13 @@
     "num": "119",
     "printKey": "greatball|SUM 119",
     "image": "https://images.pokemontcg.io/sm1/119_hires.png",
-    "total": 4,
+    "total": 1,
     "variants": [
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Cinccino Mill (2020)"
+        "qty": 1,
+        "source": "Cinccino Mill (2020)",
+        "verified": true
       }
     ]
   },
@@ -11519,7 +11559,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Cinccino Mill (2020)"
+        "source": "Cinccino Mill (2020)",
+        "verified": true
       }
     ]
   },
@@ -11630,7 +11671,8 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Cinccino Mill (2020)"
+        "source": "Cinccino Mill (2020)",
+        "verified": true
       }
     ]
   },
@@ -12182,12 +12224,13 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Perfection Mewtwo (2019)"
+        "source": "Cinccino Mill (2020)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Cinccino Mill (2020)"
+        "source": "Perfection Mewtwo (2019)"
       }
     ]
   },
@@ -13015,11 +13058,29 @@
     "name": "Mew",
     "type": "Pokémon",
     "key": "mew",
+    "set": "PR-SM",
+    "num": "SM215",
+    "printKey": "mew|PR-SM SM215",
+    "image": "https://images.pokemontcg.io/smp/SM215_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Cinccino Mill (2020)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Mew",
+    "type": "Pokémon",
+    "key": "mew",
     "set": "UNB",
     "num": "76",
     "printKey": "mew|UNB 76",
     "image": "https://images.pokemontcg.io/sm10/76_hires.png",
-    "total": 3,
+    "total": 2,
     "variants": [
       {
         "version": "Standard",
@@ -13030,11 +13091,6 @@
         "version": "World Champs",
         "qty": 1,
         "source": "Pikarom Judge (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Cinccino Mill (2020)"
       }
     ]
   },
@@ -13182,21 +13238,34 @@
     "name": "Mewtwo & Mew-GX",
     "type": "Pokémon",
     "key": "mewtwomewgx",
+    "set": "PR-SM",
+    "num": "SM191",
+    "printKey": "mewtwomewgx|PR-SM SM191",
+    "image": "https://images.pokemontcg.io/smp/SM191_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Proxy",
+        "qty": 1,
+        "source": "Cinccino Mill (2020)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Mewtwo & Mew-GX",
+    "type": "Pokémon",
+    "key": "mewtwomewgx",
     "set": "UNM",
     "num": "71",
     "printKey": "mewtwomewgx|UNM 71",
     "image": "https://images.pokemontcg.io/sm11/71_hires.png",
-    "total": 5,
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
         "qty": 4,
         "source": "Perfection Mewtwo (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Cinccino Mill (2020)"
       }
     ]
   },
@@ -13267,7 +13336,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Cinccino Mill (2020)"
+        "source": "Cinccino Mill (2020)",
+        "verified": true
       }
     ]
   },
@@ -14597,7 +14667,8 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Cinccino Mill (2020)"
+        "source": "Cinccino Mill (2020)",
+        "verified": true
       }
     ]
   },
@@ -14631,6 +14702,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 2,
+        "source": "Cinccino Mill (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 1,
         "source": "Shadow Rider (2021)",
         "verified": true
@@ -14646,11 +14723,6 @@
         "qty": 1,
         "source": "Malamar Rapid Strike (2022)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Cinccino Mill (2020)"
       },
       {
         "version": "World Champs",
@@ -14843,6 +14915,12 @@
     "total": 6,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Cinccino Mill (2020)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 1,
         "source": "Reshizard Firebox (2019)"
@@ -14851,11 +14929,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Baby Blacephalon (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Cinccino Mill (2020)"
       }
     ]
   },
@@ -15656,6 +15729,12 @@
       {
         "version": "Standard",
         "qty": 1,
+        "source": "Cinccino Mill (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
         "source": "Ice Rider (2021)",
         "verified": true
       },
@@ -15689,11 +15768,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Whimsicott GX (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Cinccino Mill (2020)"
       }
     ]
   },
@@ -17044,6 +17118,12 @@
       {
         "version": "Standard",
         "qty": 4,
+        "source": "Cinccino Mill (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
         "source": "Combo Zacian (2020)",
         "verified": true
       },
@@ -17069,11 +17149,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Baby Blacephalon (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Cinccino Mill (2020)"
       },
       {
         "version": "World Champs",
@@ -17871,13 +17946,14 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Whimsicott GX (2019)"
+        "qty": 1,
+        "source": "Cinccino Mill (2020)",
+        "verified": true
       },
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "Cinccino Mill (2020)"
+        "qty": 4,
+        "source": "Whimsicott GX (2019)"
       }
     ]
   },
@@ -20535,7 +20611,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Cinccino Mill (2020)"
+        "source": "Cinccino Mill (2020)",
+        "verified": true
       }
     ]
   },
@@ -20837,13 +20914,14 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 2,
-        "source": "Whimsicott GX (2019)"
+        "qty": 1,
+        "source": "Cinccino Mill (2020)",
+        "verified": true
       },
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "Cinccino Mill (2020)"
+        "qty": 2,
+        "source": "Whimsicott GX (2019)"
       }
     ]
   },
@@ -24013,6 +24091,12 @@
     "total": 10,
     "variants": [
       {
+        "version": "Proxy",
+        "qty": 2,
+        "source": "Cinccino Mill (2020)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 4,
         "source": "Combo Zacian (2020)",
@@ -24028,11 +24112,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Baby Blacephalon (2020)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Cinccino Mill (2020)"
       }
     ]
   },
