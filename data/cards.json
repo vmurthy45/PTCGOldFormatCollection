@@ -5090,8 +5090,8 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/bw7/49_hires.png",
     "prints": {
-      "authentic": 4,
-      "wc": 0,
+      "authentic": 1,
+      "wc": 3,
       "proxy": 0
     }
   },
@@ -5104,8 +5104,8 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/bw10/60_hires.png",
     "prints": {
-      "authentic": 2,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 2,
       "proxy": 0
     }
   },
@@ -5118,8 +5118,8 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/xy6/77_hires.png",
     "prints": {
-      "authentic": 2,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 2,
       "proxy": 0
     }
   },
@@ -5144,7 +5144,7 @@
     "name": "Articuno",
     "set": "17/108",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/base3/17_hires.png",
+    "image": "https://images.pokemontcg.io/xy6/17_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -5160,8 +5160,8 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/bw11/54_hires.png",
     "prints": {
-      "authentic": 1,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 1,
       "proxy": 0
     }
   },
@@ -5184,9 +5184,9 @@
     "deck": "Archie's Blastoise (2015)",
     "count": 2,
     "name": "Professor Juniper",
-    "set": "84/101",
+    "set": "101/114",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/bw10/84_hires.png",
+    "image": "https://images.pokemontcg.io/bw1/101_hires.png",
     "prints": {
       "authentic": 2,
       "wc": 0,
@@ -5202,8 +5202,8 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/xy2/90_hires.png",
     "prints": {
-      "authentic": 1,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 1,
       "proxy": 0
     }
   },
@@ -5216,8 +5216,8 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/bw5/96_hires.png",
     "prints": {
-      "authentic": 1,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 1,
       "proxy": 0
     }
   },
@@ -5230,8 +5230,8 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/xy4/109_hires.png",
     "prints": {
-      "authentic": 4,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 4,
       "proxy": 0
     }
   },
@@ -5240,12 +5240,12 @@
     "deck": "Archie's Blastoise (2015)",
     "count": 4,
     "name": "Ultra Ball",
-    "set": "90/101",
+    "set": "93/108",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/bw10/90_hires.png",
+    "image": "https://images.pokemontcg.io/xy6/93_hires.png",
     "prints": {
-      "authentic": 4,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 4,
       "proxy": 0
     }
   },
@@ -5258,8 +5258,8 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/xy4/92_hires.png",
     "prints": {
-      "authentic": 4,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 4,
       "proxy": 0
     }
   },
@@ -5272,8 +5272,8 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/bw9/103_hires.png",
     "prints": {
-      "authentic": 4,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 4,
       "proxy": 0
     }
   },
@@ -5282,9 +5282,9 @@
     "deck": "Archie's Blastoise (2015)",
     "count": 4,
     "name": "Trainers' Mail",
-    "set": "92/108",
+    "set": "92a/108",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy6/92_hires.png",
+    "image": "https://images.pokemontcg.io/xy6/92a_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,
@@ -5314,8 +5314,8 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/bw7/137_hires.png",
     "prints": {
-      "authentic": 1,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 1,
       "proxy": 0
     }
   },
@@ -5324,9 +5324,9 @@
     "deck": "Archie's Blastoise (2015)",
     "count": 1,
     "name": "Float Stone",
-    "set": "99/116",
+    "set": "137/162",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/bw9/99_hires.png",
+    "image": "https://images.pokemontcg.io/xy8/137_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -5342,8 +5342,8 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/xy1/121_hires.png",
     "prints": {
-      "authentic": 1,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 1,
       "proxy": 0
     }
   },
@@ -5356,8 +5356,8 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/xy5/137_hires.png",
     "prints": {
-      "authentic": 2,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 2,
       "proxy": 0
     }
   },
@@ -5366,7 +5366,7 @@
     "deck": "Archie's Blastoise (2015)",
     "count": 11,
     "name": "Water Energy",
-    "set": "",
+    "set": "134/146",
     "category": "Energy",
     "image": "https://images.pokemontcg.io/xy1/134_hires.png",
     "prints": {

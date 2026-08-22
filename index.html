@@ -974,6 +974,9 @@ const tierBadge = (t) =>
 /* ---------- decklist export (Copy to Clipboard) ---------- */
 // pokemontcg.io / scrydex set id -> PTCGO/PTCGL set code, resolved from the
 // API's ptcgoCode for every set that appears in the collection.
+// Pages caches the data files for ten minutes; revalidate instead of trusting
+// that, so a push shows up on the next load rather than up to ten minutes later.
+const FRESH = {cache: 'no-cache'};
 const SET_CODES = {
   base3:"FO", bw1:"BLW", bw10:"PLB", bw11:"LTR", bw2:"EPO", bw3:"NVI", bw4:"NXD",
   bw5:"DEX", bw6:"DRX", bw7:"BCR", bw8:"PLS", bw9:"PLF", bwp:"PR-BLW", cel25:"CEL",
@@ -2013,7 +2016,8 @@ async function init(){
   const list = document.getElementById('list');
   try{
     const [cardsRes, guidesRes, turn1Res] = await Promise.all([
-      fetch('data/cards.json'), fetch('data/guides.json'), fetch('data/turn1_rules.json')
+      fetch('data/cards.json', FRESH), fetch('data/guides.json', FRESH),
+      fetch('data/turn1_rules.json', FRESH)
     ]);
     CARDS = await cardsRes.json();
     GUIDES = await guidesRes.json();
@@ -2024,11 +2028,11 @@ async function init(){
   }
   // Game Log is a separate, optional data file — a missing/empty games.json
   // must never break the rest of the site.
-  try{ GAMES = await (await fetch('data/games.json')).json(); }catch(err){ GAMES = []; }
+  try{ GAMES = await (await fetch('data/games.json', FRESH)).json(); }catch(err){ GAMES = []; }
   // Tournament Log is likewise optional — never let it break the site.
-  try{ TOURNAMENTS = await (await fetch('data/tournaments.json')).json(); }catch(err){ TOURNAMENTS = []; }
+  try{ TOURNAMENTS = await (await fetch('data/tournaments.json', FRESH)).json(); }catch(err){ TOURNAMENTS = []; }
   // Inventory is likewise optional.
-  try{ INVENTORY = await (await fetch('data/inventory.json')).json(); }catch(err){ INVENTORY = []; }
+  try{ INVENTORY = await (await fetch('data/inventory.json', FRESH)).json(); }catch(err){ INVENTORY = []; }
   // Sort chronologically rather than trusting cards.json row order, so a year
   // added later (e.g. 2021) still lands in the right place. The numeric prefix
   // orders the years; the string tiebreak keeps any future same-year labelled

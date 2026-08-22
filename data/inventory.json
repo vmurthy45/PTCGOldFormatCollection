@@ -208,7 +208,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Archie's Blastoise (2015)"
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
       }
     ]
   },
@@ -544,7 +545,8 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Archie's Blastoise (2015)"
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
       }
     ]
   },
@@ -649,18 +651,19 @@
   },
   {
     "name": "Articuno",
-    "type": "Pokémon",
+    "type": "",
     "key": "articuno",
-    "set": "FO",
+    "set": "ROS",
     "num": "17",
-    "printKey": "articuno|FO 17",
-    "image": "https://images.pokemontcg.io/base3/17_hires.png",
+    "printKey": "articuno|ROS 17",
+    "image": "https://images.pokemontcg.io/xy6/17_hires.png",
     "total": 1,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Archie's Blastoise (2015)"
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
       }
     ]
   },
@@ -973,9 +976,10 @@
     "total": 11,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 4,
-        "source": "Archie's Blastoise (2015)"
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -1409,13 +1413,14 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Blastoise (2013)"
+        "qty": 2,
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
       },
       {
         "version": "Standard",
-        "qty": 2,
-        "source": "Archie's Blastoise (2015)"
+        "qty": 4,
+        "source": "Blastoise (2013)"
       }
     ]
   },
@@ -3211,6 +3216,12 @@
       {
         "version": "World Champs",
         "qty": 1,
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
         "source": "Gothitelle (2013)"
       },
       {
@@ -3232,11 +3243,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Yveltal Raichu (2014)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Archie's Blastoise (2015)"
       }
     ]
   },
@@ -6849,7 +6855,8 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Archie's Blastoise (2015)"
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
       }
     ]
   },
@@ -7741,8 +7748,14 @@
     "num": "137",
     "printKey": "floatstone|BKT 137",
     "image": "https://images.pokemontcg.io/xy8/137_hires.png",
-    "total": 44,
+    "total": 45,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 2,
@@ -7848,7 +7861,7 @@
     "num": "99",
     "printKey": "floatstone|PLF 99",
     "image": "https://images.pokemontcg.io/bw9/99_hires.png",
-    "total": 10,
+    "total": 9,
     "variants": [
       {
         "version": "World Champs",
@@ -7864,11 +7877,6 @@
         "version": "World Champs",
         "qty": 2,
         "source": "TDK (2013)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Archie's Blastoise (2015)"
       }
     ]
   },
@@ -10407,13 +10415,14 @@
     "variants": [
       {
         "version": "World Champs",
-        "qty": 1,
-        "source": "VirGen (2014)"
+        "qty": 2,
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
       },
       {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Archie's Blastoise (2015)"
+        "version": "World Champs",
+        "qty": 1,
+        "source": "VirGen (2014)"
       }
     ]
   },
@@ -10762,6 +10771,12 @@
     "variants": [
       {
         "version": "World Champs",
+        "qty": 3,
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
         "qty": 1,
         "source": "Gothitelle (2013)"
       },
@@ -10787,8 +10802,9 @@
       },
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Archie's Blastoise (2015)"
+        "qty": 1,
+        "source": "Spare",
+        "verified": false
       }
     ]
   },
@@ -10805,7 +10821,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Spare"
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
       }
     ]
   },
@@ -12198,6 +12215,12 @@
       {
         "version": "World Champs",
         "qty": 1,
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
         "source": "ToadBats (2015)",
         "verified": true
       },
@@ -12221,11 +12244,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Yveltal Raichu (2014)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Archie's Blastoise (2015)"
       },
       {
         "version": "World Champs",
@@ -13513,6 +13531,12 @@
       {
         "version": "World Champs",
         "qty": 1,
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
         "source": "Darkrai Mewtwo (2012)",
         "verified": true
       },
@@ -13520,11 +13544,6 @@
         "version": "World Champs",
         "qty": 2,
         "source": "Mega Kangaskhan (2014)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Archie's Blastoise (2015)"
       }
     ]
   },
@@ -13922,6 +13941,12 @@
     "total": 21,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 3,
         "source": "ToadBats (2015)",
@@ -13952,11 +13977,6 @@
         "version": "Standard",
         "qty": 3,
         "source": "Yveltal Raichu (2014)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Archie's Blastoise (2015)"
       }
     ]
   },
@@ -14031,6 +14051,12 @@
     "variants": [
       {
         "version": "World Champs",
+        "qty": 1,
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
         "qty": 2,
         "source": "Lando Bats (2015)",
         "verified": true
@@ -14066,11 +14092,6 @@
         "version": "Standard",
         "qty": 3,
         "source": "Yveltal Raichu (2014)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Archie's Blastoise (2015)"
       }
     ]
   },
@@ -16577,8 +16598,14 @@
     "num": "101",
     "printKey": "professorjuniper|BLW 101",
     "image": "https://images.pokemontcg.io/bw1/101_hires.png",
-    "total": 19,
+    "total": 21,
     "variants": [
+      {
+        "version": "Reverse Holo",
+        "qty": 2,
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
@@ -16649,18 +16676,13 @@
     "num": "84",
     "printKey": "professorjuniper|PLB 84",
     "image": "https://images.pokemontcg.io/bw10/84_hires.png",
-    "total": 5,
+    "total": 3,
     "variants": [
       {
         "version": "Reverse Holo",
         "qty": 3,
         "source": "ToadBats (2015)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Archie's Blastoise (2015)"
       }
     ]
   },
@@ -18919,9 +18941,10 @@
     "total": 8,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 2,
-        "source": "Archie's Blastoise (2015)"
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -19472,6 +19495,12 @@
       {
         "version": "World Champs",
         "qty": 2,
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
         "source": "ToadBats (2015)",
         "verified": true
       },
@@ -19480,11 +19509,6 @@
         "qty": 1,
         "source": "Lando Bats (2015)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Archie's Blastoise (2015)"
       },
       {
         "version": "World Champs",
@@ -20681,14 +20705,15 @@
     "total": 8,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 4,
-        "source": "Blastoise (2013)"
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Archie's Blastoise (2015)"
+        "source": "Blastoise (2013)"
       }
     ]
   },
@@ -22626,13 +22651,8 @@
     "num": "92",
     "printKey": "trainersmail|ROS 92",
     "image": "https://images.pokemontcg.io/xy6/92_hires.png",
-    "total": 13,
+    "total": 9,
     "variants": [
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Archie's Blastoise (2015)"
-      },
       {
         "version": "World Champs",
         "qty": 4,
@@ -22647,6 +22667,24 @@
         "version": "Standard",
         "qty": 3,
         "source": "Night March (2016)"
+      }
+    ]
+  },
+  {
+    "name": "Trainers' Mail",
+    "type": "Trainer",
+    "key": "trainersmail",
+    "set": "ROS",
+    "num": "92a",
+    "printKey": "trainersmail|ROS 92a",
+    "image": "https://images.pokemontcg.io/xy6/92a_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
       }
     ]
   },
@@ -23160,29 +23198,18 @@
     "name": "Ultra Ball",
     "type": "Item",
     "key": "ultraball",
-    "set": "PLB",
-    "num": "90",
-    "printKey": "ultraball|PLB 90",
-    "image": "https://images.pokemontcg.io/bw10/90_hires.png",
-    "total": 4,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Archie's Blastoise (2015)"
-      }
-    ]
-  },
-  {
-    "name": "Ultra Ball",
-    "type": "Item",
-    "key": "ultraball",
     "set": "ROS",
     "num": "93",
     "printKey": "ultraball|ROS 93",
     "image": "https://images.pokemontcg.io/xy6/93_hires.png",
-    "total": 43,
+    "total": 47,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -23814,6 +23841,12 @@
       {
         "version": "World Champs",
         "qty": 4,
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
         "source": "ToadBats (2015)",
         "verified": true
       },
@@ -23822,11 +23855,6 @@
         "qty": 2,
         "source": "Lando Bats (2015)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Archie's Blastoise (2015)"
       },
       {
         "version": "World Champs",
@@ -24027,7 +24055,7 @@
     "num": "",
     "printKey": "waterenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/134_hires.png",
-    "total": 67,
+    "total": 56,
     "variants": [
       {
         "version": "World Champs",
@@ -24043,11 +24071,6 @@
         "version": "World Champs",
         "qty": 1,
         "source": "Mega Kangaskhan (2014)"
-      },
-      {
-        "version": "Standard",
-        "qty": 11,
-        "source": "Archie's Blastoise (2015)"
       },
       {
         "version": "Standard",
@@ -24085,6 +24108,24 @@
         "version": "Standard",
         "qty": 5,
         "source": "Empoleon Swampert (2018)"
+      }
+    ]
+  },
+  {
+    "name": "Water Energy",
+    "type": "Energy",
+    "key": "waterenergy",
+    "set": "XY",
+    "num": "134",
+    "printKey": "waterenergy|XY 134",
+    "image": "https://images.pokemontcg.io/xy1/134_hires.png",
+    "total": 11,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 11,
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
       }
     ]
   },
