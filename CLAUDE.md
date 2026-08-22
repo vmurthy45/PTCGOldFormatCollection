@@ -306,12 +306,19 @@ carrying the majority print, and the split is recorded in `data/inventory.json`
 as separate stacks. That is his stated preference: the list reads tidily, the
 inventory carries the reality.
 
-The exception is **different cards that share a name**, which must stay as
-separate rows because they are not interchangeable: Garbodor GRI 51
-(Trashalanche) vs BKP 57 (Garbotoxin), Inteleon SSH 58 (Shady Dealings) vs CRE
-43 (Quick Shooting), Kirlia, Ralts, Azelf, Hoppip, Marshadow, Greninja. Before
-merging any duplicate-name pair, check the abilities/attacks via the card API —
-same rules text means a reprint and can merge; different text means two cards.
+Vig's rule for a name appearing on two rows of one deck is **by category**:
+
+- **Trainer or Energy** — always one line. It is a reprint; merge it.
+- **Pokémon** — nearly always two genuinely different cards sharing a name, so
+  leave it split and **ask him** how he wants it shown rather than guessing.
+  Confirmed different: Garbodor GRI 51 (Trashalanche) vs BKP 57 (Garbotoxin),
+  Inteleon SSH 58 (Shady Dealings) vs CRE 43 (Quick Shooting), Kirlia, Ralts,
+  Azelf, Hoppip, Marshadow, Greninja. The exception already merged is Shadow
+  Rider Calyrex V, where CRE 74 and the SWSH131 promo really are one card.
+
+`align_deck_prints.py` applies exactly this: it merges Trainer/Energy duplicates
+and prints Pokémon ones for Vig to rule on. Checking abilities/attacks via the
+card API settles any case that is unclear.
 
 `scripts/align_deck_prints.py` enforces this. For every **fully verified** deck
 it compares each deck row against the prints the inventory says that box holds,
@@ -322,8 +329,9 @@ after verifying a box. It deliberately leaves alone:
   and that script deletes the image on its next run;
 - **Japanese-only sets** (M2a, M3, MEP, s12a) — the decklist names the English
   print it stands in for, only the inventory records the Japanese card;
-- **exact ties** (2 of one print, 2 of another) — no majority, so the existing
-  row stands;
+- **exact ties** (2 of one print, 2 of another) — one is simply picked: the row
+  keeps what it already shows if that is one of the tied prints, otherwise the
+  first by set/number, so the choice is stable rather than flipping each run;
 - **unverified decks** — their inventory is still inference, so it has no
   authority over the list.
 

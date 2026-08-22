@@ -8,9 +8,12 @@ as SLG 60. The split itself stays in data/inventory.json as separate stacks.
 Only runs against decks where every stack is verified — an unverified deck's
 inventory is still inference, so it has no authority over the list.
 
-Card names that appear on TWO rows of one deck are skipped: those are different
-cards sharing a name (Garbodor GRI 51 Trashalanche vs BKP 57 Garbotoxin), not
-reprints, and each row keeps its own print.
+Card names that appear on TWO rows of one deck are handled by category, which
+is Vig's rule: a **Trainer or Energy** duplicate is a reprint, so it merges to
+one line; a **Pokémon** duplicate is nearly always two genuinely different cards
+sharing a name (Garbodor GRI 51 Trashalanche vs BKP 57 Garbotoxin, Inteleon SSH
+58 Shady Dealings vs CRE 43 Quick Shooting), so it stays split and is reported
+for him to confirm rather than merged.
 
     .venv/bin/python scripts/align_deck_prints.py          # report
     .venv/bin/python scripts/align_deck_prints.py --fix    # apply
@@ -91,7 +94,7 @@ def main():
     for c in cards:
         rows_by[(c["deck"], c["name"])].append(c)
 
-    changed, skipped = [], []
+    changed, merge, ask = [], [], []
     for deck in sorted(verified):
         held = defaultdict(lambda: defaultdict(int))     # key -> (set,num) -> qty
         for e, v in stacks_by_deck[deck]:
@@ -109,8 +112,11 @@ def main():
             if not prints:
                 continue
             if len(rows) > 1:
-                if len(prints) > 1:
-                    skipped.append(f"{deck}: {name} — {len(rows)} deck rows, left alone")
+                if rows[0].get("category") == "Pokemon":
+                    ask.append(f"{deck}: {name} — {len(rows)} rows, "
+                               + " + ".join(f"{r['count']}x {r['set']}" for r in rows))
+                else:
+                    merge.append((deck, name, rows))
                 continue
             c = rows[0]
             top = max(prints.items(), key=lambda kv: kv[1])
@@ -121,10 +127,17 @@ def main():
             cur_num = str(c.get("set") or "").split("/")[0]
             if (cur_code, cur_num) == (code, num):
                 continue
-            if sum(prints.values()) == qty:
+            tied = [k for k, n in prints.items() if n == qty]
+            if len(tied) > 1:
+                # no majority: keep whatever the row already shows if it is one
+                # of the tied prints, else take the first by set/number so the
+                # choice is stable instead of flipping on every run
+                if (cur_code, cur_num) in tied:
+                    continue
+                code, num = sorted(tied)[0]
+                why = f"tie at {qty}, picked one"
+            elif sum(prints.values()) == qty:
                 why = "the deck's only print"
-            elif qty * 2 == sum(prints.values()):
-                continue                      # a tie has no majority; leave it
             else:
                 why = f"{qty} of {sum(prints.values())}"
             url, tot = image_for(code, num)
@@ -136,14 +149,28 @@ def main():
                 c["set"] = f"{num}/{tot}"
                 c["image"] = url
 
+    # Trainer/Energy duplicates collapse to one row carrying the majority print
+    for deck, name, rows in merge:
+        total = sum(r["count"] for r in rows)
+        pr = {f: sum((r.get("prints") or {}).get(f, 0) for r in rows)
+              for f in ("authentic", "wc", "proxy")}
+        keep = max(rows, key=lambda r: r["count"])
+        changed.append((deck, name, " + ".join(f"{r['count']}x {r['set']}" for r in rows),
+                        f"{total}x {keep['set']}", "merged, Trainer/Energy"))
+        if fix:
+            keep["count"], keep["prints"] = total, pr
+            for r in rows:
+                if r is not keep:
+                    cards.remove(r)
+
     if fix and changed:
         CARDS.write_text(json.dumps(cards, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(f"{len(verified)} decks fully verified")
     for deck, name, was, now, why in changed:
         print(f"  {deck:<28} {name:<26} {was:<12} -> {now:<12} ({why})")
-    for s in skipped:
-        print(f"  note: {s}")
+    for a in ask:
+        print(f"  Pokémon, left split (confirm if you want it merged): {a}")
     print(f"\n{len(changed)} deck lines {'updated' if fix else 'to update'}")
     return 0
 
