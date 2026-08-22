@@ -4146,6 +4146,24 @@
     "name": "Darkness Energy",
     "type": "Energy",
     "key": "darknessenergy",
+    "set": "DP",
+    "num": "129",
+    "printKey": "darknessenergy|DP 129",
+    "image": "https://images.pokemontcg.io/dp1/129_hires.png",
+    "total": 9,
+    "variants": [
+      {
+        "version": "Holo",
+        "qty": 9,
+        "source": "Eternatus (2021)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Darkness Energy",
+    "type": "Energy",
+    "key": "darknessenergy",
     "set": "SSH",
     "num": "",
     "printKey": "darknessenergy|SSH",
@@ -4168,7 +4186,7 @@
     "num": "",
     "printKey": "darknessenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/138_hires.png",
-    "total": 60,
+    "total": 51,
     "variants": [
       {
         "version": "Standard",
@@ -4194,11 +4212,6 @@
         "version": "Standard",
         "qty": 5,
         "source": "Drampa Zoroark (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 9,
-        "source": "Eternatus (2021)"
       },
       {
         "version": "World Champs",
