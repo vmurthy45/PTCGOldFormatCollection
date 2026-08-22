@@ -16598,8 +16598,14 @@
     "num": "101",
     "printKey": "professorjuniper|BLW 101",
     "image": "https://images.pokemontcg.io/bw1/101_hires.png",
-    "total": 21,
+    "total": 22,
     "variants": [
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "ToadBats (2015)",
+        "verified": true
+      },
       {
         "version": "Reverse Holo",
         "qty": 2,
@@ -16676,11 +16682,11 @@
     "num": "84",
     "printKey": "professorjuniper|PLB 84",
     "image": "https://images.pokemontcg.io/bw10/84_hires.png",
-    "total": 3,
+    "total": 2,
     "variants": [
       {
         "version": "Reverse Holo",
-        "qty": 3,
+        "qty": 2,
         "source": "ToadBats (2015)",
         "verified": true
       }
@@ -24027,6 +24033,24 @@
     "name": "Water Energy",
     "type": "Energy",
     "key": "waterenergy",
+    "set": "DP",
+    "num": "125",
+    "printKey": "waterenergy|DP 125",
+    "image": "https://images.pokemontcg.io/dp1/125_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "ToadBats (2015)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Water Energy",
+    "type": "Energy",
+    "key": "waterenergy",
     "set": "SSH",
     "num": "",
     "printKey": "waterenergy|SSH",
@@ -24055,7 +24079,7 @@
     "num": "",
     "printKey": "waterenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/134_hires.png",
-    "total": 56,
+    "total": 53,
     "variants": [
       {
         "version": "World Champs",
@@ -24071,11 +24095,6 @@
         "version": "World Champs",
         "qty": 1,
         "source": "Mega Kangaskhan (2014)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "ToadBats (2015)"
       },
       {
         "version": "World Champs",
