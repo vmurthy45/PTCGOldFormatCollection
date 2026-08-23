@@ -1398,7 +1398,8 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Blastoise (2013)"
+        "source": "Blastoise (2013)",
+        "verified": true
       }
     ]
   },
@@ -1414,14 +1415,15 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 2,
-        "source": "Archie's Blastoise (2015)",
+        "qty": 4,
+        "source": "Blastoise (2013)",
         "verified": true
       },
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Blastoise (2013)"
+        "qty": 2,
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
       }
     ]
   },
@@ -3018,6 +3020,12 @@
     "total": 20,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Blastoise (2013)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 3,
         "source": "RayEels (2013)",
@@ -3045,11 +3053,6 @@
         "version": "World Champs",
         "qty": 2,
         "source": "Gothitelle (2013)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Blastoise (2013)"
       },
       {
         "version": "World Champs",
@@ -3218,6 +3221,12 @@
     "total": 6,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Blastoise (2013)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 1,
         "source": "TDK (2013)",
@@ -3238,11 +3247,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Darkrai (2013)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Blastoise (2013)"
       },
       {
         "version": "Standard",
@@ -9551,7 +9555,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Blastoise (2013)"
+        "source": "Blastoise (2013)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -10805,8 +10810,14 @@
     "num": "49",
     "printKey": "keldeoex|BCR 49",
     "image": "https://images.pokemontcg.io/bw7/49_hires.png",
-    "total": 12,
+    "total": 10,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Blastoise (2013)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 2,
@@ -10828,11 +10839,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Darkrai (2013)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Blastoise (2013)"
       },
       {
         "version": "World Champs",
@@ -10861,6 +10867,24 @@
         "version": "Standard",
         "qty": 1,
         "source": "Archie's Blastoise (2015)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Keldeo-EX",
+    "type": "Pokémon",
+    "key": "keldeoex",
+    "set": "PR-BLW",
+    "num": "BW61",
+    "printKey": "keldeoex|PR-BLW BW61",
+    "image": "https://images.pokemontcg.io/bwp/BW61_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Blastoise (2013)",
         "verified": true
       }
     ]
@@ -11296,8 +11320,14 @@
     "num": "76",
     "printKey": "levelball|AOR 76",
     "image": "https://images.pokemontcg.io/xy7/76_hires.png",
-    "total": 12,
+    "total": 13,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Blastoise (2013)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 2,
@@ -11389,7 +11419,7 @@
     "num": "89",
     "printKey": "levelball|NXD 89",
     "image": "https://images.pokemontcg.io/bw4/89_hires.png",
-    "total": 10,
+    "total": 9,
     "variants": [
       {
         "version": "World Champs",
@@ -11401,11 +11431,6 @@
         "version": "World Champs",
         "qty": 2,
         "source": "Gothitelle (2013)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Blastoise (2013)"
       },
       {
         "version": "World Champs",
@@ -11483,22 +11508,35 @@
     "name": "Lightning Energy",
     "type": "Energy",
     "key": "lightningenergy",
+    "set": "GH",
+    "num": "130",
+    "printKey": "lightningenergy|GH 130",
+    "image": "https://images.pokemontcg.io/gym1/130_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Blastoise (2013)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Lightning Energy",
+    "type": "Energy",
+    "key": "lightningenergy",
     "set": "XY",
     "num": "",
     "printKey": "lightningenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/135_hires.png",
-    "total": 69,
+    "total": 67,
     "variants": [
       {
         "version": "World Champs",
         "qty": 2,
         "source": "LuxChomp (2010)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Blastoise (2013)"
       },
       {
         "version": "Standard",
@@ -11566,7 +11604,7 @@
     "num": "",
     "printKey": "lightningenergy|",
     "image": "https://images.pokemontcg.io/xy1/135_hires.png",
-    "total": 5,
+    "total": 3,
     "variants": [
       {
         "version": "Prize Pack Holo",
@@ -11575,7 +11613,7 @@
       },
       {
         "version": "Standard",
-        "qty": 3,
+        "qty": 1,
         "source": "Spare"
       }
     ]
@@ -14296,6 +14334,12 @@
     "total": 11,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Blastoise (2013)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 3,
         "source": "Gothitelle (2013)"
@@ -14304,11 +14348,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Darkrai (2013)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Blastoise (2013)"
       }
     ]
   },
@@ -15919,7 +15958,7 @@
     "num": "95",
     "printKey": "pokemoncatcher|EPO 95",
     "image": "https://images.pokemontcg.io/bw2/95_hires.png",
-    "total": 20,
+    "total": 17,
     "variants": [
       {
         "version": "World Champs",
@@ -15948,11 +15987,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Darkrai (2013)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Blastoise (2013)"
       }
     ]
   },
@@ -15999,8 +16033,20 @@
     "num": "126",
     "printKey": "pokemoncatcher|SUM 126",
     "image": "https://images.pokemontcg.io/sm1/126_hires.png",
-    "total": 1,
+    "total": 4,
     "variants": [
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Blastoise (2013)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Blastoise (2013)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -16659,7 +16705,7 @@
     "num": "101",
     "printKey": "professorjuniper|BLW 101",
     "image": "https://images.pokemontcg.io/bw1/101_hires.png",
-    "total": 14,
+    "total": 11,
     "variants": [
       {
         "version": "Reverse Holo",
@@ -16682,11 +16728,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Darkrai (2013)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Blastoise (2013)"
       }
     ]
   },
@@ -16745,8 +16786,14 @@
     "num": "84",
     "printKey": "professorjuniper|PLB 84",
     "image": "https://images.pokemontcg.io/bw10/84_hires.png",
-    "total": 2,
+    "total": 5,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Blastoise (2013)",
+        "verified": true
+      },
       {
         "version": "Reverse Holo",
         "qty": 2,
@@ -18156,17 +18203,12 @@
     "num": "100",
     "printKey": "rarecandy|DEX 100",
     "image": "https://images.pokemontcg.io/bw5/100_hires.png",
-    "total": 8,
+    "total": 4,
     "variants": [
       {
         "version": "World Champs",
         "qty": 4,
         "source": "Gothitelle (2013)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Blastoise (2013)"
       }
     ]
   },
@@ -18226,6 +18268,24 @@
         "version": "World Champs",
         "qty": 3,
         "source": "Gardevoir (2023)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Rare Candy",
+    "type": "Item",
+    "key": "rarecandy",
+    "set": "PLB",
+    "num": "85",
+    "printKey": "rarecandy|PLB 85",
+    "image": "https://images.pokemontcg.io/bw10/85_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Blastoise (2013)",
         "verified": true
       }
     ]
@@ -19802,6 +19862,12 @@
     "total": 18,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Blastoise (2013)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 3,
         "source": "TDK (2013)",
@@ -19811,11 +19877,6 @@
         "version": "World Champs",
         "qty": 4,
         "source": "Gothitelle (2013)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Blastoise (2013)"
       },
       {
         "version": "World Champs",
@@ -20307,7 +20368,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Blastoise (2013)"
+        "source": "Blastoise (2013)",
+        "verified": true
       }
     ]
   },
@@ -20778,15 +20840,16 @@
     "total": 8,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Blastoise (2013)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 4,
         "source": "Archie's Blastoise (2015)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Blastoise (2013)"
       }
     ]
   },
@@ -22825,17 +22888,12 @@
     "num": "BW28",
     "printKey": "tropicalbeach|PR-BLW BW28",
     "image": "https://images.pokemontcg.io/bwp/BW28_hires.png",
-    "total": 7,
+    "total": 3,
     "variants": [
       {
         "version": "World Champs",
         "qty": 2,
         "source": "Gothitelle (2013)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Blastoise (2013)"
       },
       {
         "version": "World Champs",
@@ -22852,8 +22910,14 @@
     "num": "BW50",
     "printKey": "tropicalbeach|PR-BLW BW50",
     "image": "https://images.pokemontcg.io/bwp/BW50_hires.png",
-    "total": 3,
+    "total": 7,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Blastoise (2013)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 3,
@@ -23086,6 +23150,12 @@
     "total": 28,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Blastoise (2013)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 4,
         "source": "RayEels (2013)",
@@ -23112,11 +23182,6 @@
         "version": "Standard",
         "qty": 3,
         "source": "Darkrai (2013)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Blastoise (2013)"
       },
       {
         "version": "World Champs",
@@ -24139,6 +24204,24 @@
     "name": "Water Energy",
     "type": "Energy",
     "key": "waterenergy",
+    "set": "BS",
+    "num": "102",
+    "printKey": "waterenergy|BS 102",
+    "image": "https://images.pokemontcg.io/base1/102_hires.png",
+    "total": 10,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 10,
+        "source": "Blastoise (2013)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Water Energy",
+    "type": "Energy",
+    "key": "waterenergy",
     "set": "DP",
     "num": "125",
     "printKey": "waterenergy|DP 125",
@@ -24185,13 +24268,8 @@
     "num": "",
     "printKey": "waterenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/134_hires.png",
-    "total": 50,
+    "total": 40,
     "variants": [
-      {
-        "version": "Standard",
-        "qty": 10,
-        "source": "Blastoise (2013)"
-      },
       {
         "version": "World Champs",
         "qty": 1,
