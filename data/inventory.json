@@ -13191,7 +13191,7 @@
       {
         "version": "Japanese",
         "qty": 1,
-        "source": "Dragapult (2026)",
+        "source": "N's Zoroark (2026)",
         "verified": true
       }
     ]
@@ -13209,6 +13209,12 @@
       {
         "version": "Standard",
         "qty": 1,
+        "source": "Dragapult (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
         "source": "Slowking (2026)",
         "verified": true
       },
@@ -13216,12 +13222,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Dragapult Dusknoir (2026)",
-        "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "N's Zoroark (2026)",
         "verified": true
       },
       {
@@ -17428,6 +17428,24 @@
     "name": "Psychic Energy",
     "type": "Energy",
     "key": "psychicenergy",
+    "set": "SUM",
+    "num": "168",
+    "printKey": "psychicenergy|SUM 168",
+    "image": "https://images.pokemontcg.io/sm1/168_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Slowking (2026)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Psychic Energy",
+    "type": "Energy",
+    "key": "psychicenergy",
     "set": "SVE",
     "num": "13",
     "printKey": "psychicenergy|SVE 13",
@@ -17438,6 +17456,24 @@
         "version": "Standard",
         "qty": 2,
         "source": "Hide 'n' Sneak (2026)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Psychic Energy",
+    "type": "Energy",
+    "key": "psychicenergy",
+    "set": "TEU",
+    "num": "",
+    "printKey": "psychicenergy|TEU",
+    "image": null,
+    "total": 3,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Dragapult Dusknoir (2026)",
         "verified": true
       }
     ]
@@ -17517,20 +17553,8 @@
     "num": "",
     "printKey": "psychicenergy|",
     "image": "https://images.pokemontcg.io/xy1/136_hires.png",
-    "total": 8,
+    "total": 1,
     "variants": [
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Dragapult Dusknoir (2026)",
-        "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Slowking (2026)",
-        "verified": true
-      },
       {
         "version": "Prize Pack Holo",
         "qty": 1,
@@ -21741,16 +21765,16 @@
     "name": "Team Rocket's Ariana",
     "type": "Supporter",
     "key": "teamrocketsariana",
-    "set": "DRI",
-    "num": "171",
-    "printKey": "teamrocketsariana|DRI 171",
-    "image": "https://images.pokemontcg.io/sv10/171_hires.png",
-    "total": 4,
+    "set": "ASC",
+    "num": "202",
+    "printKey": "teamrocketsariana|ASC 202",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-202/large",
+    "total": 3,
     "variants": [
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Rocket's Mewtwo (2026)",
+        "qty": 3,
+        "source": "Rocket's Honchkrow (2026)",
         "verified": true
       }
     ]
@@ -21759,16 +21783,23 @@
     "name": "Team Rocket's Ariana",
     "type": "Supporter",
     "key": "teamrocketsariana",
-    "set": "",
-    "num": "",
-    "printKey": "teamrocketsariana|",
+    "set": "DRI",
+    "num": "171",
+    "printKey": "teamrocketsariana|DRI 171",
     "image": "https://images.pokemontcg.io/sv10/171_hires.png",
-    "total": 4,
+    "total": 5,
     "variants": [
       {
         "version": "Standard",
+        "qty": 1,
+        "source": "Rocket's Honchkrow (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 4,
-        "source": "Rocket's Honchkrow (2026)"
+        "source": "Rocket's Mewtwo (2026)",
+        "verified": true
       }
     ]
   },
