@@ -608,6 +608,13 @@ which repoints tracking without needing another push).
 
 ## Vig's preferences (confirmed via explicit feedback, not assumptions)
 
+- **Light mode is the default** (set 2026-08-22). The site used to follow
+  `prefers-color-scheme`, so a dark OS produced a dark site nobody asked for.
+  The toggle still works and is remembered, under the key `themeChoice`; the
+  old `theme` key is deleted on load and ignored, because the previous code
+  wrote it on *every* load — a saved `dark` there could not be told apart from
+  a real choice, so keeping it would have pinned returning visitors to dark
+  forever. Only an actual click on the toggle persists anything now.
 - **Dark mode = background only.** He explicitly rejected a gradient
   header/deck-bar treatment and a shifted (brighter) red accent for dark
   mode, and asked for the exact same colors/icons as light mode, with only

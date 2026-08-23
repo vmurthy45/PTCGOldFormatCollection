@@ -671,19 +671,24 @@
 <script>
 /* ---------- theme ---------- */
 const themeBtn = document.getElementById('themeToggle');
-function applyTheme(t){
+// Light is the default. The site used to follow prefers-color-scheme, which
+// meant anyone on a dark OS got a dark site they never asked for.
+// New storage key on purpose: the old 'theme' key was written on EVERY load,
+// including the system-derived value, so a saved 'dark' there cannot be told
+// apart from a real choice. Discarding it lets the new default actually apply.
+const THEME_KEY = 'themeChoice';
+function applyTheme(t, persist){
   document.documentElement.setAttribute('data-theme', t);
-  localStorage.setItem('theme', t);
+  if(persist) localStorage.setItem(THEME_KEY, t);
   themeBtn.textContent = t === 'dark' ? '☀️' : '🌙';
 }
 (function initTheme(){
-  const saved = localStorage.getItem('theme');
-  const systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-  applyTheme(saved || (systemDark ? 'dark' : 'light'));
+  try{ localStorage.removeItem('theme'); }catch(e){}
+  applyTheme(localStorage.getItem(THEME_KEY) || 'light', false);
 })();
 themeBtn.onclick = () => {
   const current = document.documentElement.getAttribute('data-theme');
-  applyTheme(current === 'dark' ? 'light' : 'dark');
+  applyTheme(current === 'dark' ? 'light' : 'dark', true);
 };
 
 /* ---------- card image modal ---------- */
