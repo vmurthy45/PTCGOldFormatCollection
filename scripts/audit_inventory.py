@@ -83,6 +83,19 @@ def main():
         if e.get("set") and not e.get("num") and not placeholder:
             issues.append(f"{label}: has a set code but no number")
 
+        # "verified" means the print is known, so a row with no set cannot
+        # carry a verified stack. Basics are exempt -- their print is a
+        # separately parked TODO, not a claim that it was checked.
+        if not e.get("set") and e["key"] not in BASIC:
+            for v in e["variants"]:
+                if v.get("verified"):
+                    if fix:
+                        v.pop("verified")
+                        fixed.append(f"un-verified {v['qty']} {label} ({v['source']}): print unknown")
+                    else:
+                        issues.append(f"{label}: {v['qty']} copies for {v['source']} are "
+                                      "marked verified but the print is unknown")
+
         if e.get("set") in {"M2a", "M3", "MEP", "s12a"} and not e.get("image"):
             issues.append(f"{label}: Japanese print with no English stand-in image")
 
