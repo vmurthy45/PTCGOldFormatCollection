@@ -2552,9 +2552,9 @@
     "deck": "Darkrai (2013)",
     "count": 4,
     "name": "Darkrai-EX",
-    "set": "63/108",
+    "set": "BW46/101",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/bw5/63_hires.png",
+    "image": "https://images.pokemontcg.io/bwp/BW46_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,
@@ -2584,9 +2584,9 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/bw7/49_hires.png",
     "prints": {
-      "authentic": 1,
+      "authentic": 0,
       "wc": 0,
-      "proxy": 0
+      "proxy": 1
     }
   },
   {
@@ -2636,9 +2636,9 @@
     "deck": "Darkrai (2013)",
     "count": 4,
     "name": "Professor Juniper",
-    "set": "101/114",
+    "set": "84/101",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/bw1/101_hires.png",
+    "image": "https://images.pokemontcg.io/bw10/84_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,
@@ -2678,9 +2678,9 @@
     "deck": "Darkrai (2013)",
     "count": 4,
     "name": "Pokémon Catcher",
-    "set": "95/98",
+    "set": "83/101",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/bw2/95_hires.png",
+    "image": "https://images.pokemontcg.io/bw10/83_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,
@@ -2734,9 +2734,9 @@
     "deck": "Darkrai (2013)",
     "count": 3,
     "name": "Energy Switch",
-    "set": "94/114",
+    "set": "112/113",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/bw1/94_hires.png",
+    "image": "https://images.pokemontcg.io/bw11/112_hires.png",
     "prints": {
       "authentic": 3,
       "wc": 0,
@@ -2778,7 +2778,7 @@
     "name": "Enhanced Hammer",
     "set": "94/108",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy4/94_hires.png",
+    "image": "https://images.pokemontcg.io/bw5/94_hires.png",
     "prints": {
       "authentic": 2,
       "wc": 0,
@@ -2790,9 +2790,9 @@
     "deck": "Darkrai (2013)",
     "count": 1,
     "name": "Energy Search",
-    "set": "93/114",
+    "set": "161/202",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/bw1/93_hires.png",
+    "image": "https://images.pokemontcg.io/swsh1/161_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -2818,9 +2818,9 @@
     "deck": "Darkrai (2013)",
     "count": 11,
     "name": "Darkness Energy",
-    "set": "",
+    "set": "170/149",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/xy1/138_hires.png",
+    "image": "https://images.pokemontcg.io/sm1/170_hires.png",
     "prints": {
       "authentic": 11,
       "wc": 0,

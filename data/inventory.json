@@ -1226,9 +1226,10 @@
     "total": 2,
     "variants": [
       {
-        "version": "Standard",
+        "version": "Reverse Holo",
         "qty": 2,
-        "source": "Darkrai (2013)"
+        "source": "Darkrai (2013)",
+        "verified": true
       }
     ]
   },
@@ -3223,6 +3224,12 @@
     "total": 6,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Darkrai (2013)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 1,
         "source": "Gothitelle (2013)",
@@ -3245,11 +3252,6 @@
         "qty": 1,
         "source": "Archie's Blastoise (2015)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Darkrai (2013)"
       },
       {
         "version": "Standard",
@@ -4113,7 +4115,8 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Darkrai (2013)"
+        "source": "Darkrai (2013)",
+        "verified": true
       }
     ]
   },
@@ -4146,15 +4149,16 @@
     "total": 12,
     "variants": [
       {
+        "version": "Reverse Holo",
+        "qty": 4,
+        "source": "Darkrai (2013)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 4,
         "source": "Darkrai Mewtwo (2012)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Darkrai (2013)"
       },
       {
         "version": "Standard",
@@ -4221,17 +4225,30 @@
     "name": "Darkness Energy",
     "type": "Energy",
     "key": "darknessenergy",
-    "set": "XY",
-    "num": "",
-    "printKey": "darknessenergy|XY",
-    "image": "https://images.pokemontcg.io/xy1/138_hires.png",
-    "total": 44,
+    "set": "SUM",
+    "num": "170",
+    "printKey": "darknessenergy|SUM 170",
+    "image": "https://images.pokemontcg.io/sm1/170_hires.png",
+    "total": 11,
     "variants": [
       {
         "version": "Standard",
         "qty": 11,
-        "source": "Darkrai (2013)"
-      },
+        "source": "Darkrai (2013)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Darkness Energy",
+    "type": "Energy",
+    "key": "darknessenergy",
+    "set": "XY",
+    "num": "",
+    "printKey": "darknessenergy|XY",
+    "image": "https://images.pokemontcg.io/xy1/138_hires.png",
+    "total": 33,
+    "variants": [
       {
         "version": "Standard",
         "qty": 8,
@@ -4321,7 +4338,7 @@
     "num": "63",
     "printKey": "darkraiex|DEX 63",
     "image": "https://images.pokemontcg.io/bw5/63_hires.png",
-    "total": 8,
+    "total": 4,
     "variants": [
       {
         "version": "World Champs",
@@ -4331,13 +4348,26 @@
       },
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Darkrai (2013)"
-      },
-      {
-        "version": "Standard",
         "qty": 1,
         "source": "Yveltal Raichu (2014)"
+      }
+    ]
+  },
+  {
+    "name": "Darkrai-EX",
+    "type": "Pokémon",
+    "key": "darkraiex",
+    "set": "PR-BLW",
+    "num": "BW46",
+    "printKey": "darkraiex|PR-BLW BW46",
+    "image": "https://images.pokemontcg.io/bwp/BW46_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Darkrai (2013)",
+        "verified": true
       }
     ]
   },
@@ -6175,23 +6205,6 @@
     "name": "Energy Search",
     "type": "Trainer",
     "key": "energysearch",
-    "set": "BLW",
-    "num": "93",
-    "printKey": "energysearch|BLW 93",
-    "image": "https://images.pokemontcg.io/bw1/93_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Darkrai (2013)"
-      }
-    ]
-  },
-  {
-    "name": "Energy Search",
-    "type": "Trainer",
-    "key": "energysearch",
     "set": "EX",
     "num": "153",
     "printKey": "energysearch|EX 153",
@@ -6214,8 +6227,14 @@
     "num": "161",
     "printKey": "energysearch|SSH 161",
     "image": "https://images.pokemontcg.io/swsh1/161_hires.png",
-    "total": 2,
+    "total": 3,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Darkrai (2013)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 2,
@@ -6244,23 +6263,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Green's Reshizard (2019)"
-      }
-    ]
-  },
-  {
-    "name": "Energy Switch",
-    "type": "Trainer",
-    "key": "energyswitch",
-    "set": "BLW",
-    "num": "94",
-    "printKey": "energyswitch|BLW 94",
-    "image": "https://images.pokemontcg.io/bw1/94_hires.png",
-    "total": 3,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Darkrai (2013)"
       }
     ]
   },
@@ -6325,8 +6327,14 @@
     "num": "112",
     "printKey": "energyswitch|LTR 112",
     "image": "https://images.pokemontcg.io/bw11/112_hires.png",
-    "total": 5,
+    "total": 8,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Darkrai (2013)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 3,
@@ -6397,6 +6405,24 @@
     "name": "Enhanced Hammer",
     "type": "Trainer",
     "key": "enhancedhammer",
+    "set": "DEX",
+    "num": "94",
+    "printKey": "enhancedhammer|DEX 94",
+    "image": "https://images.pokemontcg.io/bw5/94_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Darkrai (2013)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Enhanced Hammer",
+    "type": "Trainer",
+    "key": "enhancedhammer",
     "set": "GRI",
     "num": "124",
     "printKey": "enhancedhammer|GRI 124",
@@ -6439,13 +6465,8 @@
     "num": "94",
     "printKey": "enhancedhammer|PHF 94",
     "image": "https://images.pokemontcg.io/xy4/94_hires.png",
-    "total": 5,
+    "total": 3,
     "variants": [
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Darkrai (2013)"
-      },
       {
         "version": "World Champs",
         "qty": 2,
@@ -9920,6 +9941,12 @@
     "total": 18,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Darkrai (2013)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 4,
         "source": "TDK (2013)",
@@ -9936,11 +9963,6 @@
         "qty": 3,
         "source": "ToadBats (2015)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Darkrai (2013)"
       },
       {
         "version": "World Champs",
@@ -10823,6 +10845,12 @@
     "total": 10,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Darkrai (2013)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 1,
         "source": "Gothitelle (2013)",
@@ -10845,11 +10873,6 @@
         "qty": 3,
         "source": "Archie's Blastoise (2015)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Darkrai (2013)"
       },
       {
         "version": "World Champs",
@@ -13890,6 +13913,24 @@
     "name": "Mr. Mime",
     "type": "Pokémon",
     "key": "mrmime",
+    "set": "BKT",
+    "num": "97",
+    "printKey": "mrmime|BKT 97",
+    "image": "https://images.pokemontcg.io/xy8/97_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Darkrai (2013)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Mr. Mime",
+    "type": "Pokémon",
+    "key": "mrmime",
     "set": "DET",
     "num": "11",
     "printKey": "mrmime|DET 11",
@@ -13912,13 +13953,8 @@
     "num": "47",
     "printKey": "mrmime|PLF 47",
     "image": "https://images.pokemontcg.io/bw9/47_hires.png",
-    "total": 2,
+    "total": 1,
     "variants": [
-      {
-        "version": "Proxy",
-        "qty": 1,
-        "source": "Darkrai (2013)"
-      },
       {
         "version": "World Champs",
         "qty": 1,
@@ -14357,13 +14393,14 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Blastoise (2013)",
+        "source": "Darkrai (2013)",
         "verified": true
       },
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Darkrai (2013)"
+        "source": "Blastoise (2013)",
+        "verified": true
       }
     ]
   },
@@ -15974,7 +16011,7 @@
     "num": "95",
     "printKey": "pokemoncatcher|EPO 95",
     "image": "https://images.pokemontcg.io/bw2/95_hires.png",
-    "total": 17,
+    "total": 13,
     "variants": [
       {
         "version": "World Champs",
@@ -15999,11 +16036,6 @@
         "qty": 3,
         "source": "Darkrai Mewtwo (2012)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Darkrai (2013)"
       }
     ]
   },
@@ -16015,8 +16047,14 @@
     "num": "83",
     "printKey": "pokemoncatcher|PLB 83",
     "image": "https://images.pokemontcg.io/bw10/83_hires.png",
-    "total": 1,
+    "total": 5,
     "variants": [
+      {
+        "version": "Reverse Holo",
+        "qty": 4,
+        "source": "Darkrai (2013)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -16723,7 +16761,7 @@
     "num": "101",
     "printKey": "professorjuniper|BLW 101",
     "image": "https://images.pokemontcg.io/bw1/101_hires.png",
-    "total": 7,
+    "total": 3,
     "variants": [
       {
         "version": "Reverse Holo",
@@ -16736,11 +16774,6 @@
         "qty": 2,
         "source": "Archie's Blastoise (2015)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Darkrai (2013)"
       }
     ]
   },
@@ -16805,8 +16838,14 @@
     "num": "84",
     "printKey": "professorjuniper|PLB 84",
     "image": "https://images.pokemontcg.io/bw10/84_hires.png",
-    "total": 5,
+    "total": 9,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Darkrai (2013)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 3,
@@ -18075,6 +18114,12 @@
     "total": 9,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Darkrai (2013)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 2,
         "source": "Darkrai Mewtwo (2012)",
@@ -18085,11 +18130,6 @@
         "qty": 3,
         "source": "CMT (2012)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Darkrai (2013)"
       },
       {
         "version": "Standard",
@@ -19168,7 +19208,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Darkrai (2013)"
+        "source": "Darkrai (2013)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -22597,15 +22638,16 @@
     "total": 6,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Darkrai (2013)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 1,
         "source": "Gothitelle (2013)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Darkrai (2013)"
       },
       {
         "version": "World Champs",
@@ -23164,6 +23206,12 @@
     "total": 28,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Darkrai (2013)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 3,
         "source": "Gothitelle (2013)",
@@ -23192,11 +23240,6 @@
         "qty": 2,
         "source": "Darkrai Mewtwo (2012)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Darkrai (2013)"
       },
       {
         "version": "World Champs",
@@ -23827,6 +23870,12 @@
     "total": 10,
     "variants": [
       {
+        "version": "Reverse Holo",
+        "qty": 2,
+        "source": "Darkrai (2013)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 2,
         "source": "TDK (2013)",
@@ -23843,11 +23892,6 @@
         "qty": 1,
         "source": "ToadBats (2015)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Darkrai (2013)"
       },
       {
         "version": "World Champs",

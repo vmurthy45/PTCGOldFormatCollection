@@ -61,7 +61,10 @@ NO_API = {"BWTK"}
 # Computer Search he wants pictured as BCR 137 while the card in the sleeve is
 # Base Set 71 -- in both the list and the inventory are deliberately different.
 PINNED = {("ToadBats (2015)", "Zubat"),
-          ("ToadBats (2015)", "Computer Search")}
+          ("ToadBats (2015)", "Computer Search"),
+          # a BKT 97 sits in the sleeve; Vig wants the list to keep showing the
+          # PLF 47 that is the right card for this deck
+          ("Darkrai (2013)", "Mr. Mime")}
 
 
 def name_key(s):
