@@ -1288,18 +1288,19 @@
   },
   {
     "name": "Binding Mochi",
-    "type": "Item",
+    "type": "",
     "key": "bindingmochi",
-    "set": "",
-    "num": "",
-    "printKey": "bindingmochi|",
-    "image": "https://images.pokemontcg.io/sv8pt5/95_hires.png",
+    "set": "SFA",
+    "num": "55",
+    "printKey": "bindingmochi|SFA 55",
+    "image": "https://images.pokemontcg.io/sv6pt5/55_hires.png",
     "total": 2,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
-        "source": "N's Zoroark (2026)"
+        "source": "N's Zoroark (2026)",
+        "verified": true
       }
     ]
   },
@@ -1370,18 +1371,19 @@
   },
   {
     "name": "Black Belt's Training",
-    "type": "Supporter",
+    "type": "",
     "key": "blackbeltstraining",
-    "set": "",
-    "num": "",
-    "printKey": "blackbeltstraining|",
-    "image": "https://images.pokemontcg.io/sv9/143_hires.png",
+    "set": "JTG",
+    "num": "144",
+    "printKey": "blackbeltstraining|JTG 144",
+    "image": "https://images.pokemontcg.io/sv9/144_hires.png",
     "total": 1,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
-        "source": "N's Zoroark (2026)"
+        "source": "N's Zoroark (2026)",
+        "verified": true
       }
     ]
   },
@@ -3982,21 +3984,17 @@
     "name": "Cynthia's Power Weight",
     "type": "Item",
     "key": "cynthiaspowerweight",
-    "set": "",
-    "num": "",
-    "printKey": "cynthiaspowerweight|",
+    "set": "DRI",
+    "num": "162",
+    "printKey": "cynthiaspowerweight|DRI 162",
     "image": "https://images.pokemontcg.io/sv10/162_hires.png",
-    "total": 4,
+    "total": 3,
     "variants": [
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Cynthia's Garchomp (2026)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
+        "source": "Cynthia's Garchomp (2026)",
+        "verified": true
       }
     ]
   },
@@ -4045,21 +4043,17 @@
     "name": "Cyrano",
     "type": "Supporter",
     "key": "cyrano",
-    "set": "",
-    "num": "",
-    "printKey": "cyrano|",
+    "set": "SSP",
+    "num": "170",
+    "printKey": "cyrano|SSP 170",
     "image": "https://images.pokemontcg.io/sv8/170_hires.png",
-    "total": 3,
+    "total": 2,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
-        "source": "N's Zoroark (2026)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
+        "source": "N's Zoroark (2026)",
+        "verified": true
       }
     ]
   },
@@ -4207,8 +4201,20 @@
     "num": "",
     "printKey": "darknessenergy|SSH",
     "image": null,
-    "total": 3,
+    "total": 7,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Dragapult Dusknoir (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Dragapult (2026)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 3,
@@ -4231,6 +4237,24 @@
         "version": "Standard",
         "qty": 11,
         "source": "Darkrai (2013)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Darkness Energy",
+    "type": "Energy",
+    "key": "darknessenergy",
+    "set": "SVE",
+    "num": "15",
+    "printKey": "darknessenergy|SVE 15",
+    "image": "https://images.pokemontcg.io/sve/15_hires.png",
+    "total": 7,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 7,
+        "source": "N's Zoroark (2026)",
         "verified": true
       }
     ]
@@ -4282,26 +4306,8 @@
     "num": "",
     "printKey": "darknessenergy|",
     "image": "https://images.pokemontcg.io/xy1/138_hires.png",
-    "total": 12,
+    "total": 1,
     "variants": [
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Dragapult Dusknoir (2026)",
-        "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 7,
-        "source": "N's Zoroark (2026)",
-        "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Dragapult (2026)",
-        "verified": true
-      },
       {
         "version": "Prize Pack",
         "qty": 1,
@@ -7424,6 +7430,24 @@
     "name": "Fighting Energy",
     "type": "Energy",
     "key": "fightingenergy",
+    "set": "SVE",
+    "num": "14",
+    "printKey": "fightingenergy|SVE 14",
+    "image": "https://images.pokemontcg.io/sve/14_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Cynthia's Garchomp (2026)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Fighting Energy",
+    "type": "Energy",
+    "key": "fightingenergy",
     "set": "XY",
     "num": "",
     "printKey": "fightingenergy|XY",
@@ -7463,29 +7487,6 @@
         "qty": 3,
         "source": "Raging Bolt (2025)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Fighting Energy",
-    "type": "Energy",
-    "key": "fightingenergy",
-    "set": "",
-    "num": "",
-    "printKey": "fightingenergy|",
-    "image": "https://images.pokemontcg.io/xy1/137_hires.png",
-    "total": 5,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Cynthia's Garchomp (2026)",
-        "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -7633,8 +7634,14 @@
     "num": "106",
     "printKey": "fireenergy|BLW 106",
     "image": "https://images.pokemontcg.io/bw1/106_hires.png",
-    "total": 4,
+    "total": 7,
     "variants": [
+      {
+        "version": "Holo",
+        "qty": 3,
+        "source": "Dragapult Dusknoir (2026)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
@@ -7657,6 +7664,24 @@
         "version": "Standard",
         "qty": 3,
         "source": "Cinccino Mill (2020)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Fire Energy",
+    "type": "Energy",
+    "key": "fireenergy",
+    "set": "SVE",
+    "num": "10",
+    "printKey": "fireenergy|SVE 10",
+    "image": "https://images.pokemontcg.io/sve/10_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Dragapult (2026)",
         "verified": true
       }
     ]
@@ -7731,35 +7756,6 @@
         "qty": 14,
         "source": "Baby Blacephalon (2020)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Fire Energy",
-    "type": "Energy",
-    "key": "fireenergy",
-    "set": "",
-    "num": "",
-    "printKey": "fireenergy|",
-    "image": "https://images.pokemontcg.io/xy1/133_hires.png",
-    "total": 8,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Dragapult Dusknoir (2026)",
-        "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Dragapult (2026)",
-        "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spare"
       }
     ]
   },
@@ -8972,6 +8968,24 @@
     "name": "Grass Energy",
     "type": "Energy",
     "key": "grassenergy",
+    "set": "SVE",
+    "num": "9",
+    "printKey": "grassenergy|SVE 9",
+    "image": "https://images.pokemontcg.io/sve/9_hires.png",
+    "total": 6,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 6,
+        "source": "Rocket's Mewtwo (2026)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Grass Energy",
+    "type": "Energy",
+    "key": "grassenergy",
     "set": "XY",
     "num": "",
     "printKey": "grassenergy|XY",
@@ -9047,22 +9061,11 @@
     "num": "",
     "printKey": "grassenergy|",
     "image": "https://images.pokemontcg.io/xy1/132_hires.png",
-    "total": 9,
+    "total": 2,
     "variants": [
-      {
-        "version": "Standard",
-        "qty": 6,
-        "source": "Rocket's Mewtwo (2026)",
-        "verified": true
-      },
       {
         "version": "Prize Pack",
         "qty": 2,
-        "source": "Spare"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
         "source": "Spare"
       }
     ]
@@ -9371,21 +9374,17 @@
     "name": "Gwynn",
     "type": "Supporter",
     "key": "gwynn",
-    "set": "",
-    "num": "",
-    "printKey": "gwynn|",
+    "set": "PBL",
+    "num": "78",
+    "printKey": "gwynn|PBL 78",
     "image": "https://images.scrydex.com/pokemon/me5-78/large",
-    "total": 8,
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Hide 'n' Sneak (2026)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Spare"
+        "source": "Hide 'n' Sneak (2026)",
+        "verified": true
       }
     ]
   },
@@ -10031,18 +10030,19 @@
   },
   {
     "name": "Ignition Energy",
-    "type": "Energy",
+    "type": "",
     "key": "ignitionenergy",
-    "set": "",
-    "num": "",
-    "printKey": "ignitionenergy|",
+    "set": "WHT",
+    "num": "86",
+    "printKey": "ignitionenergy|WHT 86",
     "image": "https://images.pokemontcg.io/rsv10pt5/86_hires.png",
     "total": 2,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Rocket's Honchkrow (2026)"
+        "source": "Rocket's Honchkrow (2026)",
+        "verified": true
       }
     ]
   },
@@ -11741,8 +11741,38 @@
     "num": "192",
     "printKey": "lilliesdetermination|ASC 192",
     "image": "https://images.scrydex.com/pokemon/me2pt5-192/large",
-    "total": 4,
+    "total": 16,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Rocket's Mewtwo (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "N's Zoroark (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Hide 'n' Sneak (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Dragapult (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Cynthia's Garchomp (2026)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -11755,41 +11785,35 @@
     "name": "Lillie's Determination",
     "type": "Supporter",
     "key": "lilliesdetermination",
-    "set": "",
-    "num": "",
-    "printKey": "lilliesdetermination|",
-    "image": "https://images.scrydex.com/pokemon/me2pt5-192/large",
-    "total": 18,
+    "set": "MEG",
+    "num": "119",
+    "printKey": "lilliesdetermination|MEG 119",
+    "image": "https://images.pokemontcg.io/me1/119_hires.png",
+    "total": 6,
     "variants": [
       {
         "version": "Standard",
-        "qty": 2,
-        "source": "Rocket's Mewtwo (2026)"
+        "qty": 1,
+        "source": "N's Zoroark (2026)",
+        "verified": true
       },
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Cynthia's Garchomp (2026)"
+        "source": "Hide 'n' Sneak (2026)",
+        "verified": true
       },
       {
         "version": "Standard",
-        "qty": 3,
-        "source": "Cynthia's Garchomp (2026)"
+        "qty": 2,
+        "source": "Hide 'n' Sneak (2026)",
+        "verified": true
       },
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Dragapult (2026)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Hide 'n' Sneak (2026)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "N's Zoroark (2026)"
+        "qty": 2,
+        "source": "Cynthia's Garchomp (2026)",
+        "verified": true
       }
     ]
   },
@@ -14394,18 +14418,19 @@
   },
   {
     "name": "N's Castle",
-    "type": "Stadium",
+    "type": "",
     "key": "nscastle",
-    "set": "",
-    "num": "",
-    "printKey": "nscastle|",
+    "set": "JTG",
+    "num": "152",
+    "printKey": "nscastle|JTG 152",
     "image": "https://images.pokemontcg.io/sv9/152_hires.png",
     "total": 2,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
-        "source": "N's Zoroark (2026)"
+        "source": "N's Zoroark (2026)",
+        "verified": true
       }
     ]
   },
@@ -15795,43 +15820,6 @@
     ]
   },
   {
-    "name": "Poke Pad",
-    "type": "Item",
-    "key": "pokepad",
-    "set": "",
-    "num": "",
-    "printKey": "pokepad|",
-    "image": "https://images.scrydex.com/pokemon/me3-81/large",
-    "total": 17,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Cynthia's Garchomp (2026)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Dragapult (2026)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Hide 'n' Sneak (2026)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Rocket's Honchkrow (2026)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "N's Zoroark (2026)"
-      }
-    ]
-  },
-  {
     "name": "Poké Pad",
     "type": "Item",
     "key": "pokepad",
@@ -15839,8 +15827,26 @@
     "num": "198",
     "printKey": "pokepad|ASC 198",
     "image": "https://images.scrydex.com/pokemon/me2pt5-198/large",
-    "total": 3,
+    "total": 11,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Rocket's Honchkrow (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "N's Zoroark (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Dragapult (2026)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 2,
@@ -15863,8 +15869,26 @@
     "num": "81",
     "printKey": "pokepad|POR 81",
     "image": "https://images.scrydex.com/pokemon/me3-81/large",
-    "total": 9,
+    "total": 18,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Hide 'n' Sneak (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Dragapult (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Cynthia's Garchomp (2026)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 2,
@@ -16666,35 +16690,25 @@
     "num": "80",
     "printKey": "prismtower|CRI 80",
     "image": "https://images.scrydex.com/pokemon/me4-80/large",
-    "total": 2,
+    "total": 8,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Hide 'n' Sneak (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Cynthia's Garchomp (2026)",
+        "verified": true
+      },
       {
         "version": "Reverse Holo",
         "qty": 2,
         "source": "Rocket's Mewtwo (2026)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Prism Tower",
-    "type": "Stadium",
-    "key": "prismtower",
-    "set": "",
-    "num": "",
-    "printKey": "prismtower|",
-    "image": "https://images.scrydex.com/pokemon/me4-80/large",
-    "total": 6,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Cynthia's Garchomp (2026)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Hide 'n' Sneak (2026)"
       }
     ]
   },
@@ -17382,12 +17396,48 @@
     "num": "",
     "printKey": "psychicenergy|SSH",
     "image": null,
-    "total": 14,
+    "total": 20,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Rocket's Mewtwo (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Dragapult (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Alakazam (2026)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 14,
         "source": "Shadow Rider (2021)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Psychic Energy",
+    "type": "Energy",
+    "key": "psychicenergy",
+    "set": "SVE",
+    "num": "13",
+    "printKey": "psychicenergy|SVE 13",
+    "image": "https://images.pokemontcg.io/sve/13_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Hide 'n' Sneak (2026)",
         "verified": true
       }
     ]
@@ -17467,7 +17517,7 @@
     "num": "",
     "printKey": "psychicenergy|",
     "image": "https://images.pokemontcg.io/xy1/136_hires.png",
-    "total": 16,
+    "total": 8,
     "variants": [
       {
         "version": "Standard",
@@ -17477,32 +17527,8 @@
       },
       {
         "version": "Standard",
-        "qty": 2,
-        "source": "Hide 'n' Sneak (2026)",
-        "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Dragapult (2026)",
-        "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Rocket's Mewtwo (2026)",
-        "verified": true
-      },
-      {
-        "version": "Standard",
         "qty": 4,
         "source": "Slowking (2026)",
-        "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Alakazam (2026)",
         "verified": true
       },
       {
@@ -18966,18 +18992,19 @@
   },
   {
     "name": "Rocky Fighting Energy",
-    "type": "Energy",
+    "type": "",
     "key": "rockyfightingenergy",
-    "set": "",
-    "num": "",
-    "printKey": "rockyfightingenergy|",
+    "set": "POR",
+    "num": "87",
+    "printKey": "rockyfightingenergy|POR 87",
     "image": "https://images.scrydex.com/pokemon/me3-87/large",
     "total": 4,
     "variants": [
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Cynthia's Garchomp (2026)"
+        "source": "Cynthia's Garchomp (2026)",
+        "verified": true
       }
     ]
   },
@@ -19066,18 +19093,19 @@
   },
   {
     "name": "Roto-Stick",
-    "type": "Item",
+    "type": "",
     "key": "rotostick",
-    "set": "",
-    "num": "",
-    "printKey": "rotostick|",
+    "set": "PRE",
+    "num": "127",
+    "printKey": "rotostick|PRE 127",
     "image": "https://images.pokemontcg.io/sv8pt5/127_hires.png",
     "total": 4,
     "variants": [
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Rocket's Honchkrow (2026)"
+        "source": "Rocket's Honchkrow (2026)",
+        "verified": true
       }
     ]
   },
@@ -20188,18 +20216,19 @@
   },
   {
     "name": "Special Red Card",
-    "type": "Item",
+    "type": "",
     "key": "specialredcard",
-    "set": "",
-    "num": "",
-    "printKey": "specialredcard|",
+    "set": "CRI",
+    "num": "82",
+    "printKey": "specialredcard|CRI 82",
     "image": "https://images.scrydex.com/pokemon/me4-82/large",
     "total": 1,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Dragapult (2026)"
+        "source": "Dragapult (2026)",
+        "verified": true
       }
     ]
   },
@@ -21775,8 +21804,14 @@
     "num": "217",
     "printKey": "teamrocketsenergy|ASC 217",
     "image": "https://images.scrydex.com/pokemon/me2pt5-217/large",
-    "total": 4,
+    "total": 6,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Rocket's Honchkrow (2026)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -21789,31 +21824,17 @@
     "name": "Team Rocket's Energy",
     "type": "Energy",
     "key": "teamrocketsenergy",
-    "set": "",
-    "num": "",
-    "printKey": "teamrocketsenergy|",
+    "set": "DRI",
+    "num": "182",
+    "printKey": "teamrocketsenergy|DRI 182",
     "image": "https://images.pokemontcg.io/sv10/182_hires.png",
-    "total": 5,
+    "total": 2,
     "variants": [
       {
         "version": "Prize Pack",
         "qty": 2,
-        "source": "Rocket's Honchkrow (2026)"
-      },
-      {
-        "version": "Reverse Holo",
-        "qty": 1,
-        "source": "Rocket's Honchkrow (2026)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Rocket's Honchkrow (2026)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
+        "source": "Rocket's Honchkrow (2026)",
+        "verified": true
       }
     ]
   },
@@ -21825,8 +21846,14 @@
     "num": "203",
     "printKey": "teamrocketsfactory|ASC 203",
     "image": "https://images.scrydex.com/pokemon/me2pt5-203/large",
-    "total": 1,
+    "total": 4,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Rocket's Honchkrow (2026)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -21836,19 +21863,20 @@
     ]
   },
   {
-    "name": "Team Rocket's Factory",
-    "type": "Stadium",
-    "key": "teamrocketsfactory",
-    "set": "",
-    "num": "",
-    "printKey": "teamrocketsfactory|",
-    "image": "https://images.pokemontcg.io/sv10/173_hires.png",
-    "total": 3,
+    "name": "Team Rocket's Giovanni",
+    "type": "Supporter",
+    "key": "teamrocketsgiovanni",
+    "set": "ASC",
+    "num": "204",
+    "printKey": "teamrocketsgiovanni|ASC 204",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-204/large",
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
-        "qty": 3,
-        "source": "Rocket's Honchkrow (2026)"
+        "qty": 4,
+        "source": "Rocket's Honchkrow (2026)",
+        "verified": true
       }
     ]
   },
@@ -21867,28 +21895,6 @@
         "qty": 3,
         "source": "Rocket's Mewtwo (2026)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Team Rocket's Giovanni",
-    "type": "Supporter",
-    "key": "teamrocketsgiovanni",
-    "set": "",
-    "num": "",
-    "printKey": "teamrocketsgiovanni|",
-    "image": "https://images.pokemontcg.io/sv10/174_hires.png",
-    "total": 4,
-    "variants": [
-      {
-        "version": "Prize Pack",
-        "qty": 3,
-        "source": "Rocket's Honchkrow (2026)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Rocket's Honchkrow (2026)"
       }
     ]
   },
@@ -22103,16 +22109,16 @@
     "name": "Team Rocket's Proton",
     "type": "Supporter",
     "key": "teamrocketsproton",
-    "set": "DRI",
-    "num": "177",
-    "printKey": "teamrocketsproton|DRI 177",
-    "image": "https://images.pokemontcg.io/sv10/177_hires.png",
-    "total": 2,
+    "set": "ASC",
+    "num": "208",
+    "printKey": "teamrocketsproton|ASC 208",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-208/large",
+    "total": 3,
     "variants": [
       {
         "version": "Standard",
-        "qty": 2,
-        "source": "Rocket's Mewtwo (2026)",
+        "qty": 3,
+        "source": "Rocket's Honchkrow (2026)",
         "verified": true
       }
     ]
@@ -22121,16 +22127,23 @@
     "name": "Team Rocket's Proton",
     "type": "Supporter",
     "key": "teamrocketsproton",
-    "set": "",
-    "num": "",
-    "printKey": "teamrocketsproton|",
+    "set": "DRI",
+    "num": "177",
+    "printKey": "teamrocketsproton|DRI 177",
     "image": "https://images.pokemontcg.io/sv10/177_hires.png",
-    "total": 4,
+    "total": 3,
     "variants": [
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Rocket's Honchkrow (2026)"
+        "qty": 1,
+        "source": "Rocket's Honchkrow (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Rocket's Mewtwo (2026)",
+        "verified": true
       }
     ]
   },
@@ -22198,16 +22211,16 @@
     "name": "Team Rocket's Transceiver",
     "type": "Item",
     "key": "teamrocketstransceiver",
-    "set": "DRI",
-    "num": "178",
-    "printKey": "teamrocketstransceiver|DRI 178",
-    "image": "https://images.pokemontcg.io/sv10/178_hires.png",
-    "total": 4,
+    "set": "ASC",
+    "num": "209",
+    "printKey": "teamrocketstransceiver|ASC 209",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-209/large",
+    "total": 3,
     "variants": [
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Rocket's Mewtwo (2026)",
+        "qty": 3,
+        "source": "Rocket's Honchkrow (2026)",
         "verified": true
       }
     ]
@@ -22216,21 +22229,23 @@
     "name": "Team Rocket's Transceiver",
     "type": "Item",
     "key": "teamrocketstransceiver",
-    "set": "",
-    "num": "",
-    "printKey": "teamrocketstransceiver|",
+    "set": "DRI",
+    "num": "178",
+    "printKey": "teamrocketstransceiver|DRI 178",
     "image": "https://images.pokemontcg.io/sv10/178_hires.png",
     "total": 5,
     "variants": [
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Rocket's Honchkrow (2026)"
+        "qty": 1,
+        "source": "Rocket's Honchkrow (2026)",
+        "verified": true
       },
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
+        "qty": 4,
+        "source": "Rocket's Mewtwo (2026)",
+        "verified": true
       }
     ]
   },
@@ -22870,18 +22885,19 @@
   },
   {
     "name": "Transformation Tome",
-    "type": "Item",
+    "type": "",
     "key": "transformationtome",
-    "set": "",
-    "num": "",
-    "printKey": "transformationtome|",
+    "set": "CRI",
+    "num": "83",
+    "printKey": "transformationtome|CRI 83",
     "image": "https://images.scrydex.com/pokemon/me4-83/large",
     "total": 4,
     "variants": [
       {
         "version": "Standard",
         "qty": 4,
-        "source": "N's Zoroark (2026)"
+        "source": "N's Zoroark (2026)",
+        "verified": true
       }
     ]
   },
@@ -23563,30 +23579,19 @@
     "num": "165",
     "printKey": "unfairstamp|TWM 165",
     "image": "https://images.pokemontcg.io/sv6/165_hires.png",
-    "total": 1,
+    "total": 2,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Dragapult (2026)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
         "source": "Dragapult Dusknoir (2026)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Unfair Stamp",
-    "type": "Item",
-    "key": "unfairstamp",
-    "set": "",
-    "num": "",
-    "printKey": "unfairstamp|",
-    "image": "https://images.pokemontcg.io/sv6/165_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Dragapult (2026)"
       }
     ]
   },
