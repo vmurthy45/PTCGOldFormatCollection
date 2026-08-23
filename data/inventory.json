@@ -83,7 +83,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Gothitelle (2013)"
+        "source": "Gothitelle (2013)",
+        "verified": true
       }
     ]
   },
@@ -3020,6 +3021,12 @@
     "total": 20,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Gothitelle (2013)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 2,
         "source": "Blastoise (2013)",
@@ -3048,11 +3055,6 @@
         "qty": 2,
         "source": "Lando Bats (2015)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Gothitelle (2013)"
       },
       {
         "version": "World Champs",
@@ -3221,6 +3223,12 @@
     "total": 6,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Gothitelle (2013)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 1,
         "source": "Blastoise (2013)",
@@ -3237,11 +3245,6 @@
         "qty": 1,
         "source": "Archie's Blastoise (2015)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Gothitelle (2013)"
       },
       {
         "version": "Standard",
@@ -4847,6 +4850,12 @@
     "variants": [
       {
         "version": "World Champs",
+        "qty": 4,
+        "source": "Gothitelle (2013)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
         "qty": 3,
         "source": "Darkrai Mewtwo (2012)",
         "verified": true
@@ -4856,11 +4865,6 @@
         "qty": 4,
         "source": "CMT (2012)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Gothitelle (2013)"
       },
       {
         "version": "World Champs",
@@ -5608,7 +5612,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Gothitelle (2013)"
+        "source": "Gothitelle (2013)",
+        "verified": true
       }
     ]
   },
@@ -5702,7 +5707,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Gothitelle (2013)"
+        "source": "Gothitelle (2013)",
+        "verified": true
       }
     ]
   },
@@ -7904,6 +7910,12 @@
     "variants": [
       {
         "version": "World Champs",
+        "qty": 3,
+        "source": "Gothitelle (2013)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
         "qty": 4,
         "source": "RayEels (2013)",
         "verified": true
@@ -7913,11 +7925,6 @@
         "qty": 2,
         "source": "TDK (2013)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "Gothitelle (2013)"
       }
     ]
   },
@@ -8868,7 +8875,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Gothitelle (2013)"
+        "source": "Gothitelle (2013)",
+        "verified": true
       }
     ]
   },
@@ -8885,24 +8893,26 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Gothitelle (2013)"
+        "source": "Gothitelle (2013)",
+        "verified": true
       }
     ]
   },
   {
     "name": "Gothorita",
-    "type": "Pokémon",
+    "type": "",
     "key": "gothorita",
     "set": "EPO",
-    "num": "45",
-    "printKey": "gothorita|EPO 45",
-    "image": "https://images.pokemontcg.io/bw2/45_hires.png",
+    "num": "46",
+    "printKey": "gothorita|EPO 46",
+    "image": "https://images.pokemontcg.io/bw2/46_hires.png",
     "total": 1,
     "variants": [
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Gothitelle (2013)"
+        "source": "Gothitelle (2013)",
+        "verified": true
       }
     ]
   },
@@ -10813,6 +10823,12 @@
     "total": 10,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Gothitelle (2013)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 1,
         "source": "Blastoise (2013)",
@@ -10829,11 +10845,6 @@
         "qty": 3,
         "source": "Archie's Blastoise (2015)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Gothitelle (2013)"
       },
       {
         "version": "Standard",
@@ -11423,14 +11434,15 @@
     "variants": [
       {
         "version": "World Champs",
-        "qty": 4,
-        "source": "RayEels (2013)",
+        "qty": 2,
+        "source": "Gothitelle (2013)",
         "verified": true
       },
       {
         "version": "World Champs",
-        "qty": 2,
-        "source": "Gothitelle (2013)"
+        "qty": 4,
+        "source": "RayEels (2013)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -13497,7 +13509,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Gothitelle (2013)"
+        "source": "Gothitelle (2013)",
+        "verified": true
       }
     ]
   },
@@ -14008,18 +14021,19 @@
   },
   {
     "name": "Munna",
-    "type": "Pokémon",
+    "type": "",
     "key": "munna",
-    "set": "NXD",
-    "num": "58",
-    "printKey": "munna|NXD 58",
-    "image": "https://images.pokemontcg.io/bw4/58_hires.png",
+    "set": "BLW",
+    "num": "48",
+    "printKey": "munna|BLW 48",
+    "image": "https://images.pokemontcg.io/bw1/48_hires.png",
     "total": 1,
     "variants": [
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Gothitelle (2013)"
+        "source": "Gothitelle (2013)",
+        "verified": true
       }
     ]
   },
@@ -14086,7 +14100,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Gothitelle (2013)"
+        "source": "Gothitelle (2013)",
+        "verified": true
       }
     ]
   },
@@ -14140,8 +14155,14 @@
     "num": "96",
     "printKey": "n|DEX 96",
     "image": "https://images.pokemontcg.io/bw5/96_hires.png",
-    "total": 29,
+    "total": 32,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Gothitelle (2013)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
@@ -14331,18 +14352,13 @@
     "num": "92",
     "printKey": "n|NVI 92",
     "image": "https://images.pokemontcg.io/bw3/92_hires.png",
-    "total": 11,
+    "total": 8,
     "variants": [
       {
         "version": "Standard",
         "qty": 4,
         "source": "Blastoise (2013)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "Gothitelle (2013)"
       },
       {
         "version": "Standard",
@@ -15963,6 +15979,12 @@
       {
         "version": "World Champs",
         "qty": 3,
+        "source": "Gothitelle (2013)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
         "source": "RayEels (2013)",
         "verified": true
       },
@@ -15977,11 +15999,6 @@
         "qty": 3,
         "source": "Darkrai Mewtwo (2012)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "Gothitelle (2013)"
       },
       {
         "version": "Standard",
@@ -16132,7 +16149,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Gothitelle (2013)"
+        "source": "Gothitelle (2013)",
+        "verified": true
       }
     ]
   },
@@ -16705,7 +16723,7 @@
     "num": "101",
     "printKey": "professorjuniper|BLW 101",
     "image": "https://images.pokemontcg.io/bw1/101_hires.png",
-    "total": 11,
+    "total": 7,
     "variants": [
       {
         "version": "Reverse Holo",
@@ -16718,11 +16736,6 @@
         "qty": 2,
         "source": "Archie's Blastoise (2015)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Gothitelle (2013)"
       },
       {
         "version": "Standard",
@@ -16739,8 +16752,14 @@
     "num": "98",
     "printKey": "professorjuniper|DEX 98",
     "image": "https://images.pokemontcg.io/bw5/98_hires.png",
-    "total": 19,
+    "total": 23,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Gothitelle (2013)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
@@ -18208,7 +18227,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Gothitelle (2013)"
+        "source": "Gothitelle (2013)",
+        "verified": true
       }
     ]
   },
@@ -19691,7 +19711,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Gothitelle (2013)"
+        "source": "Gothitelle (2013)",
+        "verified": true
       }
     ]
   },
@@ -19862,6 +19883,12 @@
     "total": 18,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Gothitelle (2013)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 4,
         "source": "Blastoise (2013)",
@@ -19872,11 +19899,6 @@
         "qty": 3,
         "source": "TDK (2013)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Gothitelle (2013)"
       },
       {
         "version": "World Champs",
@@ -20655,8 +20677,14 @@
     "num": "20",
     "printKey": "superrod|DRV 20",
     "image": "https://images.pokemontcg.io/dv1/20_hires.png",
-    "total": 5,
+    "total": 6,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Gothitelle (2013)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 2,
@@ -20677,23 +20705,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Yveltal Raichu (2014)"
-      }
-    ]
-  },
-  {
-    "name": "Super Rod",
-    "type": "Trainer",
-    "key": "superrod",
-    "set": "NVI",
-    "num": "95",
-    "printKey": "superrod|NVI 95",
-    "image": "https://images.pokemontcg.io/bw3/95_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Gothitelle (2013)"
       }
     ]
   },
@@ -22588,7 +22599,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Gothitelle (2013)"
+        "source": "Gothitelle (2013)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -22738,7 +22750,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Gothitelle (2013)"
+        "source": "Gothitelle (2013)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -22888,13 +22901,8 @@
     "num": "BW28",
     "printKey": "tropicalbeach|PR-BLW BW28",
     "image": "https://images.pokemontcg.io/bwp/BW28_hires.png",
-    "total": 3,
+    "total": 1,
     "variants": [
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Gothitelle (2013)"
-      },
       {
         "version": "World Champs",
         "qty": 1,
@@ -22910,8 +22918,14 @@
     "num": "BW50",
     "printKey": "tropicalbeach|PR-BLW BW50",
     "image": "https://images.pokemontcg.io/bwp/BW50_hires.png",
-    "total": 7,
+    "total": 9,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Gothitelle (2013)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -23150,6 +23164,12 @@
     "total": 28,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Gothitelle (2013)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 4,
         "source": "Blastoise (2013)",
@@ -23172,11 +23192,6 @@
         "qty": 2,
         "source": "Darkrai Mewtwo (2012)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "Gothitelle (2013)"
       },
       {
         "version": "Standard",
