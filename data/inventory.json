@@ -3019,6 +3019,12 @@
     "variants": [
       {
         "version": "World Champs",
+        "qty": 3,
+        "source": "RayEels (2013)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
         "qty": 2,
         "source": "TDK (2013)",
         "verified": true
@@ -3039,11 +3045,6 @@
         "version": "World Champs",
         "qty": 2,
         "source": "Gothitelle (2013)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "RayEels (2013)"
       },
       {
         "version": "Standard",
@@ -5031,7 +5032,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "RayEels (2013)"
+        "source": "RayEels (2013)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -5845,7 +5847,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "RayEels (2013)"
+        "source": "RayEels (2013)",
+        "verified": true
       }
     ]
   },
@@ -6142,8 +6145,14 @@
     "num": "128",
     "printKey": "energysearch|BCR 128",
     "image": "https://images.pokemontcg.io/bw7/128_hires.png",
-    "total": 1,
+    "total": 2,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "RayEels (2013)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 1,
@@ -6160,17 +6169,12 @@
     "num": "93",
     "printKey": "energysearch|BLW 93",
     "image": "https://images.pokemontcg.io/bw1/93_hires.png",
-    "total": 2,
+    "total": 1,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
         "source": "Darkrai (2013)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "RayEels (2013)"
       }
     ]
   },
@@ -7598,6 +7602,24 @@
     "name": "Fire Energy",
     "type": "Energy",
     "key": "fireenergy",
+    "set": "BLW",
+    "num": "106",
+    "printKey": "fireenergy|BLW 106",
+    "image": "https://images.pokemontcg.io/bw1/106_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "RayEels (2013)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Fire Energy",
+    "type": "Energy",
+    "key": "fireenergy",
     "set": "BS",
     "num": "98",
     "printKey": "fireenergy|BS 98",
@@ -7620,18 +7642,13 @@
     "num": "",
     "printKey": "fireenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/133_hires.png",
-    "total": 80,
+    "total": 76,
     "variants": [
       {
         "version": "Standard",
         "qty": 6,
         "source": "Charizard Pidgeot (2025)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "RayEels (2013)"
       },
       {
         "version": "Standard",
@@ -7883,6 +7900,12 @@
     "variants": [
       {
         "version": "World Champs",
+        "qty": 4,
+        "source": "RayEels (2013)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
         "qty": 2,
         "source": "TDK (2013)",
         "verified": true
@@ -7891,11 +7914,6 @@
         "version": "World Champs",
         "qty": 3,
         "source": "Gothitelle (2013)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "RayEels (2013)"
       }
     ]
   },
@@ -10791,6 +10809,12 @@
     "variants": [
       {
         "version": "World Champs",
+        "qty": 2,
+        "source": "RayEels (2013)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
         "qty": 3,
         "source": "Archie's Blastoise (2015)",
         "verified": true
@@ -10804,11 +10828,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Darkrai (2013)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "RayEels (2013)"
       },
       {
         "version": "Standard",
@@ -11374,13 +11393,14 @@
     "variants": [
       {
         "version": "World Champs",
-        "qty": 2,
-        "source": "Gothitelle (2013)"
+        "qty": 4,
+        "source": "RayEels (2013)",
+        "verified": true
       },
       {
         "version": "World Champs",
-        "qty": 4,
-        "source": "RayEels (2013)"
+        "qty": 2,
+        "source": "Gothitelle (2013)"
       },
       {
         "version": "Standard",
@@ -11443,8 +11463,14 @@
     "num": "108",
     "printKey": "lightningenergy|BLW 108",
     "image": "https://images.pokemontcg.io/bw1/108_hires.png",
-    "total": 2,
+    "total": 10,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 8,
+        "source": "RayEels (2013)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 2,
@@ -11461,18 +11487,13 @@
     "num": "",
     "printKey": "lightningenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/135_hires.png",
-    "total": 77,
+    "total": 69,
     "variants": [
       {
         "version": "World Champs",
         "qty": 2,
         "source": "LuxChomp (2010)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 8,
-        "source": "RayEels (2013)"
       },
       {
         "version": "Standard",
@@ -14081,8 +14102,14 @@
     "num": "96",
     "printKey": "n|DEX 96",
     "image": "https://images.pokemontcg.io/bw5/96_hires.png",
-    "total": 25,
+    "total": 29,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "RayEels (2013)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
@@ -14266,7 +14293,7 @@
     "num": "92",
     "printKey": "n|NVI 92",
     "image": "https://images.pokemontcg.io/bw3/92_hires.png",
-    "total": 15,
+    "total": 11,
     "variants": [
       {
         "version": "World Champs",
@@ -14277,11 +14304,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Darkrai (2013)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "RayEels (2013)"
       },
       {
         "version": "Standard",
@@ -15901,6 +15923,12 @@
     "variants": [
       {
         "version": "World Champs",
+        "qty": 3,
+        "source": "RayEels (2013)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
         "qty": 4,
         "source": "TDK (2013)",
         "verified": true
@@ -15920,11 +15948,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Darkrai (2013)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "RayEels (2013)"
       },
       {
         "version": "Standard",
@@ -16636,7 +16659,7 @@
     "num": "101",
     "printKey": "professorjuniper|BLW 101",
     "image": "https://images.pokemontcg.io/bw1/101_hires.png",
-    "total": 18,
+    "total": 14,
     "variants": [
       {
         "version": "Reverse Holo",
@@ -16661,11 +16684,6 @@
         "source": "Darkrai (2013)"
       },
       {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "RayEels (2013)"
-      },
-      {
         "version": "Standard",
         "qty": 3,
         "source": "Blastoise (2013)"
@@ -16680,8 +16698,14 @@
     "num": "98",
     "printKey": "professorjuniper|DEX 98",
     "image": "https://images.pokemontcg.io/bw5/98_hires.png",
-    "total": 15,
+    "total": 19,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "RayEels (2013)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
@@ -17804,7 +17828,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "RayEels (2013)"
+        "source": "RayEels (2013)",
+        "verified": true
       }
     ]
   },
@@ -18327,7 +18352,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "RayEels (2013)"
+        "source": "RayEels (2013)",
+        "verified": true
       }
     ]
   },
@@ -20567,8 +20593,14 @@
     "num": "20",
     "printKey": "superrod|DRV 20",
     "image": "https://images.pokemontcg.io/dv1/20_hires.png",
-    "total": 3,
+    "total": 5,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "RayEels (2013)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 1,
@@ -20594,17 +20626,12 @@
     "num": "95",
     "printKey": "superrod|NVI 95",
     "image": "https://images.pokemontcg.io/bw3/95_hires.png",
-    "total": 3,
+    "total": 1,
     "variants": [
       {
         "version": "World Champs",
         "qty": 1,
         "source": "Gothitelle (2013)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "RayEels (2013)"
       }
     ]
   },
@@ -22798,17 +22825,12 @@
     "num": "BW28",
     "printKey": "tropicalbeach|PR-BLW BW28",
     "image": "https://images.pokemontcg.io/bwp/BW28_hires.png",
-    "total": 10,
+    "total": 7,
     "variants": [
       {
         "version": "World Champs",
         "qty": 2,
         "source": "Gothitelle (2013)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "RayEels (2013)"
       },
       {
         "version": "Standard",
@@ -22819,6 +22841,24 @@
         "version": "World Champs",
         "qty": 1,
         "source": "TDK (2014)"
+      }
+    ]
+  },
+  {
+    "name": "Tropical Beach",
+    "type": "Trainer",
+    "key": "tropicalbeach",
+    "set": "PR-BLW",
+    "num": "BW50",
+    "printKey": "tropicalbeach|PR-BLW BW50",
+    "image": "https://images.pokemontcg.io/bwp/BW50_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "RayEels (2013)",
+        "verified": true
       }
     ]
   },
@@ -22934,7 +22974,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "RayEels (2013)"
+        "source": "RayEels (2013)",
+        "verified": true
       }
     ]
   },
@@ -23046,6 +23087,12 @@
     "variants": [
       {
         "version": "World Champs",
+        "qty": 4,
+        "source": "RayEels (2013)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
         "qty": 1,
         "source": "TDK (2013)",
         "verified": true
@@ -23065,11 +23112,6 @@
         "version": "Standard",
         "qty": 3,
         "source": "Darkrai (2013)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "RayEels (2013)"
       },
       {
         "version": "Standard",
@@ -23644,18 +23686,19 @@
   },
   {
     "name": "Victini",
-    "type": "Pokémon",
+    "type": "",
     "key": "victini",
     "set": "NVI",
-    "num": "14",
-    "printKey": "victini|NVI 14",
-    "image": "https://images.pokemontcg.io/bw3/14_hires.png",
+    "num": "15",
+    "printKey": "victini|NVI 15",
+    "image": "https://images.pokemontcg.io/bw3/15_hires.png",
     "total": 1,
     "variants": [
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "RayEels (2013)"
+        "source": "RayEels (2013)",
+        "verified": true
       }
     ]
   },
