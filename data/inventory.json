@@ -1174,7 +1174,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "TDK (2013)"
+        "source": "TDK (2013)",
+        "verified": true
       }
     ]
   },
@@ -3017,6 +3018,12 @@
     "total": 20,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "TDK (2013)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 1,
         "source": "ToadBats (2015)",
@@ -3037,11 +3044,6 @@
         "version": "World Champs",
         "qty": 3,
         "source": "RayEels (2013)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "TDK (2013)"
       },
       {
         "version": "Standard",
@@ -3083,7 +3085,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "TDK (2013)"
+        "source": "TDK (2013)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -3216,6 +3219,12 @@
       {
         "version": "World Champs",
         "qty": 1,
+        "source": "TDK (2013)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
         "source": "Archie's Blastoise (2015)",
         "verified": true
       },
@@ -3228,11 +3237,6 @@
         "version": "Standard",
         "qty": 1,
         "source": "Darkrai (2013)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "TDK (2013)"
       },
       {
         "version": "Standard",
@@ -4552,7 +4556,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "TDK (2013)"
+        "source": "TDK (2013)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -6133,11 +6138,29 @@
     "name": "Energy Search",
     "type": "Trainer",
     "key": "energysearch",
+    "set": "BCR",
+    "num": "128",
+    "printKey": "energysearch|BCR 128",
+    "image": "https://images.pokemontcg.io/bw7/128_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "TDK (2013)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Energy Search",
+    "type": "Trainer",
+    "key": "energysearch",
     "set": "BLW",
     "num": "93",
     "printKey": "energysearch|BLW 93",
     "image": "https://images.pokemontcg.io/bw1/93_hires.png",
-    "total": 3,
+    "total": 2,
     "variants": [
       {
         "version": "Standard",
@@ -6148,11 +6171,6 @@
         "version": "World Champs",
         "qty": 1,
         "source": "RayEels (2013)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "TDK (2013)"
       }
     ]
   },
@@ -7865,6 +7883,12 @@
     "variants": [
       {
         "version": "World Champs",
+        "qty": 2,
+        "source": "TDK (2013)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
         "qty": 3,
         "source": "Gothitelle (2013)"
       },
@@ -7872,11 +7896,6 @@
         "version": "World Champs",
         "qty": 4,
         "source": "RayEels (2013)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "TDK (2013)"
       }
     ]
   },
@@ -9869,6 +9888,12 @@
     "variants": [
       {
         "version": "World Champs",
+        "qty": 4,
+        "source": "TDK (2013)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
         "qty": 1,
         "source": "ToadBats (2015)",
         "verified": true
@@ -9883,11 +9908,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Darkrai (2013)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "TDK (2013)"
       },
       {
         "version": "World Champs",
@@ -11053,7 +11073,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "TDK (2013)"
+        "source": "TDK (2013)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -11418,11 +11439,29 @@
     "name": "Lightning Energy",
     "type": "Energy",
     "key": "lightningenergy",
+    "set": "BLW",
+    "num": "108",
+    "printKey": "lightningenergy|BLW 108",
+    "image": "https://images.pokemontcg.io/bw1/108_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "TDK (2013)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Lightning Energy",
+    "type": "Energy",
+    "key": "lightningenergy",
     "set": "XY",
     "num": "",
     "printKey": "lightningenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/135_hires.png",
-    "total": 79,
+    "total": 77,
     "variants": [
       {
         "version": "World Champs",
@@ -11434,11 +11473,6 @@
         "version": "World Champs",
         "qty": 8,
         "source": "RayEels (2013)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "TDK (2013)"
       },
       {
         "version": "Standard",
@@ -14047,8 +14081,14 @@
     "num": "96",
     "printKey": "n|DEX 96",
     "image": "https://images.pokemontcg.io/bw5/96_hires.png",
-    "total": 21,
+    "total": 25,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "TDK (2013)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 1,
@@ -14226,7 +14266,7 @@
     "num": "92",
     "printKey": "n|NVI 92",
     "image": "https://images.pokemontcg.io/bw3/92_hires.png",
-    "total": 19,
+    "total": 15,
     "variants": [
       {
         "version": "World Champs",
@@ -14242,11 +14282,6 @@
         "version": "World Champs",
         "qty": 4,
         "source": "RayEels (2013)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "TDK (2013)"
       },
       {
         "version": "Standard",
@@ -15572,7 +15607,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "TDK (2013)"
+        "source": "TDK (2013)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -15865,6 +15901,12 @@
     "variants": [
       {
         "version": "World Champs",
+        "qty": 4,
+        "source": "TDK (2013)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
         "qty": 3,
         "source": "Darkrai Mewtwo (2012)",
         "verified": true
@@ -15883,11 +15925,6 @@
         "version": "World Champs",
         "qty": 3,
         "source": "RayEels (2013)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "TDK (2013)"
       },
       {
         "version": "Standard",
@@ -16480,14 +16517,15 @@
     "variants": [
       {
         "version": "World Champs",
-        "qty": 2,
-        "source": "Darkrai Mewtwo (2012)",
+        "qty": 4,
+        "source": "TDK (2013)",
         "verified": true
       },
       {
         "version": "World Champs",
-        "qty": 4,
-        "source": "TDK (2013)"
+        "qty": 2,
+        "source": "Darkrai Mewtwo (2012)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -16598,7 +16636,7 @@
     "num": "101",
     "printKey": "professorjuniper|BLW 101",
     "image": "https://images.pokemontcg.io/bw1/101_hires.png",
-    "total": 22,
+    "total": 18,
     "variants": [
       {
         "version": "Reverse Holo",
@@ -16628,11 +16666,6 @@
         "source": "RayEels (2013)"
       },
       {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "TDK (2013)"
-      },
-      {
         "version": "Standard",
         "qty": 3,
         "source": "Blastoise (2013)"
@@ -16647,8 +16680,14 @@
     "num": "98",
     "printKey": "professorjuniper|DEX 98",
     "image": "https://images.pokemontcg.io/bw5/98_hires.png",
-    "total": 11,
+    "total": 15,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "TDK (2013)",
+        "verified": true
+      },
       {
         "version": "Reverse Holo",
         "qty": 1,
@@ -19738,13 +19777,14 @@
     "variants": [
       {
         "version": "World Champs",
-        "qty": 4,
-        "source": "Gothitelle (2013)"
+        "qty": 3,
+        "source": "TDK (2013)",
+        "verified": true
       },
       {
         "version": "World Champs",
-        "qty": 3,
-        "source": "TDK (2013)"
+        "qty": 4,
+        "source": "Gothitelle (2013)"
       },
       {
         "version": "Standard",
@@ -20765,8 +20805,14 @@
     "num": "135",
     "printKey": "switch|BCR 135",
     "image": "https://images.pokemontcg.io/bw7/135_hires.png",
-    "total": 5,
+    "total": 8,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "TDK (2013)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -20793,18 +20839,13 @@
     "num": "104",
     "printKey": "switch|BLW 104",
     "image": "https://images.pokemontcg.io/bw1/104_hires.png",
-    "total": 5,
+    "total": 2,
     "variants": [
       {
         "version": "World Champs",
         "qty": 2,
         "source": "Darkrai Mewtwo (2012)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "TDK (2013)"
       }
     ]
   },
@@ -21485,7 +21526,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "TDK (2013)"
+        "source": "TDK (2013)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -22398,7 +22440,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "TDK (2013)"
+        "source": "TDK (2013)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -23003,6 +23046,12 @@
     "variants": [
       {
         "version": "World Champs",
+        "qty": 1,
+        "source": "TDK (2013)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
         "qty": 2,
         "source": "Darkrai Mewtwo (2012)",
         "verified": true
@@ -23021,11 +23070,6 @@
         "version": "World Champs",
         "qty": 4,
         "source": "RayEels (2013)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "TDK (2013)"
       },
       {
         "version": "Standard",
@@ -23660,6 +23704,12 @@
     "total": 10,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "TDK (2013)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 2,
         "source": "ToadBats (2015)",
@@ -23675,11 +23725,6 @@
         "version": "Standard",
         "qty": 2,
         "source": "Darkrai (2013)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "TDK (2013)"
       },
       {
         "version": "World Champs",
@@ -24033,6 +24078,24 @@
     "name": "Water Energy",
     "type": "Energy",
     "key": "waterenergy",
+    "set": "BLW",
+    "num": "107",
+    "printKey": "waterenergy|BLW 107",
+    "image": "https://images.pokemontcg.io/bw1/107_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "TDK (2013)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Water Energy",
+    "type": "Energy",
+    "key": "waterenergy",
     "set": "DP",
     "num": "125",
     "printKey": "waterenergy|DP 125",
@@ -24079,13 +24142,8 @@
     "num": "",
     "printKey": "waterenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/134_hires.png",
-    "total": 53,
+    "total": 50,
     "variants": [
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "TDK (2013)"
-      },
       {
         "version": "Standard",
         "qty": 10,
