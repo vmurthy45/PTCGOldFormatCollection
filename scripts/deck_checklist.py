@@ -71,7 +71,10 @@ def main():
 
     every = "--all" in sys.argv
     missing, todo = [], []
-    for c in sorted(rows, key=lambda c: (c["category"], c["name"])):
+    # Pokémon, then Trainers, then Energy -- Vig reads the box in that order,
+    # and alphabetical category order would put Energy first.
+    order = {"Pokemon": 0, "Trainer": 1, "Energy": 2}
+    for c in sorted(rows, key=lambda c: (order.get(c["category"], 9), c["name"])):
         k = key(c["name"])
         m = c["count"] - sum((c.get("prints") or {}).values())
         if m:
