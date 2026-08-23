@@ -102,6 +102,15 @@ Hosted free on GitHub Pages.
   holding each — e.g. Ultra Ball SVI 196 shows its WC and Standard copies
   together. Variants with no set recorded collect under "Set unknown" at the
   bottom, pending Vig's physical check.
+  **Stand-in images.** Some prints have no catalogued picture anywhere: the
+  Japanese-only sets (M2a/M3/MEP/s12a), the BW Trainer Kit (`BWTK`), and basic
+  energies printed without a collector number (`SSH`, `TEU`, unnumbered `SUM`).
+  Those rows borrow another print's image, and carry a **`standIn`** string
+  saying so. The Inventory row shows a small "stand-in image" chip and the card
+  modal prints the reason underneath — without it the site quietly presents a
+  different card as though it were this one. Set `standIn` whenever an image
+  does not depict the actual card; clear it when a real one becomes available.
+
   **Explicit deck assignments + verification (Vig's ongoing pass):** he is
   working through the collection telling me which physical copies sit in which
   deck (e.g. "Dreepy: 4 Reverse Holo PRE 71 are in Dragapult Dusknoir (2026),

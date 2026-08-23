@@ -335,6 +335,10 @@
   .inv-qty{background:var(--cnt-bg); color:var(--red-dark); font-weight:700; font-size:11.5px;
     padding:1px 8px; border-radius:999px; font-variant-numeric:tabular-nums}
   /* verification state: ✓ = counts confirmed with Vig, • = still to check */
+  .modal-standin{margin-top:6px; font-size:11.5px; color:var(--muted); line-height:1.45;
+    max-width:34ch; text-align:center}
+  .inv-standin{font-size:10px; color:var(--muted); border:1px dashed var(--line);
+    border-radius:5px; padding:0 5px; margin-left:6px; white-space:nowrap; opacity:.85}
   .inv-ok{color:var(--pip-auth); font-weight:800; font-size:12.5px}
   .inv-todo{color:var(--muted); opacity:.55; font-size:13px; line-height:1}
   .inv-part{color:var(--pip-wc); font-weight:800; font-size:12.5px}
@@ -714,7 +718,7 @@ function openCardModal(card){
   modal.hidden = false;
 }
 // Generic image popup (reuses the card modal) for the About-me photos.
-function openImageModal(src, caption){
+function openImageModal(src, caption, note){
   modalBody.innerHTML = '';
   const img = document.createElement('img');
   img.src = src; img.alt = caption || '';
@@ -724,6 +728,15 @@ function openImageModal(src, caption){
     cap.className = 'modal-caption';
     cap.textContent = caption;
     modalBody.appendChild(cap);
+  }
+  // Some prints have no catalogued picture -- Japanese-only cards, the BW
+  // Trainer Kit, unnumbered basic energy. Those rows borrow another print's
+  // image, and saying so is the difference between a stand-in and a wrong card.
+  if(note){
+    const n = document.createElement('div');
+    n.className = 'modal-standin';
+    n.textContent = note;
+    modalBody.appendChild(n);
   }
   modal.hidden = false;
 }
@@ -1603,11 +1616,12 @@ function renderInventory(){
     const parts = g.decks.map(([d,n]) => `${esc(d)} ×${n}`);
     if(g.spare > 0) parts.push(`<span class="inv-spare">Spare ×${g.spare}</span>`);
     const decks = parts.join(' · ');
-    return `<div class="inv-item${img ? '' : ' inv-noimg'}" data-img="${esc(img)}" data-name="${esc(g.name)}">
+    return `<div class="inv-item${img ? '' : ' inv-noimg'}" data-img="${esc(img)}" data-name="${esc(g.name)}"${g.standIn ? ` data-standin="${esc(g.standIn)}"` : ''}>
       <span class="inv-main">
         <span class="inv-title"><span class="inv-name">${esc(g.name)}</span>`
       + `${(g.set || g.num) ? `<span class="inv-set">${esc(((g.set || '') + ' ' + (g.num || '')).trim())}</span>` : '<span class="inv-set inv-set-unknown">set unknown</span>'}`
       + `<span class="inv-qty">${g.total}</span>`
+      + `${g.standIn ? `<span class="inv-standin" title="${esc(g.standIn)}">stand-in image</span>` : ''}`
       + `${({all: '<span class="inv-ok" title="Every stack checked in hand">✓</span>',
              some: '<span class="inv-part" title="Some stacks still to check">◐</span>',
              none: '<span class="inv-todo" title="Not checked yet">•</span>'})[invStatus(g)]}</span>
@@ -1617,7 +1631,9 @@ function renderInventory(){
     </div>`;
   }).join('');
   invListEl.querySelectorAll('.inv-item').forEach(el => {
-    el.onclick = () => { if(el.dataset.img) openImageModal(el.dataset.img, el.dataset.name); };
+    el.onclick = () => {
+      if(el.dataset.img) openImageModal(el.dataset.img, el.dataset.name, el.dataset.standin);
+    };
   });
 }
 // spreadsheet "Card Type" (Item/Supporter/Stadium/Pokémon/Energy) -> our 3 categories
