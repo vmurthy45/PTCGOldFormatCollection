@@ -102,6 +102,13 @@ Hosted free on GitHub Pages.
   holding each — e.g. Ultra Ball SVI 196 shows its WC and Standard copies
   together. Variants with no set recorded collect under "Set unknown" at the
   bottom, pending Vig's physical check.
+  **Two count pills per row.** The Inventory row's copy count is split: the red
+  pill is everything that is not World Champs, the blue pill is the WC copies.
+  Either is omitted when it would read zero, so an all-WC row shows one blue
+  pill and an all-retail row one red. Note the colour does NOT match the deck
+  pips, where WC is grey and blue means Proxy — Vig asked for blue here
+  specifically.
+
   **Stand-in images.** Some prints have no catalogued picture anywhere: the
   Japanese-only sets (M2a/M3/MEP/s12a), the BW Trainer Kit (`BWTK`), and basic
   energies printed without a collector number (`SSH`, `TEU`, unnumbered `SUM`).

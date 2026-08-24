@@ -22,6 +22,7 @@
     --red:#EE2B39; --red-dark:#C81E2B; --charcoal:#3B4048; --charcoal-dark:#2B2F35;
     --ink:#2b2f35; --muted:#7a828d; --line:#e2c9cc; --bg:#f5f2f2; --card:#ffffff;
     --band-a:#fdeced; --band-b:#f8f5f5; --cnt-bg:#fbd9dc; --steel:#5a6470;
+    --cnt-wc-bg:#d8e6fd; --cnt-wc-fg:#1d4fa8;
     --mark-bg:#ffe58a; --mark-ink:#2b2f35; --overlay:rgba(20,18,19,.6);
     --pokeball-ink:#202225; --shadow:rgba(59,64,72,.14);
     --chip-bg:#ffffff; --rules-header:#202225; --rules-panel:#ffffff;
@@ -42,6 +43,7 @@
     --charcoal:#c7cbd1; --charcoal-dark:#f1f1f3;
     --ink:#e8e8ea; --muted:#9099a3; --line:#33383f; --bg:#131417; --card:#1c1f24;
     --band-a:#2a1c1e; --band-b:#20232a; --cnt-bg:#3a2226; --steel:#9099a3;
+    --cnt-wc-bg:#1e2c44; --cnt-wc-fg:#8fb4f2;
     --overlay:rgba(0,0,0,.75); --shadow:rgba(0,0,0,.45);
     --chip-bg:#262b32; --rules-header:#2c3138; --rules-panel:#20242b;
     /* Slightly stronger missing-row tints so they read on the dark card. */
@@ -334,6 +336,9 @@
   .inv-name{font-weight:600; font-size:14.5px; transition:color .12s}
   .inv-qty{background:var(--cnt-bg); color:var(--red-dark); font-weight:700; font-size:11.5px;
     padding:1px 8px; border-radius:999px; font-variant-numeric:tabular-nums}
+  /* World Champs copies get their own count, so a row's retail and WC stock
+     read apart at a glance instead of only in the per-stack lines below. */
+  .inv-qty-wc{background:var(--cnt-wc-bg); color:var(--cnt-wc-fg); margin-left:4px}
   /* verification state: ✓ = counts confirmed with Vig, • = still to check */
   .modal-standin{margin-top:6px; font-size:11.5px; color:var(--muted); line-height:1.45;
     max-width:34ch; text-align:center}
@@ -1620,7 +1625,12 @@ function renderInventory(){
       <span class="inv-main">
         <span class="inv-title"><span class="inv-name">${esc(g.name)}</span>`
       + `${(g.set || g.num) ? `<span class="inv-set">${esc(((g.set || '') + ' ' + (g.num || '')).trim())}</span>` : '<span class="inv-set inv-set-unknown">set unknown</span>'}`
-      + `<span class="inv-qty">${g.total}</span>`
+      + `${(() => {
+            const wc = g.variants.reduce((n,v) => n + (v.version === 'World Champs' ? (Number(v.qty)||0) : 0), 0);
+            const rest = g.total - wc;
+            return (rest > 0 ? `<span class="inv-qty" title="${rest} not World Champs">${rest}</span>` : '')
+                 + (wc > 0 ? `<span class="inv-qty inv-qty-wc" title="${wc} World Champs">${wc}</span>` : '');
+          })()}`
       + `${g.standIn ? `<span class="inv-standin" title="${esc(g.standIn)}">stand-in image</span>` : ''}`
       + `${({all: '<span class="inv-ok" title="Every stack checked in hand">✓</span>',
              some: '<span class="inv-part" title="Some stacks still to check">◐</span>',
