@@ -186,7 +186,12 @@
     font-family:inherit; font-size:12.5px; font-weight:600; padding:6px 12px; border-radius:999px; cursor:pointer}
   .tl-copy:hover{border-color:var(--red); color:var(--red-dark)}
   .tl-copy.copied{background:var(--pip-auth); color:#fff; border-color:var(--pip-auth)}
-  .tl-notes{font-size:13px; color:var(--ink); background:var(--band-a); border-radius:8px; padding:9px 12px; margin-top:12px}
+  /* Notes collapse the same way the decklist does — round-by-round write-ups
+     are long enough that they buried the entry/prize figures below them. */
+  .tl-notes{margin-top:12px}
+  .tl-notes summary{cursor:pointer; font-weight:700; font-size:13px; color:var(--red-dark); padding:4px 0}
+  .tl-notes-body{font-size:13px; line-height:1.55; color:var(--ink); background:var(--band-a);
+    border-radius:8px; padding:10px 12px; margin-top:8px; white-space:pre-wrap}
   .tl-money{display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:12px; padding-top:12px; border-top:1px solid var(--band-b)}
   .tl-mitem{display:flex; flex-direction:column; gap:3px}
   .tl-mitem span{font-size:10.5px; text-transform:uppercase; letter-spacing:.5px; color:var(--muted); font-weight:700}
@@ -1971,7 +1976,7 @@ function renderTournamentLog(){
           ${tile('Players', t.players != null ? t.players : 'TBD')}
         </div>
         ${t.list ? `<details class="tl-list"><summary>Decklist played</summary><button class="tl-copy" type="button" data-idx="${i}">📋 Copy list</button><pre>${esc(t.list)}</pre></details>` : ''}
-        ${t.notes ? `<div class="tl-notes"><b>Notes:</b> ${esc(t.notes)}</div>` : ''}
+        ${t.notes ? `<details class="tl-notes"><summary>Notes</summary><div class="tl-notes-body">${esc(t.notes)}</div></details>` : ''}
         <div class="tl-money">
           <div class="tl-mitem"><span>Entry cost</span><b>${money(t.entryCost)}</b></div>
           <div class="tl-mitem"><span>Prizes won</span><b>${money(t.prizesWon)}</b></div>
