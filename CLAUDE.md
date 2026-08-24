@@ -451,8 +451,12 @@ rows, its `prints` are lost unless re-added; new rows default to
 
 `index.html` renders per-copy **pips** in the expanded deck view only
 (collapsed rows untouched), ordered **Standard (green) → WC (grey) → Proxy
-(blue) → Missing (dashed red)**; a slim `Prints` legend sits atop each
-expanded list. Pokémon/Trainers/special energy show one pip per copy; basic
+(blue) → Missing (dashed red)**. There is **no legend row** — Vig had it
+removed on 2026-08-25 as self-evident; the copy-decklist button that shared
+that row now lives in `.deck-head .meta`, so it costs no vertical space and
+works while the deck is collapsed. On mobile the count pill drops its " cards"
+word (`.cb-unit`) to buy back the width the button takes, which otherwise
+ellipsed the longest deck names. Pokémon/Trainers/special energy show one pip per copy; basic
 energy collapses to `count + one pip` per bucket. Helpers `printsOf(c)` /
 `missingOf(c)` (in `index.html`) are the single source for missing math.
 The **"⚠ Missing" toggle** (`missingOnly` in `render()`) filters to rows with

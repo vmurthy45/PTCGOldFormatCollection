@@ -453,17 +453,16 @@
   .pip.miss{background:transparent; border:1.5px dashed var(--pip-miss)}
   .prints .single{display:inline-flex; align-items:center; gap:6px}
   .prints .cn{font-size:12px; color:var(--muted); font-weight:600; font-variant-numeric:tabular-nums}
-  .deck-legend{display:flex; gap:12px; flex-wrap:nowrap; align-items:center;
-    padding:9px 16px; border-bottom:1px solid var(--band-b); background:var(--band-b)}
-  .deck-legend .lg{display:inline-flex; align-items:center; gap:5px; font-size:12px; color:var(--muted); white-space:nowrap}
-  .deck-legend .lg .pip{width:9px; height:9px; flex:0 0 auto}
-  .copy-deck{margin-left:auto; display:inline-flex; align-items:center; justify-content:center;
-    width:28px; height:28px; padding:0; border-radius:8px; cursor:pointer;
-    border:1px solid var(--line); background:var(--card); color:var(--muted);
+  /* Copy-decklist button. Sits in the deck header, so it is styled against the
+     red band rather than the card. The pip colours are self-evident in context,
+     so there is no key row above the list any more. */
+  .copy-deck{display:inline-flex; align-items:center; justify-content:center;
+    width:26px; height:26px; padding:0; border-radius:7px; cursor:pointer; color:#fff;
+    border:1px solid rgba(255,255,255,.45); background:rgba(255,255,255,.14);
     transition:background .12s, color .12s, border-color .12s}
-  .copy-deck:hover{color:var(--red-dark); border-color:var(--red); background:var(--band-a)}
+  .copy-deck:hover{background:rgba(255,255,255,.3); border-color:#fff}
   .copy-deck .ic-done{display:none}
-  .copy-deck.copied{color:#fff; background:var(--pip-auth); border-color:var(--pip-auth)}
+  .copy-deck.copied{color:var(--red); background:#fff; border-color:#fff}
   .copy-deck.copied .ic-copy{display:none}
   .copy-deck.copied .ic-done{display:block}
   /* Missing-card highlighting: orange = own some but short, red = own none. */
@@ -524,6 +523,12 @@
      (e.g. Cynthia's Garchomp (2026)) fit on one line without truncating */
   @media (max-width:480px){
     .deck-head{padding:13px 12px}
+    /* The copy button costs the meta ~34px, which was enough to start
+       ellipsing the longest deck names. Reclaim it: a bare number next to a
+       card list still reads as the card count. ("N missing" keeps its word.) */
+    .deck-head .cb-unit{display:none}
+    .deck-head .meta{gap:6px}
+    .copy-deck{width:24px; height:24px}
     .deck-head .title{font-size:13.5px}
     .deck-head .fav-star{width:16px; height:16px; margin-left:5px}
     .deck-head .tier-badge{margin-left:5px}
@@ -1261,7 +1266,7 @@ function render(){
     // and the pill is tinted (.has-missing) so a short deck stands out.
     const metaHtml = missingOnly
       ? `<span class="count-badge miss">${deckMissing} missing</span>`
-      : `<span class="count-badge">${total - deckMissing} cards</span>`;
+      : `<span class="count-badge">${total - deckMissing}<span class="cb-unit"> cards</span></span>`;
     if(deckMissing > 0) head.classList.add('has-missing');
     head.innerHTML = `<span class="title"><span class="dname">${hl(deck, query)}</span>${FAVOURITES.has(deck) ? FAV_STAR : ''}${TIERS[deck] ? tierBadge(TIERS[deck]) : ''}</span>
       <span class="meta">${metaHtml} <span class="arrow">▼</span></span>`;
@@ -1301,13 +1306,6 @@ function render(){
 
     const cw = document.createElement('div');
     cw.className = 'cards';
-    // print-type key + copy button, shown only inside the expanded card list
-    const legend = document.createElement('div');
-    legend.className = 'deck-legend';
-    legend.innerHTML = `<span class="lg"><span class="pip auth"></span>Standard</span>`
-      + `<span class="lg"><span class="pip wc"></span>WC</span>`
-      + `<span class="lg"><span class="pip proxy"></span>Proxy</span>`
-      + `<span class="lg"><span class="pip miss"></span>Missing</span>`;
     const copyBtn = document.createElement('button');
     copyBtn.type = 'button';
     copyBtn.className = 'copy-deck';
@@ -1316,8 +1314,9 @@ function render(){
     copyBtn.innerHTML = `<svg class="ic-copy" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>`
       + `<svg class="ic-done" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>`;
     copyBtn.onclick = (e) => { e.stopPropagation(); copyDeckList(deck, copyBtn); };
-    legend.appendChild(copyBtn);
-    cw.appendChild(legend);
+    // Lives in the deck header rather than above the card list: it costs no
+    // vertical space there, and the list can be copied without expanding.
+    head.querySelector('.meta').prepend(copyBtn);
     for(const [key, label] of SECTIONS){
       const sectionRows = arr.filter(c => c.category === key);
       if(sectionRows.length === 0) continue;
