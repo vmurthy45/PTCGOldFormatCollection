@@ -362,8 +362,11 @@ after verifying a box. It deliberately leaves alone:
 Vig is identifying which printing of each basic energy sits in each box as he
 works through the years. **47 stacks across 29 already-verified decks predate
 that**, so they carry no print. He has parked these deliberately: finish the
-remaining years first (2019, 2018, 2017, 2016, 2015, 2014, 2013), then revisit
-these boxes. Do not chase him for them before then.
+remaining years first, then revisit
+these boxes. Do not chase him for them before then. **The years still to
+verify are 2019, 2018, 2017, 2016 and 2014** — 2013 and 2015 have since been
+done. The loose/spare boxes come after all of it; Vig reconfirmed that ordering
+on 2026-08-25.
 
 Two shapes, both of which `align_deck_prints.py` leaves off a decklist:
 
