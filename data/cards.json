@@ -3784,9 +3784,9 @@
     "deck": "VirGen (2014)",
     "count": 4,
     "name": "Ultra Ball",
-    "set": "102/108",
+    "set": "99/106",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/bw5/102_hires.png",
+    "image": "https://images.pokemontcg.io/xy2/99_hires.png",
     "prints": {
       "authentic": 0,
       "wc": 4,
@@ -3814,7 +3814,7 @@
     "name": "Enhanced Hammer",
     "set": "94/108",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy4/94_hires.png",
+    "image": "https://images.pokemontcg.io/bw5/94_hires.png",
     "prints": {
       "authentic": 0,
       "wc": 2,
@@ -3952,9 +3952,9 @@
     "deck": "VirGen (2014)",
     "count": 4,
     "name": "Plasma Energy",
-    "set": "127/135",
+    "set": "91/101",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/bw8/127_hires.png",
+    "image": "https://images.pokemontcg.io/bw10/91_hires.png",
     "prints": {
       "authentic": 0,
       "wc": 4,
@@ -4022,9 +4022,9 @@
     "deck": "Mega Kangaskhan (2014)",
     "count": 1,
     "name": "Keldeo-EX",
-    "set": "49/149",
+    "set": "45/113",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/bw7/49_hires.png",
+    "image": "https://images.pokemontcg.io/bw11/45_hires.png",
     "prints": {
       "authentic": 0,
       "wc": 1,
@@ -4190,9 +4190,9 @@
     "deck": "Mega Kangaskhan (2014)",
     "count": 3,
     "name": "Max Potion",
-    "set": "121/116",
+    "set": "94/98",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/bw9/121_hires.png",
+    "image": "https://images.pokemontcg.io/bw2/94_hires.png",
     "prints": {
       "authentic": 0,
       "wc": 3,
@@ -4302,9 +4302,9 @@
     "deck": "Mega Kangaskhan (2014)",
     "count": 2,
     "name": "Ultra Ball",
-    "set": "102/108",
+    "set": "99/106",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/bw5/102_hires.png",
+    "image": "https://images.pokemontcg.io/xy2/99_hires.png",
     "prints": {
       "authentic": 0,
       "wc": 2,
@@ -4316,9 +4316,9 @@
     "deck": "Mega Kangaskhan (2014)",
     "count": 2,
     "name": "Double Colorless Energy",
-    "set": "92/99",
+    "set": "130/146",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/bw4/92_hires.png",
+    "image": "https://images.pokemontcg.io/xy1/130_hires.png",
     "prints": {
       "authentic": 0,
       "wc": 2,
@@ -4330,7 +4330,7 @@
     "deck": "Mega Kangaskhan (2014)",
     "count": 7,
     "name": "Fairy Energy",
-    "set": "",
+    "set": "140/146",
     "category": "Energy",
     "image": "https://images.pokemontcg.io/xy1/140_hires.png",
     "prints": {
@@ -4358,7 +4358,7 @@
     "deck": "Mega Kangaskhan (2014)",
     "count": 1,
     "name": "Water Energy",
-    "set": "",
+    "set": "134/146",
     "category": "Energy",
     "image": "https://images.pokemontcg.io/xy1/134_hires.png",
     "prints": {
@@ -4400,9 +4400,9 @@
     "deck": "TDK (2014)",
     "count": 1,
     "name": "Genesect-EX",
-    "set": "11/101",
+    "set": "97/101",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/bw10/11_hires.png",
+    "image": "https://images.pokemontcg.io/bw10/97_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -4484,9 +4484,9 @@
     "deck": "TDK (2014)",
     "count": 1,
     "name": "Max Potion",
-    "set": "121/116",
+    "set": "94/98",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/bw9/121_hires.png",
+    "image": "https://images.pokemontcg.io/bw2/94_hires.png",
     "prints": {
       "authentic": 0,
       "wc": 1,
@@ -4610,9 +4610,9 @@
     "deck": "TDK (2014)",
     "count": 1,
     "name": "Tropical Beach",
-    "set": "BW28/101",
+    "set": "BW50/101",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/bwp/BW28_hires.png",
+    "image": "https://images.pokemontcg.io/bwp/BW50_hires.png",
     "prints": {
       "authentic": 0,
       "wc": 1,
@@ -4656,8 +4656,8 @@
     "category": "Energy",
     "image": "https://images.pokemontcg.io/bw6/118_hires.png",
     "prints": {
-      "authentic": 0,
-      "wc": 2,
+      "authentic": 1,
+      "wc": 1,
       "proxy": 0
     }
   },
@@ -4666,9 +4666,9 @@
     "deck": "TDK (2014)",
     "count": 4,
     "name": "Plasma Energy",
-    "set": "127/135",
+    "set": "91/101",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/bw8/127_hires.png",
+    "image": "https://images.pokemontcg.io/bw10/91_hires.png",
     "prints": {
       "authentic": 0,
       "wc": 4,
@@ -4722,9 +4722,9 @@
     "deck": "Yveltal Raichu (2014)",
     "count": 2,
     "name": "Darkrai-EX",
-    "set": "63/108",
+    "set": "BW46/101",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/bw5/63_hires.png",
+    "image": "https://images.pokemontcg.io/bwp/BW46_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -4750,9 +4750,9 @@
     "deck": "Yveltal Raichu (2014)",
     "count": 2,
     "name": "Raichu",
-    "set": "43/146",
+    "set": "27/83",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/xy1/43_hires.png",
+    "image": "https://images.pokemontcg.io/g1/27_hires.png",
     "prints": {
       "authentic": 2,
       "wc": 0,
@@ -4820,9 +4820,9 @@
     "deck": "Yveltal Raichu (2014)",
     "count": 3,
     "name": "Ultra Ball",
-    "set": "102/108",
+    "set": "90/101",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/bw5/102_hires.png",
+    "image": "https://images.pokemontcg.io/bw10/90_hires.png",
     "prints": {
       "authentic": 3,
       "wc": 0,
@@ -4834,9 +4834,9 @@
     "deck": "Yveltal Raichu (2014)",
     "count": 2,
     "name": "Energy Switch",
-    "set": "112/113",
+    "set": "89/111",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/bw11/112_hires.png",
+    "image": "https://images.pokemontcg.io/xy3/89_hires.png",
     "prints": {
       "authentic": 2,
       "wc": 0,
@@ -4852,9 +4852,9 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/bw7/137_hires.png",
     "prints": {
-      "authentic": 1,
+      "authentic": 0,
       "wc": 0,
-      "proxy": 0
+      "proxy": 1
     }
   },
   {
@@ -4892,7 +4892,7 @@
     "name": "Enhanced Hammer",
     "set": "94/108",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy4/94_hires.png",
+    "image": "https://images.pokemontcg.io/bw5/94_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -4904,9 +4904,9 @@
     "deck": "Yveltal Raichu (2014)",
     "count": 1,
     "name": "Level Ball",
-    "set": "89/99",
+    "set": "76/98",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/bw4/89_hires.png",
+    "image": "https://images.pokemontcg.io/xy7/76_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -4918,9 +4918,9 @@
     "deck": "Yveltal Raichu (2014)",
     "count": 1,
     "name": "Professor's Letter",
-    "set": "123/146",
+    "set": "146/162",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy1/123_hires.png",
+    "image": "https://images.pokemontcg.io/xy8/146_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -4932,9 +4932,9 @@
     "deck": "Yveltal Raichu (2014)",
     "count": 1,
     "name": "Super Rod",
-    "set": "20/20",
+    "set": "149/162",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/dv1/20_hires.png",
+    "image": "https://images.pokemontcg.io/xy8/149_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -4960,9 +4960,9 @@
     "deck": "Yveltal Raichu (2014)",
     "count": 1,
     "name": "Random Receiver",
-    "set": "99/108",
+    "set": "109/124",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/bw5/99_hires.png",
+    "image": "https://images.pokemontcg.io/xy10/109_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -4988,12 +4988,12 @@
     "deck": "Yveltal Raichu (2014)",
     "count": 4,
     "name": "N",
-    "set": "96/108",
+    "set": "BW100/101",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/bw5/96_hires.png",
+    "image": "https://images.pokemontcg.io/bwp/BW100_hires.png",
     "prints": {
       "authentic": 3,
-      "wc": 0,
+      "wc": 1,
       "proxy": 0
     }
   },
@@ -5006,8 +5006,8 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/xy2/90_hires.png",
     "prints": {
-      "authentic": 1,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 1,
       "proxy": 0
     }
   },
@@ -5044,9 +5044,9 @@
     "deck": "Yveltal Raichu (2014)",
     "count": 8,
     "name": "Darkness Energy",
-    "set": "",
+    "set": "170/149",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/xy1/138_hires.png",
+    "image": "https://images.pokemontcg.io/sm1/170_hires.png",
     "prints": {
       "authentic": 8,
       "wc": 0,
@@ -5058,9 +5058,9 @@
     "deck": "Yveltal Raichu (2014)",
     "count": 4,
     "name": "Double Colorless Energy",
-    "set": "92/99",
+    "set": "136/149",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/bw4/92_hires.png",
+    "image": "https://images.pokemontcg.io/sm1/136_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,

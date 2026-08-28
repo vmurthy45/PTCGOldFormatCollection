@@ -616,7 +616,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Mega Kangaskhan (2014)"
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
       }
     ]
   },
@@ -1193,7 +1194,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Mega Kangaskhan (2014)"
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
       }
     ]
   },
@@ -1440,9 +1442,16 @@
     "total": 2,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 1,
+        "source": "TDK (2014)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
-        "qty": 2,
-        "source": "TDK (2014)"
+        "qty": 1,
+        "source": "TDK (2014)",
+        "verified": true
       }
     ]
   },
@@ -3023,6 +3032,30 @@
     "total": 20,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "VirGen (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "TDK (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 2,
         "source": "Gothitelle (2013)",
@@ -3057,26 +3090,6 @@
         "qty": 2,
         "source": "Lando Bats (2015)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "VirGen (2014)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "Mega Kangaskhan (2014)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "TDK (2014)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Yveltal Raichu (2014)"
       }
     ]
   },
@@ -3092,19 +3105,21 @@
     "variants": [
       {
         "version": "World Champs",
-        "qty": 3,
-        "source": "TDK (2013)",
+        "qty": 1,
+        "source": "VirGen (2014)",
         "verified": true
       },
       {
         "version": "World Champs",
-        "qty": 1,
-        "source": "VirGen (2014)"
+        "qty": 3,
+        "source": "TDK (2014)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "TDK (2014)"
+        "source": "TDK (2013)",
+        "verified": true
       }
     ]
   },
@@ -3222,7 +3237,7 @@
     "num": "137",
     "printKey": "computersearch|BCR 137",
     "image": "https://images.pokemontcg.io/bw7/137_hires.png",
-    "total": 6,
+    "total": 5,
     "variants": [
       {
         "version": "Standard",
@@ -3253,11 +3268,6 @@
         "qty": 1,
         "source": "Archie's Blastoise (2015)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Yveltal Raichu (2014)"
       }
     ]
   },
@@ -3269,8 +3279,14 @@
     "num": "71",
     "printKey": "computersearch|BS 71",
     "image": "https://images.pokemontcg.io/base1/71_hires.png",
-    "total": 1,
+    "total": 2,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -4141,6 +4157,12 @@
     "total": 12,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
+      },
+      {
         "version": "Reverse Holo",
         "qty": 4,
         "source": "Darkrai (2013)",
@@ -4151,11 +4173,6 @@
         "qty": 4,
         "source": "Darkrai Mewtwo (2012)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Yveltal Raichu (2014)"
       }
     ]
   },
@@ -4233,8 +4250,14 @@
     "num": "170",
     "printKey": "darknessenergy|SUM 170",
     "image": "https://images.pokemontcg.io/sm1/170_hires.png",
-    "total": 11,
+    "total": 19,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 8,
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 11,
@@ -4269,12 +4292,13 @@
     "num": "",
     "printKey": "darknessenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/138_hires.png",
-    "total": 33,
+    "total": 26,
     "variants": [
       {
         "version": "Standard",
-        "qty": 8,
-        "source": "Yveltal Raichu (2014)"
+        "qty": 1,
+        "source": "Spare",
+        "verified": false
       },
       {
         "version": "World Champs",
@@ -4297,23 +4321,6 @@
         "qty": 4,
         "source": "Gardevoir (2025)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Darkness Energy",
-    "type": "Energy",
-    "key": "darknessenergy",
-    "set": "",
-    "num": "",
-    "printKey": "darknessenergy|",
-    "image": "https://images.pokemontcg.io/xy1/138_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Prize Pack",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -4342,18 +4349,13 @@
     "num": "63",
     "printKey": "darkraiex|DEX 63",
     "image": "https://images.pokemontcg.io/bw5/63_hires.png",
-    "total": 4,
+    "total": 3,
     "variants": [
       {
         "version": "World Champs",
         "qty": 3,
         "source": "Darkrai Mewtwo (2012)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Yveltal Raichu (2014)"
       }
     ]
   },
@@ -4365,8 +4367,14 @@
     "num": "BW46",
     "printKey": "darkraiex|PR-BLW BW46",
     "image": "https://images.pokemontcg.io/bwp/BW46_hires.png",
-    "total": 4,
+    "total": 5,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -4598,13 +4606,14 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "TDK (2013)",
+        "source": "TDK (2014)",
         "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "TDK (2014)"
+        "source": "TDK (2013)",
+        "verified": true
       }
     ]
   },
@@ -4876,12 +4885,36 @@
     "name": "Double Colorless Energy",
     "type": "Energy",
     "key": "doublecolorlessenergy",
+    "set": "LTR",
+    "num": "113",
+    "printKey": "doublecolorlessenergy|LTR 113",
+    "image": "https://images.pokemontcg.io/bw11/113_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Double Colorless Energy",
+    "type": "Energy",
+    "key": "doublecolorlessenergy",
     "set": "NXD",
     "num": "92",
     "printKey": "doublecolorlessenergy|NXD 92",
     "image": "https://images.pokemontcg.io/bw4/92_hires.png",
-    "total": 17,
+    "total": 13,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
@@ -4902,13 +4935,9 @@
       },
       {
         "version": "World Champs",
-        "qty": 2,
-        "source": "Mega Kangaskhan (2014)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Yveltal Raichu (2014)"
+        "qty": 1,
+        "source": "Spare",
+        "verified": false
       }
     ]
   },
@@ -4938,8 +4967,14 @@
     "num": "136",
     "printKey": "doublecolorlessenergy|SUM 136",
     "image": "https://images.pokemontcg.io/sm1/136_hires.png",
-    "total": 8,
+    "total": 10,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -4960,8 +4995,14 @@
     "num": "130",
     "printKey": "doublecolorlessenergy|XY 130",
     "image": "https://images.pokemontcg.io/xy1/130_hires.png",
-    "total": 12,
+    "total": 14,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
@@ -4976,23 +5017,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Night March (2016)"
-      }
-    ]
-  },
-  {
-    "name": "Double Colorless Energy",
-    "type": "Energy",
-    "key": "doublecolorlessenergy",
-    "set": "",
-    "num": "",
-    "printKey": "doublecolorlessenergy|",
-    "image": "https://images.pokemontcg.io/hgss1/103_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -5074,13 +5098,14 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "RayEels (2013)",
+        "source": "Mega Kangaskhan (2014)",
         "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Mega Kangaskhan (2014)"
+        "source": "RayEels (2013)",
+        "verified": true
       }
     ]
   },
@@ -6314,8 +6339,14 @@
     "num": "89",
     "printKey": "energyswitch|FFI 89",
     "image": "https://images.pokemontcg.io/xy3/89_hires.png",
-    "total": 3,
+    "total": 5,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 3,
@@ -6332,23 +6363,19 @@
     "num": "112",
     "printKey": "energyswitch|LTR 112",
     "image": "https://images.pokemontcg.io/bw11/112_hires.png",
-    "total": 8,
+    "total": 6,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "VirGen (2014)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 3,
         "source": "Darkrai (2013)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "VirGen (2014)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Yveltal Raichu (2014)"
       }
     ]
   },
@@ -6414,8 +6441,20 @@
     "num": "94",
     "printKey": "enhancedhammer|DEX 94",
     "image": "https://images.pokemontcg.io/bw5/94_hires.png",
-    "total": 2,
+    "total": 5,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "VirGen (2014)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 2,
@@ -6459,28 +6498,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Greninja (2018)"
-      }
-    ]
-  },
-  {
-    "name": "Enhanced Hammer",
-    "type": "Trainer",
-    "key": "enhancedhammer",
-    "set": "PHF",
-    "num": "94",
-    "printKey": "enhancedhammer|PHF 94",
-    "image": "https://images.pokemontcg.io/xy4/94_hires.png",
-    "total": 3,
-    "variants": [
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "VirGen (2014)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Yveltal Raichu (2014)"
       }
     ]
   },
@@ -7026,13 +7043,8 @@
     "num": "",
     "printKey": "fairyenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/140_hires.png",
-    "total": 19,
+    "total": 12,
     "variants": [
-      {
-        "version": "World Champs",
-        "qty": 7,
-        "source": "Mega Kangaskhan (2014)"
-      },
       {
         "version": "Standard",
         "qty": 7,
@@ -7051,6 +7063,24 @@
     ]
   },
   {
+    "name": "Fairy Energy",
+    "type": "Energy",
+    "key": "fairyenergy",
+    "set": "XY",
+    "num": "140",
+    "printKey": "fairyenergy|XY 140",
+    "image": "https://images.pokemontcg.io/xy1/140_hires.png",
+    "total": 7,
+    "variants": [
+      {
+        "version": "World Champs",
+        "qty": 7,
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Fairy Garden",
     "type": "Trainer",
     "key": "fairygarden",
@@ -7063,7 +7093,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Mega Kangaskhan (2014)"
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
       }
     ]
   },
@@ -8266,7 +8297,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "VirGen (2014)"
+        "source": "VirGen (2014)",
+        "verified": true
       }
     ]
   },
@@ -8624,17 +8656,31 @@
     "num": "11",
     "printKey": "genesectex|PLB 11",
     "image": "https://images.pokemontcg.io/bw10/11_hires.png",
-    "total": 5,
+    "total": 4,
     "variants": [
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "VirGen (2014)"
-      },
+        "source": "VirGen (2014)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Genesect-EX",
+    "type": "Pokémon",
+    "key": "genesectex",
+    "set": "PLB",
+    "num": "97",
+    "printKey": "genesectex|PLB 97",
+    "image": "https://images.pokemontcg.io/bw10/97_hires.png",
+    "total": 1,
+    "variants": [
       {
         "version": "Standard",
         "qty": 1,
-        "source": "TDK (2014)"
+        "source": "TDK (2014)",
+        "verified": true
       }
     ]
   },
@@ -9582,15 +9628,16 @@
     "total": 2,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 1,
         "source": "Blastoise (2013)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Mega Kangaskhan (2014)"
       }
     ]
   },
@@ -9941,6 +9988,18 @@
       {
         "version": "Standard",
         "qty": 4,
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "TDK (2014)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
         "source": "Darkrai (2013)",
         "verified": true
       },
@@ -9961,16 +10020,6 @@
         "qty": 3,
         "source": "ToadBats (2015)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "TDK (2014)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Yveltal Raichu (2014)"
       }
     ]
   },
@@ -10488,14 +10537,15 @@
     "variants": [
       {
         "version": "World Champs",
-        "qty": 2,
-        "source": "Archie's Blastoise (2015)",
+        "qty": 1,
+        "source": "VirGen (2014)",
         "verified": true
       },
       {
         "version": "World Champs",
-        "qty": 1,
-        "source": "VirGen (2014)"
+        "qty": 2,
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
       }
     ]
   },
@@ -10776,7 +10826,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Mega Kangaskhan (2014)"
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
       }
     ]
   },
@@ -10840,7 +10891,7 @@
     "num": "49",
     "printKey": "keldeoex|BCR 49",
     "image": "https://images.pokemontcg.io/bw7/49_hires.png",
-    "total": 10,
+    "total": 9,
     "variants": [
       {
         "version": "Standard",
@@ -10873,11 +10924,6 @@
         "verified": true
       },
       {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Mega Kangaskhan (2014)"
-      },
-      {
         "version": "Standard",
         "qty": 1,
         "source": "Spare",
@@ -10893,8 +10939,14 @@
     "num": "45",
     "printKey": "keldeoex|LTR 45",
     "image": "https://images.pokemontcg.io/bw11/45_hires.png",
-    "total": 1,
+    "total": 2,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -11147,14 +11199,15 @@
     "variants": [
       {
         "version": "World Champs",
-        "qty": 4,
-        "source": "TDK (2013)",
+        "qty": 3,
+        "source": "TDK (2014)",
         "verified": true
       },
       {
         "version": "World Champs",
-        "qty": 3,
-        "source": "TDK (2014)"
+        "qty": 4,
+        "source": "TDK (2013)",
+        "verified": true
       }
     ]
   },
@@ -11353,8 +11406,14 @@
     "num": "76",
     "printKey": "levelball|AOR 76",
     "image": "https://images.pokemontcg.io/xy7/76_hires.png",
-    "total": 13,
+    "total": 14,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -11452,8 +11511,14 @@
     "num": "89",
     "printKey": "levelball|NXD 89",
     "image": "https://images.pokemontcg.io/bw4/89_hires.png",
-    "total": 9,
+    "total": 8,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 2,
@@ -11465,16 +11530,6 @@
         "qty": 4,
         "source": "RayEels (2013)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Mega Kangaskhan (2014)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Yveltal Raichu (2014)"
       }
     ]
   },
@@ -12361,6 +12416,24 @@
       {
         "version": "World Champs",
         "qty": 1,
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "TDK (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
         "source": "Archie's Blastoise (2015)",
         "verified": true
       },
@@ -12375,21 +12448,6 @@
         "qty": 2,
         "source": "Lando Bats (2015)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Mega Kangaskhan (2014)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "TDK (2014)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Yveltal Raichu (2014)"
       },
       {
         "version": "World Champs",
@@ -12465,7 +12523,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Mega Kangaskhan (2014)"
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
       }
     ]
   },
@@ -12873,6 +12932,30 @@
     "name": "Max Potion",
     "type": "Trainer",
     "key": "maxpotion",
+    "set": "EPO",
+    "num": "94",
+    "printKey": "maxpotion|EPO 94",
+    "image": "https://images.pokemontcg.io/bw2/94_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "TDK (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Max Potion",
+    "type": "Trainer",
+    "key": "maxpotion",
     "set": "GRI",
     "num": "128",
     "printKey": "maxpotion|GRI 128",
@@ -12893,28 +12976,6 @@
         "version": "Standard",
         "qty": 3,
         "source": "Greninja (2018)"
-      }
-    ]
-  },
-  {
-    "name": "Max Potion",
-    "type": "Trainer",
-    "key": "maxpotion",
-    "set": "PLF",
-    "num": "121",
-    "printKey": "maxpotion|PLF 121",
-    "image": "https://images.pokemontcg.io/bw9/121_hires.png",
-    "total": 4,
-    "variants": [
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "Mega Kangaskhan (2014)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "TDK (2014)"
       }
     ]
   },
@@ -13679,6 +13740,12 @@
     "variants": [
       {
         "version": "World Champs",
+        "qty": 2,
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
         "qty": 1,
         "source": "Archie's Blastoise (2015)",
         "verified": true
@@ -13688,11 +13755,6 @@
         "qty": 1,
         "source": "Darkrai Mewtwo (2012)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Mega Kangaskhan (2014)"
       }
     ]
   },
@@ -13978,7 +14040,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "VirGen (2014)"
+        "source": "VirGen (2014)",
+        "verified": true
       }
     ]
   },
@@ -14104,6 +14167,30 @@
     "total": 21,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "VirGen (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "TDK (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 1,
         "source": "Archie's Blastoise (2015)",
@@ -14120,26 +14207,6 @@
         "qty": 4,
         "source": "Lando Bats (2015)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "VirGen (2014)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "Mega Kangaskhan (2014)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "TDK (2014)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Yveltal Raichu (2014)"
       }
     ]
   },
@@ -14211,8 +14278,32 @@
     "num": "96",
     "printKey": "n|DEX 96",
     "image": "https://images.pokemontcg.io/bw5/96_hires.png",
-    "total": 32,
+    "total": 30,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "VirGen (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "TDK (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 3,
@@ -14254,26 +14345,6 @@
         "qty": 1,
         "source": "CMT (2012)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "VirGen (2014)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Mega Kangaskhan (2014)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "TDK (2014)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Yveltal Raichu (2014)"
       }
     ]
   },
@@ -14285,8 +14356,14 @@
     "num": "105",
     "printKey": "n|FCO 105",
     "image": "https://images.pokemontcg.io/xy10/105_hires.png",
-    "total": 60,
+    "total": 61,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 3,
@@ -14420,6 +14497,24 @@
         "version": "Standard",
         "qty": 4,
         "source": "Blastoise (2013)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "N",
+    "type": "Trainer",
+    "key": "n",
+    "set": "PR-BLW",
+    "num": "BW100",
+    "printKey": "n|PR-BLW BW100",
+    "image": "https://images.pokemontcg.io/bwp/BW100_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Yveltal Raichu (2014)",
         "verified": true
       }
     ]
@@ -15650,7 +15745,8 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Yveltal Raichu (2014)"
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
       }
     ]
   },
@@ -15733,27 +15829,41 @@
     "name": "Plasma Energy",
     "type": "Energy",
     "key": "plasmaenergy",
+    "set": "PLB",
+    "num": "91",
+    "printKey": "plasmaenergy|PLB 91",
+    "image": "https://images.pokemontcg.io/bw10/91_hires.png",
+    "total": 8,
+    "variants": [
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "VirGen (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "TDK (2014)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Plasma Energy",
+    "type": "Energy",
+    "key": "plasmaenergy",
     "set": "PLS",
     "num": "127",
     "printKey": "plasmaenergy|PLS 127",
     "image": "https://images.pokemontcg.io/bw8/127_hires.png",
-    "total": 12,
+    "total": 4,
     "variants": [
       {
         "version": "World Champs",
         "qty": 4,
         "source": "TDK (2013)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "VirGen (2014)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "TDK (2014)"
       }
     ]
   },
@@ -16066,15 +16176,16 @@
     "total": 5,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
+      },
+      {
         "version": "Reverse Holo",
         "qty": 4,
         "source": "Darkrai (2013)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Yveltal Raichu (2014)"
       }
     ]
   },
@@ -16659,6 +16770,12 @@
       {
         "version": "World Champs",
         "qty": 4,
+        "source": "TDK (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
         "source": "TDK (2013)",
         "verified": true
       },
@@ -16667,11 +16784,6 @@
         "qty": 2,
         "source": "Darkrai Mewtwo (2012)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "TDK (2014)"
       }
     ]
   },
@@ -16792,6 +16904,12 @@
     "total": 23,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 4,
         "source": "Gothitelle (2013)",
@@ -16826,11 +16944,6 @@
         "qty": 3,
         "source": "CMT (2012)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Yveltal Raichu (2014)"
       }
     ]
   },
@@ -17122,17 +17235,20 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "VirGen (2014)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "Mega Kangaskhan (2014)"
+        "source": "VirGen (2014)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "TDK (2014)"
+        "source": "TDK (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -17206,21 +17322,35 @@
     "name": "Professor's Letter",
     "type": "Trainer",
     "key": "professorsletter",
+    "set": "BKT",
+    "num": "146",
+    "printKey": "professorsletter|BKT 146",
+    "image": "https://images.pokemontcg.io/xy8/146_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Professor's Letter",
+    "type": "Trainer",
+    "key": "professorsletter",
     "set": "XY",
     "num": "123",
     "printKey": "professorsletter|XY 123",
     "image": "https://images.pokemontcg.io/xy1/123_hires.png",
-    "total": 2,
+    "total": 1,
     "variants": [
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "VirGen (2014)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Yveltal Raichu (2014)"
+        "source": "VirGen (2014)",
+        "verified": true
       }
     ]
   },
@@ -17889,16 +18019,17 @@
     "name": "Raichu",
     "type": "Pokémon",
     "key": "raichu",
-    "set": "XY",
-    "num": "43",
-    "printKey": "raichu|XY 43",
-    "image": "https://images.pokemontcg.io/xy1/43_hires.png",
+    "set": "GEN",
+    "num": "27",
+    "printKey": "raichu|GEN 27",
+    "image": "https://images.pokemontcg.io/g1/27_hires.png",
     "total": 2,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Yveltal Raichu (2014)"
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
       }
     ]
   },
@@ -18040,13 +18171,15 @@
     "variants": [
       {
         "version": "World Champs",
-        "qty": 1,
-        "source": "Mega Kangaskhan (2014)"
+        "qty": 4,
+        "source": "TDK (2014)",
+        "verified": true
       },
       {
         "version": "World Champs",
-        "qty": 4,
-        "source": "TDK (2014)"
+        "qty": 1,
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
       }
     ]
   },
@@ -18152,7 +18285,7 @@
     "num": "99",
     "printKey": "randomreceiver|DEX 99",
     "image": "https://images.pokemontcg.io/bw5/99_hires.png",
-    "total": 9,
+    "total": 8,
     "variants": [
       {
         "version": "Standard",
@@ -18171,11 +18304,24 @@
         "qty": 3,
         "source": "CMT (2012)",
         "verified": true
-      },
+      }
+    ]
+  },
+  {
+    "name": "Random Receiver",
+    "type": "Trainer",
+    "key": "randomreceiver",
+    "set": "FCO",
+    "num": "109",
+    "printKey": "randomreceiver|FCO 109",
+    "image": "https://images.pokemontcg.io/xy10/109_hires.png",
+    "total": 1,
+    "variants": [
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Yveltal Raichu (2014)"
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
       }
     ]
   },
@@ -19248,14 +19394,15 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 3,
-        "source": "Darkrai (2013)",
+        "qty": 1,
+        "source": "Yveltal Raichu (2014)",
         "verified": true
       },
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "Yveltal Raichu (2014)"
+        "qty": 3,
+        "source": "Darkrai (2013)",
+        "verified": true
       }
     ]
   },
@@ -19454,7 +19601,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "TDK (2014)"
+        "source": "TDK (2014)",
+        "verified": true
       }
     ]
   },
@@ -19629,7 +19777,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "VirGen (2014)"
+        "source": "VirGen (2014)",
+        "verified": true
       }
     ]
   },
@@ -19663,7 +19812,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Mega Kangaskhan (2014)"
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
       }
     ]
   },
@@ -19942,15 +20092,16 @@
     "total": 5,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "VirGen (2014)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 2,
         "source": "CMT (2012)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "VirGen (2014)"
       }
     ]
   },
@@ -19964,6 +20115,18 @@
     "image": "https://images.pokemontcg.io/bw7/134_hires.png",
     "total": 18,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "VirGen (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "TDK (2014)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
@@ -19981,16 +20144,6 @@
         "qty": 3,
         "source": "TDK (2013)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "VirGen (2014)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "TDK (2014)"
       }
     ]
   },
@@ -20425,7 +20578,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Mega Kangaskhan (2014)"
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
       }
     ]
   },
@@ -20528,19 +20682,22 @@
     "total": 6,
     "variants": [
       {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Mega Kangaskhan (2014)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "TDK (2014)"
-      },
-      {
         "version": "Standard",
         "qty": 1,
-        "source": "Yveltal Raichu (2014)"
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "TDK (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -20666,7 +20823,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Mega Kangaskhan (2014)"
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
       }
     ]
   },
@@ -20695,8 +20853,14 @@
     "num": "149",
     "printKey": "superrod|BKT 149",
     "image": "https://images.pokemontcg.io/xy8/149_hires.png",
-    "total": 13,
+    "total": 14,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -20759,8 +20923,20 @@
     "num": "20",
     "printKey": "superrod|DRV 20",
     "image": "https://images.pokemontcg.io/dv1/20_hires.png",
-    "total": 6,
+    "total": 5,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "VirGen (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 1,
@@ -20772,21 +20948,6 @@
         "qty": 2,
         "source": "RayEels (2013)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "VirGen (2014)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Mega Kangaskhan (2014)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Yveltal Raichu (2014)"
       }
     ]
   },
@@ -20991,6 +21152,12 @@
     "total": 8,
     "variants": [
       {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 3,
         "source": "TDK (2013)",
@@ -21006,11 +21173,6 @@
         "version": "World Champs",
         "qty": 3,
         "source": "TDK (2014)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Yveltal Raichu (2014)"
       }
     ]
   },
@@ -21709,13 +21871,14 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "TDK (2013)",
+        "source": "TDK (2014)",
         "verified": true
       },
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "TDK (2014)"
+        "source": "TDK (2013)",
+        "verified": true
       }
     ]
   },
@@ -22608,13 +22771,14 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "TDK (2013)",
+        "source": "TDK (2014)",
         "verified": true
       },
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "TDK (2014)"
+        "source": "TDK (2013)",
+        "verified": true
       }
     ]
   },
@@ -22664,6 +22828,18 @@
     "total": 6,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "VirGen (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 1,
         "source": "Darkrai (2013)",
@@ -22674,16 +22850,6 @@
         "qty": 1,
         "source": "Gothitelle (2013)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "VirGen (2014)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Mega Kangaskhan (2014)"
       }
     ]
   },
@@ -22818,13 +22984,14 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Gothitelle (2013)",
+        "source": "VirGen (2014)",
         "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "VirGen (2014)"
+        "source": "Gothitelle (2013)",
+        "verified": true
       }
     ]
   },
@@ -22966,28 +23133,17 @@
     "type": "Trainer",
     "key": "tropicalbeach",
     "set": "PR-BLW",
-    "num": "BW28",
-    "printKey": "tropicalbeach|PR-BLW BW28",
-    "image": "https://images.pokemontcg.io/bwp/BW28_hires.png",
-    "total": 1,
+    "num": "BW50",
+    "printKey": "tropicalbeach|PR-BLW BW50",
+    "image": "https://images.pokemontcg.io/bwp/BW50_hires.png",
+    "total": 10,
     "variants": [
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "TDK (2014)"
-      }
-    ]
-  },
-  {
-    "name": "Tropical Beach",
-    "type": "Trainer",
-    "key": "tropicalbeach",
-    "set": "PR-BLW",
-    "num": "BW50",
-    "printKey": "tropicalbeach|PR-BLW BW50",
-    "image": "https://images.pokemontcg.io/bwp/BW50_hires.png",
-    "total": 9,
-    "variants": [
+        "source": "TDK (2014)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 2,
@@ -23229,8 +23385,20 @@
     "num": "102",
     "printKey": "ultraball|DEX 102",
     "image": "https://images.pokemontcg.io/bw5/102_hires.png",
-    "total": 28,
+    "total": 20,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "TDK (2014)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 3,
@@ -23266,26 +23434,6 @@
         "qty": 2,
         "source": "Darkrai Mewtwo (2012)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "VirGen (2014)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Mega Kangaskhan (2014)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "TDK (2014)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Yveltal Raichu (2014)"
       }
     ]
   },
@@ -23339,8 +23487,20 @@
     "num": "99",
     "printKey": "ultraball|FLF 99",
     "image": "https://images.pokemontcg.io/xy2/99_hires.png",
-    "total": 17,
+    "total": 23,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "VirGen (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -23431,6 +23591,24 @@
         "version": "Standard",
         "qty": 4,
         "source": "Dragapult Dusknoir (2026)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Ultra Ball",
+    "type": "Item",
+    "key": "ultraball",
+    "set": "PLB",
+    "num": "90",
+    "printKey": "ultraball|PLB 90",
+    "image": "https://images.pokemontcg.io/bw10/90_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Yveltal Raichu (2014)",
         "verified": true
       }
     ]
@@ -23884,6 +24062,18 @@
     "total": 10,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "TDK (2014)",
+        "verified": true
+      },
+      {
         "version": "Reverse Holo",
         "qty": 2,
         "source": "Darkrai (2013)",
@@ -23906,16 +24096,6 @@
         "qty": 1,
         "source": "ToadBats (2015)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "TDK (2014)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Yveltal Raichu (2014)"
       }
     ]
   },
@@ -23954,7 +24134,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "VirGen (2014)"
+        "source": "VirGen (2014)",
+        "verified": true
       }
     ]
   },
@@ -24346,7 +24527,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Mega Kangaskhan (2014)"
+        "source": "Spare",
+        "verified": false
       },
       {
         "version": "World Champs",
@@ -24390,8 +24572,14 @@
     "num": "134",
     "printKey": "waterenergy|XY 134",
     "image": "https://images.pokemontcg.io/xy1/134_hires.png",
-    "total": 11,
+    "total": 12,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 11,
@@ -24408,11 +24596,11 @@
     "num": "",
     "printKey": "waterenergy|",
     "image": "https://images.pokemontcg.io/xy1/134_hires.png",
-    "total": 2,
+    "total": 1,
     "variants": [
       {
         "version": "Prize Pack",
-        "qty": 2,
+        "qty": 1,
         "source": "Spare"
       }
     ]
@@ -24616,7 +24804,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Mega Kangaskhan (2014)"
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
       }
     ]
   },
@@ -24633,7 +24822,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Mega Kangaskhan (2014)"
+        "source": "Mega Kangaskhan (2014)",
+        "verified": true
       }
     ]
   },
@@ -24786,7 +24976,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Yveltal Raichu (2014)"
+        "source": "Yveltal Raichu (2014)",
+        "verified": true
       }
     ]
   },
