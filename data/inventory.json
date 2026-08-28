@@ -9040,7 +9040,7 @@
     "num": "",
     "printKey": "grassenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/132_hires.png",
-    "total": 60,
+    "total": 53,
     "variants": [
       {
         "version": "World Champs",
@@ -9050,8 +9050,9 @@
       },
       {
         "version": "World Champs",
-        "qty": 9,
-        "source": "VirGen (2014)"
+        "qty": 2,
+        "source": "Spare",
+        "verified": false
       },
       {
         "version": "Standard",
@@ -9107,16 +9108,17 @@
     "name": "Grass Energy",
     "type": "Energy",
     "key": "grassenergy",
-    "set": "",
-    "num": "",
-    "printKey": "grassenergy|",
+    "set": "XY",
+    "num": "132",
+    "printKey": "grassenergy|XY 132",
     "image": "https://images.pokemontcg.io/xy1/132_hires.png",
-    "total": 2,
+    "total": 9,
     "variants": [
       {
-        "version": "Prize Pack",
-        "qty": 2,
-        "source": "Spare"
+        "version": "World Champs",
+        "qty": 9,
+        "source": "VirGen (2014)",
+        "verified": true
       }
     ]
   },
@@ -21152,6 +21154,12 @@
     "total": 8,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "TDK (2014)",
+        "verified": true
+      },
+      {
         "version": "Reverse Holo",
         "qty": 1,
         "source": "Yveltal Raichu (2014)",
@@ -21168,11 +21176,6 @@
         "qty": 1,
         "source": "CMT (2012)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "TDK (2014)"
       }
     ]
   },
@@ -23385,18 +23388,12 @@
     "num": "102",
     "printKey": "ultraball|DEX 102",
     "image": "https://images.pokemontcg.io/bw5/102_hires.png",
-    "total": 20,
+    "total": 18,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
         "source": "Yveltal Raichu (2014)",
-        "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "TDK (2014)",
         "verified": true
       },
       {
@@ -23487,8 +23484,14 @@
     "num": "99",
     "printKey": "ultraball|FLF 99",
     "image": "https://images.pokemontcg.io/xy2/99_hires.png",
-    "total": 23,
+    "total": 25,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "TDK (2014)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,

@@ -65,8 +65,8 @@ PINNED = {("ToadBats (2015)", "Zubat"),
           # a BKT 97 sits in the sleeve; Vig wants the list to keep showing the
           # PLF 47 that is the right card for this deck
           ("Darkrai (2013)", "Mr. Mime"),
-          # same shape as ToadBats: a Base Set 71 stands in, pictured as BCR 137.
-          # Unlike ToadBats, Vig asked for this one's pip to read proxy.
+          # same shape as ToadBats: a Base Set 71 stands in, pictured as BCR 137,
+          # and both carry a proxy pip
           ("Yveltal Raichu (2014)", "Computer Search")}
 
 

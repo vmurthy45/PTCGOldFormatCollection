@@ -3938,7 +3938,7 @@
     "deck": "VirGen (2014)",
     "count": 9,
     "name": "Grass Energy",
-    "set": "",
+    "set": "132/146",
     "category": "Energy",
     "image": "https://images.pokemontcg.io/xy1/132_hires.png",
     "prints": {
@@ -4624,9 +4624,9 @@
     "deck": "TDK (2014)",
     "count": 2,
     "name": "Ultra Ball",
-    "set": "102/108",
+    "set": "99/106",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/bw5/102_hires.png",
+    "image": "https://images.pokemontcg.io/xy2/99_hires.png",
     "prints": {
       "authentic": 0,
       "wc": 2,
@@ -5916,9 +5916,9 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/bw7/137_hires.png",
     "prints": {
-      "authentic": 1,
+      "authentic": 0,
       "wc": 0,
-      "proxy": 0
+      "proxy": 1
     }
   },
   {
