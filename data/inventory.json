@@ -157,8 +157,32 @@
     "num": "123",
     "printKey": "acrobike|CES 123",
     "image": "https://images.pokemontcg.io/sm7/123_hires.png",
-    "total": 22,
+    "total": 17,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Reshizard Firebox (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Malamar (2019)",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Green's Reshizard (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Green's Reshizard (2019)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 3,
@@ -170,26 +194,6 @@
         "qty": 3,
         "source": "ADP Zacian (2020)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Malamar (2019)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Reshizard Firebox (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Green's Reshizard (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Perfection Mewtwo (2019)"
       },
       {
         "version": "Standard",
@@ -206,8 +210,20 @@
     "num": "122",
     "printKey": "acrobike|PRC 122",
     "image": "https://images.pokemontcg.io/xy5/122_hires.png",
-    "total": 4,
+    "total": 9,
     "variants": [
+      {
+        "version": "Reverse Holo",
+        "qty": 4,
+        "source": "Perfection Mewtwo (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Green's Reshizard (2019)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -1085,17 +1101,18 @@
       {
         "version": "Standard",
         "qty": 1,
+        "source": "Blacephalon GX (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
         "source": "Buzz Garb Shrine (2018)"
       },
       {
         "version": "World Champs",
         "qty": 1,
         "source": "Buzzwole Lycanroc (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Blacephalon GX (2019)"
       }
     ]
   },
@@ -1110,14 +1127,15 @@
     "total": 6,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Blacephalon GX (2019)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 2,
         "source": "Buzzwole Lycanroc (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Blacephalon GX (2019)"
       }
     ]
   },
@@ -1294,9 +1312,10 @@
     "total": 2,
     "variants": [
       {
-        "version": "Standard",
+        "version": "Reverse Holo",
         "qty": 2,
-        "source": "Perfection Mewtwo (2019)"
+        "source": "Perfection Mewtwo (2019)",
+        "verified": true
       }
     ]
   },
@@ -1365,21 +1384,40 @@
     "type": "Pokémon",
     "key": "blacephalongx",
     "set": "LOT",
+    "num": "199",
+    "printKey": "blacephalongx|LOT 199",
+    "image": "https://images.pokemontcg.io/sm8/199_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Blacephalon GX (2019)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Blacephalon-GX",
+    "type": "Pokémon",
+    "key": "blacephalongx",
+    "set": "LOT",
     "num": "52",
     "printKey": "blacephalongx|LOT 52",
     "image": "https://images.pokemontcg.io/sm8/52_hires.png",
-    "total": 5,
+    "total": 4,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Blacephalon GX (2019)",
+        "verified": true
+      },
       {
         "version": "Proxy",
         "qty": 1,
         "source": "Baby Blacephalon (2020)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Blacephalon GX (2019)"
       }
     ]
   },
@@ -1471,16 +1509,17 @@
     "name": "Blitzle",
     "type": "Pokémon",
     "key": "blitzle",
-    "set": "LOT",
-    "num": "81",
-    "printKey": "blitzle|LOT 81",
-    "image": "https://images.pokemontcg.io/sm8/81_hires.png",
+    "set": "TEU",
+    "num": "44",
+    "printKey": "blitzle|TEU 44",
+    "image": "https://images.pokemontcg.io/sm9/44_hires.png",
     "total": 1,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Whimsicott GX (2019)"
+        "source": "Whimsicott GX (2019)",
+        "verified": true
       }
     ]
   },
@@ -2639,34 +2678,39 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "ADP Zacian (2020)",
+        "qty": 2,
+        "source": "Whimsicott GX (2019)",
         "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Reshizard Firebox (2019)"
+        "source": "Reshizard Firebox (2019)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Pikarom Judge (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Green's Reshizard (2019)"
+        "source": "Pikarom Judge (2019)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Perfection Mewtwo (2019)"
+        "source": "Perfection Mewtwo (2019)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Whimsicott GX (2019)"
+        "source": "Green's Reshizard (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "ADP Zacian (2020)",
+        "verified": true
       }
     ]
   },
@@ -3008,7 +3052,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Perfection Mewtwo (2019)"
+        "source": "Perfection Mewtwo (2019)",
+        "verified": true
       }
     ]
   },
@@ -3332,16 +3377,17 @@
     "name": "Cottonee",
     "type": "Pokémon",
     "key": "cottonee",
-    "set": "UNB",
-    "num": "139",
-    "printKey": "cottonee|UNB 139",
-    "image": "https://images.pokemontcg.io/sm10/139_hires.png",
+    "set": "UNM",
+    "num": "143",
+    "printKey": "cottonee|UNM 143",
+    "image": "https://images.pokemontcg.io/sm11/143_hires.png",
     "total": 3,
     "variants": [
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Whimsicott GX (2019)"
+        "source": "Whimsicott GX (2019)",
+        "verified": true
       }
     ]
   },
@@ -3772,22 +3818,26 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Pikarom Judge (2019)"
+        "source": "Pikarom Judge (2019)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Green's Reshizard (2019)"
+        "source": "Perfection Mewtwo (2019)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Perfection Mewtwo (2019)"
+        "source": "Green's Reshizard (2019)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Blacephalon GX (2019)"
+        "source": "Blacephalon GX (2019)",
+        "verified": true
       }
     ]
   },
@@ -3819,6 +3869,30 @@
     "image": "https://images.pokemontcg.io/sm5/119_hires.png",
     "total": 32,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Whimsicott GX (2019)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Pikarom Judge (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Malamar (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Blacephalon GX (2019)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 3,
@@ -3853,26 +3927,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "Greninja (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Malamar (2019)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Pikarom Judge (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Blacephalon GX (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Whimsicott GX (2019)"
       },
       {
         "version": "Standard",
@@ -4539,8 +4593,14 @@
     "num": "195a",
     "printKey": "dedennegx|UNB 195a",
     "image": "https://images.pokemontcg.io/sm10/195a_hires.png",
-    "total": 3,
+    "total": 4,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Blacephalon GX (2019)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -4563,8 +4623,26 @@
     "num": "57",
     "printKey": "dedennegx|UNB 57",
     "image": "https://images.pokemontcg.io/sm10/57_hires.png",
-    "total": 15,
+    "total": 14,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Reshizard Firebox (2019)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Pikarom Judge (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Perfection Mewtwo (2019)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -4582,26 +4660,6 @@
         "qty": 1,
         "source": "Spiritomb (2021)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "Reshizard Firebox (2019)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Pikarom Judge (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Perfection Mewtwo (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Blacephalon GX (2019)"
       }
     ]
   },
@@ -4789,18 +4847,20 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Cinccino Mill (2020)",
+        "source": "Whimsicott GX (2019)",
         "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Blacephalon GX (2019)"
+        "source": "Blacephalon GX (2019)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Whimsicott GX (2019)"
+        "source": "Cinccino Mill (2020)",
+        "verified": true
       }
     ]
   },
@@ -6053,12 +6113,14 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Pikarom Judge (2019)"
+        "source": "Pikarom Judge (2019)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Perfection Mewtwo (2019)"
+        "source": "Perfection Mewtwo (2019)",
+        "verified": true
       }
     ]
   },
@@ -6075,7 +6137,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Pikarom Judge (2019)"
+        "source": "Pikarom Judge (2019)",
+        "verified": true
       }
     ]
   },
@@ -6332,15 +6395,16 @@
     "total": 3,
     "variants": [
       {
-        "version": "Standard",
-        "qty": 2,
-        "source": "ADP Zacian (2020)",
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Green's Reshizard (2019)",
         "verified": true
       },
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "Green's Reshizard (2019)"
+        "qty": 2,
+        "source": "ADP Zacian (2020)",
+        "verified": true
       }
     ]
   },
@@ -6357,7 +6421,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Pikarom Judge (2019)"
+        "source": "Pikarom Judge (2019)",
+        "verified": true
       }
     ]
   },
@@ -6560,6 +6625,18 @@
     "total": 8,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Reshizard Firebox (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Malamar (2019)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 2,
         "source": "Baby Blacephalon (2020)",
@@ -6570,16 +6647,6 @@
         "qty": 2,
         "source": "Combo Zacian (2020)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Malamar (2019)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Reshizard Firebox (2019)"
       }
     ]
   },
@@ -6709,7 +6776,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Perfection Mewtwo (2019)"
+        "source": "Perfection Mewtwo (2019)",
+        "verified": true
       }
     ]
   },
@@ -6765,7 +6833,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Malamar (2019)"
+        "source": "Malamar (2019)",
+        "verified": true
       }
     ]
   },
@@ -7093,7 +7162,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Whimsicott GX (2019)"
+        "source": "Whimsicott GX (2019)",
+        "verified": true
       }
     ]
   },
@@ -7458,20 +7528,22 @@
     "total": 6,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Reshizard Firebox (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Green's Reshizard (2019)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 4,
         "source": "Baby Blacephalon (2020)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Reshizard Firebox (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Green's Reshizard (2019)"
       }
     ]
   },
@@ -7709,19 +7781,21 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Baby Blacephalon (2020)",
+        "qty": 1,
+        "source": "Perfection Mewtwo (2019)",
         "verified": true
       },
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Green's Reshizard (2019)"
+        "source": "Green's Reshizard (2019)",
+        "verified": true
       },
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "Perfection Mewtwo (2019)"
+        "qty": 4,
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
       }
     ]
   },
@@ -7793,7 +7867,7 @@
     "num": "",
     "printKey": "fireenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/133_hires.png",
-    "total": 76,
+    "total": 68,
     "variants": [
       {
         "version": "Standard",
@@ -7815,11 +7889,6 @@
         "version": "Standard",
         "qty": 11,
         "source": "Green's Reshizard (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 8,
-        "source": "Perfection Mewtwo (2019)"
       },
       {
         "version": "Standard",
@@ -7848,8 +7917,14 @@
     "num": "133",
     "printKey": "fireenergy|XY 133",
     "image": "https://images.pokemontcg.io/xy1/133_hires.png",
-    "total": 14,
+    "total": 22,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 8,
+        "source": "Perfection Mewtwo (2019)",
+        "verified": true
+      },
       {
         "version": "Holo",
         "qty": 14,
@@ -8786,22 +8861,26 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Reshizard Firebox (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Green's Reshizard (2019)"
+        "source": "Reshizard Firebox (2019)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Perfection Mewtwo (2019)"
+        "source": "Perfection Mewtwo (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Green's Reshizard (2019)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Blacephalon GX (2019)"
+        "source": "Blacephalon GX (2019)",
+        "verified": true
       }
     ]
   },
@@ -8872,7 +8951,8 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Malamar (2019)"
+        "source": "Malamar (2019)",
+        "verified": true
       }
     ]
   },
@@ -9285,7 +9365,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Green's Reshizard (2019)"
+        "source": "Green's Reshizard (2019)",
+        "verified": true
       }
     ]
   },
@@ -9320,7 +9401,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Green's Reshizard (2019)"
+        "source": "Green's Reshizard (2019)",
+        "verified": true
       }
     ]
   },
@@ -9633,25 +9715,28 @@
     "total": 4,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Reshizard Firebox (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Green's Reshizard (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Blacephalon GX (2019)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 1,
         "source": "Baby Blacephalon (2020)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Reshizard Firebox (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Green's Reshizard (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Blacephalon GX (2019)"
       }
     ]
   },
@@ -9668,7 +9753,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Reshizard Firebox (2019)"
+        "source": "Reshizard Firebox (2019)",
+        "verified": true
       }
     ]
   },
@@ -9938,6 +10024,12 @@
     "total": 3,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Pikarom Judge (2019)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 1,
         "source": "Combo Zacian (2020)",
@@ -9948,11 +10040,6 @@
         "qty": 1,
         "source": "Spiritomb (2021)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Pikarom Judge (2019)"
       }
     ]
   },
@@ -10211,7 +10298,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Malamar (2019)"
+        "source": "Malamar (2019)",
+        "verified": true
       }
     ]
   },
@@ -10559,6 +10647,18 @@
     "total": 17,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Reshizard Firebox (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Malamar (2019)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 3,
         "source": "Baby Blacephalon (2020)",
@@ -10575,16 +10675,6 @@
         "qty": 3,
         "source": "Spiritomb (2021)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Malamar (2019)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Reshizard Firebox (2019)"
       }
     ]
   },
@@ -10643,7 +10733,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Perfection Mewtwo (2019)"
+        "source": "Perfection Mewtwo (2019)",
+        "verified": true
       }
     ]
   },
@@ -10732,7 +10823,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Pikarom Judge (2019)"
+        "source": "Pikarom Judge (2019)",
+        "verified": true
       }
     ]
   },
@@ -11455,12 +11547,14 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Malamar (2019)"
+        "source": "Perfection Mewtwo (2019)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Perfection Mewtwo (2019)"
+        "source": "Malamar (2019)",
+        "verified": true
       }
     ]
   },
@@ -11797,21 +11891,35 @@
     "name": "Lillie",
     "type": "Trainer",
     "key": "lillie",
+    "set": "SUM",
+    "num": "122",
+    "printKey": "lillie|SUM 122",
+    "image": "https://images.pokemontcg.io/sm1/122_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Blacephalon GX (2019)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Lillie",
+    "type": "Trainer",
+    "key": "lillie",
     "set": "UPR",
     "num": "125",
     "printKey": "lillie|UPR 125",
     "image": "https://images.pokemontcg.io/sm5/125_hires.png",
-    "total": 9,
+    "total": 7,
     "variants": [
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Malamar (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Blacephalon GX (2019)"
+        "source": "Malamar (2019)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -12368,7 +12476,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Green's Reshizard (2019)"
+        "source": "Green's Reshizard (2019)",
+        "verified": true
       }
     ]
   },
@@ -12580,12 +12689,14 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Pikarom Judge (2019)"
+        "source": "Pikarom Judge (2019)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Green's Reshizard (2019)"
+        "source": "Green's Reshizard (2019)",
+        "verified": true
       }
     ]
   },
@@ -12691,13 +12802,14 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Cinccino Mill (2020)",
+        "source": "Perfection Mewtwo (2019)",
         "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Perfection Mewtwo (2019)"
+        "source": "Cinccino Mill (2020)",
+        "verified": true
       }
     ]
   },
@@ -12768,7 +12880,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Malamar (2019)"
+        "source": "Malamar (2019)",
+        "verified": true
       }
     ]
   },
@@ -12950,12 +13063,14 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Pikarom Judge (2019)"
+        "source": "Pikarom Judge (2019)",
+        "verified": true
       },
       {
-        "version": "Standard",
+        "version": "Reverse Holo",
         "qty": 1,
-        "source": "Perfection Mewtwo (2019)"
+        "source": "Perfection Mewtwo (2019)",
+        "verified": true
       }
     ]
   },
@@ -13342,7 +13457,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Blacephalon GX (2019)"
+        "source": "Blacephalon GX (2019)",
+        "verified": true
       }
     ]
   },
@@ -13644,14 +13760,16 @@
     "total": 2,
     "variants": [
       {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Malamar (2019)"
-      },
-      {
         "version": "World Champs",
         "qty": 1,
-        "source": "Pikarom Judge (2019)"
+        "source": "Pikarom Judge (2019)",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Malamar (2019)",
+        "verified": true
       }
     ]
   },
@@ -13804,8 +13922,14 @@
     "num": "SM191",
     "printKey": "mewtwomewgx|PR-SM SM191",
     "image": "https://images.pokemontcg.io/smp/SM191_hires.png",
-    "total": 1,
+    "total": 3,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Perfection Mewtwo (2019)",
+        "verified": true
+      },
       {
         "version": "Proxy",
         "qty": 1,
@@ -13822,12 +13946,13 @@
     "num": "71",
     "printKey": "mewtwomewgx|UNM 71",
     "image": "https://images.pokemontcg.io/sm11/71_hires.png",
-    "total": 4,
+    "total": 2,
     "variants": [
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Perfection Mewtwo (2019)"
+        "qty": 2,
+        "source": "Perfection Mewtwo (2019)",
+        "verified": true
       }
     ]
   },
@@ -13895,16 +14020,17 @@
     "name": "Mimikyu",
     "type": "Pokémon",
     "key": "mimikyu",
-    "set": "TEU",
-    "num": "112",
-    "printKey": "mimikyu|TEU 112",
-    "image": "https://images.pokemontcg.io/sm9/112_hires.png",
+    "set": "GRI",
+    "num": "58",
+    "printKey": "mimikyu|GRI 58",
+    "image": "https://images.pokemontcg.io/sm2/58_hires.png",
     "total": 1,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Malamar (2019)"
+        "source": "Malamar (2019)",
+        "verified": true
       }
     ]
   },
@@ -14050,7 +14176,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Green's Reshizard (2019)"
+        "source": "Green's Reshizard (2019)",
+        "verified": true
       }
     ]
   },
@@ -14342,6 +14469,24 @@
     "total": 20,
     "variants": [
       {
+        "version": "Reverse Holo",
+        "qty": 3,
+        "source": "Perfection Mewtwo (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Malamar (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Blacephalon GX (2019)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 1,
         "source": "Banette Garbodor (2018)"
@@ -14350,21 +14495,6 @@
         "version": "World Champs",
         "qty": 4,
         "source": "ZoroGarb (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Malamar (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Perfection Mewtwo (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Blacephalon GX (2019)"
       },
       {
         "version": "Standard",
@@ -14868,7 +14998,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Blacephalon GX (2019)"
+        "source": "Blacephalon GX (2019)",
+        "verified": true
       }
     ]
   },
@@ -14885,7 +15016,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Perfection Mewtwo (2019)"
+        "source": "Perfection Mewtwo (2019)",
+        "verified": true
       }
     ]
   },
@@ -15164,7 +15296,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Reshizard Firebox (2019)"
+        "source": "Reshizard Firebox (2019)",
+        "verified": true
       }
     ]
   },
@@ -15572,6 +15705,12 @@
     "total": 6,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Reshizard Firebox (2019)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 1,
         "source": "Baby Blacephalon (2020)",
@@ -15582,11 +15721,6 @@
         "qty": 4,
         "source": "Cinccino Mill (2020)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Reshizard Firebox (2019)"
       }
     ]
   },
@@ -15758,15 +15892,16 @@
     "type": "Pokémon",
     "key": "persiangx",
     "set": "UNB",
-    "num": "149",
-    "printKey": "persiangx|UNB 149",
-    "image": "https://images.pokemontcg.io/sm10/149_hires.png",
+    "num": "227",
+    "printKey": "persiangx|UNB 227",
+    "image": "https://images.pokemontcg.io/sm10/227_hires.png",
     "total": 1,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Blacephalon GX (2019)"
+        "source": "Blacephalon GX (2019)",
+        "verified": true
       }
     ]
   },
@@ -15873,7 +16008,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Pikarom Judge (2019)"
+        "source": "Pikarom Judge (2019)",
+        "verified": true
       }
     ]
   },
@@ -16036,16 +16172,35 @@
     "name": "Poipole",
     "type": "Pokémon",
     "key": "poipole",
-    "set": "LOT",
-    "num": "107",
-    "printKey": "poipole|LOT 107",
-    "image": "https://images.pokemontcg.io/sm8/107_hires.png",
-    "total": 3,
+    "set": "FLI",
+    "num": "55",
+    "printKey": "poipole|FLI 55",
+    "image": "https://images.pokemontcg.io/sm6/55_hires.png",
+    "total": 2,
     "variants": [
       {
         "version": "Standard",
-        "qty": 3,
-        "source": "Blacephalon GX (2019)"
+        "qty": 2,
+        "source": "Blacephalon GX (2019)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Poipole",
+    "type": "Pokémon",
+    "key": "poipole",
+    "set": "UNM",
+    "num": "102",
+    "printKey": "poipole|UNM 102",
+    "image": "https://images.pokemontcg.io/sm11/102_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Blacephalon GX (2019)",
+        "verified": true
       }
     ]
   },
@@ -16212,12 +16367,14 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Green's Reshizard (2019)"
+        "source": "Perfection Mewtwo (2019)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Perfection Mewtwo (2019)"
+        "source": "Green's Reshizard (2019)",
+        "verified": true
       }
     ]
   },
@@ -16454,6 +16611,36 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 4,
+        "source": "Whimsicott GX (2019)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Reshizard Firebox (2019)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Pikarom Judge (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Malamar (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Blacephalon GX (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 1,
         "source": "Cinccino Mill (2020)",
         "verified": true
@@ -16469,31 +16656,6 @@
         "qty": 2,
         "source": "Rapid Strike Urshifu (2021)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Malamar (2019)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "Reshizard Firebox (2019)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Pikarom Judge (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Blacephalon GX (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Whimsicott GX (2019)"
       }
     ]
   },
@@ -16640,7 +16802,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Whimsicott GX (2019)"
+        "source": "Whimsicott GX (2019)",
+        "verified": true
       }
     ]
   },
@@ -16657,7 +16820,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Whimsicott GX (2019)"
+        "source": "Whimsicott GX (2019)",
+        "verified": true
       }
     ]
   },
@@ -16690,19 +16854,22 @@
     "total": 4,
     "variants": [
       {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Malamar (2019)"
-      },
-      {
         "version": "World Champs",
         "qty": 1,
-        "source": "Pikarom Judge (2019)"
+        "source": "Pikarom Judge (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Malamar (2019)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Green's Reshizard (2019)"
+        "source": "Green's Reshizard (2019)",
+        "verified": true
       }
     ]
   },
@@ -16967,7 +17134,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Whimsicott GX (2019)"
+        "source": "Whimsicott GX (2019)",
+        "verified": true
       }
     ]
   },
@@ -17734,7 +17902,7 @@
     "num": "",
     "printKey": "psychicenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/136_hires.png",
-    "total": 52,
+    "total": 50,
     "variants": [
       {
         "version": "World Champs",
@@ -17764,8 +17932,9 @@
       },
       {
         "version": "Standard",
-        "qty": 3,
-        "source": "Perfection Mewtwo (2019)"
+        "qty": 1,
+        "source": "Spare",
+        "verified": false
       },
       {
         "version": "World Champs",
@@ -17797,16 +17966,17 @@
     "name": "Psychic Energy",
     "type": "Energy",
     "key": "psychicenergy",
-    "set": "",
-    "num": "",
-    "printKey": "psychicenergy|",
+    "set": "XY",
+    "num": "136",
+    "printKey": "psychicenergy|XY 136",
     "image": "https://images.pokemontcg.io/xy1/136_hires.png",
-    "total": 1,
+    "total": 3,
     "variants": [
       {
-        "version": "Prize Pack Holo",
-        "qty": 1,
-        "source": "Spare"
+        "version": "Standard",
+        "qty": 3,
+        "source": "Perfection Mewtwo (2019)",
+        "verified": true
       }
     ]
   },
@@ -18155,7 +18325,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Pikarom Judge (2019)"
+        "source": "Pikarom Judge (2019)",
+        "verified": true
       }
     ]
   },
@@ -18255,16 +18426,17 @@
     "name": "Rainbow Energy",
     "type": "Energy",
     "key": "rainbowenergy",
-    "set": "CES",
-    "num": "151",
-    "printKey": "rainbowenergy|CES 151",
-    "image": "https://images.pokemontcg.io/sm7/151_hires.png",
+    "set": "SUM",
+    "num": "137",
+    "printKey": "rainbowenergy|SUM 137",
+    "image": "https://images.pokemontcg.io/sm1/137_hires.png",
     "total": 1,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Whimsicott GX (2019)"
+        "source": "Whimsicott GX (2019)",
+        "verified": true
       }
     ]
   },
@@ -18654,8 +18826,14 @@
     "num": "135",
     "printKey": "rarecandy|PRC 135",
     "image": "https://images.pokemontcg.io/xy5/135_hires.png",
-    "total": 6,
+    "total": 10,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Whimsicott GX (2019)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 3,
@@ -18700,17 +18878,12 @@
     "num": "129",
     "printKey": "rarecandy|SUM 129",
     "image": "https://images.pokemontcg.io/sm1/129_hires.png",
-    "total": 7,
+    "total": 3,
     "variants": [
       {
         "version": "Standard",
         "qty": 3,
         "source": "ZoroGardy (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Whimsicott GX (2019)"
       }
     ]
   },
@@ -18819,14 +18992,15 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "Cinccino Mill (2020)",
+        "qty": 4,
+        "source": "Whimsicott GX (2019)",
         "verified": true
       },
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Whimsicott GX (2019)"
+        "qty": 1,
+        "source": "Cinccino Mill (2020)",
+        "verified": true
       }
     ]
   },
@@ -19077,6 +19251,30 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 1,
+        "source": "Whimsicott GX (2019)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Pikarom Judge (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Malamar (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Green's Reshizard (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 2,
         "source": "Ice Rider (2021)",
         "verified": true
@@ -19086,26 +19284,30 @@
         "qty": 1,
         "source": "Rapid Strike Urshifu (2021)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Malamar (2019)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Pikarom Judge (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Green's Reshizard (2019)"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Reshiram & Charizard-GX",
+    "type": "Pokémon",
+    "key": "reshiramcharizardgx",
+    "set": "PR-SM",
+    "num": "SM201",
+    "printKey": "reshiramcharizardgx|PR-SM SM201",
+    "image": "https://images.pokemontcg.io/smp/SM201_hires.png",
+    "total": 4,
+    "variants": [
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Whimsicott GX (2019)"
+        "source": "Perfection Mewtwo (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Green's Reshizard (2019)",
+        "verified": true
       }
     ]
   },
@@ -19117,22 +19319,13 @@
     "num": "20",
     "printKey": "reshiramcharizardgx|UNB 20",
     "image": "https://images.pokemontcg.io/sm10/20_hires.png",
-    "total": 6,
+    "total": 2,
     "variants": [
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Reshizard Firebox (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Green's Reshizard (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Perfection Mewtwo (2019)"
+        "source": "Reshizard Firebox (2019)",
+        "verified": true
       }
     ]
   },
@@ -20075,14 +20268,15 @@
     "total": 4,
     "variants": [
       {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Buzz Garb Shrine (2018)"
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Green's Reshizard (2019)",
+        "verified": true
       },
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "Green's Reshizard (2019)"
+        "qty": 3,
+        "source": "Buzz Garb Shrine (2018)"
       }
     ]
   },
@@ -20448,7 +20642,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Perfection Mewtwo (2019)"
+        "source": "Perfection Mewtwo (2019)",
+        "verified": true
       }
     ]
   },
@@ -20551,7 +20746,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Malamar (2019)"
+        "source": "Malamar (2019)",
+        "verified": true
       }
     ]
   },
@@ -20762,15 +20958,16 @@
     "total": 2,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Pikarom Judge (2019)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 1,
         "source": "Baby Blacephalon (2020)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Pikarom Judge (2019)"
       }
     ]
   },
@@ -21275,8 +21472,14 @@
     "num": "135",
     "printKey": "switch|BCR 135",
     "image": "https://images.pokemontcg.io/bw7/135_hires.png",
-    "total": 8,
+    "total": 10,
     "variants": [
+      {
+        "version": "Reverse Holo",
+        "qty": 2,
+        "source": "Perfection Mewtwo (2019)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 3,
@@ -21329,8 +21532,20 @@
     "num": "147",
     "printKey": "switch|CES 147",
     "image": "https://images.pokemontcg.io/sm7/147_hires.png",
-    "total": 14,
+    "total": 9,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Reshizard Firebox (2019)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Pikarom Judge (2019)",
+        "verified": true
+      },
       {
         "version": "Reverse Holo",
         "qty": 1,
@@ -21342,26 +21557,6 @@
         "qty": 4,
         "source": "Spiritomb (2021)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Malamar (2019)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "Reshizard Firebox (2019)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Pikarom Judge (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Perfection Mewtwo (2019)"
       }
     ]
   },
@@ -21409,8 +21604,14 @@
     "num": "91",
     "printKey": "switch|ROS 91",
     "image": "https://images.pokemontcg.io/xy6/91_hires.png",
-    "total": 6,
+    "total": 9,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Malamar (2019)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -21569,7 +21770,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Pikarom Judge (2019)"
+        "source": "Pikarom Judge (2019)",
+        "verified": true
       }
     ]
   },
@@ -21619,15 +21821,16 @@
     "total": 2,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Pikarom Judge (2019)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 1,
         "source": "Combo Zacian (2020)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Pikarom Judge (2019)"
       }
     ]
   },
@@ -21691,7 +21894,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Pikarom Judge (2019)"
+        "source": "Pikarom Judge (2019)",
+        "verified": true
       }
     ]
   },
@@ -21856,14 +22060,15 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "Cinccino Mill (2020)",
+        "qty": 2,
+        "source": "Whimsicott GX (2019)",
         "verified": true
       },
       {
         "version": "Standard",
-        "qty": 2,
-        "source": "Whimsicott GX (2019)"
+        "qty": 1,
+        "source": "Cinccino Mill (2020)",
+        "verified": true
       }
     ]
   },
@@ -22884,7 +23089,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Pikarom Judge (2019)"
+        "source": "Pikarom Judge (2019)",
+        "verified": true
       }
     ]
   },
@@ -23257,7 +23463,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Whimsicott GX (2019)"
+        "source": "Whimsicott GX (2019)",
+        "verified": true
       }
     ]
   },
@@ -23376,7 +23583,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Reshizard Firebox (2019)"
+        "source": "Reshizard Firebox (2019)",
+        "verified": true
       }
     ]
   },
@@ -23920,13 +24128,14 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Baby Blacephalon (2020)",
+        "source": "Blacephalon GX (2019)",
         "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Blacephalon GX (2019)"
+        "source": "Baby Blacephalon (2020)",
+        "verified": true
       }
     ]
   },
@@ -23967,7 +24176,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Whimsicott GX (2019)"
+        "source": "Whimsicott GX (2019)",
+        "verified": true
       }
     ]
   },
@@ -24169,7 +24379,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Reshizard Firebox (2019)"
+        "source": "Reshizard Firebox (2019)",
+        "verified": true
       }
     ]
   },
@@ -24250,13 +24461,15 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 2,
-        "source": "Malamar (2019)"
+        "qty": 1,
+        "source": "Perfection Mewtwo (2019)",
+        "verified": true
       },
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "Perfection Mewtwo (2019)"
+        "qty": 2,
+        "source": "Malamar (2019)",
+        "verified": true
       }
     ]
   },
@@ -24306,9 +24519,16 @@
     "total": 4,
     "variants": [
       {
+        "version": "Reverse Holo",
+        "qty": 2,
+        "source": "Green's Reshizard (2019)",
+        "verified": true
+      },
+      {
         "version": "Standard",
-        "qty": 4,
-        "source": "Green's Reshizard (2019)"
+        "qty": 2,
+        "source": "Green's Reshizard (2019)",
+        "verified": true
       }
     ]
   },
@@ -24359,7 +24579,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Pikarom Judge (2019)"
+        "source": "Pikarom Judge (2019)",
+        "verified": true
       }
     ]
   },
@@ -24511,7 +24732,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Reshizard Firebox (2019)"
+        "source": "Reshizard Firebox (2019)",
+        "verified": true
       }
     ]
   },
@@ -24744,30 +24966,34 @@
     "total": 20,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Reshizard Firebox (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Perfection Mewtwo (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Green's Reshizard (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Blacephalon GX (2019)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 4,
         "source": "Baby Blacephalon (2020)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Reshizard Firebox (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Green's Reshizard (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Perfection Mewtwo (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Blacephalon GX (2019)"
       }
     ]
   },
@@ -24784,7 +25010,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Whimsicott GX (2019)"
+        "source": "Whimsicott GX (2019)",
+        "verified": true
       }
     ]
   },
@@ -24801,7 +25028,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Whimsicott GX (2019)"
+        "source": "Whimsicott GX (2019)",
+        "verified": true
       }
     ]
   },
@@ -24879,7 +25107,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Whimsicott GX (2019)"
+        "source": "Whimsicott GX (2019)",
+        "verified": true
       }
     ]
   },
@@ -25217,7 +25446,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Whimsicott GX (2019)"
+        "source": "Whimsicott GX (2019)",
+        "verified": true
       }
     ]
   },
@@ -25252,7 +25482,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Pikarom Judge (2019)"
+        "source": "Pikarom Judge (2019)",
+        "verified": true
       }
     ]
   },
