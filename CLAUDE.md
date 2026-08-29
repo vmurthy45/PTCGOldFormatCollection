@@ -102,12 +102,15 @@ Hosted free on GitHub Pages.
   holding each — e.g. Ultra Ball SVI 196 shows its WC and Standard copies
   together. Variants with no set recorded collect under "Set unknown" at the
   bottom, pending Vig's physical check.
-  **Two count pills per row.** The Inventory row's copy count is split: the red
-  pill is everything that is not World Champs, the blue pill is the WC copies.
-  Either is omitted when it would read zero, so an all-WC row shows one blue
-  pill and an all-retail row one red. Note the colour does NOT match the deck
-  pips, where WC is grey and blue means Proxy — Vig asked for blue here
-  specifically.
+  **Three count pills per row.** The Inventory row's copy count splits into
+  **Standard (red) · World Champs (blue) · Proxy (grey-violet)**. Standard means
+  every real retail finish — plain, Reverse Holo, Holo, Prize Pack, Full Art,
+  Japanese — so only an actual Proxy leaves that pill. Vig asked for this on
+  2026-08-25: proxies had been folded in with Standard, which overstated how
+  many real cards a row held (Shaymin-EX ROS 77 read 6 retail when it is 2 plus
+  4 proxies). Any pill is omitted when it would read zero. Note the colours do
+  NOT match the deck pips, where WC is grey and blue means Proxy — Vig asked for
+  blue=WC here specifically.
 
   **Stand-in images.** Some prints have no catalogued picture anywhere: the
   Japanese-only sets (M2a/M3/MEP/s12a), the BW Trainer Kit (`BWTK`), and basic
