@@ -48,7 +48,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Mega Audino (2016)"
+        "source": "Mega Audino (2016)",
+        "verified": true
       }
     ]
   },
@@ -101,7 +102,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Greninja (2016)"
+        "source": "Greninja (2016)",
+        "verified": true
       }
     ]
   },
@@ -599,7 +601,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Vespiquen (2016)"
+        "source": "Vespiquen (2016)",
+        "verified": true
       }
     ]
   },
@@ -742,7 +745,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Mega Audino (2016)"
+        "source": "Mega Audino (2016)",
+        "verified": true
       }
     ]
   },
@@ -759,7 +763,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Mega Audino (2016)"
+        "source": "Mega Audino (2016)",
+        "verified": true
       }
     ]
   },
@@ -774,6 +779,30 @@
     "total": 7,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Vespiquen (2016)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Night March (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Mega Audino (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 1,
         "source": "ToadBats (2015)",
@@ -784,26 +813,6 @@
         "qty": 1,
         "source": "Lando Bats (2015)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Vespiquen (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Mega Audino (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Darkrai Giratina (2016)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Night March (2016)"
       }
     ]
   },
@@ -979,24 +988,27 @@
     "variants": [
       {
         "version": "World Champs",
-        "qty": 4,
-        "source": "Archie's Blastoise (2015)",
-        "verified": true
-      },
-      {
-        "version": "World Champs",
         "qty": 2,
-        "source": "Vespiquen (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Greninja (2016)"
+        "source": "Vespiquen (2016)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Night March (2016)"
+        "source": "Night March (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Greninja (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
       }
     ]
   },
@@ -2305,12 +2317,14 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Vespiquen (2016)"
+        "source": "Vespiquen (2016)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Greninja (2016)"
+        "source": "Greninja (2016)",
+        "verified": true
       }
     ]
   },
@@ -2976,7 +2990,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Mega Audino (2016)"
+        "source": "Mega Audino (2016)",
+        "verified": true
       }
     ]
   },
@@ -3172,7 +3187,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Vespiquen (2016)"
+        "source": "Vespiquen (2016)",
+        "verified": true
       }
     ]
   },
@@ -4292,18 +4308,13 @@
     "num": "",
     "printKey": "darknessenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/138_hires.png",
-    "total": 26,
+    "total": 16,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
         "source": "Spare",
         "verified": false
-      },
-      {
-        "version": "World Champs",
-        "qty": 10,
-        "source": "Darkrai Giratina (2016)"
       },
       {
         "version": "Standard",
@@ -4325,6 +4336,24 @@
     ]
   },
   {
+    "name": "Darkness Energy",
+    "type": "Energy",
+    "key": "darknessenergy",
+    "set": "XY",
+    "num": "138",
+    "printKey": "darknessenergy|XY 138",
+    "image": "https://images.pokemontcg.io/xy1/138_hires.png",
+    "total": 10,
+    "variants": [
+      {
+        "version": "World Champs",
+        "qty": 10,
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Darkrai-EX",
     "type": "Pokémon",
     "key": "darkraiex",
@@ -4337,7 +4366,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Darkrai Giratina (2016)"
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
       }
     ]
   },
@@ -4723,7 +4753,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Night March (2016)"
+        "source": "Night March (2016)",
+        "verified": true
       }
     ]
   },
@@ -4786,7 +4817,32 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Greninja (2016)"
+        "source": "Greninja (2016)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Double Colorless Energy",
+    "type": "Energy",
+    "key": "doublecolorlessenergy",
+    "set": "FCO",
+    "num": "114",
+    "printKey": "doublecolorlessenergy|FCO 114",
+    "image": "https://images.pokemontcg.io/xy10/114_hires.png",
+    "total": 8,
+    "variants": [
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Vespiquen (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Mega Audino (2016)",
+        "verified": true
       }
     ]
   },
@@ -4907,8 +4963,14 @@
     "num": "92",
     "printKey": "doublecolorlessenergy|NXD 92",
     "image": "https://images.pokemontcg.io/bw4/92_hires.png",
-    "total": 13,
+    "total": 16,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Night March (2016)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -4932,12 +4994,6 @@
         "qty": 4,
         "source": "CMT (2012)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Spare",
-        "verified": false
       }
     ]
   },
@@ -4995,7 +5051,7 @@
     "num": "130",
     "printKey": "doublecolorlessenergy|XY 130",
     "image": "https://images.pokemontcg.io/xy1/130_hires.png",
-    "total": 14,
+    "total": 3,
     "variants": [
       {
         "version": "World Champs",
@@ -5005,18 +5061,9 @@
       },
       {
         "version": "World Champs",
-        "qty": 4,
-        "source": "Vespiquen (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Mega Audino (2016)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Night March (2016)"
+        "qty": 1,
+        "source": "Spare",
+        "verified": false
       }
     ]
   },
@@ -5033,7 +5080,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Darkrai Giratina (2016)"
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
       }
     ]
   },
@@ -6616,21 +6664,35 @@
     "name": "Escape Rope",
     "type": "Trainer",
     "key": "escaperope",
+    "set": "PLS",
+    "num": "120",
+    "printKey": "escaperope|PLS 120",
+    "image": "https://images.pokemontcg.io/bw8/120_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Night March (2016)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Escape Rope",
+    "type": "Trainer",
+    "key": "escaperope",
     "set": "PRC",
     "num": "127",
     "printKey": "escaperope|PRC 127",
     "image": "https://images.pokemontcg.io/xy5/127_hires.png",
-    "total": 2,
+    "total": 1,
     "variants": [
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Mega Audino (2016)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Night March (2016)"
+        "source": "Mega Audino (2016)",
+        "verified": true
       }
     ]
   },
@@ -7536,14 +7598,16 @@
     "total": 9,
     "variants": [
       {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "Darkrai Giratina (2016)"
-      },
-      {
         "version": "Standard",
         "qty": 2,
-        "source": "Night March (2016)"
+        "source": "Night March (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -7807,7 +7871,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Greninja (2016)"
+        "source": "Greninja (2016)",
+        "verified": true
       }
     ]
   },
@@ -7844,20 +7909,22 @@
     "total": 45,
     "variants": [
       {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Archie's Blastoise (2015)",
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Mega Audino (2016)",
         "verified": true
       },
       {
         "version": "World Champs",
-        "qty": 2,
-        "source": "Mega Audino (2016)"
+        "qty": 3,
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
       },
       {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "Darkrai Giratina (2016)"
+        "version": "Standard",
+        "qty": 1,
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -8090,7 +8157,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Vespiquen (2016)"
+        "source": "Vespiquen (2016)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -8177,7 +8245,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Greninja (2016)"
+        "source": "Greninja (2016)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -8199,7 +8268,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Greninja (2016)"
+        "source": "Greninja (2016)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -8391,7 +8461,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Darkrai Giratina (2016)"
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -8853,7 +8924,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Darkrai Giratina (2016)"
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
       }
     ]
   },
@@ -9265,7 +9337,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Greninja (2016)"
+        "source": "Greninja (2016)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -9287,7 +9360,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Greninja (2016)"
+        "source": "Greninja (2016)",
+        "verified": true
       }
     ]
   },
@@ -9304,7 +9378,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Greninja (2016)"
+        "source": "Greninja (2016)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -9654,14 +9729,16 @@
     "total": 9,
     "variants": [
       {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Mega Audino (2016)"
-      },
-      {
         "version": "Standard",
         "qty": 2,
-        "source": "Night March (2016)"
+        "source": "Night March (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Mega Audino (2016)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -9892,12 +9969,14 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Mega Audino (2016)"
+        "source": "Mega Audino (2016)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Darkrai Giratina (2016)"
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -10581,7 +10660,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Night March (2016)"
+        "source": "Night March (2016)",
+        "verified": true
       }
     ]
   },
@@ -10616,7 +10696,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Vespiquen (2016)"
+        "source": "Vespiquen (2016)",
+        "verified": true
       }
     ]
   },
@@ -11244,7 +11325,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Night March (2016)"
+        "source": "Night March (2016)",
+        "verified": true
       }
     ]
   },
@@ -11411,6 +11493,18 @@
     "total": 14,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Vespiquen (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Greninja (2016)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 1,
         "source": "Yveltal Raichu (2014)",
@@ -11439,16 +11533,6 @@
         "qty": 3,
         "source": "Spiritomb (2021)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Vespiquen (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Greninja (2016)"
       },
       {
         "version": "Standard",
@@ -12396,8 +12480,32 @@
     "num": "78",
     "printKey": "lysandre|AOR 78",
     "image": "https://images.pokemontcg.io/xy7/78_hires.png",
-    "total": 2,
+    "total": 8,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Vespiquen (2016)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Night March (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Mega Audino (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 2,
@@ -12413,8 +12521,14 @@
     "num": "90",
     "printKey": "lysandre|FLF 90",
     "image": "https://images.pokemontcg.io/xy2/90_hires.png",
-    "total": 16,
+    "total": 10,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Night March (2016)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 1,
@@ -12450,26 +12564,6 @@
         "qty": 2,
         "source": "Lando Bats (2015)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Vespiquen (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Mega Audino (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Darkrai Giratina (2016)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Night March (2016)"
       }
     ]
   },
@@ -12508,7 +12602,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Mega Audino (2016)"
+        "source": "Mega Audino (2016)",
+        "verified": true
       }
     ]
   },
@@ -12619,7 +12714,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Mega Audino (2016)"
+        "source": "Mega Audino (2016)",
+        "verified": true
       }
     ]
   },
@@ -12911,7 +13007,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Darkrai Giratina (2016)"
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -13123,7 +13220,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Mega Audino (2016)"
+        "source": "Mega Audino (2016)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -13382,7 +13480,7 @@
     "num": "",
     "printKey": "metalenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/139_hires.png",
-    "total": 11,
+    "total": 7,
     "variants": [
       {
         "version": "World Champs",
@@ -13392,8 +13490,9 @@
       },
       {
         "version": "World Champs",
-        "qty": 6,
-        "source": "Mega Audino (2016)"
+        "qty": 2,
+        "source": "Spare",
+        "verified": false
       },
       {
         "version": "World Champs",
@@ -13407,16 +13506,17 @@
     "name": "Metal Energy",
     "type": "Energy",
     "key": "metalenergy",
-    "set": "",
-    "num": "",
-    "printKey": "metalenergy|",
+    "set": "XY",
+    "num": "139",
+    "printKey": "metalenergy|XY 139",
     "image": "https://images.pokemontcg.io/xy1/139_hires.png",
-    "total": 2,
+    "total": 6,
     "variants": [
       {
-        "version": "Prize Pack",
-        "qty": 2,
-        "source": "Spare"
+        "version": "World Champs",
+        "qty": 6,
+        "source": "Mega Audino (2016)",
+        "verified": true
       }
     ]
   },
@@ -13510,7 +13610,8 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Night March (2016)"
+        "source": "Night March (2016)",
+        "verified": true
       }
     ]
   },
@@ -14358,8 +14459,32 @@
     "num": "105",
     "printKey": "n|FCO 105",
     "image": "https://images.pokemontcg.io/xy10/105_hires.png",
-    "total": 61,
+    "total": 60,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Vespiquen (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Mega Audino (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Greninja (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 1,
@@ -14371,31 +14496,6 @@
         "qty": 3,
         "source": "ToadBats (2015)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Vespiquen (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Mega Audino (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Darkrai Giratina (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Greninja (2016)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Night March (2016)"
       },
       {
         "version": "Standard",
@@ -14487,8 +14587,14 @@
     "num": "92",
     "printKey": "n|NVI 92",
     "image": "https://images.pokemontcg.io/bw3/92_hires.png",
-    "total": 8,
+    "total": 9,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Night March (2016)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -15497,12 +15603,14 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Mega Audino (2016)"
+        "source": "Mega Audino (2016)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Darkrai Giratina (2016)"
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -16243,29 +16351,18 @@
     "name": "Pokémon Center Lady",
     "type": "Trainer",
     "key": "pokemoncenterlady",
-    "set": "FLF",
-    "num": "93",
-    "printKey": "pokemoncenterlady|FLF 93",
-    "image": "https://images.pokemontcg.io/xy2/93_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Mega Audino (2016)"
-      }
-    ]
-  },
-  {
-    "name": "Pokémon Center Lady",
-    "type": "Trainer",
-    "key": "pokemoncenterlady",
     "set": "GEN",
     "num": "68",
     "printKey": "pokemoncenterlady|GEN 68",
     "image": "https://images.pokemontcg.io/g1/68_hires.png",
-    "total": 1,
+    "total": 2,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Mega Audino (2016)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -16446,19 +16543,22 @@
     "total": 3,
     "variants": [
       {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Darkrai Giratina (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Greninja (2016)"
-      },
-      {
         "version": "Standard",
         "qty": 1,
-        "source": "Night March (2016)"
+        "source": "Night March (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Greninja (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
       }
     ]
   },
@@ -17107,8 +17207,38 @@
     "num": "107",
     "printKey": "professorsycamore|BKP 107",
     "image": "https://images.pokemontcg.io/xy9/107_hires.png",
-    "total": 63,
+    "total": 82,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Vespiquen (2016)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Night March (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Mega Audino (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Greninja (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 3,
@@ -17232,7 +17362,7 @@
     "num": "122",
     "printKey": "professorsycamore|XY 122",
     "image": "https://images.pokemontcg.io/xy1/122_hires.png",
-    "total": 30,
+    "total": 11,
     "variants": [
       {
         "version": "World Champs",
@@ -17251,31 +17381,6 @@
         "qty": 3,
         "source": "Mega Kangaskhan (2014)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Vespiquen (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Mega Audino (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Darkrai Giratina (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Greninja (2016)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Night March (2016)"
       }
     ]
   },
@@ -17766,7 +17871,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Night March (2016)"
+        "source": "Night March (2016)",
+        "verified": true
       }
     ]
   },
@@ -17783,7 +17889,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Night March (2016)"
+        "source": "Night March (2016)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -19060,7 +19167,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Darkrai Giratina (2016)"
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
       }
     ]
   },
@@ -19077,7 +19185,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Vespiquen (2016)"
+        "source": "Vespiquen (2016)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -19322,14 +19431,15 @@
     "variants": [
       {
         "version": "World Champs",
-        "qty": 2,
-        "source": "Archie's Blastoise (2015)",
+        "qty": 3,
+        "source": "Greninja (2016)",
         "verified": true
       },
       {
         "version": "World Champs",
-        "qty": 3,
-        "source": "Greninja (2016)"
+        "qty": 2,
+        "source": "Archie's Blastoise (2015)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -19879,6 +19989,30 @@
     "variants": [
       {
         "version": "World Champs",
+        "qty": 3,
+        "source": "Vespiquen (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Night March (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Mega Audino (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
         "qty": 2,
         "source": "Archie's Blastoise (2015)",
         "verified": true
@@ -19894,26 +20028,6 @@
         "qty": 1,
         "source": "Lando Bats (2015)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "Vespiquen (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Mega Audino (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Darkrai Giratina (2016)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Night March (2016)"
       },
       {
         "version": "Standard",
@@ -20385,12 +20499,14 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Vespiquen (2016)"
+        "source": "Vespiquen (2016)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Night March (2016)"
+        "source": "Night March (2016)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -20487,7 +20603,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Vespiquen (2016)"
+        "source": "Vespiquen (2016)",
+        "verified": true
       }
     ]
   },
@@ -20558,7 +20675,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Greninja (2016)"
+        "source": "Greninja (2016)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -20684,6 +20802,24 @@
     "total": 6,
     "variants": [
       {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Night March (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Mega Audino (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Greninja (2016)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 1,
         "source": "Yveltal Raichu (2014)",
@@ -20700,21 +20836,6 @@
         "qty": 1,
         "source": "Mega Kangaskhan (2014)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Mega Audino (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Greninja (2016)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Night March (2016)"
       }
     ]
   },
@@ -20858,6 +20979,24 @@
     "total": 14,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Mega Audino (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Greninja (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 1,
         "source": "Yveltal Raichu (2014)",
@@ -20874,21 +21013,6 @@
         "qty": 1,
         "source": "Charizard Pidgeot (2025)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Mega Audino (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Darkrai Giratina (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Greninja (2016)"
       },
       {
         "version": "Standard",
@@ -21462,7 +21586,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Greninja (2016)"
+        "source": "Greninja (2016)",
+        "verified": true
       }
     ]
   },
@@ -21714,7 +21839,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Night March (2016)"
+        "source": "Night March (2016)",
+        "verified": true
       }
     ]
   },
@@ -22509,9 +22635,10 @@
     "total": 4,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 1,
-        "source": "Night March (2016)"
+        "source": "Night March (2016)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -23044,19 +23171,22 @@
     "total": 9,
     "variants": [
       {
+        "version": "Reverse Holo",
+        "qty": 3,
+        "source": "Night March (2016)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 4,
-        "source": "Mega Audino (2016)"
+        "source": "Mega Audino (2016)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Darkrai Giratina (2016)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Night March (2016)"
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
       }
     ]
   },
@@ -23180,7 +23310,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Darkrai Giratina (2016)"
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -23388,8 +23519,14 @@
     "num": "102",
     "printKey": "ultraball|DEX 102",
     "image": "https://images.pokemontcg.io/bw5/102_hires.png",
-    "total": 18,
+    "total": 22,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Night March (2016)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -23442,8 +23579,26 @@
     "num": "113",
     "printKey": "ultraball|FCO 113",
     "image": "https://images.pokemontcg.io/xy10/113_hires.png",
-    "total": 23,
+    "total": 35,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Vespiquen (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Mega Audino (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -23484,7 +23639,7 @@
     "num": "99",
     "printKey": "ultraball|FLF 99",
     "image": "https://images.pokemontcg.io/xy2/99_hires.png",
-    "total": 25,
+    "total": 9,
     "variants": [
       {
         "version": "World Champs",
@@ -23509,26 +23664,6 @@
         "qty": 1,
         "source": "Slowking (2026)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Vespiquen (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Mega Audino (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Darkrai Giratina (2016)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Night March (2016)"
       }
     ]
   },
@@ -23998,7 +24133,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Vespiquen (2016)"
+        "source": "Vespiquen (2016)",
+        "verified": true
       }
     ]
   },
@@ -24257,6 +24393,36 @@
       {
         "version": "World Champs",
         "qty": 4,
+        "source": "Vespiquen (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Night March (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Mega Audino (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Greninja (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
         "source": "Archie's Blastoise (2015)",
         "verified": true
       },
@@ -24271,31 +24437,6 @@
         "qty": 2,
         "source": "Lando Bats (2015)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Vespiquen (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Mega Audino (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Darkrai Giratina (2016)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Greninja (2016)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Night March (2016)"
       },
       {
         "version": "Standard",
@@ -24525,18 +24666,13 @@
     "num": "",
     "printKey": "waterenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/134_hires.png",
-    "total": 40,
+    "total": 33,
     "variants": [
       {
         "version": "World Champs",
-        "qty": 1,
+        "qty": 2,
         "source": "Spare",
         "verified": false
-      },
-      {
-        "version": "World Champs",
-        "qty": 8,
-        "source": "Greninja (2016)"
       },
       {
         "version": "Standard",
@@ -24575,8 +24711,14 @@
     "num": "134",
     "printKey": "waterenergy|XY 134",
     "image": "https://images.pokemontcg.io/xy1/134_hires.png",
-    "total": 12,
+    "total": 20,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 8,
+        "source": "Greninja (2016)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 1,
@@ -24588,23 +24730,6 @@
         "qty": 11,
         "source": "Archie's Blastoise (2015)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Water Energy",
-    "type": "Energy",
-    "key": "waterenergy",
-    "set": "",
-    "num": "",
-    "printKey": "waterenergy|",
-    "image": "https://images.pokemontcg.io/xy1/134_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Prize Pack",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -24841,20 +24966,22 @@
     "total": 4,
     "variants": [
       {
-        "version": "Reverse Holo",
-        "qty": 2,
-        "source": "ToadBats (2015)",
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Mega Audino (2016)",
         "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Mega Audino (2016)"
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
       },
       {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Darkrai Giratina (2016)"
+        "version": "Reverse Holo",
+        "qty": 2,
+        "source": "ToadBats (2015)",
+        "verified": true
       }
     ]
   },
@@ -24888,7 +25015,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Vespiquen (2016)"
+        "source": "Vespiquen (2016)",
+        "verified": true
       }
     ]
   },
@@ -24905,7 +25033,8 @@
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Vespiquen (2016)"
+        "source": "Vespiquen (2016)",
+        "verified": true
       }
     ]
   },
@@ -24922,7 +25051,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Vespiquen (2016)"
+        "source": "Vespiquen (2016)",
+        "verified": true
       }
     ]
   },
@@ -24962,7 +25092,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Darkrai Giratina (2016)"
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
       }
     ]
   },
