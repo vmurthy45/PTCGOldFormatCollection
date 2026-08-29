@@ -118,24 +118,28 @@
     "total": 9,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 2,
-        "source": "DeciPod (2017)"
+        "source": "GoliGarb (2017)",
+        "verified": true
       },
       {
-        "version": "Standard",
-        "qty": 2,
-        "source": "GoliGarb (2017)"
-      },
-      {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 1,
-        "source": "Gardevoir-GX (2017)"
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 2,
-        "source": "DeciTales (2017)"
+        "source": "DeciTales (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "DeciPod (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -258,8 +262,14 @@
     "num": "181",
     "printKey": "airballoon|ASC 181",
     "image": "https://images.scrydex.com/pokemon/me2pt5-181/large",
-    "total": 5,
+    "total": 7,
     "variants": [
+      {
+        "version": "Proxy",
+        "qty": 2,
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 3,
@@ -278,7 +288,8 @@
         "source": "Alakazam (2026)",
         "verified": true
       }
-    ]
+    ],
+    "standIn": "played in Mega Rayquaza (2017) as a stand-in for Float Stone BKT 137"
   },
   {
     "name": "Air Balloon",
@@ -348,11 +359,11 @@
     "num": "",
     "printKey": "airballoon|",
     "image": "https://images.pokemontcg.io/swsh1/156_hires.png",
-    "total": 14,
+    "total": 12,
     "variants": [
       {
         "version": "Standard",
-        "qty": 14,
+        "qty": 12,
         "source": "Spare"
       }
     ]
@@ -393,17 +404,13 @@
     "num": "22",
     "printKey": "alolanninetalesgx|GRI 22",
     "image": "https://images.pokemontcg.io/sm2/22_hires.png",
-    "total": 4,
+    "total": 1,
     "variants": [
       {
         "version": "Standard",
-        "qty": 3,
-        "source": "Alolan Ninetales (2017)"
-      },
-      {
-        "version": "Standard",
         "qty": 1,
-        "source": "DeciTales (2017)"
+        "source": "DeciTales (2017)",
+        "verified": true
       }
     ]
   },
@@ -415,22 +422,19 @@
     "num": "21",
     "printKey": "alolanvulpix|GRI 21",
     "image": "https://images.pokemontcg.io/sm2/21_hires.png",
-    "total": 8,
+    "total": 4,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 1,
-        "source": "Gardevoir-GX (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Alolan Ninetales (2017)"
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 2,
-        "source": "DeciTales (2017)"
+        "source": "DeciTales (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -465,13 +469,8 @@
     "num": "119",
     "printKey": "aquapatch|GRI 119",
     "image": "https://images.pokemontcg.io/sm2/119_hires.png",
-    "total": 7,
+    "total": 3,
     "variants": [
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Alolan Ninetales (2017)"
-      },
       {
         "version": "Standard",
         "qty": 3,
@@ -1961,52 +1960,55 @@
     "num": "134",
     "printKey": "brigette|BKT 134",
     "image": "https://images.pokemontcg.io/xy8/134_hires.png",
-    "total": 17,
+    "total": 16,
     "variants": [
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Spare"
+        "source": "Tapu Bulu Vikavolt (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "GoliGarb (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "DeciPod (2017)"
+        "source": "Espeon Garbodor (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "GoliGarb (2017)"
+        "source": "Drampa Zoroark (2017)",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "DeciTales (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "DeciPod (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Gardevoir-GX (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Alolan Ninetales (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Tapu Bulu Vikavolt (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Espeon Garbodor (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "DeciTales (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Drampa Zoroark (2017)"
+        "source": "Spare",
+        "verified": false
       },
       {
         "version": "World Champs",
@@ -2626,7 +2628,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Tapu Bulu Vikavolt (2017)"
+        "source": "Tapu Bulu Vikavolt (2017)",
+        "verified": true
       }
     ]
   },
@@ -2792,57 +2795,61 @@
     "num": "121",
     "printKey": "choiceband|GRI 121",
     "image": "https://images.pokemontcg.io/sm2/121_hires.png",
-    "total": 45,
+    "total": 42,
     "variants": [
       {
         "version": "Standard",
-        "qty": 3,
-        "source": "DeciPod (2017)"
+        "qty": 2,
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 2,
-        "source": "GoliGarb (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Gardevoir-GX (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Alolan Ninetales (2017)"
+        "source": "Tapu Bulu Vikavolt (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Ho-Oh Salazzle (2017)"
+        "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
       },
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 2,
-        "source": "Mega Rayquaza (2017)"
+        "source": "GoliGarb (2017)",
+        "verified": true
       },
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 2,
-        "source": "Tapu Bulu Vikavolt (2017)"
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Espeon Garbodor (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "DeciTales (2017)"
+        "source": "Espeon Garbodor (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Drampa Zoroark (2017)"
+        "source": "Drampa Zoroark (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "DeciTales (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "DeciPod (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -4321,8 +4328,14 @@
     "num": "170",
     "printKey": "darknessenergy|SUM 170",
     "image": "https://images.pokemontcg.io/sm1/170_hires.png",
-    "total": 19,
+    "total": 24,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 5,
+        "source": "Drampa Zoroark (2017)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 8,
@@ -4363,18 +4376,13 @@
     "num": "",
     "printKey": "darknessenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/138_hires.png",
-    "total": 16,
+    "total": 11,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
         "source": "Spare",
         "verified": false
-      },
-      {
-        "version": "Standard",
-        "qty": 5,
-        "source": "Drampa Zoroark (2017)"
       },
       {
         "version": "World Champs",
@@ -4480,13 +4488,15 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 3,
-        "source": "DeciPod (2017)"
+        "qty": 4,
+        "source": "DeciTales (2017)",
+        "verified": true
       },
       {
-        "version": "Standard",
-        "qty": 4,
-        "source": "DeciTales (2017)"
+        "version": "World Champs",
+        "qty": 3,
+        "source": "DeciPod (2017)",
+        "verified": true
       }
     ]
   },
@@ -4559,13 +4569,15 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 3,
-        "source": "DeciPod (2017)"
+        "qty": 4,
+        "source": "DeciTales (2017)",
+        "verified": true
       },
       {
-        "version": "Standard",
-        "qty": 4,
-        "source": "DeciTales (2017)"
+        "version": "World Champs",
+        "qty": 3,
+        "source": "DeciPod (2017)",
+        "verified": true
       }
     ]
   },
@@ -4771,9 +4783,10 @@
     "total": 1,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 1,
-        "source": "Gardevoir-GX (2017)"
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
       }
     ]
   },
@@ -4887,6 +4900,24 @@
     "name": "Double Colorless Energy",
     "type": "Energy",
     "key": "doublecolorlessenergy",
+    "set": "EVO",
+    "num": "90",
+    "printKey": "doublecolorlessenergy|EVO 90",
+    "image": "https://images.pokemontcg.io/xy12/90_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Double Colorless Energy",
+    "type": "Energy",
+    "key": "doublecolorlessenergy",
     "set": "FCO",
     "num": "114",
     "printKey": "doublecolorlessenergy|FCO 114",
@@ -4915,37 +4946,19 @@
     "num": "74",
     "printKey": "doublecolorlessenergy|GEN 74",
     "image": "https://images.pokemontcg.io/g1/74_hires.png",
-    "total": 41,
+    "total": 26,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 3,
-        "source": "DeciPod (2017)"
+        "source": "GoliGarb (2017)",
+        "verified": true
       },
       {
-        "version": "Standard",
-        "qty": 3,
-        "source": "GoliGarb (2017)"
-      },
-      {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 4,
-        "source": "Gardevoir-GX (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Alolan Ninetales (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Mega Rayquaza (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Drampa Zoroark (2017)"
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -5024,8 +5037,20 @@
     "num": "92",
     "printKey": "doublecolorlessenergy|NXD 92",
     "image": "https://images.pokemontcg.io/bw4/92_hires.png",
-    "total": 16,
+    "total": 24,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Drampa Zoroark (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "DeciTales (2017)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -5084,23 +5109,25 @@
     "num": "136",
     "printKey": "doublecolorlessenergy|SUM 136",
     "image": "https://images.pokemontcg.io/sm1/136_hires.png",
-    "total": 10,
+    "total": 9,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Espeon Garbodor (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "DeciPod (2017)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 2,
         "source": "Yveltal Raichu (2014)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Espeon Garbodor (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "DeciTales (2017)"
       }
     ]
   },
@@ -5409,7 +5436,8 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Drampa Zoroark (2017)"
+        "source": "Drampa Zoroark (2017)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -6035,33 +6063,23 @@
     "name": "Eevee",
     "type": "Pokémon",
     "key": "eevee",
-    "set": "AOR",
-    "num": "63",
-    "printKey": "eevee|AOR 63",
-    "image": "https://images.pokemontcg.io/xy7/63_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Drampa Zoroark (2017)"
-      }
-    ]
-  },
-  {
-    "name": "Eevee",
-    "type": "Pokémon",
-    "key": "eevee",
     "set": "SUM",
     "num": "101",
     "printKey": "eevee|SUM 101",
     "image": "https://images.pokemontcg.io/sm1/101_hires.png",
-    "total": 4,
+    "total": 5,
     "variants": [
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Espeon Garbodor (2017)"
+        "source": "Espeon Garbodor (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Drampa Zoroark (2017)",
+        "verified": true
       }
     ]
   },
@@ -6240,23 +6258,6 @@
     "name": "Energy Recycler",
     "type": "Trainer",
     "key": "energyrecycler",
-    "set": "AOR",
-    "num": "72",
-    "printKey": "energyrecycler|AOR 72",
-    "image": "https://images.pokemontcg.io/xy7/72_hires.png",
-    "total": 2,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Tapu Bulu Vikavolt (2017)"
-      }
-    ]
-  },
-  {
-    "name": "Energy Recycler",
-    "type": "Trainer",
-    "key": "energyrecycler",
     "set": "BST",
     "num": "124",
     "printKey": "energyrecycler|BST 124",
@@ -6267,6 +6268,24 @@
         "version": "World Champs",
         "qty": 2,
         "source": "Lost Box Kyogre (2023)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Energy Recycler",
+    "type": "Trainer",
+    "key": "energyrecycler",
+    "set": "GRI",
+    "num": "123",
+    "printKey": "energyrecycler|GRI 123",
+    "image": "https://images.pokemontcg.io/sm2/123_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Tapu Bulu Vikavolt (2017)",
         "verified": true
       }
     ]
@@ -6787,20 +6806,34 @@
     "type": "Pokémon",
     "key": "espeonex",
     "set": "BKP",
-    "num": "52",
-    "printKey": "espeonex|BKP 52",
-    "image": "https://images.pokemontcg.io/xy9/52_hires.png",
-    "total": 2,
+    "num": "117",
+    "printKey": "espeonex|BKP 117",
+    "image": "https://images.pokemontcg.io/xy9/117_hires.png",
+    "total": 1,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
-        "source": "DeciPod (2017)"
-      },
+        "source": "DeciTales (2017)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Espeon-EX",
+    "type": "Pokémon",
+    "key": "espeonex",
+    "set": "BKP",
+    "num": "52",
+    "printKey": "espeonex|BKP 52",
+    "image": "https://images.pokemontcg.io/xy9/52_hires.png",
+    "total": 1,
+    "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 1,
-        "source": "DeciTales (2017)"
+        "source": "DeciPod (2017)",
+        "verified": true
       }
     ]
   },
@@ -6809,15 +6842,16 @@
     "type": "Pokémon",
     "key": "espeongx",
     "set": "SUM",
-    "num": "61",
-    "printKey": "espeongx|SUM 61",
-    "image": "https://images.pokemontcg.io/sm1/61_hires.png",
+    "num": "140",
+    "printKey": "espeongx|SUM 140",
+    "image": "https://images.pokemontcg.io/sm1/140_hires.png",
     "total": 3,
     "variants": [
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Espeon Garbodor (2017)"
+        "source": "Espeon Garbodor (2017)",
+        "verified": true
       }
     ]
   },
@@ -7442,52 +7476,61 @@
     "num": "125",
     "printKey": "fieldblower|GRI 125",
     "image": "https://images.pokemontcg.io/sm2/125_hires.png",
-    "total": 34,
+    "total": 33,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
-        "source": "DeciPod (2017)"
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Tapu Bulu Vikavolt (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "GoliGarb (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "GoliGarb (2017)"
+        "source": "Espeon Garbodor (2017)",
+        "verified": true
       },
       {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Gardevoir-GX (2017)"
-      },
-      {
-        "version": "Standard",
+        "version": "Reverse Holo",
         "qty": 1,
-        "source": "Alolan Ninetales (2017)"
+        "source": "Espeon Garbodor (2017)",
+        "verified": true
       },
       {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Mega Rayquaza (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Tapu Bulu Vikavolt (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Espeon Garbodor (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "DeciTales (2017)"
-      },
-      {
-        "version": "Standard",
+        "version": "Reverse Holo",
         "qty": 1,
-        "source": "Drampa Zoroark (2017)"
+        "source": "Drampa Zoroark (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "DeciTales (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "DeciPod (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -7686,6 +7729,12 @@
       {
         "version": "Standard",
         "qty": 2,
+        "source": "Tapu Bulu Vikavolt (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
         "source": "Night March (2016)",
         "verified": true
       },
@@ -7694,11 +7743,6 @@
         "qty": 3,
         "source": "Darkrai Giratina (2016)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Tapu Bulu Vikavolt (2017)"
       },
       {
         "version": "World Champs",
@@ -7845,8 +7889,14 @@
     "num": "98",
     "printKey": "fireenergy|BS 98",
     "image": "https://images.pokemontcg.io/base1/98_hires.png",
-    "total": 3,
+    "total": 17,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 14,
+        "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 3,
@@ -7911,18 +7961,13 @@
     "num": "",
     "printKey": "fireenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/133_hires.png",
-    "total": 24,
+    "total": 10,
     "variants": [
       {
         "version": "Standard",
         "qty": 6,
         "source": "Charizard Pidgeot (2025)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 14,
-        "source": "Ho-Oh Salazzle (2017)"
       },
       {
         "version": "World Champs",
@@ -7991,14 +8036,16 @@
     "total": 2,
     "variants": [
       {
-        "version": "Standard",
+        "version": "Reverse Holo",
         "qty": 1,
-        "source": "Espeon Garbodor (2017)"
+        "source": "Espeon Garbodor (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Drampa Zoroark (2017)"
+        "source": "Drampa Zoroark (2017)",
+        "verified": true
       }
     ]
   },
@@ -8010,8 +8057,44 @@
     "num": "137",
     "printKey": "floatstone|BKT 137",
     "image": "https://images.pokemontcg.io/xy8/137_hires.png",
-    "total": 45,
+    "total": 42,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Tapu Bulu Vikavolt (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "GoliGarb (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Espeon Garbodor (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Drampa Zoroark (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "DeciTales (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "DeciPod (2017)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 2,
@@ -8033,47 +8116,8 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "DeciPod (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "GoliGarb (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Alolan Ninetales (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Ho-Oh Salazzle (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Mega Rayquaza (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Tapu Bulu Vikavolt (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Espeon Garbodor (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "DeciTales (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Drampa Zoroark (2017)"
+        "source": "Spare",
+        "verified": false
       },
       {
         "version": "Standard",
@@ -8125,8 +8169,14 @@
     "num": "99",
     "printKey": "floatstone|PLF 99",
     "image": "https://images.pokemontcg.io/bw9/99_hires.png",
-    "total": 9,
+    "total": 10,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 3,
@@ -8259,20 +8309,28 @@
     "total": 12,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 3,
+        "source": "DeciTales (2017)",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "DeciTales (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "DeciPod (2017)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 4,
         "source": "Vespiquen (2016)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "DeciPod (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "DeciTales (2017)"
       }
     ]
   },
@@ -8523,9 +8581,10 @@
     "total": 2,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 1,
-        "source": "Gardevoir-GX (2017)"
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -8565,18 +8624,20 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Darkrai Giratina (2016)",
+        "source": "GoliGarb (2017)",
         "verified": true
       },
       {
         "version": "Standard",
-        "qty": 2,
-        "source": "GoliGarb (2017)"
+        "qty": 1,
+        "source": "Espeon Garbodor (2017)",
+        "verified": true
       },
       {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Espeon Garbodor (2017)"
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Darkrai Giratina (2016)",
+        "verified": true
       },
       {
         "version": "World Champs",
@@ -8601,14 +8662,16 @@
     "total": 11,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 2,
-        "source": "GoliGarb (2017)"
+        "source": "GoliGarb (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Espeon Garbodor (2017)"
+        "source": "Espeon Garbodor (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -8752,9 +8815,10 @@
     "total": 5,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 3,
-        "source": "Gardevoir-GX (2017)"
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -8986,23 +9050,6 @@
     ]
   },
   {
-    "name": "Giratina",
-    "type": "Pokémon",
-    "key": "giratina",
-    "set": "PR-XY",
-    "num": "XY184",
-    "printKey": "giratina|PR-XY XY184",
-    "image": "https://images.pokemontcg.io/xyp/XY184_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Alolan Ninetales (2017)"
-      }
-    ]
-  },
-  {
     "name": "Giratina VSTAR",
     "type": "Pokémon",
     "key": "giratinavstar",
@@ -9090,14 +9137,16 @@
     "total": 8,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 3,
-        "source": "DeciPod (2017)"
+        "source": "GoliGarb (2017)",
+        "verified": true
       },
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 3,
-        "source": "GoliGarb (2017)"
+        "source": "DeciPod (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -9181,6 +9230,24 @@
     "name": "Grass Energy",
     "type": "Energy",
     "key": "grassenergy",
+    "set": "BS",
+    "num": "99",
+    "printKey": "grassenergy|BS 99",
+    "image": "https://images.pokemontcg.io/base1/99_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "DeciTales (2017)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Grass Energy",
+    "type": "Energy",
+    "key": "grassenergy",
     "set": "GH",
     "num": "129",
     "printKey": "grassenergy|GH 129",
@@ -9191,6 +9258,30 @@
         "version": "Standard",
         "qty": 6,
         "source": "CMT (2012)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Grass Energy",
+    "type": "Energy",
+    "key": "grassenergy",
+    "set": "SUM",
+    "num": "164",
+    "printKey": "grassenergy|SUM 164",
+    "image": "https://images.pokemontcg.io/sm1/164_hires.png",
+    "total": 12,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 7,
+        "source": "Tapu Bulu Vikavolt (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 5,
+        "source": "DeciPod (2017)",
         "verified": true
       }
     ]
@@ -9221,7 +9312,7 @@
     "num": "",
     "printKey": "grassenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/132_hires.png",
-    "total": 53,
+    "total": 38,
     "variants": [
       {
         "version": "World Champs",
@@ -9230,30 +9321,15 @@
         "verified": true
       },
       {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Spare",
-        "verified": false
-      },
-      {
-        "version": "Standard",
-        "qty": 5,
-        "source": "DeciPod (2017)"
-      },
-      {
         "version": "Standard",
         "qty": 3,
         "source": "GoliGarb (2017)"
       },
       {
         "version": "Standard",
-        "qty": 7,
-        "source": "Tapu Bulu Vikavolt (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "DeciTales (2017)"
+        "qty": 2,
+        "source": "Spare",
+        "verified": false
       },
       {
         "version": "Standard",
@@ -9512,7 +9588,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Tapu Bulu Vikavolt (2017)"
+        "source": "Tapu Bulu Vikavolt (2017)",
+        "verified": true
       }
     ]
   },
@@ -9524,52 +9601,55 @@
     "num": "115",
     "printKey": "guzma|BUS 115",
     "image": "https://images.pokemontcg.io/sm3/115_hires.png",
-    "total": 39,
+    "total": 37,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
-        "source": "DeciPod (2017)"
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
       },
       {
-        "version": "Standard",
-        "qty": 2,
-        "source": "GoliGarb (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Gardevoir-GX (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Alolan Ninetales (2017)"
+        "version": "Reverse Holo",
+        "qty": 3,
+        "source": "Tapu Bulu Vikavolt (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Ho-Oh Salazzle (2017)"
+        "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "GoliGarb (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Mega Rayquaza (2017)"
+        "source": "Espeon Garbodor (2017)",
+        "verified": true
       },
       {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Tapu Bulu Vikavolt (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Espeon Garbodor (2017)"
-      },
-      {
-        "version": "Standard",
+        "version": "Reverse Holo",
         "qty": 1,
-        "source": "DeciTales (2017)"
+        "source": "DeciTales (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "DeciPod (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -9795,17 +9875,13 @@
     "num": "140",
     "printKey": "heavyball|BKT 140",
     "image": "https://images.pokemontcg.io/xy8/140_hires.png",
-    "total": 2,
+    "total": 1,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 1,
-        "source": "GoliGarb (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Tapu Bulu Vikavolt (2017)"
+        "source": "GoliGarb (2017)",
+        "verified": true
       }
     ]
   },
@@ -9817,8 +9893,14 @@
     "num": "88",
     "printKey": "heavyball|NXD 88",
     "image": "https://images.pokemontcg.io/bw4/88_hires.png",
-    "total": 2,
+    "total": 3,
     "variants": [
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Tapu Bulu Vikavolt (2017)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 1,
@@ -9846,6 +9928,36 @@
       {
         "version": "Standard",
         "qty": 2,
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "GoliGarb (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Espeon Garbodor (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Drampa Zoroark (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
         "source": "Night March (2016)",
         "verified": true
       },
@@ -9854,31 +9966,6 @@
         "qty": 1,
         "source": "Mega Audino (2016)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "GoliGarb (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Gardevoir-GX (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Mega Rayquaza (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Espeon Garbodor (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Drampa Zoroark (2017)"
       }
     ]
   },
@@ -10021,7 +10108,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Ho-Oh Salazzle (2017)"
+        "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
       }
     ]
   },
@@ -10083,6 +10171,12 @@
     "total": 4,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 1,
         "source": "Mega Audino (2016)",
@@ -10093,11 +10187,6 @@
         "qty": 1,
         "source": "Darkrai Giratina (2016)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Mega Rayquaza (2017)"
       }
     ]
   },
@@ -11054,23 +11143,6 @@
     ]
   },
   {
-    "name": "Karen",
-    "type": "Trainer",
-    "key": "karen",
-    "set": "PR-XY",
-    "num": "XY177",
-    "printKey": "karen|PR-XY XY177",
-    "image": "https://images.pokemontcg.io/xyp/XY177_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Alolan Ninetales (2017)"
-      }
-    ]
-  },
-  {
     "name": "Kartana-GX",
     "type": "Pokémon",
     "key": "kartanagx",
@@ -11190,7 +11262,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Ho-Oh Salazzle (2017)"
+        "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
       }
     ]
   },
@@ -11205,9 +11278,10 @@
     "total": 3,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 3,
-        "source": "Gardevoir-GX (2017)"
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
       }
     ]
   },
@@ -11616,6 +11690,12 @@
     "total": 14,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 2,
+        "source": "DeciTales (2017)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 2,
         "source": "Vespiquen (2016)",
@@ -11656,11 +11736,6 @@
         "qty": 3,
         "source": "Spiritomb (2021)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "DeciTales (2017)"
       }
     ]
   },
@@ -11828,8 +11903,20 @@
     "num": "167",
     "printKey": "lightningenergy|SUM 167",
     "image": "https://images.pokemontcg.io/sm1/167_hires.png",
-    "total": 11,
+    "total": 21,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 5,
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 5,
+        "source": "Tapu Bulu Vikavolt (2017)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 11,
@@ -11846,23 +11933,13 @@
     "num": "",
     "printKey": "lightningenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/135_hires.png",
-    "total": 59,
+    "total": 49,
     "variants": [
       {
         "version": "World Champs",
         "qty": 2,
         "source": "LuxChomp (2010)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 5,
-        "source": "Mega Rayquaza (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 5,
-        "source": "Tapu Bulu Vikavolt (2017)"
       },
       {
         "version": "World Champs",
@@ -12615,7 +12692,7 @@
     "num": "78",
     "printKey": "lysandre|AOR 78",
     "image": "https://images.pokemontcg.io/xy7/78_hires.png",
-    "total": 8,
+    "total": 6,
     "variants": [
       {
         "version": "World Champs",
@@ -12640,11 +12717,6 @@
         "qty": 2,
         "source": "Darkrai Giratina (2016)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Drampa Zoroark (2017)"
       }
     ]
   },
@@ -12656,8 +12728,14 @@
     "num": "90",
     "printKey": "lysandre|FLF 90",
     "image": "https://images.pokemontcg.io/xy2/90_hires.png",
-    "total": 10,
+    "total": 12,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Drampa Zoroark (2017)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -12775,7 +12853,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Mega Rayquaza (2017)"
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
       }
     ]
   },
@@ -13146,15 +13225,16 @@
     "total": 11,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 4,
         "source": "Darkrai Giratina (2016)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Ho-Oh Salazzle (2017)"
       },
       {
         "version": "World Champs",
@@ -13359,15 +13439,16 @@
     "total": 4,
     "variants": [
       {
+        "version": "Reverse Holo",
+        "qty": 3,
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 1,
         "source": "Mega Audino (2016)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Mega Rayquaza (2017)"
       }
     ]
   },
@@ -14615,8 +14696,38 @@
     "num": "105",
     "printKey": "n|FCO 105",
     "image": "https://images.pokemontcg.io/xy10/105_hires.png",
-    "total": 60,
+    "total": 47,
     "variants": [
+      {
+        "version": "Reverse Holo",
+        "qty": 2,
+        "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "GoliGarb (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "DeciTales (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "DeciPod (2017)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 2,
@@ -14654,54 +14765,10 @@
         "verified": true
       },
       {
-        "version": "Standard",
-        "qty": 3,
-        "source": "DeciPod (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "GoliGarb (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Gardevoir-GX (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Alolan Ninetales (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Ho-Oh Salazzle (2017)"
-      },
-      {
         "version": "Proxy",
         "qty": 1,
-        "source": "Mega Rayquaza (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Tapu Bulu Vikavolt (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Espeon Garbodor (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "DeciTales (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Drampa Zoroark (2017)"
+        "source": "Spare",
+        "verified": false
       },
       {
         "version": "Standard",
@@ -14743,8 +14810,14 @@
     "num": "92",
     "printKey": "n|NVI 92",
     "image": "https://images.pokemontcg.io/bw3/92_hires.png",
-    "total": 9,
+    "total": 12,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Drampa Zoroark (2017)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -14773,8 +14846,20 @@
     "num": "BW100",
     "printKey": "n|PR-BLW BW100",
     "image": "https://images.pokemontcg.io/bwp/BW100_hires.png",
-    "total": 2,
+    "total": 9,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Tapu Bulu Vikavolt (2017)",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 4,
+        "source": "Espeon Garbodor (2017)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 2,
@@ -14858,15 +14943,34 @@
     "name": "N's Plan",
     "type": "Supporter",
     "key": "nsplan",
+    "set": "BLK",
+    "num": "83",
+    "printKey": "nsplan|BLK 83",
+    "image": "https://images.pokemontcg.io/zsv10pt5/83_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Proxy",
+        "qty": 1,
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
+      }
+    ],
+    "standIn": "played in Mega Rayquaza (2017) as a stand-in for N FCO 105"
+  },
+  {
+    "name": "N's Plan",
+    "type": "Supporter",
+    "key": "nsplan",
     "set": "",
     "num": "",
     "printKey": "nsplan|",
     "image": null,
-    "total": 5,
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
-        "qty": 5,
+        "qty": 4,
         "source": "Spare"
       }
     ]
@@ -15370,17 +15474,13 @@
     "num": "33",
     "printKey": "octillery|BKT 33",
     "image": "https://images.pokemontcg.io/xy8/33_hires.png",
-    "total": 7,
+    "total": 5,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 1,
-        "source": "Gardevoir-GX (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Alolan Ninetales (2017)"
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -16538,18 +16638,13 @@
     "num": "68",
     "printKey": "pokemoncenterlady|GEN 68",
     "image": "https://images.pokemontcg.io/g1/68_hires.png",
-    "total": 2,
+    "total": 1,
     "variants": [
       {
         "version": "World Champs",
         "qty": 1,
         "source": "Mega Audino (2016)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Alolan Ninetales (2017)"
       }
     ]
   },
@@ -16707,16 +16802,17 @@
     "name": "Pokémon Fan Club",
     "type": "Trainer",
     "key": "pokemonfanclub",
-    "set": "GEN",
-    "num": "69",
-    "printKey": "pokemonfanclub|GEN 69",
-    "image": "https://images.pokemontcg.io/g1/69_hires.png",
+    "set": "UPR",
+    "num": "133",
+    "printKey": "pokemonfanclub|UPR 133",
+    "image": "https://images.pokemontcg.io/sm5/133_hires.png",
     "total": 1,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Mega Rayquaza (2017)"
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
       }
     ]
   },
@@ -17251,8 +17347,14 @@
     "num": "84",
     "printKey": "professorjuniper|PLB 84",
     "image": "https://images.pokemontcg.io/bw10/84_hires.png",
-    "total": 9,
+    "total": 12,
     "variants": [
+      {
+        "version": "Proxy",
+        "qty": 3,
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -17271,7 +17373,8 @@
         "source": "ToadBats (2015)",
         "verified": true
       }
-    ]
+    ],
+    "standIn": "played in Mega Rayquaza (2017) as a stand-in for Professor Sycamore BKP 107"
   },
   {
     "name": "Professor Kukui",
@@ -17281,22 +17384,19 @@
     "num": "128",
     "printKey": "professorkukui|SUM 128",
     "image": "https://images.pokemontcg.io/sm1/128_hires.png",
-    "total": 6,
+    "total": 5,
     "variants": [
       {
-        "version": "Standard",
+        "version": "Reverse Holo",
         "qty": 1,
-        "source": "Alolan Ninetales (2017)"
+        "source": "Tapu Bulu Vikavolt (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Tapu Bulu Vikavolt (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Drampa Zoroark (2017)"
+        "source": "Drampa Zoroark (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -17401,8 +17501,50 @@
     "num": "107",
     "printKey": "professorsycamore|BKP 107",
     "image": "https://images.pokemontcg.io/xy9/107_hires.png",
-    "total": 82,
+    "total": 69,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Tapu Bulu Vikavolt (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "GoliGarb (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Espeon Garbodor (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Drampa Zoroark (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "DeciTales (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "DeciPod (2017)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
@@ -17436,52 +17578,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "DeciPod (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "GoliGarb (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Gardevoir-GX (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Alolan Ninetales (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Ho-Oh Salazzle (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Mega Rayquaza (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Tapu Bulu Vikavolt (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Espeon Garbodor (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "DeciTales (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Drampa Zoroark (2017)"
+        "source": "Spare",
+        "verified": false
       },
       {
         "version": "Standard",
@@ -17538,8 +17636,26 @@
     "num": "101",
     "printKey": "professorsycamore|PHF 101",
     "image": "https://images.pokemontcg.io/xy4/101_hires.png",
-    "total": 4,
+    "total": 8,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Tapu Bulu Vikavolt (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Espeon Garbodor (2017)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
@@ -17556,8 +17672,20 @@
     "num": "122",
     "printKey": "professorsycamore|XY 122",
     "image": "https://images.pokemontcg.io/xy1/122_hires.png",
-    "total": 11,
+    "total": 16,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Espeon Garbodor (2017)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
@@ -17934,18 +18062,13 @@
     "num": "",
     "printKey": "psychicenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/136_hires.png",
-    "total": 41,
+    "total": 33,
     "variants": [
       {
         "version": "World Champs",
         "qty": 5,
         "source": "Boltevoir (2010)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 8,
-        "source": "Espeon Garbodor (2017)"
       },
       {
         "version": "Standard",
@@ -17997,8 +18120,14 @@
     "num": "136",
     "printKey": "psychicenergy|XY 136",
     "image": "https://images.pokemontcg.io/xy1/136_hires.png",
-    "total": 3,
+    "total": 11,
     "variants": [
+      {
+        "version": "Reverse Holo",
+        "qty": 8,
+        "source": "Espeon Garbodor (2017)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 3,
@@ -18425,17 +18554,13 @@
     "num": "152",
     "printKey": "rainbowenergy|BKT 152",
     "image": "https://images.pokemontcg.io/xy8/152_hires.png",
-    "total": 15,
+    "total": 11,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 4,
-        "source": "GoliGarb (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Drampa Zoroark (2017)"
+        "source": "GoliGarb (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -18475,8 +18600,14 @@
     "num": "131",
     "printKey": "rainbowenergy|XY 131",
     "image": "https://images.pokemontcg.io/xy1/131_hires.png",
-    "total": 5,
+    "total": 9,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Drampa Zoroark (2017)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
@@ -18520,9 +18651,10 @@
     "total": 8,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 4,
-        "source": "Gardevoir-GX (2017)"
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -18853,23 +18985,19 @@
     "num": "135",
     "printKey": "rarecandy|PRC 135",
     "image": "https://images.pokemontcg.io/xy5/135_hires.png",
-    "total": 10,
+    "total": 7,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
         "source": "Whimsicott GX (2019)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Gardevoir-GX (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Tapu Bulu Vikavolt (2017)"
       }
     ]
   },
@@ -18905,8 +19033,14 @@
     "num": "129",
     "printKey": "rarecandy|SUM 129",
     "image": "https://images.pokemontcg.io/sm1/129_hires.png",
-    "total": 3,
+    "total": 6,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Tapu Bulu Vikavolt (2017)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 3,
@@ -18949,9 +19083,10 @@
     "total": 2,
     "variants": [
       {
-        "version": "Standard",
+        "version": "Reverse Holo",
         "qty": 2,
-        "source": "Mega Rayquaza (2017)"
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
       }
     ]
   },
@@ -18978,15 +19113,34 @@
     "type": "Pokémon",
     "key": "rayquazaex",
     "set": "ROS",
-    "num": "75",
-    "printKey": "rayquazaex|ROS 75",
-    "image": "https://images.pokemontcg.io/xy6/75_hires.png",
-    "total": 4,
+    "num": "60",
+    "printKey": "rayquazaex|ROS 60",
+    "image": "https://images.pokemontcg.io/xy6/60_hires.png",
+    "total": 2,
     "variants": [
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Mega Rayquaza (2017)"
+        "qty": 2,
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Rayquaza-EX",
+    "type": "Pokémon",
+    "key": "rayquazaex",
+    "set": "ROS",
+    "num": "75",
+    "printKey": "rayquazaex|ROS 75",
+    "image": "https://images.pokemontcg.io/xy6/75_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
       }
     ]
   },
@@ -19092,17 +19246,13 @@
     "num": "31",
     "printKey": "remoraid|BKT 31",
     "image": "https://images.pokemontcg.io/xy8/31_hires.png",
-    "total": 4,
+    "total": 2,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 2,
-        "source": "Gardevoir-GX (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Alolan Ninetales (2017)"
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
       }
     ]
   },
@@ -19206,33 +19356,39 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 1,
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
         "qty": 2,
-        "source": "GoliGarb (2017)"
+        "source": "GoliGarb (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Gardevoir-GX (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Mega Rayquaza (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Espeon Garbodor (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "DeciTales (2017)"
+        "source": "Espeon Garbodor (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Drampa Zoroark (2017)"
+        "source": "Drampa Zoroark (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "DeciTales (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -19403,20 +19559,22 @@
     "total": 4,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 1,
+        "source": "DeciTales (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "DeciPod (2017)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 1,
         "source": "Vespiquen (2016)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "DeciPod (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "DeciTales (2017)"
       }
     ]
   },
@@ -19647,7 +19805,7 @@
     "num": "137",
     "printKey": "roughseas|PRC 137",
     "image": "https://images.pokemontcg.io/xy5/137_hires.png",
-    "total": 8,
+    "total": 5,
     "variants": [
       {
         "version": "World Champs",
@@ -19660,11 +19818,6 @@
         "qty": 2,
         "source": "Archie's Blastoise (2015)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Alolan Ninetales (2017)"
       }
     ]
   },
@@ -19680,13 +19833,15 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 3,
-        "source": "DeciPod (2017)"
+        "qty": 4,
+        "source": "DeciTales (2017)",
+        "verified": true
       },
       {
-        "version": "Standard",
-        "qty": 4,
-        "source": "DeciTales (2017)"
+        "version": "World Champs",
+        "qty": 3,
+        "source": "DeciPod (2017)",
+        "verified": true
       }
     ]
   },
@@ -19805,7 +19960,8 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Ho-Oh Salazzle (2017)"
+        "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
       }
     ]
   },
@@ -19822,7 +19978,8 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Ho-Oh Salazzle (2017)"
+        "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
       }
     ]
   },
@@ -20208,6 +20365,24 @@
     "total": 21,
     "variants": [
       {
+        "version": "Proxy",
+        "qty": 4,
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "DeciTales (2017)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 3,
         "source": "Vespiquen (2016)",
@@ -20248,21 +20423,6 @@
         "qty": 1,
         "source": "Lando Bats (2015)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Ho-Oh Salazzle (2017)"
-      },
-      {
-        "version": "Proxy",
-        "qty": 4,
-        "source": "Mega Rayquaza (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "DeciTales (2017)"
       }
     ]
   },
@@ -20412,9 +20572,10 @@
     "total": 4,
     "variants": [
       {
-        "version": "Standard",
+        "version": "Reverse Holo",
         "qty": 4,
-        "source": "Mega Rayquaza (2017)"
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
       }
     ]
   },
@@ -20497,12 +20658,14 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Mega Rayquaza (2017)"
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Tapu Bulu Vikavolt (2017)"
+        "source": "Tapu Bulu Vikavolt (2017)",
+        "verified": true
       }
     ]
   },
@@ -20719,6 +20882,12 @@
     "total": 4,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Drampa Zoroark (2017)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 1,
         "source": "Vespiquen (2016)",
@@ -20729,11 +20898,6 @@
         "qty": 1,
         "source": "Night March (2016)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Drampa Zoroark (2017)"
       },
       {
         "version": "Standard",
@@ -21133,27 +21297,25 @@
     "num": "66",
     "printKey": "sudowoodo|GRI 66",
     "image": "https://images.pokemontcg.io/sm2/66_hires.png",
-    "total": 4,
+    "total": 3,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
-        "source": "DeciPod (2017)"
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Alolan Ninetales (2017)"
+        "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
       },
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 1,
-        "source": "Ho-Oh Salazzle (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Mega Rayquaza (2017)"
+        "source": "DeciPod (2017)",
+        "verified": true
       }
     ]
   },
@@ -21203,6 +21365,18 @@
     "total": 14,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 1,
         "source": "Mega Audino (2016)",
@@ -21237,16 +21411,6 @@
         "qty": 1,
         "source": "Charizard Pidgeot (2025)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Gardevoir-GX (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Ho-Oh Salazzle (2017)"
       },
       {
         "version": "World Champs",
@@ -21635,6 +21799,12 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 2,
+        "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 3,
         "source": "Malamar (2019)",
         "verified": true
@@ -21644,11 +21814,6 @@
         "qty": 4,
         "source": "Eternatus (2021)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Ho-Oh Salazzle (2017)"
       }
     ]
   },
@@ -21824,16 +21989,17 @@
     "name": "Tapu Bulu-GX",
     "type": "Pokémon",
     "key": "tapubulugx",
-    "set": "PR-SM",
-    "num": "SM32",
-    "printKey": "tapubulugx|PR-SM SM32",
-    "image": "https://images.pokemontcg.io/smp/SM32_hires.png",
+    "set": "BUS",
+    "num": "130",
+    "printKey": "tapubulugx|BUS 130",
+    "image": "https://images.pokemontcg.io/sm3/130_hires.png",
     "total": 3,
     "variants": [
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Tapu Bulu Vikavolt (2017)"
+        "source": "Tapu Bulu Vikavolt (2017)",
+        "verified": true
       }
     ]
   },
@@ -21869,37 +22035,37 @@
     "num": "SM30",
     "printKey": "tapukoko|PR-SM SM30",
     "image": "https://images.pokemontcg.io/smp/SM30_hires.png",
-    "total": 8,
+    "total": 7,
     "variants": [
       {
         "version": "Standard",
+        "qty": 1,
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Tapu Bulu Vikavolt (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "GoliGarb (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "DeciTales (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
         "qty": 2,
-        "source": "DeciPod (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "GoliGarb (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Alolan Ninetales (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Mega Rayquaza (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Tapu Bulu Vikavolt (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "DeciTales (2017)"
+        "source": "DeciPod (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -21931,32 +22097,16 @@
     "type": "Pokémon",
     "key": "tapukokogx",
     "set": "GRI",
-    "num": "47",
-    "printKey": "tapukokogx|GRI 47",
-    "image": "https://images.pokemontcg.io/sm2/47_hires.png",
+    "num": "135",
+    "printKey": "tapukokogx|GRI 135",
+    "image": "https://images.pokemontcg.io/sm2/135_hires.png",
     "total": 1,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Mega Rayquaza (2017)"
-      }
-    ]
-  },
-  {
-    "name": "Tapu Lele GX",
-    "type": "Pokémon",
-    "key": "tapulelegx",
-    "set": "GRI",
-    "num": "137",
-    "printKey": "tapulelegx|GRI 137",
-    "image": "https://images.pokemontcg.io/sm2/137_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Full Art",
-        "qty": 1,
-        "source": "Spare"
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
       }
     ]
   },
@@ -21968,57 +22118,55 @@
     "num": "60",
     "printKey": "tapulelegx|GRI 60",
     "image": "https://images.pokemontcg.io/sm2/60_hires.png",
-    "total": 40,
+    "total": 34,
     "variants": [
       {
         "version": "Standard",
+        "qty": 3,
+        "source": "Tapu Bulu Vikavolt (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
         "qty": 2,
-        "source": "DeciPod (2017)"
+        "source": "GoliGarb (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 2,
-        "source": "GoliGarb (2017)"
+        "source": "Espeon Garbodor (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Gardevoir-GX (2017)"
+        "source": "Drampa Zoroark (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Alolan Ninetales (2017)"
+        "source": "DeciTales (2017)",
+        "verified": true
       },
       {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Ho-Oh Salazzle (2017)"
-      },
-      {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 2,
-        "source": "Mega Rayquaza (2017)"
+        "source": "DeciPod (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
-        "qty": 3,
-        "source": "Tapu Bulu Vikavolt (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Espeon Garbodor (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "DeciTales (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Drampa Zoroark (2017)"
+        "qty": 1,
+        "source": "Spare",
+        "verified": false
       },
       {
         "version": "World Champs",
@@ -22056,6 +22204,50 @@
         "source": "Turbo Rayquaza (2018)"
       }
     ]
+  },
+  {
+    "name": "Tapu Lele-GX",
+    "type": "Pokémon",
+    "key": "tapulelegx",
+    "set": "SM2L",
+    "num": "22",
+    "printKey": "tapulelegx|SM2L 22",
+    "image": "https://images.pokemontcg.io/sm2/60_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Japanese",
+        "qty": 1,
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
+      }
+    ],
+    "standIn": "shown as the English Guardians Rising 60 print"
+  },
+  {
+    "name": "Tapu Lele-GX",
+    "type": "Pokémon",
+    "key": "tapulelegx",
+    "set": "SM4+",
+    "num": "45",
+    "printKey": "tapulelegx|SM4+ 45",
+    "image": "https://images.pokemontcg.io/sm2/60_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Japanese",
+        "qty": 1,
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
+      },
+      {
+        "version": "Japanese",
+        "qty": 3,
+        "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
+      }
+    ],
+    "standIn": "shown as the English Guardians Rising 60 print"
   },
   {
     "name": "Target Whistle",
@@ -22869,23 +23061,26 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Night March (2016)",
+        "source": "GoliGarb (2017)",
         "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "GoliGarb (2017)"
+        "source": "Espeon Garbodor (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Espeon Garbodor (2017)"
+        "source": "Drampa Zoroark (2017)",
+        "verified": true
       },
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 1,
-        "source": "Drampa Zoroark (2017)"
+        "source": "Night March (2016)",
+        "verified": true
       }
     ]
   },
@@ -23539,23 +23734,19 @@
     "num": "56",
     "printKey": "trubbish|BKP 56",
     "image": "https://images.pokemontcg.io/xy9/56_hires.png",
-    "total": 20,
+    "total": 16,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "GoliGarb (2017)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 2,
         "source": "Darkrai Giratina (2016)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "GoliGarb (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Espeon Garbodor (2017)"
       },
       {
         "version": "Standard",
@@ -23571,6 +23762,24 @@
         "version": "World Champs",
         "qty": 3,
         "source": "ZoroGarb (2018)"
+      }
+    ]
+  },
+  {
+    "name": "Trubbish",
+    "type": "Pokémon",
+    "key": "trubbish",
+    "set": "GRI",
+    "num": "50",
+    "printKey": "trubbish|GRI 50",
+    "image": "https://images.pokemontcg.io/sm2/50_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Espeon Garbodor (2017)",
+        "verified": true
       }
     ]
   },
@@ -23628,7 +23837,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Ho-Oh Salazzle (2017)"
+        "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
       }
     ]
   },
@@ -23874,8 +24084,14 @@
     "num": "99",
     "printKey": "ultraball|FLF 99",
     "image": "https://images.pokemontcg.io/xy2/99_hires.png",
-    "total": 9,
+    "total": 10,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Tapu Bulu Vikavolt (2017)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 2,
@@ -23976,8 +24192,14 @@
     "num": "90",
     "printKey": "ultraball|PLB 90",
     "image": "https://images.pokemontcg.io/bw10/90_hires.png",
-    "total": 2,
+    "total": 6,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Drampa Zoroark (2017)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 2,
@@ -23994,8 +24216,32 @@
     "num": "93",
     "printKey": "ultraball|ROS 93",
     "image": "https://images.pokemontcg.io/xy6/93_hires.png",
-    "total": 47,
+    "total": 30,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Tapu Bulu Vikavolt (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "GoliGarb (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
@@ -24019,46 +24265,24 @@
         "qty": 3,
         "source": "Slowking (2026)",
         "verified": true
-      },
+      }
+    ]
+  },
+  {
+    "name": "Ultra Ball",
+    "type": "Item",
+    "key": "ultraball",
+    "set": "SLG",
+    "num": "68",
+    "printKey": "ultraball|SLG 68",
+    "image": "https://images.pokemontcg.io/sm35/68_hires.png",
+    "total": 4,
+    "variants": [
       {
         "version": "Standard",
         "qty": 4,
-        "source": "DeciPod (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "GoliGarb (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Gardevoir-GX (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Alolan Ninetales (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Ho-Oh Salazzle (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Mega Rayquaza (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Tapu Bulu Vikavolt (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Drampa Zoroark (2017)"
+        "source": "Espeon Garbodor (2017)",
+        "verified": true
       }
     ]
   },
@@ -24070,17 +24294,25 @@
     "num": "135",
     "printKey": "ultraball|SUM 135",
     "image": "https://images.pokemontcg.io/sm1/135_hires.png",
-    "total": 14,
+    "total": 18,
     "variants": [
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Espeon Garbodor (2017)"
+        "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 4,
-        "source": "DeciTales (2017)"
+        "source": "DeciTales (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "DeciPod (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -24424,7 +24656,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Tapu Bulu Vikavolt (2017)"
+        "source": "Tapu Bulu Vikavolt (2017)",
+        "verified": true
       }
     ]
   },
@@ -24531,7 +24764,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Ho-Oh Salazzle (2017)"
+        "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
       }
     ]
   },
@@ -24589,7 +24823,8 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Ho-Oh Salazzle (2017)"
+        "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
       }
     ]
   },
@@ -24636,8 +24871,56 @@
     "num": "109",
     "printKey": "vsseeker|PHF 109",
     "image": "https://images.pokemontcg.io/xy4/109_hires.png",
-    "total": 58,
+    "total": 57,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Mega Rayquaza (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Tapu Bulu Vikavolt (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "GoliGarb (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Espeon Garbodor (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "DeciTales (2017)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "DeciPod (2017)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
@@ -24685,46 +24968,6 @@
         "qty": 2,
         "source": "Lando Bats (2015)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "DeciPod (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "GoliGarb (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Gardevoir-GX (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Alolan Ninetales (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Tapu Bulu Vikavolt (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Espeon Garbodor (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "DeciTales (2017)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Drampa Zoroark (2017)"
       }
     ]
   },
@@ -24915,18 +25158,13 @@
     "num": "",
     "printKey": "waterenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/134_hires.png",
-    "total": 33,
+    "total": 26,
     "variants": [
       {
         "version": "World Champs",
         "qty": 2,
         "source": "Spare",
         "verified": false
-      },
-      {
-        "version": "Standard",
-        "qty": 7,
-        "source": "Alolan Ninetales (2017)"
       },
       {
         "version": "Standard",
@@ -25071,14 +25309,16 @@
     "total": 10,
     "variants": [
       {
-        "version": "Standard",
-        "qty": 3,
-        "source": "DeciPod (2017)"
+        "version": "World Champs",
+        "qty": 4,
+        "source": "GoliGarb (2017)",
+        "verified": true
       },
       {
-        "version": "Standard",
-        "qty": 4,
-        "source": "GoliGarb (2017)"
+        "version": "World Champs",
+        "qty": 3,
+        "source": "DeciPod (2017)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -25115,9 +25355,10 @@
     "total": 1,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 1,
-        "source": "Gardevoir-GX (2017)"
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
       }
     ]
   },
@@ -25518,16 +25759,17 @@
     "name": "Zoroark",
     "type": "Pokémon",
     "key": "zoroark",
-    "set": "TEU",
+    "set": "BKT",
     "num": "91",
-    "printKey": "zoroark|TEU 91",
-    "image": "https://images.pokemontcg.io/sm9/91_hires.png",
+    "printKey": "zoroark|BKT 91",
+    "image": "https://images.pokemontcg.io/xy8/91_hires.png",
     "total": 4,
     "variants": [
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Drampa Zoroark (2017)"
+        "source": "Drampa Zoroark (2017)",
+        "verified": true
       }
     ]
   },
@@ -25544,7 +25786,8 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Drampa Zoroark (2017)"
+        "source": "Drampa Zoroark (2017)",
+        "verified": true
       }
     ]
   },
@@ -25589,16 +25832,17 @@
     "name": "Zorua",
     "type": "Pokémon",
     "key": "zorua",
-    "set": "LTR",
+    "set": "BKT",
     "num": "89",
-    "printKey": "zorua|LTR 89",
-    "image": "https://images.pokemontcg.io/bw11/89_hires.png",
+    "printKey": "zorua|BKT 89",
+    "image": "https://images.pokemontcg.io/xy8/89_hires.png",
     "total": 4,
     "variants": [
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Drampa Zoroark (2017)"
+        "source": "Drampa Zoroark (2017)",
+        "verified": true
       }
     ]
   },

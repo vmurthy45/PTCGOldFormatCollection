@@ -49,7 +49,7 @@ CARDS = ROOT / "data" / "cards.json"
 # through the same `not num` guard below and stay off the list.
 # Japanese-only sets. A decklist names the English print it stands in for, as
 # every M2a row in the data already does; only the inventory records the card.
-JAPANESE = {"M2a", "M3", "MEP", "s12a"}
+JAPANESE = {"M2a", "M3", "MEP", "s12a", "SM4+", "SM2L"}
 # Printed totals for sets no deck row uses yet, so a first-of-its-kind print can
 # still be written onto a decklist. BWTK is the Black & White Trainer Kit, which
 # the card API does not catalogue at all -- its rows carry a hand-set image.
@@ -67,7 +67,12 @@ PINNED = {("ToadBats (2015)", "Zubat"),
           ("Darkrai (2013)", "Mr. Mime"),
           # same shape as ToadBats: a Base Set 71 stands in, pictured as BCR 137,
           # and both carry a proxy pip
-          ("Yveltal Raichu (2014)", "Computer Search")}
+          ("Yveltal Raichu (2014)", "Computer Search"),
+          # Mega Rayquaza sleeves a different card for each of these three; the
+          # list keeps naming the real one (see PROXY_SUBS in audit_inventory)
+          ("Mega Rayquaza (2017)", "Float Stone"),
+          ("Mega Rayquaza (2017)", "N"),
+          ("Mega Rayquaza (2017)", "Professor Sycamore")}
 
 
 def name_key(s):

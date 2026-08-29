@@ -26,6 +26,18 @@ BASIC = {"lightningenergy", "darknessenergy", "fireenergy", "grassenergy",
          "psychicenergy", "waterenergy", "fightingenergy", "metalenergy",
          "fairyenergy"}
 
+# A deck can play a DIFFERENT card as a stand-in: Mega Rayquaza sleeves an Air
+# Balloon where its list says Float Stone. The inventory records the card that
+# is physically there; the decklist keeps naming the real one and shows a proxy
+# pip. Without this map the deck-claim check below would report the stand-in as
+# an extra card AND the real one as missing.
+#     (deck, key held in inventory) -> key the decklist names
+PROXY_SUBS = {
+    ("Mega Rayquaza (2017)", "airballoon"): "floatstone",
+    ("Mega Rayquaza (2017)", "nsplan"): "n",
+    ("Mega Rayquaza (2017)", "professorjuniper"): "professorsycamore",
+}
+
 
 def name_key(s):
     s = unicodedata.normalize("NFD", str(s)).encode("ascii", "ignore").decode()
@@ -152,7 +164,7 @@ def main():
         for e in inv:
             for v in e["variants"]:
                 if v.get("source") == deck:
-                    claim[e["key"]] += v["qty"]
+                    claim[PROXY_SUBS.get((deck, e["key"]), e["key"])] += v["qty"]
         for c in cards:
             if c["deck"] == deck:
                 need[name_key(c["name"])] += sum((c.get("prints") or {}).values())
