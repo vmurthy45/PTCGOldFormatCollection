@@ -102,6 +102,16 @@ Hosted free on GitHub Pages.
   holding each — e.g. Ultra Ball SVI 196 shows its WC and Standard copies
   together. Variants with no set recorded collect under "Set unknown" at the
   bottom, pending Vig's physical check.
+  **Verification tab: print make-up per deck.** Each row carries a proportional
+  strip plus a one-word verdict — **Standard / WC / Mixed** — so a glance says
+  whether a box is all World Champs, all retail, or a blend. The strip uses the
+  DECK-LIST pip colours (green Standard, grey WC, blue Proxy, faint Missing), so
+  it matches what the expanded deck shows; hovering gives exact counts. It reads
+  `prints` off `cards.json`, the same source as the pips, which means an
+  unverified deck shows its recorded-but-unconfirmed make-up. On phones the word
+  and the progress bar are hidden and the strip alone carries it, so long deck
+  names keep their width.
+
   **Three count pills per row.** The Inventory row's copy count splits into
   **Standard (red) · World Champs (blue) · Proxy (grey-violet)**. Standard means
   every real retail finish — plain, Reverse Holo, Holo, Prize Pack, Full Art,

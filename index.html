@@ -141,8 +141,25 @@
   .vf-some .vf-fill{background:var(--pip-wc)}
   .vf-none .vf-fill{background:transparent}
   .vf-cnt{font-size:11.5px; color:var(--muted); font-weight:600; margin-left:6px}
+  /* Print make-up of the box, in the deck-list pip colours so it reads the same
+     as the expanded deck: green Standard, grey WC, blue Proxy, faint Missing.
+     The strip is proportional, the word is the answer at a glance. */
+  .vf-mix{flex:0 0 auto; display:flex; align-items:center; gap:7px}
+  .vf-strip{display:flex; width:36px; height:6px; border-radius:99px;
+    overflow:hidden; background:var(--line)}
+  .vf-seg{display:block; height:100%}
+  .vf-seg-auth{background:var(--pip-auth)} .vf-seg-wc{background:var(--pip-wc)}
+  .vf-seg-proxy{background:var(--pip-proxy)}
+  .vf-seg-miss{background:var(--pip-miss); opacity:.3}
+  .vf-word{font-size:11px; font-weight:600; color:var(--muted); width:50px}
   .vf-note{font-size:12px; color:var(--muted); line-height:1.55; margin:10px 2px 0}
-  @media (max-width:520px){ .vf-bar{flex-basis:52px} .vf-lab{font-size:11px} }
+  @media (max-width:520px){
+    .vf-lab{font-size:11px}
+    /* On a phone the strip alone carries the make-up -- solid green, solid
+       grey, or visibly split -- so the word and the progress bar give their
+       width back to the deck name, which would otherwise ellipsis. */
+    .vf-bar{display:none} .vf-word{display:none}
+  }
   .st-tile{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 12px; text-align:center}
   .st-num{font-size:26px; font-weight:800; color:var(--red-dark); line-height:1.1; font-variant-numeric:tabular-nums}
   .st-num .st-sub{font-size:15px; color:var(--muted); font-weight:700}
@@ -1382,6 +1399,22 @@ function yearOfDeck(d){
   const c = CARDS.find(x => x.deck === d);
   return c ? c.year : '';
 }
+// What a box is made of: Standard / World Champs / Proxy, plus anything still
+// missing. Read off the deck rows' `prints`, the same source as the deck pips.
+function deckMix(deck){
+  let a = 0, w = 0, p = 0, m = 0;
+  for(const c of CARDS){
+    if(c.deck !== deck) continue;
+    const pr = printsOf(c);
+    a += pr.authentic || 0; w += pr.wc || 0; p += pr.proxy || 0;
+    m += missingOf(c);
+  }
+  const owned = a + w + p;
+  const word = owned === 0 ? '—'
+    : (w === owned ? 'WC' : (a === owned ? 'Standard' : (p === owned ? 'Proxy' : 'Mixed')));
+  return {a, w, p, m, owned, word};
+}
+
 function renderVerify(){
   const el = document.getElementById('verify-body');
   if(!el) return;
@@ -1420,7 +1453,15 @@ function renderVerify(){
               const state = r.total === 0 ? 'none' : (r.done === r.total ? 'all' : (r.done ? 'some' : 'none'));
               const label = state === 'all' ? 'checked'
                 : (r.total === 0 ? 'nothing recorded' : `${r.total - r.done} of ${r.total} left`);
+              const mx = deckMix(r.deck);
+              const segs = [['auth', mx.a], ['wc', mx.w], ['proxy', mx.p], ['miss', mx.m]]
+                .filter(([, n]) => n > 0)
+                .map(([k, n]) => `<span class="vf-seg vf-seg-${k}" style="flex:${n}"></span>`).join('');
+              const tip = `${mx.a} Standard · ${mx.w} World Champs · ${mx.p} Proxy`
+                + (mx.m ? ` · ${mx.m} missing` : '');
               return `<div class="vf-row vf-${state}"><span class="vf-name">${esc(r.deck)}</span>`
+                + `<span class="vf-mix" title="${tip}"><span class="vf-strip">${segs}</span>`
+                + `<span class="vf-word">${mx.word}</span></span>`
                 + bar(r.done, r.total)
                 + `<span class="vf-lab">${label}</span></div>`;
             }).join('') + `</div></div>`;
