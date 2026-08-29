@@ -108,8 +108,10 @@ Hosted free on GitHub Pages.
   DECK-LIST pip colours (green Standard, grey WC, blue Proxy, faint Missing), so
   it matches what the expanded deck shows; hovering gives exact counts. Vig had
   the "checked" / "N of M left" text removed on 2026-08-25 -- the bar and the
-  make-up are all he wants on a deck row, so the stack counts moved to the bar's
-  tooltip (only the Loose stock row still carries a text label). It reads
+  make-up strip is all he wants on a deck row -- the green progress bar went too.
+  A deck row is now just name + strip + word; the green deck name still marks a
+  checked box, and exact counts live in the strip's tooltip. Only the Loose stock
+  row keeps a progress bar and text label, since that phase is still running. It reads
   `prints` off `cards.json`, the same source as the pips, which means an
   unverified deck shows its recorded-but-unconfirmed make-up. On phones the
   strip, word and bar all narrow so long deck names keep their full width.
