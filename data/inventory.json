@@ -7209,8 +7209,14 @@
     "num": "172",
     "printKey": "fairyenergy|SUM 172",
     "image": "https://images.pokemontcg.io/sm1/172_hires.png",
-    "total": 1,
+    "total": 8,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 7,
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -7227,13 +7233,8 @@
     "num": "",
     "printKey": "fairyenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/140_hires.png",
-    "total": 11,
+    "total": 4,
     "variants": [
-      {
-        "version": "Standard",
-        "qty": 7,
-        "source": "Gardevoir-GX (2017)"
-      },
       {
         "version": "Standard",
         "qty": 4,
@@ -9269,8 +9270,14 @@
     "num": "164",
     "printKey": "grassenergy|SUM 164",
     "image": "https://images.pokemontcg.io/sm1/164_hires.png",
-    "total": 12,
+    "total": 15,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "GoliGarb (2017)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 7,
@@ -9311,18 +9318,13 @@
     "num": "",
     "printKey": "grassenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/132_hires.png",
-    "total": 38,
+    "total": 35,
     "variants": [
       {
         "version": "World Champs",
         "qty": 6,
         "source": "Jumpluff (2010)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "GoliGarb (2017)"
       },
       {
         "version": "Standard",

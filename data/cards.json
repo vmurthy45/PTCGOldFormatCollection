@@ -7988,8 +7988,8 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/xy9/57_hires.png",
     "prints": {
-      "authentic": 2,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 2,
       "proxy": 0
     }
   },
@@ -8002,8 +8002,8 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/sm2/51_hires.png",
     "prints": {
-      "authentic": 2,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 2,
       "proxy": 0
     }
   },
@@ -8250,12 +8250,12 @@
     "deck": "GoliGarb (2017)",
     "count": 3,
     "name": "Grass Energy",
-    "set": "",
+    "set": "164/149",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/xy1/132_hires.png",
+    "image": "https://images.pokemontcg.io/sm1/164_hires.png",
     "prints": {
-      "authentic": 3,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 3,
       "proxy": 0
     }
   },
@@ -8586,12 +8586,12 @@
     "deck": "Gardevoir-GX (2017)",
     "count": 7,
     "name": "Fairy Energy",
-    "set": "",
+    "set": "172/149",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/xy1/140_hires.png",
+    "image": "https://images.pokemontcg.io/sm1/172_hires.png",
     "prints": {
-      "authentic": 7,
-      "wc": 0,
+      "authentic": 0,
+      "wc": 7,
       "proxy": 0
     }
   },

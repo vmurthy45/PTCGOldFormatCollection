@@ -214,10 +214,35 @@ def main():
     pips = []
     for deck in verified:
         owned = defaultdict(lambda: {"authentic": 0, "wc": 0, "proxy": 0})
+        by_print = defaultdict(lambda: {"authentic": 0, "wc": 0, "proxy": 0})
         for e, v in stacks_by_deck[deck]:
             bucket = "wc" if v["version"] == WC else ("proxy" if v["version"] == PROXY
                                                       else "authentic")
             owned[e["key"]][bucket] += v["qty"]
+            by_print[(e["key"], e.get("set", ""), e.get("num", ""))][bucket] += v["qty"]
+
+        # A card kept on TWO rows (the Pokémon split -- Garbodor GRI 51 vs BKP 57)
+        # can't use the by-name totals: each row needs the buckets for its own
+        # print. Without this their pips were simply never updated, so GoliGarb
+        # showed two Standard Garbodor in an all-World-Champs box.
+        for (d, name), rows in rows_by.items():
+            if d != deck or len(rows) < 2:
+                continue
+            for c in rows:
+                code = id_to_code.get(set_id_of(c.get("image")))
+                num = str(c.get("set") or "").split("/")[0]
+                got = by_print.get((name_key(name), code, num))
+                if not got:
+                    continue
+                got = dict(got)
+                cur = {f: (c.get("prints") or {}).get(f, 0) for f in ("authentic", "wc", "proxy")}
+                got["proxy"] = max(got["proxy"], cur["proxy"])
+                if cur == got or sum(got.values()) > c["count"]:
+                    continue
+                pips.append((deck, f"{name} ({code} {num})", cur, got))
+                if fix:
+                    c["prints"] = got
+
         for (d, name), rows in rows_by.items():
             if d != deck or len(rows) > 1:
                 continue
