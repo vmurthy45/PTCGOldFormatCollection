@@ -6,12 +6,17 @@ same card come out as two rows, not one.
 
     Year, Deck, Quantity, Card Name, Set number, Print
 
+With --missing it instead lists the cards each deck is SHORT: quantity is how
+many copies are still to find, Print reads "Missing", and the set number is the
+print the decklist calls for -- i.e. what to go buy.
+
 Set number reads "XXX 123" (PAL 185, PR-SM SM30). Energies printed without a
 collector number show the set code alone (SSH); the handful whose printing is
 still unidentified are left blank. Only cards physically in the boxes are
 listed -- anything still flagged missing has no stack and does not appear.
 
     .venv/bin/python scripts/export_deck_csv.py [out.csv]
+    .venv/bin/python scripts/export_deck_csv.py --missing [out.csv]
 """
 import csv
 import json
@@ -24,6 +29,14 @@ ROOT = Path(__file__).resolve().parent.parent
 ORDER = {"Pokemon": 0, "Trainer": 1, "Energy": 2}
 
 
+def write(out, rows):
+    fields = ["Year", "Deck", "Quantity", "Card Name", "Set number", "Print"]
+    with out.open("w", newline="", encoding="utf-8-sig") as fh:
+        w = csv.DictWriter(fh, fieldnames=fields, extrasaction="ignore")
+        w.writeheader()
+        w.writerows(rows)
+
+
 def name_key(s):
     s = unicodedata.normalize("NFD", str(s)).encode("ascii", "ignore").decode()
     s = s.lower().replace("’", "'")
@@ -32,8 +45,41 @@ def name_key(s):
     return re.sub(r"[^a-z0-9]+", "", s)
 
 
+def set_id_of(url):
+    m = (re.search(r"pokemontcg\.io/([^/]+)/", url or "")
+         or re.search(r"scrydex\.com/pokemon/([a-z0-9]+)-", url or "", re.I))
+    return m.group(1) if m else None
+
+
+def missing_rows(cards):
+    """Cards a deck is short. These have no inventory stack -- a missing copy
+    is not owned -- so the print comes off the deck row instead."""
+    sys.path.insert(0, str(ROOT / "scripts"))
+    from build_inventory import CODE_TO_ID
+    id_to_code = {v: k for k, v in CODE_TO_ID.items()}
+    out = []
+    for c in cards:
+        pr = c.get("prints") or {}
+        short = c["count"] - sum(pr.values())
+        if short <= 0:
+            continue
+        code = id_to_code.get(set_id_of(c.get("image"))) or ""
+        num = str(c.get("set") or "").split("/")[0]
+        if code == "XY" and not num:
+            code = ""
+        out.append({"Year": str(c["year"]), "Deck": c["deck"], "Quantity": short,
+                    "Card Name": c["name"],
+                    "Set number": " ".join(x for x in (code, num) if x),
+                    "Print": "Missing",
+                    "_cat": ORDER.get(c.get("category", ""), 9)})
+    return out
+
+
 def main():
-    out = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "deck_contents.csv"
+    args = [a for a in sys.argv[1:] if a != "--missing"]
+    missing = "--missing" in sys.argv
+    out = Path(args[0]) if args else ROOT / (
+        "deck_missing.csv" if missing else "deck_contents.csv")
     inv = json.loads((ROOT / "data" / "inventory.json").read_text(encoding="utf-8"))
     cards = json.loads((ROOT / "data" / "cards.json").read_text(encoding="utf-8"))
 
@@ -42,6 +88,16 @@ def main():
     # three-way split; the inventory's `type` breaks Trainers into Item/
     # Supporter/Stadium, which is not what the decklists group by.
     cat = {(c["deck"], name_key(c["name"])): c.get("category", "") for c in cards}
+
+    if missing:
+        rows = missing_rows(cards)
+        rows.sort(key=lambda r: (-int(r["Year"] or 0), r["Deck"].lower(),
+                                 r["_cat"], r["Card Name"].lower()))
+        write(out, rows)
+        print(f"{out}: {len(rows)} rows · "
+              f"{sum(r['Quantity'] for r in rows)} copies to find · "
+              f"{len({r['Deck'] for r in rows})} decks")
+        return 0
 
     rows = []
     for e in inv:
@@ -72,12 +128,7 @@ def main():
     rows.sort(key=lambda r: (-int(r["Year"] or 0), r["Deck"].lower(),
                              r["_cat"], r["Card Name"].lower(), r["Set number"]))
 
-    fields = ["Year", "Deck", "Quantity", "Card Name", "Set number", "Print"]
-    with out.open("w", newline="", encoding="utf-8-sig") as fh:
-        w = csv.DictWriter(fh, fieldnames=fields, extrasaction="ignore")
-        w.writeheader()
-        w.writerows(rows)
-
+    write(out, rows)
     copies = sum(r["Quantity"] for r in rows)
     blank = sum(1 for r in rows if not r["Set number"])
     print(f"{out}: {len(rows)} rows · {copies} copies · "
