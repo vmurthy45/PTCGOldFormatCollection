@@ -20476,10 +20476,10 @@
     "name": "Shuppet",
     "type": "Pokémon",
     "key": "shuppet",
-    "set": "LM",
+    "set": "CES",
     "num": "63",
-    "printKey": "shuppet|LM 63",
-    "image": "https://images.pokemontcg.io/ex12/63_hires.png",
+    "printKey": "shuppet|CES 63",
+    "image": "https://images.pokemontcg.io/sm7/63_hires.png",
     "total": 2,
     "variants": [
       {

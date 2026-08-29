@@ -172,6 +172,32 @@ def main():
             if claim.get(k, 0) != need.get(k, 0):
                 issues.append(f"{deck}: holds {claim.get(k,0)} of {k}, deck needs {need.get(k,0)}")
 
+    # ---- a set's printed total must be the same on every row ------------
+    # A row's "45/113" carries the set's printed total after the slash. Nothing
+    # re-derives it once written, so a stale total survives every later pass:
+    # align_deck_prints only compares set code + card number. Rows sharing an
+    # image set that disagree on the total mean at least one is wrong (Shuppet
+    # pictured Legend Maker while numbered for Celestial Storm).
+    def set_id_of(url):
+        m = (re.search(r"pokemontcg\.io/([^/]+)/", url or "")
+             or re.search(r"scrydex\.com/pokemon/([a-z0-9]+)-", url or "", re.I))
+        return m.group(1) if m else None
+
+    seen_total = defaultdict(set)
+    for c in cards:
+        sid, st = set_id_of(c.get("image")), str(c.get("set") or "")
+        if sid and "/" in st:
+            seen_total[sid].add(st.split("/", 1)[1])
+    for sid, tots in seen_total.items():
+        if len(tots) > 1:
+            where = [f"{c['deck']} {c['name']} {c['set']}" for c in cards
+                     if set_id_of(c.get("image")) == sid
+                     and str(c.get("set") or "").split("/")[-1] != max(tots, key=lambda t: sum(
+                         1 for x in cards if set_id_of(x.get("image")) == sid
+                         and str(x.get("set") or "").endswith("/" + t)))]
+            issues.append(f"set {sid}: rows disagree on the printed total {sorted(tots)}"
+                          + (f" — odd ones out: {'; '.join(where)}" if where else ""))
+
     # ---- unresolved prints, worth knowing but not errors ----------------
     unknown = [e for e in inv if not e.get("set") and e["key"] not in BASIC]
 
