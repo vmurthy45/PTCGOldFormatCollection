@@ -10672,9 +10672,9 @@
     "deck": "Buzz Garb Shrine (2018)",
     "count": 4,
     "name": "Professor Sycamore",
-    "set": "107/122",
+    "set": "101/119",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy9/107_hires.png",
+    "image": "https://images.pokemontcg.io/xy4/101_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,
@@ -10798,9 +10798,9 @@
     "deck": "Buzz Garb Shrine (2018)",
     "count": 4,
     "name": "Ultra Ball",
-    "set": "113/124",
+    "set": "90/101",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy10/113_hires.png",
+    "image": "https://images.pokemontcg.io/bw10/90_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,
@@ -10854,9 +10854,9 @@
     "deck": "Buzz Garb Shrine (2018)",
     "count": 3,
     "name": "Rainbow Energy",
-    "set": "152/162",
+    "set": "151/168",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/xy8/152_hires.png",
+    "image": "https://images.pokemontcg.io/sm7/151_hires.png",
     "prints": {
       "authentic": 3,
       "wc": 0,
@@ -10868,9 +10868,9 @@
     "deck": "Buzz Garb Shrine (2018)",
     "count": 1,
     "name": "Psychic Energy",
-    "set": "",
+    "set": "168/149",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/xy1/136_hires.png",
+    "image": "https://images.pokemontcg.io/sm1/168_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -11918,9 +11918,9 @@
     "deck": "ZoroPod (2018)",
     "count": 4,
     "name": "Zoroark-GX",
-    "set": "53/73",
+    "set": "SM84/248",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm35/53_hires.png",
+    "image": "https://images.pokemontcg.io/smp/SM84_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,
@@ -11974,9 +11974,9 @@
     "deck": "ZoroPod (2018)",
     "count": 1,
     "name": "Oranguru",
-    "set": "113/149",
+    "set": "114/156",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm1/113_hires.png",
+    "image": "https://images.pokemontcg.io/sm5/114_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -11988,9 +11988,9 @@
     "deck": "ZoroPod (2018)",
     "count": 1,
     "name": "Mew-EX",
-    "set": "XY126/211",
+    "set": "RC24/113",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/xyp/XY126_hires.png",
+    "image": "https://images.pokemontcg.io/bw11/RC24_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -12156,9 +12156,9 @@
     "deck": "ZoroPod (2018)",
     "count": 4,
     "name": "Ultra Ball",
-    "set": "113/124",
+    "set": "93/108",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy10/113_hires.png",
+    "image": "https://images.pokemontcg.io/xy6/93_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,
@@ -12212,9 +12212,9 @@
     "deck": "ZoroPod (2018)",
     "count": 4,
     "name": "Double Colorless Energy",
-    "set": "74/83",
+    "set": "92/99",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/g1/74_hires.png",
+    "image": "https://images.pokemontcg.io/bw4/92_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,
@@ -12226,9 +12226,9 @@
     "deck": "ZoroPod (2018)",
     "count": 3,
     "name": "Grass Energy",
-    "set": "",
+    "set": "99/102",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/xy1/132_hires.png",
+    "image": "https://images.pokemontcg.io/base1/99_hires.png",
     "prints": {
       "authentic": 3,
       "wc": 0,
@@ -12240,9 +12240,9 @@
     "deck": "ZoroRoc (2018)",
     "count": 4,
     "name": "Zorua",
-    "set": "52/73",
+    "set": "SM83/248",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm35/52_hires.png",
+    "image": "https://images.pokemontcg.io/smp/SM83_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,
@@ -12268,9 +12268,9 @@
     "deck": "ZoroRoc (2018)",
     "count": 3,
     "name": "Rockruff",
-    "set": "75/131",
+    "set": "73/145",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm6/75_hires.png",
+    "image": "https://images.pokemontcg.io/sm2/73_hires.png",
     "prints": {
       "authentic": 3,
       "wc": 0,
@@ -12310,9 +12310,9 @@
     "deck": "ZoroRoc (2018)",
     "count": 1,
     "name": "Oranguru",
-    "set": "113/149",
+    "set": "114/156",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm1/113_hires.png",
+    "image": "https://images.pokemontcg.io/sm5/114_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -12324,9 +12324,9 @@
     "deck": "ZoroRoc (2018)",
     "count": 1,
     "name": "Mew-EX",
-    "set": "XY126/211",
+    "set": "RC24/113",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/xyp/XY126_hires.png",
+    "image": "https://images.pokemontcg.io/bw11/RC24_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -12394,9 +12394,9 @@
     "deck": "ZoroRoc (2018)",
     "count": 3,
     "name": "N",
-    "set": "105/124",
+    "set": "BW100/101",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy10/105_hires.png",
+    "image": "https://images.pokemontcg.io/bwp/BW100_hires.png",
     "prints": {
       "authentic": 3,
       "wc": 0,
@@ -12468,9 +12468,9 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/xy8/137_hires.png",
     "prints": {
-      "authentic": 2,
+      "authentic": 0,
       "wc": 0,
-      "proxy": 0
+      "proxy": 2
     }
   },
   {
@@ -12548,9 +12548,9 @@
     "deck": "ZoroRoc (2018)",
     "count": 4,
     "name": "Ultra Ball",
-    "set": "113/124",
+    "set": "135/149",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy10/113_hires.png",
+    "image": "https://images.pokemontcg.io/sm1/135_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,
@@ -12590,9 +12590,9 @@
     "deck": "ZoroRoc (2018)",
     "count": 4,
     "name": "Double Colorless Energy",
-    "set": "74/83",
+    "set": "69/73",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/g1/74_hires.png",
+    "image": "https://images.pokemontcg.io/sm35/69_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,
@@ -12646,9 +12646,9 @@
     "deck": "ZoroGardy (2018)",
     "count": 4,
     "name": "Zoroark-GX",
-    "set": "53/73",
+    "set": "SM84/248",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sm35/53_hires.png",
+    "image": "https://images.pokemontcg.io/smp/SM84_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,
@@ -12716,9 +12716,9 @@
     "deck": "ZoroGardy (2018)",
     "count": 1,
     "name": "Mew-EX",
-    "set": "XY126/211",
+    "set": "RC24/113",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/xyp/XY126_hires.png",
+    "image": "https://images.pokemontcg.io/bw11/RC24_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -12814,9 +12814,9 @@
     "deck": "ZoroGardy (2018)",
     "count": 4,
     "name": "Ultra Ball",
-    "set": "113/124",
+    "set": "93/108",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy10/113_hires.png",
+    "image": "https://images.pokemontcg.io/xy6/93_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,
@@ -12842,9 +12842,9 @@
     "deck": "ZoroGardy (2018)",
     "count": 3,
     "name": "Rare Candy",
-    "set": "129/149",
+    "set": "100/108",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm1/129_hires.png",
+    "image": "https://images.pokemontcg.io/bw5/100_hires.png",
     "prints": {
       "authentic": 3,
       "wc": 0,
@@ -12884,9 +12884,9 @@
     "deck": "ZoroGardy (2018)",
     "count": 1,
     "name": "Max Potion",
-    "set": "128/145",
+    "set": "94/98",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm2/128_hires.png",
+    "image": "https://images.pokemontcg.io/bw2/94_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -12898,9 +12898,9 @@
     "deck": "ZoroGardy (2018)",
     "count": 1,
     "name": "Enhanced Hammer",
-    "set": "124/145",
+    "set": "94/119",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm2/124_hires.png",
+    "image": "https://images.pokemontcg.io/xy4/94_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -12930,9 +12930,9 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/xy8/137_hires.png",
     "prints": {
-      "authentic": 1,
+      "authentic": 0,
       "wc": 0,
-      "proxy": 0
+      "proxy": 1
     }
   },
   {
@@ -12954,9 +12954,9 @@
     "deck": "ZoroGardy (2018)",
     "count": 4,
     "name": "Double Colorless Energy",
-    "set": "74/83",
+    "set": "90/108",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/g1/74_hires.png",
+    "image": "https://images.pokemontcg.io/xy12/90_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,
@@ -12968,9 +12968,9 @@
     "deck": "ZoroGardy (2018)",
     "count": 4,
     "name": "Fairy Energy",
-    "set": "",
+    "set": "172/149",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/xy1/140_hires.png",
+    "image": "https://images.pokemontcg.io/sm1/172_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,
@@ -13028,8 +13028,8 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/xy9/41_hires.png",
     "prints": {
-      "authentic": 3,
-      "wc": 0,
+      "authentic": 2,
+      "wc": 1,
       "proxy": 0
     }
   },
@@ -13066,9 +13066,9 @@
     "deck": "Greninja (2018)",
     "count": 4,
     "name": "Professor Sycamore",
-    "set": "107/122",
+    "set": "101/119",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy9/107_hires.png",
+    "image": "https://images.pokemontcg.io/xy4/101_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,
@@ -13094,12 +13094,12 @@
     "deck": "Greninja (2018)",
     "count": 4,
     "name": "N",
-    "set": "105/124",
+    "set": "96/108",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy10/105_hires.png",
+    "image": "https://images.pokemontcg.io/bw5/96_hires.png",
     "prints": {
       "authentic": 0,
-      "wc": 0,
+      "wc": 4,
       "proxy": 0
     }
   },
@@ -13108,9 +13108,9 @@
     "deck": "Greninja (2018)",
     "count": 4,
     "name": "Ultra Ball",
-    "set": "135/149",
+    "set": "68/73",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm1/135_hires.png",
+    "image": "https://images.pokemontcg.io/sm35/68_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,
@@ -13136,9 +13136,9 @@
     "deck": "Greninja (2018)",
     "count": 4,
     "name": "Enhanced Hammer",
-    "set": "124/145",
+    "set": "94/108",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm2/124_hires.png",
+    "image": "https://images.pokemontcg.io/bw5/94_hires.png",
     "prints": {
       "authentic": 4,
       "wc": 0,
@@ -13150,9 +13150,9 @@
     "deck": "Greninja (2018)",
     "count": 3,
     "name": "Max Potion",
-    "set": "128/145",
+    "set": "94/98",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm2/128_hires.png",
+    "image": "https://images.pokemontcg.io/bw2/94_hires.png",
     "prints": {
       "authentic": 3,
       "wc": 0,
@@ -13206,9 +13206,9 @@
     "deck": "Greninja (2018)",
     "count": 6,
     "name": "Water Energy",
-    "set": "",
+    "set": "102/102",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/xy1/134_hires.png",
+    "image": "https://images.pokemontcg.io/base1/102_hires.png",
     "prints": {
       "authentic": 6,
       "wc": 0,
@@ -24858,9 +24858,9 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/xy9/107_hires.png",
     "prints": {
-      "authentic": 4,
+      "authentic": 0,
       "wc": 0,
-      "proxy": 0
+      "proxy": 4
     }
   },
   {
@@ -24994,9 +24994,9 @@
     "deck": "Turbo Rayquaza (2018)",
     "count": 1,
     "name": "Super Rod",
-    "set": "149/162",
+    "set": "95/101",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/xy8/149_hires.png",
+    "image": "https://images.pokemontcg.io/bw3/95_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -25008,9 +25008,9 @@
     "deck": "Turbo Rayquaza (2018)",
     "count": 1,
     "name": "Escape Rope",
-    "set": "114/147",
+    "set": "127/160",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm3/114_hires.png",
+    "image": "https://images.pokemontcg.io/xy5/127_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -25040,9 +25040,9 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/xy8/137_hires.png",
     "prints": {
-      "authentic": 2,
+      "authentic": 0,
       "wc": 0,
-      "proxy": 0
+      "proxy": 2
     }
   },
   {
@@ -25050,9 +25050,9 @@
     "deck": "Turbo Rayquaza (2018)",
     "count": 7,
     "name": "Grass Energy",
-    "set": "",
+    "set": "99/102",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/xy1/132_hires.png",
+    "image": "https://images.pokemontcg.io/base1/99_hires.png",
     "prints": {
       "authentic": 7,
       "wc": 0,
@@ -25064,9 +25064,9 @@
     "deck": "Turbo Rayquaza (2018)",
     "count": 7,
     "name": "Lightning Energy",
-    "set": "",
+    "set": "130/132",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/xy1/135_hires.png",
+    "image": "https://images.pokemontcg.io/gym1/130_hires.png",
     "prints": {
       "authentic": 7,
       "wc": 0,
@@ -28116,14 +28116,14 @@
     "deck": "Empoleon Swampert (2018)",
     "count": 4,
     "name": "Rare Candy",
-    "set": "142/168",
+    "set": "85/101",
     "prints": {
       "authentic": 4,
       "wc": 0,
       "proxy": 0
     },
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm7/142_hires.png"
+    "image": "https://images.pokemontcg.io/bw10/85_hires.png"
   },
   {
     "year": "2018",
@@ -28214,14 +28214,14 @@
     "deck": "Empoleon Swampert (2018)",
     "count": 5,
     "name": "Water Energy",
-    "set": "",
+    "set": "130/130",
     "prints": {
       "authentic": 5,
       "wc": 0,
       "proxy": 0
     },
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/xy1/134_hires.png"
+    "image": "https://images.pokemontcg.io/base4/130_hires.png"
   },
   {
     "year": "2018",

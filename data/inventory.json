@@ -118,6 +118,18 @@
     "total": 9,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 1,
+        "source": "ZoroRoc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "ZoroPod (2018)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 2,
         "source": "GoliGarb (2017)",
@@ -140,16 +152,6 @@
         "qty": 2,
         "source": "DeciPod (2017)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "ZoroPod (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "ZoroRoc (2018)"
       }
     ]
   },
@@ -163,6 +165,12 @@
     "image": "https://images.pokemontcg.io/sm7/123_hires.png",
     "total": 17,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Turbo Rayquaza (2018)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
@@ -198,11 +206,6 @@
         "qty": 3,
         "source": "ADP Zacian (2020)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Turbo Rayquaza (2018)"
       }
     ]
   },
@@ -262,8 +265,20 @@
     "num": "181",
     "printKey": "airballoon|ASC 181",
     "image": "https://images.scrydex.com/pokemon/me2pt5-181/large",
-    "total": 7,
+    "total": 10,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "ZoroGardy (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Turbo Rayquaza (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 2,
@@ -322,8 +337,14 @@
     "num": "156",
     "printKey": "airballoon|SSH 156",
     "image": "https://images.pokemontcg.io/swsh1/156_hires.png",
-    "total": 7,
+    "total": 9,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "ZoroRoc (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 2,
@@ -358,11 +379,11 @@
     "num": "",
     "printKey": "airballoon|",
     "image": "https://images.pokemontcg.io/swsh1/156_hires.png",
-    "total": 12,
+    "total": 7,
     "variants": [
       {
         "version": "Standard",
-        "qty": 12,
+        "qty": 7,
         "source": "Spare"
       }
     ]
@@ -424,6 +445,12 @@
     "total": 4,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Empoleon Swampert (2018)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 1,
         "source": "Gardevoir-GX (2017)",
@@ -434,11 +461,6 @@
         "qty": 2,
         "source": "DeciTales (2017)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Empoleon Swampert (2018)"
       }
     ]
   },
@@ -473,7 +495,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Empoleon Swampert (2018)"
+        "source": "Empoleon Swampert (2018)",
+        "verified": true
       }
     ]
   },
@@ -968,7 +991,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Banette Garbodor (2018)"
+        "source": "Banette Garbodor (2018)",
+        "verified": true
       }
     ]
   },
@@ -1097,20 +1121,22 @@
     "total": 3,
     "variants": [
       {
-        "version": "Standard",
+        "version": "World Champs",
         "qty": 1,
-        "source": "Blacephalon GX (2019)",
+        "source": "Buzzwole Lycanroc (2018)",
         "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Buzz Garb Shrine (2018)"
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
       },
       {
-        "version": "World Champs",
+        "version": "Standard",
         "qty": 1,
-        "source": "Buzzwole Lycanroc (2018)"
+        "source": "Blacephalon GX (2019)",
+        "verified": true
       }
     ]
   },
@@ -1125,15 +1151,16 @@
     "total": 6,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Buzzwole Lycanroc (2018)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 4,
         "source": "Blacephalon GX (2019)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Buzzwole Lycanroc (2018)"
       }
     ]
   },
@@ -1963,6 +1990,24 @@
     "variants": [
       {
         "version": "Reverse Holo",
+        "qty": 4,
+        "source": "ZoroPod (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "ZoroGarb (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Banette Garbodor (2018)",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
         "qty": 1,
         "source": "Tapu Bulu Vikavolt (2017)",
         "verified": true
@@ -2008,21 +2053,6 @@
         "qty": 1,
         "source": "Spare",
         "verified": false
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Banette Garbodor (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "ZoroGarb (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "ZoroPod (2018)"
       }
     ]
   },
@@ -2103,19 +2133,22 @@
     "total": 9,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Greninja (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Empoleon Swampert (2018)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 3,
-        "source": "Buzzwole Lycanroc (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Greninja (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Empoleon Swampert (2018)"
+        "source": "Buzzwole Lycanroc (2018)",
+        "verified": true
       }
     ]
   },
@@ -2379,24 +2412,28 @@
     "total": 9,
     "variants": [
       {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Buzz Garb Shrine (2018)"
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "ZoroRoc (2018)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "Buzzwole Lycanroc (2018)"
+        "source": "Buzzwole Lycanroc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Banette Garbodor (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "ZoroRoc (2018)"
+        "source": "Banette Garbodor (2018)",
+        "verified": true
       }
     ]
   },
@@ -2413,7 +2450,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Buzzwole Lycanroc (2018)"
+        "source": "Buzzwole Lycanroc (2018)",
+        "verified": true
       }
     ]
   },
@@ -2798,6 +2836,60 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 1,
+        "source": "ZoroRoc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "ZoroPod (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "ZoroGardy (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "ZoroGarb (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Turbo Rayquaza (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Empoleon Swampert (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Buzzwole Lycanroc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Banette Garbodor (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 2,
         "source": "Mega Rayquaza (2017)",
         "verified": true
@@ -2849,51 +2941,6 @@
         "qty": 3,
         "source": "DeciPod (2017)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Buzz Garb Shrine (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Buzzwole Lycanroc (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "Banette Garbodor (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "ZoroGarb (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "ZoroPod (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "ZoroRoc (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "ZoroGardy (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Turbo Rayquaza (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Empoleon Swampert (2018)"
       }
     ]
   },
@@ -3410,7 +3457,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "ZoroPod (2018)"
+        "source": "ZoroPod (2018)",
+        "verified": true
       }
     ]
   },
@@ -3463,7 +3511,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Empoleon Swampert (2018)"
+        "source": "Empoleon Swampert (2018)",
+        "verified": true
       }
     ]
   },
@@ -3878,6 +3927,54 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 2,
+        "source": "ZoroRoc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "ZoroPod (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "ZoroGarb (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Greninja (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Empoleon Swampert (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Buzzwole Lycanroc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Banette Garbodor (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 4,
         "source": "Whimsicott GX (2019)",
         "verified": true
@@ -3899,46 +3996,6 @@
         "qty": 4,
         "source": "Blacephalon GX (2019)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Buzz Garb Shrine (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "Buzzwole Lycanroc (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Banette Garbodor (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "ZoroGarb (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "ZoroPod (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "ZoroRoc (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Greninja (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Empoleon Swampert (2018)"
       }
     ]
   },
@@ -4800,14 +4857,16 @@
     "total": 2,
     "variants": [
       {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Buzz Garb Shrine (2018)"
-      },
-      {
         "version": "World Champs",
         "qty": 1,
-        "source": "Buzzwole Lycanroc (2018)"
+        "source": "Buzzwole Lycanroc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
       }
     ]
   },
@@ -4903,8 +4962,14 @@
     "num": "90",
     "printKey": "doublecolorlessenergy|EVO 90",
     "image": "https://images.pokemontcg.io/xy12/90_hires.png",
-    "total": 4,
+    "total": 8,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "ZoroGardy (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -4945,8 +5010,20 @@
     "num": "74",
     "printKey": "doublecolorlessenergy|GEN 74",
     "image": "https://images.pokemontcg.io/g1/74_hires.png",
-    "total": 26,
+    "total": 14,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "ZoroGarb (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Banette Garbodor (2018)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 3,
@@ -4958,31 +5035,6 @@
         "qty": 4,
         "source": "Gardevoir-GX (2017)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "Banette Garbodor (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "ZoroGarb (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "ZoroPod (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "ZoroRoc (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "ZoroGardy (2018)"
       }
     ]
   },
@@ -5036,8 +5088,14 @@
     "num": "92",
     "printKey": "doublecolorlessenergy|NXD 92",
     "image": "https://images.pokemontcg.io/bw4/92_hires.png",
-    "total": 24,
+    "total": 28,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "ZoroPod (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -5096,6 +5154,24 @@
         "version": "World Champs",
         "qty": 4,
         "source": "ToadBats (2015)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Double Colorless Energy",
+    "type": "Energy",
+    "key": "doublecolorlessenergy",
+    "set": "SLG",
+    "num": "69",
+    "printKey": "doublecolorlessenergy|SLG 69",
+    "image": "https://images.pokemontcg.io/sm35/69_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "ZoroRoc (2018)",
         "verified": true
       }
     ]
@@ -5433,15 +5509,16 @@
     "total": 3,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Banette Garbodor (2018)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 2,
         "source": "Drampa Zoroark (2017)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Banette Garbodor (2018)"
       }
     ]
   },
@@ -6229,9 +6306,10 @@
     "total": 4,
     "variants": [
       {
-        "version": "Standard",
+        "version": "Reverse Holo",
         "qty": 4,
-        "source": "Empoleon Swampert (2018)"
+        "source": "Empoleon Swampert (2018)",
+        "verified": true
       }
     ]
   },
@@ -6573,8 +6651,14 @@
     "num": "94",
     "printKey": "enhancedhammer|DEX 94",
     "image": "https://images.pokemontcg.io/bw5/94_hires.png",
-    "total": 5,
+    "total": 9,
     "variants": [
+      {
+        "version": "Reverse Holo",
+        "qty": 4,
+        "source": "Greninja (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -6603,33 +6687,43 @@
     "num": "124",
     "printKey": "enhancedhammer|GRI 124",
     "image": "https://images.pokemontcg.io/sm2/124_hires.png",
-    "total": 8,
+    "total": 3,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Alakazam (2026)",
+        "source": "ZoroRoc (2018)",
         "verified": true
       },
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "ZoroGarb (2018)"
+        "source": "ZoroGarb (2018)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "ZoroRoc (2018)"
-      },
+        "source": "Alakazam (2026)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Enhanced Hammer",
+    "type": "Trainer",
+    "key": "enhancedhammer",
+    "set": "PHF",
+    "num": "94",
+    "printKey": "enhancedhammer|PHF 94",
+    "image": "https://images.pokemontcg.io/xy4/94_hires.png",
+    "total": 1,
+    "variants": [
       {
         "version": "Standard",
         "qty": 1,
-        "source": "ZoroGardy (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Greninja (2018)"
+        "source": "ZoroGardy (2018)",
+        "verified": true
       }
     ]
   },
@@ -6725,7 +6819,7 @@
     "num": "114",
     "printKey": "escaperope|BUS 114",
     "image": "https://images.pokemontcg.io/sm3/114_hires.png",
-    "total": 6,
+    "total": 5,
     "variants": [
       {
         "version": "Standard",
@@ -6738,11 +6832,6 @@
         "qty": 1,
         "source": "Malamar Rapid Strike (2022)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Turbo Rayquaza (2018)"
       }
     ]
   },
@@ -6772,8 +6861,14 @@
     "num": "127",
     "printKey": "escaperope|PRC 127",
     "image": "https://images.pokemontcg.io/xy5/127_hires.png",
-    "total": 1,
+    "total": 2,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Turbo Rayquaza (2018)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 1,
@@ -7032,19 +7127,22 @@
     "total": 7,
     "variants": [
       {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "ZoroGarb (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "ZoroPod (2018)"
-      },
-      {
         "version": "Standard",
         "qty": 1,
-        "source": "ZoroRoc (2018)"
+        "source": "ZoroRoc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "ZoroPod (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "ZoroGarb (2018)",
+        "verified": true
       }
     ]
   },
@@ -7209,8 +7307,14 @@
     "num": "172",
     "printKey": "fairyenergy|SUM 172",
     "image": "https://images.pokemontcg.io/sm1/172_hires.png",
-    "total": 8,
+    "total": 12,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "ZoroGardy (2018)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 7,
@@ -7222,23 +7326,6 @@
         "qty": 1,
         "source": "Whimsicott GX (2019)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Fairy Energy",
-    "type": "Energy",
-    "key": "fairyenergy",
-    "set": "XY",
-    "num": "",
-    "printKey": "fairyenergy|XY",
-    "image": "https://images.pokemontcg.io/xy1/140_hires.png",
-    "total": 4,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "ZoroGardy (2018)"
       }
     ]
   },
@@ -7479,6 +7566,54 @@
     "total": 33,
     "variants": [
       {
+        "version": "Reverse Holo",
+        "qty": 2,
+        "source": "ZoroRoc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "ZoroPod (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "ZoroGardy (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "ZoroGarb (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Turbo Rayquaza (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Buzzwole Lycanroc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Banette Garbodor (2018)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 2,
         "source": "Mega Rayquaza (2017)",
@@ -7531,46 +7666,6 @@
         "qty": 2,
         "source": "DeciPod (2017)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Buzz Garb Shrine (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Buzzwole Lycanroc (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Banette Garbodor (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "ZoroGarb (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "ZoroPod (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "ZoroRoc (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "ZoroGardy (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Turbo Rayquaza (2018)"
       }
     ]
   },
@@ -7727,6 +7822,12 @@
     "total": 9,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Buzzwole Lycanroc (2018)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 2,
         "source": "Tapu Bulu Vikavolt (2017)",
@@ -7743,11 +7844,6 @@
         "qty": 3,
         "source": "Darkrai Giratina (2016)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Buzzwole Lycanroc (2018)"
       }
     ]
   },
@@ -8062,6 +8158,36 @@
       {
         "version": "Standard",
         "qty": 2,
+        "source": "ZoroPod (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "ZoroGarb (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Buzzwole Lycanroc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Banette Garbodor (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
         "source": "Tapu Bulu Vikavolt (2017)",
         "verified": true
       },
@@ -8115,49 +8241,9 @@
       },
       {
         "version": "Standard",
-        "qty": 2,
+        "qty": 7,
         "source": "Spare",
         "verified": false
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Buzz Garb Shrine (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Buzzwole Lycanroc (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Banette Garbodor (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "ZoroGarb (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "ZoroPod (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "ZoroRoc (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "ZoroGardy (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Turbo Rayquaza (2018)"
       }
     ]
   },
@@ -8402,18 +8488,37 @@
     "num": "38",
     "printKey": "froakie|BKP 38",
     "image": "https://images.pokemontcg.io/xy9/38_hires.png",
-    "total": 7,
+    "total": 6,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Greninja (2018)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 3,
         "source": "Greninja (2016)",
         "verified": true
-      },
+      }
+    ]
+  },
+  {
+    "name": "Froakie",
+    "type": "Pokémon",
+    "key": "froakie",
+    "set": "FLI",
+    "num": "22",
+    "printKey": "froakie|FLI 22",
+    "image": "https://images.pokemontcg.io/sm6/22_hires.png",
+    "total": 1,
+    "variants": [
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Greninja (2018)"
+        "qty": 1,
+        "source": "Greninja (2018)",
+        "verified": true
       }
     ]
   },
@@ -8428,15 +8533,16 @@
     "total": 8,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Greninja (2018)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 4,
         "source": "Greninja (2016)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Greninja (2018)"
       }
     ]
   },
@@ -8581,15 +8687,16 @@
     "total": 2,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 1,
+        "source": "ZoroGardy (2018)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 1,
         "source": "Gardevoir-GX (2017)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "ZoroGardy (2018)"
       }
     ]
   },
@@ -8623,6 +8730,18 @@
     "variants": [
       {
         "version": "World Champs",
+        "qty": 1,
+        "source": "ZoroGarb (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Banette Garbodor (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
         "qty": 2,
         "source": "GoliGarb (2017)",
         "verified": true
@@ -8638,16 +8757,6 @@
         "qty": 2,
         "source": "Darkrai Giratina (2016)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Banette Garbodor (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "ZoroGarb (2018)"
       }
     ]
   },
@@ -8664,6 +8773,24 @@
       {
         "version": "World Champs",
         "qty": 2,
+        "source": "ZoroGarb (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Banette Garbodor (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
         "source": "GoliGarb (2017)",
         "verified": true
       },
@@ -8672,21 +8799,6 @@
         "qty": 3,
         "source": "Espeon Garbodor (2017)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Buzz Garb Shrine (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Banette Garbodor (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "ZoroGarb (2018)"
       }
     ]
   },
@@ -8815,15 +8927,16 @@
     "total": 5,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 2,
+        "source": "ZoroGardy (2018)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 3,
         "source": "Gardevoir-GX (2017)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "ZoroGardy (2018)"
       }
     ]
   },
@@ -9137,6 +9250,12 @@
     "total": 8,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 2,
+        "source": "ZoroPod (2018)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 3,
         "source": "GoliGarb (2017)",
@@ -9147,11 +9266,6 @@
         "qty": 3,
         "source": "DeciPod (2017)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "ZoroPod (2018)"
       }
     ]
   },
@@ -9234,8 +9348,20 @@
     "num": "99",
     "printKey": "grassenergy|BS 99",
     "image": "https://images.pokemontcg.io/base1/99_hires.png",
-    "total": 3,
+    "total": 13,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "ZoroPod (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 7,
+        "source": "Turbo Rayquaza (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 3,
@@ -9318,24 +9444,13 @@
     "num": "",
     "printKey": "grassenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/132_hires.png",
-    "total": 35,
+    "total": 25,
     "variants": [
       {
         "version": "World Champs",
         "qty": 6,
         "source": "Jumpluff (2010)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spare",
-        "verified": false
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "ZoroPod (2018)"
       },
       {
         "version": "World Champs",
@@ -9357,8 +9472,9 @@
       },
       {
         "version": "Standard",
-        "qty": 7,
-        "source": "Turbo Rayquaza (2018)"
+        "qty": 2,
+        "source": "Spare",
+        "verified": false
       }
     ]
   },
@@ -9523,15 +9639,16 @@
     "total": 7,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Greninja (2018)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 3,
         "source": "Greninja (2016)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Greninja (2018)"
       }
     ]
   },
@@ -9565,14 +9682,21 @@
     "variants": [
       {
         "version": "World Champs",
-        "qty": 3,
-        "source": "Greninja (2016)",
+        "qty": 1,
+        "source": "Greninja (2018)",
         "verified": true
       },
       {
         "version": "Standard",
+        "qty": 2,
+        "source": "Greninja (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
         "qty": 3,
-        "source": "Greninja (2018)"
+        "source": "Greninja (2016)",
+        "verified": true
       }
     ]
   },
@@ -9604,6 +9728,48 @@
     "image": "https://images.pokemontcg.io/sm3/115_hires.png",
     "total": 37,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "ZoroRoc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "ZoroPod (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "ZoroGarb (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Turbo Rayquaza (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Buzzwole Lycanroc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Banette Garbodor (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 2,
@@ -9651,41 +9817,6 @@
         "qty": 2,
         "source": "DeciPod (2017)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Buzz Garb Shrine (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "Buzzwole Lycanroc (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "Banette Garbodor (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "ZoroGarb (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "ZoroPod (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "ZoroRoc (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Turbo Rayquaza (2018)"
       }
     ]
   },
@@ -10751,7 +10882,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Banette Garbodor (2018)"
+        "source": "Banette Garbodor (2018)",
+        "verified": true
       }
     ]
   },
@@ -11156,7 +11288,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "ZoroGarb (2018)"
+        "source": "ZoroGarb (2018)",
+        "verified": true
       }
     ]
   },
@@ -11870,12 +12003,36 @@
     "name": "Lightning Energy",
     "type": "Energy",
     "key": "lightningenergy",
+    "set": "BS",
+    "num": "100",
+    "printKey": "lightningenergy|BS 100",
+    "image": "https://images.pokemontcg.io/base1/100_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Turbo Rayquaza (2018)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Lightning Energy",
+    "type": "Energy",
+    "key": "lightningenergy",
     "set": "GH",
     "num": "130",
     "printKey": "lightningenergy|GH 130",
     "image": "https://images.pokemontcg.io/gym1/130_hires.png",
-    "total": 2,
+    "total": 7,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 5,
+        "source": "Turbo Rayquaza (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 2,
@@ -11922,7 +12079,7 @@
     "num": "",
     "printKey": "lightningenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/135_hires.png",
-    "total": 49,
+    "total": 42,
     "variants": [
       {
         "version": "World Champs",
@@ -11971,11 +12128,6 @@
         "qty": 3,
         "source": "Raging Bolt (2025)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 7,
-        "source": "Turbo Rayquaza (2018)"
       }
     ]
   },
@@ -12009,19 +12161,21 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Malamar (2019)",
+        "qty": 1,
+        "source": "Turbo Rayquaza (2018)",
         "verified": true
       },
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "Turbo Rayquaza (2018)"
+        "qty": 2,
+        "source": "Empoleon Swampert (2018)",
+        "verified": true
       },
       {
         "version": "Standard",
-        "qty": 2,
-        "source": "Empoleon Swampert (2018)"
+        "qty": 4,
+        "source": "Malamar (2019)",
+        "verified": true
       }
     ]
   },
@@ -12662,14 +12816,16 @@
     "total": 4,
     "variants": [
       {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Buzzwole Lycanroc (2018)"
-      },
-      {
         "version": "Standard",
         "qty": 2,
-        "source": "ZoroRoc (2018)"
+        "source": "ZoroRoc (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Buzzwole Lycanroc (2018)",
+        "verified": true
       }
     ]
   },
@@ -12992,12 +13148,14 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "ZoroRoc (2018)"
+        "source": "ZoroRoc (2018)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 2,
-        "source": "ZoroGardy (2018)"
+        "source": "ZoroGardy (2018)",
+        "verified": true
       }
     ]
   },
@@ -13140,7 +13298,8 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Turbo Rayquaza (2018)"
+        "source": "Turbo Rayquaza (2018)",
+        "verified": true
       }
     ]
   },
@@ -13181,7 +13340,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Empoleon Swampert (2018)"
+        "source": "Empoleon Swampert (2018)",
+        "verified": true
       }
     ]
   },
@@ -13215,6 +13375,18 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 3,
+        "source": "Turbo Rayquaza (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Buzzwole Lycanroc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 2,
         "source": "Ho-Oh Salazzle (2017)",
         "verified": true
@@ -13224,16 +13396,6 @@
         "qty": 4,
         "source": "Darkrai Giratina (2016)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Buzzwole Lycanroc (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Turbo Rayquaza (2018)"
       }
     ]
   },
@@ -13245,8 +13407,20 @@
     "num": "94",
     "printKey": "maxpotion|EPO 94",
     "image": "https://images.pokemontcg.io/bw2/94_hires.png",
-    "total": 4,
+    "total": 8,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "ZoroGardy (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Greninja (2018)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 1,
@@ -13269,22 +13443,13 @@
     "num": "128",
     "printKey": "maxpotion|GRI 128",
     "image": "https://images.pokemontcg.io/sm2/128_hires.png",
-    "total": 5,
+    "total": 1,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
-        "source": "ZoroPod (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "ZoroGardy (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Greninja (2018)"
+        "source": "ZoroPod (2018)",
+        "verified": true
       }
     ]
   },
@@ -13939,6 +14104,36 @@
     "name": "Mew-EX",
     "type": "Pokémon",
     "key": "mewex",
+    "set": "LTR",
+    "num": "RC24",
+    "printKey": "mewex|LTR RC24",
+    "image": "https://images.pokemontcg.io/bw11/RC24_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "ZoroRoc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "ZoroPod (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "ZoroGardy (2018)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Mew-EX",
+    "type": "Pokémon",
+    "key": "mewex",
     "set": "MEW",
     "num": "151",
     "printKey": "mewex|MEW 151",
@@ -13962,33 +14157,6 @@
         "qty": 1,
         "source": "Gardevoir (2025)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Mew-EX",
-    "type": "Pokémon",
-    "key": "mewex",
-    "set": "PR-XY",
-    "num": "XY126",
-    "printKey": "mewex|PR-XY XY126",
-    "image": "https://images.pokemontcg.io/xyp/XY126_hires.png",
-    "total": 3,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "ZoroPod (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "ZoroRoc (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "ZoroGardy (2018)"
       }
     ]
   },
@@ -14384,7 +14552,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Empoleon Swampert (2018)"
+        "source": "Empoleon Swampert (2018)",
+        "verified": true
       }
     ]
   },
@@ -14401,7 +14570,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "ZoroRoc (2018)"
+        "source": "ZoroRoc (2018)",
+        "verified": true
       }
     ]
   },
@@ -14565,6 +14735,24 @@
     "total": 20,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "ZoroGarb (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Turbo Rayquaza (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Banette Garbodor (2018)",
+        "verified": true
+      },
+      {
         "version": "Reverse Holo",
         "qty": 3,
         "source": "Perfection Mewtwo (2019)",
@@ -14581,21 +14769,6 @@
         "qty": 4,
         "source": "Blacephalon GX (2019)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Banette Garbodor (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "ZoroGarb (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Turbo Rayquaza (2018)"
       }
     ]
   },
@@ -14607,8 +14780,14 @@
     "num": "96",
     "printKey": "n|DEX 96",
     "image": "https://images.pokemontcg.io/bw5/96_hires.png",
-    "total": 30,
+    "total": 34,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Greninja (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -14685,8 +14864,38 @@
     "num": "105",
     "printKey": "n|FCO 105",
     "image": "https://images.pokemontcg.io/xy10/105_hires.png",
-    "total": 47,
+    "total": 43,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "ZoroPod (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "ZoroGarb (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Buzzwole Lycanroc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Banette Garbodor (2018)",
+        "verified": true
+      },
       {
         "version": "Reverse Holo",
         "qty": 2,
@@ -14752,42 +14961,6 @@
         "qty": 3,
         "source": "ToadBats (2015)",
         "verified": true
-      },
-      {
-        "version": "Proxy",
-        "qty": 1,
-        "source": "Spare",
-        "verified": false
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Buzz Garb Shrine (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Buzzwole Lycanroc (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Banette Garbodor (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "ZoroGarb (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "ZoroPod (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "ZoroRoc (2018)"
       }
     ]
   },
@@ -14835,8 +15008,14 @@
     "num": "BW100",
     "printKey": "n|PR-BLW BW100",
     "image": "https://images.pokemontcg.io/bwp/BW100_hires.png",
-    "total": 9,
+    "total": 12,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "ZoroRoc (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 3,
@@ -15169,19 +15348,21 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "Charizard Pidgeot (2025)",
+        "qty": 3,
+        "source": "Empoleon Swampert (2018)",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 3,
+        "source": "Buzz Garb Shrine (2018)",
         "verified": true
       },
       {
         "version": "Standard",
-        "qty": 3,
-        "source": "Buzz Garb Shrine (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Empoleon Swampert (2018)"
+        "qty": 1,
+        "source": "Charizard Pidgeot (2025)",
+        "verified": true
       }
     ]
   },
@@ -15466,19 +15647,27 @@
     "variants": [
       {
         "version": "World Champs",
-        "qty": 1,
-        "source": "Gardevoir-GX (2017)",
+        "qty": 2,
+        "source": "Buzzwole Lycanroc (2018)",
         "verified": true
       },
       {
         "version": "Standard",
-        "qty": 2,
-        "source": "Buzz Garb Shrine (2018)"
+        "qty": 1,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
       },
       {
         "version": "World Champs",
-        "qty": 2,
-        "source": "Buzzwole Lycanroc (2018)"
+        "qty": 1,
+        "source": "Gardevoir-GX (2017)",
+        "verified": true
       }
     ]
   },
@@ -15538,22 +15727,13 @@
     "num": "113",
     "printKey": "oranguru|SUM 113",
     "image": "https://images.pokemontcg.io/sm1/113_hires.png",
-    "total": 3,
+    "total": 1,
     "variants": [
       {
-        "version": "Standard",
+        "version": "Reverse Holo",
         "qty": 1,
-        "source": "ZoroPod (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "ZoroRoc (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Turbo Rayquaza (2018)"
+        "source": "Turbo Rayquaza (2018)",
+        "verified": true
       }
     ]
   },
@@ -15565,8 +15745,20 @@
     "num": "114",
     "printKey": "oranguru|UPR 114",
     "image": "https://images.pokemontcg.io/sm5/114_hires.png",
-    "total": 2,
+    "total": 4,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "ZoroRoc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "ZoroPod (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 2,
@@ -15849,6 +16041,24 @@
     "total": 10,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 3,
+        "source": "ZoroPod (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "ZoroGarb (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Banette Garbodor (2018)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 2,
         "source": "Mega Audino (2016)",
@@ -15859,21 +16069,6 @@
         "qty": 1,
         "source": "Darkrai Giratina (2016)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Banette Garbodor (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "ZoroGarb (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "ZoroPod (2018)"
       }
     ]
   },
@@ -16181,7 +16376,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Empoleon Swampert (2018)"
+        "source": "Empoleon Swampert (2018)",
+        "verified": true
       }
     ]
   },
@@ -17130,9 +17326,10 @@
     "total": 2,
     "variants": [
       {
-        "version": "Standard",
+        "version": "Reverse Holo",
         "qty": 2,
-        "source": "Empoleon Swampert (2018)"
+        "source": "Empoleon Swampert (2018)",
+        "verified": true
       }
     ]
   },
@@ -17257,8 +17454,14 @@
     "num": "101",
     "printKey": "professorjuniper|BLW 101",
     "image": "https://images.pokemontcg.io/bw1/101_hires.png",
-    "total": 3,
+    "total": 5,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Turbo Rayquaza (2018)",
+        "verified": true
+      },
       {
         "version": "Reverse Holo",
         "qty": 1,
@@ -17335,8 +17538,14 @@
     "num": "84",
     "printKey": "professorjuniper|PLB 84",
     "image": "https://images.pokemontcg.io/bw10/84_hires.png",
-    "total": 12,
+    "total": 14,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Turbo Rayquaza (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 3,
@@ -17374,6 +17583,18 @@
     "total": 5,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 1,
+        "source": "ZoroRoc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 2,
+        "source": "Empoleon Swampert (2018)",
+        "verified": true
+      },
+      {
         "version": "Reverse Holo",
         "qty": 1,
         "source": "Tapu Bulu Vikavolt (2017)",
@@ -17384,16 +17605,6 @@
         "qty": 1,
         "source": "Drampa Zoroark (2017)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "ZoroRoc (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Empoleon Swampert (2018)"
       }
     ]
   },
@@ -17488,8 +17699,50 @@
     "num": "107",
     "printKey": "professorsycamore|BKP 107",
     "image": "https://images.pokemontcg.io/xy9/107_hires.png",
-    "total": 69,
+    "total": 62,
     "variants": [
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "ZoroRoc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "ZoroPod (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "ZoroGardy (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "ZoroGarb (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Buzzwole Lycanroc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Banette Garbodor (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 2,
@@ -17564,54 +17817,27 @@
       },
       {
         "version": "Standard",
-        "qty": 3,
+        "qty": 7,
         "source": "Spare",
         "verified": false
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Buzz Garb Shrine (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Buzzwole Lycanroc (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Banette Garbodor (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "ZoroGarb (2018)"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Professor Sycamore",
+    "type": "Trainer",
+    "key": "professorsycamore",
+    "set": "BKP",
+    "num": "107a",
+    "printKey": "professorsycamore|BKP 107a",
+    "image": "https://images.pokemontcg.io/xy9/107a_hires.png",
+    "total": 1,
+    "variants": [
       {
         "version": "Standard",
         "qty": 1,
-        "source": "ZoroPod (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "ZoroRoc (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "ZoroGardy (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Greninja (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Turbo Rayquaza (2018)"
+        "source": "Greninja (2018)",
+        "verified": true
       }
     ]
   },
@@ -17623,8 +17849,20 @@
     "num": "101",
     "printKey": "professorsycamore|PHF 101",
     "image": "https://images.pokemontcg.io/xy4/101_hires.png",
-    "total": 8,
+    "total": 13,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Greninja (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 2,
@@ -17659,8 +17897,14 @@
     "num": "122",
     "printKey": "professorsycamore|XY 122",
     "image": "https://images.pokemontcg.io/xy1/122_hires.png",
-    "total": 16,
+    "total": 17,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Greninja (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 3,
@@ -17988,8 +18232,14 @@
     "num": "168",
     "printKey": "psychicenergy|SUM 168",
     "image": "https://images.pokemontcg.io/sm1/168_hires.png",
-    "total": 13,
+    "total": 14,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 9,
@@ -18049,18 +18299,13 @@
     "num": "",
     "printKey": "psychicenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/136_hires.png",
-    "total": 33,
+    "total": 32,
     "variants": [
       {
         "version": "World Champs",
         "qty": 5,
         "source": "Boltevoir (2010)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Buzz Garb Shrine (2018)"
       },
       {
         "version": "World Champs",
@@ -18201,24 +18446,27 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 3,
+        "source": "ZoroRoc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 4,
-        "source": "Night March (2016)",
+        "source": "ZoroPod (2018)",
         "verified": true
       },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "ZoroGarb (2018)"
+        "source": "ZoroGarb (2018)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 4,
-        "source": "ZoroPod (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "ZoroRoc (2018)"
+        "source": "Night March (2016)",
+        "verified": true
       }
     ]
   },
@@ -18541,23 +18789,43 @@
     "num": "152",
     "printKey": "rainbowenergy|BKT 152",
     "image": "https://images.pokemontcg.io/xy8/152_hires.png",
-    "total": 11,
+    "total": 8,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Banette Garbodor (2018)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
         "source": "GoliGarb (2017)",
         "verified": true
-      },
+      }
+    ]
+  },
+  {
+    "name": "Rainbow Energy",
+    "type": "Energy",
+    "key": "rainbowenergy",
+    "set": "CES",
+    "num": "151",
+    "printKey": "rainbowenergy|CES 151",
+    "image": "https://images.pokemontcg.io/sm7/151_hires.png",
+    "total": 3,
+    "variants": [
       {
         "version": "Standard",
-        "qty": 3,
-        "source": "Buzz Garb Shrine (2018)"
+        "qty": 2,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
       },
       {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Banette Garbodor (2018)"
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
       }
     ]
   },
@@ -18644,15 +18912,16 @@
     "total": 8,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 4,
+        "source": "ZoroGardy (2018)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 4,
         "source": "Gardevoir-GX (2017)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "ZoroGardy (2018)"
       }
     ]
   },
@@ -18861,29 +19130,18 @@
     "name": "Rare Candy",
     "type": "Item",
     "key": "rarecandy",
-    "set": "CES",
-    "num": "142",
-    "printKey": "rarecandy|CES 142",
-    "image": "https://images.pokemontcg.io/sm7/142_hires.png",
-    "total": 4,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Empoleon Swampert (2018)"
-      }
-    ]
-  },
-  {
-    "name": "Rare Candy",
-    "type": "Item",
-    "key": "rarecandy",
     "set": "DEX",
     "num": "100",
     "printKey": "rarecandy|DEX 100",
     "image": "https://images.pokemontcg.io/bw5/100_hires.png",
-    "total": 4,
+    "total": 7,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "ZoroGardy (2018)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
@@ -18960,8 +19218,14 @@
     "num": "85",
     "printKey": "rarecandy|PLB 85",
     "image": "https://images.pokemontcg.io/bw10/85_hires.png",
-    "total": 4,
+    "total": 8,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Empoleon Swampert (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -19026,18 +19290,13 @@
     "num": "129",
     "printKey": "rarecandy|SUM 129",
     "image": "https://images.pokemontcg.io/sm1/129_hires.png",
-    "total": 6,
+    "total": 3,
     "variants": [
       {
         "version": "Standard",
         "qty": 3,
         "source": "Tapu Bulu Vikavolt (2017)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "ZoroGardy (2018)"
       }
     ]
   },
@@ -19150,7 +19409,8 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Turbo Rayquaza (2018)"
+        "source": "Turbo Rayquaza (2018)",
+        "verified": true
       }
     ]
   },
@@ -19227,7 +19487,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Buzzwole Lycanroc (2018)"
+        "source": "Buzzwole Lycanroc (2018)",
+        "verified": true
       }
     ]
   },
@@ -19239,8 +19500,14 @@
     "num": "31",
     "printKey": "remoraid|BKT 31",
     "image": "https://images.pokemontcg.io/xy8/31_hires.png",
-    "total": 2,
+    "total": 3,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 2,
@@ -19257,17 +19524,19 @@
     "num": "32",
     "printKey": "remoraid|BKT 32",
     "image": "https://images.pokemontcg.io/xy8/32_hires.png",
-    "total": 4,
+    "total": 3,
     "variants": [
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Buzz Garb Shrine (2018)"
-      },
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Buzzwole Lycanroc (2018)"
+        "source": "Buzzwole Lycanroc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
       }
     ]
   },
@@ -19348,6 +19617,42 @@
     "total": 17,
     "variants": [
       {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "ZoroGarb (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Turbo Rayquaza (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Greninja (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Empoleon Swampert (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Banette Garbodor (2018)",
+        "verified": true
+      },
+      {
         "version": "Standard",
         "qty": 1,
         "source": "Mega Rayquaza (2017)",
@@ -19382,36 +19687,6 @@
         "qty": 1,
         "source": "DeciTales (2017)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Buzz Garb Shrine (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Banette Garbodor (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "ZoroGarb (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Greninja (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Turbo Rayquaza (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Empoleon Swampert (2018)"
       }
     ]
   },
@@ -19639,17 +19914,49 @@
     "num": "75",
     "printKey": "rockruff|FLI 75",
     "image": "https://images.pokemontcg.io/sm6/75_hires.png",
-    "total": 5,
+    "total": 2,
     "variants": [
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Buzzwole Lycanroc (2018)"
-      },
+        "source": "Buzzwole Lycanroc (2018)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Rockruff",
+    "type": "Pokémon",
+    "key": "rockruff",
+    "set": "GRI",
+    "num": "73",
+    "printKey": "rockruff|GRI 73",
+    "image": "https://images.pokemontcg.io/sm2/73_hires.png",
+    "total": 2,
+    "variants": [
       {
         "version": "Standard",
-        "qty": 3,
-        "source": "ZoroRoc (2018)"
+        "qty": 2,
+        "source": "ZoroRoc (2018)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Rockruff",
+    "type": "Pokémon",
+    "key": "rockruff",
+    "set": "PR-SM",
+    "num": "SM120",
+    "printKey": "rockruff|PR-SM SM120",
+    "image": "https://images.pokemontcg.io/smp/SM120_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "ZoroRoc (2018)",
+        "verified": true
       }
     ]
   },
@@ -20448,15 +20755,16 @@
     "total": 4,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
+      },
+      {
         "version": "Reverse Holo",
         "qty": 1,
         "source": "Green's Reshizard (2019)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Buzz Garb Shrine (2018)"
       }
     ]
   },
@@ -20473,7 +20781,8 @@
       {
         "version": "World Champs",
         "qty": 2,
-        "source": "Banette Garbodor (2018)"
+        "source": "Banette Garbodor (2018)",
+        "verified": true
       }
     ]
   },
@@ -20877,6 +21186,12 @@
       {
         "version": "Standard",
         "qty": 1,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
         "source": "Drampa Zoroark (2017)",
         "verified": true
       },
@@ -20891,11 +21206,6 @@
         "qty": 1,
         "source": "Night March (2016)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Buzz Garb Shrine (2018)"
       }
     ]
   },
@@ -21053,15 +21363,16 @@
     "total": 4,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Greninja (2018)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 2,
         "source": "Greninja (2016)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Greninja (2018)"
       }
     ]
   },
@@ -21168,7 +21479,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Greninja (2018)"
+        "source": "Greninja (2018)",
+        "verified": true
       }
     ]
   },
@@ -21233,7 +21545,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Greninja (2018)"
+        "source": "Greninja (2018)",
+        "verified": true
       }
     ]
   },
@@ -21245,17 +21558,19 @@
     "num": "115",
     "printKey": "strongenergy|FCO 115",
     "image": "https://images.pokemontcg.io/xy10/115_hires.png",
-    "total": 10,
+    "total": 8,
     "variants": [
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Buzz Garb Shrine (2018)"
-      },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "Buzzwole Lycanroc (2018)"
+        "source": "Buzzwole Lycanroc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
       },
       {
         "version": "Standard",
@@ -21272,8 +21587,14 @@
     "num": "104",
     "printKey": "strongenergy|FFI 104",
     "image": "https://images.pokemontcg.io/xy3/104_hires.png",
-    "total": 4,
+    "total": 6,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
@@ -21343,7 +21664,8 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Empoleon Swampert (2018)"
+        "source": "Empoleon Swampert (2018)",
+        "verified": true
       }
     ]
   },
@@ -21355,8 +21677,20 @@
     "num": "149",
     "printKey": "superrod|BKT 149",
     "image": "https://images.pokemontcg.io/xy8/149_hires.png",
-    "total": 14,
+    "total": 13,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Greninja (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Buzzwole Lycanroc (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 2,
@@ -21404,21 +21738,6 @@
         "qty": 1,
         "source": "Charizard Pidgeot (2025)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Buzzwole Lycanroc (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Greninja (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Turbo Rayquaza (2018)"
       }
     ]
   },
@@ -21454,6 +21773,24 @@
         "version": "World Champs",
         "qty": 2,
         "source": "RayEels (2013)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Super Rod",
+    "type": "Trainer",
+    "key": "superrod",
+    "set": "NVI",
+    "num": "95",
+    "printKey": "superrod|NVI 95",
+    "image": "https://images.pokemontcg.io/bw3/95_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Turbo Rayquaza (2018)",
         "verified": true
       }
     ]
@@ -21644,7 +21981,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Empoleon Swampert (2018)"
+        "source": "Empoleon Swampert (2018)",
+        "verified": true
       }
     ]
   },
@@ -22033,6 +22371,12 @@
       {
         "version": "Standard",
         "qty": 1,
+        "source": "Empoleon Swampert (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
         "source": "Mega Rayquaza (2017)",
         "verified": true
       },
@@ -22059,11 +22403,6 @@
         "qty": 2,
         "source": "DeciPod (2017)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Empoleon Swampert (2018)"
       }
     ]
   },
@@ -22111,8 +22450,44 @@
     "num": "60",
     "printKey": "tapulelegx|GRI 60",
     "image": "https://images.pokemontcg.io/sm2/60_hires.png",
-    "total": 34,
+    "total": 32,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "ZoroRoc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "ZoroPod (2018)",
+        "verified": true
+      },
+      {
+        "version": "Proxy",
+        "qty": 2,
+        "source": "ZoroGardy (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "ZoroGarb (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Turbo Rayquaza (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Banette Garbodor (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 3,
@@ -22160,41 +22535,24 @@
         "qty": 1,
         "source": "Spare",
         "verified": false
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Banette Garbodor (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "ZoroGarb (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "ZoroPod (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "ZoroRoc (2018)"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Tapu Lele-GX",
+    "type": "Pokémon",
+    "key": "tapulelegx",
+    "set": "GRI",
+    "num": "137",
+    "printKey": "tapulelegx|GRI 137",
+    "image": "https://images.pokemontcg.io/sm2/137_hires.png",
+    "total": 1,
+    "variants": [
       {
         "version": "Standard",
         "qty": 1,
-        "source": "ZoroGardy (2018)"
-      },
-      {
-        "version": "Proxy",
-        "qty": 2,
-        "source": "ZoroGardy (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Turbo Rayquaza (2018)"
+        "source": "Turbo Rayquaza (2018)",
+        "verified": true
       }
     ]
   },
@@ -22225,8 +22583,14 @@
     "num": "45",
     "printKey": "tapulelegx|SM4+ 45",
     "image": "https://images.pokemontcg.io/sm2/60_hires.png",
-    "total": 4,
+    "total": 5,
     "variants": [
+      {
+        "version": "Japanese",
+        "qty": 1,
+        "source": "ZoroGardy (2018)",
+        "verified": true
+      },
       {
         "version": "Japanese",
         "qty": 1,
@@ -23346,7 +23710,8 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Empoleon Swampert (2018)"
+        "source": "Empoleon Swampert (2018)",
+        "verified": true
       }
     ]
   },
@@ -23559,7 +23924,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "ZoroGarb (2018)"
+        "source": "ZoroGarb (2018)",
+        "verified": true
       }
     ]
   },
@@ -23731,6 +24097,24 @@
     "variants": [
       {
         "version": "World Champs",
+        "qty": 3,
+        "source": "ZoroGarb (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Banette Garbodor (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
         "qty": 4,
         "source": "GoliGarb (2017)",
         "verified": true
@@ -23740,21 +24124,6 @@
         "qty": 2,
         "source": "Darkrai Giratina (2016)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Buzz Garb Shrine (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Banette Garbodor (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "ZoroGarb (2018)"
       }
     ]
   },
@@ -23957,8 +24326,14 @@
     "num": "102",
     "printKey": "ultraball|DEX 102",
     "image": "https://images.pokemontcg.io/bw5/102_hires.png",
-    "total": 22,
+    "total": 23,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -24017,8 +24392,20 @@
     "num": "113",
     "printKey": "ultraball|FCO 113",
     "image": "https://images.pokemontcg.io/xy10/113_hires.png",
-    "total": 35,
+    "total": 19,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Buzzwole Lycanroc (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Banette Garbodor (2018)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
@@ -24036,36 +24423,6 @@
         "qty": 4,
         "source": "Darkrai Giratina (2016)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Buzz Garb Shrine (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "Buzzwole Lycanroc (2018)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Banette Garbodor (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "ZoroPod (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "ZoroRoc (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "ZoroGardy (2018)"
       }
     ]
   },
@@ -24077,8 +24434,14 @@
     "num": "99",
     "printKey": "ultraball|FLF 99",
     "image": "https://images.pokemontcg.io/xy2/99_hires.png",
-    "total": 10,
+    "total": 11,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "ZoroGardy (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -24185,8 +24548,14 @@
     "num": "90",
     "printKey": "ultraball|PLB 90",
     "image": "https://images.pokemontcg.io/bw10/90_hires.png",
-    "total": 6,
+    "total": 9,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Buzz Garb Shrine (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -24209,8 +24578,20 @@
     "num": "93",
     "printKey": "ultraball|ROS 93",
     "image": "https://images.pokemontcg.io/xy6/93_hires.png",
-    "total": 30,
+    "total": 37,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "ZoroPod (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "ZoroGardy (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -24269,8 +24650,14 @@
     "num": "68",
     "printKey": "ultraball|SLG 68",
     "image": "https://images.pokemontcg.io/sm35/68_hires.png",
-    "total": 4,
+    "total": 8,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Greninja (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -24291,6 +24678,24 @@
     "variants": [
       {
         "version": "Standard",
+        "qty": 3,
+        "source": "ZoroRoc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "ZoroRoc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Turbo Rayquaza (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 4,
         "source": "Ho-Oh Salazzle (2017)",
         "verified": true
@@ -24306,16 +24711,6 @@
         "qty": 4,
         "source": "DeciPod (2017)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Greninja (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Turbo Rayquaza (2018)"
       }
     ]
   },
@@ -24446,7 +24841,8 @@
       {
         "version": "World Champs",
         "qty": 3,
-        "source": "ZoroGarb (2018)"
+        "source": "ZoroGarb (2018)",
+        "verified": true
       }
     ]
   },
@@ -25069,6 +25465,24 @@
     "name": "Water Energy",
     "type": "Energy",
     "key": "waterenergy",
+    "set": "B2",
+    "num": "130",
+    "printKey": "waterenergy|B2 130",
+    "image": "https://images.pokemontcg.io/base4/130_hires.png",
+    "total": 5,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 5,
+        "source": "Empoleon Swampert (2018)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Water Energy",
+    "type": "Energy",
+    "key": "waterenergy",
     "set": "BLW",
     "num": "107",
     "printKey": "waterenergy|BLW 107",
@@ -25091,8 +25505,14 @@
     "num": "102",
     "printKey": "waterenergy|BS 102",
     "image": "https://images.pokemontcg.io/base1/102_hires.png",
-    "total": 10,
+    "total": 16,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 6,
+        "source": "Greninja (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 10,
@@ -25151,18 +25571,13 @@
     "num": "",
     "printKey": "waterenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/134_hires.png",
-    "total": 26,
+    "total": 15,
     "variants": [
       {
         "version": "World Champs",
         "qty": 2,
         "source": "Spare",
         "verified": false
-      },
-      {
-        "version": "Standard",
-        "qty": 6,
-        "source": "Greninja (2018)"
       },
       {
         "version": "World Champs",
@@ -25175,11 +25590,6 @@
         "qty": 5,
         "source": "Lost Box Kyogre (2023)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 5,
-        "source": "Empoleon Swampert (2018)"
       }
     ]
   },
@@ -25302,6 +25712,12 @@
     "total": 10,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 3,
+        "source": "ZoroPod (2018)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 4,
         "source": "GoliGarb (2017)",
@@ -25312,11 +25728,6 @@
         "qty": 3,
         "source": "DeciPod (2017)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "ZoroPod (2018)"
       }
     ]
   },
@@ -25333,7 +25744,8 @@
       {
         "version": "World Champs",
         "qty": 1,
-        "source": "Banette Garbodor (2018)"
+        "source": "Banette Garbodor (2018)",
+        "verified": true
       }
     ]
   },
@@ -25792,32 +26204,54 @@
     "num": "53",
     "printKey": "zoroarkgx|SLG 53",
     "image": "https://images.pokemontcg.io/sm35/53_hires.png",
-    "total": 17,
+    "total": 10,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "ZoroRoc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "ZoroGardy (2018)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
-        "source": "ZoroGarb (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "ZoroPod (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "ZoroRoc (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "ZoroGardy (2018)"
+        "source": "ZoroGarb (2018)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
         "source": "Spare"
+      }
+    ]
+  },
+  {
+    "name": "Zoroark-GX",
+    "type": "Pokémon",
+    "key": "zoroarkgx",
+    "set": "PR-SM",
+    "num": "SM84",
+    "printKey": "zoroarkgx|PR-SM SM84",
+    "image": "https://images.pokemontcg.io/smp/SM84_hires.png",
+    "total": 7,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "ZoroPod (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "ZoroGardy (2018)",
+        "verified": true
       }
     ]
   },
@@ -25843,31 +26277,47 @@
     "name": "Zorua",
     "type": "Pokémon",
     "key": "zorua",
+    "set": "PR-SM",
+    "num": "SM83",
+    "printKey": "zorua|PR-SM SM83",
+    "image": "https://images.pokemontcg.io/smp/SM83_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "ZoroRoc (2018)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Zorua",
+    "type": "Pokémon",
+    "key": "zorua",
     "set": "SLG",
     "num": "52",
     "printKey": "zorua|SLG 52",
     "image": "https://images.pokemontcg.io/sm35/52_hires.png",
-    "total": 14,
+    "total": 10,
     "variants": [
       {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "ZoroGarb (2018)"
-      },
-      {
         "version": "Standard",
         "qty": 4,
-        "source": "ZoroPod (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "ZoroRoc (2018)"
+        "source": "ZoroPod (2018)",
+        "verified": true
       },
       {
         "version": "Standard",
         "qty": 1,
-        "source": "ZoroGardy (2018)"
+        "source": "ZoroGardy (2018)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "ZoroGarb (2018)",
+        "verified": true
       },
       {
         "version": "Standard",

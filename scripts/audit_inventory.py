@@ -36,6 +36,10 @@ PROXY_SUBS = {
     ("Mega Rayquaza (2017)", "airballoon"): "floatstone",
     ("Mega Rayquaza (2017)", "nsplan"): "n",
     ("Mega Rayquaza (2017)", "professorjuniper"): "professorsycamore",
+    ("Turbo Rayquaza (2018)", "airballoon"): "floatstone",
+    ("Turbo Rayquaza (2018)", "professorjuniper"): "professorsycamore",
+    ("ZoroGardy (2018)", "airballoon"): "floatstone",
+    ("ZoroRoc (2018)", "airballoon"): "floatstone",
 }
 
 

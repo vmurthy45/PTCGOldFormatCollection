@@ -54,7 +54,8 @@ JAPANESE = {"M2a", "M3", "MEP", "s12a", "SM4+", "SM2L"}
 # still be written onto a decklist. BWTK is the Black & White Trainer Kit, which
 # the card API does not catalogue at all -- its rows carry a hand-set image.
 EXTRA_TOTALS = {"col1": "95", "ecard1": "165", "base1": "102",
-                "gym1": "132", "gym2": "132", "det1": "18", "dp1": "130"}
+                "gym1": "132", "gym2": "132", "det1": "18", "dp1": "130",
+                "base4": "130"}   # Base Set 2
 NO_API = {"BWTK"}
 # Rows where Vig has fixed what the decklist shows, overriding the majority
 # rule. ToadBats plays a Zubat PLS 53 with a SUM 54 standing in for it, and a
@@ -72,7 +73,11 @@ PINNED = {("ToadBats (2015)", "Zubat"),
           # list keeps naming the real one (see PROXY_SUBS in audit_inventory)
           ("Mega Rayquaza (2017)", "Float Stone"),
           ("Mega Rayquaza (2017)", "N"),
-          ("Mega Rayquaza (2017)", "Professor Sycamore")}
+          ("Mega Rayquaza (2017)", "Professor Sycamore"),
+          ("Turbo Rayquaza (2018)", "Float Stone"),
+          ("Turbo Rayquaza (2018)", "Professor Sycamore"),
+          ("ZoroGardy (2018)", "Float Stone"),
+          ("ZoroRoc (2018)", "Float Stone")}
 
 
 def name_key(s):
