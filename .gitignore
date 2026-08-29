@@ -4,3 +4,4 @@ __pycache__/
 PTCG Collection Export*.xlsx
 deck_contents.csv
 deck_missing.csv
+spare_and_unknown.csv

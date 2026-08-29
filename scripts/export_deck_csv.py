@@ -6,6 +6,11 @@ same card come out as two rows, not one.
 
     Year, Deck, Quantity, Card Name, Set number, Print
 
+With --spare it lists everything still loose or still unidentified: every
+Spare stack (Deck reads "Spare", Year is blank) plus any stack a deck holds
+whose printing was never recorded. A blank Set number is the tell in both
+cases -- that is the "set unknown" state.
+
 With --missing it instead lists the cards each deck is SHORT: quantity is how
 many copies are still to find, Print reads "Missing", and the set number is the
 print the decklist calls for -- i.e. what to go buy.
@@ -17,6 +22,7 @@ listed -- anything still flagged missing has no stack and does not appear.
 
     .venv/bin/python scripts/export_deck_csv.py [out.csv]
     .venv/bin/python scripts/export_deck_csv.py --missing [out.csv]
+    .venv/bin/python scripts/export_deck_csv.py --spare   [out.csv]
 """
 import csv
 import json
@@ -75,11 +81,33 @@ def missing_rows(cards):
     return out
 
 
+def spare_rows(inv, year, cat):
+    """Loose stock, plus deck stacks whose print is still unknown."""
+    out = []
+    for e in inv:
+        code, num = e.get("set") or "", e.get("num") or ""
+        unknown = not code or (code == "XY" and not num)
+        for v in e["variants"]:
+            src = v.get("source") or ""
+            if src != "Spare" and not unknown:
+                continue
+            out.append({"Year": "" if src == "Spare" else year.get(src, ""),
+                        "Deck": src or "Spare", "Quantity": v["qty"],
+                        "Card Name": e["name"],
+                        "Set number": "" if unknown else " ".join(x for x in (code, num) if x),
+                        "Print": v["version"],
+                        "_cat": ORDER.get(cat.get((src, e["key"]), ""), 9),
+                        "_spare": src == "Spare"})
+    return out
+
+
 def main():
-    args = [a for a in sys.argv[1:] if a != "--missing"]
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
     missing = "--missing" in sys.argv
+    spare = "--spare" in sys.argv
     out = Path(args[0]) if args else ROOT / (
-        "deck_missing.csv" if missing else "deck_contents.csv")
+        "deck_missing.csv" if missing else
+        "spare_and_unknown.csv" if spare else "deck_contents.csv")
     inv = json.loads((ROOT / "data" / "inventory.json").read_text(encoding="utf-8"))
     cards = json.loads((ROOT / "data" / "cards.json").read_text(encoding="utf-8"))
 
@@ -88,6 +116,20 @@ def main():
     # three-way split; the inventory's `type` breaks Trainers into Item/
     # Supporter/Stadium, which is not what the decklists group by.
     cat = {(c["deck"], name_key(c["name"])): c.get("category", "") for c in cards}
+
+    if spare:
+        rows = spare_rows(inv, year, cat)
+        # deck-held unknowns first (they belong to a box), loose stock after
+        rows.sort(key=lambda r: (r["_spare"], -int(r["Year"] or 0),
+                                 r["Deck"].lower(), r["_cat"],
+                                 r["Card Name"].lower(), r["Set number"]))
+        write(out, rows)
+        loose = [r for r in rows if r["_spare"]]
+        print(f"{out}: {len(rows)} rows · {sum(r['Quantity'] for r in rows)} copies")
+        print(f"  {len(loose)} loose stacks ({sum(r['Quantity'] for r in loose)} copies)")
+        print(f"  {len(rows) - len(loose)} deck stacks whose print is still unknown")
+        print(f"  {sum(1 for r in rows if not r['Set number'])} rows have no set recorded")
+        return 0
 
     if missing:
         rows = missing_rows(cards)
