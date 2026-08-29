@@ -135,9 +135,10 @@
     overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
   .vf-bar{flex:0 0 84px; height:6px; border-radius:99px; background:var(--line); overflow:hidden}
   .vf-fill{display:block; height:100%; background:var(--pip-auth); border-radius:99px}
+  /* Deck rows carry no text label -- the bar and the make-up say it all. Only
+     the Loose stock row still uses one, to show its stack and copy counts. */
   .vf-lab{flex:0 0 auto; color:var(--muted); font-size:11.5px; font-variant-numeric:tabular-nums}
   .vf-all .vf-name{color:var(--pip-auth)}
-  .vf-all .vf-lab{color:var(--pip-auth)}
   .vf-some .vf-fill{background:var(--pip-wc)}
   .vf-none .vf-fill{background:transparent}
   .vf-cnt{font-size:11.5px; color:var(--muted); font-weight:600; margin-left:6px}
@@ -154,11 +155,8 @@
   .vf-word{font-size:11px; font-weight:600; color:var(--muted); width:50px}
   .vf-note{font-size:12px; color:var(--muted); line-height:1.55; margin:10px 2px 0}
   @media (max-width:520px){
-    .vf-lab{font-size:11px}
-    /* On a phone the strip alone carries the make-up -- solid green, solid
-       grey, or visibly split -- so the word and the progress bar give their
-       width back to the deck name, which would otherwise ellipsis. */
-    .vf-bar{display:none} .vf-word{display:none}
+    .vf-bar{flex-basis:40px} .vf-word{width:44px; font-size:10.5px}
+    .vf-strip{width:30px} .vf-row{gap:8px; padding:6px 9px}
   }
   .st-tile{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 12px; text-align:center}
   .st-num{font-size:26px; font-weight:800; color:var(--red-dark); line-height:1.1; font-variant-numeric:tabular-nums}
@@ -1427,7 +1425,8 @@ function renderVerify(){
   const tile = (v, l) => `<div class="st-tile"><div class="st-num">${v}</div><div class="st-lab">${l}</div></div>`;
   const bar = (d, t) => {
     const pc = t ? Math.round(d / t * 100) : 0;
-    return `<span class="vf-bar"><span class="vf-fill" style="width:${pc}%"></span></span>`;
+    return `<span class="vf-bar" title="${d} of ${t} stacks checked">`
+      + `<span class="vf-fill" style="width:${pc}%"></span></span>`;
   };
 
   const byYear = new Map();
@@ -1451,8 +1450,6 @@ function renderVerify(){
         return `<div class="st-group"><h3>${esc(y)} <span class="vf-cnt">${d}/${list.length} checked</span></h3>`
           + `<div class="vf-list">` + list.map(r => {
               const state = r.total === 0 ? 'none' : (r.done === r.total ? 'all' : (r.done ? 'some' : 'none'));
-              const label = state === 'all' ? 'checked'
-                : (r.total === 0 ? 'nothing recorded' : `${r.total - r.done} of ${r.total} left`);
               const mx = deckMix(r.deck);
               const segs = [['auth', mx.a], ['wc', mx.w], ['proxy', mx.p], ['miss', mx.m]]
                 .filter(([, n]) => n > 0)
@@ -1462,8 +1459,7 @@ function renderVerify(){
               return `<div class="vf-row vf-${state}"><span class="vf-name">${esc(r.deck)}</span>`
                 + `<span class="vf-mix" title="${tip}"><span class="vf-strip">${segs}</span>`
                 + `<span class="vf-word">${mx.word}</span></span>`
-                + bar(r.done, r.total)
-                + `<span class="vf-lab">${label}</span></div>`;
+                + bar(r.done, r.total) + `</div>`;
             }).join('') + `</div></div>`;
       }).join('')
     + `<div class="st-group"><h3>Spare boxes</h3><div class="vf-list">`

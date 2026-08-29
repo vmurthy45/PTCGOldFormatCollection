@@ -106,11 +106,13 @@ Hosted free on GitHub Pages.
   strip plus a one-word verdict — **Standard / WC / Mixed** — so a glance says
   whether a box is all World Champs, all retail, or a blend. The strip uses the
   DECK-LIST pip colours (green Standard, grey WC, blue Proxy, faint Missing), so
-  it matches what the expanded deck shows; hovering gives exact counts. It reads
+  it matches what the expanded deck shows; hovering gives exact counts. Vig had
+  the "checked" / "N of M left" text removed on 2026-08-25 -- the bar and the
+  make-up are all he wants on a deck row, so the stack counts moved to the bar's
+  tooltip (only the Loose stock row still carries a text label). It reads
   `prints` off `cards.json`, the same source as the pips, which means an
-  unverified deck shows its recorded-but-unconfirmed make-up. On phones the word
-  and the progress bar are hidden and the strip alone carries it, so long deck
-  names keep their width.
+  unverified deck shows its recorded-but-unconfirmed make-up. On phones the
+  strip, word and bar all narrow so long deck names keep their full width.
 
   **Three count pills per row.** The Inventory row's copy count splits into
   **Standard (red) · World Champs (blue) · Proxy (grey-violet)**. Standard means

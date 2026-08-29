@@ -7124,8 +7124,20 @@
     "num": "62",
     "printKey": "evosoda|GEN 62",
     "image": "https://images.pokemontcg.io/g1/62_hires.png",
-    "total": 7,
+    "total": 10,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Greninja (2018)",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Greninja (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -7154,29 +7166,19 @@
     "num": "116",
     "printKey": "evosoda|XY 116",
     "image": "https://images.pokemontcg.io/xy1/116_hires.png",
-    "total": 4,
+    "total": 3,
     "variants": [
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Greninja (2018)"
-      }
-    ]
-  },
-  {
-    "name": "Evosoda",
-    "type": "Item",
-    "key": "evosoda",
-    "set": "",
-    "num": "",
-    "printKey": "evosoda|",
-    "image": "https://images.pokemontcg.io/g1/62_hires.png",
-    "total": 2,
-    "variants": [
+        "qty": 1,
+        "source": "Greninja (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Spare"
+        "source": "Spare",
+        "verified": false
       }
     ]
   },
@@ -7731,8 +7733,14 @@
     "num": "97",
     "printKey": "fightingenergy|BS 97",
     "image": "https://images.pokemontcg.io/base1/97_hires.png",
-    "total": 7,
+    "total": 9,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "ZoroRoc (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 3,
@@ -7743,6 +7751,24 @@
         "version": "Standard",
         "qty": 4,
         "source": "Rapid Strike Urshifu (2021)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Fighting Energy",
+    "type": "Energy",
+    "key": "fightingenergy",
+    "set": "SUM",
+    "num": "169",
+    "printKey": "fightingenergy|SUM 169",
+    "image": "https://images.pokemontcg.io/sm1/169_hires.png",
+    "total": 9,
+    "variants": [
+      {
+        "version": "World Champs",
+        "qty": 9,
+        "source": "Buzzwole Lycanroc (2018)",
         "verified": true
       }
     ]
@@ -7773,23 +7799,13 @@
     "num": "",
     "printKey": "fightingenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/137_hires.png",
-    "total": 21,
+    "total": 10,
     "variants": [
       {
         "version": "World Champs",
         "qty": 1,
         "source": "Boltevoir (2010)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 9,
-        "source": "Buzzwole Lycanroc (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "ZoroRoc (2018)"
       },
       {
         "version": "World Champs",
@@ -18232,8 +18248,14 @@
     "num": "168",
     "printKey": "psychicenergy|SUM 168",
     "image": "https://images.pokemontcg.io/sm1/168_hires.png",
-    "total": 14,
+    "total": 18,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Banette Garbodor (2018)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 1,
@@ -18299,18 +18321,13 @@
     "num": "",
     "printKey": "psychicenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/136_hires.png",
-    "total": 32,
+    "total": 28,
     "variants": [
       {
         "version": "World Champs",
         "qty": 5,
         "source": "Boltevoir (2010)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 4,
-        "source": "Banette Garbodor (2018)"
       },
       {
         "version": "Standard",
@@ -21561,6 +21578,12 @@
     "total": 8,
     "variants": [
       {
+        "version": "Standard",
+        "qty": 2,
+        "source": "ZoroRoc (2018)",
+        "verified": true
+      },
+      {
         "version": "World Champs",
         "qty": 4,
         "source": "Buzzwole Lycanroc (2018)",
@@ -21571,11 +21594,6 @@
         "qty": 2,
         "source": "Buzz Garb Shrine (2018)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "ZoroRoc (2018)"
       }
     ]
   },
