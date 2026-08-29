@@ -3399,17 +3399,12 @@
     "num": "91",
     "printKey": "countercatcher|CIN 91",
     "image": "https://images.pokemontcg.io/sm4/91_hires.png",
-    "total": 5,
+    "total": 1,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
         "source": "ZoroPod (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Whimsicott GX (2019)"
       }
     ]
   },
@@ -3813,8 +3808,14 @@
     "num": "171",
     "printKey": "customcatcher|LOT 171",
     "image": "https://images.pokemontcg.io/sm8/171_hires.png",
-    "total": 16,
+    "total": 20,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Whimsicott GX (2019)",
+        "verified": true
+      },
       {
         "version": "World Champs",
         "qty": 4,
@@ -7171,11 +7172,29 @@
     "name": "Fairy Energy",
     "type": "Energy",
     "key": "fairyenergy",
+    "set": "SUM",
+    "num": "172",
+    "printKey": "fairyenergy|SUM 172",
+    "image": "https://images.pokemontcg.io/sm1/172_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Whimsicott GX (2019)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Fairy Energy",
+    "type": "Energy",
+    "key": "fairyenergy",
     "set": "XY",
     "num": "",
     "printKey": "fairyenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/140_hires.png",
-    "total": 12,
+    "total": 11,
     "variants": [
       {
         "version": "Standard",
@@ -7186,11 +7205,6 @@
         "version": "Standard",
         "qty": 4,
         "source": "ZoroGardy (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Whimsicott GX (2019)"
       }
     ]
   },
@@ -7845,6 +7859,36 @@
     "name": "Fire Energy",
     "type": "Energy",
     "key": "fireenergy",
+    "set": "SUM",
+    "num": "165",
+    "printKey": "fireenergy|SUM 165",
+    "image": "https://images.pokemontcg.io/sm1/165_hires.png",
+    "total": 44,
+    "variants": [
+      {
+        "version": "World Champs",
+        "qty": 18,
+        "source": "Reshizard Firebox (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 11,
+        "source": "Green's Reshizard (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 15,
+        "source": "Blacephalon GX (2019)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Fire Energy",
+    "type": "Energy",
+    "key": "fireenergy",
     "set": "SVE",
     "num": "10",
     "printKey": "fireenergy|SVE 10",
@@ -7867,7 +7911,7 @@
     "num": "",
     "printKey": "fireenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/133_hires.png",
-    "total": 68,
+    "total": 24,
     "variants": [
       {
         "version": "Standard",
@@ -7879,21 +7923,6 @@
         "version": "Standard",
         "qty": 14,
         "source": "Ho-Oh Salazzle (2017)"
-      },
-      {
-        "version": "World Champs",
-        "qty": 18,
-        "source": "Reshizard Firebox (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 11,
-        "source": "Green's Reshizard (2019)"
-      },
-      {
-        "version": "Standard",
-        "qty": 15,
-        "source": "Blacephalon GX (2019)"
       },
       {
         "version": "World Champs",
@@ -11795,11 +11824,29 @@
     "name": "Lightning Energy",
     "type": "Energy",
     "key": "lightningenergy",
+    "set": "SUM",
+    "num": "167",
+    "printKey": "lightningenergy|SUM 167",
+    "image": "https://images.pokemontcg.io/sm1/167_hires.png",
+    "total": 11,
+    "variants": [
+      {
+        "version": "World Champs",
+        "qty": 11,
+        "source": "Pikarom Judge (2019)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Lightning Energy",
+    "type": "Energy",
+    "key": "lightningenergy",
     "set": "XY",
     "num": "",
     "printKey": "lightningenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/135_hires.png",
-    "total": 67,
+    "total": 59,
     "variants": [
       {
         "version": "World Champs",
@@ -11819,8 +11866,9 @@
       },
       {
         "version": "World Champs",
-        "qty": 11,
-        "source": "Pikarom Judge (2019)"
+        "qty": 3,
+        "source": "Spare",
+        "verified": false
       },
       {
         "version": "World Champs",
@@ -11862,28 +11910,6 @@
         "version": "Standard",
         "qty": 7,
         "source": "Turbo Rayquaza (2018)"
-      }
-    ]
-  },
-  {
-    "name": "Lightning Energy",
-    "type": "Energy",
-    "key": "lightningenergy",
-    "set": "",
-    "num": "",
-    "printKey": "lightningenergy|",
-    "image": "https://images.pokemontcg.io/xy1/135_hires.png",
-    "total": 3,
-    "variants": [
-      {
-        "version": "Prize Pack Holo",
-        "qty": 2,
-        "source": "Spare"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -17847,8 +17873,14 @@
     "num": "168",
     "printKey": "psychicenergy|SUM 168",
     "image": "https://images.pokemontcg.io/sm1/168_hires.png",
-    "total": 4,
+    "total": 13,
     "variants": [
+      {
+        "version": "Standard",
+        "qty": 9,
+        "source": "Malamar (2019)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 4,
@@ -17902,7 +17934,7 @@
     "num": "",
     "printKey": "psychicenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/136_hires.png",
-    "total": 50,
+    "total": 41,
     "variants": [
       {
         "version": "World Champs",
@@ -17924,11 +17956,6 @@
         "version": "World Champs",
         "qty": 4,
         "source": "Banette Garbodor (2018)"
-      },
-      {
-        "version": "Standard",
-        "qty": 9,
-        "source": "Malamar (2019)"
       },
       {
         "version": "Standard",
