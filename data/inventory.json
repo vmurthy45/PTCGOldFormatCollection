@@ -11452,24 +11452,6 @@
     "name": "Kyurem",
     "type": "Pokémon",
     "key": "kyurem",
-    "set": "DRM",
-    "num": "47",
-    "printKey": "kyurem|DRM 47",
-    "image": "https://images.pokemontcg.io/sm75/47_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Regidrago (2024)",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Kyurem",
-    "type": "Pokémon",
-    "key": "kyurem",
     "set": "PLF",
     "num": "31",
     "printKey": "kyurem|PLF 31",
@@ -11498,8 +11480,14 @@
     "num": "47",
     "printKey": "kyurem|SFA 47",
     "image": "https://images.pokemontcg.io/sv6pt5/47_hires.png",
-    "total": 2,
+    "total": 3,
     "variants": [
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Regidrago (2024)",
+        "verified": true
+      },
       {
         "version": "Standard",
         "qty": 2,
@@ -25690,12 +25678,12 @@
   },
   {
     "name": "Zapdos",
-    "type": "Pokémon",
+    "type": "",
     "key": "zapdos",
-    "set": "GEN",
+    "set": "PGO",
     "num": "29",
-    "printKey": "zapdos|GEN 29",
-    "image": "https://images.pokemontcg.io/g1/29_hires.png",
+    "printKey": "zapdos|PGO 29",
+    "image": "https://images.pokemontcg.io/pgo/29_hires.png",
     "total": 1,
     "variants": [
       {
