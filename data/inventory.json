@@ -18602,8 +18602,14 @@
     "total": 9,
     "variants": [
       {
+        "version": "Reverse Holo",
+        "qty": 2,
+        "source": "Drampa Zoroark (2017)",
+        "verified": true
+      },
+      {
         "version": "Standard",
-        "qty": 4,
+        "qty": 2,
         "source": "Drampa Zoroark (2017)",
         "verified": true
       },
