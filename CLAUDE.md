@@ -118,6 +118,22 @@ Hosted free on GitHub Pages.
   different card as though it were this one. Set `standIn` whenever an image
   does not depict the actual card; clear it when a real one becomes available.
 
+  **A card subbed in for a different card is NOT a Proxy version.** Vig was
+  explicit on 2026-08-25: a stand-in is an ordinary card being played in another
+  card's slot, so the inventory `version` stays **Standard** (or whatever finish
+  it actually is). "Proxy" as a *version* is reserved for a copy that is not a
+  real card. The substitution is a fact about the DECK, and lives on the deck
+  row's `prints.proxy` -- which is why `align_deck_prints.py` only ever raises
+  that count, never lowers it. Mega Rayquaza (2017) is the worked example: it
+  sleeves Air Balloon ASC 181, N's Plan BLK 83 and Professor Juniper PLB 84 for
+  Float Stone, N and Professor Sycamore. All three are Standard in the inventory
+  (the same rows are the genuine card in other decks -- Air Balloon really is
+  Air Balloon in Alakazam), while the decklist keeps naming the real card and
+  shows blue proxy pips. **`PROXY_SUBS`** in `scripts/audit_inventory.py` maps
+  `(deck, inventory key) -> decklist key` so the deck-claim check still balances;
+  add an entry there for every new substitution, and pin the deck/card in
+  `align_deck_prints.py` so the displayed print is never rewritten.
+
   **Explicit deck assignments + verification (Vig's ongoing pass):** he is
   working through the collection telling me which physical copies sit in which
   deck (e.g. "Dreepy: 4 Reverse Holo PRE 71 are in Dragapult Dusknoir (2026),
