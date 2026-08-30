@@ -1507,12 +1507,18 @@
     "num": "141",
     "printKey": "bloodmoonursalunaex|TWM 141",
     "image": "https://images.pokemontcg.io/sv6/141_hires.png",
-    "total": 1,
+    "total": 2,
     "variants": [
       {
         "version": "World Champs",
         "qty": 1,
         "source": "Miraidon (2024)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -3169,6 +3175,24 @@
     ]
   },
   {
+    "name": "Cornerstone Mask Ogerpon ex",
+    "type": "Pokémon",
+    "key": "cornerstonemaskogerponex",
+    "set": "PRE",
+    "num": "58",
+    "printKey": "cornerstonemaskogerponex|PRE 58",
+    "image": "https://images.pokemontcg.io/sv8pt5/58_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Cottonee",
     "type": "Pokémon",
     "key": "cottonee",
@@ -3470,6 +3494,24 @@
         "version": "World Champs",
         "qty": 4,
         "source": "Iron Thorns (2024)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Crushing Hammer",
+    "type": "Item",
+    "key": "crushinghammer",
+    "set": "PBL",
+    "num": "105",
+    "printKey": "crushinghammer|PBL 105",
+    "image": "https://images.scrydex.com/pokemon/me5-105/large",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Full Art",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -4238,6 +4280,24 @@
     ]
   },
   {
+    "name": "Decidueye ex",
+    "type": "Pokémon",
+    "key": "decidueyeex",
+    "set": "POR",
+    "num": "12",
+    "printKey": "decidueyeex|POR 12",
+    "image": "https://images.scrydex.com/pokemon/me3-12/large",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Decidueye-GX",
     "type": "Pokémon",
     "key": "decidueyegx",
@@ -4695,7 +4755,7 @@
     "num": "92",
     "printKey": "doublecolorlessenergy|NXD 92",
     "image": "https://images.pokemontcg.io/bw4/92_hires.png",
-    "total": 28,
+    "total": 32,
     "variants": [
       {
         "version": "Standard",
@@ -4743,6 +4803,12 @@
         "version": "World Champs",
         "qty": 4,
         "source": "CMT (2012)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 4,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -4966,7 +5032,7 @@
     "num": "130",
     "printKey": "dragapultex|TWM 130",
     "image": "https://images.pokemontcg.io/sv6/130_hires.png",
-    "total": 5,
+    "total": 6,
     "variants": [
       {
         "version": "World Champs",
@@ -4978,6 +5044,12 @@
         "version": "World Champs",
         "qty": 3,
         "source": "Dragapult (2025)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -6214,6 +6286,24 @@
         "version": "Standard",
         "qty": 1,
         "source": "ZoroGardy (2018)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Enriching Energy",
+    "type": "Energy",
+    "key": "enrichingenergy",
+    "set": "SSP",
+    "num": "191",
+    "printKey": "enrichingenergy|SSP 191",
+    "image": "https://images.pokemontcg.io/sv8/191_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -8656,6 +8746,24 @@
     ]
   },
   {
+    "name": "Grand Tree",
+    "type": "Supporter",
+    "key": "grandtree",
+    "set": "SCR",
+    "num": "136",
+    "printKey": "grandtree|SCR 136",
+    "image": "https://images.pokemontcg.io/sv7/136_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Grass Energy",
     "type": "Energy",
     "key": "grassenergy",
@@ -10877,7 +10985,7 @@
     "num": "75",
     "printKey": "latiasex|M2a 75",
     "image": "https://images.pokemontcg.io/sv8/76_hires.png",
-    "total": 3,
+    "total": 4,
     "variants": [
       {
         "version": "Japanese",
@@ -10889,6 +10997,12 @@
         "version": "Japanese",
         "qty": 2,
         "source": "Slowking (2026)",
+        "verified": true
+      },
+      {
+        "version": "Japanese",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ],
@@ -10902,7 +11016,7 @@
     "num": "76",
     "printKey": "latiasex|SSP 76",
     "image": "https://images.pokemontcg.io/sv8/76_hires.png",
-    "total": 2,
+    "total": 3,
     "variants": [
       {
         "version": "World Champs",
@@ -10914,6 +11028,12 @@
         "version": "World Champs",
         "qty": 1,
         "source": "Raging Bolt (2025)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -10938,6 +11058,24 @@
         "version": "Standard",
         "qty": 1,
         "source": "Malamar (2019)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Legacy Energy",
+    "type": "Energy",
+    "key": "legacyenergy",
+    "set": "TWM",
+    "num": "167",
+    "printKey": "legacyenergy|TWM 167",
+    "image": "https://images.pokemontcg.io/sv6/167_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -12541,12 +12679,18 @@
     "num": "117",
     "printKey": "maximumbelt|PRE 117",
     "image": "https://images.pokemontcg.io/sv8pt5/117_hires.png",
-    "total": 1,
+    "total": 2,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
         "source": "Charizard Pidgeot (2025)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -12626,6 +12770,24 @@
         "version": "World Champs",
         "qty": 1,
         "source": "Mega Audino (2016)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Megaton Blower",
+    "type": "Item",
+    "key": "megatonblower",
+    "set": "SSP",
+    "num": "182",
+    "printKey": "megatonblower|SSP 182",
+    "image": "https://images.pokemontcg.io/sv8/182_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -12723,7 +12885,7 @@
     "num": "62",
     "printKey": "meowthex|POR 62",
     "image": "https://images.scrydex.com/pokemon/me3-62/large",
-    "total": 3,
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
@@ -12741,6 +12903,12 @@
         "version": "Standard",
         "qty": 1,
         "source": "Dragapult Dusknoir (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -14110,12 +14278,18 @@
     "num": "162",
     "printKey": "neoupperenergy|TEF 162",
     "image": "https://images.pokemontcg.io/sv5/162_hires.png",
-    "total": 1,
+    "total": 2,
     "variants": [
       {
         "version": "World Champs",
         "qty": 1,
         "source": "Dragapult (2025)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -14608,6 +14782,24 @@
         "version": "World Champs",
         "qty": 1,
         "source": "Fusion Strike Mew (2023)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Oricorio ex",
+    "type": "Pokémon",
+    "key": "oricorioex",
+    "set": "PFL",
+    "num": "18",
+    "printKey": "oricorioex|PFL 18",
+    "image": "https://images.pokemontcg.io/me2/18_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -15947,12 +16139,18 @@
     "num": "119",
     "printKey": "primecatcher|PRE 119",
     "image": "https://images.pokemontcg.io/sv8pt5/119_hires.png",
-    "total": 1,
+    "total": 2,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
         "source": "Cynthia's Garchomp (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -18863,6 +19061,24 @@
     ]
   },
   {
+    "name": "Scoop Up Cyclone",
+    "type": "Item",
+    "key": "scoopupcyclone",
+    "set": "PRE",
+    "num": "128",
+    "printKey": "scoopupcyclone|PRE 128",
+    "image": "https://images.pokemontcg.io/sv8pt5/128_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Scoop Up Net",
     "type": "Item",
     "key": "scoopupnet",
@@ -18918,6 +19134,24 @@
         "version": "World Champs",
         "qty": 1,
         "source": "TDK (2014)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Scramble Switch",
+    "type": "Item",
+    "key": "scrambleswitch",
+    "set": "SSP",
+    "num": "186",
+    "printKey": "scrambleswitch|SSP 186",
+    "image": "https://images.pokemontcg.io/sv8/186_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -19596,6 +19830,24 @@
         "version": "Standard",
         "qty": 1,
         "source": "Perfection Mewtwo (2019)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Sparkling Crystal",
+    "type": "Item",
+    "key": "sparklingcrystal",
+    "set": "SCR",
+    "num": "142",
+    "printKey": "sparklingcrystal|SCR 142",
+    "image": "https://images.pokemontcg.io/sv7/142_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -21410,15 +21662,40 @@
     "num": "81",
     "printKey": "teamrocketsmewtwoex|DRI 81",
     "image": "https://images.pokemontcg.io/sv10/81_hires.png",
-    "total": 2,
+    "total": 3,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
         "source": "Rocket's Mewtwo (2026)",
         "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
       }
     ]
+  },
+  {
+    "name": "Team Rocket's Mewtwo ex",
+    "type": "Pokémon",
+    "key": "teamrocketsmewtwoex",
+    "set": "M2a",
+    "num": "63",
+    "printKey": "teamrocketsmewtwoex|M2a 63",
+    "image": "https://images.pokemontcg.io/sv10/81_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Japanese",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ],
+    "standIn": "stand-in: the card is the Japanese M2a 63 print, which has no catalogued image"
   },
   {
     "name": "Team Rocket's Mimikyu",
@@ -23414,6 +23691,24 @@
         "version": "Standard",
         "qty": 2,
         "source": "Green's Reshizard (2019)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Volcanion ex",
+    "type": "Pokémon",
+    "key": "volcanionex",
+    "set": "JTG",
+    "num": "31",
+    "printKey": "volcanionex|JTG 31",
+    "image": "https://images.pokemontcg.io/sv9/31_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
