@@ -8131,12 +8131,18 @@
     "num": "14",
     "printKey": "fightingenergy|SVE 14",
     "image": "https://images.pokemontcg.io/sve/14_hires.png",
-    "total": 4,
+    "total": 12,
     "variants": [
       {
         "version": "Standard",
         "qty": 4,
         "source": "Cynthia's Garchomp (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 8,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -8420,7 +8426,7 @@
     "num": "10",
     "printKey": "fireenergy|SVE 10",
     "image": "https://images.pokemontcg.io/sve/10_hires.png",
-    "total": 10,
+    "total": 12,
     "variants": [
       {
         "version": "Standard",
@@ -8437,6 +8443,12 @@
       {
         "version": "Prize Pack",
         "qty": 4,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
         "source": "Spare",
         "verified": true
       }
@@ -9948,15 +9960,39 @@
     "type": "Energy",
     "key": "grassenergy",
     "set": "SVE",
+    "num": "1",
+    "printKey": "grassenergy|SVE 1",
+    "image": "https://images.pokemontcg.io/sve/1_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Grass Energy",
+    "type": "Energy",
+    "key": "grassenergy",
+    "set": "SVE",
     "num": "9",
     "printKey": "grassenergy|SVE 9",
     "image": "https://images.pokemontcg.io/sve/9_hires.png",
-    "total": 6,
+    "total": 12,
     "variants": [
       {
         "version": "Standard",
         "qty": 6,
         "source": "Rocket's Mewtwo (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 6,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -12853,6 +12889,24 @@
     "name": "Lightning Energy",
     "type": "Energy",
     "key": "lightningenergy",
+    "set": "SVE",
+    "num": "12",
+    "printKey": "lightningenergy|SVE 12",
+    "image": "https://images.pokemontcg.io/sve/12_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Lightning Energy",
+    "type": "Energy",
+    "key": "lightningenergy",
     "set": "XY",
     "num": "",
     "printKey": "lightningenergy|XY",
@@ -14751,6 +14805,24 @@
         "version": "Standard",
         "qty": 11,
         "source": "Combo Zacian (2020)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Metal Energy",
+    "type": "Energy",
+    "key": "metalenergy",
+    "set": "SVE",
+    "num": "16",
+    "printKey": "metalenergy|SVE 16",
+    "image": "https://images.pokemontcg.io/sve/16_hires.png",
+    "total": 12,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 12,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -26843,6 +26915,24 @@
         "version": "Standard",
         "qty": 8,
         "source": "Ice Rider (2021)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Water Energy",
+    "type": "Energy",
+    "key": "waterenergy",
+    "set": "SVE",
+    "num": "11",
+    "printKey": "waterenergy|SVE 11",
+    "image": "https://images.pokemontcg.io/sve/11_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
         "verified": true
       }
     ]
