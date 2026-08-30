@@ -20700,11 +20700,11 @@
     "num": "81",
     "printKey": "rustsyndicategrunt|PBL 81",
     "image": "https://images.scrydex.com/pokemon/me5-81/large",
-    "total": 11,
+    "total": 1,
     "variants": [
       {
         "version": "Standard",
-        "qty": 11,
+        "qty": 1,
         "source": "Spare",
         "verified": true
       }
