@@ -380,7 +380,6 @@
   .inv-var b{color:var(--ink); font-variant-numeric:tabular-nums}
   .inv-set{background:var(--band-b); border-radius:4px; padding:0 5px; font-variant-numeric:tabular-nums}
   .inv-decks{display:block; color:var(--muted); font-size:12px; margin-top:3px; line-height:1.45}
-  .inv-spare{color:var(--miss-orange-line); font-weight:600}
   /* game log */
   .gl-filters{display:flex; flex-wrap:wrap; gap:10px; margin-bottom:12px}
   .gl-filters .cc-select{flex:1 1 200px}
@@ -1660,9 +1659,9 @@ function renderInventory(){
     }).join('');
     // g.decks is already just the current-format usage this row supplies from
     // its loose stock; decks holding assigned copies are named on the lines above.
-    const parts = g.decks.map(([d,n]) => `${esc(d)} ×${n}`);
-    if(g.spare > 0) parts.push(`<span class="inv-spare">Spare ×${g.spare}</span>`);
-    const decks = parts.join(' · ');
+    // No "Spare ×N" tag: each loose stack already says Spare on its own line,
+    // with the tick beside it. Vig had it dropped on 2026-08-30 as redundant.
+    const decks = g.decks.map(([d,n]) => `${esc(d)} ×${n}`).join(' · ');
     return `<div class="inv-item${img ? '' : ' inv-noimg'}" data-img="${esc(img)}" data-name="${esc(g.name)}"${g.standIn ? ` data-standin="${esc(g.standIn)}"` : ''}>
       <span class="inv-main">
         <span class="inv-title"><span class="inv-name">${esc(g.name)}</span>`
