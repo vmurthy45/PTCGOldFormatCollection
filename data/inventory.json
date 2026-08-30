@@ -8030,6 +8030,24 @@
     "name": "Fighting Energy",
     "type": "Energy",
     "key": "fightingenergy",
+    "set": "B2",
+    "num": "125",
+    "printKey": "fightingenergy|B2 125",
+    "image": "https://images.pokemontcg.io/base4/125_hires.png",
+    "total": 8,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 8,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Fighting Energy",
+    "type": "Energy",
+    "key": "fightingenergy",
     "set": "BLW",
     "num": "110",
     "printKey": "fightingenergy|BLW 110",
@@ -8058,7 +8076,7 @@
     "num": "97",
     "printKey": "fightingenergy|BS 97",
     "image": "https://images.pokemontcg.io/base1/97_hires.png",
-    "total": 9,
+    "total": 39,
     "variants": [
       {
         "version": "Standard",
@@ -8076,6 +8094,30 @@
         "version": "Standard",
         "qty": 4,
         "source": "Rapid Strike Urshifu (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 30,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Fighting Energy",
+    "type": "Energy",
+    "key": "fightingenergy",
+    "set": "GH",
+    "num": "127",
+    "printKey": "fightingenergy|GH 127",
+    "image": "https://images.pokemontcg.io/gym1/127_hires.png",
+    "total": 17,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 17,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -8347,7 +8389,7 @@
     "num": "98",
     "printKey": "fireenergy|BS 98",
     "image": "https://images.pokemontcg.io/base1/98_hires.png",
-    "total": 17,
+    "total": 20,
     "variants": [
       {
         "version": "Standard",
@@ -8359,6 +8401,12 @@
         "version": "Standard",
         "qty": 3,
         "source": "Cinccino Mill (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -9862,11 +9910,29 @@
     "name": "Grass Energy",
     "type": "Energy",
     "key": "grassenergy",
+    "set": "B2",
+    "num": "127",
+    "printKey": "grassenergy|B2 127",
+    "image": "https://images.pokemontcg.io/base4/127_hires.png",
+    "total": 9,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 9,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Grass Energy",
+    "type": "Energy",
+    "key": "grassenergy",
     "set": "BS",
     "num": "99",
     "printKey": "grassenergy|BS 99",
     "image": "https://images.pokemontcg.io/base1/99_hires.png",
-    "total": 13,
+    "total": 46,
     "variants": [
       {
         "version": "Standard",
@@ -9885,6 +9951,12 @@
         "qty": 3,
         "source": "DeciTales (2017)",
         "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 33,
+        "source": "Spare",
+        "verified": true
       }
     ]
   },
@@ -9896,12 +9968,18 @@
     "num": "129",
     "printKey": "grassenergy|GH 129",
     "image": "https://images.pokemontcg.io/gym1/129_hires.png",
-    "total": 6,
+    "total": 18,
     "variants": [
       {
         "version": "Standard",
         "qty": 6,
         "source": "CMT (2012)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 12,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -12814,7 +12892,7 @@
     "num": "130",
     "printKey": "lightningenergy|GH 130",
     "image": "https://images.pokemontcg.io/gym1/130_hires.png",
-    "total": 7,
+    "total": 10,
     "variants": [
       {
         "version": "Standard",
@@ -12826,6 +12904,12 @@
         "version": "Standard",
         "qty": 2,
         "source": "Blastoise (2013)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -19213,16 +19297,40 @@
     "name": "Psychic Energy",
     "type": "Energy",
     "key": "psychicenergy",
+    "set": "BS",
+    "num": "101",
+    "printKey": "psychicenergy|BS 101",
+    "image": "https://images.pokemontcg.io/base1/101_hires.png",
+    "total": 26,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 26,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Psychic Energy",
+    "type": "Energy",
+    "key": "psychicenergy",
     "set": "GH",
     "num": "131",
     "printKey": "psychicenergy|GH 131",
     "image": "https://images.pokemontcg.io/gym1/131_hires.png",
-    "total": 2,
+    "total": 5,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
         "source": "Malamar Rapid Strike (2022)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -19251,6 +19359,24 @@
       }
     ],
     "standIn": "stand-in: the Mega Evolution energy set is not catalogued, so this shows the same energy's Scarlet & Violet Energies art"
+  },
+  {
+    "name": "Psychic Energy",
+    "type": "Energy",
+    "key": "psychicenergy",
+    "set": "N1",
+    "num": "110",
+    "printKey": "psychicenergy|N1 110",
+    "image": "https://images.pokemontcg.io/neo1/110_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Psychic Energy",
@@ -26806,12 +26932,18 @@
     "num": "130",
     "printKey": "waterenergy|B2 130",
     "image": "https://images.pokemontcg.io/base4/130_hires.png",
-    "total": 5,
+    "total": 14,
     "variants": [
       {
         "version": "Standard",
         "qty": 5,
         "source": "Empoleon Swampert (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 9,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -26842,7 +26974,7 @@
     "num": "102",
     "printKey": "waterenergy|BS 102",
     "image": "https://images.pokemontcg.io/base1/102_hires.png",
-    "total": 16,
+    "total": 21,
     "variants": [
       {
         "version": "Standard",
@@ -26854,6 +26986,12 @@
         "version": "Standard",
         "qty": 10,
         "source": "Blastoise (2013)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 5,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -26872,6 +27010,24 @@
         "version": "Standard",
         "qty": 3,
         "source": "ToadBats (2015)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Water Energy",
+    "type": "Energy",
+    "key": "waterenergy",
+    "set": "GH",
+    "num": "132",
+    "printKey": "waterenergy|GH 132",
+    "image": "https://images.pokemontcg.io/gym1/132_hires.png",
+    "total": 13,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 13,
+        "source": "Spare",
         "verified": true
       }
     ]
