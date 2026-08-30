@@ -174,6 +174,24 @@
     ]
   },
   {
+    "name": "Acerola",
+    "type": "Supporter",
+    "key": "acerola",
+    "set": "BUS",
+    "num": "112a",
+    "printKey": "acerola|BUS 112a",
+    "image": "https://images.pokemontcg.io/sm3/112a_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "2nd Place League Challenge",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Acro Bike",
     "type": "Trainer",
     "key": "acrobike",
@@ -505,6 +523,24 @@
         "version": "Standard",
         "qty": 2,
         "source": "ADP Zacian (2020)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Arceus Prism Star",
+    "type": "Pokémon",
+    "key": "arceusprismstar",
+    "set": "FLI",
+    "num": "96",
+    "printKey": "arceusprismstar|FLI 96",
+    "image": "https://images.pokemontcg.io/sm6/96_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -1447,6 +1483,24 @@
         "version": "Standard",
         "qty": 2,
         "source": "Blastoise (2013)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Black Market Prism Star",
+    "type": "Stadium",
+    "key": "blackmarketprismstar",
+    "set": "TEU",
+    "num": "134",
+    "printKey": "blackmarketprismstar|TEU 134",
+    "image": "https://images.pokemontcg.io/sm9/134_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -2485,6 +2539,42 @@
     ]
   },
   {
+    "name": "Celebi Prism Star",
+    "type": "Pokémon",
+    "key": "celebiprismstar",
+    "set": "LOT",
+    "num": "19",
+    "printKey": "celebiprismstar|LOT 19",
+    "image": "https://images.pokemontcg.io/sm8/19_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Celesteela",
+    "type": "Pokémon",
+    "key": "celesteela",
+    "set": "CES",
+    "num": "100",
+    "printKey": "celesteela|CES 100",
+    "image": "https://images.pokemontcg.io/sm7/100_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "League Promo",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Chaotic Swell",
     "type": "Trainer",
     "key": "chaoticswell",
@@ -2504,6 +2594,24 @@
         "version": "Standard",
         "qty": 2,
         "source": "Eternatus (2021)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Charizard",
+    "type": "Pokémon",
+    "key": "charizard",
+    "set": "BCR",
+    "num": "20",
+    "printKey": "charizard|BCR 20",
+    "image": "https://images.pokemontcg.io/bw7/20_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -2780,6 +2888,24 @@
         "version": "World Champs",
         "qty": 3,
         "source": "DeciPod (2017)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Choice Band",
+    "type": "Item",
+    "key": "choiceband",
+    "set": "GRI",
+    "num": "121a",
+    "printKey": "choiceband|GRI 121a",
+    "image": "https://images.pokemontcg.io/sm2/121a_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "OCIC Promo",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -3182,7 +3308,7 @@
     "num": "71",
     "printKey": "computersearch|BS 71",
     "image": "https://images.pokemontcg.io/base1/71_hires.png",
-    "total": 2,
+    "total": 3,
     "variants": [
       {
         "version": "Standard",
@@ -3194,6 +3320,12 @@
         "version": "Standard",
         "qty": 1,
         "source": "ToadBats (2015)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -3968,6 +4100,24 @@
     ]
   },
   {
+    "name": "Cyrus Prism Star",
+    "type": "Supporter",
+    "key": "cyrusprismstar",
+    "set": "UPR",
+    "num": "120",
+    "printKey": "cyrusprismstar|UPR 120",
+    "image": "https://images.pokemontcg.io/sm5/120_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Cyrus's Conspiracy",
     "type": "Trainer",
     "key": "cyrussconspiracy",
@@ -4203,6 +4353,24 @@
         "version": "World Champs",
         "qty": 10,
         "source": "Darkrai Giratina (2016)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Darkrai Prism Star",
+    "type": "Pokémon",
+    "key": "darkraiprismstar",
+    "set": "UPR",
+    "num": "77",
+    "printKey": "darkraiprismstar|UPR 77",
+    "image": "https://images.pokemontcg.io/sm5/77_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -4472,6 +4640,24 @@
     ]
   },
   {
+    "name": "Deoxys",
+    "type": "Pokémon",
+    "key": "deoxys",
+    "set": "CES",
+    "num": "67",
+    "printKey": "deoxys|CES 67",
+    "image": "https://images.pokemontcg.io/sm7/67_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Deoxys-EX",
     "type": "Pokémon",
     "key": "deoxysex",
@@ -4581,7 +4767,7 @@
     "num": "74",
     "printKey": "diancieprismstar|FLI 74",
     "image": "https://images.pokemontcg.io/sm6/74_hires.png",
-    "total": 2,
+    "total": 3,
     "variants": [
       {
         "version": "World Champs",
@@ -4593,6 +4779,12 @@
         "version": "Standard",
         "qty": 1,
         "source": "Buzz Garb Shrine (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -4689,7 +4881,7 @@
     "num": "90",
     "printKey": "doublecolorlessenergy|EVO 90",
     "image": "https://images.pokemontcg.io/xy12/90_hires.png",
-    "total": 8,
+    "total": 9,
     "variants": [
       {
         "version": "Standard",
@@ -4701,6 +4893,12 @@
         "version": "Standard",
         "qty": 4,
         "source": "Mega Rayquaza (2017)",
+        "verified": true
+      },
+      {
+        "version": "OCIC Promo",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -4773,7 +4971,7 @@
     "num": "103",
     "printKey": "doublecolorlessenergy|HS 103",
     "image": "https://images.pokemontcg.io/hgss1/103_hires.png",
-    "total": 8,
+    "total": 9,
     "variants": [
       {
         "version": "World Champs",
@@ -4785,6 +4983,12 @@
         "version": "World Champs",
         "qty": 4,
         "source": "Boltevoir (2010)",
+        "verified": true
+      },
+      {
+        "version": "League Promo",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -5031,7 +5235,7 @@
     "num": "128",
     "printKey": "dowsingmachine|PLS 128",
     "image": "https://images.pokemontcg.io/bw8/128_hires.png",
-    "total": 2,
+    "total": 3,
     "variants": [
       {
         "version": "World Champs",
@@ -5043,6 +5247,12 @@
         "version": "World Champs",
         "qty": 1,
         "source": "RayEels (2013)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -8177,12 +8387,18 @@
     "num": "92",
     "printKey": "gbooster|PLB 92",
     "image": "https://images.pokemontcg.io/bw10/92_hires.png",
-    "total": 1,
+    "total": 2,
     "variants": [
       {
         "version": "World Champs",
         "qty": 1,
         "source": "VirGen (2014)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -8279,7 +8495,7 @@
     "num": "57",
     "printKey": "garbodor|BKP 57",
     "image": "https://images.pokemontcg.io/xy9/57_hires.png",
-    "total": 8,
+    "total": 9,
     "variants": [
       {
         "version": "World Champs",
@@ -8310,6 +8526,12 @@
         "qty": 2,
         "source": "Darkrai Giratina (2016)",
         "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
       }
     ]
   },
@@ -8321,7 +8543,7 @@
     "num": "51",
     "printKey": "garbodor|GRI 51",
     "image": "https://images.pokemontcg.io/sm2/51_hires.png",
-    "total": 11,
+    "total": 12,
     "variants": [
       {
         "version": "World Champs",
@@ -8351,6 +8573,12 @@
         "version": "Standard",
         "qty": 3,
         "source": "Espeon Garbodor (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -8740,6 +8968,24 @@
     ]
   },
   {
+    "name": "Giratina Prism Star",
+    "type": "Pokémon",
+    "key": "giratinaprismstar",
+    "set": "UPR",
+    "num": "58",
+    "printKey": "giratinaprismstar|UPR 58",
+    "image": "https://images.pokemontcg.io/sm5/58_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Giratina VSTAR",
     "type": "Pokémon",
     "key": "giratinavstar",
@@ -8795,6 +9041,24 @@
         "version": "World Champs",
         "qty": 3,
         "source": "Lando Bats (2015)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Gold Potion",
+    "type": "Item",
+    "key": "goldpotion",
+    "set": "BCR",
+    "num": "140",
+    "printKey": "goldpotion|BCR 140",
+    "image": "https://images.pokemontcg.io/bw7/140_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -9484,6 +9748,24 @@
     ]
   },
   {
+    "name": "Head Ringer",
+    "type": "Item",
+    "key": "headringer",
+    "set": "PHF",
+    "num": "97",
+    "printKey": "headringer|PHF 97",
+    "image": "https://images.pokemontcg.io/xy4/97_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Heat Factory Prism Star",
     "type": "Trainer",
     "key": "heatfactoryprismstar",
@@ -9491,7 +9773,7 @@
     "num": "178",
     "printKey": "heatfactoryprismstar|LOT 178",
     "image": "https://images.pokemontcg.io/sm8/178_hires.png",
-    "total": 4,
+    "total": 5,
     "variants": [
       {
         "version": "World Champs",
@@ -9515,6 +9797,12 @@
         "version": "Standard",
         "qty": 1,
         "source": "Baby Blacephalon (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -10403,7 +10691,7 @@
     "num": "99",
     "printKey": "jirachi|TEU 99",
     "image": "https://images.pokemontcg.io/sm9/99_hires.png",
-    "total": 17,
+    "total": 18,
     "variants": [
       {
         "version": "World Champs",
@@ -10433,6 +10721,12 @@
         "version": "Standard",
         "qty": 3,
         "source": "Spiritomb (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -10721,6 +11015,24 @@
         "version": "Standard",
         "qty": 1,
         "source": "Spiritomb (2021)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Kabutops",
+    "type": "Pokémon",
+    "key": "kabutops",
+    "set": "TEU",
+    "num": "78",
+    "printKey": "kabutops|TEU 78",
+    "image": "https://images.pokemontcg.io/sm9/78_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -11249,6 +11561,24 @@
     ]
   },
   {
+    "name": "Latias Prism Star",
+    "type": "Pokémon",
+    "key": "latiasprismstar",
+    "set": "CES",
+    "num": "107",
+    "printKey": "latiasprismstar|CES 107",
+    "image": "https://images.pokemontcg.io/sm7/107_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Latias-EX",
     "type": "Pokémon",
     "key": "latiasex",
@@ -11514,6 +11844,42 @@
         "version": "Standard",
         "qty": 1,
         "source": "Eternatus (2021)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Life Dew",
+    "type": "Item",
+    "key": "lifedew",
+    "set": "PLF",
+    "num": "107",
+    "printKey": "lifedew|PLF 107",
+    "image": "https://images.pokemontcg.io/bw9/107_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Life Forest Prism Star",
+    "type": "Stadium",
+    "key": "lifeforestprismstar",
+    "set": "LOT",
+    "num": "180",
+    "printKey": "lifeforestprismstar|LOT 180",
+    "image": "https://images.pokemontcg.io/sm8/180_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -12180,6 +12546,24 @@
     ]
   },
   {
+    "name": "Lunala Prism Star",
+    "type": "Pokémon",
+    "key": "lunalaprismstar",
+    "set": "UPR",
+    "num": "62",
+    "printKey": "lunalaprismstar|UPR 62",
+    "image": "https://images.pokemontcg.io/sm5/62_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Lusamine",
     "type": "Trainer",
     "key": "lusamine",
@@ -12193,6 +12577,24 @@
         "version": "Standard",
         "qty": 1,
         "source": "Green's Reshizard (2019)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Lusamine Prism Star",
+    "type": "Supporter",
+    "key": "lusamineprismstar",
+    "set": "LOT",
+    "num": "182",
+    "printKey": "lusamineprismstar|LOT 182",
+    "image": "https://images.pokemontcg.io/sm8/182_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -12420,6 +12822,24 @@
     ]
   },
   {
+    "name": "Lysandre Prism Star",
+    "type": "Supporter",
+    "key": "lysandreprismstar",
+    "set": "FLI",
+    "num": "110",
+    "printKey": "lysandreprismstar|FLI 110",
+    "image": "https://images.pokemontcg.io/sm6/110_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "M Audino-EX",
     "type": "Pokémon",
     "key": "maudinoex",
@@ -12493,6 +12913,24 @@
         "version": "World Champs",
         "qty": 1,
         "source": "Boltevoir (2010)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Machoke",
+    "type": "Pokémon",
+    "key": "machoke",
+    "set": "GRI",
+    "num": "64",
+    "printKey": "machoke|GRI 64",
+    "image": "https://images.pokemontcg.io/sm2/64_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -12781,12 +13219,18 @@
     "num": "45",
     "printKey": "marshadow|SLG 45",
     "image": "https://images.pokemontcg.io/sm35/45_hires.png",
-    "total": 2,
+    "total": 5,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
         "source": "Turbo Rayquaza (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -13569,12 +14013,18 @@
     "num": "75",
     "printKey": "mewtwo|UNB 75",
     "image": "https://images.pokemontcg.io/sm10/75_hires.png",
-    "total": 1,
+    "total": 2,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
         "source": "Spiritomb (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -14854,12 +15304,18 @@
     "num": "16",
     "printKey": "ninetales|TEU 16",
     "image": "https://images.pokemontcg.io/sm9/16_hires.png",
-    "total": 2,
+    "total": 4,
     "variants": [
       {
         "version": "World Champs",
         "qty": 2,
         "source": "Reshizard Firebox (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -14938,6 +15394,24 @@
         "version": "World Champs",
         "qty": 2,
         "source": "Urshifu VMAX (2022)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Omastar",
+    "type": "Pokémon",
+    "key": "omastar",
+    "set": "TEU",
+    "num": "76",
+    "printKey": "omastar|TEU 76",
+    "image": "https://images.pokemontcg.io/sm9/76_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -16343,6 +16817,24 @@
         "version": "Standard",
         "qty": 3,
         "source": "Whimsicott GX (2019)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Porygon-Z",
+    "type": "Pokémon",
+    "key": "porygonz",
+    "set": "PR-BLW",
+    "num": "BW84",
+    "printKey": "porygonz|PR-BLW BW84",
+    "image": "https://images.pokemontcg.io/bwp/BW84_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Prerelease Promo",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -19727,6 +20219,24 @@
     ]
   },
   {
+    "name": "Shaymin Prism Star",
+    "type": "Pokémon",
+    "key": "shayminprismstar",
+    "set": "TEU",
+    "num": "10",
+    "printKey": "shayminprismstar|TEU 10",
+    "image": "https://images.pokemontcg.io/sm9/10_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Shaymin-EX",
     "type": "Pokémon",
     "key": "shayminex",
@@ -20226,6 +20736,24 @@
         "version": "World Champs",
         "qty": 4,
         "source": "Urshifu VMAX (2022)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Solgaleo Prism Star",
+    "type": "Pokémon",
+    "key": "solgaleoprismstar",
+    "set": "UPR",
+    "num": "89",
+    "printKey": "solgaleoprismstar|UPR 89",
+    "image": "https://images.pokemontcg.io/sm5/89_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -21438,7 +21966,7 @@
     "num": "53",
     "printKey": "tapufini|UNM 53",
     "image": "https://images.pokemontcg.io/sm11/53_hires.png",
-    "total": 2,
+    "total": 3,
     "variants": [
       {
         "version": "World Champs",
@@ -21450,6 +21978,12 @@
         "version": "Standard",
         "qty": 1,
         "source": "Combo Zacian (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -21510,12 +22044,18 @@
     "num": "51",
     "printKey": "tapukokoprismstar|TEU 51",
     "image": "https://images.pokemontcg.io/sm9/51_hires.png",
-    "total": 1,
+    "total": 3,
     "variants": [
       {
         "version": "World Champs",
         "qty": 1,
         "source": "Pikarom Judge (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -21636,12 +22176,36 @@
     "num": "137",
     "printKey": "tapulelegx|GRI 137",
     "image": "https://images.pokemontcg.io/sm2/137_hires.png",
-    "total": 1,
+    "total": 3,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
         "source": "Turbo Rayquaza (2018)",
+        "verified": true
+      },
+      {
+        "version": "Proxy",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Tapu Lele-GX",
+    "type": "Pokémon",
+    "key": "tapulelegx",
+    "set": "GRI",
+    "num": "155",
+    "printKey": "tapulelegx|GRI 155",
+    "image": "https://images.pokemontcg.io/sm2/155_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Proxy",
+        "qty": 2,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -22653,12 +23217,18 @@
     "num": "191",
     "printKey": "thundermountainprismstar|LOT 191",
     "image": "https://images.pokemontcg.io/sm8/191_hires.png",
-    "total": 1,
+    "total": 2,
     "variants": [
       {
         "version": "World Champs",
         "qty": 1,
         "source": "Pikarom Judge (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -23061,7 +23631,7 @@
     "num": "56",
     "printKey": "trubbish|BKP 56",
     "image": "https://images.pokemontcg.io/xy9/56_hires.png",
-    "total": 16,
+    "total": 17,
     "variants": [
       {
         "version": "World Champs",
@@ -23091,6 +23661,12 @@
         "version": "World Champs",
         "qty": 2,
         "source": "Darkrai Giratina (2016)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -23139,12 +23715,18 @@
     "num": "50",
     "printKey": "turtonator|DRM 50",
     "image": "https://images.pokemontcg.io/sm75/50_hires.png",
-    "total": 1,
+    "total": 2,
     "variants": [
       {
         "version": "World Champs",
         "qty": 1,
         "source": "Reshizard Firebox (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -23637,7 +24219,7 @@
     "num": "135",
     "printKey": "ultraball|SUM 135",
     "image": "https://images.pokemontcg.io/sm1/135_hires.png",
-    "total": 18,
+    "total": 19,
     "variants": [
       {
         "version": "Standard",
@@ -23673,6 +24255,12 @@
         "version": "World Champs",
         "qty": 4,
         "source": "DeciPod (2017)",
+        "verified": true
+      },
+      {
+        "version": "OCIC Promo",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -24003,12 +24591,36 @@
     "num": "7",
     "printKey": "victiniprismstar|DRM 7",
     "image": "https://images.pokemontcg.io/sm75/7_hires.png",
-    "total": 1,
+    "total": 2,
     "variants": [
       {
         "version": "World Champs",
         "qty": 1,
         "source": "Reshizard Firebox (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Victory Piece",
+    "type": "Item",
+    "key": "victorypiece",
+    "set": "PLS",
+    "num": "130",
+    "printKey": "victorypiece|PLS 130",
+    "image": "https://images.pokemontcg.io/bw8/130_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -24206,6 +24818,24 @@
     ]
   },
   {
+    "name": "Volcanion Prism Star",
+    "type": "Pokémon",
+    "key": "volcanionprismstar",
+    "set": "FLI",
+    "num": "31",
+    "printKey": "volcanionprismstar|FLI 31",
+    "image": "https://images.pokemontcg.io/sm6/31_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Volkner",
     "type": "Trainer",
     "key": "volkner",
@@ -24357,12 +24987,18 @@
     "num": "15",
     "printKey": "vulpix|TEU 15",
     "image": "https://images.pokemontcg.io/sm9/15_hires.png",
-    "total": 2,
+    "total": 4,
     "variants": [
       {
         "version": "World Champs",
         "qty": 2,
         "source": "Reshizard Firebox (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -24683,6 +25319,24 @@
     "name": "Wobbuffet",
     "type": "Pokémon",
     "key": "wobbuffet",
+    "set": "LOT",
+    "num": "93",
+    "printKey": "wobbuffet|LOT 93",
+    "image": "https://images.pokemontcg.io/sm8/93_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Wobbuffet",
+    "type": "Pokémon",
+    "key": "wobbuffet",
     "set": "PHF",
     "num": "36",
     "printKey": "wobbuffet|PHF 36",
@@ -24729,6 +25383,24 @@
         "version": "Standard",
         "qty": 1,
         "source": "Whimsicott GX (2019)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Wondrous Labyrinth Prism Star",
+    "type": "Stadium",
+    "key": "wondrouslabyrinthprismstar",
+    "set": "TEU",
+    "num": "158",
+    "printKey": "wondrouslabyrinthprismstar|TEU 158",
+    "image": "https://images.pokemontcg.io/sm9/158_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -25029,6 +25701,24 @@
         "version": "World Champs",
         "qty": 1,
         "source": "Miraidon (2024)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Zapdos",
+    "type": "Pokémon",
+    "key": "zapdos",
+    "set": "TEU",
+    "num": "40",
+    "printKey": "zapdos|TEU 40",
+    "image": "https://images.pokemontcg.io/sm9/40_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Spare",
         "verified": true
       }
     ]

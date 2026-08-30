@@ -135,6 +135,14 @@ Hosted free on GitHub Pages.
   different card as though it were this one. Set `standIn` whenever an image
   does not depict the actual card; clear it when a real one becomes available.
 
+  **Promo and prize stampings go on the `version`.** A card that shares its
+  number with the ordinary print but carries a stamp -- OCIC Promo, League
+  Promo, Prerelease Promo, "2nd Place League Challenge" -- is recorded as its
+  own variant on the same row, so it reads as a separate line rather than
+  merging with the plain copies (Vig asked for this on 2026-08-30). `version` is
+  free text; only "World Champs" and "Proxy" are special-cased by the UI, so any
+  other label counts toward the Standard pill, which is correct for a promo.
+
   **A card subbed in for a different card is NOT a Proxy version.** Vig was
   explicit on 2026-08-25: a stand-in is an ordinary card being played in another
   card's slot, so the inventory `version` stays **Standard** (or whatever finish
