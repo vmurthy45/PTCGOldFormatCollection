@@ -186,7 +186,13 @@ Hosted free on GitHub Pages.
   from the cards themselves. **When that pass finishes, diff the new stock
   against that archive and report the gaps** -- a card the sheet claimed but the
   box lacks may mean a lost card, a mis-logged purchase, or a bad deck
-  assignment. Deck stacks were untouched (2084/2084 still verified). The old
+  assignment.
+
+  **Never move a spare into a deck on your own initiative.** A loose copy of a
+  card a deck is short is a common and unremarkable state -- Vig owns the card,
+  it just is not sleeved. He said on 2026-08-30 that he will say explicitly when
+  a card moves from a spare box into a deck. Report the overlap if it is worth
+  knowing, but leave the stack sourced to `"Spare"` until he says otherwise. Deck stacks were untouched (2084/2084 still verified). The old
   order of work was — once every deck has claimed its
   copies, whatever is still `"Spare"` is what is physically loose.
   2026 decks stay display-only — deck `prints`/missing markers are never
