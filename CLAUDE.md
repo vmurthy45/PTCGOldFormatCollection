@@ -127,8 +127,13 @@ Hosted free on GitHub Pages.
   blue=WC here specifically.
 
   **Stand-in images.** Some prints have no catalogued picture anywhere: the
-  Japanese-only sets (M2a/M3/MEP/s12a), the BW Trainer Kit (`BWTK`), and basic
-  energies printed without a collector number (`SSH`, `TEU`, unnumbered `SUM`).
+  Japanese-only sets (M2a/M3/MEP/s12a), the BW Trainer Kit (`BWTK`), basic
+  energies printed without a collector number (`SSH`, `TEU`, unnumbered `SUM`),
+  and **`MEE`**, the Mega-Evolution-era energy set, which the card API does not
+  carry at all (its Scarlet & Violet counterpart `sve` exists; the ME one does
+  not). MEE rows are numbered 1-8 exactly as SVE is -- Grass, Fire, Water,
+  Lightning, Psychic, Fighting, Darkness, Metal -- and borrow that same energy's
+  SVE artwork.
   Those rows borrow another print's image, and carry a **`standIn`** string
   saying so. The Inventory row shows a small "stand-in image" chip and the card
   modal prints the reason underneath — without it the site quietly presents a

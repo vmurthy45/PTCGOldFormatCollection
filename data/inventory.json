@@ -4517,6 +4517,31 @@
     "name": "Darkness Energy",
     "type": "Energy",
     "key": "darknessenergy",
+    "set": "MEE",
+    "num": "7",
+    "printKey": "darknessenergy|MEE 7",
+    "image": "https://images.pokemontcg.io/sve/7_hires.png",
+    "total": 5,
+    "variants": [
+      {
+        "version": "Prize Pack Holo",
+        "qty": 4,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Prize Pack",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ],
+    "standIn": "stand-in: the Mega Evolution energy set is not catalogued, so this shows the same energy's Scarlet & Violet Energies art"
+  },
+  {
+    "name": "Darkness Energy",
+    "type": "Energy",
+    "key": "darknessenergy",
     "set": "SSH",
     "num": "",
     "printKey": "darknessenergy|SSH",
@@ -4581,12 +4606,18 @@
     "num": "15",
     "printKey": "darknessenergy|SVE 15",
     "image": "https://images.pokemontcg.io/sve/15_hires.png",
-    "total": 7,
+    "total": 11,
     "variants": [
       {
         "version": "Standard",
         "qty": 7,
         "source": "N's Zoroark (2026)",
+        "verified": true
+      },
+      {
+        "version": "Prize Pack",
+        "qty": 4,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -8053,6 +8084,31 @@
     "name": "Fighting Energy",
     "type": "Energy",
     "key": "fightingenergy",
+    "set": "MEE",
+    "num": "6",
+    "printKey": "fightingenergy|MEE 6",
+    "image": "https://images.pokemontcg.io/sve/6_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "Prize Pack Holo",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      }
+    ],
+    "standIn": "stand-in: the Mega Evolution energy set is not catalogued, so this shows the same energy's Scarlet & Violet Energies art"
+  },
+  {
+    "name": "Fighting Energy",
+    "type": "Energy",
+    "key": "fightingenergy",
     "set": "SUM",
     "num": "169",
     "printKey": "fightingenergy|SUM 169",
@@ -8305,6 +8361,31 @@
     "name": "Fire Energy",
     "type": "Energy",
     "key": "fireenergy",
+    "set": "MEE",
+    "num": "2",
+    "printKey": "fireenergy|MEE 2",
+    "image": "https://images.pokemontcg.io/sve/2_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "Prize Pack Holo",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      }
+    ],
+    "standIn": "stand-in: the Mega Evolution energy set is not catalogued, so this shows the same energy's Scarlet & Violet Energies art"
+  },
+  {
+    "name": "Fire Energy",
+    "type": "Energy",
+    "key": "fireenergy",
     "set": "SUM",
     "num": "165",
     "printKey": "fireenergy|SUM 165",
@@ -8339,12 +8420,24 @@
     "num": "10",
     "printKey": "fireenergy|SVE 10",
     "image": "https://images.pokemontcg.io/sve/10_hires.png",
-    "total": 3,
+    "total": 10,
     "variants": [
       {
         "version": "Standard",
         "qty": 3,
         "source": "Dragapult (2026)",
+        "verified": true
+      },
+      {
+        "version": "Prize Pack Holo",
+        "qty": 3,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Prize Pack",
+        "qty": 4,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -9800,6 +9893,25 @@
         "verified": true
       }
     ]
+  },
+  {
+    "name": "Grass Energy",
+    "type": "Energy",
+    "key": "grassenergy",
+    "set": "MEE",
+    "num": "1",
+    "printKey": "grassenergy|MEE 1",
+    "image": "https://images.pokemontcg.io/sve/1_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Prize Pack",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      }
+    ],
+    "standIn": "stand-in: the Mega Evolution energy set is not catalogued, so this shows the same energy's Scarlet & Violet Energies art"
   },
   {
     "name": "Grass Energy",
@@ -12686,6 +12798,31 @@
     "name": "Lightning Energy",
     "type": "Energy",
     "key": "lightningenergy",
+    "set": "MEE",
+    "num": "4",
+    "printKey": "lightningenergy|MEE 4",
+    "image": "https://images.pokemontcg.io/sve/4_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "Prize Pack Holo",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ],
+    "standIn": "stand-in: the Mega Evolution energy set is not catalogued, so this shows the same energy's Scarlet & Violet Energies art"
+  },
+  {
+    "name": "Lightning Energy",
+    "type": "Energy",
+    "key": "lightningenergy",
     "set": "SUM",
     "num": "167",
     "printKey": "lightningenergy|SUM 167",
@@ -14561,6 +14698,31 @@
     "name": "Metal Energy",
     "type": "Energy",
     "key": "metalenergy",
+    "set": "MEE",
+    "num": "8",
+    "printKey": "metalenergy|MEE 8",
+    "image": "https://images.pokemontcg.io/sve/8_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Prize Pack",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      }
+    ],
+    "standIn": "stand-in: the Mega Evolution energy set is not catalogued, so this shows the same energy's Scarlet & Violet Energies art"
+  },
+  {
+    "name": "Metal Energy",
+    "type": "Energy",
+    "key": "metalenergy",
     "set": "SSH",
     "num": "",
     "printKey": "metalenergy|SSH",
@@ -15129,12 +15291,18 @@
     "num": "161",
     "printKey": "mistenergy|TEF 161",
     "image": "https://images.pokemontcg.io/sv5/161_hires.png",
-    "total": 1,
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
         "source": "Charizard Pidgeot (2025)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -18133,6 +18301,24 @@
     "name": "Prism Energy",
     "type": "Energy",
     "key": "prismenergy",
+    "set": "ASC",
+    "num": "216",
+    "printKey": "prismenergy|ASC 216",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-216/large",
+    "total": 6,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 6,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Prism Energy",
+    "type": "Energy",
+    "key": "prismenergy",
     "set": "NXD",
     "num": "93",
     "printKey": "prismenergy|NXD 93",
@@ -18973,6 +19159,31 @@
     "name": "Psychic Energy",
     "type": "Energy",
     "key": "psychicenergy",
+    "set": "MEE",
+    "num": "5",
+    "printKey": "psychicenergy|MEE 5",
+    "image": "https://images.pokemontcg.io/sve/5_hires.png",
+    "total": 6,
+    "variants": [
+      {
+        "version": "Prize Pack Holo",
+        "qty": 5,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ],
+    "standIn": "stand-in: the Mega Evolution energy set is not catalogued, so this shows the same energy's Scarlet & Violet Energies art"
+  },
+  {
+    "name": "Psychic Energy",
+    "type": "Energy",
+    "key": "psychicenergy",
     "set": "SSH",
     "num": "",
     "printKey": "psychicenergy|SSH",
@@ -19049,12 +19260,42 @@
     "num": "13",
     "printKey": "psychicenergy|SVE 13",
     "image": "https://images.pokemontcg.io/sve/13_hires.png",
-    "total": 2,
+    "total": 7,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
         "source": "Hide 'n' Sneak (2026)",
+        "verified": true
+      },
+      {
+        "version": "Prize Pack Holo",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Prize Pack",
+        "qty": 4,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Psychic Energy",
+    "type": "Energy",
+    "key": "psychicenergy",
+    "set": "SVE",
+    "num": "5",
+    "printKey": "psychicenergy|SVE 5",
+    "image": "https://images.pokemontcg.io/sve/5_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Prize Pack Holo",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -21359,6 +21600,24 @@
     ]
   },
   {
+    "name": "Shadowy Darkness Energy",
+    "type": "Energy",
+    "key": "shadowydarknessenergy",
+    "set": "PBL",
+    "num": "83",
+    "printKey": "shadowydarknessenergy|PBL 83",
+    "image": "https://images.scrydex.com/pokemon/me5-83/large",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Shauna",
     "type": "Trainer",
     "key": "shauna",
@@ -22116,6 +22375,24 @@
         "version": "Standard",
         "qty": 4,
         "source": "Spiritomb (2021)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Spiky Energy",
+    "type": "Energy",
+    "key": "spikyenergy",
+    "set": "JTG",
+    "num": "159",
+    "printKey": "spikyenergy|JTG 159",
+    "image": "https://images.pokemontcg.io/sv9/159_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -23858,12 +24135,18 @@
     "num": "182",
     "printKey": "teamrocketsenergy|DRI 182",
     "image": "https://images.pokemontcg.io/sv10/182_hires.png",
-    "total": 2,
+    "total": 3,
     "variants": [
       {
         "version": "Prize Pack",
         "qty": 2,
         "source": "Rocket's Honchkrow (2026)",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -26210,6 +26493,24 @@
     ]
   },
   {
+    "name": "Voltaic Lightning Energy",
+    "type": "Energy",
+    "key": "voltaiclightningenergy",
+    "set": "PBL",
+    "num": "84",
+    "printKey": "voltaiclightningenergy|PBL 84",
+    "image": "https://images.scrydex.com/pokemon/me5-84/large",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "VS Seeker",
     "type": "Trainer",
     "key": "vsseeker",
@@ -26502,6 +26803,25 @@
         "verified": true
       }
     ]
+  },
+  {
+    "name": "Water Energy",
+    "type": "Energy",
+    "key": "waterenergy",
+    "set": "MEE",
+    "num": "3",
+    "printKey": "waterenergy|MEE 3",
+    "image": "https://images.pokemontcg.io/sve/3_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Prize Pack",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      }
+    ],
+    "standIn": "stand-in: the Mega Evolution energy set is not catalogued, so this shows the same energy's Scarlet & Violet Energies art"
   },
   {
     "name": "Water Energy",
