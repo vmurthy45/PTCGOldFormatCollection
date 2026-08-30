@@ -294,6 +294,30 @@
     ]
   },
   {
+    "name": "Aether Paradise Conservation Area",
+    "type": "Stadium",
+    "key": "aetherparadiseconservationarea",
+    "set": "GRI",
+    "num": "116",
+    "printKey": "aetherparadiseconservationarea|GRI 116",
+    "image": "https://images.pokemontcg.io/sm2/116_hires.png",
+    "total": 6,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 5,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Air Balloon",
     "type": "Item",
     "key": "airballoon",
@@ -444,6 +468,30 @@
     ]
   },
   {
+    "name": "All-Night Party",
+    "type": "Stadium",
+    "key": "allnightparty",
+    "set": "BKP",
+    "num": "96",
+    "printKey": "allnightparty|BKP 96",
+    "image": "https://images.pokemontcg.io/xy9/96_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Alolan Ninetales-GX",
     "type": "Pokémon",
     "key": "alolanninetalesgx",
@@ -487,6 +535,54 @@
         "version": "Standard",
         "qty": 2,
         "source": "DeciTales (2017)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Altar of the Moone",
+    "type": "Stadium",
+    "key": "altarofthemoone",
+    "set": "GRI",
+    "num": "117",
+    "printKey": "altarofthemoone|GRI 117",
+    "image": "https://images.pokemontcg.io/sm2/117_hires.png",
+    "total": 6,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 5,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Altar of the Sunne",
+    "type": "Stadium",
+    "key": "altarofthesunne",
+    "set": "GRI",
+    "num": "118",
+    "printKey": "altarofthesunne|GRI 118",
+    "image": "https://images.pokemontcg.io/sm2/118_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -1614,6 +1710,24 @@
     ]
   },
   {
+    "name": "Blizzard Town",
+    "type": "Stadium",
+    "key": "blizzardtown",
+    "set": "UNM",
+    "num": "187",
+    "printKey": "blizzardtown|UNM 187",
+    "image": "https://images.pokemontcg.io/sm11/187_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Bloodmoon Ursaluna ex",
     "type": "Pokémon",
     "key": "bloodmoonursalunaex",
@@ -2180,7 +2294,7 @@
     "num": "120",
     "printKey": "brooklethill|GRI 120",
     "image": "https://images.pokemontcg.io/sm2/120_hires.png",
-    "total": 9,
+    "total": 10,
     "variants": [
       {
         "version": "Standard",
@@ -2198,6 +2312,12 @@
         "version": "World Champs",
         "qty": 3,
         "source": "Buzzwole Lycanroc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -2690,7 +2810,7 @@
     "num": "187",
     "printKey": "chaoticswell|CEC 187",
     "image": "https://images.pokemontcg.io/sm12/187_hires.png",
-    "total": 3,
+    "total": 8,
     "variants": [
       {
         "version": "Standard",
@@ -2702,6 +2822,12 @@
         "version": "Standard",
         "qty": 2,
         "source": "Eternatus (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 5,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -4412,6 +4538,24 @@
     ]
   },
   {
+    "name": "Dark City",
+    "type": "Stadium",
+    "key": "darkcity",
+    "set": "UNM",
+    "num": "193",
+    "printKey": "darkcity|UNM 193",
+    "image": "https://images.pokemontcg.io/sm11/193_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Dark Claw",
     "type": "Trainer",
     "key": "darkclaw",
@@ -5019,6 +5163,24 @@
     ]
   },
   {
+    "name": "Devoured Field",
+    "type": "Stadium",
+    "key": "devouredfield",
+    "set": "CIN",
+    "num": "93",
+    "printKey": "devouredfield|CIN 93",
+    "image": "https://images.pokemontcg.io/sm4/93_hires.png",
+    "total": 6,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 6,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Dhelmise",
     "type": "Pokémon",
     "key": "dhelmise",
@@ -5140,12 +5302,18 @@
     "num": "93",
     "printKey": "dimensionvalley|PHF 93",
     "image": "https://images.pokemontcg.io/xy4/93_hires.png",
-    "total": 3,
+    "total": 5,
     "variants": [
       {
         "version": "Standard",
         "qty": 3,
         "source": "Night March (2016)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -6335,6 +6503,24 @@
         "version": "World Champs",
         "qty": 2,
         "source": "Dragapult (2025)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Dust Island",
+    "type": "Stadium",
+    "key": "dustisland",
+    "set": "UNB",
+    "num": "168",
+    "printKey": "dustisland|UNB 168",
+    "image": "https://images.pokemontcg.io/sm10/168_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -7606,6 +7792,24 @@
     ]
   },
   {
+    "name": "Faded Town",
+    "type": "Stadium",
+    "key": "fadedtown",
+    "set": "AOR",
+    "num": "73",
+    "printKey": "fadedtown|AOR 73",
+    "image": "https://images.pokemontcg.io/xy7/73_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Fairy Charm L",
     "type": "Trainer",
     "key": "fairycharml",
@@ -7679,12 +7883,18 @@
     "num": "117",
     "printKey": "fairygarden|XY 117",
     "image": "https://images.pokemontcg.io/xy1/117_hires.png",
-    "total": 4,
+    "total": 8,
     "variants": [
       {
         "version": "World Champs",
         "qty": 4,
         "source": "Mega Kangaskhan (2014)",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 4,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -9127,6 +9337,24 @@
     ]
   },
   {
+    "name": "Galar Mine",
+    "type": "Stadium",
+    "key": "galarmine",
+    "set": "RCL",
+    "num": "160",
+    "printKey": "galarmine|RCL 160",
+    "image": "https://images.pokemontcg.io/swsh2/160_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Galarian Moltres V",
     "type": "Pokémon",
     "key": "galarianmoltresv",
@@ -9590,7 +9818,7 @@
     "num": "197",
     "printKey": "gianthearth|UNM 197",
     "image": "https://images.pokemontcg.io/sm11/197_hires.png",
-    "total": 9,
+    "total": 13,
     "variants": [
       {
         "version": "World Champs",
@@ -9614,6 +9842,12 @@
         "version": "Standard",
         "qty": 2,
         "source": "Blacephalon GX (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -9757,6 +9991,24 @@
       {
         "version": "Prize Pack",
         "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Glimwood Tangle",
+    "type": "Stadium",
+    "key": "glimwoodtangle",
+    "set": "DAA",
+    "num": "162",
+    "printKey": "glimwoodtangle|DAA 162",
+    "image": "https://images.pokemontcg.io/swsh3/162_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
         "source": "Spare",
         "verified": true
       }
@@ -12597,6 +12849,24 @@
     ]
   },
   {
+    "name": "Lavender Town",
+    "type": "Stadium",
+    "key": "lavendertown",
+    "set": "TEU",
+    "num": "147",
+    "printKey": "lavendertown|TEU 147",
+    "image": "https://images.pokemontcg.io/sm9/147_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Legacy Energy",
     "type": "Energy",
     "key": "legacyenergy",
@@ -13884,7 +14154,7 @@
     "num": "111",
     "printKey": "lysandrelabs|FLI 111",
     "image": "https://images.pokemontcg.io/sm6/111_hires.png",
-    "total": 3,
+    "total": 7,
     "variants": [
       {
         "version": "World Champs",
@@ -13896,6 +14166,12 @@
         "version": "Standard",
         "qty": 1,
         "source": "Green's Reshizard (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -14100,6 +14376,24 @@
         "version": "World Champs",
         "qty": 4,
         "source": "Gyarados (2010)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Magma Basin",
+    "type": "Stadium",
+    "key": "magmabasin",
+    "set": "BRS",
+    "num": "144",
+    "printKey": "magmabasin|BRS 144",
+    "image": "https://images.pokemontcg.io/swsh9/144_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -14352,6 +14646,24 @@
         "version": "Standard",
         "qty": 1,
         "source": "Empoleon Swampert (2018)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Martial Arts Dojo",
+    "type": "Stadium",
+    "key": "martialartsdojo",
+    "set": "UNB",
+    "num": "179",
+    "printKey": "martialartsdojo|UNB 179",
+    "image": "https://images.pokemontcg.io/sm10/179_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -15542,6 +15854,24 @@
     ]
   },
   {
+    "name": "Mount Lanakila",
+    "type": "Stadium",
+    "key": "mountlanakila",
+    "set": "BUS",
+    "num": "118",
+    "printKey": "mountlanakila|BUS 118",
+    "image": "https://images.pokemontcg.io/sm3/118_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Mr. Mime",
     "type": "Pokémon",
     "key": "mrmime",
@@ -15591,6 +15921,24 @@
         "version": "World Champs",
         "qty": 1,
         "source": "VirGen (2014)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Mt. Coronet",
+    "type": "Stadium",
+    "key": "mtcoronet",
+    "set": "UPR",
+    "num": "130",
+    "printKey": "mtcoronet|UPR 130",
+    "image": "https://images.pokemontcg.io/sm5/130_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -17590,6 +17938,24 @@
     ]
   },
   {
+    "name": "Po Town",
+    "type": "Stadium",
+    "key": "potown",
+    "set": "BUS",
+    "num": "121",
+    "printKey": "potown|BUS 121",
+    "image": "https://images.pokemontcg.io/sm3/121_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Poipole",
     "type": "Pokémon",
     "key": "poipole",
@@ -18287,7 +18653,7 @@
     "num": "183",
     "printKey": "powerplant|UNB 183",
     "image": "https://images.pokemontcg.io/sm10/183_hires.png",
-    "total": 4,
+    "total": 12,
     "variants": [
       {
         "version": "World Champs",
@@ -18305,6 +18671,12 @@
         "version": "Standard",
         "qty": 1,
         "source": "Green's Reshizard (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 8,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -21055,12 +21427,18 @@
     "num": "110",
     "printKey": "reversevalley|BKP 110",
     "image": "https://images.pokemontcg.io/xy9/110_hires.png",
-    "total": 1,
+    "total": 4,
     "variants": [
       {
         "version": "World Champs",
         "qty": 1,
         "source": "Darkrai Giratina (2016)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -21343,7 +21721,7 @@
     "num": "137",
     "printKey": "roughseas|PRC 137",
     "image": "https://images.pokemontcg.io/xy5/137_hires.png",
-    "total": 5,
+    "total": 12,
     "variants": [
       {
         "version": "World Champs",
@@ -21355,6 +21733,18 @@
         "version": "World Champs",
         "qty": 2,
         "source": "Archie's Blastoise (2015)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 3,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -21618,6 +22008,24 @@
     ]
   },
   {
+    "name": "Scorched Earth",
+    "type": "Stadium",
+    "key": "scorchedearth",
+    "set": "PRC",
+    "num": "138",
+    "printKey": "scorchedearth|PRC 138",
+    "image": "https://images.pokemontcg.io/xy5/138_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Scramble Switch",
     "type": "Item",
     "key": "scrambleswitch",
@@ -21672,6 +22080,24 @@
     ]
   },
   {
+    "name": "Sea of Nothingness",
+    "type": "Stadium",
+    "key": "seaofnothingness",
+    "set": "CIN",
+    "num": "99",
+    "printKey": "seaofnothingness|CIN 99",
+    "image": "https://images.pokemontcg.io/sm4/99_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Secret Box",
     "type": "Trainer",
     "key": "secretbox",
@@ -21720,6 +22146,24 @@
       {
         "version": "Standard",
         "qty": 4,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Shadow Circle",
+    "type": "Stadium",
+    "key": "shadowcircle",
+    "set": "XY",
+    "num": "126",
+    "printKey": "shadowcircle|XY 126",
+    "image": "https://images.pokemontcg.io/xy1/126_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
         "source": "Spare",
         "verified": true
       }
@@ -22032,6 +22476,24 @@
     ]
   },
   {
+    "name": "Shrine of Memories",
+    "type": "Stadium",
+    "key": "shrineofmemories",
+    "set": "PRC",
+    "num": "139",
+    "printKey": "shrineofmemories|PRC 139",
+    "image": "https://images.pokemontcg.io/xy5/139_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Shrine of Punishment",
     "type": "Trainer",
     "key": "shrineofpunishment",
@@ -22039,7 +22501,7 @@
     "num": "143",
     "printKey": "shrineofpunishment|CES 143",
     "image": "https://images.pokemontcg.io/sm7/143_hires.png",
-    "total": 4,
+    "total": 7,
     "variants": [
       {
         "version": "Standard",
@@ -22051,6 +22513,12 @@
         "version": "Reverse Holo",
         "qty": 1,
         "source": "Green's Reshizard (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -22099,12 +22567,24 @@
     "num": "140",
     "printKey": "silentlab|PRC 140",
     "image": "https://images.pokemontcg.io/xy5/140_hires.png",
-    "total": 2,
+    "total": 6,
     "variants": [
       {
         "version": "World Champs",
         "qty": 2,
         "source": "Lando Bats (2015)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 2,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -22159,12 +22639,42 @@
     "num": "89",
     "printKey": "skyfield|ROS 89",
     "image": "https://images.pokemontcg.io/xy6/89_hires.png",
-    "total": 4,
+    "total": 10,
     "variants": [
       {
         "version": "Reverse Holo",
         "qty": 4,
         "source": "Mega Rayquaza (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 5,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Sky Pillar",
+    "type": "Stadium",
+    "key": "skypillar",
+    "set": "CES",
+    "num": "144",
+    "printKey": "skypillar|CES 144",
+    "image": "https://images.pokemontcg.io/sm7/144_hires.png",
+    "total": 6,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 6,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -22177,7 +22687,7 @@
     "num": "91",
     "printKey": "skyarrowbridge|NXD 91",
     "image": "https://images.pokemontcg.io/bw4/91_hires.png",
-    "total": 5,
+    "total": 6,
     "variants": [
       {
         "version": "World Champs",
@@ -22189,6 +22699,12 @@
         "version": "Standard",
         "qty": 2,
         "source": "CMT (2012)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -22315,6 +22831,24 @@
         "version": "Standard",
         "qty": 4,
         "source": "Slowking (2026)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Slumbering Forest",
+    "type": "Stadium",
+    "key": "slumberingforest",
+    "set": "UNM",
+    "num": "207",
+    "printKey": "slumberingforest|UNM 207",
+    "image": "https://images.pokemontcg.io/sm11/207_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -24092,6 +24626,24 @@
     ]
   },
   {
+    "name": "Team Aqua's Secret Base",
+    "type": "Stadium",
+    "key": "teamaquassecretbase",
+    "set": "DCR",
+    "num": "28",
+    "printKey": "teamaquassecretbase|DCR 28",
+    "image": "https://images.pokemontcg.io/dc1/28_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Team Galactic's Invention G-101 Energy Gain",
     "type": "Trainer",
     "key": "teamgalacticsinventiong101energygain",
@@ -24165,6 +24717,24 @@
         "version": "World Champs",
         "qty": 3,
         "source": "LuxChomp (2010)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Team Magma's Secret Base",
+    "type": "Stadium",
+    "key": "teammagmassecretbase",
+    "set": "DCR",
+    "num": "32",
+    "printKey": "teammagmassecretbase|DCR 32",
+    "image": "https://images.pokemontcg.io/dc1/32_hires.png",
+    "total": 8,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 8,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -24754,12 +25324,18 @@
     "num": "210",
     "printKey": "teamrocketswatchtower|ASC 210",
     "image": "https://images.scrydex.com/pokemon/me2pt5-210/large",
-    "total": 2,
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
         "source": "Dragapult Dusknoir (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -25203,6 +25779,24 @@
     ]
   },
   {
+    "name": "Tower of Darkness",
+    "type": "Stadium",
+    "key": "towerofdarkness",
+    "set": "BST",
+    "num": "137",
+    "printKey": "towerofdarkness|BST 137",
+    "image": "https://images.pokemontcg.io/swsh5/137_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Tower of Waters",
     "type": "Trainer",
     "key": "towerofwaters",
@@ -25210,7 +25804,7 @@
     "num": "138",
     "printKey": "towerofwaters|BST 138",
     "image": "https://images.pokemontcg.io/swsh5/138_hires.png",
-    "total": 4,
+    "total": 6,
     "variants": [
       {
         "version": "Standard",
@@ -25228,6 +25822,12 @@
         "version": "World Champs",
         "qty": 2,
         "source": "Urshifu VMAX (2022)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -25348,12 +25948,18 @@
     "num": "169",
     "printKey": "trainingcourt|RCL 169",
     "image": "https://images.pokemontcg.io/swsh2/169_hires.png",
-    "total": 1,
+    "total": 6,
     "variants": [
       {
         "version": "World Champs",
         "qty": 1,
         "source": "Ice Rider Palkia (2022)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 5,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -25515,6 +26121,24 @@
       {
         "version": "Reverse Holo",
         "qty": 3,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Turffield Stadium",
+    "type": "Stadium",
+    "key": "turffieldstadium",
+    "set": "RCL",
+    "num": "170",
+    "printKey": "turffieldstadium|RCL 170",
+    "image": "https://images.pokemontcg.io/swsh2/170_hires.png",
+    "total": 9,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 9,
         "source": "Spare",
         "verified": true
       }
@@ -26158,7 +26782,7 @@
     "num": "115",
     "printKey": "ultraspace|FLI 115",
     "image": "https://images.pokemontcg.io/sm6/115_hires.png",
-    "total": 2,
+    "total": 5,
     "variants": [
       {
         "version": "Standard",
@@ -26170,6 +26794,12 @@
         "version": "Standard",
         "qty": 1,
         "source": "Baby Blacephalon (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -26470,7 +27100,7 @@
     "num": "126",
     "printKey": "virbankcitygym|PLS 126",
     "image": "https://images.pokemontcg.io/bw8/126_hires.png",
-    "total": 10,
+    "total": 12,
     "variants": [
       {
         "version": "Standard",
@@ -26507,6 +27137,12 @@
         "qty": 1,
         "source": "ToadBats (2015)",
         "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
       }
     ]
   },
@@ -26518,7 +27154,7 @@
     "num": "156",
     "printKey": "viridianforest|TEU 156",
     "image": "https://images.pokemontcg.io/sm9/156_hires.png",
-    "total": 3,
+    "total": 13,
     "variants": [
       {
         "version": "Standard",
@@ -26530,6 +27166,12 @@
         "version": "Standard",
         "qty": 2,
         "source": "Malamar (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 10,
+        "source": "Spare",
         "verified": true
       }
     ]
