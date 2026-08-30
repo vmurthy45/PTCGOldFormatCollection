@@ -194,12 +194,15 @@ Hosted free on GitHub Pages.
   **The old spare figures were cleared on 2026-08-30.** They were never
   observed -- `spare = sheet copies - deck copies` -- and the deck pass had just
   corrected ~200 prints in that same sheet, while anything never on the sheet
-  was absent entirely. 149 stacks / 293 copies are archived verbatim in
-  `data/archive/spares_2026-08-30.json` and Vig is now entering the loose boxes
-  from the cards themselves. **When that pass finishes, diff the new stock
-  against that archive and report the gaps** -- a card the sheet claimed but the
-  box lacks may mean a lost card, a mis-logged purchase, or a bad deck
-  assignment.
+  was absent entirely. 149 stacks / 293 copies sit in
+  `data/archive/spares_2026-08-30.json`, and Vig is entering the loose boxes
+  from the cards themselves.
+
+  **Do not diff the new count against that archive.** An earlier note here said
+  to; Vig ruled it out on 2026-08-30 -- "that was a made up number all along".
+  The archive is a record of what was removed, not a baseline, and gaps against
+  it mean nothing. The physical count is the only truth about the spare boxes;
+  do not quote 293, or any figure derived from it, as a benchmark.
 
   **The Inventory no longer infers anything about spares.** It used to assume a
   current-format deck short of a card was drawing on loose stock and quietly
