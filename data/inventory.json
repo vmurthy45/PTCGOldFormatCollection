@@ -301,7 +301,7 @@
     "num": "181",
     "printKey": "airballoon|ASC 181",
     "image": "https://images.scrydex.com/pokemon/me2pt5-181/large",
-    "total": 10,
+    "total": 18,
     "variants": [
       {
         "version": "Standard",
@@ -337,6 +337,12 @@
         "version": "Standard",
         "qty": 1,
         "source": "Alakazam (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 8,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -2234,7 +2240,7 @@
     "num": "101",
     "printKey": "buddybuddypoffin|PRE 101",
     "image": "https://images.pokemontcg.io/sv8pt5/101_hires.png",
-    "total": 9,
+    "total": 10,
     "variants": [
       {
         "version": "Standard",
@@ -2264,6 +2270,12 @@
         "version": "Standard",
         "qty": 1,
         "source": "Alakazam (2026)",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -2374,16 +2386,40 @@
     "name": "Bug Catching Set",
     "type": "Item",
     "key": "bugcatchingset",
+    "set": "PRE",
+    "num": "102",
+    "printKey": "bugcatchingset|PRE 102",
+    "image": "https://images.pokemontcg.io/sv8pt5/102_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Bug Catching Set",
+    "type": "Item",
+    "key": "bugcatchingset",
     "set": "TWM",
     "num": "143",
     "printKey": "bugcatchingset|TWM 143",
     "image": "https://images.pokemontcg.io/sv6/143_hires.png",
-    "total": 2,
+    "total": 3,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
         "source": "Rocket's Mewtwo (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -4239,12 +4275,18 @@
     "num": "162",
     "printKey": "cynthiaspowerweight|DRI 162",
     "image": "https://images.pokemontcg.io/sv10/162_hires.png",
-    "total": 3,
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
         "qty": 3,
         "source": "Cynthia's Garchomp (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -4347,6 +4389,24 @@
         "version": "World Champs",
         "qty": 4,
         "source": "LuxChomp (2010)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Dark Bell",
+    "type": "Item",
+    "key": "darkbell",
+    "set": "PBL",
+    "num": "75",
+    "printKey": "darkbell|PBL 75",
+    "image": "https://images.scrydex.com/pokemon/me5-75/large",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -8105,12 +8165,18 @@
     "num": "187",
     "printKey": "fightinggong|ASC 187",
     "image": "https://images.scrydex.com/pokemon/me2pt5-187/large",
-    "total": 3,
+    "total": 7,
     "variants": [
       {
         "version": "Standard",
         "qty": 3,
         "source": "Cynthia's Garchomp (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -8123,12 +8189,18 @@
     "num": "116",
     "printKey": "fightinggong|MEG 116",
     "image": "https://images.pokemontcg.io/me1/116_hires.png",
-    "total": 1,
+    "total": 2,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
         "source": "Cynthia's Garchomp (2026)",
+        "verified": true
+      },
+      {
+        "version": "Prize Pack Holo",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -8855,12 +8927,24 @@
     "num": "164",
     "printKey": "futureboosterenergycapsule|PAR 164",
     "image": "https://images.pokemontcg.io/sv4/164_hires.png",
-    "total": 3,
+    "total": 5,
     "variants": [
       {
         "version": "World Champs",
         "qty": 3,
         "source": "Iron Thorns (2024)",
+        "verified": true
+      },
+      {
+        "version": "Prize Pack Holo",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -9503,6 +9587,24 @@
         "version": "World Champs",
         "qty": 2,
         "source": "Darkrai Giratina (2016)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Glass Trumpet",
+    "type": "Item",
+    "key": "glasstrumpet",
+    "set": "SCR",
+    "num": "135",
+    "printKey": "glasstrumpet|SCR 135",
+    "image": "https://images.pokemontcg.io/sv7/135_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Prize Pack",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -10627,6 +10729,24 @@
         "source": "Ho-Oh Salazzle (2017)",
         "verified": true
       },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Hole-Digging Shovel",
+    "type": "Item",
+    "key": "holediggingshovel",
+    "set": "POR",
+    "num": "74",
+    "printKey": "holediggingshovel|POR 74",
+    "image": "https://images.scrydex.com/pokemon/me3-74/large",
+    "total": 1,
+    "variants": [
       {
         "version": "Standard",
         "qty": 1,
@@ -12834,6 +12954,24 @@
     ]
   },
   {
+    "name": "Lillie's Pearl",
+    "type": "Item",
+    "key": "lilliespearl",
+    "set": "JTG",
+    "num": "151",
+    "printKey": "lilliespearl|JTG 151",
+    "image": "https://images.pokemontcg.io/sv9/151_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Lillie's Poké Doll",
     "type": "Trainer",
     "key": "lilliespokedoll",
@@ -14094,6 +14232,24 @@
     ]
   },
   {
+    "name": "Meddling Memo",
+    "type": "Item",
+    "key": "meddlingmemo",
+    "set": "SSP",
+    "num": "181",
+    "printKey": "meddlingmemo|SSP 181",
+    "image": "https://images.pokemontcg.io/sv8/181_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Medicham V",
     "type": "Pokémon",
     "key": "medichamv",
@@ -14147,6 +14303,42 @@
       }
     ],
     "standIn": "stand-in: the card is the Japanese MEP 25 print, which has no catalogued image"
+  },
+  {
+    "name": "Mega Signal",
+    "type": "Item",
+    "key": "megasignal",
+    "set": "ASC",
+    "num": "193",
+    "printKey": "megasignal|ASC 193",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-193/large",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Mega Signal",
+    "type": "Item",
+    "key": "megasignal",
+    "set": "MEG",
+    "num": "121",
+    "printKey": "megasignal|MEG 121",
+    "image": "https://images.pokemontcg.io/me1/121_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Prize Pack",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mega Turbo",
@@ -15669,12 +15861,36 @@
     "num": "195",
     "printKey": "nsppup|ASC 195",
     "image": "https://images.scrydex.com/pokemon/me2pt5-195/large",
-    "total": 3,
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
         "qty": 3,
         "source": "N's Zoroark (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "N's PP Up",
+    "type": "Item",
+    "key": "nsppup",
+    "set": "JTG",
+    "num": "153",
+    "printKey": "nsppup|JTG 153",
+    "image": "https://images.pokemontcg.io/sv9/153_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Prize Pack",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -17797,6 +18013,24 @@
     "name": "Premium Power Pro",
     "type": "Item",
     "key": "premiumpowerpro",
+    "set": "ASC",
+    "num": "199",
+    "printKey": "premiumpowerpro|ASC 199",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-199/large",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Premium Power Pro",
+    "type": "Item",
+    "key": "premiumpowerpro",
     "set": "MEG",
     "num": "124",
     "printKey": "premiumpowerpro|MEG 124",
@@ -19694,6 +19928,30 @@
     "name": "Rare Candy",
     "type": "Item",
     "key": "rarecandy",
+    "set": "MEG",
+    "num": "125",
+    "printKey": "rarecandy|MEG 125",
+    "image": "https://images.pokemontcg.io/me1/125_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Rare Candy",
+    "type": "Item",
+    "key": "rarecandy",
     "set": "PAF",
     "num": "89",
     "printKey": "rarecandy|PAF 89",
@@ -19968,6 +20226,24 @@
         "version": "Standard",
         "qty": 1,
         "source": "Cinccino Mill (2020)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Redeemable Ticket",
+    "type": "Item",
+    "key": "redeemableticket",
+    "set": "JTG",
+    "num": "156",
+    "printKey": "redeemableticket|JTG 156",
+    "image": "https://images.pokemontcg.io/sv9/156_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -21792,12 +22068,18 @@
     "num": "82",
     "printKey": "specialredcard|CRI 82",
     "image": "https://images.scrydex.com/pokemon/me4-82/large",
-    "total": 1,
+    "total": 2,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
         "source": "Dragapult (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -23943,12 +24225,18 @@
     "num": "209",
     "printKey": "teamrocketstransceiver|ASC 209",
     "image": "https://images.scrydex.com/pokemon/me2pt5-209/large",
-    "total": 3,
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
         "qty": 3,
         "source": "Rocket's Honchkrow (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -24099,12 +24387,18 @@
     "num": "180",
     "printKey": "technoradar|PAR 180",
     "image": "https://images.pokemontcg.io/sv4/180_hires.png",
-    "total": 2,
+    "total": 3,
     "variants": [
       {
         "version": "World Champs",
         "qty": 2,
         "source": "Iron Thorns (2024)",
+        "verified": true
+      },
+      {
+        "version": "Prize Pack",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -25065,7 +25359,7 @@
     "num": "131",
     "printKey": "ultraball|MEG 131",
     "image": "https://images.pokemontcg.io/me1/131_hires.png",
-    "total": 7,
+    "total": 8,
     "variants": [
       {
         "version": "Standard",
@@ -25089,6 +25383,12 @@
         "version": "Standard",
         "qty": 2,
         "source": "Dragapult (2026)",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
