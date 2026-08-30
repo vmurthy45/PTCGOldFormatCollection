@@ -18,6 +18,24 @@
     ]
   },
   {
+    "name": "Abomasnow",
+    "type": "Pokémon",
+    "key": "abomasnow",
+    "set": "ASR-TG",
+    "num": "TG01",
+    "printKey": "abomasnow|ASR-TG TG01",
+    "image": "https://images.pokemontcg.io/swsh10tg/TG01_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Abra",
     "type": "Pokémon",
     "key": "abra",
@@ -2312,12 +2330,18 @@
     "num": "57",
     "printKey": "buzzwolegx|CIN 57",
     "image": "https://images.pokemontcg.io/sm4/57_hires.png",
-    "total": 2,
+    "total": 5,
     "variants": [
       {
         "version": "World Champs",
         "qty": 2,
         "source": "Buzzwole Lycanroc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -3464,7 +3488,7 @@
     "num": "104",
     "printKey": "crobatv|DAA 104",
     "image": "https://images.pokemontcg.io/swsh3/104_hires.png",
-    "total": 5,
+    "total": 7,
     "variants": [
       {
         "version": "Standard",
@@ -3476,6 +3500,12 @@
         "version": "World Champs",
         "qty": 1,
         "source": "ADP Flying Pikachu (2022)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -4185,12 +4215,18 @@
     "num": "74",
     "printKey": "darkraiex|BKP 74",
     "image": "https://images.pokemontcg.io/xy9/74_hires.png",
-    "total": 2,
+    "total": 6,
     "variants": [
       {
         "version": "World Champs",
         "qty": 2,
         "source": "Darkrai Giratina (2016)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -4275,6 +4311,24 @@
         "version": "Reverse Holo",
         "qty": 4,
         "source": "Alakazam (2026)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Dawn Wings Necrozma-GX",
+    "type": "Pokémon",
+    "key": "dawnwingsnecrozmagx",
+    "set": "UPR",
+    "num": "63",
+    "printKey": "dawnwingsnecrozmagx|UPR 63",
+    "image": "https://images.pokemontcg.io/sm5/63_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -4485,12 +4539,18 @@
     "num": "122",
     "printKey": "dialgaglvx|PL 122",
     "image": "https://images.pokemontcg.io/pl1/122_hires.png",
-    "total": 1,
+    "total": 2,
     "variants": [
       {
         "version": "World Champs",
         "qty": 1,
         "source": "LuxChomp (2010)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -5091,6 +5151,24 @@
     ]
   },
   {
+    "name": "Dragonite-EX",
+    "type": "Pokémon",
+    "key": "dragoniteex",
+    "set": "EVO",
+    "num": "72",
+    "printKey": "dragoniteex|EVO 72",
+    "image": "https://images.pokemontcg.io/xy12/72_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Drakloak",
     "type": "Pokémon",
     "key": "drakloak",
@@ -5164,7 +5242,7 @@
     "num": "115",
     "printKey": "drampagx|GRI 115",
     "image": "https://images.pokemontcg.io/sm2/115_hires.png",
-    "total": 3,
+    "total": 4,
     "variants": [
       {
         "version": "World Champs",
@@ -5176,6 +5254,12 @@
         "version": "Standard",
         "qty": 2,
         "source": "Drampa Zoroark (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -5764,12 +5848,18 @@
     "num": "19",
     "printKey": "eldegossv|RCL 19",
     "image": "https://images.pokemontcg.io/swsh2/19_hires.png",
-    "total": 1,
+    "total": 2,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
         "source": "ADP Zacian (2020)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -6166,6 +6256,24 @@
         "version": "Standard",
         "qty": 1,
         "source": "Rocket's Mewtwo (2026)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Energy Switch",
+    "type": "Item",
+    "key": "energyswitch",
+    "set": "ROS",
+    "num": "109",
+    "printKey": "energyswitch|ROS 109",
+    "image": "https://images.pokemontcg.io/xy6/109_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -8087,12 +8195,18 @@
     "num": "97",
     "printKey": "galarianmoltresv|CRE 97",
     "image": "https://images.pokemontcg.io/swsh6/97_hires.png",
-    "total": 1,
+    "total": 2,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
         "source": "Eternatus (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -8363,7 +8477,7 @@
     "num": "93",
     "printKey": "gardevoirgx|BUS 93",
     "image": "https://images.pokemontcg.io/sm3/93_hires.png",
-    "total": 5,
+    "total": 7,
     "variants": [
       {
         "version": "Standard",
@@ -8375,6 +8489,12 @@
         "version": "World Champs",
         "qty": 3,
         "source": "Gardevoir-GX (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -8435,6 +8555,24 @@
         "version": "World Champs",
         "qty": 2,
         "source": "Joltdengo (2025)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Genesect-EX",
+    "type": "Pokémon",
+    "key": "genesectex",
+    "set": "FCO",
+    "num": "64",
+    "printKey": "genesectex|FCO 64",
+    "image": "https://images.pokemontcg.io/xy10/64_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -9382,6 +9520,24 @@
     ]
   },
   {
+    "name": "Heatran-EX",
+    "type": "Pokémon",
+    "key": "heatranex",
+    "set": "PLF",
+    "num": "109",
+    "printKey": "heatranex|PLF 109",
+    "image": "https://images.pokemontcg.io/bw9/109_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Heatran-GX",
     "type": "Pokémon",
     "key": "heatrangx",
@@ -9389,12 +9545,18 @@
     "num": "25",
     "printKey": "heatrangx|UNM 25",
     "image": "https://images.pokemontcg.io/sm11/25_hires.png",
-    "total": 1,
+    "total": 2,
     "variants": [
       {
         "version": "World Champs",
         "qty": 1,
         "source": "Reshizard Firebox (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -9635,12 +9797,18 @@
     "num": "21",
     "printKey": "hoohgx|BUS 21",
     "image": "https://images.pokemontcg.io/sm3/21_hires.png",
-    "total": 3,
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
         "qty": 3,
         "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -9701,6 +9869,24 @@
         "version": "World Champs",
         "qty": 1,
         "source": "Darkrai Giratina (2016)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Hoopa-EX",
+    "type": "Pokémon",
+    "key": "hoopaex",
+    "set": "PR-XY",
+    "num": "XY71",
+    "printKey": "hoopaex|PR-XY XY71",
+    "image": "https://images.pokemontcg.io/xyp/XY71_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -10294,6 +10480,24 @@
     ]
   },
   {
+    "name": "Jirachi-EX",
+    "type": "Pokémon",
+    "key": "jirachiex",
+    "set": "PLB",
+    "num": "98",
+    "printKey": "jirachiex|PLB 98",
+    "image": "https://images.pokemontcg.io/bw10/98_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Jirachi-GX",
     "type": "Pokémon",
     "key": "jirachigx",
@@ -10583,12 +10787,18 @@
     "num": "70",
     "printKey": "kartanagx|CIN 70",
     "image": "https://images.pokemontcg.io/sm4/70_hires.png",
-    "total": 1,
+    "total": 2,
     "variants": [
       {
         "version": "World Champs",
         "qty": 1,
         "source": "ZoroGarb (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -11030,6 +11240,42 @@
         "source": "Raging Bolt (2025)",
         "verified": true
       },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Latias-EX",
+    "type": "Pokémon",
+    "key": "latiasex",
+    "set": "PLF",
+    "num": "85",
+    "printKey": "latiasex|PLF 85",
+    "image": "https://images.pokemontcg.io/bw9/85_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "World Champs",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Latios-EX",
+    "type": "Pokémon",
+    "key": "latiosex",
+    "set": "PR-XY",
+    "num": "XY72",
+    "printKey": "latiosex|PR-XY XY72",
+    "image": "https://images.pokemontcg.io/xyp/XY72_hires.png",
+    "total": 1,
+    "variants": [
       {
         "version": "Standard",
         "qty": 1,
@@ -11881,7 +12127,7 @@
     "num": "40",
     "printKey": "lumineonv|BRS 40",
     "image": "https://images.pokemontcg.io/swsh9/40_hires.png",
-    "total": 5,
+    "total": 6,
     "variants": [
       {
         "version": "World Champs",
@@ -11905,6 +12151,12 @@
         "version": "World Champs",
         "qty": 1,
         "source": "Miraidon (2024)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -12211,12 +12463,18 @@
     "num": "76",
     "printKey": "mrayquazaex|ROS 76",
     "image": "https://images.pokemontcg.io/xy6/76_hires.png",
-    "total": 3,
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
         "qty": 3,
         "source": "Mega Rayquaza (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -12265,7 +12523,7 @@
     "num": "44",
     "printKey": "magcargogx|LOT 44",
     "image": "https://images.pokemontcg.io/sm8/44_hires.png",
-    "total": 2,
+    "total": 3,
     "variants": [
       {
         "version": "Standard",
@@ -12278,6 +12536,12 @@
         "qty": 1,
         "source": "Cinccino Mill (2020)",
         "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
       }
     ]
   },
@@ -12289,12 +12553,18 @@
     "num": "75",
     "printKey": "magearnaex|STS 75",
     "image": "https://images.pokemontcg.io/xy11/75_hires.png",
-    "total": 1,
+    "total": 2,
     "variants": [
       {
         "version": "World Champs",
         "qty": 1,
         "source": "Mega Audino (2016)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -14289,6 +14559,24 @@
     ]
   },
   {
+    "name": "Necrozma-GX",
+    "type": "Pokémon",
+    "key": "necrozmagx",
+    "set": "BUS",
+    "num": "63",
+    "printKey": "necrozmagx|BUS 63",
+    "image": "https://images.pokemontcg.io/sm3/63_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Neo Upper Energy",
     "type": "Energy",
     "key": "neoupperenergy",
@@ -15130,6 +15418,24 @@
         "version": "World Champs",
         "qty": 1,
         "source": "Iron Thorns (2024)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Persian-GX",
+    "type": "Pokémon",
+    "key": "persiangx",
+    "set": "UNB",
+    "num": "149",
+    "printKey": "persiangx|UNB 149",
+    "image": "https://images.pokemontcg.io/sm10/149_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -17897,6 +18203,24 @@
     ]
   },
   {
+    "name": "Rapid Strike Urshifu V",
+    "type": "Pokémon",
+    "key": "rapidstrikeurshifuv",
+    "set": "PR-SW",
+    "num": "SWSH107",
+    "printKey": "rapidstrikeurshifuv|PR-SW SWSH107",
+    "image": "https://images.pokemontcg.io/swshp/SWSH107_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Rapid Strike Urshifu VMAX",
     "type": "Pokémon",
     "key": "rapidstrikeurshifuvmax",
@@ -18150,6 +18474,24 @@
         "version": "World Champs",
         "qty": 3,
         "source": "RayEels (2013)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Rayquaza-EX",
+    "type": "Pokémon",
+    "key": "rayquazaex",
+    "set": "PR-BLW",
+    "num": "BW47",
+    "printKey": "rayquazaex|PR-BLW BW47",
+    "image": "https://images.pokemontcg.io/bwp/BW47_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -19224,12 +19566,24 @@
     "num": "20",
     "printKey": "seismitoadex|FFI 20",
     "image": "https://images.pokemontcg.io/xy3/20_hires.png",
-    "total": 3,
+    "total": 8,
     "variants": [
       {
         "version": "World Champs",
         "qty": 3,
         "source": "ToadBats (2015)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -19376,11 +19730,47 @@
     "name": "Shaymin-EX",
     "type": "Pokémon",
     "key": "shayminex",
+    "set": "LTR",
+    "num": "RC21",
+    "printKey": "shayminex|LTR RC21",
+    "image": "https://images.pokemontcg.io/bw11/RC21_hires.png",
+    "total": 2,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Shaymin-EX",
+    "type": "Pokémon",
+    "key": "shayminex",
+    "set": "NXD",
+    "num": "5",
+    "printKey": "shayminex|NXD 5",
+    "image": "https://images.pokemontcg.io/bw4/5_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Shaymin-EX",
+    "type": "Pokémon",
+    "key": "shayminex",
     "set": "ROS",
     "num": "77",
     "printKey": "shayminex|ROS 77",
     "image": "https://images.pokemontcg.io/xy6/77_hires.png",
-    "total": 21,
+    "total": 22,
     "variants": [
       {
         "version": "Proxy",
@@ -19440,6 +19830,12 @@
         "version": "World Champs",
         "qty": 1,
         "source": "Lando Bats (2015)",
+        "verified": true
+      },
+      {
+        "version": "World Champs",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -20333,6 +20729,24 @@
     ]
   },
   {
+    "name": "Suicune V",
+    "type": "Pokémon",
+    "key": "suicunev",
+    "set": "EVS",
+    "num": "31",
+    "printKey": "suicunev|EVS 31",
+    "image": "https://images.pokemontcg.io/swsh7/31_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Super Boost Energy Prism Star",
     "type": "Energy",
     "key": "superboostenergyprismstar",
@@ -20778,6 +21192,24 @@
         "version": "Standard",
         "qty": 2,
         "source": "CMT (2012)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Switch",
+    "type": "Item",
+    "key": "switch",
+    "set": "PRC",
+    "num": "163",
+    "printKey": "switch|PRC 163",
+    "image": "https://images.pokemontcg.io/xy5/163_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -23294,6 +23726,24 @@
     ]
   },
   {
+    "name": "Ultra Necrozma-GX",
+    "type": "Pokémon",
+    "key": "ultranecrozmagx",
+    "set": "FLI",
+    "num": "95",
+    "printKey": "ultranecrozmagx|FLI 95",
+    "image": "https://images.pokemontcg.io/sm6/95_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Ultra Space",
     "type": "Trainer",
     "key": "ultraspace",
@@ -23739,12 +24189,18 @@
     "num": "26",
     "printKey": "volcanionex|STS 26",
     "image": "https://images.pokemontcg.io/xy11/26_hires.png",
-    "total": 2,
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
         "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -24509,6 +24965,24 @@
     "name": "Zacian V",
     "type": "Pokémon",
     "key": "zacianv",
+    "set": "PR-SW",
+    "num": "SWSH018",
+    "printKey": "zacianv|PR-SW SWSH018",
+    "image": "https://images.pokemontcg.io/swshp/SWSH018_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Zacian V",
+    "type": "Pokémon",
+    "key": "zacianv",
     "set": "SSH",
     "num": "138",
     "printKey": "zacianv|SSH 138",
@@ -24603,12 +25077,18 @@
     "num": "86",
     "printKey": "zeraoragx|LOT 86",
     "image": "https://images.pokemontcg.io/sm8/86_hires.png",
-    "total": 2,
+    "total": 4,
     "variants": [
       {
         "version": "World Champs",
         "qty": 2,
         "source": "Pikarom Judge (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
         "verified": true
       }
     ]

@@ -34,7 +34,7 @@ CODE_TO_ID = {
     "DEX":"bw5","DRX":"bw6","BCR":"bw7","PLS":"bw8","PLF":"bw9","PR-BLW":"bwp","CEL":"cel25",
     "DP":"dp1","MT":"dp2","SW":"dp3","GE":"dp4","MD":"dp5","LA":"dp6","SF":"dp7","DRV":"dv1",
     "RS":"ex1","DS":"ex11","LM":"ex12","DF":"ex15","MA":"ex4","TRR":"ex7","GEN":"g1",
-    "GH":"gym1","GC":"gym2","BS":"base1","B2":"base4","SHF":"swsh45","DET":"det1","CL":"col1","EX":"ecard1","SVE":"sve",
+    "GH":"gym1","GC":"gym2","BS":"base1","B2":"base4","PL":"pl1","ASR-TG":"swsh10tg","SHF":"swsh45","DET":"det1","CL":"col1","EX":"ecard1","SVE":"sve",
     "HS":"hgss1","UL":"hgss2","UD":"hgss3","TM":"hgss4","MEG":"me1","PFL":"me2","ASC":"me2pt5",
     "POR":"me3","CRI":"me4","PBL":"me5","PGO":"pgo","PL":"pl1","RR":"pl2","SV":"pl3","AR":"pl4",
     "WHT":"rsv10pt5","SUM":"sm1","UNB":"sm10","UNM":"sm11","CEC":"sm12","GRI":"sm2","BUS":"sm3",

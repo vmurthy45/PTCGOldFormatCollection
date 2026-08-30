@@ -55,7 +55,8 @@ JAPANESE = {"M2a", "M3", "MEP", "s12a", "SM4+", "SM2L"}
 # the card API does not catalogue at all -- its rows carry a hand-set image.
 EXTRA_TOTALS = {"col1": "95", "ecard1": "165", "base1": "102",
                 "gym1": "132", "gym2": "132", "det1": "18", "dp1": "130",
-                "base4": "130"}   # Base Set 2
+                "base4": "130",   # Base Set 2
+                "pl1": "127", "swsh10tg": "30"}   # Platinum, ASR Trainer Gallery
 NO_API = {"BWTK"}
 # Rows where Vig has fixed what the decklist shows, overriding the majority
 # rule. ToadBats plays a Zubat PLS 53 with a SUM 54 standing in for it, and a
