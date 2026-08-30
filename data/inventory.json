@@ -948,6 +948,30 @@
     ]
   },
   {
+    "name": "Aurora Energy",
+    "type": "Energy",
+    "key": "auroraenergy",
+    "set": "SSH",
+    "num": "186",
+    "printKey": "auroraenergy|SSH 186",
+    "image": "https://images.pokemontcg.io/swsh1/186_hires.png",
+    "total": 14,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 12,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "AZ",
     "type": "Trainer",
     "key": "az",
@@ -1668,6 +1692,24 @@
     ]
   },
   {
+    "name": "Blend Energy GFPD",
+    "type": "Energy",
+    "key": "blendenergygfpd",
+    "set": "DRX",
+    "num": "117",
+    "printKey": "blendenergygfpd|DRX 117",
+    "image": "https://images.pokemontcg.io/bw6/117_hires.png",
+    "total": 5,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 5,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Blend Energy WLFM",
     "type": "Energy",
     "key": "blendenergywlfm",
@@ -1675,7 +1717,7 @@
     "num": "118",
     "printKey": "blendenergywlfm|DRX 118",
     "image": "https://images.pokemontcg.io/bw6/118_hires.png",
-    "total": 2,
+    "total": 6,
     "variants": [
       {
         "version": "Standard",
@@ -1687,6 +1729,12 @@
         "version": "World Champs",
         "qty": 1,
         "source": "TDK (2014)",
+        "verified": true
+      },
+      {
+        "version": "League Promo",
+        "qty": 4,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -2545,6 +2593,24 @@
     ]
   },
   {
+    "name": "Burning Energy",
+    "type": "Energy",
+    "key": "burningenergy",
+    "set": "BKT",
+    "num": "151",
+    "printKey": "burningenergy|BKT 151",
+    "image": "https://images.pokemontcg.io/xy8/151_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Bursting Balloon",
     "type": "Trainer",
     "key": "burstingballoon",
@@ -2720,12 +2786,24 @@
     "num": "171",
     "printKey": "captureenergy|RCL 171",
     "image": "https://images.pokemontcg.io/swsh2/171_hires.png",
-    "total": 1,
+    "total": 7,
     "variants": [
       {
         "version": "World Champs",
         "qty": 1,
         "source": "ADP Flying Pikachu (2022)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 2,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -3325,6 +3403,24 @@
     ]
   },
   {
+    "name": "Coating Metal Energy",
+    "type": "Energy",
+    "key": "coatingmetalenergy",
+    "set": "VIV",
+    "num": "163",
+    "printKey": "coatingmetalenergy|VIV 163",
+    "image": "https://images.pokemontcg.io/swsh4/163_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Cobalion",
     "type": "Pokémon",
     "key": "cobalion",
@@ -3764,12 +3860,18 @@
     "num": "100",
     "printKey": "counterenergy|CIN 100",
     "image": "https://images.pokemontcg.io/sm4/100_hires.png",
-    "total": 3,
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
         "qty": 3,
         "source": "Empoleon Swampert (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -4515,6 +4617,24 @@
         "version": "World Champs",
         "qty": 4,
         "source": "LuxChomp (2010)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Dangerous Energy",
+    "type": "Energy",
+    "key": "dangerousenergy",
+    "set": "AOR",
+    "num": "82",
+    "printKey": "dangerousenergy|AOR 82",
+    "image": "https://images.pokemontcg.io/xy7/82_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -5392,7 +5512,7 @@
     "num": "90",
     "printKey": "doublecolorlessenergy|EVO 90",
     "image": "https://images.pokemontcg.io/xy12/90_hires.png",
-    "total": 9,
+    "total": 10,
     "variants": [
       {
         "version": "Standard",
@@ -5408,6 +5528,12 @@
       },
       {
         "version": "OCIC Promo",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 1,
         "source": "Spare",
         "verified": true
@@ -5446,7 +5572,7 @@
     "num": "74",
     "printKey": "doublecolorlessenergy|GEN 74",
     "image": "https://images.pokemontcg.io/g1/74_hires.png",
-    "total": 14,
+    "total": 15,
     "variants": [
       {
         "version": "World Champs",
@@ -5470,6 +5596,12 @@
         "version": "World Champs",
         "qty": 4,
         "source": "Gardevoir-GX (2017)",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -5530,7 +5662,7 @@
     "num": "92",
     "printKey": "doublecolorlessenergy|NXD 92",
     "image": "https://images.pokemontcg.io/bw4/92_hires.png",
-    "total": 32,
+    "total": 40,
     "variants": [
       {
         "version": "Standard",
@@ -5582,7 +5714,7 @@
       },
       {
         "version": "World Champs",
-        "qty": 4,
+        "qty": 12,
         "source": "Spare",
         "verified": true
       }
@@ -5614,12 +5746,18 @@
     "num": "69",
     "printKey": "doublecolorlessenergy|SLG 69",
     "image": "https://images.pokemontcg.io/sm35/69_hires.png",
-    "total": 4,
+    "total": 12,
     "variants": [
       {
         "version": "Standard",
         "qty": 4,
         "source": "ZoroRoc (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 8,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -5680,12 +5818,24 @@
     "num": "97",
     "printKey": "doubledragonenergy|ROS 97",
     "image": "https://images.pokemontcg.io/xy6/97_hires.png",
-    "total": 3,
+    "total": 11,
     "variants": [
       {
         "version": "World Champs",
         "qty": 3,
         "source": "Darkrai Giratina (2016)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 7,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -8827,6 +8977,24 @@
     ]
   },
   {
+    "name": "Flash Energy",
+    "type": "Energy",
+    "key": "flashenergy",
+    "set": "AOR",
+    "num": "83",
+    "printKey": "flashenergy|AOR 83",
+    "image": "https://images.pokemontcg.io/xy7/83_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Float Stone",
     "type": "Trainer",
     "key": "floatstone",
@@ -10916,6 +11084,24 @@
     ]
   },
   {
+    "name": "Heat Fire Energy",
+    "type": "Energy",
+    "key": "heatfireenergy",
+    "set": "DAA",
+    "num": "174",
+    "printKey": "heatfireenergy|DAA 174",
+    "image": "https://images.pokemontcg.io/swsh3/174_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Heatran-EX",
     "type": "Pokémon",
     "key": "heatranex",
@@ -11006,6 +11192,24 @@
     ]
   },
   {
+    "name": "Herbal Energy",
+    "type": "Energy",
+    "key": "herbalenergy",
+    "set": "FFI",
+    "num": "103",
+    "printKey": "herbalenergy|FFI 103",
+    "image": "https://images.pokemontcg.io/xy3/103_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Hex Maniac",
     "type": "Trainer",
     "key": "hexmaniac",
@@ -11067,12 +11271,18 @@
     "num": "175",
     "printKey": "hidingdarknessenergy|DAA 175",
     "image": "https://images.pokemontcg.io/swsh3/175_hires.png",
-    "total": 4,
+    "total": 5,
     "variants": [
       {
         "version": "Standard",
         "qty": 4,
         "source": "Spiritomb (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -11379,6 +11589,24 @@
         "version": "World Champs",
         "qty": 1,
         "source": "Jumpluff (2010)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Horror Psychic Energy",
+    "type": "Energy",
+    "key": "horrorpsychicenergy",
+    "set": "RCL",
+    "num": "172",
+    "printKey": "horrorpsychicenergy|RCL 172",
+    "image": "https://images.pokemontcg.io/swsh2/172_hires.png",
+    "total": 6,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 6,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -15036,6 +15264,24 @@
     ]
   },
   {
+    "name": "Memory Energy",
+    "type": "Energy",
+    "key": "memoryenergy",
+    "set": "LOT",
+    "num": "194",
+    "printKey": "memoryenergy|LOT 194",
+    "image": "https://images.pokemontcg.io/sm8/194_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Meowth",
     "type": "Pokémon",
     "key": "meowth",
@@ -16173,6 +16419,24 @@
         "version": "Standard",
         "qty": 4,
         "source": "Blacephalon GX (2019)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Mystery Energy",
+    "type": "Energy",
+    "key": "mysteryenergy",
+    "set": "PHF",
+    "num": "112",
+    "printKey": "mysteryenergy|PHF 112",
+    "image": "https://images.pokemontcg.io/xy4/112_hires.png",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -17848,7 +18112,7 @@
     "num": "91",
     "printKey": "plasmaenergy|PLB 91",
     "image": "https://images.pokemontcg.io/bw10/91_hires.png",
-    "total": 8,
+    "total": 12,
     "variants": [
       {
         "version": "World Champs",
@@ -17860,6 +18124,12 @@
         "version": "World Champs",
         "qty": 4,
         "source": "TDK (2014)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -18701,6 +18971,24 @@
         "version": "World Champs",
         "qty": 4,
         "source": "Fusion Strike Mew (2023)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Powerful Colorless Energy",
+    "type": "Energy",
+    "key": "powerfulcolorlessenergy",
+    "set": "DAA",
+    "num": "176",
+    "printKey": "powerfulcolorlessenergy|DAA 176",
+    "image": "https://images.pokemontcg.io/swsh3/176_hires.png",
+    "total": 5,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 5,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -20407,12 +20695,18 @@
     "num": "137",
     "printKey": "rainbowenergy|SUM 137",
     "image": "https://images.pokemontcg.io/sm1/137_hires.png",
-    "total": 1,
+    "total": 6,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
         "source": "Whimsicott GX (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 5,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -22476,6 +22770,24 @@
     ]
   },
   {
+    "name": "Shield Energy",
+    "type": "Energy",
+    "key": "shieldenergy",
+    "set": "PRC",
+    "num": "143",
+    "printKey": "shieldenergy|PRC 143",
+    "image": "https://images.pokemontcg.io/xy5/143_hires.png",
+    "total": 3,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Shrine of Memories",
     "type": "Stadium",
     "key": "shrineofmemories",
@@ -23076,6 +23388,24 @@
     ]
   },
   {
+    "name": "Speed Lightning Energy",
+    "type": "Energy",
+    "key": "speedlightningenergy",
+    "set": "RCL",
+    "num": "173",
+    "printKey": "speedlightningenergy|RCL 173",
+    "image": "https://images.pokemontcg.io/swsh2/173_hires.png",
+    "total": 12,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 12,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Spell Tag",
     "type": "Trainer",
     "key": "spelltag",
@@ -23413,6 +23743,24 @@
         "version": "Standard",
         "qty": 1,
         "source": "Greninja (2018)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Stone Fighting Energy",
+    "type": "Energy",
+    "key": "stonefightingenergy",
+    "set": "VIV",
+    "num": "164",
+    "printKey": "stonefightingenergy|VIV 164",
+    "image": "https://images.pokemontcg.io/swsh4/164_hires.png",
+    "total": 5,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 5,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -25990,12 +26338,18 @@
     "num": "190",
     "printKey": "tripleaccelerationenergy|UNB 190",
     "image": "https://images.pokemontcg.io/sm10/190_hires.png",
-    "total": 4,
+    "total": 16,
     "variants": [
       {
         "version": "Standard",
         "qty": 4,
         "source": "Whimsicott GX (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 12,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -26182,6 +26536,24 @@
         "version": "Standard",
         "qty": 1,
         "source": "Ho-Oh Salazzle (2017)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Twin Energy",
+    "type": "Energy",
+    "key": "twinenergy",
+    "set": "RCL",
+    "num": "174",
+    "printKey": "twinenergy|RCL 174",
+    "image": "https://images.pokemontcg.io/swsh2/174_hires.png",
+    "total": 9,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 9,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -26836,12 +27208,36 @@
     "num": "118",
     "printKey": "unitenergyfdf|FLI 118",
     "image": "https://images.pokemontcg.io/sm6/118_hires.png",
-    "total": 4,
+    "total": 6,
     "variants": [
       {
         "version": "Standard",
         "qty": 4,
         "source": "Whimsicott GX (2019)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Unit Energy GFW",
+    "type": "Energy",
+    "key": "unitenergygfw",
+    "set": "UPR",
+    "num": "137",
+    "printKey": "unitenergygfw|UPR 137",
+    "image": "https://images.pokemontcg.io/sm5/137_hires.png",
+    "total": 6,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 6,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -26854,12 +27250,18 @@
     "num": "138",
     "printKey": "unitenergylpm|UPR 138",
     "image": "https://images.pokemontcg.io/sm5/138_hires.png",
-    "total": 3,
+    "total": 12,
     "variants": [
       {
         "version": "World Champs",
         "qty": 3,
         "source": "ZoroGarb (2018)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 9,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -27543,6 +27945,24 @@
     ]
   },
   {
+    "name": "Warp Energy",
+    "type": "Energy",
+    "key": "warpenergy",
+    "set": "SLG",
+    "num": "70",
+    "printKey": "warpenergy|SLG 70",
+    "image": "https://images.pokemontcg.io/sm35/70_hires.png",
+    "total": 5,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 5,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Warp Point",
     "type": "Trainer",
     "key": "warppoint",
@@ -27785,6 +28205,24 @@
         "version": "Standard",
         "qty": 11,
         "source": "Archie's Blastoise (2015)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Weakness Guard Energy",
+    "type": "Energy",
+    "key": "weaknessguardenergy",
+    "set": "UNM",
+    "num": "213",
+    "printKey": "weaknessguardenergy|UNM 213",
+    "image": "https://images.pokemontcg.io/sm11/213_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
         "verified": true
       }
     ]
