@@ -26060,6 +26060,24 @@
     ]
   },
   {
+    "name": "Wally's Compassion",
+    "type": "Supporter",
+    "key": "wallyscompassion",
+    "set": "MEG",
+    "num": "132",
+    "printKey": "wallyscompassion|MEG 132",
+    "image": "https://images.pokemontcg.io/me1/132_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Prize Pack Holo",
+        "qty": 4,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Warp Energy",
     "type": "Energy",
     "key": "warpenergy",
