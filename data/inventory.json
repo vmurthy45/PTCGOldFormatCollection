@@ -12732,6 +12732,24 @@
     ]
   },
   {
+    "name": "Mega Darkrai ex",
+    "type": "Pokémon",
+    "key": "megadarkraiex",
+    "set": "PBL",
+    "num": "48",
+    "printKey": "megadarkraiex|PBL 48",
+    "image": "https://images.scrydex.com/pokemon/me5-48/large",
+    "total": 4,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Mega Kangaskhan ex",
     "type": "Pokémon",
     "key": "megakangaskhanex",
