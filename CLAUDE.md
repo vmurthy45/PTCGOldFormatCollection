@@ -196,6 +196,14 @@ Hosted free on GitHub Pages.
   box lacks may mean a lost card, a mis-logged purchase, or a bad deck
   assignment.
 
+  **The Inventory no longer infers anything about spares.** It used to assume a
+  current-format deck short of a card was drawing on loose stock and quietly
+  subtract those copies from the spare count (`invAllocate`, removed
+  2026-08-30). With every deck verified card by card that assumption is simply
+  wrong, and it was hiding three real spares by showing them as sleeved. Spare
+  count is now just the copies sourced `"Spare"`, and the per-row deck list is
+  gone because every deck holding a print is already named on its variant line.
+
   **Never move a spare into a deck on your own initiative.** A loose copy of a
   card a deck is short is a common and unremarkable state -- Vig owns the card,
   it just is not sleeved. He said on 2026-08-30 that he will say explicitly when

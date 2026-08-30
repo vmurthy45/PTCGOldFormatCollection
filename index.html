@@ -639,9 +639,6 @@
           <option value="ALL">All cards</option>
           <option value="INDECK">In a deck</option>
           <option value="SPARE">Spare only</option>
-          <option value="UNVERIFIED">Not verified yet</option>
-          <option value="PARTIAL">Partly verified</option>
-          <option value="VERIFIED">Verified</option>
           <option value="Pokemon">Pokémon</option>
           <option value="Trainer">Trainers</option>
           <option value="Energy">Energy</option>
@@ -1542,84 +1539,27 @@ function invStatus(g){
   const t = g.variants.length, d = g.variants.filter(invStackOk).length;
   return d === 0 ? 'none' : (d === t ? 'all' : 'some');
 }
-// name key -> [{deck, count}], built once per render from the deck data
-const INV_CURRENT_YEAR = '2026';
-function invDeckIndex(){
-  // Only current-format decks. Copies held by older decks are already listed
-  // as their own variants (with the deck named as the source), so re-listing
-  // them here would double up; 2026 decks are the ones drawing on loose stock.
-  const idx = new Map();
-  for(const c of CARDS){
-    if(c.year !== INV_CURRENT_YEAR) continue;
-    const k = invKey(c.name);
-    if(!idx.has(k)) idx.set(k, new Map());
-    const m = idx.get(k);
-    m.set(c.deck, (m.get(c.deck) || 0) + (Number(c.count) || 0));
-  }
-  return idx;
-}
-// Loose copies. A variant still marked "Spare" is unassigned stock; once Vig
-// tells us which deck holds those copies, the variant names that deck and is
-// no longer spare. Current-format decks with no explicit assignment yet are
-// still assumed to be drawing on the unassigned pile.
-function invAssignedDecks(g){
-  return new Set(g.variants.map(v => v.source).filter(s => s && s !== 'Spare'));
-}
-// "Spare" on a variant = loose stock, not yet assigned to a deck
-function invLoose(g){
-  return g.variants.reduce((s,v) =>
+// Loose copies: a variant sourced "Spare" is stock not sleeved in any deck.
+//
+// This used to be far more elaborate. Before the deck pass finished, 2026 decks
+// had no explicit assignments, so the code ASSUMED a current-format deck short
+// of a card was quietly drawing on loose stock, and subtracted those copies
+// from the spare count. Every deck is now verified card by card, which makes
+// that assumption wrong in both directions: a deck listed as short really is
+// short, and a loose copy really is loose. It was hiding three genuine spares
+// (Enriching Energy SSP 191, Hilda WHT 84, Legacy Energy TWM 167) by showing
+// them as sleeved in Alakazam and Hide 'n' Sneak. Vig is explicit that spares
+// only move into a deck when he says so, so nothing infers it any more.
+function invSpare(g){
+  return g.variants.reduce((s, v) =>
     s + ((!v.source || v.source === 'Spare') ? (Number(v.qty) || 0) : 0), 0);
-}
-// Each row is one PRINT of a card, but current-format deck usage is only known
-// per card name, so a card's unassigned usage is consumed greedily across its
-// print rows (rows with loose stock absorb it first). Whatever loose stock is
-// left on a row is genuinely spare.
-function invAllocate(items, idx){
-  const byCard = new Map();
-  for(const g of items){
-    if(!byCard.has(g.key)) byCard.set(g.key, []);
-    byCard.get(g.key).push(g);
-  }
-  const alloc = new Map();          // printKey -> {spare, decks:[[deck,n]]}
-  for(const [key, rows] of byCard){
-    // a deck named on ANY print of this card is already accounted for there
-    const assigned = new Set();
-    rows.forEach(r => invAssignedDecks(r).forEach(d => assigned.add(d)));
-    const owed = [...(idx.get(key) || new Map()).entries()]
-      .filter(([d]) => !assigned.has(d))
-      .map(([d,n]) => [d, n]);
-    let oi = 0;
-    for(const r of rows){
-      let loose = invLoose(r);
-      const took = [];
-      while(loose > 0 && oi < owed.length){
-        const take = Math.min(loose, owed[oi][1]);
-        took.push([owed[oi][0], take]);
-        loose -= take;
-        owed[oi][1] -= take;
-        if(owed[oi][1] === 0) oi++;
-      }
-      alloc.set(r.printKey || r.key, {spare: loose, decks: took});
-    }
-  }
-  return alloc;
 }
 function renderInventory(){
   if(!invListEl) return;
-  const idx = invDeckIndex();
   const q = invQuery.toLowerCase();
-  const alloc = invAllocate(INVENTORY, idx);
-  let items = INVENTORY.map(g => {
-    const a = alloc.get(g.printKey || g.key) || {spare: 0, decks: []};
-    // only the current-format usage this row actually supplies
-    const decks = a.decks.slice().sort((x,y) => y[1] - x[1] || x[0].localeCompare(y[0]));
-    return {...g, decks, spare: a.spare};
-  });
+  let items = INVENTORY.map(g => ({...g, spare: invSpare(g)}));
   if(invFilter === 'INDECK') items = items.filter(g => g.total > g.spare);
   else if(invFilter === 'SPARE') items = items.filter(g => g.spare > 0);
-  else if(invFilter === 'VERIFIED') items = items.filter(g => invStatus(g) === 'all');
-  else if(invFilter === 'PARTIAL') items = items.filter(g => invStatus(g) === 'some');
-  else if(invFilter === 'UNVERIFIED') items = items.filter(g => invStatus(g) !== 'all');
   else if(invFilter !== 'ALL') items = items.filter(g => invCat(g.type) === invFilter);
   // Card name or set code only. Deck names are deliberately NOT searched:
   // matching them dragged in every staple a deck happens to play (searching
@@ -1659,9 +1599,9 @@ function renderInventory(){
     }).join('');
     // g.decks is already just the current-format usage this row supplies from
     // its loose stock; decks holding assigned copies are named on the lines above.
-    // No "Spare ×N" tag: each loose stack already says Spare on its own line,
-    // with the tick beside it. Vig had it dropped on 2026-08-30 as redundant.
-    const decks = g.decks.map(([d,n]) => `${esc(d)} ×${n}`).join(' · ');
+    // Nothing extra to list: every deck holding copies of this print is already
+    // named on its own variant line above, and loose copies say Spare there.
+    const decks = '';
     return `<div class="inv-item${img ? '' : ' inv-noimg'}" data-img="${esc(img)}" data-name="${esc(g.name)}"${g.standIn ? ` data-standin="${esc(g.standIn)}"` : ''}>
       <span class="inv-main">
         <span class="inv-title"><span class="inv-name">${esc(g.name)}</span>`
@@ -1824,11 +1764,10 @@ function renderStats(){
   // Real collection size comes from the inventory: loose stock plus every copy
   // sleeved in a deck. (Deck slots below are what the decks *call for*, which
   // is a different number — a card can be needed by several decks.)
-  const invAlloc = invAllocate(INVENTORY, invDeckIndex());
   let ownedCopies = 0, spareCopies = 0;
   for(const g of INVENTORY){
     ownedCopies += Number(g.total) || 0;
-    spareCopies += (invAlloc.get(g.printKey || g.key) || {spare: 0}).spare;
+    spareCopies += invSpare(g);
   }
   const sleeved = ownedCopies - spareCopies;
   const pct = total ? Math.round(owned / total * 100) : 0;
