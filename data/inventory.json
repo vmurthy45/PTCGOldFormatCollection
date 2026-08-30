@@ -372,23 +372,6 @@
     ]
   },
   {
-    "name": "Air Balloon",
-    "type": "Item",
-    "key": "airballoon",
-    "set": "",
-    "num": "",
-    "printKey": "airballoon|",
-    "image": "https://images.pokemontcg.io/swsh1/156_hires.png",
-    "total": 7,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 7,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Alakazam",
     "type": "Pokémon",
     "key": "alakazam",
@@ -396,23 +379,13 @@
     "num": "56",
     "printKey": "alakazam|MEG 56",
     "image": "https://images.pokemontcg.io/me1/56_hires.png",
-    "total": 6,
+    "total": 3,
     "variants": [
       {
         "version": "Standard",
         "qty": 3,
         "source": "Alakazam (2026)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
-      },
-      {
-        "version": "Reverse Holo",
-        "qty": 2,
-        "source": "Spare"
       }
     ]
   },
@@ -605,23 +578,6 @@
         "qty": 2,
         "source": "Raging Bolt (2025)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Area Zero Underdepths",
-    "type": "Stadium",
-    "key": "areazerounderdepths",
-    "set": "",
-    "num": "",
-    "printKey": "areazerounderdepths|",
-    "image": "https://images.pokemontcg.io/sv7/131_hires.png",
-    "total": 3,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Spare"
       }
     ]
   },
@@ -963,18 +919,13 @@
     "num": "34",
     "printKey": "banette|PBL 34",
     "image": "https://images.scrydex.com/pokemon/me5-34/large",
-    "total": 5,
+    "total": 3,
     "variants": [
       {
         "version": "Standard",
         "qty": 3,
         "source": "Hide 'n' Sneak (2026)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spare"
       }
     ]
   },
@@ -1556,13 +1507,8 @@
     "num": "141",
     "printKey": "bloodmoonursalunaex|TWM 141",
     "image": "https://images.pokemontcg.io/sv6/141_hires.png",
-    "total": 2,
+    "total": 1,
     "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
-      },
       {
         "version": "World Champs",
         "qty": 1,
@@ -1735,7 +1681,7 @@
     "num": "154",
     "printKey": "bosssorders|RCL 154",
     "image": "https://images.pokemontcg.io/swsh2/154_hires.png",
-    "total": 21,
+    "total": 19,
     "variants": [
       {
         "version": "Standard",
@@ -1760,12 +1706,6 @@
         "qty": 2,
         "source": "Spiritomb (2021)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spare",
-        "verified": false
       },
       {
         "version": "World Champs",
@@ -1841,23 +1781,6 @@
       }
     ],
     "standIn": "stand-in: the card is the Japanese s12a 161 print, which has no catalogued image"
-  },
-  {
-    "name": "Boss's Orders",
-    "type": "Supporter",
-    "key": "bosssorders",
-    "set": "",
-    "num": "",
-    "printKey": "bosssorders|",
-    "image": "https://images.pokemontcg.io/swsh2/154_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Reverse Holo",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
   },
   {
     "name": "Box of Disaster",
@@ -1962,23 +1885,6 @@
     ]
   },
   {
-    "name": "Briar",
-    "type": "Supporter",
-    "key": "briar",
-    "set": "",
-    "num": "",
-    "printKey": "briar|",
-    "image": "https://images.pokemontcg.io/sv7/132_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Brigette",
     "type": "Supporter",
     "key": "brigette",
@@ -1986,7 +1892,7 @@
     "num": "134",
     "printKey": "brigette|BKT 134",
     "image": "https://images.pokemontcg.io/xy8/134_hires.png",
-    "total": 16,
+    "total": 15,
     "variants": [
       {
         "version": "Reverse Holo",
@@ -2047,12 +1953,6 @@
         "qty": 1,
         "source": "DeciPod (2017)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare",
-        "verified": false
       }
     ]
   },
@@ -2273,23 +2173,6 @@
     ]
   },
   {
-    "name": "Buddy-Buddy Poffin",
-    "type": "Item",
-    "key": "buddybuddypoffin",
-    "set": "",
-    "num": "",
-    "printKey": "buddybuddypoffin|",
-    "image": "https://images.pokemontcg.io/sv5/144_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Budew",
     "type": "Pokémon",
     "key": "budew",
@@ -2321,18 +2204,13 @@
     "num": "4",
     "printKey": "budew|PRE 4",
     "image": "https://images.pokemontcg.io/sv8pt5/4_hires.png",
-    "total": 4,
+    "total": 3,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
         "source": "Dragapult Dusknoir (2026)",
         "verified": true
-      },
-      {
-        "version": "Prize Pack Holo",
-        "qty": 1,
-        "source": "Spare"
       },
       {
         "version": "World Champs",
@@ -2357,23 +2235,6 @@
         "qty": 2,
         "source": "Rocket's Mewtwo (2026)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Bug Catching Set",
-    "type": "Item",
-    "key": "bugcatchingset",
-    "set": "",
-    "num": "",
-    "printKey": "bugcatchingset|",
-    "image": "https://images.pokemontcg.io/sv6/143_hires.png",
-    "total": 2,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spare"
       }
     ]
   },
@@ -2536,23 +2397,6 @@
         "qty": 4,
         "source": "Spiritomb (2021)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Cape of Toughness",
-    "type": "Item",
-    "key": "capeoftoughness",
-    "set": "",
-    "num": "",
-    "printKey": "capeoftoughness|",
-    "image": "https://images.pokemontcg.io/swsh3/160_hires.png",
-    "total": 4,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Spare"
       }
     ]
   },
@@ -2791,40 +2635,6 @@
     ]
   },
   {
-    "name": "Chien-Pao",
-    "type": "Pokémon",
-    "key": "chienpao",
-    "set": "SSP",
-    "num": "56",
-    "printKey": "chienpao|SSP 56",
-    "image": "https://images.pokemontcg.io/sv8/56_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
-    "name": "Chikorita",
-    "type": "Pokémon",
-    "key": "chikorita",
-    "set": "MEG",
-    "num": "8",
-    "printKey": "chikorita|MEG 8",
-    "image": "https://images.pokemontcg.io/me1/8_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Reverse Holo",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Choice Band",
     "type": "Trainer",
     "key": "choiceband",
@@ -2999,23 +2809,6 @@
     ]
   },
   {
-    "name": "Cinderace",
-    "type": "Pokémon",
-    "key": "cinderace",
-    "set": "MEG",
-    "num": "28",
-    "printKey": "cinderace|MEG 28",
-    "image": "https://images.pokemontcg.io/me1/28_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Prize Pack",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Ciphermaniac's Codebreaking",
     "type": "Item",
     "key": "ciphermaniacscodebreaking",
@@ -3030,23 +2823,6 @@
         "qty": 4,
         "source": "Slowking (2026)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Ciphermaniac's Codebreaking",
-    "type": "Item",
-    "key": "ciphermaniacscodebreaking",
-    "set": "",
-    "num": "",
-    "printKey": "ciphermaniacscodebreaking|",
-    "image": "https://images.pokemontcg.io/sv5/145_hires.png",
-    "total": 3,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Spare"
       }
     ]
   },
@@ -3309,23 +3085,6 @@
     ]
   },
   {
-    "name": "Combusken",
-    "type": "Pokémon",
-    "key": "combusken",
-    "set": "DRI",
-    "num": "41",
-    "printKey": "combusken|DRI 41",
-    "image": "https://images.pokemontcg.io/sv10/41_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Reverse Holo",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Comfey",
     "type": "Pokémon",
     "key": "comfey",
@@ -3406,23 +3165,6 @@
         "qty": 1,
         "source": "ToadBats (2015)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Cornerstone Mask Ogerpon ex",
-    "type": "Pokémon",
-    "key": "cornerstonemaskogerponex",
-    "set": "PRE",
-    "num": "58",
-    "printKey": "cornerstonemaskogerponex|PRE 58",
-    "image": "https://images.pokemontcg.io/sv8pt5/58_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -3637,23 +3379,6 @@
     ]
   },
   {
-    "name": "Crispin",
-    "type": "Supporter",
-    "key": "crispin",
-    "set": "",
-    "num": "",
-    "printKey": "crispin|",
-    "image": "https://images.pokemontcg.io/sv7/133_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Crobat",
     "type": "Pokémon",
     "key": "crobat",
@@ -3800,40 +3525,6 @@
         "qty": 4,
         "source": "Cinccino Mill (2020)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Crushing Hammer",
-    "type": "Item",
-    "key": "crushinghammer",
-    "set": "",
-    "num": "",
-    "printKey": "crushinghammer|",
-    "image": "https://images.pokemontcg.io/sm1/115_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Full Art",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
-    "name": "Crustle",
-    "type": "Pokémon",
-    "key": "crustle",
-    "set": "DRI",
-    "num": "12",
-    "printKey": "crustle|DRI 12",
-    "image": "https://images.pokemontcg.io/sv10/12_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -4176,18 +3867,13 @@
     "num": "8",
     "printKey": "cynthiasroserade|DRI 8",
     "image": "https://images.pokemontcg.io/sv10/8_hires.png",
-    "total": 5,
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
         "qty": 4,
         "source": "Cynthia's Garchomp (2026)",
         "verified": true
-      },
-      {
-        "version": "Prize Pack",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -4224,23 +3910,6 @@
         "qty": 4,
         "source": "LuxChomp (2010)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Dark Bell",
-    "type": "Item",
-    "key": "darkbell",
-    "set": "",
-    "num": "",
-    "printKey": "darkbell|",
-    "image": null,
-    "total": 4,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Spare"
       }
     ]
   },
@@ -4432,14 +4101,8 @@
     "num": "",
     "printKey": "darknessenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/138_hires.png",
-    "total": 11,
+    "total": 10,
     "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare",
-        "verified": false
-      },
       {
         "version": "World Champs",
         "qty": 6,
@@ -4575,45 +4238,6 @@
     ]
   },
   {
-    "name": "Dawn",
-    "type": "Supporter",
-    "key": "dawn",
-    "set": "",
-    "num": "",
-    "printKey": "dawn|",
-    "image": "https://images.pokemontcg.io/me2/87_hires.png",
-    "total": 6,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 5,
-        "source": "Spare"
-      },
-      {
-        "version": "Reverse Holo",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
-    "name": "Decidueye ex",
-    "type": "Pokémon",
-    "key": "decidueyeex",
-    "set": "POR",
-    "num": "12",
-    "printKey": "decidueyeex|POR 12",
-    "image": "https://images.scrydex.com/pokemon/me3-12/large",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Decidueye-GX",
     "type": "Pokémon",
     "key": "decidueyegx",
@@ -4634,23 +4258,6 @@
         "qty": 3,
         "source": "DeciPod (2017)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Dedenne",
-    "type": "Pokémon",
-    "key": "dedenne",
-    "set": "SSP",
-    "num": "87",
-    "printKey": "dedenne|SSP 87",
-    "image": "https://images.pokemontcg.io/sv8/87_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -5214,19 +4821,13 @@
     "num": "130",
     "printKey": "doublecolorlessenergy|XY 130",
     "image": "https://images.pokemontcg.io/xy1/130_hires.png",
-    "total": 3,
+    "total": 2,
     "variants": [
       {
         "version": "World Champs",
         "qty": 2,
         "source": "Mega Kangaskhan (2014)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 1,
-        "source": "Spare",
-        "verified": false
       }
     ]
   },
@@ -5365,13 +4966,8 @@
     "num": "130",
     "printKey": "dragapultex|TWM 130",
     "image": "https://images.pokemontcg.io/sv6/130_hires.png",
-    "total": 6,
+    "total": 5,
     "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
-      },
       {
         "version": "World Champs",
         "qty": 2,
@@ -5430,7 +5026,7 @@
     "num": "159",
     "printKey": "drakloak|ASC 159",
     "image": "https://images.scrydex.com/pokemon/me2pt5-159/large",
-    "total": 10,
+    "total": 5,
     "variants": [
       {
         "version": "Standard",
@@ -5443,16 +5039,6 @@
         "qty": 1,
         "source": "Dragapult Dusknoir (2026)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Spare"
-      },
-      {
-        "version": "Reverse Holo",
-        "qty": 2,
-        "source": "Spare"
       }
     ]
   },
@@ -5548,18 +5134,13 @@
     "num": "158",
     "printKey": "dreepy|ASC 158",
     "image": "https://images.scrydex.com/pokemon/me2pt5-158/large",
-    "total": 8,
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
         "qty": 4,
         "source": "Dragapult (2026)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Spare"
       }
     ]
   },
@@ -5596,23 +5177,6 @@
         "qty": 4,
         "source": "Dragapult (2025)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Drilbur",
-    "type": "Pokémon",
-    "key": "drilbur",
-    "set": "PBL",
-    "num": "46",
-    "printKey": "drilbur|PBL 46",
-    "image": "https://images.scrydex.com/pokemon/me5-46/large",
-    "total": 4,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Spare"
       }
     ]
   },
@@ -5774,7 +5338,7 @@
     "num": "156",
     "printKey": "dunsparce|PAL 156",
     "image": "https://images.pokemontcg.io/sv2/156_hires.png",
-    "total": 5,
+    "total": 3,
     "variants": [
       {
         "version": "Standard",
@@ -5787,11 +5351,6 @@
         "qty": 1,
         "source": "Dragapult (2026)",
         "verified": true
-      },
-      {
-        "version": "Reverse Holo",
-        "qty": 2,
-        "source": "Spare"
       }
     ]
   },
@@ -5816,23 +5375,6 @@
         "qty": 2,
         "source": "Dragapult Dusknoir (2026)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Dusclops",
-    "type": "Pokémon",
-    "key": "dusclops",
-    "set": "PRE",
-    "num": "37",
-    "printKey": "dusclops|PRE 37",
-    "image": "https://images.pokemontcg.io/sv8pt5/37_hires.png",
-    "total": 2,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spare"
       }
     ]
   },
@@ -5887,23 +5429,6 @@
         "qty": 1,
         "source": "Gothitelle (2013)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Dusknoir",
-    "type": "Pokémon",
-    "key": "dusknoir",
-    "set": "PRE",
-    "num": "36",
-    "printKey": "dusknoir|PRE 36",
-    "image": "https://images.pokemontcg.io/sv8pt5/36_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Reverse Holo",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -6258,40 +5783,6 @@
         "qty": 2,
         "source": "Fusion Strike Mew (2023)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Elgyem",
-    "type": "Pokémon",
-    "key": "elgyem",
-    "set": "BLK",
-    "num": "40",
-    "printKey": "elgyem|BLK 40",
-    "image": "https://images.pokemontcg.io/zsv10pt5/40_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
-    "name": "Emboar",
-    "type": "Pokémon",
-    "key": "emboar",
-    "set": "WHT",
-    "num": "13",
-    "printKey": "emboar|WHT 13",
-    "image": "https://images.pokemontcg.io/rsv10pt5/13_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Prize Pack",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -7100,23 +6591,6 @@
     ]
   },
   {
-    "name": "Evolution Incense",
-    "type": "Item",
-    "key": "evolutionincense",
-    "set": "",
-    "num": "",
-    "printKey": "evolutionincense|",
-    "image": "https://images.pokemontcg.io/swsh1/163_hires.png",
-    "total": 5,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 5,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Evosoda",
     "type": "Item",
     "key": "evosoda",
@@ -7166,19 +6640,13 @@
     "num": "116",
     "printKey": "evosoda|XY 116",
     "image": "https://images.pokemontcg.io/xy1/116_hires.png",
-    "total": 3,
+    "total": 1,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
         "source": "Greninja (2018)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spare",
-        "verified": false
       }
     ]
   },
@@ -7245,23 +6713,6 @@
         "qty": 4,
         "source": "Ancient Toolbox (2024)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Explorer's Guidance",
-    "type": "Supporter",
-    "key": "explorersguidance",
-    "set": "",
-    "num": "",
-    "printKey": "explorersguidance|",
-    "image": "https://images.pokemontcg.io/sv5/147_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Prize Pack Holo",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -7364,45 +6815,6 @@
         "qty": 4,
         "source": "Mega Kangaskhan (2014)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Fan Rotom",
-    "type": "Pokémon",
-    "key": "fanrotom",
-    "set": "ASC",
-    "num": "171",
-    "printKey": "fanrotom|ASC 171",
-    "image": "https://images.scrydex.com/pokemon/me2pt5-171/large",
-    "total": 2,
-    "variants": [
-      {
-        "version": "Reverse Holo",
-        "qty": 1,
-        "source": "Spare"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
-    "name": "Fan Rotom",
-    "type": "Pokémon",
-    "key": "fanrotom",
-    "set": "PRE",
-    "num": "85",
-    "printKey": "fanrotom|PRE 85",
-    "image": "https://images.pokemontcg.io/sv8pt5/85_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -7900,28 +7312,6 @@
     ]
   },
   {
-    "name": "Fighting Gong",
-    "type": "Item",
-    "key": "fightinggong",
-    "set": "",
-    "num": "",
-    "printKey": "fightinggong|",
-    "image": "https://images.scrydex.com/pokemon/me2pt5-187/large",
-    "total": 5,
-    "variants": [
-      {
-        "version": "Prize Pack Holo",
-        "qty": 1,
-        "source": "Spare"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Fighting Stadium",
     "type": "Trainer",
     "key": "fightingstadium",
@@ -8169,7 +7559,7 @@
     "num": "137",
     "printKey": "floatstone|BKT 137",
     "image": "https://images.pokemontcg.io/xy8/137_hires.png",
-    "total": 42,
+    "total": 35,
     "variants": [
       {
         "version": "Standard",
@@ -8254,12 +7644,6 @@
         "qty": 1,
         "source": "Archie's Blastoise (2015)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 7,
-        "source": "Spare",
-        "verified": false
       }
     ]
   },
@@ -8296,23 +7680,6 @@
         "qty": 2,
         "source": "TDK (2013)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Flutter Mane",
-    "type": "Pokémon",
-    "key": "fluttermane",
-    "set": "PRE",
-    "num": "43",
-    "printKey": "fluttermane|PRE 43",
-    "image": "https://images.pokemontcg.io/sv8pt5/43_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Reverse Holo",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -8563,23 +7930,6 @@
     ]
   },
   {
-    "name": "Full Metal Lab",
-    "type": "Stadium",
-    "key": "fullmetallab",
-    "set": "",
-    "num": "",
-    "printKey": "fullmetallab|",
-    "image": null,
-    "total": 1,
-    "variants": [
-      {
-        "version": "Prize Pack Holo",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Fusion Strike Energy",
     "type": "Energy",
     "key": "fusionstrikeenergy",
@@ -8618,23 +7968,6 @@
         "qty": 3,
         "source": "Iron Thorns (2024)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Future Booster Energy Capsule",
-    "type": "Item",
-    "key": "futureboosterenergycapsule",
-    "set": "",
-    "num": "",
-    "printKey": "futureboosterenergycapsule|",
-    "image": "https://images.pokemontcg.io/sv4/164_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Prize Pack Holo",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -9215,23 +8548,6 @@
     ]
   },
   {
-    "name": "Glass Trumpet",
-    "type": "Item",
-    "key": "glasstrumpet",
-    "set": "",
-    "num": "",
-    "printKey": "glasstrumpet|",
-    "image": null,
-    "total": 1,
-    "variants": [
-      {
-        "version": "Prize Pack",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Golbat",
     "type": "Pokémon",
     "key": "golbat",
@@ -9340,23 +8656,6 @@
     ]
   },
   {
-    "name": "Grand Tree",
-    "type": "Stadium",
-    "key": "grandtree",
-    "set": "",
-    "num": "",
-    "printKey": "grandtree|",
-    "image": null,
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Grass Energy",
     "type": "Energy",
     "key": "grassenergy",
@@ -9460,7 +8759,7 @@
     "num": "",
     "printKey": "grassenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/132_hires.png",
-    "total": 25,
+    "total": 23,
     "variants": [
       {
         "version": "World Champs",
@@ -9485,12 +8784,6 @@
         "qty": 6,
         "source": "Raging Bolt (2025)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spare",
-        "verified": false
       }
     ]
   },
@@ -9891,23 +9184,6 @@
     ]
   },
   {
-    "name": "Harlequin",
-    "type": "Supporter",
-    "key": "harlequin",
-    "set": "",
-    "num": "",
-    "printKey": "harlequin|",
-    "image": null,
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Hawlucha",
     "type": "Pokémon",
     "key": "hawlucha",
@@ -10262,23 +9538,6 @@
     ]
   },
   {
-    "name": "Hole-Digging Shovel",
-    "type": "Item",
-    "key": "holediggingshovel",
-    "set": "",
-    "num": "",
-    "printKey": "holediggingshovel|",
-    "image": null,
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Hoopa",
     "type": "Pokémon",
     "key": "hoopa",
@@ -10335,23 +9594,6 @@
         "qty": 1,
         "source": "Darkrai Giratina (2016)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Hoothoot",
-    "type": "Pokémon",
-    "key": "hoothoot",
-    "set": "PRE",
-    "num": "77",
-    "printKey": "hoothoot|PRE 77",
-    "image": "https://images.pokemontcg.io/sv8pt5/77_hires.png",
-    "total": 3,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Spare"
       }
     ]
   },
@@ -10465,7 +9707,7 @@
     "num": "45",
     "printKey": "iceridercalyrexv|CRE 45",
     "image": "https://images.pokemontcg.io/swsh6/45_hires.png",
-    "total": 9,
+    "total": 5,
     "variants": [
       {
         "version": "Standard",
@@ -10478,11 +9720,6 @@
         "qty": 1,
         "source": "Ice Rider Palkia (2022)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Spare"
       }
     ]
   },
@@ -10494,7 +9731,7 @@
     "num": "46",
     "printKey": "iceridercalyrexvmax|CRE 46",
     "image": "https://images.pokemontcg.io/swsh6/46_hires.png",
-    "total": 6,
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
@@ -10507,11 +9744,6 @@
         "qty": 1,
         "source": "Ice Rider Palkia (2022)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spare"
       }
     ]
   },
@@ -10708,23 +9940,6 @@
     ]
   },
   {
-    "name": "Iono",
-    "type": "Supporter",
-    "key": "iono",
-    "set": "",
-    "num": "",
-    "printKey": "iono|",
-    "image": "https://images.pokemontcg.io/sv2/185_hires.png",
-    "total": 4,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Irida",
     "type": "Trainer",
     "key": "irida",
@@ -10847,23 +10062,6 @@
         "qty": 1,
         "source": "Dragapult (2025)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Janine's Secret Art",
-    "type": "Item",
-    "key": "janinessecretart",
-    "set": "",
-    "num": "",
-    "printKey": "janinessecretart|",
-    "image": null,
-    "total": 4,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Spare"
       }
     ]
   },
@@ -11156,23 +10354,6 @@
     ]
   },
   {
-    "name": "Judge",
-    "type": "Supporter",
-    "key": "judge",
-    "set": "",
-    "num": "",
-    "printKey": "judge|",
-    "image": "https://images.pokemontcg.io/hgss2/78_hires.png",
-    "total": 3,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Jumpluff",
     "type": "Pokémon",
     "key": "jumpluff",
@@ -11240,18 +10421,13 @@
     "num": "55",
     "printKey": "kadabra|MEG 55",
     "image": "https://images.pokemontcg.io/me1/55_hires.png",
-    "total": 8,
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
         "qty": 4,
         "source": "Alakazam (2026)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Spare"
       }
     ]
   },
@@ -11317,7 +10493,7 @@
     "num": "49",
     "printKey": "keldeoex|BCR 49",
     "image": "https://images.pokemontcg.io/bw7/49_hires.png",
-    "total": 9,
+    "total": 8,
     "variants": [
       {
         "version": "Standard",
@@ -11348,12 +10524,6 @@
         "qty": 3,
         "source": "Archie's Blastoise (2015)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare",
-        "verified": false
       }
     ]
   },
@@ -11682,23 +10852,6 @@
     ]
   },
   {
-    "name": "Lana's Aid",
-    "type": "Supporter",
-    "key": "lanasaid",
-    "set": "",
-    "num": "",
-    "printKey": "lanasaid|",
-    "image": "https://images.pokemontcg.io/sv6/155_hires.png",
-    "total": 2,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Landorus-EX",
     "type": "Pokémon",
     "key": "landorusex",
@@ -11724,7 +10877,7 @@
     "num": "75",
     "printKey": "latiasex|M2a 75",
     "image": "https://images.pokemontcg.io/sv8/76_hires.png",
-    "total": 4,
+    "total": 3,
     "variants": [
       {
         "version": "Japanese",
@@ -11737,11 +10890,6 @@
         "qty": 2,
         "source": "Slowking (2026)",
         "verified": true
-      },
-      {
-        "version": "Japanese",
-        "qty": 1,
-        "source": "Spare"
       }
     ],
     "standIn": "stand-in: the card is the Japanese M2a 75 print, which has no catalogued image"
@@ -11754,13 +10902,8 @@
     "num": "76",
     "printKey": "latiasex|SSP 76",
     "image": "https://images.pokemontcg.io/sv8/76_hires.png",
-    "total": 3,
+    "total": 2,
     "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
-      },
       {
         "version": "World Champs",
         "qty": 1,
@@ -12095,19 +11238,13 @@
     "num": "",
     "printKey": "lightningenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/135_hires.png",
-    "total": 42,
+    "total": 39,
     "variants": [
       {
         "version": "World Champs",
         "qty": 2,
         "source": "LuxChomp (2010)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 3,
-        "source": "Spare",
-        "verified": false
       },
       {
         "version": "World Champs",
@@ -12335,23 +11472,6 @@
     ]
   },
   {
-    "name": "Lillie's Pearl",
-    "type": "Item",
-    "key": "lilliespearl",
-    "set": "",
-    "num": "",
-    "printKey": "lilliespearl|",
-    "image": null,
-    "total": 2,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Lillie's Poké Doll",
     "type": "Trainer",
     "key": "lilliespokedoll",
@@ -12366,23 +11486,6 @@
         "qty": 4,
         "source": "Cinccino Mill (2020)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Lively Stadium",
-    "type": "Stadium",
-    "key": "livelystadium",
-    "set": "",
-    "num": "",
-    "printKey": "livelystadium|",
-    "image": null,
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -12640,7 +11743,7 @@
     "num": "40",
     "printKey": "lumineonv|BRS 40",
     "image": "https://images.pokemontcg.io/swsh9/40_hires.png",
-    "total": 6,
+    "total": 5,
     "variants": [
       {
         "version": "World Champs",
@@ -12665,11 +11768,6 @@
         "qty": 1,
         "source": "Miraidon (2024)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -12688,40 +11786,6 @@
         "qty": 3,
         "source": "Dragapult (2025)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Lunatone",
-    "type": "Pokémon",
-    "key": "lunatone",
-    "set": "ASC",
-    "num": "105",
-    "printKey": "lunatone|ASC 105",
-    "image": "https://images.scrydex.com/pokemon/me2pt5-105/large",
-    "total": 4,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
-    "name": "Lunatone",
-    "type": "Pokémon",
-    "key": "lunatone",
-    "set": "MEG",
-    "num": "74",
-    "printKey": "lunatone|MEG 74",
-    "image": "https://images.pokemontcg.io/me1/74_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Prize Pack Holo",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -13506,23 +12570,6 @@
     ]
   },
   {
-    "name": "Maximum Belt",
-    "type": "Item",
-    "key": "maximumbelt",
-    "set": "",
-    "num": "",
-    "printKey": "maximumbelt|",
-    "image": "https://images.pokemontcg.io/sv5/154_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Medicham V",
     "type": "Pokémon",
     "key": "medichamv",
@@ -13537,23 +12584,6 @@
         "qty": 1,
         "source": "Urshifu VMAX (2022)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Mega Darkrai ex",
-    "type": "Pokémon",
-    "key": "megadarkraiex",
-    "set": "PBL",
-    "num": "48",
-    "printKey": "megadarkraiex|PBL 48",
-    "image": "https://images.scrydex.com/pokemon/me5-48/large",
-    "total": 4,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Spare"
       }
     ]
   },
@@ -13577,28 +12607,6 @@
     "standIn": "stand-in: the card is the Japanese MEP 25 print, which has no catalogued image"
   },
   {
-    "name": "Mega Signal",
-    "type": "Item",
-    "key": "megasignal",
-    "set": "",
-    "num": "",
-    "printKey": "megasignal|",
-    "image": null,
-    "total": 5,
-    "variants": [
-      {
-        "version": "Prize Pack",
-        "qty": 1,
-        "source": "Spare"
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Mega Turbo",
     "type": "Trainer",
     "key": "megaturbo",
@@ -13619,40 +12627,6 @@
         "qty": 1,
         "source": "Mega Audino (2016)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Meganium",
-    "type": "Pokémon",
-    "key": "meganium",
-    "set": "MEG",
-    "num": "10",
-    "printKey": "meganium|MEG 10",
-    "image": "https://images.pokemontcg.io/me1/10_hires.png",
-    "total": 3,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
-    "name": "Megaton Blower",
-    "type": "Item",
-    "key": "megatonblower",
-    "set": "",
-    "num": "",
-    "printKey": "megatonblower|",
-    "image": null,
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -13705,23 +12679,6 @@
     ]
   },
   {
-    "name": "Melony",
-    "type": "Supporter",
-    "key": "melony",
-    "set": "",
-    "num": "",
-    "printKey": "melony|",
-    "image": "https://images.pokemontcg.io/swsh6/146_hires.png",
-    "total": 8,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 8,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Meowth",
     "type": "Pokémon",
     "key": "meowth",
@@ -13766,7 +12723,7 @@
     "num": "62",
     "printKey": "meowthex|POR 62",
     "image": "https://images.scrydex.com/pokemon/me3-62/large",
-    "total": 4,
+    "total": 3,
     "variants": [
       {
         "version": "Standard",
@@ -13785,11 +12742,6 @@
         "qty": 1,
         "source": "Dragapult Dusknoir (2026)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -13873,19 +12825,13 @@
     "num": "",
     "printKey": "metalenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/139_hires.png",
-    "total": 7,
+    "total": 5,
     "variants": [
       {
         "version": "World Champs",
         "qty": 2,
         "source": "LuxChomp (2010)",
         "verified": true
-      },
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Spare",
-        "verified": false
       },
       {
         "version": "World Champs",
@@ -13952,23 +12898,6 @@
         "qty": 4,
         "source": "ADP Zacian (2020)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Metang",
-    "type": "Pokémon",
-    "key": "metang",
-    "set": "TEF",
-    "num": "114",
-    "printKey": "metang|TEF 114",
-    "image": "https://images.pokemontcg.io/sv5/114_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Reverse Holo",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -14351,23 +13280,6 @@
     ]
   },
   {
-    "name": "Miraidon",
-    "type": "Pokémon",
-    "key": "miraidon",
-    "set": "TEF",
-    "num": "121",
-    "printKey": "miraidon|TEF 121",
-    "image": "https://images.pokemontcg.io/sv5/121_hires.png",
-    "total": 2,
-    "variants": [
-      {
-        "version": "Prize Pack",
-        "qty": 2,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Miraidon ex",
     "type": "Pokémon",
     "key": "miraidonex",
@@ -14410,40 +13322,6 @@
     ]
   },
   {
-    "name": "Mist Energy",
-    "type": "Energy",
-    "key": "mistenergy",
-    "set": "",
-    "num": "",
-    "printKey": "mistenergy|",
-    "image": "https://images.pokemontcg.io/sv5/161_hires.png",
-    "total": 4,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
-    "name": "Misty's Vitality",
-    "type": "Supporter",
-    "key": "mistysvitality",
-    "set": "",
-    "num": "",
-    "printKey": "mistysvitality|",
-    "image": null,
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Mixed Herbs",
     "type": "Trainer",
     "key": "mixedherbs",
@@ -14458,28 +13336,6 @@
         "qty": 4,
         "source": "Green's Reshizard (2019)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Moltres",
-    "type": "Pokémon",
-    "key": "moltres",
-    "set": "PFL",
-    "num": "14",
-    "printKey": "moltres|PFL 14",
-    "image": "https://images.pokemontcg.io/me2/14_hires.png",
-    "total": 2,
-    "variants": [
-      {
-        "version": "Reverse Holo",
-        "qty": 1,
-        "source": "Spare"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -14599,7 +13455,7 @@
     "num": "99",
     "printKey": "munkidori|ASC 99",
     "image": "https://images.scrydex.com/pokemon/me2pt5-99/large",
-    "total": 4,
+    "total": 3,
     "variants": [
       {
         "version": "Standard",
@@ -14612,11 +13468,6 @@
         "qty": 2,
         "source": "Dragapult (2026)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -15089,23 +13940,6 @@
     ]
   },
   {
-    "name": "N's Darmanitan",
-    "type": "Pokémon",
-    "key": "nsdarmanitan",
-    "set": "JTG",
-    "num": "27",
-    "printKey": "nsdarmanitan|JTG 27",
-    "image": "https://images.pokemontcg.io/sv9/27_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Prize Pack Holo",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "N's Darumaka",
     "type": "Pokémon",
     "key": "nsdarumaka",
@@ -15142,23 +13976,6 @@
     ]
   },
   {
-    "name": "N's Plan",
-    "type": "Supporter",
-    "key": "nsplan",
-    "set": "",
-    "num": "",
-    "printKey": "nsplan|",
-    "image": null,
-    "total": 4,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 4,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "N's PP Up",
     "type": "Item",
     "key": "nsppup",
@@ -15173,28 +13990,6 @@
         "qty": 3,
         "source": "N's Zoroark (2026)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "N's PP Up",
-    "type": "Item",
-    "key": "nsppup",
-    "set": "",
-    "num": "",
-    "printKey": "nsppup|",
-    "image": "https://images.pokemontcg.io/sv9/153_hires.png",
-    "total": 2,
-    "variants": [
-      {
-        "version": "Prize Pack",
-        "qty": 1,
-        "source": "Spare"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -15217,28 +14012,6 @@
     ]
   },
   {
-    "name": "N's Reshiram",
-    "type": "Pokémon",
-    "key": "nsreshiram",
-    "set": "JTG",
-    "num": "116",
-    "printKey": "nsreshiram|JTG 116",
-    "image": "https://images.pokemontcg.io/sv9/116_hires.png",
-    "total": 3,
-    "variants": [
-      {
-        "version": "Prize Pack",
-        "qty": 2,
-        "source": "Spare"
-      },
-      {
-        "version": "Prize Pack Holo",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "N's Zekrom",
     "type": "Pokémon",
     "key": "nszekrom",
@@ -15246,18 +14019,13 @@
     "num": "155",
     "printKey": "nszekrom|ASC 155",
     "image": "https://images.scrydex.com/pokemon/me2pt5-155/large",
-    "total": 3,
+    "total": 2,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
         "source": "N's Zoroark (2026)",
         "verified": true
-      },
-      {
-        "version": "Reverse Holo",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -15620,23 +14388,6 @@
     "name": "Noctowl",
     "type": "Pokémon",
     "key": "noctowl",
-    "set": "PRE",
-    "num": "78",
-    "printKey": "noctowl|PRE 78",
-    "image": "https://images.pokemontcg.io/sv8pt5/78_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Reverse Holo",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
-    "name": "Noctowl",
-    "type": "Pokémon",
-    "key": "noctowl",
     "set": "SCR",
     "num": "115",
     "printKey": "noctowl|SCR 115",
@@ -15862,23 +14613,6 @@
     ]
   },
   {
-    "name": "Oricorio ex",
-    "type": "Pokémon",
-    "key": "oricorioex",
-    "set": "PFL",
-    "num": "18",
-    "printKey": "oricorioex|PFL 18",
-    "image": "https://images.pokemontcg.io/me2/18_hires.png",
-    "total": 2,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Oricorio GX",
     "type": "Pokémon",
     "key": "oricoriogx",
@@ -16096,18 +14830,13 @@
     "num": "88",
     "printKey": "passimian|CRE 88",
     "image": "https://images.pokemontcg.io/swsh6/88_hires.png",
-    "total": 2,
+    "total": 1,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
         "source": "Rapid Strike Urshifu (2021)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -16156,23 +14885,6 @@
         "qty": 1,
         "source": "Fusion Strike Mew (2023)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Patrat",
-    "type": "Pokémon",
-    "key": "patrat",
-    "set": "CRI",
-    "num": "70",
-    "printKey": "patrat|CRI 70",
-    "image": "https://images.scrydex.com/pokemon/me4-70/large",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -16364,18 +15076,13 @@
     "num": "66",
     "printKey": "pikipek|PBL 66",
     "image": "https://images.scrydex.com/pokemon/me5-66/large",
-    "total": 4,
+    "total": 2,
     "variants": [
       {
         "version": "Reverse Holo",
         "qty": 2,
         "source": "Alakazam (2026)",
         "verified": true
-      },
-      {
-        "version": "Reverse Holo",
-        "qty": 2,
-        "source": "Spare"
       }
     ]
   },
@@ -17096,18 +15803,13 @@
     "num": "5",
     "printKey": "poltchageist|PBL 5",
     "image": "https://images.scrydex.com/pokemon/me5-5/large",
-    "total": 4,
+    "total": 2,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
         "source": "Hide 'n' Sneak (2026)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spare"
       }
     ]
   },
@@ -17238,23 +15940,6 @@
     ]
   },
   {
-    "name": "Premium Power Pro",
-    "type": "Item",
-    "key": "premiumpowerpro",
-    "set": "",
-    "num": "",
-    "printKey": "premiumpowerpro|",
-    "image": "https://images.scrydex.com/pokemon/me2pt5-199/large",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Prime Catcher",
     "type": "Item",
     "key": "primecatcher",
@@ -17315,23 +16000,6 @@
     ]
   },
   {
-    "name": "Prime Catcher",
-    "type": "Item",
-    "key": "primecatcher",
-    "set": "",
-    "num": "",
-    "printKey": "primecatcher|",
-    "image": "https://images.pokemontcg.io/sv5/157_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Prinplup",
     "type": "Pokémon",
     "key": "prinplup",
@@ -17376,23 +16044,6 @@
         "qty": 2,
         "source": "Darkrai Mewtwo (2012)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Prism Energy",
-    "type": "Energy",
-    "key": "prismenergy",
-    "set": "",
-    "num": "",
-    "printKey": "prismenergy|",
-    "image": "https://images.pokemontcg.io/bw4/93_hires.png",
-    "total": 6,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 6,
-        "source": "Spare"
       }
     ]
   },
@@ -17691,23 +16342,6 @@
     ]
   },
   {
-    "name": "Professor Sada's Vitality",
-    "type": "Supporter",
-    "key": "professorsadasvitality",
-    "set": "",
-    "num": "",
-    "printKey": "professorsadasvitality|",
-    "image": "https://images.pokemontcg.io/sv4/170_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Prize Pack",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Professor Sycamore",
     "type": "Trainer",
     "key": "professorsycamore",
@@ -17715,7 +16349,7 @@
     "num": "107",
     "printKey": "professorsycamore|BKP 107",
     "image": "https://images.pokemontcg.io/xy9/107_hires.png",
-    "total": 62,
+    "total": 55,
     "variants": [
       {
         "version": "Reverse Holo",
@@ -17830,12 +16464,6 @@
         "qty": 4,
         "source": "Darkrai Giratina (2016)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 7,
-        "source": "Spare",
-        "verified": false
       }
     ]
   },
@@ -17974,23 +16602,6 @@
         "qty": 1,
         "source": "Raging Bolt (2025)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Professor Turo's Scenario",
-    "type": "Supporter",
-    "key": "professorturosscenario",
-    "set": "",
-    "num": "",
-    "printKey": "professorturosscenario|",
-    "image": "https://images.pokemontcg.io/sv4/171_hires.png",
-    "total": 2,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spare"
       }
     ]
   },
@@ -18321,19 +16932,13 @@
     "num": "",
     "printKey": "psychicenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/136_hires.png",
-    "total": 28,
+    "total": 27,
     "variants": [
       {
         "version": "World Champs",
         "qty": 5,
         "source": "Boltevoir (2010)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare",
-        "verified": false
       },
       {
         "version": "World Champs",
@@ -18586,23 +17191,6 @@
         "qty": 4,
         "source": "ADP Flying Pikachu (2022)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Quick Ball",
-    "type": "Item",
-    "key": "quickball",
-    "set": "",
-    "num": "",
-    "printKey": "quickball|",
-    "image": "https://images.pokemontcg.io/swsh1/179_hires.png",
-    "total": 6,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 6,
-        "source": "Spare"
       }
     ]
   },
@@ -19076,7 +17664,7 @@
     "num": "87",
     "printKey": "rapidstrikeurshifuv|BST 87",
     "image": "https://images.pokemontcg.io/swsh5/87_hires.png",
-    "total": 9,
+    "total": 7,
     "variants": [
       {
         "version": "Standard",
@@ -19089,28 +17677,6 @@
         "qty": 3,
         "source": "Urshifu VMAX (2022)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
-    "name": "Rapid Strike Urshifu V",
-    "type": "Pokémon",
-    "key": "rapidstrikeurshifuv",
-    "set": "SWSH",
-    "num": "107",
-    "printKey": "rapidstrikeurshifuv|SWSH 107",
-    "image": "https://images.pokemontcg.io/swshp/SWSH107_hires.png",
-    "total": 2,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spare"
       }
     ]
   },
@@ -19122,7 +17688,7 @@
     "num": "88",
     "printKey": "rapidstrikeurshifuvmax|BST 88",
     "image": "https://images.pokemontcg.io/swsh5/88_hires.png",
-    "total": 6,
+    "total": 5,
     "variants": [
       {
         "version": "Standard",
@@ -19135,11 +17701,6 @@
         "qty": 2,
         "source": "Urshifu VMAX (2022)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -20014,23 +18575,6 @@
     ]
   },
   {
-    "name": "Rosa's Encouragement",
-    "type": "Supporter",
-    "key": "rosasencouragement",
-    "set": "",
-    "num": "",
-    "printKey": "rosasencouragement|",
-    "image": "https://images.scrydex.com/pokemon/me3-84/large",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Prize Pack",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Rose Tower",
     "type": "Trainer",
     "key": "rosetower",
@@ -20319,23 +18863,6 @@
     ]
   },
   {
-    "name": "Scoop Up Cyclone",
-    "type": "Item",
-    "key": "scoopupcyclone",
-    "set": "",
-    "num": "",
-    "printKey": "scoopupcyclone|",
-    "image": "https://images.pokemontcg.io/bw10/95_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Scoop Up Net",
     "type": "Item",
     "key": "scoopupnet",
@@ -20378,23 +18905,6 @@
     ]
   },
   {
-    "name": "Scoop Up Net",
-    "type": "Item",
-    "key": "scoopupnet",
-    "set": "",
-    "num": "",
-    "printKey": "scoopupnet|",
-    "image": "https://images.pokemontcg.io/swsh2/165_hires.png",
-    "total": 6,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 6,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Scramble Switch",
     "type": "Item",
     "key": "scrambleswitch",
@@ -20409,23 +18919,6 @@
         "qty": 1,
         "source": "TDK (2014)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Scramble Switch",
-    "type": "Item",
-    "key": "scrambleswitch",
-    "set": "",
-    "num": "",
-    "printKey": "scrambleswitch|",
-    "image": "https://images.pokemontcg.io/bw8/129_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -20497,35 +18990,13 @@
     "num": "74",
     "printKey": "shadowridercalyrexv|CRE 74",
     "image": "https://images.pokemontcg.io/swsh6/74_hires.png",
-    "total": 4,
+    "total": 2,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
         "source": "Shadow Rider (2021)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
-    "name": "Shadow Rider Calyrex V",
-    "type": "Pokémon",
-    "key": "shadowridercalyrexv",
-    "set": "SWSH",
-    "num": "131",
-    "printKey": "shadowridercalyrexv|SWSH 131",
-    "image": "https://images.pokemontcg.io/swshp/SWSH131_hires.png",
-    "total": 2,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spare"
       }
     ]
   },
@@ -20555,18 +19026,13 @@
     "num": "75",
     "printKey": "shadowridercalyrexvmax|CRE 75",
     "image": "https://images.pokemontcg.io/swsh6/75_hires.png",
-    "total": 7,
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
         "qty": 4,
         "source": "Shadow Rider (2021)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Spare"
       }
     ]
   },
@@ -20585,23 +19051,6 @@
         "qty": 2,
         "source": "VirGen (2014)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Shadowy Darkness Energy",
-    "type": "Energy",
-    "key": "shadowydarknessenergy",
-    "set": "",
-    "num": "",
-    "printKey": "shadowydarknessenergy|",
-    "image": null,
-    "total": 1,
-    "variants": [
-      {
-        "version": "Reverse Holo",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -20847,18 +19296,13 @@
     "num": "6",
     "printKey": "sinistcha|PBL 6",
     "image": "https://images.scrydex.com/pokemon/me5-6/large",
-    "total": 4,
+    "total": 2,
     "variants": [
       {
         "version": "Standard",
         "qty": 2,
         "source": "Hide 'n' Sneak (2026)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spare"
       }
     ]
   },
@@ -21157,40 +19601,6 @@
     ]
   },
   {
-    "name": "Solrock",
-    "type": "Pokémon",
-    "key": "solrock",
-    "set": "ASC",
-    "num": "106",
-    "printKey": "solrock|ASC 106",
-    "image": "https://images.scrydex.com/pokemon/me2pt5-106/large",
-    "total": 4,
-    "variants": [
-      {
-        "version": "Reverse Holo",
-        "qty": 4,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
-    "name": "Sparkling Crystal",
-    "type": "Item",
-    "key": "sparklingcrystal",
-    "set": "",
-    "num": "",
-    "printKey": "sparklingcrystal|",
-    "image": null,
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Special Charge",
     "type": "Trainer",
     "key": "specialcharge",
@@ -21277,23 +19687,6 @@
         "qty": 4,
         "source": "Spiritomb (2021)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Spiky Energy",
-    "type": "Energy",
-    "key": "spikyenergy",
-    "set": "",
-    "num": "",
-    "printKey": "spikyenergy|",
-    "image": null,
-    "total": 3,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Spare"
       }
     ]
   },
@@ -21970,23 +20363,6 @@
     ]
   },
   {
-    "name": "Surfing Beach",
-    "type": "Stadium",
-    "key": "surfingbeach",
-    "set": "",
-    "num": "",
-    "printKey": "surfingbeach|",
-    "image": null,
-    "total": 1,
-    "variants": [
-      {
-        "version": "Prize Pack",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Swampert",
     "type": "Pokémon",
     "key": "swampert",
@@ -22468,7 +20844,7 @@
     "num": "60",
     "printKey": "tapulelegx|GRI 60",
     "image": "https://images.pokemontcg.io/sm2/60_hires.png",
-    "total": 32,
+    "total": 31,
     "variants": [
       {
         "version": "Standard",
@@ -22547,12 +20923,6 @@
         "qty": 2,
         "source": "DeciPod (2017)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare",
-        "verified": false
       }
     ]
   },
@@ -22847,23 +21217,6 @@
     ]
   },
   {
-    "name": "Team Rocket's Archer",
-    "type": "Supporter",
-    "key": "teamrocketsarcher",
-    "set": "",
-    "num": "",
-    "printKey": "teamrocketsarcher|",
-    "image": "https://images.pokemontcg.io/sv10/170_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Prize Pack",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Team Rocket's Ariana",
     "type": "Supporter",
     "key": "teamrocketsariana",
@@ -23053,23 +21406,6 @@
     "name": "Team Rocket's Mewtwo ex",
     "type": "Pokémon",
     "key": "teamrocketsmewtwoex",
-    "set": "ASC",
-    "num": "79",
-    "printKey": "teamrocketsmewtwoex|ASC 79",
-    "image": "https://images.scrydex.com/pokemon/me2pt5-79/large",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
-    "name": "Team Rocket's Mewtwo ex",
-    "type": "Pokémon",
-    "key": "teamrocketsmewtwoex",
     "set": "DRI",
     "num": "81",
     "printKey": "teamrocketsmewtwoex|DRI 81",
@@ -23083,24 +21419,6 @@
         "verified": true
       }
     ]
-  },
-  {
-    "name": "Team Rocket's Mewtwo ex",
-    "type": "Pokémon",
-    "key": "teamrocketsmewtwoex",
-    "set": "M2a",
-    "num": "63",
-    "printKey": "teamrocketsmewtwoex|M2a 63",
-    "image": "https://images.pokemontcg.io/sv10/81_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Japanese",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ],
-    "standIn": "stand-in: the card is the Japanese M2a 63 print, which has no catalogued image"
   },
   {
     "name": "Team Rocket's Mimikyu",
@@ -23183,23 +21501,6 @@
         "qty": 1,
         "source": "Joltdengo (2025)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Team Rocket's Petrel",
-    "type": "Supporter",
-    "key": "teamrocketspetrel",
-    "set": "",
-    "num": "",
-    "printKey": "teamrocketspetrel|",
-    "image": "https://images.pokemontcg.io/sv10/176_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -23402,28 +21703,6 @@
     ]
   },
   {
-    "name": "Team Rocket's Watchtower",
-    "type": "Stadium",
-    "key": "teamrocketswatchtower",
-    "set": "",
-    "num": "",
-    "printKey": "teamrocketswatchtower|",
-    "image": "https://images.pokemontcg.io/sv10/180_hires.png",
-    "total": 2,
-    "variants": [
-      {
-        "version": "Reverse Holo",
-        "qty": 1,
-        "source": "Spare"
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Teammates",
     "type": "Trainer",
     "key": "teammates",
@@ -23502,23 +21781,6 @@
     ]
   },
   {
-    "name": "Technical Machine: Evolution",
-    "type": "Item",
-    "key": "technicalmachineevolution",
-    "set": "",
-    "num": "",
-    "printKey": "technicalmachineevolution|",
-    "image": "https://images.pokemontcg.io/sv4/178_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Prize Pack Holo",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Technical Machine: Turbo Energize",
     "type": "Trainer",
     "key": "technicalmachineturboenergize",
@@ -23551,23 +21813,6 @@
         "qty": 2,
         "source": "Iron Thorns (2024)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Techno Radar",
-    "type": "Item",
-    "key": "technoradar",
-    "set": "",
-    "num": "",
-    "printKey": "technoradar|",
-    "image": "https://images.pokemontcg.io/sv4/180_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Prize Pack",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -23818,23 +22063,6 @@
     ]
   },
   {
-    "name": "Torchic",
-    "type": "Pokémon",
-    "key": "torchic",
-    "set": "DRI",
-    "num": "40",
-    "printKey": "torchic|DRI 40",
-    "image": "https://images.pokemontcg.io/sv10/40_hires.png",
-    "total": 2,
-    "variants": [
-      {
-        "version": "Reverse Holo",
-        "qty": 2,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Tornadus-EX",
     "type": "Pokémon",
     "key": "tornadusex",
@@ -23860,18 +22088,13 @@
     "num": "68",
     "printKey": "toucannon|PBL 68",
     "image": "https://images.scrydex.com/pokemon/me5-68/large",
-    "total": 4,
+    "total": 2,
     "variants": [
       {
         "version": "Reverse Holo",
         "qty": 2,
         "source": "Alakazam (2026)",
         "verified": true
-      },
-      {
-        "version": "Reverse Holo",
-        "qty": 2,
-        "source": "Spare"
       }
     ]
   },
@@ -24171,18 +22394,13 @@
     "num": "67",
     "printKey": "trumbeak|PBL 67",
     "image": "https://images.scrydex.com/pokemon/me5-67/large",
-    "total": 4,
+    "total": 1,
     "variants": [
       {
         "version": "Reverse Holo",
         "qty": 1,
         "source": "Alakazam (2026)",
         "verified": true
-      },
-      {
-        "version": "Reverse Holo",
-        "qty": 3,
-        "source": "Spare"
       }
     ]
   },
@@ -25204,23 +23422,6 @@
     "name": "Volcanion ex",
     "type": "Pokémon",
     "key": "volcanionex",
-    "set": "JTG",
-    "num": "31",
-    "printKey": "volcanionex|JTG 31",
-    "image": "https://images.pokemontcg.io/sv9/31_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
-    "name": "Volcanion ex",
-    "type": "Pokémon",
-    "key": "volcanionex",
     "set": "STS",
     "num": "26",
     "printKey": "volcanionex|STS 26",
@@ -25250,23 +23451,6 @@
         "qty": 4,
         "source": "Pikarom Judge (2019)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Voltaic Lightning Energy",
-    "type": "Energy",
-    "key": "voltaiclightningenergy",
-    "set": "",
-    "num": "",
-    "printKey": "voltaiclightningenergy|",
-    "image": null,
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -25411,23 +23595,6 @@
         "qty": 2,
         "source": "Reshizard Firebox (2019)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Wally's Compassion",
-    "type": "Supporter",
-    "key": "wallyscompassion",
-    "set": "",
-    "num": "",
-    "printKey": "wallyscompassion|",
-    "image": null,
-    "total": 4,
-    "variants": [
-      {
-        "version": "Prize Pack Holo",
-        "qty": 4,
-        "source": "Spare"
       }
     ]
   },
@@ -25589,14 +23756,8 @@
     "num": "",
     "printKey": "waterenergy|XY",
     "image": "https://images.pokemontcg.io/xy1/134_hires.png",
-    "total": 15,
+    "total": 13,
     "variants": [
-      {
-        "version": "World Champs",
-        "qty": 2,
-        "source": "Spare",
-        "verified": false
-      },
       {
         "version": "World Champs",
         "qty": 8,
@@ -25906,23 +24067,6 @@
     ]
   },
   {
-    "name": "Xerosic's Machinations",
-    "type": "Supporter",
-    "key": "xerosicsmachinations",
-    "set": "",
-    "num": "",
-    "printKey": "xerosicsmachinations|",
-    "image": null,
-    "total": 1,
-    "variants": [
-      {
-        "version": "Reverse Holo",
-        "qty": 1,
-        "source": "Spare"
-      }
-    ]
-  },
-  {
     "name": "Yanma",
     "type": "Pokémon",
     "key": "yanma",
@@ -25984,18 +24128,13 @@
     "num": "88",
     "printKey": "yveltal|MEG 88",
     "image": "https://images.pokemontcg.io/me1/88_hires.png",
-    "total": 3,
+    "total": 1,
     "variants": [
       {
         "version": "Standard",
         "qty": 1,
         "source": "N's Zoroark (2026)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Spare"
       }
     ]
   },
@@ -26086,23 +24225,6 @@
         "qty": 3,
         "source": "ADP Zacian (2020)",
         "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Zacian V",
-    "type": "Pokémon",
-    "key": "zacianv",
-    "set": "SWSH",
-    "num": "18",
-    "printKey": "zacianv|SWSH 18",
-    "image": "https://images.pokemontcg.io/swshp/SWSH018_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -26222,7 +24344,7 @@
     "num": "53",
     "printKey": "zoroarkgx|SLG 53",
     "image": "https://images.pokemontcg.io/sm35/53_hires.png",
-    "total": 10,
+    "total": 9,
     "variants": [
       {
         "version": "Standard",
@@ -26241,11 +24363,6 @@
         "qty": 4,
         "source": "ZoroGarb (2018)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },
@@ -26317,7 +24434,7 @@
     "num": "52",
     "printKey": "zorua|SLG 52",
     "image": "https://images.pokemontcg.io/sm35/52_hires.png",
-    "total": 10,
+    "total": 9,
     "variants": [
       {
         "version": "Standard",
@@ -26336,11 +24453,6 @@
         "qty": 4,
         "source": "ZoroGarb (2018)",
         "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare"
       }
     ]
   },

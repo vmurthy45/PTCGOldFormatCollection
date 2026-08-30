@@ -176,7 +176,18 @@ Hosted free on GitHub Pages.
 
   **The Verification tab** (Tools) is the progress view: decks checked, deck
   stacks, spare stacks, and a per-deck bar grouped by year. The order of work
-  is all decks first, then the spare boxes — once every deck has claimed its
+  is all decks first, then the spare boxes.
+
+  **The old spare figures were cleared on 2026-08-30.** They were never
+  observed -- `spare = sheet copies - deck copies` -- and the deck pass had just
+  corrected ~200 prints in that same sheet, while anything never on the sheet
+  was absent entirely. 149 stacks / 293 copies are archived verbatim in
+  `data/archive/spares_2026-08-30.json` and Vig is now entering the loose boxes
+  from the cards themselves. **When that pass finishes, diff the new stock
+  against that archive and report the gaps** -- a card the sheet claimed but the
+  box lacks may mean a lost card, a mis-logged purchase, or a bad deck
+  assignment. Deck stacks were untouched (2084/2084 still verified). The old
+  order of work was — once every deck has claimed its
   copies, whatever is still `"Spare"` is what is physically loose.
   2026 decks stay display-only — deck `prints`/missing markers are never
   rewritten from inventory. Vig intends to walk through the deck-sourced
