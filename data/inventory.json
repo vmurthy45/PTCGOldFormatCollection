@@ -2538,13 +2538,7 @@
       },
       {
         "version": "Prize Pack Holo",
-        "qty": 1,
-        "source": "Dragapult (2026)",
-        "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
+        "qty": 2,
         "source": "Dragapult (2026)",
         "verified": true
       }
@@ -6057,13 +6051,7 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "Dragapult (2026)",
-        "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 4,
+        "qty": 3,
         "source": "Spare",
         "verified": true
       },
@@ -6071,6 +6059,12 @@
         "version": "Standard",
         "qty": 4,
         "source": "Dragapult Dusknoir (2026)",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo (Dragon Pattern)",
+        "qty": 2,
+        "source": "Dragapult (2026)",
         "verified": true
       }
     ]
@@ -6086,9 +6080,15 @@
     "total": 2,
     "variants": [
       {
-        "version": "Standard",
-        "qty": 2,
+        "version": "Reverse Holo",
+        "qty": 1,
         "source": "Dragapult (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -6110,7 +6110,7 @@
         "verified": true
       },
       {
-        "version": "Standard",
+        "version": "Reverse Holo",
         "qty": 1,
         "source": "Dragapult (2026)",
         "verified": true
@@ -6200,7 +6200,7 @@
     "total": 4,
     "variants": [
       {
-        "version": "Standard",
+        "version": "Reverse Holo",
         "qty": 4,
         "source": "Dragapult (2026)",
         "verified": true
