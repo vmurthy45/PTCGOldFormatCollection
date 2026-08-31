@@ -123,6 +123,24 @@ def main():
                if sid in SCRYDEX_IDS else f"https://images.pokemontcg.io/{sid}/{n}_hires.png")
         return url, totals.get(sid)
 
+    row_image = {}
+    for e in inv:
+        if e.get("image"):
+            row_image[(e["key"], e.get("set", ""), e.get("num", ""))] = e["image"]
+
+    # What a deck row currently shows. Three shapes: "45/113" with the code
+    # coming from the image; a bare "SSH" for an energy printed with no number;
+    # and "MEE 5" for a print whose set has no catalogued printed total, where
+    # the row itself is the only record of the code.
+    def current(c):
+        st = str(c.get("set") or "").strip()
+        if "/" in st:
+            return id_to_code.get(set_id_of(c.get("image"))), st.split("/", 1)[0]
+        if " " in st:
+            code, _, num = st.partition(" ")
+            return code, num.strip()
+        return (st or id_to_code.get(set_id_of(c.get("image")))), ""
+
     stacks_by_deck = defaultdict(list)
     for e in inv:
         for v in e["variants"]:
@@ -170,7 +188,7 @@ def main():
             c = rows[0]
             top = max(prints.items(), key=lambda kv: kv[1])
             (code, num), qty = top
-            cur_code_pre = id_to_code.get(set_id_of(c.get("image")))
+            cur_code_pre = current(c)[0]
             # 'XY' with no number is the merge script's placeholder for "a basic
             # energy whose printing was never recorded" -- NOT a claim that the
             # card is from XY base. It must never reach a decklist.
@@ -189,8 +207,7 @@ def main():
                 continue
             if not code or not num:
                 continue                      # print still unidentified
-            cur_code = id_to_code.get(set_id_of(c.get("image")))
-            cur_num = str(c.get("set") or "").split("/")[0]
+            cur_code, cur_num = current(c)
             if (cur_code, cur_num) == (code, num):
                 continue
             tied = [k for k, n in prints.items() if n == qty]
@@ -207,8 +224,20 @@ def main():
             else:
                 why = f"{qty} of {sum(prints.values())}"
             url, tot = image_for(code, num)
-            if not url or not tot:
-                unresolved.append(f"{deck}: {name} — no printed total known for {code} {num}")
+            # Sets the card API does not carry (MEE) or does not give a usable
+            # printed total for (SVE) still have to reach the list -- otherwise
+            # the row keeps showing whatever print it held before, which is
+            # simply wrong. Write "MEE 5" and borrow the inventory row's image.
+            if not tot:
+                img = url or row_image.get((name_key(name), code, num))
+                if not img:
+                    unresolved.append(f"{deck}: {name} — no image or printed total for {code} {num}")
+                    continue
+                changed.append((deck, name, f"{cur_code} {cur_num}", f"{code} {num}",
+                                why + ", set has no printed total"))
+                if fix:
+                    c["set"] = f"{code} {num}"
+                    c["image"] = img
                 continue
             changed.append((deck, name, f"{cur_code} {cur_num}", f"{code} {num}", why))
             if fix:

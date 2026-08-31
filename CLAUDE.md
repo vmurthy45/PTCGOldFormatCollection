@@ -212,6 +212,17 @@ Hosted free on GitHub Pages.
   count is now just the copies sourced `"Spare"`, and the per-row deck list is
   gone because every deck holding a print is already named on its variant line.
 
+  **A deck row's `set` may read "MEE 5", not just "45/113".** Sets the card API
+  does not catalogue (`MEE`) or gives no usable printed total for (`SVE`) cannot
+  produce a "number/total" string, and `align_deck_prints` used to give up on
+  them -- leaving the row showing whatever print it held before, which was
+  simply wrong (three Dragapult energies read `SSH` while the box held MEE).
+  It now writes `"CODE NUM"` and borrows the inventory row's image. Anything
+  reading a deck row's print must handle all three shapes; `current()` in the
+  align script and `deckRowPrint()` in index.html both do. The deck card modal
+  also inherits the inventory row's `standIn` note via `standInFor()`, so a row
+  captioned "MEE 7" showing Scarlet & Violet art says why.
+
   **Vig can report a card as "Copycat 127/168".** Older cards carry no set code,
   only the card number and the set's printed total -- which is the part he can
   actually read off the card. `scripts/resolve_print.py` turns that into the set

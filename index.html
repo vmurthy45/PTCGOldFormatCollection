@@ -726,6 +726,26 @@ themeBtn.onclick = () => {
 /* ---------- card image modal ---------- */
 const modal = document.getElementById('imgModal');
 const modalBody = modal.querySelector('.modal-body');
+// The print a deck row is showing, as (code, number). "45/113" takes its code
+// from the image; "MEE 5" carries both itself (sets the card API does not
+// catalogue); a bare "SSH" is an energy printed with no number.
+function deckRowPrint(card){
+  const st = String(card.set || '').trim();
+  if(st.includes('/')) return [setCodeFromImage(card.image), st.split('/')[0]];
+  if(st.includes(' ')){ const [c, ...r] = st.split(' '); return [c, r.join(' ').trim()]; }
+  return [st || setCodeFromImage(card.image), ''];
+}
+// A deck row shows the same picture its inventory row does, so it inherits the
+// same stand-in caveat -- without it a Dragapult list captioned "MEE 7" would
+// show Scarlet & Violet artwork with nothing saying why.
+function standInFor(card){
+  const [code, num] = deckRowPrint(card);
+  const k = invKey(card.name);
+  const row = (INVENTORY || []).find(e =>
+    e.key === k && (e.set || '') === code && (e.num || '') === num);
+  return row && row.standIn;
+}
+
 function openCardModal(card){
   modalBody.innerHTML = '';
   if(card.image){
@@ -743,6 +763,13 @@ function openCardModal(card){
   cap.className = 'modal-caption';
   cap.textContent = card.set ? `${card.name} · ${card.set}` : card.name;
   modalBody.appendChild(cap);
+  const note = standInFor(card);
+  if(note){
+    const n = document.createElement('div');
+    n.className = 'modal-standin';
+    n.textContent = note;
+    modalBody.appendChild(n);
+  }
   modal.hidden = false;
 }
 // Generic image popup (reuses the card modal) for the About-me photos.
