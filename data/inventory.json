@@ -2515,7 +2515,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Dragapult (2026)",
+        "source": "Dragapult Dusknoir (2026)",
         "verified": true
       }
     ]
@@ -2531,12 +2531,6 @@
     "total": 4,
     "variants": [
       {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Dragapult Dusknoir (2026)",
-        "verified": true
-      },
-      {
         "version": "World Champs",
         "qty": 2,
         "source": "Dragapult (2025)",
@@ -2544,6 +2538,12 @@
       },
       {
         "version": "Prize Pack Holo",
+        "qty": 1,
+        "source": "Dragapult (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 1,
         "source": "Dragapult (2026)",
         "verified": true
@@ -4135,7 +4135,7 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Dragapult Dusknoir (2026)",
+        "source": "Dragapult (2026)",
         "verified": true
       }
     ]
@@ -4153,7 +4153,7 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Dragapult (2026)",
+        "source": "Dragapult Dusknoir (2026)",
         "verified": true
       }
     ]
@@ -5937,7 +5937,7 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Dragapult Dusknoir (2026)",
+        "source": "Dragapult (2026)",
         "verified": true
       }
     ]
@@ -5955,7 +5955,7 @@
       {
         "version": "Japanese",
         "qty": 3,
-        "source": "Dragapult (2026)",
+        "source": "Dragapult Dusknoir (2026)",
         "verified": true
       }
     ],
@@ -6057,20 +6057,20 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Dragapult (2026)",
-        "verified": true
-      },
-      {
-        "version": "Standard",
         "qty": 1,
-        "source": "Dragapult Dusknoir (2026)",
+        "source": "Dragapult (2026)",
         "verified": true
       },
       {
         "version": "Standard",
         "qty": 4,
         "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Dragapult Dusknoir (2026)",
         "verified": true
       }
     ]
@@ -6088,7 +6088,7 @@
       {
         "version": "Standard",
         "qty": 2,
-        "source": "Dragapult Dusknoir (2026)",
+        "source": "Dragapult (2026)",
         "verified": true
       }
     ]
@@ -6104,15 +6104,15 @@
     "total": 5,
     "variants": [
       {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Dragapult Dusknoir (2026)",
-        "verified": true
-      },
-      {
         "version": "World Champs",
         "qty": 4,
         "source": "Dragapult (2025)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Dragapult (2026)",
         "verified": true
       }
     ]
@@ -6178,13 +6178,13 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Dragapult (2026)",
+        "source": "Spare",
         "verified": true
       },
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Spare",
+        "source": "Dragapult Dusknoir (2026)",
         "verified": true
       }
     ]
@@ -6202,7 +6202,7 @@
       {
         "version": "Standard",
         "qty": 4,
-        "source": "Dragapult Dusknoir (2026)",
+        "source": "Dragapult (2026)",
         "verified": true
       }
     ]
@@ -8158,7 +8158,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Dragapult Dusknoir (2026)",
+        "source": "Dragapult (2026)",
         "verified": true
       }
     ]
@@ -8188,13 +8188,13 @@
       {
         "version": "Japanese",
         "qty": 1,
-        "source": "Dragapult (2026)",
+        "source": "Alakazam (2026)",
         "verified": true
       },
       {
         "version": "Japanese",
         "qty": 1,
-        "source": "Alakazam (2026)",
+        "source": "Dragapult Dusknoir (2026)",
         "verified": true
       }
     ],
