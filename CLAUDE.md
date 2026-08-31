@@ -116,6 +116,18 @@ Hosted free on GitHub Pages.
   unverified deck shows its recorded-but-unconfirmed make-up. On phones the
   strip, word and bar all narrow so long deck names keep their full width.
 
+  **Inventory filters: type · edition · location, plus deck search.** Three
+  compact selects share one row at every width (Vig asked for space efficiency
+  on 2026-08-30; stacking them on a phone cost 100px above the list). The
+  edition list is built from the data, so a finish added later appears without
+  a code change. **The filters apply per STACK, not per row** -- asking for
+  Reverse Holo shows only the RH lines of a print, and the count pills are
+  recomputed from what survives. The search box now matches a **deck name** as
+  well as a card name or set: typing "Dragapult (2026)" lists that deck's 60
+  cards, each row showing only that deck's own stack. That per-stack filtering
+  is what makes deck search usable -- an earlier version matched deck names
+  across whole rows and dragged in every staple a deck happened to play.
+
   **Three count pills per row.** The Inventory row's copy count splits into
   **Standard (red) · World Champs (blue) · Proxy (grey-violet)**. Standard means
   every real retail finish — plain, Reverse Holo, Holo, Prize Pack, Full Art,

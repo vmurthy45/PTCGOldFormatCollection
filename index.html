@@ -330,6 +330,12 @@
   .matchup-hint{margin-top:16px; font-size:12.5px; color:var(--muted)}
   /* card collection (aggregate) tab */
   .cc-controls-row{display:flex; flex-wrap:wrap; gap:10px}
+  /* Three filters on one row, on a phone too: stacking them cost 100px of
+     vertical space above the list, which is the opposite of the point. */
+  .inv-filters{gap:8px}
+  .inv-filters .cc-select{flex:1 1 0; min-width:0; padding:10px 8px; font-size:14px;
+    text-overflow:ellipsis}
+  @media (max-width:520px){ .inv-filters .cc-select{padding:9px 6px; font-size:12.5px} }
   .cc-select{
     flex:1 1 160px; padding:12px 14px; font-size:15px; border:1px solid var(--line);
     border-radius:12px; background:var(--card); color:var(--ink); font-family:inherit;
@@ -633,15 +639,19 @@
 
   <div id="inventoryTab" class="subtab-panel active">
     <div class="controls">
-      <input id="inv-q" class="search" type="search" placeholder="Search your cards…" autocomplete="off">
-      <div class="cc-controls-row">
-        <select id="inv-filter" class="cc-select" aria-label="Filter cards">
-          <option value="ALL">All cards</option>
-          <option value="INDECK">In a deck</option>
-          <option value="SPARE">Spare only</option>
+      <input id="inv-q" class="search" type="search" placeholder="Search cards, sets or a deck name…" autocomplete="off">
+      <div class="cc-controls-row inv-filters">
+        <select id="inv-type" class="cc-select" aria-label="Filter by card type">
+          <option value="ALL">All types</option>
           <option value="Pokemon">Pokémon</option>
           <option value="Trainer">Trainers</option>
           <option value="Energy">Energy</option>
+        </select>
+        <select id="inv-edition" class="cc-select" aria-label="Filter by edition"></select>
+        <select id="inv-loc" class="cc-select" aria-label="Filter by where the card is">
+          <option value="ALL">Anywhere</option>
+          <option value="INDECK">In a deck</option>
+          <option value="SPARE">Spare only</option>
         </select>
       </div>
     </div>
@@ -1543,11 +1553,33 @@ matchupBtn.onclick = generateMatchup;
    ignoring "(variant)" tags and a leading "Basic ", so "Tapu Lele GX",
    "Tapu Lele-GX" and "Basic Metal Energy" all find their deck rows. */
 const invQEl = document.getElementById('inv-q');
-const invFilterEl = document.getElementById('inv-filter');
+const invTypeEl = document.getElementById('inv-type');
+const invEditionEl = document.getElementById('inv-edition');
+const invLocEl = document.getElementById('inv-loc');
 const invStatsEl = document.getElementById('inv-stats');
 const invListEl = document.getElementById('inv-list');
 let invQuery = '';
-let invFilter = 'ALL';
+let invType = 'ALL';
+let invEdition = 'ALL';
+let invLoc = 'ALL';
+// Editions come from the data, so a finish added later (Prize Pack Holo, a
+// promo stamping, the Dragon Pattern reverse) appears without a code change.
+const EDITION_ORDER = ['Standard', 'Reverse Holo', 'Holo', 'World Champs', 'Proxy', 'Japanese'];
+function invEditions(){
+  const seen = new Set();
+  INVENTORY.forEach(g => g.variants.forEach(v => v.version && seen.add(v.version)));
+  return [...seen].sort((a, b) => {
+    const ia = EDITION_ORDER.indexOf(a), ib = EDITION_ORDER.indexOf(b);
+    if(ia !== -1 || ib !== -1) return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+    return a.localeCompare(b);
+  });
+}
+function invFillEditions(){
+  if(!invEditionEl) return;
+  invEditionEl.innerHTML = '<option value="ALL">All editions</option>'
+    + invEditions().map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join('');
+  invEditionEl.value = invEdition;
+}
 
 function invKey(s){
   return String(s)
@@ -1584,17 +1616,33 @@ function invSpare(g){
 function renderInventory(){
   if(!invListEl) return;
   const q = invQuery.toLowerCase();
-  let items = INVENTORY.map(g => ({...g, spare: invSpare(g)}));
-  if(invFilter === 'INDECK') items = items.filter(g => g.total > g.spare);
-  else if(invFilter === 'SPARE') items = items.filter(g => g.spare > 0);
-  else if(invFilter !== 'ALL') items = items.filter(g => invCat(g.type) === invFilter);
-  // Card name or set code only. Deck names are deliberately NOT searched:
-  // matching them dragged in every staple a deck happens to play (searching
-  // "dragapult" returned Boss's Orders), and the decks tab already lists a
-  // deck's cards.
-  if(q) items = items.filter(g =>
-    g.name.toLowerCase().includes(q) ||
-    (g.set || '').toLowerCase() === q);
+  // Filters apply to individual STACKS, not whole rows, so a row shows only the
+  // lines that matched -- asking for Reverse Holo lists the RH copies, not the
+  // whole print. The count pills are recomputed from what survives.
+  //
+  // The query matches a card name, a set code, or a DECK NAME. Matching deck
+  // names used to be avoided because it dragged in every staple a deck plays;
+  // filtering to that deck's own stack is what makes it useful now -- searching
+  // "Dragapult (2026)" lists that deck's cards and nothing else about them.
+  const looseOnly = g => invCat(g.type);
+  let items = INVENTORY
+    .filter(g => invType === 'ALL' || invCat(g.type) === invType)
+    .map(g => {
+      const nameHit = !q
+        || g.name.toLowerCase().includes(q)
+        || `${g.set || ''} ${g.num || ''}`.trim().toLowerCase().includes(q);
+      const variants = g.variants.filter(v => {
+        const isSpare = !v.source || v.source === 'Spare';
+        if(invLoc === 'SPARE' && !isSpare) return false;
+        if(invLoc === 'INDECK' && isSpare) return false;
+        if(invEdition !== 'ALL' && v.version !== invEdition) return false;
+        if(!q) return true;
+        return nameHit || String(v.source || '').toLowerCase().includes(q);
+      });
+      const total = variants.reduce((n, v) => n + (Number(v.qty) || 0), 0);
+      return {...g, variants, total, spare: invSpare({variants})};
+    })
+    .filter(g => g.variants.length > 0);
 
   const copies = items.reduce((s,g) => s + g.total, 0);
   const spare = items.reduce((s,g) => s + g.spare, 0);
@@ -1637,7 +1685,8 @@ function renderInventory(){
             const sum = f => g.variants.reduce((n,v) => n + (f(v) ? (Number(v.qty)||0) : 0), 0);
             const wc = sum(v => v.version === 'World Champs');
             const px = sum(v => v.version === 'Proxy');
-            const std = g.total - wc - px;      // every real retail finish
+            const std = g.total - wc - px;      // every real retail finish; g.total
+                                                // is already the filtered subtotal
             return (std > 0 ? `<span class="inv-qty" title="${std} Standard (includes Reverse Holo and other retail finishes)">${std}</span>` : '')
                  + (wc > 0 ? `<span class="inv-qty inv-qty-wc" title="${wc} World Champs">${wc}</span>` : '')
                  + (px > 0 ? `<span class="inv-qty inv-qty-px" title="${px} Proxy">${px}</span>` : '');
@@ -1665,7 +1714,9 @@ function invCat(t){
   return 'Trainer';
 }
 invQEl.addEventListener('input', e => { invQuery = e.target.value.trim(); renderInventory(); });
-invFilterEl.addEventListener('change', e => { invFilter = e.target.value; renderInventory(); });
+invTypeEl.addEventListener('change', e => { invType = e.target.value; renderInventory(); });
+invEditionEl.addEventListener('change', e => { invEdition = e.target.value; renderInventory(); });
+invLocEl.addEventListener('change', e => { invLoc = e.target.value; renderInventory(); });
 
 
 /* ---------- game log (read-only, from data/games.json) ---------- */
@@ -2102,6 +2153,7 @@ async function init(){
     YEARS.map(y => `<option value="${esc(y)}">${esc(y)}</option>`).join('');
   matchupResultEl.innerHTML = '<div class="matchup-empty">Pick a format (or leave it on Random) and hit Randomize Matchup.</div>';
 
+  invFillEditions();
   renderInventory();
 
   glPopulateFilters();
