@@ -25470,9 +25470,9 @@
     "deck": "Dragapult (2026)",
     "count": 1,
     "name": "Dunsparce",
-    "set": "156/193",
+    "set": "120/159",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sv2/156_hires.png",
+    "image": "https://images.pokemontcg.io/sv9/120_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -25496,13 +25496,13 @@
   {
     "year": "2026",
     "deck": "Dragapult (2026)",
-    "count": 1,
+    "count": 2,
     "name": "Budew",
     "set": "16/217",
     "category": "Pokemon",
     "image": "https://images.scrydex.com/pokemon/me2pt5-16/large",
     "prints": {
-      "authentic": 1,
+      "authentic": 2,
       "wc": 0,
       "proxy": 0
     }
@@ -25622,13 +25622,13 @@
   {
     "year": "2026",
     "deck": "Dragapult (2026)",
-    "count": 4,
+    "count": 3,
     "name": "Ultra Ball",
-    "set": "131/132",
+    "set": "213/217",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/me1/131_hires.png",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-213/large",
     "prints": {
-      "authentic": 4,
+      "authentic": 3,
       "wc": 0,
       "proxy": 0
     }
@@ -25706,13 +25706,13 @@
   {
     "year": "2026",
     "deck": "Dragapult (2026)",
-    "count": 4,
+    "count": 3,
     "name": "Psychic Energy",
     "set": "SSH",
     "category": "Energy",
     "image": "https://images.pokemontcg.io/xy1/136_hires.png",
     "prints": {
-      "authentic": 4,
+      "authentic": 3,
       "wc": 0,
       "proxy": 0
     }
@@ -25734,13 +25734,13 @@
   {
     "year": "2026",
     "deck": "Dragapult (2026)",
-    "count": 2,
+    "count": 3,
     "name": "Darkness Energy",
     "set": "SSH",
     "category": "Energy",
     "image": "https://images.pokemontcg.io/xy1/138_hires.png",
     "prints": {
-      "authentic": 2,
+      "authentic": 3,
       "wc": 0,
       "proxy": 0
     }

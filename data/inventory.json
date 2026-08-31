@@ -2545,7 +2545,7 @@
       {
         "version": "Prize Pack Holo",
         "qty": 1,
-        "source": "Spare",
+        "source": "Dragapult (2026)",
         "verified": true
       }
     ]
@@ -4789,7 +4789,7 @@
     "variants": [
       {
         "version": "Prize Pack Holo",
-        "qty": 4,
+        "qty": 1,
         "source": "Spare",
         "verified": true
       },
@@ -4797,6 +4797,12 @@
         "version": "Prize Pack",
         "qty": 1,
         "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Prize Pack Holo",
+        "qty": 3,
+        "source": "Dragapult (2026)",
         "verified": true
       }
     ],
@@ -4820,14 +4826,14 @@
       },
       {
         "version": "Standard",
-        "qty": 2,
-        "source": "Dragapult (2026)",
+        "qty": 3,
+        "source": "Spiritomb (2021)",
         "verified": true
       },
       {
         "version": "Standard",
-        "qty": 3,
-        "source": "Spiritomb (2021)",
+        "qty": 2,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -6399,8 +6405,14 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 3,
+        "qty": 2,
         "source": "Hide 'n' Sneak (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Dragapult (2026)",
         "verified": true
       }
     ]
@@ -6424,13 +6436,13 @@
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Dragapult (2026)",
+        "source": "Spare",
         "verified": true
       },
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Spare",
+        "source": "Hide 'n' Sneak (2026)",
         "verified": true
       }
     ]
@@ -20007,7 +20019,7 @@
     "variants": [
       {
         "version": "Prize Pack Holo",
-        "qty": 5,
+        "qty": 2,
         "source": "Spare",
         "verified": true
       },
@@ -20015,6 +20027,12 @@
         "version": "Standard",
         "qty": 1,
         "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Prize Pack Holo",
+        "qty": 3,
+        "source": "Dragapult (2026)",
         "verified": true
       }
     ],
@@ -20056,12 +20074,6 @@
       },
       {
         "version": "Standard",
-        "qty": 4,
-        "source": "Dragapult (2026)",
-        "verified": true
-      },
-      {
-        "version": "Standard",
         "qty": 1,
         "source": "Alakazam (2026)",
         "verified": true
@@ -20070,6 +20082,12 @@
         "version": "Standard",
         "qty": 14,
         "source": "Shadow Rider (2021)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 4,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -26876,12 +26894,18 @@
       },
       {
         "version": "Standard",
-        "qty": 2,
+        "qty": 1,
         "source": "Dragapult (2026)",
         "verified": true
       },
       {
         "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 1,
         "source": "Spare",
         "verified": true
