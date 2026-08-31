@@ -122,11 +122,15 @@ Hosted free on GitHub Pages.
   edition list is built from the data, so a finish added later appears without
   a code change. **The filters apply per STACK, not per row** -- asking for
   Reverse Holo shows only the RH lines of a print, and the count pills are
-  recomputed from what survives. The search box now matches a **deck name** as
-  well as a card name or set: typing "Dragapult (2026)" lists that deck's 60
-  cards, each row showing only that deck's own stack. That per-stack filtering
-  is what makes deck search usable -- an earlier version matched deck names
-  across whole rows and dragged in every staple a deck happened to play.
+  recomputed from what survives. A **Cards / Decks toggle** sits beside the
+  search box (`#inv-mode`, `invMode`, default `card`) and decides what the query
+  means: Cards matches a name or set number, Decks matches the deck a stack sits
+  in -- typing "Dragapult (2026)" lists that deck's 60 cards, each row showing
+  only that deck's own stack. One box searching both at once was ambiguous
+  (Vig, 2026-08-31): a card and a deck share a word often enough ("Alakazam")
+  that results mixed. Per-stack filtering is what makes deck search usable at
+  all -- an earlier version matched deck names across whole rows and dragged in
+  every staple a deck happened to play.
 
   **Three count pills per row.** The Inventory row's copy count splits into
   **Standard (red) · World Champs (blue) · Proxy (grey-violet)**. Standard means

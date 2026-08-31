@@ -332,6 +332,21 @@
   .cc-controls-row{display:flex; flex-wrap:wrap; gap:10px}
   /* Three filters on one row, on a phone too: stacking them cost 100px of
      vertical space above the list, which is the opposite of the point. */
+  /* Search row: the box takes the space left over, the toggle keeps its own
+     width so it never wraps to a line of its own. */
+  .inv-search-row{display:flex; gap:8px; align-items:stretch}
+  .inv-search-row .search{flex:1 1 auto; min-width:0}
+  .inv-mode{
+    flex:0 0 auto; display:flex; padding:3px; gap:2px; border:1px solid var(--line);
+    border-radius:13px; background:var(--band-a); box-shadow:0 1px 2px var(--shadow);
+  }
+  .inv-mode-btn{
+    border:none; background:none; cursor:pointer; padding:0 12px; border-radius:10px;
+    font-family:'Poppins',sans-serif; font-size:13px; font-weight:600; color:var(--muted);
+    transition:background .15s, color .15s;
+  }
+  .inv-mode-btn.active{background:var(--red); color:#fff; box-shadow:0 2px 6px rgba(238,43,57,.28)}
+  @media (max-width:400px){ .inv-mode-btn{padding:0 9px; font-size:12px} }
   .inv-filters{gap:8px}
   .inv-filters .cc-select{flex:1 1 0; min-width:0; padding:10px 8px; font-size:14px;
     text-overflow:ellipsis}
@@ -639,7 +654,13 @@
 
   <div id="inventoryTab" class="subtab-panel active">
     <div class="controls">
-      <input id="inv-q" class="search" type="search" placeholder="Search cards, sets or a deck name…" autocomplete="off">
+      <div class="inv-search-row">
+        <input id="inv-q" class="search" type="search" placeholder="Search cards or set numbers…" autocomplete="off">
+        <div id="inv-mode" class="inv-mode" role="group" aria-label="Search by">
+          <button class="inv-mode-btn active" type="button" data-mode="card" aria-pressed="true">Cards</button>
+          <button class="inv-mode-btn" type="button" data-mode="deck" aria-pressed="false">Decks</button>
+        </div>
+      </div>
       <div class="cc-controls-row inv-filters">
         <select id="inv-type" class="cc-select" aria-label="Filter by card type">
           <option value="ALL">All types</option>
@@ -1556,12 +1577,16 @@ const invQEl = document.getElementById('inv-q');
 const invTypeEl = document.getElementById('inv-type');
 const invEditionEl = document.getElementById('inv-edition');
 const invLocEl = document.getElementById('inv-loc');
+const invModeEl = document.getElementById('inv-mode');
 const invStatsEl = document.getElementById('inv-stats');
 const invListEl = document.getElementById('inv-list');
 let invQuery = '';
 let invType = 'ALL';
 let invEdition = 'ALL';
 let invLoc = 'ALL';
+// What the search box means. 'card' matches the print (name or set number),
+// 'deck' matches the deck a stack sits in. Cards is the default.
+let invMode = 'card';
 // Editions come from the data, so a finish added later (Prize Pack Holo, a
 // promo stamping, the Dragon Pattern reverse) appears without a code change.
 const EDITION_ORDER = ['Standard', 'Reverse Holo', 'Holo', 'World Champs', 'Proxy', 'Japanese'];
@@ -1620,24 +1645,27 @@ function renderInventory(){
   // lines that matched -- asking for Reverse Holo lists the RH copies, not the
   // whole print. The count pills are recomputed from what survives.
   //
-  // The query matches a card name, a set code, or a DECK NAME. Matching deck
-  // names used to be avoided because it dragged in every staple a deck plays;
-  // filtering to that deck's own stack is what makes it useful now -- searching
-  // "Dragapult (2026)" lists that deck's cards and nothing else about them.
+  // The toggle decides what the query means. Card mode matches a name or set
+  // number and keeps every stack of the print. Deck mode matches the deck a
+  // stack sits in and keeps only that deck's stacks, so searching "Dragapult
+  // (2026)" lists that deck's 60 cards and nothing else about them -- a card
+  // and a deck can share a word ("Alakazam"), which is why one box searching
+  // both at once was ambiguous.
   const looseOnly = g => invCat(g.type);
   let items = INVENTORY
     .filter(g => invType === 'ALL' || invCat(g.type) === invType)
     .map(g => {
-      const nameHit = !q
-        || g.name.toLowerCase().includes(q)
-        || `${g.set || ''} ${g.num || ''}`.trim().toLowerCase().includes(q);
+      const nameHit = !q || (invMode === 'card' && (
+        g.name.toLowerCase().includes(q)
+        || `${g.set || ''} ${g.num || ''}`.trim().toLowerCase().includes(q)));
       const variants = g.variants.filter(v => {
         const isSpare = !v.source || v.source === 'Spare';
         if(invLoc === 'SPARE' && !isSpare) return false;
         if(invLoc === 'INDECK' && isSpare) return false;
         if(invEdition !== 'ALL' && v.version !== invEdition) return false;
         if(!q) return true;
-        return nameHit || String(v.source || '').toLowerCase().includes(q);
+        if(invMode === 'deck') return String(v.source || '').toLowerCase().includes(q);
+        return nameHit;
       });
       const total = variants.reduce((n, v) => n + (Number(v.qty) || 0), 0);
       return {...g, variants, total, spare: invSpare({variants})};
@@ -1653,7 +1681,7 @@ function renderInventory(){
     + ` · ${spare} spare · ${okd}/${stacks} stacks verified`;
 
   if(!items.length){
-    invListEl.innerHTML = '<div class="empty">No cards match your search.</div>';
+    invListEl.innerHTML = `<div class="empty">No cards match ${invMode === 'deck' ? 'that deck name' : 'your search'}.</div>`;
     return;
   }
   invListEl.innerHTML = items.map(g => {
@@ -1717,6 +1745,19 @@ invQEl.addEventListener('input', e => { invQuery = e.target.value.trim(); render
 invTypeEl.addEventListener('change', e => { invType = e.target.value; renderInventory(); });
 invEditionEl.addEventListener('change', e => { invEdition = e.target.value; renderInventory(); });
 invLocEl.addEventListener('change', e => { invLoc = e.target.value; renderInventory(); });
+invModeEl.addEventListener('click', e => {
+  const btn = e.target.closest('.inv-mode-btn');
+  if(!btn || btn.dataset.mode === invMode) return;
+  invMode = btn.dataset.mode;
+  invModeEl.querySelectorAll('.inv-mode-btn').forEach(b => {
+    const on = b.dataset.mode === invMode;
+    b.classList.toggle('active', on);
+    b.setAttribute('aria-pressed', on ? 'true' : 'false');
+  });
+  invQEl.placeholder = invMode === 'deck'
+    ? 'Search deck names…' : 'Search cards or set numbers…';
+  renderInventory();          // the same query means something different now
+});
 
 
 /* ---------- game log (read-only, from data/games.json) ---------- */
