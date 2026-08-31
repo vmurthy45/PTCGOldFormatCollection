@@ -212,6 +212,17 @@ Hosted free on GitHub Pages.
   count is now just the copies sourced `"Spare"`, and the per-row deck list is
   gone because every deck holding a print is already named on its variant line.
 
+  **Vig can report a card as "Copycat 127/168".** Older cards carry no set code,
+  only the card number and the set's printed total -- which is the part he can
+  actually read off the card. `scripts/resolve_print.py` turns that into the set
+  code: it queries name+number and keeps only sets whose printedTotal matches.
+  Name + number + printed total is very nearly unique. Where it is not, the
+  script says "ambiguous" and lists the candidates rather than guessing -- e.g.
+  **Fighting Energy 127/132 is in BOTH Gym Heroes and Gym Challenge** -- and
+  those are the ones to take back to him. It also flags a set that has no code
+  in `CODE_TO_ID` yet, so it can be added. Use it whenever he gives a bare
+  number/total; do not infer the set from era or context.
+
   **Never move a spare into a deck on your own initiative.** A loose copy of a
   card a deck is short is a common and unremarkable state -- Vig owns the card,
   it just is not sleeved. He said on 2026-08-30 that he will say explicitly when
