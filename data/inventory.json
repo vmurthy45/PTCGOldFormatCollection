@@ -8849,18 +8849,6 @@
     "total": 12,
     "variants": [
       {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Dragapult (2026)",
-        "verified": true
-      },
-      {
-        "version": "Prize Pack Holo",
-        "qty": 3,
-        "source": "Spare",
-        "verified": true
-      },
-      {
         "version": "Prize Pack",
         "qty": 4,
         "source": "Spare",
@@ -8868,8 +8856,14 @@
       },
       {
         "version": "Standard",
-        "qty": 2,
+        "qty": 5,
         "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Prize Pack Holo",
+        "qty": 3,
+        "source": "Dragapult (2026)",
         "verified": true
       }
     ]
