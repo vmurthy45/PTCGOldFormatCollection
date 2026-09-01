@@ -1154,10 +1154,20 @@ function slug(name){
 }
 
 const esc = s => String(s).replace(/[&<>"]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+// Search is accent-blind: "poke" and "Poké" find the same cards (Pokémon
+// Catcher, Pokégear 3.0, Lillie's Poké Doll...). Vig types the plain e.
+// Folded per CHARACTER and composed to NFC first, so the folded string is the
+// same length as the original -- hl() needs the indices to still line up.
+function fold(s){
+  return [...String(s).normalize('NFC')].map(ch => {
+    const f = ch.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    return (f.length === 1 ? f : ch);
+  }).join('').toLowerCase();
+}
 function hl(text, q){
   const t = esc(text);
   if(!q) return t;
-  const i = t.toLowerCase().indexOf(q.toLowerCase());
+  const i = fold(t).indexOf(fold(q));
   if(i < 0) return t;
   return t.slice(0,i) + '<mark>' + t.slice(i, i+q.length) + '</mark>' + t.slice(i+q.length);
 }
@@ -1202,10 +1212,10 @@ missingToggleEl.onclick = () => {
 
 function matches(c, q){
   if(!q) return true;
-  q = q.toLowerCase();
-  return c.name.toLowerCase().includes(q)
-      || c.deck.toLowerCase().includes(q)
-      || String(c.set).toLowerCase().includes(q);
+  q = fold(q);
+  return fold(c.name).includes(q)
+      || fold(c.deck).includes(q)
+      || fold(c.set).includes(q);
 }
 
 // Print-type model: prints{authentic,wc,proxy} are the copies owned by print,
@@ -1640,7 +1650,7 @@ function invSpare(g){
 }
 function renderInventory(){
   if(!invListEl) return;
-  const q = invQuery.toLowerCase();
+  const q = fold(invQuery);
   // Filters apply to individual STACKS, not whole rows, so a row shows only the
   // lines that matched -- asking for Reverse Holo lists the RH copies, not the
   // whole print. The count pills are recomputed from what survives.
@@ -1656,15 +1666,15 @@ function renderInventory(){
     .filter(g => invType === 'ALL' || invCat(g.type) === invType)
     .map(g => {
       const nameHit = !q || (invMode === 'card' && (
-        g.name.toLowerCase().includes(q)
-        || `${g.set || ''} ${g.num || ''}`.trim().toLowerCase().includes(q)));
+        fold(g.name).includes(q)
+        || fold(`${g.set || ''} ${g.num || ''}`.trim()).includes(q)));
       const variants = g.variants.filter(v => {
         const isSpare = !v.source || v.source === 'Spare';
         if(invLoc === 'SPARE' && !isSpare) return false;
         if(invLoc === 'INDECK' && isSpare) return false;
         if(invEdition !== 'ALL' && v.version !== invEdition) return false;
         if(!q) return true;
-        if(invMode === 'deck') return String(v.source || '').toLowerCase().includes(q);
+        if(invMode === 'deck') return fold(v.source || '').includes(q);
         return nameHit;
       });
       const total = variants.reduce((n, v) => n + (Number(v.qty) || 0), 0);
