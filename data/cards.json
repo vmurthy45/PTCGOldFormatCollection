@@ -25958,27 +25958,13 @@
   {
     "year": "2026",
     "deck": "Alakazam (2026)",
-    "count": 2,
+    "count": 4,
     "name": "Buddy-Buddy Poffin",
     "set": "144/162",
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/sv5/144_hires.png",
     "prints": {
-      "authentic": 2,
-      "wc": 0,
-      "proxy": 0
-    }
-  },
-  {
-    "year": "2026",
-    "deck": "Alakazam (2026)",
-    "count": 2,
-    "name": "Buddy-Buddy Poffin",
-    "set": "101/131",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sv8pt5/101_hires.png",
-    "prints": {
-      "authentic": 2,
+      "authentic": 4,
       "wc": 0,
       "proxy": 0
     }
