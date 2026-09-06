@@ -25790,63 +25790,21 @@
   {
     "year": "2026",
     "deck": "Alakazam (2026)",
-    "count": 2,
-    "name": "Pikipek",
-    "set": "66/84",
-    "category": "Pokemon",
-    "image": "https://images.scrydex.com/pokemon/me5-66/large",
-    "prints": {
-      "authentic": 2,
-      "wc": 0,
-      "proxy": 0
-    }
-  },
-  {
-    "year": "2026",
-    "deck": "Alakazam (2026)",
-    "count": 1,
-    "name": "Trumbeak",
-    "set": "67/84",
-    "category": "Pokemon",
-    "image": "https://images.scrydex.com/pokemon/me5-67/large",
-    "prints": {
-      "authentic": 1,
-      "wc": 0,
-      "proxy": 0
-    }
-  },
-  {
-    "year": "2026",
-    "deck": "Alakazam (2026)",
-    "count": 2,
-    "name": "Toucannon",
-    "set": "68/84",
-    "category": "Pokemon",
-    "image": "https://images.scrydex.com/pokemon/me5-68/large",
-    "prints": {
-      "authentic": 2,
-      "wc": 0,
-      "proxy": 0
-    }
-  },
-  {
-    "year": "2026",
-    "deck": "Alakazam (2026)",
-    "count": 2,
+    "count": 3,
     "name": "Dunsparce",
-    "set": "156/193",
+    "set": "120/159",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sv2/156_hires.png",
+    "image": "https://images.pokemontcg.io/sv9/120_hires.png",
     "prints": {
       "authentic": 0,
       "wc": 0,
-      "proxy": 2
+      "proxy": 0
     }
   },
   {
     "year": "2026",
     "deck": "Alakazam (2026)",
-    "count": 2,
+    "count": 3,
     "name": "Dudunsparce",
     "set": "129/162",
     "category": "Pokemon",
@@ -25860,13 +25818,13 @@
   {
     "year": "2026",
     "deck": "Alakazam (2026)",
-    "count": 1,
-    "name": "Shaymin",
-    "set": "10/182",
+    "count": 2,
+    "name": "Genesect",
+    "set": "40/64",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sv10/10_hires.png",
+    "image": "https://images.pokemontcg.io/sv6pt5/40_hires.png",
     "prints": {
-      "authentic": 1,
+      "authentic": 0,
       "wc": 0,
       "proxy": 0
     }
@@ -25875,12 +25833,12 @@
     "year": "2026",
     "deck": "Alakazam (2026)",
     "count": 1,
-    "name": "Psyduck",
-    "set": "39/217",
+    "name": "Dedenne",
+    "set": "87/191",
     "category": "Pokemon",
-    "image": "https://images.scrydex.com/pokemon/me2pt5-39/large",
+    "image": "https://images.pokemontcg.io/sv8/87_hires.png",
     "prints": {
-      "authentic": 1,
+      "authentic": 0,
       "wc": 0,
       "proxy": 0
     }
@@ -25903,12 +25861,12 @@
     "year": "2026",
     "deck": "Alakazam (2026)",
     "count": 1,
-    "name": "Genesect",
-    "set": "40/64",
+    "name": "Shaymin",
+    "set": "10/182",
     "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sv6pt5/40_hires.png",
+    "image": "https://images.pokemontcg.io/sv10/10_hires.png",
     "prints": {
-      "authentic": 0,
+      "authentic": 1,
       "wc": 0,
       "proxy": 0
     }
@@ -25972,13 +25930,13 @@
   {
     "year": "2026",
     "deck": "Alakazam (2026)",
-    "count": 4,
-    "name": "Buddy-Buddy Poffin",
-    "set": "144/162",
+    "count": 1,
+    "name": "Eri",
+    "set": "146/162",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sv5/144_hires.png",
+    "image": "https://images.pokemontcg.io/sv5/146_hires.png",
     "prints": {
-      "authentic": 4,
+      "authentic": 0,
       "wc": 0,
       "proxy": 0
     }
@@ -25986,13 +25944,55 @@
   {
     "year": "2026",
     "deck": "Alakazam (2026)",
-    "count": 4,
+    "count": 2,
+    "name": "Buddy-Buddy Poffin",
+    "set": "144/162",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sv5/144_hires.png",
+    "prints": {
+      "authentic": 2,
+      "wc": 0,
+      "proxy": 0
+    }
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 2,
+    "name": "Buddy-Buddy Poffin",
+    "set": "101/131",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sv8pt5/101_hires.png",
+    "prints": {
+      "authentic": 2,
+      "wc": 0,
+      "proxy": 0
+    }
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 3,
     "name": "Poké Pad",
     "set": "81/88",
     "category": "Trainer",
     "image": "https://images.scrydex.com/pokemon/me3-81/large",
     "prints": {
-      "authentic": 4,
+      "authentic": 3,
+      "wc": 0,
+      "proxy": 0
+    }
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 1,
+    "name": "Poké Pad",
+    "set": "198/217",
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-198/large",
+    "prints": {
+      "authentic": 1,
       "wc": 0,
       "proxy": 0
     }
@@ -26015,12 +26015,26 @@
     "year": "2026",
     "deck": "Alakazam (2026)",
     "count": 1,
-    "name": "Night Stretcher",
-    "set": "196/217",
+    "name": "Enhanced Hammer",
+    "set": "124/145",
     "category": "Trainer",
-    "image": "https://images.scrydex.com/pokemon/me2pt5-196/large",
+    "image": "https://images.pokemontcg.io/sm2/124_hires.png",
     "prints": {
       "authentic": 1,
+      "wc": 0,
+      "proxy": 0
+    }
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 1,
+    "name": "Enhanced Hammer",
+    "set": "148/167",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sv6/148_hires.png",
+    "prints": {
+      "authentic": 0,
       "wc": 0,
       "proxy": 0
     }
@@ -26042,35 +26056,7 @@
   {
     "year": "2026",
     "deck": "Alakazam (2026)",
-    "count": 1,
-    "name": "Enhanced Hammer",
-    "set": "124/145",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm2/124_hires.png",
-    "prints": {
-      "authentic": 1,
-      "wc": 0,
-      "proxy": 0
-    }
-  },
-  {
-    "year": "2026",
-    "deck": "Alakazam (2026)",
-    "count": 1,
-    "name": "Handheld Fan",
-    "set": "150/167",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sv6/150_hires.png",
-    "prints": {
-      "authentic": 1,
-      "wc": 0,
-      "proxy": 0
-    }
-  },
-  {
-    "year": "2026",
-    "deck": "Alakazam (2026)",
-    "count": 1,
+    "count": 2,
     "name": "Air Balloon",
     "set": "181/217",
     "category": "Trainer",
@@ -26098,27 +26084,13 @@
   {
     "year": "2026",
     "deck": "Alakazam (2026)",
-    "count": 2,
-    "name": "Nighttime Mine",
-    "set": "197/217",
-    "category": "Trainer",
-    "image": "https://images.scrydex.com/pokemon/me2pt5-197/large",
-    "prints": {
-      "authentic": 2,
-      "wc": 0,
-      "proxy": 0
-    }
-  },
-  {
-    "year": "2026",
-    "deck": "Alakazam (2026)",
-    "count": 1,
+    "count": 4,
     "name": "Battle Cage",
     "set": "85/94",
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/me2/85_hires.png",
     "prints": {
-      "authentic": 1,
+      "authentic": 2,
       "wc": 0,
       "proxy": 0
     }

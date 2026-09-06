@@ -1171,11 +1171,11 @@
     "num": "85",
     "printKey": "battlecage|PFL 85",
     "image": "https://images.pokemontcg.io/me2/85_hires.png",
-    "total": 1,
+    "total": 2,
     "variants": [
       {
         "version": "Standard",
-        "qty": 1,
+        "qty": 2,
         "source": "Alakazam (2026)",
         "verified": true
       }
@@ -6428,12 +6428,6 @@
     "total": 4,
     "variants": [
       {
-        "version": "Standard",
-        "qty": 2,
-        "source": "Alakazam (2026)",
-        "verified": true
-      },
-      {
         "version": "Reverse Holo",
         "qty": 1,
         "source": "Spare",
@@ -6443,6 +6437,12 @@
         "version": "Reverse Holo",
         "qty": 1,
         "source": "Hide 'n' Sneak (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 2,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -10934,7 +10934,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Alakazam (2026)",
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -17205,7 +17205,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Alakazam (2026)",
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -17254,12 +17254,12 @@
     "num": "197",
     "printKey": "nighttimemine|ASC 197",
     "image": "https://images.scrydex.com/pokemon/me2pt5-197/large",
-    "total": 2,
+    "total": 1,
     "variants": [
       {
         "version": "Standard",
-        "qty": 2,
-        "source": "Alakazam (2026)",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -18074,13 +18074,7 @@
     "variants": [
       {
         "version": "Reverse Holo",
-        "qty": 2,
-        "source": "Alakazam (2026)",
-        "verified": true
-      },
-      {
-        "version": "Reverse Holo",
-        "qty": 2,
+        "qty": 4,
         "source": "Spare",
         "verified": true
       },
@@ -20268,7 +20262,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Alakazam (2026)",
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -26138,13 +26132,7 @@
     "variants": [
       {
         "version": "Reverse Holo",
-        "qty": 2,
-        "source": "Alakazam (2026)",
-        "verified": true
-      },
-      {
-        "version": "Reverse Holo",
-        "qty": 2,
+        "qty": 4,
         "source": "Spare",
         "verified": true
       },
@@ -26498,13 +26486,7 @@
     "variants": [
       {
         "version": "Reverse Holo",
-        "qty": 1,
-        "source": "Alakazam (2026)",
-        "verified": true
-      },
-      {
-        "version": "Reverse Holo",
-        "qty": 3,
+        "qty": 4,
         "source": "Spare",
         "verified": true
       }
