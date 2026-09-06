@@ -25796,7 +25796,7 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/sv9/120_hires.png",
     "prints": {
-      "authentic": 0,
+      "authentic": 2,
       "wc": 0,
       "proxy": 0
     }
@@ -25804,13 +25804,27 @@
   {
     "year": "2026",
     "deck": "Alakazam (2026)",
-    "count": 3,
+    "count": 2,
     "name": "Dudunsparce",
     "set": "129/162",
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/sv5/129_hires.png",
     "prints": {
       "authentic": 2,
+      "wc": 0,
+      "proxy": 0
+    }
+  },
+  {
+    "year": "2026",
+    "deck": "Alakazam (2026)",
+    "count": 1,
+    "name": "Dudunsparce",
+    "set": "80/131",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sv8pt5/80_hires.png",
+    "prints": {
+      "authentic": 1,
       "wc": 0,
       "proxy": 0
     }
@@ -26146,7 +26160,21 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/sv9/120_hires.png",
     "prints": {
-      "authentic": 3,
+      "authentic": 0,
+      "wc": 0,
+      "proxy": 2
+    }
+  },
+  {
+    "year": "2026",
+    "deck": "Hide 'n' Sneak (2026)",
+    "count": 1,
+    "name": "Dudunsparce",
+    "set": "129/162",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sv5/129_hires.png",
+    "prints": {
+      "authentic": 1,
       "wc": 0,
       "proxy": 0
     }
@@ -26154,13 +26182,13 @@
   {
     "year": "2026",
     "deck": "Hide 'n' Sneak (2026)",
-    "count": 2,
+    "count": 1,
     "name": "Dudunsparce",
     "set": "80/131",
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/sv8pt5/80_hires.png",
     "prints": {
-      "authentic": 2,
+      "authentic": 0,
       "wc": 0,
       "proxy": 0
     }

@@ -6347,7 +6347,7 @@
     "num": "80",
     "printKey": "dudunsparce|PRE 80",
     "image": "https://images.pokemontcg.io/sv8pt5/80_hires.png",
-    "total": 3,
+    "total": 2,
     "variants": [
       {
         "version": "Standard",
@@ -6358,13 +6358,7 @@
       {
         "version": "Reverse Holo",
         "qty": 1,
-        "source": "Hide 'n' Sneak (2026)",
-        "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Hide 'n' Sneak (2026)",
+        "source": "Alakazam (2026)",
         "verified": true
       }
     ]
@@ -6377,18 +6371,18 @@
     "num": "129",
     "printKey": "dudunsparce|TEF 129",
     "image": "https://images.pokemontcg.io/sv5/129_hires.png",
-    "total": 2,
+    "total": 3,
     "variants": [
       {
-        "version": "Standard",
-        "qty": 1,
+        "version": "Reverse Holo",
+        "qty": 2,
         "source": "Alakazam (2026)",
         "verified": true
       },
       {
-        "version": "Reverse Holo",
+        "version": "Standard",
         "qty": 1,
-        "source": "Alakazam (2026)",
+        "source": "Hide 'n' Sneak (2026)",
         "verified": true
       }
     ]
@@ -6405,14 +6399,14 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 2,
-        "source": "Hide 'n' Sneak (2026)",
+        "qty": 1,
+        "source": "Dragapult (2026)",
         "verified": true
       },
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "Dragapult (2026)",
+        "qty": 2,
+        "source": "Alakazam (2026)",
         "verified": true
       }
     ]
@@ -6441,8 +6435,14 @@
       },
       {
         "version": "Standard",
-        "qty": 2,
+        "qty": 1,
         "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Hide 'n' Sneak (2026)",
         "verified": true
       }
     ]
