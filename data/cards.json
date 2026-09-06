@@ -26014,27 +26014,13 @@
   {
     "year": "2026",
     "deck": "Alakazam (2026)",
-    "count": 1,
+    "count": 2,
     "name": "Enhanced Hammer",
     "set": "124/145",
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/sm2/124_hires.png",
     "prints": {
-      "authentic": 1,
-      "wc": 0,
-      "proxy": 0
-    }
-  },
-  {
-    "year": "2026",
-    "deck": "Alakazam (2026)",
-    "count": 1,
-    "name": "Enhanced Hammer",
-    "set": "148/167",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sv6/148_hires.png",
-    "prints": {
-      "authentic": 0,
+      "authentic": 2,
       "wc": 0,
       "proxy": 0
     }

@@ -7373,7 +7373,7 @@
     "num": "124",
     "printKey": "enhancedhammer|GRI 124",
     "image": "https://images.pokemontcg.io/sm2/124_hires.png",
-    "total": 3,
+    "total": 4,
     "variants": [
       {
         "version": "Standard",
@@ -7389,7 +7389,7 @@
       },
       {
         "version": "Standard",
-        "qty": 1,
+        "qty": 2,
         "source": "Alakazam (2026)",
         "verified": true
       }
