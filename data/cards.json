@@ -25838,7 +25838,7 @@
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/sv8/87_hires.png",
     "prints": {
-      "authentic": 0,
+      "authentic": 1,
       "wc": 0,
       "proxy": 0
     }
@@ -25894,7 +25894,7 @@
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/rsv10pt5/84_hires.png",
     "prints": {
-      "authentic": 0,
+      "authentic": 1,
       "wc": 0,
       "proxy": 0
     }
@@ -26062,7 +26062,7 @@
     "category": "Trainer",
     "image": "https://images.scrydex.com/pokemon/me2pt5-181/large",
     "prints": {
-      "authentic": 1,
+      "authentic": 2,
       "wc": 0,
       "proxy": 0
     }
@@ -26132,7 +26132,7 @@
     "category": "Energy",
     "image": "https://images.pokemontcg.io/sv8/191_hires.png",
     "prints": {
-      "authentic": 0,
+      "authentic": 1,
       "wc": 0,
       "proxy": 0
     }

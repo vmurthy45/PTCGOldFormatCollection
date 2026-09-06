@@ -359,13 +359,13 @@
       },
       {
         "version": "Standard",
-        "qty": 1,
+        "qty": 2,
         "source": "Alakazam (2026)",
         "verified": true
       },
       {
         "version": "Standard",
-        "qty": 8,
+        "qty": 7,
         "source": "Spare",
         "verified": true
       }
@@ -5139,7 +5139,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Spare",
+        "source": "Alakazam (2026)",
         "verified": true
       }
     ]
@@ -7426,7 +7426,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Spare",
+        "source": "Alakazam (2026)",
         "verified": true
       }
     ]
@@ -11318,7 +11318,7 @@
       {
         "version": "Prize Pack",
         "qty": 1,
-        "source": "Spare",
+        "source": "Alakazam (2026)",
         "verified": true
       }
     ]
