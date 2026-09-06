@@ -25972,27 +25972,13 @@
   {
     "year": "2026",
     "deck": "Alakazam (2026)",
-    "count": 3,
+    "count": 4,
     "name": "Poké Pad",
     "set": "81/88",
     "category": "Trainer",
     "image": "https://images.scrydex.com/pokemon/me3-81/large",
     "prints": {
-      "authentic": 3,
-      "wc": 0,
-      "proxy": 0
-    }
-  },
-  {
-    "year": "2026",
-    "deck": "Alakazam (2026)",
-    "count": 1,
-    "name": "Poké Pad",
-    "set": "198/217",
-    "category": "Trainer",
-    "image": "https://images.scrydex.com/pokemon/me2pt5-198/large",
-    "prints": {
-      "authentic": 1,
+      "authentic": 4,
       "wc": 0,
       "proxy": 0
     }
