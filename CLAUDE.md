@@ -132,6 +132,15 @@ Hosted free on GitHub Pages.
   all -- an earlier version matched deck names across whole rows and dragged in
   every staple a deck happened to play.
 
+  **Clear button in every search box.** `setupSearchClears()` wraps each
+  `input.search` in a `.search-wrap` at init and appends an X (`.search-clear`)
+  that shows only while there is text. Wrapping at init rather than in the
+  markup means a search box added later gets one with no extra work. It clears
+  the field, dispatches a synthetic `input` event so the box's own listener
+  re-renders, and refocuses. The native WebKit cancel button is suppressed --
+  iOS Safari draws none at all (which is why Vig asked, 2026-09-07) and desktop
+  WebKit would otherwise show a second X beside ours.
+
   **Three count pills per row.** The Inventory row's copy count splits into
   **Standard (red) · World Champs (blue) · Proxy (grey-violet)**. Standard means
   every real retail finish — plain, Reverse Holo, Holo, Prize Pack, Full Art,
