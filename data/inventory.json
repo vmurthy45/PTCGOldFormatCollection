@@ -7181,12 +7181,18 @@
     "num": "129",
     "printKey": "energyswitch|CES 129",
     "image": "https://images.pokemontcg.io/sm7/129_hires.png",
-    "total": 2,
+    "total": 3,
     "variants": [
       {
         "version": "World Champs",
         "qty": 2,
         "source": "Pikarom Judge (2019)",
+        "verified": true
+      },
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Rocket's Mewtwo (2026)",
         "verified": true
       }
     ]
@@ -7253,24 +7259,6 @@
         "version": "Standard",
         "qty": 3,
         "source": "Darkrai (2013)",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Energy Switch",
-    "type": "Trainer",
-    "key": "energyswitch",
-    "set": "MEG",
-    "num": "115",
-    "printKey": "energyswitch|MEG 115",
-    "image": "https://images.pokemontcg.io/me1/115_hires.png",
-    "total": 1,
-    "variants": [
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Rocket's Mewtwo (2026)",
         "verified": true
       }
     ]
