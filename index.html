@@ -189,23 +189,6 @@
   .tl-sum-sub b{color:var(--ink); font-variant-numeric:tabular-nums}
   .tl-fmt{color:var(--ink); font-weight:600}
   .tl-body{padding:14px 16px 16px}
-  /* Event-type filter chips: sized to their label (unlike the fixed-width year
-     chips) so five types plus "CP earned" wrap into as few rows as possible. */
-  .tl-types{display:flex; flex-wrap:wrap; align-items:center; gap:6px; margin:-2px 0 12px}
-  .tl-chip{
-    display:inline-flex; align-items:center; gap:5px; padding:5px 11px; border-radius:999px;
-    border:1px solid var(--line); background:var(--chip-bg); color:var(--red-dark);
-    font-family:inherit; font-size:12.5px; font-weight:600; cursor:pointer; white-space:nowrap;
-    transition:background .15s,color .15s,border-color .15s;
-  }
-  .tl-chip:hover{border-color:var(--red)}
-  .tl-chip .n{font-size:11px; font-weight:700; color:var(--muted); font-variant-numeric:tabular-nums}
-  .tl-chip.active{background:var(--red); border-color:var(--red); color:#fff}
-  .tl-chip.active .n{color:rgba(255,255,255,.8)}
-  /* not .empty -- that is the site-wide empty-state class, with 40px padding */
-  .tl-chip.is-nil{opacity:.45; cursor:default}
-  .tl-chip.is-nil:hover{border-color:var(--line)}
-  .tl-chip-cp{margin-left:auto}
   /* per-event tags in the collapsed header */
   .tl-tags{display:flex; flex-wrap:wrap; align-items:center; gap:6px}
   .tl-type{font-size:10.5px; font-weight:700; text-transform:uppercase; letter-spacing:.4px;
@@ -743,10 +726,9 @@
 
   <div id="tournamentLogTab" class="subtab-panel">
     <div class="gl-filters">
-      <select id="tl-deck" class="cc-select" aria-label="Filter by deck"></select>
+      <select id="tl-type" class="cc-select" aria-label="Filter by event type"></select>
       <select id="tl-season" class="cc-select" aria-label="Filter by season"></select>
     </div>
-    <div id="tl-types" class="tl-types" role="group" aria-label="Filter by event type"></div>
     <div id="tl-summary" class="stats"></div>
     <div id="tl-content"></div>
   </div>
@@ -2115,48 +2097,47 @@ function tlCurrentSeason(){
   const iso = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-01`;
   return seasonOfDate(iso);
 }
-let tlDeck = 'ALL';
-let tlSeason = 'ALL';
-let tlType = 'ALL';
-let tlCpOnly = false;
+// "CP earned" rides in the event-type dropdown as its last option: every event
+// that awards points is an official type anyway, so it never needs combining.
+const TL_CP = 'CP';
+let tlSeason = null;          // resolved on first use: the current season
+let tlType = 'ALL';           // 'ALL', one of TL_TYPES, or TL_CP
+// Default to the season in progress, or to all of them if nothing is logged
+// for it yet (e.g. the first weeks after a changeover).
+function tlResolveSeason(){
+  if(tlSeason !== null) return;
+  const cur = tlCurrentSeason();
+  tlSeason = TOURNAMENTS.some(t => tlSeasonOf(t) === cur) ? cur : 'ALL';
+}
 function tlPopulateFilters(){
-  const deckEl = document.getElementById('tl-deck');
   const seasonEl = document.getElementById('tl-season');
-  if(!deckEl || !seasonEl) return;
-  const decks = [...new Set(TOURNAMENTS.map(t => t.deck).filter(Boolean))]
-    .sort((a,b) => a.localeCompare(b, undefined, {sensitivity:'base'}));
+  const typeEl = document.getElementById('tl-type');
+  if(!seasonEl || !typeEl) return;
+  tlResolveSeason();
   const seasons = [...new Set(TOURNAMENTS.map(tlSeasonOf).filter(Boolean))]
     .sort((a,b) => b.localeCompare(a));       // newest season first
-  deckEl.innerHTML = '<option value="ALL">All decks</option>' +
-    decks.map(d => `<option value="${esc(d)}">${esc(d)}</option>`).join('');
   seasonEl.innerHTML = '<option value="ALL">All seasons</option>' +
     seasons.map(y => `<option value="${esc(y)}">${esc(y)} season</option>`).join('');
-  deckEl.value = tlDeck; seasonEl.value = tlSeason;
-  deckEl.onchange = e => { tlDeck = e.target.value; renderTournamentLog(); };
+  seasonEl.value = tlSeason;
   seasonEl.onchange = e => { tlSeason = e.target.value; renderTournamentLog(); };
+  typeEl.onchange = e => { tlType = e.target.value; renderTournamentLog(); };
 }
-// Type chips + "CP earned". Counts are faceted: they respect the deck and
-// season filters but not the type filter itself, so each chip says how many
-// events clicking it would show.
-function tlRenderTypeChips(){
-  const box = document.getElementById('tl-types');
-  if(!box) return;
-  const base = TOURNAMENTS.filter(t =>
-    (tlDeck === 'ALL' || t.deck === tlDeck) && (tlSeason === 'ALL' || tlSeasonOf(t) === tlSeason));
-  const count = type => base.filter(t => t.type === type).length;
-  const cpCount = base.filter(t => tlCpOf(t) > 0).length;
-  box.innerHTML = TL_TYPES.map(type => {
-    const n = count(type);
-    const cls = 'tl-chip' + (tlType === type ? ' active' : '') + (n || tlType === type ? '' : ' is-nil');
-    return `<button type="button" class="${cls}" data-type="${esc(type)}">${esc(type)}<span class="n">${n}</span></button>`;
-  }).join('')
-    + `<button type="button" class="tl-chip tl-chip-cp${tlCpOnly ? ' active' : ''}${cpCount || tlCpOnly ? '' : ' is-nil'}" data-cp="1" aria-pressed="${tlCpOnly}">★ CP earned<span class="n">${cpCount}</span></button>`;
-  box.querySelectorAll('.tl-chip').forEach(b => b.onclick = () => {
-    if(b.classList.contains('is-nil')) return;         // nothing to show
-    if(b.dataset.cp) tlCpOnly = !tlCpOnly;
-    else tlType = (tlType === b.dataset.type) ? 'ALL' : b.dataset.type;   // click again to clear
-    renderTournamentLog();
-  });
+// Rebuilt on every render so the counts follow the season filter. Types show
+// how many events they hold; "CP earned" shows the points, not the events.
+// An empty option is disabled unless it is the one already selected.
+function tlFillTypeSelect(){
+  const el = document.getElementById('tl-type');
+  if(!el) return;
+  const base = TOURNAMENTS.filter(t => tlSeason === 'ALL' || tlSeasonOf(t) === tlSeason);
+  const cp = base.reduce((sum, t) => sum + tlCpOf(t), 0);
+  const off = (n, v) => (n || tlType === v) ? '' : ' disabled';
+  el.innerHTML = '<option value="ALL">All event types</option>'
+    + TL_TYPES.map(type => {
+        const n = base.filter(t => t.type === type).length;
+        return `<option value="${esc(type)}"${off(n, type)}>${esc(type)} (${n})</option>`;
+      }).join('')
+    + `<option value="${TL_CP}"${off(cp, TL_CP)}>★ CP earned (${cp} CP)</option>`;
+  el.value = tlType;
 }
 function renderTournamentLog(){
   const el = document.getElementById('tl-content');
@@ -2168,18 +2149,18 @@ function renderTournamentLog(){
     return;
   }
   let evs = [...TOURNAMENTS].sort((a,b) => (a.date < b.date ? 1 : -1));  // newest first
-  tlRenderTypeChips();
-  if(tlDeck !== 'ALL') evs = evs.filter(t => t.deck === tlDeck);
+  tlResolveSeason();
+  tlFillTypeSelect();
   if(tlSeason !== 'ALL') evs = evs.filter(t => tlSeasonOf(t) === tlSeason);
-  if(tlType !== 'ALL') evs = evs.filter(t => t.type === tlType);
-  if(tlCpOnly) evs = evs.filter(t => tlCpOf(t) > 0);
+  if(tlType === TL_CP) evs = evs.filter(t => tlCpOf(t) > 0);
+  else if(tlType !== 'ALL') evs = evs.filter(t => t.type === tlType);
   if(sumEl){
     // W-L-T across the filtered events, so the record reads at a glance
     let w = 0, l = 0, d = 0;
     evs.forEach(t => { const r = t.record || {};
       w += r.wins || 0; l += r.losses || 0; d += r.ties || 0; });
     const played = w + l + d;
-    // CP is a season total, so it ignores the deck/type filters: the season
+    // CP is a season total, so it ignores the event-type filter: the season
     // picked in the dropdown, or the current one when showing all seasons.
     const season = tlSeason !== 'ALL' ? tlSeason : tlCurrentSeason();
     const cp = TOURNAMENTS.filter(t => tlSeasonOf(t) === season)

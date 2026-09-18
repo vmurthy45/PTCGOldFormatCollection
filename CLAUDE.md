@@ -306,15 +306,16 @@ Hosted free on GitHub Pages.
   September to August, ending at Worlds, so the Aug 2026 Worlds Celebration is
   2025/26 and the September events are 2026/27. `seasonOfDate()` (Sept onward =
   the new season) is only a fallback for an event entered without one; set it
-  by hand near the changeover. The log's filters: deck and **season** dropdowns
-  (the season one replaced a calendar-year one), then a chip per event type
-  (click again to clear; counts respect deck + season; a zero chip is inert)
-  and a "CP earned" chip showing only events with `cp > 0`. The summary line
-  ends with the **season CP total** -- the season chosen in the dropdown, or the
-  current one on "All seasons" -- deliberately ignoring the deck/type filters,
-  since it answers "how many CP do I have this season". The chip modifier is
-  `.is-nil`, not `.empty`: `.empty` is the site-wide empty-state class with
-  40px padding, and reusing it blew every chip up to 100px tall.
+  by hand near the changeover. The log has two dropdowns and **no chip
+  buttons** (Vig asked for none, 2026-09-19): **event type** (in the slot the
+  deck filter used to have; the deck filter is gone) and **season**, which
+  **defaults to the current season** (all seasons if nothing is logged for it
+  yet). The type dropdown's options show event counts for the chosen season,
+  empty ones disabled, and end with **"★ CP earned (N CP)"** -- a filter to
+  events with `cp > 0`, labelled with the points **summed**, not the number of
+  events. The summary line ends with the **season CP total** -- the season
+  chosen, or the current one on "All seasons" -- ignoring the type filter,
+  since it answers "how many CP do I have this season".
 - **Tools tab is private/gated.** The `Tools` top tab (`data-tab="tools"`,
   holding Inventory / Cards to Get / Tournament Log / Stats, in that order;
   Matchup Generator and Game Log are parked behind a `hidden` attribute on
