@@ -2,6 +2,8 @@
   {
     "name": "Shuffle 'N' Cut Worlds Celebration Event",
     "date": "2026-08-24",
+    "type": "Unofficial Tournament",
+    "season": "2025/26",
     "deck": "Dragapult Dusknoir",
     "players": 21,
     "record": {
@@ -18,6 +20,9 @@
   {
     "name": "Shuffle 'N' Cut September League Challenge",
     "date": "2026-09-07",
+    "type": "League Challenge",
+    "season": "2026/27",
+    "cp": 0,
     "deck": "Dragapult",
     "list": "Pokémon: 19\n4 Dreepy PRE 71\n4 Drakloak ASC 159\n3 Dragapult ex ASC 160\n2 Munkidori ASC 99\n1 Dunsparce JTG 120\n1 Dudunsparce PRE 80\n2 Budew PRE 4\n1 Fezandipiti ex ASC 142\n1 Meowth ex POR 62\n\nTrainer: 32\n4 Lillie's Determination ASC 192\n3 Boss's Orders ASC 183\n2 Crispin SCR 133\n1 Rosa's Encouragement POR 84\n4 Buddy-Buddy Poffin TEF 144\n4 Poké Pad ASC 198\n3 Ultra Ball ASC 213\n4 Crushing Hammer POR 71\n3 Night Stretcher ASC 196\n1 Special Red Card CRI 82\n1 Unfair Stamp TWM 165\n2 Risky Ruins MEG 127\n\nEnergy: 9\n3 Psychic Energy MEE 5\n3 Fire Energy SVE 10\n3 Darkness Energy MEE 7",
     "players": 19,
@@ -34,6 +39,9 @@
   {
     "name": "CM Ponsonby September League Challenge",
     "date": "2026-09-17",
+    "type": "League Challenge",
+    "season": "2026/27",
+    "cp": 10,
     "deck": "Rocket's Mewtwo",
     "list": "Pokémon: 15\n4 Team Rocket's Tarountula DRI 19\n1 Team Rocket's Spidops ASC 19\n3 Team Rocket's Spidops DRI 20\n2 Team Rocket's Mewtwo ex DRI 81\n2 Team Rocket's Articuno DRI 51\n2 Team Rocket's Mimikyu DRI 87\n1 Lillie's Clefairy ex ASC 76\n\nTrainer: 34\n2 Bug Catching Set TWM 143\n1 Energy Switch CES 129\n4 Lillie's Determination ASC 192\n2 Lucky Helmet TWM 158\n1 Maximum Belt TEF 154\n3 Night Stretcher ASC 196\n2 Prism Tower CRI 80\n4 Team Rocket's Ariana DRI 171\n1 Team Rocket's Factory ASC 203\n3 Team Rocket's Giovanni DRI 174\n1 Team Rocket's Petrel ASC 207\n2 Team Rocket's Proton DRI 177\n4 Team Rocket's Transceiver DRI 178\n4 Ultra Ball ASC 213\n\nEnergy: 11\n4 Team Rocket's Energy ASC 217\n6 Grass Energy SVE 9\n1 Psychic Energy Energy 40",
     "notes": "4 rounds BO1 Swiss.\n\nPre-event notes:\nI wanted to play something different to Dragapult, and since I had 60 cards for this deck and I expect fewer Dragapult in a small meta, I think Rocket's Mewtwo might be suitable. I tested a few games on PTCGL the day before, and it seemed okay. Susceptible to Unfair Stamp but the prize trade is mostly favourable and cards like Team Rocket's Transceiver can luck you out.\n\n• Learnt in testing and from watching clips online that Spidops is the preferred attacker mostly - apart from when an OHKO is needed with Mewtwo.\n• Maximum Belt only works on ex Pokémon - have to remember.\n\nR1: Brendan S — Mega Lucario (W)\nOpponent dead drew. Over in 5 minutes.\n\nR2: Ciaran B — Rocket's Honchkrow (W)\nTight game trading prizes. He missed a KO on one turn, which let me get ahead.\n\nR3: Tom L — Dragapult (L)\nMisplayed, but was still in with a chance — didn't draw Team Rocket's Energy in time to win.\n\nR4: Ifran N — Alakazam (W)\nShould be an auto-win for my deck thanks to Articuno, but I didn't realise this and nearly cost myself the game.\n\nPost event reflection:\n• Dragapult should in theory be a favoured matchup — learned a bit about how to play it better.\n• Vs Alakazam: bait out the Enhanced Hammers, and don't evolve too early.",
@@ -49,10 +57,14 @@
   },
   {
     "name": "CM Takapuna 26/27 Season 1 League Cup",
-    "date": "2026-09-20"
+    "date": "2026-09-20",
+    "type": "League Cup",
+    "season": "2026/27"
   },
   {
     "name": "Baydragon 26/27 Season 1 League Cup",
-    "date": "2026-09-26"
+    "date": "2026-09-26",
+    "type": "League Cup",
+    "season": "2026/27"
   }
 ]

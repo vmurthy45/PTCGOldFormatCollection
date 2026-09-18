@@ -285,8 +285,8 @@ Hosted free on GitHub Pages.
   spreadsheet copy back out; that's the agreed replacement for maintaining the
   xlsx by hand.
 - `data/tournaments.json` — the **Tournament Log** backend: an array of events,
-  each `{name, type, date (YYYY-MM-DD), deck, players, record, placement, notes,
-  list}`. `record` is `{wins,losses,ties}` (Pokémon W-L-T convention) or `null`
+  each `{name, date (YYYY-MM-DD), type, season, cp, deck, players, record,
+  placement, entryCost, prizesWon, notes, list}`. `record` is `{wins,losses,ties}` (Pokémon W-L-T convention) or `null`
   = TBD; `placement` is Vig's finishing position (shown as `placement / players`)
   or `null`; `list` is the raw decklist text played (kept verbatim, shown
   preformatted with a Copy button). Hand-maintained from chat — **no logging UI**,
@@ -296,6 +296,25 @@ Hosted free on GitHub Pages.
   (e.g. 2026-08-24 → "Temporal Forces – Pitch Black", 16 sets). **Add a new
   `STD_ROTATIONS` entry when a real rotation drops a set**, and extend `STD_SETS`
   as new sets release. Loaded via guarded `fetch()`; starts `[]`.
+
+  **Event type, season and Championship Points** (added 2026-09-19).
+  `type` is one of `TL_TYPES`: Hobby League, Unofficial Tournament, League
+  Challenge, League Cup, Special Event. Only the last three (`CP_TYPES`) are
+  official and award CP; `cp` is the number Vig earned there (`0` = played and
+  earned none, absent = not played yet / TBD) and is ignored on any other type.
+  `season` is written explicitly as `"2026/27"` -- a season runs roughly
+  September to August, ending at Worlds, so the Aug 2026 Worlds Celebration is
+  2025/26 and the September events are 2026/27. `seasonOfDate()` (Sept onward =
+  the new season) is only a fallback for an event entered without one; set it
+  by hand near the changeover. The log's filters: deck and **season** dropdowns
+  (the season one replaced a calendar-year one), then a chip per event type
+  (click again to clear; counts respect deck + season; a zero chip is inert)
+  and a "CP earned" chip showing only events with `cp > 0`. The summary line
+  ends with the **season CP total** -- the season chosen in the dropdown, or the
+  current one on "All seasons" -- deliberately ignoring the deck/type filters,
+  since it answers "how many CP do I have this season". The chip modifier is
+  `.is-nil`, not `.empty`: `.empty` is the site-wide empty-state class with
+  40px padding, and reusing it blew every chip up to 100px tall.
 - **Tools tab is private/gated.** The `Tools` top tab (`data-tab="tools"`,
   holding Inventory / Cards to Get / Tournament Log / Stats, in that order;
   Matchup Generator and Game Log are parked behind a `hidden` attribute on

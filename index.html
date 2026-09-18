@@ -22,7 +22,7 @@
     --red:#EE2B39; --red-dark:#C81E2B; --charcoal:#3B4048; --charcoal-dark:#2B2F35;
     --ink:#2b2f35; --muted:#7a828d; --line:#e2c9cc; --bg:#f5f2f2; --card:#ffffff;
     --band-a:#fdeced; --band-b:#f8f5f5; --cnt-bg:#fbd9dc; --steel:#5a6470;
-    --cnt-wc-bg:#d8e6fd; --cnt-wc-fg:#1d4fa8; --cnt-px-bg:#e6e3ea; --cnt-px-fg:#5d5470;
+    --cnt-wc-bg:#d8e6fd; --cnt-wc-fg:#1d4fa8; --cnt-px-bg:#e6e3ea; --cnt-px-fg:#5d5470; --cp-bg:#fcecc0; --cp-fg:#8a5a00;
     --mark-bg:#ffe58a; --mark-ink:#2b2f35; --overlay:rgba(20,18,19,.6);
     --pokeball-ink:#202225; --shadow:rgba(59,64,72,.14);
     --chip-bg:#ffffff; --rules-header:#202225; --rules-panel:#ffffff;
@@ -43,7 +43,7 @@
     --charcoal:#c7cbd1; --charcoal-dark:#f1f1f3;
     --ink:#e8e8ea; --muted:#9099a3; --line:#33383f; --bg:#131417; --card:#1c1f24;
     --band-a:#2a1c1e; --band-b:#20232a; --cnt-bg:#3a2226; --steel:#9099a3;
-    --cnt-wc-bg:#1e2c44; --cnt-wc-fg:#8fb4f2; --cnt-px-bg:#2f2b38; --cnt-px-fg:#b3a8c6;
+    --cnt-wc-bg:#1e2c44; --cnt-wc-fg:#8fb4f2; --cnt-px-bg:#2f2b38; --cnt-px-fg:#b3a8c6; --cp-bg:#3a2f14; --cp-fg:#f1c96b;
     --overlay:rgba(0,0,0,.75); --shadow:rgba(0,0,0,.45);
     --chip-bg:#262b32; --rules-header:#2c3138; --rules-panel:#20242b;
     /* Slightly stronger missing-row tints so they read on the dark card. */
@@ -189,6 +189,31 @@
   .tl-sum-sub b{color:var(--ink); font-variant-numeric:tabular-nums}
   .tl-fmt{color:var(--ink); font-weight:600}
   .tl-body{padding:14px 16px 16px}
+  /* Event-type filter chips: sized to their label (unlike the fixed-width year
+     chips) so five types plus "CP earned" wrap into as few rows as possible. */
+  .tl-types{display:flex; flex-wrap:wrap; align-items:center; gap:6px; margin:-2px 0 12px}
+  .tl-chip{
+    display:inline-flex; align-items:center; gap:5px; padding:5px 11px; border-radius:999px;
+    border:1px solid var(--line); background:var(--chip-bg); color:var(--red-dark);
+    font-family:inherit; font-size:12.5px; font-weight:600; cursor:pointer; white-space:nowrap;
+    transition:background .15s,color .15s,border-color .15s;
+  }
+  .tl-chip:hover{border-color:var(--red)}
+  .tl-chip .n{font-size:11px; font-weight:700; color:var(--muted); font-variant-numeric:tabular-nums}
+  .tl-chip.active{background:var(--red); border-color:var(--red); color:#fff}
+  .tl-chip.active .n{color:rgba(255,255,255,.8)}
+  /* not .empty -- that is the site-wide empty-state class, with 40px padding */
+  .tl-chip.is-nil{opacity:.45; cursor:default}
+  .tl-chip.is-nil:hover{border-color:var(--line)}
+  .tl-chip-cp{margin-left:auto}
+  /* per-event tags in the collapsed header */
+  .tl-tags{display:flex; flex-wrap:wrap; align-items:center; gap:6px}
+  .tl-type{font-size:10.5px; font-weight:700; text-transform:uppercase; letter-spacing:.4px;
+    color:var(--red-dark); background:var(--band-a); border-radius:6px; padding:2px 7px}
+  .tl-season{font-size:11px; color:var(--muted); font-weight:600}
+  .tl-cp-total{color:var(--cp-fg); font-weight:700; white-space:nowrap}
+  .tl-cp{font-size:11px; font-weight:800; color:var(--cp-fg); background:var(--cp-bg);
+    border-radius:6px; padding:2px 7px; font-variant-numeric:tabular-nums}
   .tl-tiles{display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-bottom:12px}
   .tl-tile{background:var(--band-b); border-radius:10px; padding:11px 10px; text-align:center}
   .tl-tval{font-size:19px; font-weight:800; color:var(--ink); font-variant-numeric:tabular-nums}
@@ -206,7 +231,7 @@
   .tl-notes summary{cursor:pointer; font-weight:700; font-size:13px; color:var(--red-dark); padding:4px 0}
   .tl-notes-body{font-size:13px; line-height:1.55; color:var(--ink); background:var(--band-a);
     border-radius:8px; padding:10px 12px; margin-top:8px; white-space:pre-wrap}
-  .tl-money{display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:12px; padding-top:12px; border-top:1px solid var(--band-b)}
+  .tl-money{display:grid; grid-template-columns:repeat(auto-fit, minmax(110px, 1fr)); gap:10px; margin-top:12px; padding-top:12px; border-top:1px solid var(--band-b)}
   .tl-mitem{display:flex; flex-direction:column; gap:3px}
   .tl-mitem span{font-size:10.5px; text-transform:uppercase; letter-spacing:.5px; color:var(--muted); font-weight:700}
   .tl-mitem b{font-size:16px; color:var(--ink); font-variant-numeric:tabular-nums}
@@ -420,6 +445,10 @@
   /* game log */
   .gl-filters{display:flex; flex-wrap:wrap; gap:10px; margin-bottom:12px}
   .gl-filters .cc-select{flex:1 1 200px}
+  /* the log's two dropdowns share one row at every width; the type chips
+     below already take a row or two on a phone */
+  #tournamentLogTab .gl-filters{flex-wrap:nowrap; gap:8px}
+  #tournamentLogTab .gl-filters .cc-select{flex:1 1 0; min-width:0}
   .gl-summary{font-size:13.5px; color:var(--muted); margin:2px 2px 14px; font-weight:500; display:flex; flex-wrap:wrap; gap:6px 14px; align-items:center}
   .gl-summary b{color:var(--ink)}
   .gl-rec-w{color:#1f9d55; font-weight:700}
@@ -715,8 +744,9 @@
   <div id="tournamentLogTab" class="subtab-panel">
     <div class="gl-filters">
       <select id="tl-deck" class="cc-select" aria-label="Filter by deck"></select>
-      <select id="tl-year" class="cc-select" aria-label="Filter by year"></select>
+      <select id="tl-season" class="cc-select" aria-label="Filter by season"></select>
     </div>
+    <div id="tl-types" class="tl-types" role="group" aria-label="Filter by event type"></div>
     <div id="tl-summary" class="stats"></div>
     <div id="tl-content"></div>
   </div>
@@ -2064,24 +2094,69 @@ function placeRecordStr(t){
   if(place && rec) return `${place} ${rec}`;
   return place || rec || 'TBD';
 }
+// Event types, in the order the filter chips show them. Only the official
+// Play! Pokemon ones award Championship Points.
+const TL_TYPES = ['Hobby League', 'Unofficial Tournament', 'League Challenge', 'League Cup', 'Special Event'];
+const CP_TYPES = new Set(['League Challenge', 'League Cup', 'Special Event']);
+// A season runs roughly September to August, ending at Worlds, and is named
+// for the years it spans: Sep 2026 - Aug 2027 is "2026/27". Each event stores
+// its own `season` because the changeover is only approximate; this rule is
+// just the fallback for an event entered without one.
+function seasonOfDate(d){
+  const [y, m] = String(d || '').split('-').map(Number);
+  if(!y) return '';
+  const start = m >= 9 ? y : y - 1;
+  return `${start}/${String((start + 1) % 100).padStart(2, '0')}`;
+}
+const tlSeasonOf = t => t.season || seasonOfDate(t.date);
+const tlCpOf = t => CP_TYPES.has(t.type) ? (Number(t.cp) || 0) : 0;
+function tlCurrentSeason(){
+  const d = new Date();
+  const iso = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-01`;
+  return seasonOfDate(iso);
+}
 let tlDeck = 'ALL';
-let tlYear = 'ALL';
-const tlYearOf = t => String(t.date || '').slice(0, 4);
+let tlSeason = 'ALL';
+let tlType = 'ALL';
+let tlCpOnly = false;
 function tlPopulateFilters(){
   const deckEl = document.getElementById('tl-deck');
-  const yearEl = document.getElementById('tl-year');
-  if(!deckEl || !yearEl) return;
+  const seasonEl = document.getElementById('tl-season');
+  if(!deckEl || !seasonEl) return;
   const decks = [...new Set(TOURNAMENTS.map(t => t.deck).filter(Boolean))]
     .sort((a,b) => a.localeCompare(b, undefined, {sensitivity:'base'}));
-  const years = [...new Set(TOURNAMENTS.map(tlYearOf).filter(Boolean))]
-    .sort((a,b) => b.localeCompare(a));       // newest year first
+  const seasons = [...new Set(TOURNAMENTS.map(tlSeasonOf).filter(Boolean))]
+    .sort((a,b) => b.localeCompare(a));       // newest season first
   deckEl.innerHTML = '<option value="ALL">All decks</option>' +
     decks.map(d => `<option value="${esc(d)}">${esc(d)}</option>`).join('');
-  yearEl.innerHTML = '<option value="ALL">All years</option>' +
-    years.map(y => `<option value="${esc(y)}">${esc(y)}</option>`).join('');
-  deckEl.value = tlDeck; yearEl.value = tlYear;
+  seasonEl.innerHTML = '<option value="ALL">All seasons</option>' +
+    seasons.map(y => `<option value="${esc(y)}">${esc(y)} season</option>`).join('');
+  deckEl.value = tlDeck; seasonEl.value = tlSeason;
   deckEl.onchange = e => { tlDeck = e.target.value; renderTournamentLog(); };
-  yearEl.onchange = e => { tlYear = e.target.value; renderTournamentLog(); };
+  seasonEl.onchange = e => { tlSeason = e.target.value; renderTournamentLog(); };
+}
+// Type chips + "CP earned". Counts are faceted: they respect the deck and
+// season filters but not the type filter itself, so each chip says how many
+// events clicking it would show.
+function tlRenderTypeChips(){
+  const box = document.getElementById('tl-types');
+  if(!box) return;
+  const base = TOURNAMENTS.filter(t =>
+    (tlDeck === 'ALL' || t.deck === tlDeck) && (tlSeason === 'ALL' || tlSeasonOf(t) === tlSeason));
+  const count = type => base.filter(t => t.type === type).length;
+  const cpCount = base.filter(t => tlCpOf(t) > 0).length;
+  box.innerHTML = TL_TYPES.map(type => {
+    const n = count(type);
+    const cls = 'tl-chip' + (tlType === type ? ' active' : '') + (n || tlType === type ? '' : ' is-nil');
+    return `<button type="button" class="${cls}" data-type="${esc(type)}">${esc(type)}<span class="n">${n}</span></button>`;
+  }).join('')
+    + `<button type="button" class="tl-chip tl-chip-cp${tlCpOnly ? ' active' : ''}${cpCount || tlCpOnly ? '' : ' is-nil'}" data-cp="1" aria-pressed="${tlCpOnly}">★ CP earned<span class="n">${cpCount}</span></button>`;
+  box.querySelectorAll('.tl-chip').forEach(b => b.onclick = () => {
+    if(b.classList.contains('is-nil')) return;         // nothing to show
+    if(b.dataset.cp) tlCpOnly = !tlCpOnly;
+    else tlType = (tlType === b.dataset.type) ? 'ALL' : b.dataset.type;   // click again to clear
+    renderTournamentLog();
+  });
 }
 function renderTournamentLog(){
   const el = document.getElementById('tl-content');
@@ -2093,16 +2168,25 @@ function renderTournamentLog(){
     return;
   }
   let evs = [...TOURNAMENTS].sort((a,b) => (a.date < b.date ? 1 : -1));  // newest first
+  tlRenderTypeChips();
   if(tlDeck !== 'ALL') evs = evs.filter(t => t.deck === tlDeck);
-  if(tlYear !== 'ALL') evs = evs.filter(t => tlYearOf(t) === tlYear);
+  if(tlSeason !== 'ALL') evs = evs.filter(t => tlSeasonOf(t) === tlSeason);
+  if(tlType !== 'ALL') evs = evs.filter(t => t.type === tlType);
+  if(tlCpOnly) evs = evs.filter(t => tlCpOf(t) > 0);
   if(sumEl){
     // W-L-T across the filtered events, so the record reads at a glance
     let w = 0, l = 0, d = 0;
     evs.forEach(t => { const r = t.record || {};
       w += r.wins || 0; l += r.losses || 0; d += r.ties || 0; });
     const played = w + l + d;
-    sumEl.textContent = `${evs.length} event${evs.length !== 1 ? 's' : ''}`
-      + (played ? ` · ${w}-${l}-${d}` : '');
+    // CP is a season total, so it ignores the deck/type filters: the season
+    // picked in the dropdown, or the current one when showing all seasons.
+    const season = tlSeason !== 'ALL' ? tlSeason : tlCurrentSeason();
+    const cp = TOURNAMENTS.filter(t => tlSeasonOf(t) === season)
+      .reduce((s, t) => s + tlCpOf(t), 0);
+    sumEl.innerHTML = `${evs.length} event${evs.length !== 1 ? 's' : ''}`
+      + (played ? ` · ${w}-${l}-${d}` : '')
+      + ` · <span class="tl-cp-total" title="Championship Points earned in the ${esc(season)} season">★ ${cp} CP in ${esc(season)}</span>`;
   }
   if(!evs.length){
     el.innerHTML = `<div class="empty">No tournaments match that filter.</div>`;
@@ -2118,6 +2202,7 @@ function renderTournamentLog(){
     return `<details class="tl-card">
       <summary class="tl-head">
         <div class="tl-sum-main"><span class="tl-name">${esc(t.name || 'Untitled event')}</span><span class="tl-date">${fmtDate(t.date)}</span></div>
+        <div class="tl-tags">${t.type ? `<span class="tl-type">${esc(t.type)}</span>` : ''}<span class="tl-season">${esc(tlSeasonOf(t))} season</span>${tlCpOf(t) > 0 ? `<span class="tl-cp">+${tlCpOf(t)} CP</span>` : ''}</div>
         <div class="tl-sum-sub">${esc(t.deck || '—')}${fmt ? ` · <span class="tl-fmt">${esc(fmt.label)}</span>` : ''} · <b>${esc(placeRecordStr(t))}</b></div>
       </summary>
       <div class="tl-body">
@@ -2131,6 +2216,7 @@ function renderTournamentLog(){
         <div class="tl-money">
           <div class="tl-mitem"><span>Entry cost</span><b>${money(t.entryCost)}</b></div>
           <div class="tl-mitem"><span>Prizes won</span><b>${money(t.prizesWon)}</b></div>
+          ${CP_TYPES.has(t.type) ? `<div class="tl-mitem"><span>Championship Points</span><b>${t.cp != null ? esc(String(t.cp)) : 'TBD'}</b></div>` : ''}
         </div>
       </div>
     </details>`;
