@@ -23,6 +23,13 @@ MANUAL_SLUG_OVERRIDES = {
     "2019/Perfection_Mewtwo_2019.md": "perfection_mewtwo_2019",
 }
 
+# Guides kept on disk for a deck that has since been removed from the
+# collection. Listed by name rather than skipped silently, so a guide whose
+# title simply fails to match its deck still stops the build.
+RETIRED = {
+    "2017/Alolan_Ninetales_2017.md",   # deck deleted 2026-08: Vig doesn't own it
+}
+
 
 def slug(name: str) -> str:
     s = name.lower()
@@ -43,6 +50,8 @@ def main():
     files = sorted(GUIDES_DIR.glob("*/*.md"))
     for path in files:
         rel = str(path.relative_to(GUIDES_DIR))
+        if rel in RETIRED:
+            continue
         text = path.read_text(encoding="utf-8")
         h1_match = re.search(r"^#\s+(.+)$", text, re.M)
         if not h1_match:
