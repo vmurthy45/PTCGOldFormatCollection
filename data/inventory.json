@@ -1889,7 +1889,13 @@
       },
       {
         "version": "Standard",
-        "qty": 6,
+        "qty": 5,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Prize Pack",
+        "qty": 1,
         "source": "Spare",
         "verified": true
       }
@@ -4242,13 +4248,13 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 2,
+        "qty": 1,
         "source": "Spare",
         "verified": true
       },
       {
         "version": "Prize Pack",
-        "qty": 1,
+        "qty": 2,
         "source": "Spare",
         "verified": true
       }
@@ -6236,7 +6242,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Standard",
+        "version": "Prize Pack",
         "qty": 1,
         "source": "Spare",
         "verified": true
@@ -7802,7 +7808,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Standard",
+        "version": "Prize Pack",
         "qty": 1,
         "source": "Spare",
         "verified": true
@@ -13924,7 +13930,13 @@
       },
       {
         "version": "Standard",
-        "qty": 5,
+        "qty": 4,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Prize Pack",
+        "qty": 1,
         "source": "Spare",
         "verified": true
       }
@@ -21952,7 +21964,7 @@
     "total": 1,
     "variants": [
       {
-        "version": "Standard",
+        "version": "Prize Pack",
         "qty": 1,
         "source": "Spare",
         "verified": true
