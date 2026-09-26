@@ -21328,13 +21328,13 @@
     "total": 2,
     "variants": [
       {
-        "version": "Reverse Holo",
+        "version": "Standard",
         "qty": 1,
         "source": "Spare",
         "verified": true
       },
       {
-        "version": "Standard",
+        "version": "Reverse Holo",
         "qty": 1,
         "source": "Cynthia's Garchomp (2026)",
         "verified": true
