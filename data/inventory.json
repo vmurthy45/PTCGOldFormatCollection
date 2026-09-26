@@ -294,6 +294,24 @@
     ]
   },
   {
+    "name": "Adversity Policy",
+    "type": "Item",
+    "key": "adversitypolicy",
+    "set": "CRI",
+    "num": "74",
+    "printKey": "adversitypolicy|CRI 74",
+    "image": "https://images.scrydex.com/pokemon/me4-74/large",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Reverse Holo",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Aether Paradise Conservation Area",
     "type": "Stadium",
     "key": "aetherparadiseconservationarea",
@@ -607,6 +625,24 @@
         "version": "World Champs",
         "qty": 4,
         "source": "Ancient Toolbox (2024)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Annihilape",
+    "type": "Pokémon",
+    "key": "annihilape",
+    "set": "PBL",
+    "num": "41",
+    "printKey": "annihilape|PBL 41",
+    "image": "https://images.scrydex.com/pokemon/me5-41/large",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -3434,6 +3470,24 @@
         "version": "World Champs",
         "qty": 1,
         "source": "Mega Audino (2016)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Cobalion ex",
+    "type": "Pokémon",
+    "key": "cobalionex",
+    "set": "CRI",
+    "num": "64",
+    "printKey": "cobalionex|CRI 64",
+    "image": "https://images.scrydex.com/pokemon/me4-64/large",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -6981,6 +7035,24 @@
     "variants": [
       {
         "version": "Prize Pack",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Emma",
+    "type": "Supporter",
+    "key": "emma",
+    "set": "CRI",
+    "num": "77",
+    "printKey": "emma|CRI 77",
+    "image": "https://images.scrydex.com/pokemon/me4-77/large",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
         "qty": 1,
         "source": "Spare",
         "verified": true
@@ -25244,6 +25316,24 @@
     ]
   },
   {
+    "name": "Tarragon",
+    "type": "Supporter",
+    "key": "tarragon",
+    "set": "POR",
+    "num": "85",
+    "printKey": "tarragon|POR 85",
+    "image": "https://images.scrydex.com/pokemon/me3-85/large",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Tate & Liza",
     "type": "Trainer",
     "key": "tateliza",
@@ -26902,6 +26992,24 @@
         "version": "World Champs",
         "qty": 4,
         "source": "RayEels (2013)",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Type: Null",
+    "type": "Pokémon",
+    "key": "typenull",
+    "set": "PBL",
+    "num": "69",
+    "printKey": "typenull|PBL 69",
+    "image": "https://images.scrydex.com/pokemon/me5-69/large",
+    "total": 1,
+    "variants": [
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
