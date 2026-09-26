@@ -25665,10 +25665,10 @@
     "year": "2026",
     "deck": "Dragapult (2026)",
     "count": 1,
-    "name": "Special Red Card",
-    "set": "82/86",
+    "name": "Judge",
+    "set": "167/182",
     "category": "Trainer",
-    "image": "https://images.scrydex.com/pokemon/me4-82/large",
+    "image": "https://images.pokemontcg.io/sv10/167_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -25706,13 +25706,13 @@
   {
     "year": "2026",
     "deck": "Dragapult (2026)",
-    "count": 3,
+    "count": 4,
     "name": "Psychic Energy",
     "set": "MEE 5",
     "category": "Energy",
     "image": "https://images.pokemontcg.io/sve/5_hires.png",
     "prints": {
-      "authentic": 3,
+      "authentic": 4,
       "wc": 0,
       "proxy": 0
     }
@@ -25734,13 +25734,13 @@
   {
     "year": "2026",
     "deck": "Dragapult (2026)",
-    "count": 3,
+    "count": 2,
     "name": "Darkness Energy",
     "set": "MEE 7",
     "category": "Energy",
     "image": "https://images.pokemontcg.io/sve/7_hires.png",
     "prints": {
-      "authentic": 3,
+      "authentic": 2,
       "wc": 0,
       "proxy": 0
     }

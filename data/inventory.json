@@ -4849,7 +4849,7 @@
     "variants": [
       {
         "version": "Prize Pack Holo",
-        "qty": 1,
+        "qty": 2,
         "source": "Spare",
         "verified": true
       },
@@ -4861,7 +4861,7 @@
       },
       {
         "version": "Prize Pack Holo",
-        "qty": 3,
+        "qty": 2,
         "source": "Dragapult (2026)",
         "verified": true
       }
@@ -12499,8 +12499,14 @@
       },
       {
         "version": "Standard",
-        "qty": 3,
+        "qty": 2,
         "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Dragapult (2026)",
         "verified": true
       }
     ]
@@ -20277,7 +20283,7 @@
     "variants": [
       {
         "version": "Prize Pack Holo",
-        "qty": 4,
+        "qty": 3,
         "source": "Spare",
         "verified": true
       },
@@ -20289,7 +20295,7 @@
       },
       {
         "version": "Prize Pack Holo",
-        "qty": 3,
+        "qty": 4,
         "source": "Dragapult (2026)",
         "verified": true
       }
@@ -23759,13 +23765,7 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "Dragapult (2026)",
-        "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
+        "qty": 2,
         "source": "Spare",
         "verified": true
       }
