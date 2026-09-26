@@ -1877,7 +1877,7 @@
       },
       {
         "version": "Standard",
-        "qty": 3,
+        "qty": 4,
         "source": "Cynthia's Garchomp (2026)",
         "verified": true
       },
@@ -1889,7 +1889,7 @@
       },
       {
         "version": "Standard",
-        "qty": 5,
+        "qty": 4,
         "source": "Spare",
         "verified": true
       },
@@ -4567,14 +4567,8 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 3,
+        "qty": 4,
         "source": "Cynthia's Garchomp (2026)",
-        "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
-        "source": "Spare",
         "verified": true
       }
     ]
@@ -4591,8 +4585,14 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 4,
+        "qty": 3,
         "source": "Cynthia's Garchomp (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -4609,12 +4609,18 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 4,
+        "qty": 3,
         "source": "Cynthia's Garchomp (2026)",
         "verified": true
       },
       {
         "version": "Prize Pack",
+        "qty": 1,
+        "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Standard",
         "qty": 1,
         "source": "Spare",
         "verified": true
@@ -8759,13 +8765,13 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 3,
+        "qty": 2,
         "source": "Cynthia's Garchomp (2026)",
         "verified": true
       },
       {
         "version": "Standard",
-        "qty": 4,
+        "qty": 5,
         "source": "Spare",
         "verified": true
       }
@@ -17277,7 +17283,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Spare",
+        "source": "Cynthia's Garchomp (2026)",
         "verified": true
       }
     ]
@@ -17438,12 +17444,6 @@
       },
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "Cynthia's Garchomp (2026)",
-        "verified": true
-      },
-      {
-        "version": "Standard",
         "qty": 3,
         "source": "Rocket's Honchkrow (2026)",
         "verified": true
@@ -17468,7 +17468,7 @@
       },
       {
         "version": "Standard",
-        "qty": 1,
+        "qty": 2,
         "source": "Spare",
         "verified": true
       }
@@ -18646,7 +18646,7 @@
       {
         "version": "Standard",
         "qty": 3,
-        "source": "Cynthia's Garchomp (2026)",
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -19299,8 +19299,14 @@
       },
       {
         "version": "Standard",
-        "qty": 4,
+        "qty": 3,
         "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Cynthia's Garchomp (2026)",
         "verified": true
       }
     ]
@@ -19317,13 +19323,7 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 1,
-        "source": "Cynthia's Garchomp (2026)",
-        "verified": true
-      },
-      {
-        "version": "Standard",
-        "qty": 1,
+        "qty": 2,
         "source": "Spare",
         "verified": true
       }
@@ -19454,15 +19454,15 @@
         "verified": true
       },
       {
-        "version": "Standard",
-        "qty": 3,
-        "source": "Cynthia's Garchomp (2026)",
-        "verified": true
-      },
-      {
         "version": "Reverse Holo",
         "qty": 2,
         "source": "Rocket's Mewtwo (2026)",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 3,
+        "source": "Spare",
         "verified": true
       }
     ]
@@ -21328,15 +21328,15 @@
     "total": 2,
     "variants": [
       {
-        "version": "Standard",
+        "version": "Reverse Holo",
         "qty": 1,
         "source": "Spare",
         "verified": true
       },
       {
-        "version": "Reverse Holo",
+        "version": "Standard",
         "qty": 1,
-        "source": "Spare",
+        "source": "Cynthia's Garchomp (2026)",
         "verified": true
       }
     ]
@@ -23765,8 +23765,14 @@
     "variants": [
       {
         "version": "Standard",
-        "qty": 2,
+        "qty": 1,
         "source": "Spare",
+        "verified": true
+      },
+      {
+        "version": "Standard",
+        "qty": 1,
+        "source": "Cynthia's Garchomp (2026)",
         "verified": true
       }
     ]
@@ -25911,7 +25917,7 @@
       {
         "version": "Standard",
         "qty": 1,
-        "source": "Spare",
+        "source": "Cynthia's Garchomp (2026)",
         "verified": true
       }
     ]

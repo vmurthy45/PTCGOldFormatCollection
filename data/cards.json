@@ -24558,27 +24558,13 @@
   {
     "year": "2026",
     "deck": "Cynthia's Garchomp (2026)",
-    "count": 4,
+    "count": 3,
     "name": "Cynthia's Roselia",
     "set": "7/182",
     "category": "Pokemon",
     "image": "https://images.pokemontcg.io/sv10/7_hires.png",
     "prints": {
-      "authentic": 4,
-      "wc": 0,
-      "proxy": 0
-    }
-  },
-  {
-    "year": "2026",
-    "deck": "Cynthia's Garchomp (2026)",
-    "count": 4,
-    "name": "Cynthia's Roserade",
-    "set": "8/182",
-    "category": "Pokemon",
-    "image": "https://images.pokemontcg.io/sv10/8_hires.png",
-    "prints": {
-      "authentic": 4,
+      "authentic": 3,
       "wc": 0,
       "proxy": 0
     }
@@ -24587,12 +24573,26 @@
     "year": "2026",
     "deck": "Cynthia's Garchomp (2026)",
     "count": 3,
-    "name": "Cynthia's Power Weight",
-    "set": "162/182",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sv10/162_hires.png",
+    "name": "Cynthia's Roserade",
+    "set": "8/182",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sv10/8_hires.png",
     "prints": {
       "authentic": 3,
+      "wc": 0,
+      "proxy": 0
+    }
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 1,
+    "name": "Cynthia's Spiritomb",
+    "set": "129/182",
+    "category": "Pokemon",
+    "image": "https://images.pokemontcg.io/sv10/129_hires.png",
+    "prints": {
+      "authentic": 0,
       "wc": 0,
       "proxy": 0
     }
@@ -24614,13 +24614,13 @@
   {
     "year": "2026",
     "deck": "Cynthia's Garchomp (2026)",
-    "count": 3,
+    "count": 4,
     "name": "Boss's Orders",
     "set": "183/217",
     "category": "Trainer",
     "image": "https://images.scrydex.com/pokemon/me2pt5-183/large",
     "prints": {
-      "authentic": 3,
+      "authentic": 4,
       "wc": 0,
       "proxy": 0
     }
@@ -24629,52 +24629,10 @@
     "year": "2026",
     "deck": "Cynthia's Garchomp (2026)",
     "count": 3,
-    "name": "Pokégear 3.0",
-    "set": "174/202",
+    "name": "Team Rocket's Petrel",
+    "set": "176/182",
     "category": "Trainer",
-    "image": "https://images.pokemontcg.io/swsh1/174_hires.png",
-    "prints": {
-      "authentic": 3,
-      "wc": 0,
-      "proxy": 0
-    }
-  },
-  {
-    "year": "2026",
-    "deck": "Cynthia's Garchomp (2026)",
-    "count": 4,
-    "name": "Fighting Gong",
-    "set": "187/217",
-    "category": "Trainer",
-    "image": "https://images.scrydex.com/pokemon/me2pt5-187/large",
-    "prints": {
-      "authentic": 4,
-      "wc": 0,
-      "proxy": 0
-    }
-  },
-  {
-    "year": "2026",
-    "deck": "Cynthia's Garchomp (2026)",
-    "count": 4,
-    "name": "Buddy-Buddy Poffin",
-    "set": "184/217",
-    "category": "Trainer",
-    "image": "https://images.scrydex.com/pokemon/me2pt5-184/large",
-    "prints": {
-      "authentic": 4,
-      "wc": 0,
-      "proxy": 0
-    }
-  },
-  {
-    "year": "2026",
-    "deck": "Cynthia's Garchomp (2026)",
-    "count": 1,
-    "name": "Premium Power Pro",
-    "set": "124/132",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/me1/124_hires.png",
+    "image": "https://images.pokemontcg.io/sv10/176_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -24684,39 +24642,11 @@
   {
     "year": "2026",
     "deck": "Cynthia's Garchomp (2026)",
-    "count": 1,
+    "count": 2,
     "name": "Hilda",
     "set": "84/86",
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/rsv10pt5/84_hires.png",
-    "prints": {
-      "authentic": 1,
-      "wc": 0,
-      "proxy": 0
-    }
-  },
-  {
-    "year": "2026",
-    "deck": "Cynthia's Garchomp (2026)",
-    "count": 1,
-    "name": "Prime Catcher",
-    "set": "119/131",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sv8pt5/119_hires.png",
-    "prints": {
-      "authentic": 1,
-      "wc": 0,
-      "proxy": 0
-    }
-  },
-  {
-    "year": "2026",
-    "deck": "Cynthia's Garchomp (2026)",
-    "count": 1,
-    "name": "Switch",
-    "set": "132/149",
-    "category": "Trainer",
-    "image": "https://images.pokemontcg.io/sm1/132_hires.png",
     "prints": {
       "authentic": 1,
       "wc": 0,
@@ -24740,11 +24670,25 @@
   {
     "year": "2026",
     "deck": "Cynthia's Garchomp (2026)",
-    "count": 3,
-    "name": "Prism Tower",
-    "set": "80/86",
+    "count": 4,
+    "name": "Buddy-Buddy Poffin",
+    "set": "184/217",
     "category": "Trainer",
-    "image": "https://images.scrydex.com/pokemon/me4-80/large",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-184/large",
+    "prints": {
+      "authentic": 4,
+      "wc": 0,
+      "proxy": 0
+    }
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 3,
+    "name": "Fighting Gong",
+    "set": "187/217",
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me2pt5-187/large",
     "prints": {
       "authentic": 3,
       "wc": 0,
@@ -24754,13 +24698,83 @@
   {
     "year": "2026",
     "deck": "Cynthia's Garchomp (2026)",
-    "count": 1,
-    "name": "Night Stretcher",
-    "set": "196/217",
+    "count": 2,
+    "name": "Premium Power Pro",
+    "set": "124/132",
     "category": "Trainer",
-    "image": "https://images.scrydex.com/pokemon/me2pt5-196/large",
+    "image": "https://images.pokemontcg.io/me1/124_hires.png",
+    "prints": {
+      "authentic": 2,
+      "wc": 0,
+      "proxy": 0
+    }
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 1,
+    "name": "Switch",
+    "set": "132/149",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sm1/132_hires.png",
     "prints": {
       "authentic": 1,
+      "wc": 0,
+      "proxy": 0
+    }
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 1,
+    "name": "Rare Candy",
+    "set": "125/132",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/me1/125_hires.png",
+    "prints": {
+      "authentic": 1,
+      "wc": 0,
+      "proxy": 0
+    }
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 1,
+    "name": "Special Red Card",
+    "set": "82/86",
+    "category": "Trainer",
+    "image": "https://images.scrydex.com/pokemon/me4-82/large",
+    "prints": {
+      "authentic": 1,
+      "wc": 0,
+      "proxy": 0
+    }
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 4,
+    "name": "Cynthia's Power Weight",
+    "set": "162/182",
+    "category": "Trainer",
+    "image": "https://images.pokemontcg.io/sv10/162_hires.png",
+    "prints": {
+      "authentic": 4,
+      "wc": 0,
+      "proxy": 0
+    }
+  },
+  {
+    "year": "2026",
+    "deck": "Cynthia's Garchomp (2026)",
+    "count": 4,
+    "name": "Fighting Energy",
+    "set": "SVE 14",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/sve/14_hires.png",
+    "prints": {
+      "authentic": 4,
       "wc": 0,
       "proxy": 0
     }
@@ -24782,13 +24796,13 @@
   {
     "year": "2026",
     "deck": "Cynthia's Garchomp (2026)",
-    "count": 4,
-    "name": "Fighting Energy",
-    "set": "SVE 14",
+    "count": 1,
+    "name": "Neo Upper Energy",
+    "set": "162/162",
     "category": "Energy",
-    "image": "https://images.pokemontcg.io/sve/14_hires.png",
+    "image": "https://images.pokemontcg.io/sv5/162_hires.png",
     "prints": {
-      "authentic": 4,
+      "authentic": 1,
       "wc": 0,
       "proxy": 0
     }
