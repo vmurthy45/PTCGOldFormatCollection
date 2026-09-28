@@ -4848,6 +4848,25 @@
     "type": "Energy",
     "key": "darknessenergy",
     "set": "MEE",
+    "num": "15",
+    "printKey": "darknessenergy|MEE 15",
+    "image": "https://images.pokemontcg.io/sve/15_hires.png",
+    "total": 5,
+    "variants": [
+      {
+        "version": "30th Anniversary Holo",
+        "qty": 5,
+        "source": "Spare",
+        "verified": true
+      }
+    ],
+    "standIn": "stand-in: the Mega Evolution energy set is not catalogued, so this shows the same energy's Scarlet & Violet Energies art, not the 30th Anniversary illustration"
+  },
+  {
+    "name": "Darkness Energy",
+    "type": "Energy",
+    "key": "darknessenergy",
+    "set": "MEE",
     "num": "7",
     "printKey": "darknessenergy|MEE 7",
     "image": "https://images.pokemontcg.io/sve/7_hires.png",
@@ -8619,6 +8638,25 @@
     "type": "Energy",
     "key": "fightingenergy",
     "set": "MEE",
+    "num": "14",
+    "printKey": "fightingenergy|MEE 14",
+    "image": "https://images.pokemontcg.io/sve/14_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "30th Anniversary Holo",
+        "qty": 4,
+        "source": "Spare",
+        "verified": true
+      }
+    ],
+    "standIn": "stand-in: the Mega Evolution energy set is not catalogued, so this shows the same energy's Scarlet & Violet Energies art, not the 30th Anniversary illustration"
+  },
+  {
+    "name": "Fighting Energy",
+    "type": "Energy",
+    "key": "fightingenergy",
+    "set": "MEE",
     "num": "6",
     "printKey": "fightingenergy|MEE 6",
     "image": "https://images.pokemontcg.io/sve/6_hires.png",
@@ -8908,6 +8946,25 @@
         "verified": true
       }
     ]
+  },
+  {
+    "name": "Fire Energy",
+    "type": "Energy",
+    "key": "fireenergy",
+    "set": "MEE",
+    "num": "10",
+    "printKey": "fireenergy|MEE 10",
+    "image": "https://images.pokemontcg.io/sve/10_hires.png",
+    "total": 4,
+    "variants": [
+      {
+        "version": "30th Anniversary Holo",
+        "qty": 4,
+        "source": "Spare",
+        "verified": true
+      }
+    ],
+    "standIn": "stand-in: the Mega Evolution energy set is not catalogued, so this shows the same energy's Scarlet & Violet Energies art, not the 30th Anniversary illustration"
   },
   {
     "name": "Fire Energy",
@@ -10560,6 +10617,25 @@
       }
     ],
     "standIn": "stand-in: the Mega Evolution energy set is not catalogued, so this shows the same energy's Scarlet & Violet Energies art"
+  },
+  {
+    "name": "Grass Energy",
+    "type": "Energy",
+    "key": "grassenergy",
+    "set": "MEE",
+    "num": "9",
+    "printKey": "grassenergy|MEE 9",
+    "image": "https://images.pokemontcg.io/sve/9_hires.png",
+    "total": 5,
+    "variants": [
+      {
+        "version": "30th Anniversary Holo",
+        "qty": 5,
+        "source": "Spare",
+        "verified": true
+      }
+    ],
+    "standIn": "stand-in: the Mega Evolution energy set is not catalogued, so this shows the same energy's Scarlet & Violet Energies art, not the 30th Anniversary illustration"
   },
   {
     "name": "Grass Energy",
@@ -13633,6 +13709,25 @@
     "type": "Energy",
     "key": "lightningenergy",
     "set": "MEE",
+    "num": "12",
+    "printKey": "lightningenergy|MEE 12",
+    "image": "https://images.pokemontcg.io/sve/12_hires.png",
+    "total": 6,
+    "variants": [
+      {
+        "version": "30th Anniversary Holo",
+        "qty": 6,
+        "source": "Spare",
+        "verified": true
+      }
+    ],
+    "standIn": "stand-in: the Mega Evolution energy set is not catalogued, so this shows the same energy's Scarlet & Violet Energies art, not the 30th Anniversary illustration"
+  },
+  {
+    "name": "Lightning Energy",
+    "type": "Energy",
+    "key": "lightningenergy",
+    "set": "MEE",
     "num": "4",
     "printKey": "lightningenergy|MEE 4",
     "image": "https://images.pokemontcg.io/sve/4_hires.png",
@@ -15659,6 +15754,25 @@
         "verified": true
       }
     ]
+  },
+  {
+    "name": "Metal Energy",
+    "type": "Energy",
+    "key": "metalenergy",
+    "set": "MEE",
+    "num": "16",
+    "printKey": "metalenergy|MEE 16",
+    "image": "https://images.pokemontcg.io/sve/16_hires.png",
+    "total": 6,
+    "variants": [
+      {
+        "version": "30th Anniversary Holo",
+        "qty": 6,
+        "source": "Spare",
+        "verified": true
+      }
+    ],
+    "standIn": "stand-in: the Mega Evolution energy set is not catalogued, so this shows the same energy's Scarlet & Violet Energies art, not the 30th Anniversary illustration"
   },
   {
     "name": "Metal Energy",
@@ -20270,6 +20384,25 @@
         "verified": true
       }
     ]
+  },
+  {
+    "name": "Psychic Energy",
+    "type": "Energy",
+    "key": "psychicenergy",
+    "set": "MEE",
+    "num": "13",
+    "printKey": "psychicenergy|MEE 13",
+    "image": "https://images.pokemontcg.io/sve/13_hires.png",
+    "total": 7,
+    "variants": [
+      {
+        "version": "30th Anniversary Holo",
+        "qty": 7,
+        "source": "Spare",
+        "verified": true
+      }
+    ],
+    "standIn": "stand-in: the Mega Evolution energy set is not catalogued, so this shows the same energy's Scarlet & Violet Energies art, not the 30th Anniversary illustration"
   },
   {
     "name": "Psychic Energy",
@@ -28573,6 +28706,25 @@
         "verified": true
       }
     ]
+  },
+  {
+    "name": "Water Energy",
+    "type": "Energy",
+    "key": "waterenergy",
+    "set": "MEE",
+    "num": "11",
+    "printKey": "waterenergy|MEE 11",
+    "image": "https://images.pokemontcg.io/sve/11_hires.png",
+    "total": 5,
+    "variants": [
+      {
+        "version": "30th Anniversary Holo",
+        "qty": 5,
+        "source": "Spare",
+        "verified": true
+      }
+    ],
+    "standIn": "stand-in: the Mega Evolution energy set is not catalogued, so this shows the same energy's Scarlet & Violet Energies art, not the 30th Anniversary illustration"
   },
   {
     "name": "Water Energy",

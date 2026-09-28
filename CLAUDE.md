@@ -158,7 +158,10 @@ Hosted free on GitHub Pages.
   carry at all (its Scarlet & Violet counterpart `sve` exists; the ME one does
   not). MEE rows are numbered 1-8 exactly as SVE is -- Grass, Fire, Water,
   Lightning, Psychic, Fighting, Darkness, Metal -- and borrow that same energy's
-  SVE artwork.
+  SVE artwork. **MEE 9-16** are the holo *illustrated* energies from the 30th
+  Anniversary set, in the same type order (Grass 9 ... Metal 16); their stacks
+  carry the edition **`30th Anniversary Holo`** so they never blur with the
+  Prize Pack Holo basics, and they borrow SVE 9-16 art.
   Those rows borrow another print's image, and carry a **`standIn`** string
   saying so. The Inventory row shows a small "stand-in image" chip and the card
   modal prints the reason underneath — without it the site quietly presents a
