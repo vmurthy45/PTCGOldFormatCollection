@@ -1,4 +1,4 @@
-# How to Pilot — Colorless Lugia (2023)
+# How to Pilot — Lugia Archeops (2023)
 
 _Format: Scarlet & Violet-on Standard 2023 (post-rotation; Paldea Evolved-era Special
 Energy). "Lugia VSTAR / Archeops" — the Colorless toolbox that dominated the previous
