@@ -1,4 +1,4 @@
-# How to Pilot — Fusion Strike Mew (2022)
+# How to Pilot — Fusion Mew (2022)
 
 _Format: Sword & Shield-on Standard 2022 (FST–on). "Mew VMAX" — the fast, consistent
 Fusion Strike combo deck; a perennial best-deck-in-format contender._
